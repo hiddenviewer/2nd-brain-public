@@ -256,6 +256,19 @@ h3 {
   color: var(--muted);
 }
 
+.resource-section {
+  margin-bottom: 30px;
+}
+
+.resource-section h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.resource-card:hover {
+  border-color: var(--accent);
+}
+
 .tag-row {
   display: flex;
   flex-wrap: wrap;

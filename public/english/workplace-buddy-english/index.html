@@ -1,0 +1,768 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Workplace Buddy English Phrase Guide</title>
+  <style>
+    :root {
+      --ink: #24313d;
+      --muted: #617080;
+      --paper: #fffaf0;
+      --card: #ffffff;
+      --line: #e9dcc6;
+      --green: #1f7a5a;
+      --blue: #2f66a8;
+      --orange: #c4642d;
+      --red: #b64242;
+      --yellow: #f3c95f;
+      --shadow: 0 18px 45px rgba(52, 42, 25, 0.12);
+      --radius: 22px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: "Avenir Next", "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 10% 10%, rgba(243, 201, 95, 0.28), transparent 26rem),
+        radial-gradient(circle at 85% 0%, rgba(47, 102, 168, 0.16), transparent 28rem),
+        linear-gradient(135deg, #fff7e8 0%, #edf6ef 100%);
+      line-height: 1.6;
+    }
+
+    .wrap {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 36px 0 72px;
+    }
+
+    header {
+      position: relative;
+      overflow: hidden;
+      padding: 42px;
+      border: 1px solid rgba(36, 49, 61, 0.08);
+      border-radius: 32px;
+      background:
+        linear-gradient(120deg, rgba(255,255,255,0.94), rgba(255,250,240,0.74)),
+        repeating-linear-gradient(90deg, rgba(36,49,61,0.04) 0 1px, transparent 1px 36px);
+      box-shadow: var(--shadow);
+    }
+
+    header::after {
+      content: "";
+      position: absolute;
+      right: -80px;
+      top: -100px;
+      width: 260px;
+      height: 260px;
+      border-radius: 50%;
+      background: rgba(31, 122, 90, 0.14);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+      padding: 8px 12px;
+      border-radius: 999px;
+      color: #744015;
+      background: rgba(243, 201, 95, 0.34);
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    h1 {
+      margin: 18px 0 12px;
+      max-width: 760px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(36px, 6vw, 68px);
+      line-height: 0.98;
+      letter-spacing: -0.04em;
+    }
+
+    .lead {
+      max-width: 760px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .quick-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin: 24px 0 34px;
+    }
+
+    .quick {
+      padding: 20px;
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, 0.76);
+      border: 1px solid rgba(36, 49, 61, 0.08);
+      box-shadow: 0 10px 24px rgba(52, 42, 25, 0.08);
+    }
+
+    .quick strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 15px;
+    }
+
+    .quick span {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .section-title {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 16px;
+      margin: 42px 0 16px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: clamp(24px, 3vw, 34px);
+      letter-spacing: -0.03em;
+    }
+
+    .hint {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .timeline {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+    }
+
+    .step {
+      min-height: 150px;
+      padding: 18px;
+      border-radius: var(--radius);
+      background: var(--card);
+      border: 1px solid var(--line);
+      box-shadow: 0 10px 28px rgba(52, 42, 25, 0.08);
+    }
+
+    .time {
+      display: inline-block;
+      margin-bottom: 12px;
+      padding: 4px 9px;
+      border-radius: 999px;
+      color: #fff;
+      background: var(--green);
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+
+    .card {
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, 0.94);
+      box-shadow: 0 12px 30px rgba(52, 42, 25, 0.08);
+    }
+
+    .card-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      padding: 18px 20px;
+      color: #fff;
+      background: var(--blue);
+    }
+
+    .card:nth-child(3n) .card-head {
+      background: var(--green);
+    }
+
+    .card:nth-child(3n + 2) .card-head {
+      background: var(--orange);
+    }
+
+    .card h3 {
+      margin: 0;
+      font-size: 19px;
+    }
+
+    .tag {
+      flex: 0 0 auto;
+      padding: 4px 9px;
+      border-radius: 999px;
+      color: rgba(255,255,255,0.94);
+      background: rgba(255,255,255,0.18);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .phrase {
+      padding: 18px 20px;
+      border-top: 1px solid #f1e7d8;
+    }
+
+    .phrase:first-of-type {
+      border-top: 0;
+    }
+
+    .ko {
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .en-row {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 7px;
+    }
+
+    .en {
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: -0.01em;
+    }
+
+    .pron {
+      margin-top: 4px;
+      color: #81572e;
+      font-size: 14px;
+    }
+
+    .tip {
+      margin-top: 8px;
+      padding-left: 10px;
+      border-left: 3px solid var(--yellow);
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    button.listen {
+      flex: 0 0 auto;
+      border: 0;
+      border-radius: 12px;
+      padding: 8px 10px;
+      color: #fff;
+      background: #24313d;
+      cursor: pointer;
+      font-weight: 800;
+    }
+
+    button.listen:hover {
+      background: #000;
+    }
+
+    .dialogue {
+      margin: 12px 0 0;
+      padding: 12px;
+      border-radius: 14px;
+      background: #f8f1e7;
+      color: #45515c;
+      font-size: 14px;
+    }
+
+    .topic-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+
+    .topic {
+      padding: 18px;
+      border-radius: var(--radius);
+      background: #26333f;
+      color: #fff;
+    }
+
+    .topic p {
+      margin: 8px 0 0;
+      color: rgba(255,255,255,0.78);
+      font-size: 14px;
+    }
+
+    .emergency {
+      border: 2px solid rgba(182, 66, 66, 0.24);
+    }
+
+    .emergency .card-head {
+      background: var(--red) !important;
+    }
+
+    footer {
+      margin-top: 44px;
+      color: var(--muted);
+      text-align: center;
+      font-size: 13px;
+    }
+
+    @media (max-width: 860px) {
+      header {
+        padding: 28px;
+      }
+
+      .quick-grid,
+      .timeline,
+      .cards,
+      .topic-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .section-title {
+        display: block;
+      }
+    }
+
+    @media print {
+      body {
+        background: #fff;
+      }
+
+      header,
+      .quick,
+      .step,
+      .card,
+      .topic {
+        box-shadow: none;
+      }
+
+      button.listen {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div class="eyebrow">Workplace Buddy English</div>
+      <h1>외국인 동료와 바로 쓰는 회사 영어</h1>
+      <p class="lead">방문 첫날 버디 인계부터 회사 식당, 카페, 미팅, 일상 대화까지 바로 꺼내 쓸 수 있는 짧은 표현 모음입니다. 문장 옆 Listen 버튼을 누르면 브라우저 음성으로 발음을 들을 수 있습니다.</p>
+    </header>
+
+    <section class="quick-grid" aria-label="quick rules">
+      <div class="quick">
+        <strong>말하기 원칙</strong>
+        <span>짧게 말하고, 한 문장씩 확인합니다.</span>
+      </div>
+      <div class="quick">
+        <strong>어려울 때</strong>
+        <span>Could you say that again? 으로 다시 요청합니다.</span>
+      </div>
+      <div class="quick">
+        <strong>도움 제안</strong>
+        <span>Let me know if you need anything. 을 자주 사용합니다.</span>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title">
+        <h2>방문 첫날 버디 인계 흐름</h2>
+        <span class="hint">처음 30분은 안내보다 안심시키는 표현이 중요합니다.</span>
+      </div>
+      <div class="timeline">
+        <div class="step">
+          <span class="time">Start</span>
+          <strong>인사와 역할 소개</strong>
+          <p>Hi, I’m your buddy during your visit.</p>
+        </div>
+        <div class="step">
+          <span class="time">+5 min</span>
+          <strong>오늘 일정 공유</strong>
+          <p>I’ll briefly explain today’s schedule.</p>
+        </div>
+        <div class="step">
+          <span class="time">+15 min</span>
+          <strong>자리와 시설 안내</strong>
+          <p>I’ll show you your seat and the main areas.</p>
+        </div>
+        <div class="step">
+          <span class="time">Lunch</span>
+          <strong>점심 이동</strong>
+          <p>Let’s go to the cafeteria together.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title">
+        <h2>상황별 표현 카드</h2>
+        <span class="hint">Listen 버튼은 Chrome/Safari/Edge의 음성 합성 기능을 사용합니다.</span>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="card-head">
+            <h3>처음 인사와 안내</h3>
+            <span class="tag">First Day</span>
+          </div>
+          <div class="phrase">
+            <div class="ko">방문 기간 동안 제가 도와드릴게요.</div>
+            <div class="en-row">
+              <div>
+                <div class="en">I’ll be your buddy during your visit.</div>
+                <div class="pron">아일 비 유어 버디 듀어링 유어 비짓</div>
+              </div>
+              <button class="listen" data-text="I'll be your buddy during your visit.">Listen</button>
+            </div>
+            <div class="tip">처음 만나 역할을 소개할 때 가장 자연스럽습니다.</div>
+          </div>
+          <div class="phrase">
+            <div class="ko">필요한 게 있으면 언제든 알려주세요.</div>
+            <div class="en-row">
+              <div>
+                <div class="en">Please let me know if you need anything.</div>
+                <div class="pron">플리즈 렛 미 노우 이프 유 니드 애니씽</div>
+              </div>
+              <button class="listen" data-text="Please let me know if you need anything.">Listen</button>
+            </div>
+          </div>
+          <div class="phrase">
+            <div class="ko">오늘 일정을 간단히 설명드릴게요.</div>
+            <div class="en-row">
+              <div>
+                <div class="en">I’ll briefly explain today’s schedule.</div>
+                <div class="pron">아일 브리플리 익스플레인 투데이즈 스케줄</div>
+              </div>
+              <button class="listen" data-text="I'll briefly explain today's schedule.">Listen</button>
+            </div>
+            <div class="dialogue">You: I’ll briefly explain today’s schedule.<br>Visitor: Sounds good.<br>You: After that, we can have lunch together.</div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <h3>회사 식당</h3>
+            <span class="tag">Cafeteria</span>
+          </div>
+          <div class="phrase">
+            <div class="ko">식당으로 같이 가시죠.</div>
+            <div class="en-row">
+              <div>
+                <div class="en">Let’s go to the cafeteria together.</div>
+                <div class="pron">렛츠 고우 투 더 캐퍼티어리아 투게더</div>
+              </div>
+              <button class="listen" data-text="Let's go to the cafeteria together.">Listen</button>
+            </div>
+          </div>
+          <div class="phrase">
+            <div class="ko">오늘 메뉴는 여기에서 볼 수 있어요.</div>
+            <div class="en-row">
+              <div>
+                <div class="en">You can check today’s menu here.</div>
+                <div class="pron">유 캔 체크 투데이즈 메뉴 히어</div>
+              </div>
+              <button class="listen" data-text="You can check today's menu here.">Listen</button>
+            </div>
+          </div>
+          <div class="phrase">
+            <div class="ko">매운 음식 괜찮으세요?</div>
+            <div class="en-row">
+              <div>
+                <div class="en">Are you okay with spicy food?</div>
+                <div class="pron">아 유 오케이 위드 스파이시 푸드</div>
+              </div>
+              <button class="listen" data-text="Are you okay with spicy food?">Listen</button>
+            </div>
+            <div class="dialogue">You: Are you okay with spicy food?<br>Visitor: A little spicy is okay.<br>You: Then this one should be fine.</div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <h3>카페 이용</h3>
+            <span class="tag">Cafe</span>
+          </div>
+          <div class="phrase">
+            <div class="ko">커피 한잔 하실래요?</div>
+            <div class="en-row">
+              <div>
+                <div class="en">Would you like to grab some coffee?</div>
+                <div class="pron">우쥬 라이크 투 그랩 섬 커피</div>
+              </div>
+              <button class="listen" data-text="Would you like to grab some coffee?">Listen</button>
+            </div>
+          </div>
+          <div class="phrase">
+            <div class="ko">보통 어떤 커피를 드세요?</div>
+            <div class="en-row">
+              <div>
+                <div class="en">What kind of coffee do you usually drink?</div>
+                <div class="pron">왓 카인드 오브 커피 두 유 유주얼리 드링크</div>
+              </div>
+              <button class="listen" data-text="What kind of coffee do you usually drink?">Listen</button>
+            </div>
+          </div>
+          <div class="phrase">
+            <div class="ko">제가 주문을 도와드릴게요.</div>
+            <div class="en-row">
+              <div>
+                <div class="en">I can help you order.</div>
+                <div class="pron">아이 캔 헬프 유 오더</div>
+              </div>
+              <button class="listen" data-text="I can help you order.">Listen</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <h3>미팅</h3>
+            <span class="tag">Meeting</span>
+          </div>
+          <div class="phrase">
+            <div class="ko">미팅은 2시에 시작합니다.</div>
+            <div class="en-row">
+              <div>
+                <div class="en">The meeting starts at 2 p.m.</div>
+                <div class="pron">더 미팅 스타츠 앳 투 피엠</div>
+              </div>
+              <button class="listen" data-text="The meeting starts at 2 p.m.">Listen</button>
+            </div>
+          </div>
+          <div class="phrase">
+            <div class="ko">필요하면 제가 간단히 설명해드릴게요.</div>
+            <div class="en-row">
+              <div>
+                <div class="en">I can give you a quick summary if needed.</div>
+                <div class="pron">아이 캔 기브 유 어 퀵 서머리 이프 니디드</div>
+              </div>
+              <button class="listen" data-text="I can give you a quick summary if needed.">Listen</button>
+            </div>
+          </div>
+          <div class="phrase">
+            <div class="ko">잠깐만요, 제가 확인해볼게요.</div>
+            <div class="en-row">
+              <div>
+                <div class="en">One moment, I’ll check that for you.</div>
+                <div class="pron">원 모먼트, 아일 체크 댓 포 유</div>
+              </div>
+              <button class="listen" data-text="One moment, I'll check that for you.">Listen</button>
+            </div>
+            <div class="dialogue">Visitor: Is this meeting online?<br>You: One moment, I’ll check that for you.<br>You: It’s in meeting room B.</div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <h3>사무실 생활</h3>
+            <span class="tag">Office</span>
+          </div>
+          <div class="phrase">
+            <div class="ko">화장실은 이쪽입니다.</div>
+            <div class="en-row">
+              <div>
+                <div class="en">The restroom is this way.</div>
+                <div class="pron">더 레스트룸 이즈 디스 웨이</div>
+              </div>
+              <button class="listen" data-text="The restroom is this way.">Listen</button>
+            </div>
+          </div>
+          <div class="phrase">
+            <div class="ko">출입카드를 여기에 태그하시면 됩니다.</div>
+            <div class="en-row">
+              <div>
+                <div class="en">You can tap your access card here.</div>
+                <div class="pron">유 캔 탭 유어 액세스 카드 히어</div>
+              </div>
+              <button class="listen" data-text="You can tap your access card here.">Listen</button>
+            </div>
+          </div>
+          <div class="phrase">
+            <div class="ko">와이파이 연결을 도와드릴게요.</div>
+            <div class="en-row">
+              <div>
+                <div class="en">I’ll help you connect to Wi-Fi.</div>
+                <div class="pron">아일 헬프 유 커넥트 투 와이파이</div>
+              </div>
+              <button class="listen" data-text="I'll help you connect to Wi-Fi.">Listen</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <h3>일상 대화</h3>
+            <span class="tag">Small Talk</span>
+          </div>
+          <div class="phrase">
+            <div class="ko">한국은 처음이세요?</div>
+            <div class="en-row">
+              <div>
+                <div class="en">Is this your first time in Korea?</div>
+                <div class="pron">이즈 디스 유어 퍼스트 타임 인 코리아</div>
+              </div>
+              <button class="listen" data-text="Is this your first time in Korea?">Listen</button>
+            </div>
+          </div>
+          <div class="phrase">
+            <div class="ko">주말에는 무엇을 하고 싶으세요?</div>
+            <div class="en-row">
+              <div>
+                <div class="en">What would you like to do this weekend?</div>
+                <div class="pron">왓 우쥬 라이크 투 두 디스 위켄드</div>
+              </div>
+              <button class="listen" data-text="What would you like to do this weekend?">Listen</button>
+            </div>
+          </div>
+          <div class="phrase">
+            <div class="ko">한국 음식 중에 먹어보고 싶은 게 있나요?</div>
+            <div class="en-row">
+              <div>
+                <div class="en">Is there any Korean food you want to try?</div>
+                <div class="pron">이즈 데어 애니 코리안 푸드 유 원트 투 트라이</div>
+              </div>
+              <button class="listen" data-text="Is there any Korean food you want to try?">Listen</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card emergency">
+          <div class="card-head">
+            <h3>잘 못 알아들었을 때</h3>
+            <span class="tag">Clarify</span>
+          </div>
+          <div class="phrase">
+            <div class="ko">다시 한번 말씀해주시겠어요?</div>
+            <div class="en-row">
+              <div>
+                <div class="en">Could you say that again?</div>
+                <div class="pron">쿠쥬 세이 댓 어게인</div>
+              </div>
+              <button class="listen" data-text="Could you say that again?">Listen</button>
+            </div>
+          </div>
+          <div class="phrase">
+            <div class="ko">조금 천천히 말씀해주시겠어요?</div>
+            <div class="en-row">
+              <div>
+                <div class="en">Could you speak a little more slowly?</div>
+                <div class="pron">쿠쥬 스피크 어 리틀 모어 슬로울리</div>
+              </div>
+              <button class="listen" data-text="Could you speak a little more slowly?">Listen</button>
+            </div>
+          </div>
+          <div class="phrase">
+            <div class="ko">제가 제대로 이해했는지 확인해볼게요.</div>
+            <div class="en-row">
+              <div>
+                <div class="en">Let me make sure I understood correctly.</div>
+                <div class="pron">렛 미 메이크 슈어 아이 언더스투드 커렉틀리</div>
+              </div>
+              <button class="listen" data-text="Let me make sure I understood correctly.">Listen</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <h3>하루 마무리</h3>
+            <span class="tag">Wrap-up</span>
+          </div>
+          <div class="phrase">
+            <div class="ko">오늘 괜찮으셨나요?</div>
+            <div class="en-row">
+              <div>
+                <div class="en">How was everything today?</div>
+                <div class="pron">하우 워즈 에브리씽 투데이</div>
+              </div>
+              <button class="listen" data-text="How was everything today?">Listen</button>
+            </div>
+          </div>
+          <div class="phrase">
+            <div class="ko">내일 아침에 다시 뵐게요.</div>
+            <div class="en-row">
+              <div>
+                <div class="en">I’ll see you again tomorrow morning.</div>
+                <div class="pron">아일 씨 유 어게인 투모로우 모닝</div>
+              </div>
+              <button class="listen" data-text="I'll see you again tomorrow morning.">Listen</button>
+            </div>
+          </div>
+          <div class="phrase">
+            <div class="ko">퇴근 후에 도움이 필요하면 메시지 주세요.</div>
+            <div class="en-row">
+              <div>
+                <div class="en">Message me if you need help after work.</div>
+                <div class="pron">메시지 미 이프 유 니드 헬프 애프터 워크</div>
+              </div>
+              <button class="listen" data-text="Message me if you need help after work.">Listen</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title">
+        <h2>방문 기간 동안 쓰기 좋은 대화 주제</h2>
+        <span class="hint">질문 하나만 던지고, 답변에서 키워드를 잡아 이어가면 됩니다.</span>
+      </div>
+      <div class="topic-grid">
+        <div class="topic">
+          <strong>Food</strong>
+          <p>What Korean food have you tried so far?</p>
+        </div>
+        <div class="topic">
+          <strong>Weekend</strong>
+          <p>Do you have any plans for this weekend?</p>
+        </div>
+        <div class="topic">
+          <strong>Work</strong>
+          <p>How is your project going?</p>
+        </div>
+        <div class="topic">
+          <strong>Weather</strong>
+          <p>Is the weather very different from your country?</p>
+        </div>
+        <div class="topic">
+          <strong>Travel</strong>
+          <p>Is there any place you want to visit in Korea?</p>
+        </div>
+        <div class="topic">
+          <strong>Comfort</strong>
+          <p>Is there anything that feels inconvenient?</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      Tip: 말이 막히면 “One moment, please.”라고 말한 뒤 번역기나 메모를 사용해도 자연스럽습니다.
+    </footer>
+  </main>
+
+  <script>
+    function speak(text) {
+      if (!("speechSynthesis" in window)) {
+        alert("This browser does not support text-to-speech.");
+        return;
+      }
+
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = "en-US";
+      utterance.rate = 0.86;
+      utterance.pitch = 1;
+      window.speechSynthesis.speak(utterance);
+    }
+
+    document.querySelectorAll(".listen").forEach((button) => {
+      button.addEventListener("click", () => speak(button.dataset.text));
+    });
+  </script>
+</body>
+</html>

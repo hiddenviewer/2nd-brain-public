@@ -25,6 +25,7 @@ export const navigation = [
     items: [
       { label: 'AI 에이전트 하네스', href: '/notes/ai-agent-harness/' },
       { label: '한국 주식 리서치 프로세스', href: '/notes/korean-equity-research-process/' },
+      { label: 'Workplace English', href: '/english/workplace-buddy-english/' },
     ],
   },
   {
