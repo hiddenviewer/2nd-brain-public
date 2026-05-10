@@ -539,6 +539,11 @@ h3 {
   color: #a34727;
 }
 
+.status-badge.pending {
+  background: #e3e8f2;
+  color: #395a8f;
+}
+
 .external-link {
   border: 1px solid var(--line);
   border-radius: 6px;

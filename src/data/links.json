@@ -82,6 +82,20 @@
     "description": "PyTorchKR의 주간 큐레이션 글로, 2026년 4월 20일~26일 사이 눈여겨볼 AI/ML 논문 10편을 RAG, 자율 에이전트 시스템, 트랜스포머 아키텍처 효율화 흐름 중심으로 묶어 소개한다."
   },
   {
+    "title": "클로드 코드 사용하기: HTML의 놀라운 효율성",
+    "url": "https://news.hada.io/topic?id=29347",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-05-10",
+    "sourceNote": "2026-05-10-html",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Claude Code에서 Markdown 대신 HTML을 출력 형식으로 쓰면 시각화·상호작용·공유성이 크게 좋아져 스펙, 코드 리뷰, 프로토타입, 리서치 보고서 작성에 더 유리하다는 내용."
+  },
+  {
     "title": "하네스 엔지니어링 백과사전 02 목차",
     "url": "https://wikidocs.net/346094",
     "category": "ai",
@@ -95,6 +109,20 @@
       "wikidocs"
     ],
     "description": "wikidocs 기반 2차 요약 메모다. 하네스 엔지니어링 백과사전의 전체 구성과 독자별 추천 읽기 경로를 정리한 목차 페이지다."
+  },
+  {
+    "title": "Agentic Coding은 함정이다",
+    "url": "https://news.hada.io/topic?id=29155",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-05-10",
+    "sourceNote": "2026-05-10-agentic-coding",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Agentic coding은 생산성을 높일 수 있지만, 개발자의 이해도 저하·감독 역량 약화·벤더 종속·비용 불확실성 같은 구조적 위험을 함께 키운다는 문제 제기다."
   },
   {
     "title": "AHE는 관측 가능성을 바탕으로 코딩 에이전트 하네스를 자동 진화시키는 프레임워크를 설명한다",
@@ -610,6 +638,20 @@
     "description": "Hacker News Korea 링크 큐레이션 성격의 2차 메모다. Claude Code용 플러그인이 도메인 설명만으로 에이전트 팀 구조와 스킬 문서를 자동 생성하고, 대표적인 다중 에이전트 아키텍처 패턴을 템플릿처럼 제공한다는 점을 소개한다."
   },
   {
+    "title": "Karpathy 관찰을 바탕으로 Claude Code의 동작을 개선하는 단일 `CLAUDE.md` 가이드 소개",
+    "url": "https://discuss.pytorch.kr/t/karpathy-inspired-claude-code-guidelines-andrej-karpathy-llm-claude-code/9912",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-05-10",
+    "sourceNote": "2026-05-10-karpathy-claude-code-claude-md",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI 코딩 에이전트의 흔한 실수를 줄이기 위해, Andrej Karpathy의 LLM 코딩 함정 관찰을 바탕으로 만든 4가지 원칙 중심의 Claude Code 가이드를 설명하는 글이다."
+  },
+  {
     "title": "Memradar: AI 코딩 세션을 분석해 작업 유형과 회고 리포트를 보여주는 오픈소스",
     "url": "https://news.hada.io/topic?id=28948",
     "category": "ai",
@@ -751,6 +793,34 @@
       "agentic-ide"
     ],
     "description": "GeekNews 링크 큐레이션 성격의 2차 메모다. Zed가 1.0에 도달하며, GPU 중심 편집기 아키텍처 위에 다중 에이전트 병렬 작업, edit predictions, Agent Client Protocol 연동을 묶은 AI-native editor 전략을 전면에 내세웠다는 점을 요약한다."
+  },
+  {
+    "title": "삼성D, 8.6세대 OLED 2라인에 LTPO 장비 도입 추진",
+    "url": "https://www.etnews.com/20260507000143",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-05-10",
+    "sourceNote": "2026-05-10-d-8-6-oled-2-ltpo",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "삼성디스플레이가 8.6세대 OLED 2번째 라인에 LTPO 핵심 장비를 들이며, 노트북을 넘어 태블릿·스마트폰용 패널까지 겨냥하는 중장기 전략을 준비하는 내용이다."
+  },
+  {
+    "title": "오픈AI, Codex용 Chrome Extension 출시로 로그인 기반 브라우저 작업 지원",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=210286",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-05-10",
+    "sourceNote": "2026-05-10-ai-codex-chrome-extension",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "오픈AI가 Codex Chrome Extension을 공개해 로그인된 웹서비스와 사내 시스템에서 AI 에이전트가 직접 작업할 수 있도록 했다. 보안 우려를 줄이기 위해 도메인별 승인과 민감 권한 통제를 함께 도입했다."
   },
   {
     "title": "디지털데일리 기사 접근 불가 메모",

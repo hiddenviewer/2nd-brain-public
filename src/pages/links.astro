@@ -13,6 +13,7 @@ const categories = [
 
 const statusLabels = {
   public: '공개',
+  pending: '대기',
   review: '검토 필요',
   private: '비공개',
   dead: '접근 불가',
@@ -26,6 +27,7 @@ const grouped = categories
   .filter((category) => category.links.length > 0)
 
 const publicCount = links.filter((link) => link.status === 'public').length
+const pendingCount = links.filter((link) => link.status === 'pending').length
 const reviewCount = links.filter((link) => link.status === 'review').length
 ---
 
@@ -37,8 +39,8 @@ const reviewCount = links.filter((link) => link.status === 'review').length
         <h1>링크 인덱스</h1>
       </div>
       <p>
-        private 2nd-brain의 source note에서 추출한 공개용 링크 목록입니다.
-        Discord 메시지 링크는 제외했고, 접근 불가로 기록된 원문은 검토 필요로 표시합니다.
+        private 2nd-brain의 source note와 inbox metadata에서 추출한 공개용 링크 목록입니다.
+        ingest 전 자료는 대기 상태로 표시하고, 정식 source note가 생기면 자동으로 공개 또는 검토 필요 상태로 정리합니다.
       </p>
     </div>
 
@@ -56,8 +58,8 @@ const reviewCount = links.filter((link) => link.status === 'review').length
         <span>검토 필요</span>
       </div>
       <div class="metric">
-        <strong>{grouped.length}</strong>
-        <span>표시 카테고리</span>
+        <strong>{pendingCount}</strong>
+        <span>ingest 대기</span>
       </div>
     </div>
 

@@ -4,6 +4,7 @@ import { basename, join } from 'node:path'
 const repoRoot = new URL('../', import.meta.url)
 const vaultRoot = new URL('../../', repoRoot)
 const sourceDir = new URL('02-wiki/sources/', vaultRoot)
+const inboxDir = new URL('00-inbox/', vaultRoot)
 const outputPath = new URL('src/data/links.json', repoRoot)
 
 const domainToCategory = {
@@ -57,6 +58,22 @@ function shouldSkipUrl(url) {
   return url.includes('discord.com/channels/')
 }
 
+function inferInboxCategory(metadata) {
+  const haystack = [
+    metadata.title,
+    metadata.summary,
+    metadata.body,
+    metadata.link_type,
+  ].filter(Boolean).join(' ').toLowerCase()
+
+  if (/(apple|ios|iphone|mac|wwdc|swift|xcode)/i.test(haystack)) return 'apple'
+  if (/(주식|투자|증권|kospi|kosdaq|공시|실적|반도체|배터리|환율|금리)/i.test(haystack)) return 'investing'
+  if (/(영어|english|일본어|japanese|日本語)/i.test(haystack)) return 'language'
+  if (/(여행|travel|hotel|flight|항공|숙소)/i.test(haystack)) return 'travel'
+  if (/(ai|llm|agent|에이전트|claude|codex|gemini|mcp|harness|프롬프트)/i.test(haystack)) return 'ai'
+  return 'general'
+}
+
 function inferStatus(fileName, frontmatter) {
   const text = `${fileName} ${(frontmatter.title || '')} ${(frontmatter.tags || []).join(' ')}`
   if (/inaccessible|접근 불가|확인 불가/i.test(text)) return 'review'
@@ -74,13 +91,13 @@ function inferDescription(markdown) {
 }
 
 async function main() {
-  const files = (await readdir(sourceDir))
+  const sourceFiles = (await readdir(sourceDir))
     .filter((file) => file.endsWith('.md'))
     .sort()
 
-  const links = []
+  const linksByUrl = new Map()
 
-  for (const file of files) {
+  for (const file of sourceFiles) {
     const filePath = join(sourceDir.pathname, file)
     const markdown = await readFile(filePath, 'utf8')
     const frontmatter = readFrontmatter(markdown)
@@ -94,7 +111,7 @@ async function main() {
     const status = inferStatus(file, frontmatter)
 
     for (const url of urls) {
-      links.push({
+      linksByUrl.set(url, {
         title: frontmatter.title || sourceId,
         url,
         category,
@@ -107,6 +124,38 @@ async function main() {
       })
     }
   }
+
+  let inboxFiles = []
+  try {
+    inboxFiles = (await readdir(inboxDir))
+      .filter((file) => file.endsWith('.metadata.json'))
+      .sort()
+  } catch {
+    inboxFiles = []
+  }
+
+  for (const file of inboxFiles) {
+    const filePath = join(inboxDir.pathname, file)
+    const metadata = JSON.parse(await readFile(filePath, 'utf8'))
+    const url = cleanUrl(metadata.source_url || '')
+    if (!url || shouldSkipUrl(url) || linksByUrl.has(url)) continue
+
+    const category = inferInboxCategory(metadata)
+    const sourceNote = basename(file, '.metadata.json')
+    linksByUrl.set(url, {
+      title: metadata.title || sourceNote,
+      url,
+      category,
+      categoryLabel: categoryLabels[category] || category,
+      status: 'pending',
+      updated: (metadata.captured_at || '').slice(0, 10),
+      sourceNote,
+      tags: ['inbox', metadata.link_type].filter(Boolean),
+      description: metadata.summary || '',
+    })
+  }
+
+  const links = Array.from(linksByUrl.values())
 
   links.sort((a, b) => {
     const byCategory = a.category.localeCompare(b.category)
