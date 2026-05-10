@@ -1,0 +1,32 @@
+---
+import { navigation } from '../data/navigation'
+
+const base = import.meta.env.BASE_URL
+const basePath = base.endsWith('/') ? base : `${base}/`
+const currentPath = Astro.url.pathname.replace(basePath.replace(/\/$/, ''), '/') || '/'
+const withBase = (href) => `${basePath}${href.replace(/^\//, '')}`
+const isActive = (href) => currentPath === href || currentPath === `${href}index.html`
+---
+
+<aside class="sidebar">
+  <div class="sidebar-header">
+    <a class="brand" href={withBase('/')}>2nd Brain Public</a>
+    <p>선별된 공개 지식 노트</p>
+  </div>
+  <nav class="tree-nav" aria-label="Knowledge navigation">
+    {navigation.map((section) => (
+      <section class="tree-section">
+        <h2>{section.label}</h2>
+        <ul>
+          {section.items.map((item) => (
+            <li>
+              <a class:list={[{ active: isActive(item.href) }]} href={withBase(item.href)}>
+                {item.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </nav>
+</aside>

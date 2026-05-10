@@ -1,57 +1,84 @@
 ---
-title: Korean Equity Research Process
-description: A public-facing research workflow for turning market events, disclosures, and company notes into structured investment knowledge.
+title: 한국 주식 리서치 프로세스
+description: 뉴스, 공시, 실적, 산업 변화를 구조화해 사실과 해석을 분리하는 공개용 리서치 워크플로입니다.
 category: investing
 noteType: visual-note
 status: published
 featured: true
-updated: 2026-05-10
+updated: 2026-05-11
 confidence: medium
 tags: [korean-stocks, research-process, disclosures, risk]
 sources:
-  - label: Korean equities overview from private second brain
-  - label: Company and market note structure
+  - label: private second brain의 한국 주식 개요
+  - label: 기업, 시장, source note 운영 구조
 ---
 
-## Purpose
+## 목적
 
-This process is for organizing public market information. It is not investment advice, a recommendation, or a price target system.
+한국 주식 관련 자료는 시의성이 높다. 뉴스, 공시, 실적, 환율, 금리, 정책 변화가 모두 기업 해석에 영향을 준다.
 
-The goal is to keep facts, interpretation, and open questions separate.
+이 프로세스의 목적은 매수나 매도 판단을 대신하는 것이 아니다. 공개 자료를 **사실, 해석, 불확실성, 후속 확인 지표**로 나눠 오래 추적 가능한 지식으로 만드는 것이다.
 
-## Research Flow
+## 기본 흐름
 
-| Stage | Input | Output |
+| 단계 | 입력 | 산출물 | 핵심 질문 |
+| --- | --- | --- | --- |
+| 이벤트 수집 | 뉴스, 공시, 실적 발표, 정책 | source note | 무슨 일이 언제 발생했나 |
+| 기업 맥락화 | 사업 모델, 고객, 제품, 재무 | company page | 이 이벤트가 회사의 어느 부분과 연결되나 |
+| 시장 맥락화 | 섹터, 금리, 환율, 수요, 공급망 | market page | 업황이나 거시 환경이 바뀌었나 |
+| 논지 작성 | 사실과 맥락의 조합 | research note | 왜 중요할 수 있나 |
+| 리스크 점검 | 반대 증거, 미확인 변수 | risk list | 무엇이 틀리면 논지가 깨지나 |
+| 재방문 예약 | 실적일, 공시일, 지표 발표일 | watchlist | 언제 다시 확인해야 하나 |
+
+## 사실과 해석 분리
+
+좋은 투자 메모는 결론보다 분리가 중요하다.
+
+| 구분 | 예시 | 작성 원칙 |
 | --- | --- | --- |
-| Event Capture | News, disclosures, earnings, policy | Source note |
-| Company Context | Business model, segment, customers | Entity page |
-| Market Context | Sector, macro, supply chain | Market page |
-| Thesis Draft | Why the event may matter | Research note |
-| Risk Check | What could break the thesis | Risk list |
-| Follow-up | Metrics and dates to revisit | Watchlist |
+| 사실 | 2026년 1분기 매출, 신규 수주, 공시 금액 | 날짜와 출처를 붙인다 |
+| 회사 주장 | 가이던스, 컨퍼런스콜 발언 | 그대로 믿지 않고 검증 지표를 둔다 |
+| 해석 | 수익성 개선 가능성, 밸류체인 변화 | 근거와 반대 가능성을 같이 적는다 |
+| 불확실성 | 환율, 원재료 가격, 고객사 투자 지연 | 확인해야 할 날짜와 지표를 남긴다 |
 
-## Note Structure
+## 이벤트를 읽는 다섯 가지 렌즈
 
-A useful public company note should separate:
+단순히 “호재인가 악재인가”로 보지 않는다. 아래 질문에 답할 수 있어야 지식 노트로 남길 가치가 있다.
 
-- Facts with dates
-- Management claims
-- Market interpretation
-- Personal uncertainty
-- Metrics to verify later
+1. 매출 가시성이 달라졌는가?
+2. 마진 구조가 달라졌는가?
+3. 자본 배분이나 투자 계획이 달라졌는가?
+4. 시장 기대치가 달라질 만한가?
+5. 새 리스크가 생겼거나 기존 리스크가 줄었는가?
 
-## Visual Lens
+## 공개 노트 작성 규칙
 
-The important question is usually not "is this good news?" but:
+주식 관련 공개 노트는 더 보수적으로 작성한다.
 
-1. Does this change revenue visibility?
-2. Does this change margin structure?
-3. Does this change capital allocation?
-4. Does this change market expectations?
-5. Does this introduce a new risk?
+- 가격 전망보다 구조와 변수 설명을 우선한다.
+- “매수”, “매도”, “목표가”처럼 투자 권유로 보일 수 있는 표현을 피한다.
+- 날짜가 중요한 수치에는 반드시 기준일을 붙인다.
+- 출처가 불명확한 주장은 공개 노트에 넣지 않는다.
+- 개인 판단은 “해석” 또는 “확인 필요”로 분리한다.
 
-## Guardrails
+## 예시 구조
 
-Korean stock notes should be timestamped because prices, policy, guidance, and valuation context can change quickly.
+| 섹션 | 담을 내용 |
+| --- | --- |
+| Snapshot | 기업과 이벤트를 한 화면에서 이해할 수 있는 요약 |
+| Timeline | 최근 공시, 뉴스, 실적 발표의 순서 |
+| Business Map | 사업부, 고객, 공급망, 매출 연결 |
+| Variables | 환율, 금리, 원가, 수요, 정책 변수 |
+| Thesis | 왜 이 이벤트가 중요할 수 있는지 |
+| Risks | 논지를 깨뜨릴 수 있는 조건 |
+| Watchlist | 다음에 확인할 날짜와 지표 |
 
-Public notes should explain the reasoning process without presenting themselves as buy or sell advice.
+## 2nd Brain과의 연결
+
+private 위키에서는 source, company, market, synthesis를 분리한다. public 사이트에서는 그중 공개 가능한 내용만 골라 하나의 읽기 쉬운 시각 노트로 다시 묶는다.
+
+이렇게 하면 내부 저장소는 세부 추적에 강하고, 공개 사이트는 핵심 구조를 빠르게 이해하는 데 강해진다.
+
+## 면책
+
+이 노트는 공개 자료를 구조화하는 방법에 대한 설명이다. 특정 종목의 매수, 매도, 보유를 권유하지 않는다.

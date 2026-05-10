@@ -1,13 +1,13 @@
 {
   "nodes": [
     { "id": "ai", "label": "AI", "kind": "category" },
-    { "id": "investing", "label": "Investing", "kind": "category" },
-    { "id": "harness", "label": "Agent Harness", "kind": "concept", "href": "/notes/ai-agent-harness/" },
-    { "id": "evals", "label": "Evaluation", "kind": "concept" },
-    { "id": "memory", "label": "Memory", "kind": "concept" },
-    { "id": "kr-process", "label": "Korean Equity Process", "kind": "process", "href": "/notes/korean-equity-research-process/" },
-    { "id": "disclosures", "label": "Disclosures", "kind": "source" },
-    { "id": "risk", "label": "Risk Check", "kind": "concept" }
+    { "id": "investing", "label": "한국 주식", "kind": "category" },
+    { "id": "harness", "label": "에이전트 하네스", "kind": "concept", "href": "/notes/ai-agent-harness/" },
+    { "id": "evals", "label": "평가", "kind": "concept" },
+    { "id": "memory", "label": "메모리", "kind": "concept" },
+    { "id": "kr-process", "label": "한국 주식 리서치", "kind": "process", "href": "/notes/korean-equity-research-process/" },
+    { "id": "disclosures", "label": "공시", "kind": "source" },
+    { "id": "risk", "label": "리스크 점검", "kind": "concept" }
   ],
   "edges": [
     { "source": "ai", "target": "harness" },

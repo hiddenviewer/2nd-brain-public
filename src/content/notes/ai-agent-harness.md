@@ -1,53 +1,82 @@
 ---
-title: AI Agent Harness
-description: A visual note on how harnesses turn LLMs from chat interfaces into observable, repeatable work systems.
+title: AI 에이전트 하네스
+description: LLM을 단발성 채팅 도구가 아니라 관찰 가능하고 반복 가능한 작업 시스템으로 바꾸는 운영 계층을 설명합니다.
 category: ai
 noteType: visual-note
 status: published
 featured: true
-updated: 2026-05-10
+updated: 2026-05-11
 confidence: medium
-tags: [ai-agents, harness, workflow, evaluation]
+tags: [ai-agent, harness, workflow, evaluation]
 sources:
-  - label: Agent harness notes from private second brain
-  - label: Claude Code and multi-agent workflow notes
+  - label: private second brain의 에이전트 하네스 노트
+  - label: Claude Code와 다중 에이전트 워크플로 메모
 ---
 
-## Core Question
+## 핵심 질문
 
-How do you make an AI agent more reliable than a one-off chat session?
+AI 에이전트를 일회성 채팅보다 더 신뢰할 수 있는 작업 시스템으로 만들려면 무엇이 필요할까?
 
-The useful answer is not "use a stronger model" alone. The more durable answer is to build a harness around the model: context preparation, tool boundaries, execution loops, observation, evaluation, and recovery.
+답은 단순히 더 강한 모델을 쓰는 데 있지 않다. 모델 주변에 **하네스**를 만들어야 한다. 하네스는 모델이 어떤 맥락을 보고, 어떤 도구를 쓰고, 어떤 기준으로 결과를 검증하며, 실패했을 때 어떻게 회복할지를 정하는 운영 계층이다.
 
-## Mental Model
+## 한 장 요약
 
-An agent harness is the operating layer around an LLM.
-
-It decides what context the model sees, which tools it can call, how work is checked, when humans are asked, and how results become durable knowledge.
-
-## System View
-
-| Layer | Role | Failure Mode If Missing |
+| 관점 | 채팅형 사용 | 하네스형 사용 |
 | --- | --- | --- |
-| Context | Supplies task, files, memory, constraints | The model solves the wrong problem |
-| Tools | Give the model controlled actions | The model can only describe work |
-| Loop | Turns intent into repeated progress | Long tasks stall after one response |
-| Observation | Captures logs, diffs, tests, traces | Failures are invisible |
-| Evaluation | Checks output against standards | Bad work looks complete |
-| Memory | Preserves useful lessons | Each session starts cold |
+| 입력 | 사람이 매번 설명 | 작업 목적, 파일, 규칙, 메모리를 조립 |
+| 실행 | 답변 생성 중심 | 도구 호출, 파일 수정, 테스트, 재시도 |
+| 품질 관리 | 사람이 눈으로 확인 | 로그, diff, 테스트, 스크린샷, 평가 기준 |
+| 기억 | 대화가 끝나면 사라짐 | 유용한 결과를 문서, 규칙, 스킬로 축적 |
+| 실패 처리 | 다시 질문 | 실패 원인 관찰 후 루프를 수정 |
 
-## Practical Pattern
+## 시스템 구조
 
-1. Define the goal in operational terms.
-2. Load only the context needed for the current step.
-3. Let the agent act through constrained tools.
-4. Inspect outputs with tests, logs, review, or screenshots.
-5. Store the useful result back into the knowledge system.
+에이전트 하네스는 보통 여섯 계층으로 나눠 생각할 수 있다.
 
-## Why This Matters
+| 계층 | 역할 | 없을 때 생기는 문제 |
+| --- | --- | --- |
+| 컨텍스트 | 목표, 제약, 관련 파일, 과거 메모리를 제공 | 모델이 엉뚱한 문제를 푼다 |
+| 도구 | 터미널, 브라우저, 파일 편집, 검색 같은 행동을 허용 | 모델이 설명만 하고 실제 작업을 못 한다 |
+| 루프 | 계획, 실행, 관찰, 수정의 반복을 만든다 | 긴 작업이 한 번의 응답 뒤 멈춘다 |
+| 관찰 | 로그, 테스트 결과, diff, 화면 상태를 수집 | 실패가 숨어서 품질을 판단하기 어렵다 |
+| 평가 | 완료 기준과 검증 절차를 둔다 | 그럴듯하지만 틀린 결과가 통과한다 |
+| 메모리 | 반복 가능한 지식을 규칙과 문서로 저장 | 매 세션이 처음부터 다시 시작된다 |
 
-The harness is where quality compounds. A model upgrade can improve single-step ability, but a harness improves the whole work system: repeatability, debuggability, traceability, and handoff.
+## 작동 흐름
 
-## Design Heuristic
+1. 사람이 목표와 우선순위를 정한다.
+2. 하네스가 필요한 문서, 파일, 규칙만 골라 컨텍스트를 만든다.
+3. 모델은 허용된 도구를 사용해 작은 단위로 실행한다.
+4. 실행 결과는 테스트, 로그, diff, 화면 캡처 같은 관찰값으로 확인한다.
+5. 실패하면 프롬프트가 아니라 작업 루프나 도구 경계를 수정한다.
+6. 성공한 패턴은 다음 작업에서 재사용할 수 있게 메모리나 스킬로 남긴다.
 
-If an agent task cannot be observed, it cannot be improved. If it cannot be evaluated, it cannot be trusted.
+## 왜 중요한가
+
+모델 성능 향상은 단일 응답의 품질을 높인다. 하지만 하네스는 작업 시스템 전체의 품질을 높인다.
+
+좋은 하네스는 다음 세 가지를 가능하게 한다.
+
+- **반복성**: 같은 종류의 작업을 매번 비슷한 품질로 수행한다.
+- **관찰 가능성**: 에이전트가 무엇을 했고 어디서 실패했는지 추적할 수 있다.
+- **개선 가능성**: 실패 사례가 다음 루프의 규칙, 테스트, 메모리로 바뀐다.
+
+## 설계 체크리스트
+
+| 질문 | 확인할 것 |
+| --- | --- |
+| 목표가 명확한가? | 완료 조건이 문장으로 정의되어 있는가 |
+| 컨텍스트가 과하지 않은가? | 지금 단계에 필요 없는 파일과 문서를 제외했는가 |
+| 도구 권한이 적절한가? | 읽기, 쓰기, 네트워크, 배포 권한이 분리되어 있는가 |
+| 관찰값이 있는가? | 테스트, 로그, diff, 스크린샷 중 하나 이상이 있는가 |
+| 실패가 기록되는가? | 다음 실행에서 같은 실패를 피할 단서가 남는가 |
+
+## 2nd Brain과의 연결
+
+이 공개 노트 사이트도 작은 하네스 실험이다.
+
+private 위키는 원천 지식과 작업 기억을 보관한다. public 사이트는 그중 공개 가능한 내용을 선별해 시각 노트로 재작성한다. 이 과정에서 원본 링크, source note, graphify 연결, Astro 페이지, GitHub Pages 배포가 하나의 콘텐츠 하네스를 이룬다.
+
+## 기억할 문장
+
+에이전트의 품질은 모델만이 아니라, 모델이 반복적으로 일하고 실패에서 배울 수 있게 만드는 하네스에서 결정된다.

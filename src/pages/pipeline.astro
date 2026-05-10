@@ -1,0 +1,68 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+---
+
+<BaseLayout title="콘텐츠 파이프라인 | 2nd Brain Public">
+  <main class="container section">
+    <div class="section-header">
+      <div>
+        <p class="eyebrow">운영 설계</p>
+        <h1>콘텐츠 생성 파이프라인</h1>
+      </div>
+      <p>private 위키의 요약 메모를 그대로 공개하지 않고, 원천 자료와 내부 연결을 바탕으로 공개용 지식 노트를 만드는 흐름입니다.</p>
+    </div>
+
+    <div class="pipeline">
+      <section>
+        <span>1</span>
+        <h2>후보 선정</h2>
+        <p>AI, Apple, 주식, 언어, 여행 중 공개 가치가 있고 민감도가 낮은 주제를 고릅니다.</p>
+      </section>
+      <section>
+        <span>2</span>
+        <h2>원천 확인</h2>
+        <p>관련 source note와 원본 링크를 확인합니다. 접근 불가 링크, 저작권 위험, 개인 판단 로그는 제외합니다.</p>
+      </section>
+      <section>
+        <span>3</span>
+        <h2>공개용 구조화</h2>
+        <p>핵심 질문, 배경, 구조도, 흐름, 리스크, 다음 확인 지표로 재구성합니다.</p>
+      </section>
+      <section>
+        <span>4</span>
+        <h2>시각 요소 생성</h2>
+        <p>표, 타임라인, 비교 매트릭스, 지식 지도 노드, 슬라이드형 섹션을 추가합니다.</p>
+      </section>
+      <section>
+        <span>5</span>
+        <h2>검수</h2>
+        <p>사실과 해석을 분리하고, 투자 조언처럼 보이는 표현과 원문 과다 재현을 제거합니다.</p>
+      </section>
+      <section>
+        <span>6</span>
+        <h2>배포</h2>
+        <p>Astro content collection에 추가하고 빌드, 링크, 404, 모바일 레이아웃을 확인한 뒤 GitHub Pages로 배포합니다.</p>
+      </section>
+    </div>
+
+    <section class="note-body pipeline-note">
+      <h2>공개 노트 템플릿</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>섹션</th>
+            <th>역할</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>핵심 질문</td><td>이 노트가 답하려는 문제를 한 문장으로 고정합니다.</td></tr>
+          <tr><td>배경 맥락</td><td>원본 자료가 왜 중요한지 설명합니다.</td></tr>
+          <tr><td>구조화된 설명</td><td>요약이 아니라 개념, 흐름, 원인과 결과를 재배열합니다.</td></tr>
+          <tr><td>시각 블록</td><td>표, 타임라인, 단계도, 비교표로 읽는 부담을 줄입니다.</td></tr>
+          <tr><td>판단과 불확실성</td><td>사실, 해석, 미확인 지점을 분리합니다.</td></tr>
+          <tr><td>관련 노트</td><td>다음에 읽을 페이지와 지식 지도 연결을 제공합니다.</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</BaseLayout>

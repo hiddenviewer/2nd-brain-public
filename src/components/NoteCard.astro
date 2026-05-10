@@ -1,11 +1,20 @@
 ---
 const { note } = Astro.props
 const base = import.meta.env.BASE_URL
+const basePath = base.endsWith('/') ? base : `${base}/`
+const withBase = (href) => `${basePath}${href.replace(/^\//, '')}`
 const { title, description, category, tags, updated } = note.data
+const categoryLabels = {
+  ai: 'AI 에이전트',
+  apple: 'Apple',
+  investing: '한국 주식',
+  language: '언어',
+  travel: '여행',
+}
 ---
 
-<a class="note-card" href={`${base}notes/${note.slug}/`}>
-  <span class="eyebrow">{category}</span>
+<a class="note-card" href={withBase(`/notes/${note.slug}/`)}>
+  <span class="eyebrow">{categoryLabels[category] ?? category}</span>
   <h3>{title}</h3>
   <p>{description}</p>
   <div class="tag-row">

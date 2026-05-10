@@ -10,26 +10,33 @@ export async function getStaticPaths() {
 const { note } = Astro.props
 const { Content } = await render(note)
 const { title, description, category, tags, updated, confidence, sources } = note.data
+const categoryLabels = {
+  ai: 'AI 에이전트',
+  apple: 'Apple',
+  investing: '한국 주식',
+  language: '언어',
+  travel: '여행',
+}
 ---
 
 <BaseLayout title={`${title} | 2nd Brain Public`} description={description}>
   <main class="container note-layout">
     <article class="note-body">
-      <p class="eyebrow">{category}</p>
+      <p class="eyebrow">{categoryLabels[category] ?? category}</p>
       <h1>{title}</h1>
       <p class="lead">{description}</p>
       <Content />
     </article>
     <aside class="aside">
-      <h3>Note Metadata</h3>
-      <p><strong>Updated:</strong> {updated.toISOString().slice(0, 10)}</p>
-      <p><strong>Confidence:</strong> {confidence}</p>
+      <h3>노트 정보</h3>
+      <p><strong>업데이트:</strong> {updated.toISOString().slice(0, 10)}</p>
+      <p><strong>신뢰도:</strong> {confidence}</p>
       <div class="tag-row">
         {tags.map((tag) => <span class="tag">{tag}</span>)}
       </div>
       {sources.length > 0 && (
         <>
-          <h3 style="margin-top: 24px;">Sources</h3>
+          <h3 style="margin-top: 24px;">출처</h3>
           <ul>
             {sources.map((source) => (
               <li>

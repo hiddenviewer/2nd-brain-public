@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+
+const base = import.meta.env.BASE_URL
+const basePath = base.endsWith('/') ? base : `${base}/`
+const withBase = (href) => `${basePath}${href.replace(/^\//, '')}`
+---
+
+<BaseLayout title="페이지를 찾을 수 없음 | 2nd Brain Public">
+  <main class="container section not-found">
+    <p class="eyebrow">404</p>
+    <h1>페이지를 찾을 수 없습니다.</h1>
+    <p class="lead">
+      아직 공개되지 않았거나, 주소가 바뀐 페이지입니다. 왼쪽 트리에서 다른 노트를 탐색하거나
+      전체 노트 목록으로 이동할 수 있습니다.
+    </p>
+    <div class="action-row">
+      <a class="button" href={withBase('/')}>홈으로</a>
+      <a class="button secondary" href={withBase('/notes/')}>전체 노트</a>
+    </div>
+  </main>
+</BaseLayout>

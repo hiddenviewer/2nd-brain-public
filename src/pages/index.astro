@@ -7,33 +7,35 @@ import KnowledgeGraph from '../components/KnowledgeGraph.astro'
 const notes = await getCollection('notes', ({ data }) => data.status === 'published')
 const featured = notes.filter((note) => note.data.featured)
 const base = import.meta.env.BASE_URL
+const basePath = base.endsWith('/') ? base : `${base}/`
+const withBase = (href) => `${basePath}${href.replace(/^\//, '')}`
 ---
 
-<BaseLayout title="2nd Brain Public" description="Curated visual knowledge notes from a personal second brain.">
+<BaseLayout title="2nd Brain Public" description="개인 세컨드 브레인에서 선별한 공개용 시각 지식 노트입니다.">
   <main>
     <section class="container hero">
       <div>
-        <p class="eyebrow">Public knowledge notes</p>
-        <h1>Visual notes from a curated second brain.</h1>
+        <p class="eyebrow">공개 지식 노트</p>
+        <h1>선별된 지식을 보기 좋은 노트로 재구성합니다.</h1>
         <p class="lead">
-          A public layer for selected ideas on AI agents, Apple technologies, investing research,
-          language learning, travel, and future learning topics.
+          AI 에이전트, Apple 기술, 한국 주식 리서치, 언어 학습, 여행처럼 계속 확장될 주제를
+          웹에서 탐색하기 쉬운 시각 노트와 지식 지도로 정리합니다.
         </p>
       </div>
       <aside class="hero-panel">
-        <h3>Publishing Model</h3>
+        <h3>공개 방식</h3>
         <p>
-          Private notes are not mirrored directly. Public pages are rewritten as visual explainers,
-          research notes, or slide-like decks with source attribution.
+          private 위키를 그대로 노출하지 않습니다. 공개할 가치가 있는 내용만 선별하고,
+          원천 자료와 내부 메모를 바탕으로 설명형 노트나 슬라이드형 페이지로 다시 작성합니다.
         </p>
         <div class="metric-grid">
           <div class="metric">
             <strong>{notes.length}</strong>
-            <span>published notes</span>
+            <span>공개 노트</span>
           </div>
           <div class="metric">
             <strong>5</strong>
-            <span>planned domains</span>
+            <span>확장 예정 영역</span>
           </div>
         </div>
       </aside>
@@ -42,27 +44,27 @@ const base = import.meta.env.BASE_URL
     <section class="container section">
       <div class="section-header">
         <div>
-          <p class="eyebrow">Explore</p>
-          <h2>Categories</h2>
+          <p class="eyebrow">탐색</p>
+          <h2>카테고리</h2>
         </div>
-        <p>Start with AI and investing. Apple, language learning, and travel are reserved as the public library expands.</p>
+        <p>처음에는 AI와 한국 주식 중심으로 시작하고, 이후 Apple, 영어, 일본어, 여행까지 같은 구조로 확장합니다.</p>
       </div>
       <div class="category-strip">
-        <a class="category-pill" href={`${base}categories/ai/`}><strong>AI</strong><span>Agents, tools, workflows</span></a>
-        <a class="category-pill" href={`${base}categories/investing/`}><strong>Investing</strong><span>Research process and markets</span></a>
-        <span class="category-pill"><strong>Apple</strong><span>Planned</span></span>
-        <span class="category-pill"><strong>Language</strong><span>Planned</span></span>
-        <span class="category-pill"><strong>Travel</strong><span>Planned</span></span>
+        <a class="category-pill" href={withBase('/categories/ai/')}><strong>AI</strong><span>에이전트, 도구, 워크플로</span></a>
+        <a class="category-pill" href={withBase('/categories/investing/')}><strong>한국 주식</strong><span>리서치 프로세스와 시장 노트</span></a>
+        <a class="category-pill" href={withBase('/categories/apple/')}><strong>Apple</strong><span>공개 예정</span></a>
+        <a class="category-pill" href={withBase('/categories/language/')}><strong>언어</strong><span>영어, 일본어 학습 노트</span></a>
+        <a class="category-pill" href={withBase('/categories/travel/')}><strong>여행</strong><span>도시, 일정, 경험 정리</span></a>
       </div>
     </section>
 
     <section class="container section">
       <div class="section-header">
         <div>
-          <p class="eyebrow">Featured</p>
-          <h2>Visual Notes</h2>
+          <p class="eyebrow">추천</p>
+          <h2>시각 노트</h2>
         </div>
-        <p>Notes are designed as compact explainers rather than raw Markdown summaries.</p>
+        <p>원본 요약을 그대로 보여주지 않고, 맥락과 구조를 갖춘 공개용 설명 노트로 재작성합니다.</p>
       </div>
       <div class="grid">
         {featured.map((note) => <NoteCard note={note} />)}
@@ -72,10 +74,10 @@ const base = import.meta.env.BASE_URL
     <section class="container section">
       <div class="section-header">
         <div>
-          <p class="eyebrow">Map</p>
-          <h2>Knowledge Map</h2>
+          <p class="eyebrow">지도</p>
+          <h2>지식 지도</h2>
         </div>
-        <p>A small first pass at showing how public notes connect. This can later be generated from graphify output.</p>
+        <p>공개 노트 사이의 연결을 먼저 작게 보여주고, 이후 graphify 결과를 바탕으로 자동 생성할 수 있게 확장합니다.</p>
       </div>
       <KnowledgeGraph />
     </section>

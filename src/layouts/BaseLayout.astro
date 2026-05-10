@@ -1,12 +1,15 @@
 ---
 import '../styles/global.css'
+import Sidebar from '../components/Sidebar.astro'
 
-const { title = '2nd Brain Public', description = 'Curated visual knowledge notes.' } = Astro.props
+const { title = '2nd Brain Public', description = '선별된 공개 지식 노트입니다.' } = Astro.props
 const base = import.meta.env.BASE_URL
+const basePath = base.endsWith('/') ? base : `${base}/`
+const withBase = (href) => `${basePath}${href.replace(/^\//, '')}`
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
@@ -15,19 +18,21 @@ const base = import.meta.env.BASE_URL
   </head>
   <body>
     <div class="site-shell">
-      <header class="topbar">
-        <a class="brand" href={base}>2nd Brain Public</a>
-        <nav class="nav" aria-label="Primary navigation">
-          <a href={`${base}categories/ai/`}>AI</a>
-          <a href={`${base}categories/investing/`}>Investing</a>
-          <a href={`${base}map/`}>Knowledge Map</a>
-          <a href={`${base}notes/`}>Notes</a>
-        </nav>
-      </header>
-      <slot />
-      <footer class="footer">
-        Curated public notes. Educational and informational material only.
-      </footer>
+      <Sidebar />
+      <div class="content-shell">
+        <header class="topbar">
+          <a class="topbar-link" href={withBase('/')}>홈</a>
+          <nav class="nav" aria-label="Primary navigation">
+            <a href={withBase('/notes/')}>노트</a>
+            <a href={withBase('/map/')}>지도</a>
+            <a href={withBase('/pipeline/')}>파이프라인</a>
+          </nav>
+        </header>
+        <slot />
+        <footer class="footer">
+          공개용으로 재작성한 지식 노트입니다. 투자 관련 내용은 정보 정리이며 투자 권유가 아닙니다.
+        </footer>
+      </div>
     </div>
   </body>
 </html>

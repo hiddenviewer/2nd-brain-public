@@ -4,6 +4,8 @@ Curated visual knowledge notes from a personal second brain, covering AI agents,
 
 This repository is the public presentation layer for selected knowledge notes. It does not mirror the private vault directly. Notes are rewritten and structured for public reading, with source attribution and visual layouts where useful.
 
+See [docs/content-pipeline.md](docs/content-pipeline.md) for the publishing pipeline.
+
 ## Scope
 
 - Visual notes and explainers
