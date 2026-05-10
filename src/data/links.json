@@ -1,0 +1,911 @@
+[
+  {
+    "title": "에르메스 에이전트(Hermes Agent)로 AI 업무 자동화와 나만의 AI 팀 운영을 다루는 실전 가이드",
+    "url": "https://wikidocs.net/book/19686",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-05-06",
+    "sourceNote": "2026-05-05-hermes-agent-ai-ai",
+    "tags": [
+      "ai-agents",
+      "orchestration",
+      "skills",
+      "wikidocs"
+    ],
+    "description": "WikiDocs 기반 2차 요약 메모다. Hermes Agent를 AI 챗봇이 아니라 개인비서와 역할형 에이전트 팀을 운영하는 실행 표면으로 소개한다."
+  },
+  {
+    "title": "에이전트 경제 전환이 여는 새로운 투자 기회",
+    "url": "https://news.hada.io/topic?id=29171",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-05-08",
+    "sourceNote": "2026-05-08-agent-economy-transition-investment-opportunity",
+    "tags": [
+      "ai-agents",
+      "product-strategy",
+      "governance",
+      "orchestration"
+    ],
+    "description": "GeekNews 링크를 바탕으로 정리된 2차 요약 메모다. 채팅형 AI에서 실행형 에이전트로 무게중심이 이동할 때, 소프트웨어 경쟁력이 UI보다 거버넌스·수직 워크플로·성과형 오케스트레이션으로 재편된다는 주장에 초점을 둔다."
+  },
+  {
+    "title": "에이전트 하네스 완전 해부",
+    "url": "https://yozm.wishket.com/magazine/detail/3718/",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-25",
+    "sourceNote": "2026-04-24-agent-harness-deep-dive",
+    "tags": [
+      "ai-agents",
+      "harness",
+      "filesystem",
+      "bash",
+      "skills"
+    ],
+    "description": "Yozm 기사 요약 메모다. 에이전트 성능 차이가 모델 자체보다도 파일시스템, Bash, 샌드박스, 메모리, 컨텍스트 관리 같은 실행 하네스 설계에서 크게 벌어진다는 관점을 정리한다."
+  },
+  {
+    "title": "오픈AI, Codex CLI에 장기 자율 작업 기능 '/goal' 추가",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=210020",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-05-04",
+    "sourceNote": "2026-05-03-ai-codex-cli-goal",
+    "tags": [
+      "ai-agents",
+      "codex",
+      "codex-cli",
+      "autonomy"
+    ],
+    "description": "AI타임스 기사 요약 메모다. Codex CLI 0.128.0에 목표 달성 시점까지 계획, 코드 작성, 테스트, 디버깅을 반복하는 장기 자율 실행 명령 /goal이 추가됐다고 전한다."
+  },
+  {
+    "title": "이번 주에 살펴볼 만한 AI/ML 논문 모음",
+    "url": "https://discuss.pytorch.kr/t/2026-04-20-26-ai-ml/9907",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-29",
+    "sourceNote": "2026-04-29-ai-ml",
+    "tags": [
+      "ai-agents",
+      "rag",
+      "agent-systems",
+      "transformers",
+      "papers"
+    ],
+    "description": "PyTorchKR의 주간 큐레이션 글로, 2026년 4월 20일~26일 사이 눈여겨볼 AI/ML 논문 10편을 RAG, 자율 에이전트 시스템, 트랜스포머 아키텍처 효율화 흐름 중심으로 묶어 소개한다."
+  },
+  {
+    "title": "하네스 엔지니어링 백과사전 02 목차",
+    "url": "https://wikidocs.net/346094",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-05-06",
+    "sourceNote": "2026-05-05-harness-engineering-encyclopedia-toc",
+    "tags": [
+      "ai-agents",
+      "harness",
+      "wikidocs"
+    ],
+    "description": "wikidocs 기반 2차 요약 메모다. 하네스 엔지니어링 백과사전의 전체 구성과 독자별 추천 읽기 경로를 정리한 목차 페이지다."
+  },
+  {
+    "title": "AHE는 관측 가능성을 바탕으로 코딩 에이전트 하네스를 자동 진화시키는 프레임워크를 설명한다",
+    "url": "https://discuss.pytorch.kr/t/agentic-harness-engineering-ahe/9987",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-05-04",
+    "sourceNote": "2026-05-03-ahe",
+    "tags": [
+      "ai-agents",
+      "harness",
+      "observability",
+      "evals"
+    ],
+    "description": "PyTorch KR 게시글 요약 메모다. AHE는 코딩 에이전트 성능 차이를 모델보다 하네스 설계와 관측 가능성에서 찾고, 하네스 전체를 분해 가능한 편집 표면으로 다루며 자동 개선하는 프레임워크를 설명한다."
+  },
+  {
+    "title": "AI 엔지니어링의 새 기준으로 떠오른 하네스",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=209151",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-15",
+    "sourceNote": "2026-04-15-ai-harness-engineering-standard",
+    "tags": [
+      "ai-agents",
+      "harness",
+      "context-engineering",
+      "article"
+    ],
+    "description": "AI Times 기사 요약 메모다. 에이전트 경쟁력이 모델 자체보다 모델, 도구, 메모리, 실행 환경, 권한 체계를 묶는 하네스 엔지니어링으로 이동하고 있다는 해석을 정리한다."
+  },
+  {
+    "title": "AI 코딩 시대, 더이상 성장하지 않는 개발자들",
+    "url": "https://news.hada.io/topic?id=28653",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-20",
+    "sourceNote": "2026-04-19-ai-coding-learning-friction",
+    "tags": [
+      "ai-agents",
+      "coding",
+      "learning",
+      "article"
+    ],
+    "description": "Hacker News Korea 링크를 통해 수집한 기사 요약 메모다. AI 코딩 도구가 구현 마찰을 줄이는 대신, 개발자의 판단력과 절차 기억 형성에 필요한 학습 마찰까지 제거할 수 있다는 문제의식을 정리한다."
+  },
+  {
+    "title": "AI Universal Translator: 로컬 LLM과 Gemini를 지원하는 데스크톱 번역·요약 앱",
+    "url": "https://news.hada.io/topic?id=29072",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-05-04",
+    "sourceNote": "2026-05-03-ai-universal-translator-llm-gemini",
+    "tags": [
+      "ai-agents",
+      "translation",
+      "summarization",
+      "local-llm",
+      "gemini",
+      "lm-studio",
+      "desktop"
+    ],
+    "description": "News.Hada에 올라온 요약 메모다. AI Universal Translator를 Tauri 2, Rust, React, TypeScript로 만든 데스크톱 번역·요약 앱으로 소개하며, LM Studio 기반 로컬 LLM과 Google API 기반 Gemini를 함께 붙여 텍스트와 파일 처리에 활용한다고 정리한다."
+  },
+  {
+    "title": "AI타임스 링크 접근 불가 메모",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=209296",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "review",
+    "updated": "2026-04-16",
+    "sourceNote": "2026-04-15-aitimes-209296-inaccessible",
+    "tags": [
+      "ai-agents",
+      "article",
+      "inaccessible"
+    ],
+    "description": "AI타임스 기사 링크를 저장하려 했지만, 현재 남아 있는 내용은 기사 본문이 아니라 본문 확인 실패 상태를 기록한 inbox 메모다. URL과 Discord 공유 흔적은 남아 있지만 실제 기사 제목과 본문은 확보되지 않았다."
+  },
+  {
+    "title": "Anthropic Labs Claude Design 연구 프리뷰 원문 메모",
+    "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-19",
+    "sourceNote": "2026-04-18-anthropic-labs-claude-design",
+    "tags": [
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "design-tools",
+      "prototyping"
+    ],
+    "description": "Anthropic Labs의 Claude Design 공식 발표 메모다. 2차 기사 해석이 아니라 1차 출처 기준으로, 이 도구가 research preview 단계의 시각 제작 표면이며 Claude Code handoff와 팀 디자인 시스템 반영을 제품 메시지의 핵심으로 둔다는 점을 확인할 수 있다."
+  },
+  {
+    "title": "Anthropic, Claude Code 장애 원인 3건과 재발 방지책 공개",
+    "url": "https://news.hada.io/topic?id=28828",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-26",
+    "sourceNote": "2026-04-25-anthropic-claude-code-3",
+    "tags": [
+      "ai-agents",
+      "anthropic",
+      "claude-code",
+      "reliability"
+    ],
+    "description": "News.Hada 요약 메모다. Anthropic이 최근 Claude Code 품질 저하를 일으킨 세 가지 운영 변경을 설명하고, 2026년 4월 20일까지 모두 수정했다고 밝힌 사건 정리다."
+  },
+  {
+    "title": "Anthropic의 신뢰할 수 있는 AI 에이전트 설계 원칙",
+    "url": "https://discuss.pytorch.kr/t/anthropic-ai-4-feat-anthropic/9697",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-16",
+    "sourceNote": "2026-04-15-anthropic-ai",
+    "tags": [
+      "ai-agents",
+      "reliability",
+      "harness",
+      "anthropic"
+    ],
+    "description": "Anthropic의 에이전트 신뢰성 원칙을 요약한 2차 메모다. 에이전트 위험을 모델 자체보다 Model, Harness, Tools, Environment를 함께 설계해야 다룰 수 있다는 관점을 정리한다."
+  },
+  {
+    "title": "Anthropic의 Claude Opus 4.7 정식 출시 메모",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=209371",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-18",
+    "sourceNote": "2026-04-17-anthropic-claude-opus-4-7",
+    "tags": [
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "models",
+      "coding",
+      "agents"
+    ],
+    "description": "AI타임스의 Claude Opus 4.7 출시 기사 요약 메모다. Anthropic이 기업용 코딩과 에이전트 작업을 겨냥해 새 플래그십 모델을 내놓았다는 점, 그리고 성능뿐 아니라 effort, task budgets, 자체 검증, 비용 통제 같은 운영 기능을 함께 강조했다는 점이 핵심이다."
+  },
+  {
+    "title": "Awesome AI Anatomy: Claude Code, Dify, Browser Use 등 15개 AI 코딩 에이전트 소스코드 분석 프로젝트 소개",
+    "url": "https://discuss.pytorch.kr/t/awesome-ai-anatomy-claude-code-dify-browser-use-15-ai/9747",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-26",
+    "sourceNote": "2026-04-26-awesome-ai-anatomy-claude-code-dify-browser-use-15-ai",
+    "tags": [
+      "ai-agents",
+      "code-reading",
+      "security",
+      "claude-code",
+      "browser-use"
+    ],
+    "description": "Claude Code, Dify, Browser Use, OpenHands, Cline, Codex CLI 등 주요 AI 코딩 에이전트를 코드 수준에서 해부해 아키텍처, 도구 호출, 상태 관리, 보안 자세를 문서화하는 오픈소스 프로젝트 소개 메모다."
+  },
+  {
+    "title": "Awesome Design.MD - 유명 웹사이트 디자인 시스템을 내 사이트에 적용하기",
+    "url": "https://news.hada.io/topic?id=28246",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-28",
+    "sourceNote": "2026-04-27-awesome-design-md",
+    "tags": [
+      "ai-agents",
+      "design-systems",
+      "markdown",
+      "repo"
+    ],
+    "description": "여러 유명 서비스의 UI 스타일을 DESIGN.md와 미리보기 파일 형태로 모아, AI 코딩 에이전트가 원하는 시각 언어를 빠르게 참조하도록 돕는 컬렉션 소개 메모다."
+  },
+  {
+    "title": "Better Harness: evals로 하네스를 점진적으로 개선하는 방법",
+    "url": "https://www.langchain.com/blog/better-harness-a-recipe-for-harness-hill-climbing-with-evals",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-30",
+    "sourceNote": "2026-04-29-better-harness-evals",
+    "tags": [
+      "ai-agents",
+      "harness",
+      "evals",
+      "langchain"
+    ],
+    "description": "LangChain 블로그 글을 요약한 큐레이션 메모다. 더 나은 agent 성능은 모델 교체보다 하네스 개선에서 나오며, evals를 학습 신호처럼 써서 실패를 누적 관찰하고 하네스를 점진적으로 hill-climbing 해야 한다는 관점을 제시한다."
+  },
+  {
+    "title": "Browser Harness: LLM이 Chrome을 직접 제어하고 부족한 기능을 스스로 추가하는 자기 치유형 브라우저 자동화",
+    "url": "https://discuss.pytorch.kr/t/browser-harness-llm-chrome/9821",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-25",
+    "sourceNote": "2026-04-24-browser-harness-llm-chrome",
+    "tags": [
+      "ai-agents",
+      "browser-automation",
+      "chrome",
+      "harness",
+      "cdp"
+    ],
+    "description": "PyTorch Korea 링크 큐레이션 성격의 2차 메모다. LLM이 Chrome DevTools Protocol에 직접 연결해 브라우저를 조작하고, 필요한 기능이 없으면 헬퍼 코드를 직접 추가하는 경량 브라우저 자동화 하네스를 소개한다."
+  },
+  {
+    "title": "Claude 지원 문서 모음: 기능과 기술",
+    "url": "https://support.claude.com/ko/collections/18031719-%EA%B8%B0%EB%8A%A5%EA%B3%BC-%EA%B8%B0%EC%88%A0",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-22",
+    "sourceNote": "2026-04-22-claude",
+    "tags": [
+      "ai-agents",
+      "claude",
+      "anthropic",
+      "skills",
+      "cowork"
+    ],
+    "description": "Anthropic 지원 센터의 기능과 기술 컬렉션을 정리한 source다. 개별 기능 설명보다, Claude의 제품 표면이 Skills, Cowork, Office 연동, Claude Design까지 하나의 작업 환경으로 묶여 제시된다는 점이 중요하다."
+  },
+  {
+    "title": "Claude API 신기능: Advisor Strategy(어드바이저 전략) 정리",
+    "url": "https://goddaehee.tistory.com/586",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-05-01",
+    "sourceNote": "2026-04-30-claude-api-advisor-strategy",
+    "tags": [
+      "ai-agents",
+      "anthropic",
+      "advisor",
+      "orchestration"
+    ],
+    "description": "Anthropic의 Advisor Strategy를 정리한 2차 메모다. 저비용 executor가 실제 작업과 tool 사용을 계속 담당하고, 고성능 Opus 계열 advisor는 복잡한 판단이 필요한 순간에만 짧게 개입하는 비대칭 실행 패턴을 설명한다."
+  },
+  {
+    "title": "Claude Code 기반 팀 자동화 4계층 아키텍처 미리 보기",
+    "url": "https://wikidocs.net/347756",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-05-08",
+    "sourceNote": "2026-05-08-claude-code-team-architecture-preview",
+    "tags": [
+      "ai-agents",
+      "orchestration",
+      "tmux",
+      "claude-code",
+      "wikidocs"
+    ],
+    "description": "WikiDocs 기반 2차 요약 메모다. Claude Code 기반 팀 자동화 시스템을 Control -> Orchestration -> Execution -> Infrastructure의 4계층으로 나눠, 사용자의 원격 지시가 팀장 pane과 팀원 pane을 거쳐 로컬 실행 환경으로 전달되는 흐름을 설명한다."
+  },
+  {
+    "title": "Claude Code 루틴 연구 프리뷰 메모",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=209352",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-18",
+    "sourceNote": "2026-04-18-claude-code",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "automation",
+      "coding-agents"
+    ],
+    "description": "AI Times 기사 요약 메모다. Anthropic이 Claude Code에 연구 프리뷰 기능 루틴(Routines)을 도입해, 일정, 이벤트, HTTP 호출로 반복 작업을 클라우드에서 상시 실행할 수 있게 했다는 내용을 담고 있다."
+  },
+  {
+    "title": "Claude Code Harness 한국어판 공유 메모",
+    "url": "https://news.hada.io/topic?id=28683",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-22",
+    "sourceNote": "2026-04-22-ai-claude-code-harness",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "harness",
+      "translation"
+    ],
+    "description": "Claude Code Harness 분석 자료를 한국어로 번역·재구성한 웹 문서를 소개하는 요약 메모다. 원저작 자체보다 이를 한국어 학습 자료로 재패키징했다는 점이 핵심이다."
+  },
+  {
+    "title": "Claude Code와 Codex 실전 비교",
+    "url": "https://news.hada.io/topic?id=28538",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-16",
+    "sourceNote": "2026-04-15-claude-code-codex",
+    "tags": [
+      "ai-agents",
+      "codex",
+      "claude-code",
+      "coding-agents"
+    ],
+    "description": "Hacker News Korea 링크를 통해 수집한 실전 비교 메모다. 대규모 코드베이스에서 Claude Code와 Codex를 함께 써 본 경험을 바탕으로, 속도보다 감독 비용과 지시 준수도가 운영 품질을 더 크게 가른다는 관점을 정리한다."
+  },
+  {
+    "title": "Claude Design 연구 프리뷰 공개 메모",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=209428",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-19",
+    "sourceNote": "2026-04-18-claude-design",
+    "tags": [
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "design-tools",
+      "prototyping"
+    ],
+    "description": "AI타임스의 Claude Design 공개 기사 요약 메모다. 같은 이벤트의 1차 출처는 [[2026-04-18-anthropic-labs-claude-design|Anthropic Labs Claude Design 연구 프리뷰 원문 메모]]이며, 이 문서는 2차 기사 해석과 시장 반응을 함께 담은 보조 맥락으로 본다."
+  },
+  {
+    "title": "Claude Design이 제기한 디자인 도구의 방향 전환",
+    "url": "https://news.hada.io/topic?id=28682",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-22",
+    "sourceNote": "2026-04-22-claude-design",
+    "tags": [
+      "ai-agents",
+      "claude-design",
+      "design-tools",
+      "figma"
+    ],
+    "description": "Hacker News Korea 성격의 링크 큐레이션 페이지에서 Claude Design을 계기로 디자인 도구의 source of truth가 다시 코드로 이동할 수 있다는 관측을 정리한 2차 해석 메모다. 제품 사실 자체보다 Figma 중심 워크플로에 대한 반작용과 design-to-code 루프 재편 가능성을 읽는 자료로 보는 편이 맞다."
+  },
+  {
+    "title": "Claude Opus 4.7 출시 임박 보도와 AI 디자인 도구 관측",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=209260",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-18",
+    "sourceNote": "2026-04-15-claude-opus-4-7-ai",
+    "tags": [
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "design-tools"
+    ],
+    "description": "Superseded in part by [[2026-04-17-anthropic-claude-opus-4-7|Anthropic의 Claude Opus 4.7 정식 출시 메모]] and [[2026-04-18-claude-design|Claude Design 연구 프리뷰 공개 메모]]. 이 문서는 출시 전 관측과 시장 기대를 기록한 메모로 남겨 둔다. AI타임스 보도를 요약한 링크 메모다. A"
+  },
+  {
+    "title": "DESIGN.md: AI 코딩 도구를 위한 디자인 시스템 단일 파일 포맷 정리",
+    "url": "https://news.hada.io/topic?id=28861",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-27",
+    "sourceNote": "2026-04-26-design-md-ai",
+    "tags": [
+      "ai-agents",
+      "design-systems",
+      "markdown",
+      "spec"
+    ],
+    "description": "Google Labs의 Stitch에서 제안한 DESIGN.md 포맷을 한국어로 정리한 2차 메모다. DESIGN.md를 단순 예시 모음이 아니라, 디자인 토큰과 설계 판단 기준을 한 파일에 묶는 에이전트용 디자인 시스템 계약으로 설명한다."
+  },
+  {
+    "title": "Gemini 앱에서 문서·시트·프레젠테이션 등 파일을 바로 생성하는 기능 공개",
+    "url": "https://news.hada.io/topic?id=29044",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-05-02",
+    "sourceNote": "2026-05-01-gemini",
+    "tags": [
+      "ai-agents",
+      "google",
+      "gemini",
+      "docs",
+      "sheets",
+      "slides",
+      "productivity"
+    ],
+    "description": "News.Hada에 올라온 요약 메모다. Google이 Gemini 앱에서 프롬프트만으로 Google Docs, Sheets, Slides와 PDF, DOCX, XLSX 등 다양한 파일을 직접 만들고 저장·내보낼 수 있게 했다고 정리한다."
+  },
+  {
+    "title": "Gemini in Chrome 한국 출시 메모",
+    "url": "https://news.hada.io/topic?id=28743",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-24",
+    "sourceNote": "2026-04-24-gemini-in-chrome",
+    "tags": [
+      "ai-agents",
+      "google",
+      "gemini",
+      "chrome",
+      "browser"
+    ],
+    "description": "News.Hada에 올라온 요약 메모다. Google이 2026년 4월 20일 한국에 Gemini in Chrome을 출시해, 브라우저 탭 안에서 페이지 이해, 후속 작업, 다중 탭 비교를 수행하는 AI 작업 표면을 넓혔다고 정리한다."
+  },
+  {
+    "title": "Gemma 4를 Codex CLI에서 로컬 모델로 실행한 사례와 설정 요약",
+    "url": "https://discuss.pytorch.kr/t/gn-gemma-4-codex-cli/9760",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-22",
+    "sourceNote": "2026-04-20-gn-gemma-4-codex-cli",
+    "tags": [
+      "ai-agents",
+      "codex",
+      "gemma",
+      "local-models",
+      "tool-calling"
+    ],
+    "description": "Gemma 4를 Codex CLI의 로컬 모델로 연결해 실제 코드 생성과 도구 호출을 시험한 커뮤니티 메모다. Mac과 NVIDIA GB10 환경을 나눠 보며, 로컬 코딩 에이전트의 실사용성은 토큰 속도보다 첫 시도 성공률과 도구 호출 안정성에 더 크게 좌우된다는 관점을 제시한다."
+  },
+  {
+    "title": "Google Agents CLI: 코딩 에이전트를 에이전트 빌더로 확장하는 Google의 메타 도구",
+    "url": "https://news.hada.io/topic?id=28817",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-29",
+    "sourceNote": "2026-04-28-google-agents-cli-google",
+    "tags": [
+      "ai-agents",
+      "google",
+      "gemini-cli",
+      "adk",
+      "google-cloud"
+    ],
+    "description": "GeekNews 링크 큐레이션 성격의 2차 메모다. Google Agents CLI를 Gemini CLI, Claude Code, Codex 같은 코딩 에이전트에 붙여, Google Cloud 기반 에이전트 설계·평가·배포 작업까지 수행하게 만드는 메타 도구로 소개한다."
+  },
+  {
+    "title": "Harness Engineering",
+    "url": "https://youtu.be/5buNm0pA1mg?si=UGge7fBDEYt00iHj",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-13",
+    "sourceNote": "2026-04-13-harness-engineering",
+    "tags": [
+      "ai-agents",
+      "agent-workflows",
+      "verification",
+      "youtube"
+    ],
+    "description": "AI 에이전트 성능은 모델 자체보다도 이를 둘러싼 실행 하네스의 설계에 크게 좌우된다는 점을 설명하는 YouTube 영상 요약 메모다."
+  },
+  {
+    "title": "harness-lab 설치와 사용법 요약",
+    "url": "https://github.com/jikime/harness-lab.git",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-05-04",
+    "sourceNote": "2026-05-03-harness-lab",
+    "tags": [
+      "ai-agents",
+      "harness",
+      "skills",
+      "claude-code"
+    ],
+    "description": "wikidocs 기반 2차 요약 메모다. harness-lab을 Claude Code 실습용 스킬로 설치하고, 각 장을 청사진 확인 후 승인 실행하는 흐름으로 사용하는 방법을 정리한다."
+  },
+  {
+    "title": "harness-lab 설치와 사용법 요약",
+    "url": "https://wikidocs.net/346792",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-05-04",
+    "sourceNote": "2026-05-03-harness-lab",
+    "tags": [
+      "ai-agents",
+      "harness",
+      "skills",
+      "claude-code"
+    ],
+    "description": "wikidocs 기반 2차 요약 메모다. harness-lab을 Claude Code 실습용 스킬로 설치하고, 각 장을 청사진 확인 후 승인 실행하는 흐름으로 사용하는 방법을 정리한다."
+  },
+  {
+    "title": "Harness: Claude Code용 에이전트 팀과 스킬을 자동 설계하는 플러그인",
+    "url": "https://news.hada.io/topic?id=27969",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-22",
+    "sourceNote": "2026-04-22-harness-claude-code",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "harness",
+      "plugins",
+      "multi-agent"
+    ],
+    "description": "Hacker News Korea 링크 큐레이션 성격의 2차 메모다. Claude Code용 플러그인이 도메인 설명만으로 에이전트 팀 구조와 스킬 문서를 자동 생성하고, 대표적인 다중 에이전트 아키텍처 패턴을 템플릿처럼 제공한다는 점을 소개한다."
+  },
+  {
+    "title": "Memradar: AI 코딩 세션을 분석해 작업 유형과 회고 리포트를 보여주는 오픈소스",
+    "url": "https://news.hada.io/topic?id=28948",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-05-01",
+    "sourceNote": "2026-04-30-memradar-ai",
+    "tags": [
+      "ai-agents",
+      "coding-agents",
+      "observability",
+      "retrospection"
+    ],
+    "description": "Memradar를 소개하는 2차 메모다. Claude Code와 Codex의 로컬 세션 로그를 읽어 작업 유형, 시간 사용 패턴, 토큰·비용 통계, 회고용 이미지 리포트를 브라우저 대시보드로 보여 주는 개인용 분석 도구로 설명한다."
+  },
+  {
+    "title": "Open Design: Claude Design의 제약을 보완하는 오픈소스 AI 디자인 도구",
+    "url": "https://discuss.pytorch.kr/t/open-design-anthropic-claude-design-ai/9959",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-05-01",
+    "sourceNote": "2026-04-30-open-design-claude-design-ai",
+    "tags": [
+      "ai-agents",
+      "design-tools",
+      "local-first",
+      "open-source"
+    ],
+    "description": "Open Design을 소개하는 2차 메모다. Claude Design의 클라우드 전용·비공개 성격을 보완하는 대안으로, 로컬 우선 실행, BYOK, 기존 코딩 에이전트 CLI 재사용을 묶은 오픈소스 디자인 워크플로로 설명한다."
+  },
+  {
+    "title": "OpenKB: LLM이 문서를 자동으로 위키 형태의 지식 베이스로 컴파일하는 오픈소스 도구",
+    "url": "https://discuss.pytorch.kr/t/openkb-llm/10058",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-05-08",
+    "sourceNote": "2026-05-07-openkb-llm",
+    "tags": [
+      "ai-agents",
+      "knowledge-base",
+      "memory"
+    ],
+    "description": "PyTorchKR 포럼의 소개 글로, OpenKB를 PDF, Word, Markdown, PowerPoint, HTML, Excel 같은 문서를 LLM으로 읽어 위키형 지식 베이스로 누적 컴파일하는 오픈소스 CLI 도구로 설명한다."
+  },
+  {
+    "title": "Prompt Master 소개와 핵심 기능 요약",
+    "url": "https://discuss.pytorch.kr/t/prompt-master-ai-claude/9910",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-29",
+    "sourceNote": "2026-04-29-prompt-master",
+    "tags": [
+      "ai-agents",
+      "prompts",
+      "skills",
+      "claude"
+    ],
+    "description": "Prompt Master를 여러 AI 도구용 프롬프트를 자동 설계하는 Claude 스킬로 소개한 2차 메모다. 핵심 가치는 긴 프롬프트를 늘리는 데 있지 않고, 요청을 구조화하고 필요한 명확화 질문만 남겨 재시도와 토큰 낭비를 줄이는 데 있다고 설명한다."
+  },
+  {
+    "title": "Swagger/OpenAPI를 AI 프론트엔드 자동화의 핵심 컨텍스트와 하네스로 쓰는 방법",
+    "url": "https://news.hada.io/topic?id=28597",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-04-19",
+    "sourceNote": "2026-04-18-swagger-ai",
+    "tags": [
+      "ai-agents",
+      "swagger",
+      "openapi",
+      "sdk",
+      "frontend"
+    ],
+    "description": "Swagger/OpenAPI 명세를 단순 문서가 아니라 AI가 읽는 구조화 컨텍스트이자 타입이 있는 SDK 생성의 출발점으로 활용해야 한다는 메모다. 프론트엔드 자동화의 정확도는 프롬프트 길이보다 명세 품질과 실행 가능한 검증 하네스에 더 크게 좌우된다는 주장에 가깝다."
+  },
+  {
+    "title": "TMUX 설치 및 기본 명령어 요약",
+    "url": "https://wikidocs.net/347760",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-05-08",
+    "sourceNote": "2026-05-07-tmux",
+    "tags": [
+      "ai-agents",
+      "tmux",
+      "terminal",
+      "workflow"
+    ],
+    "description": "wikidocs 기반 2차 요약 메모다. tmux 설치, 세션·윈도우·pane 구조, 기본 단축키, 그리고 여러 pane에 명령을 보내는 실습 흐름을 짧게 정리한다."
+  },
+  {
+    "title": "Warp, 오픈소스로 전환하며 agent-first 개발 모델 공개",
+    "url": "https://news.hada.io/topic?id=29020",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-05-01",
+    "sourceNote": "2026-04-30-warp-agent-first",
+    "tags": [
+      "ai-agents",
+      "warp",
+      "terminal-tools",
+      "open-source"
+    ],
+    "description": "GeekNews 링크 큐레이션 성격의 2차 메모다. Warp가 클라이언트를 AGPL로 오픈소스화하고, 에이전트가 구현을 맡고 사람은 명세와 검증에 집중하는 agent-first 개발 표면을 공개 협업 방식으로 확장하겠다는 방향을 요약한다."
+  },
+  {
+    "title": "YouTube 링크 접근 불가 메모",
+    "url": "https://youtu.be/W1gWIQp9k1Y?si=0a8Zm_qCVcD-jH40",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "review",
+    "updated": "2026-04-25",
+    "sourceNote": "2026-04-24-youtube-inaccessible",
+    "tags": [
+      "ai-agents",
+      "youtube",
+      "inaccessible"
+    ],
+    "description": "YouTube 영상 링크를 저장하려 했지만, 현재 확보된 내용은 실제 영상 제목이나 설명이 아니라 콘텐츠 조회 실패 상태를 기록한 inbox 메모다. URL과 Discord 공유 흔적은 남아 있지만 영상의 주제와 핵심 주장 자체는 확인되지 않는다."
+  },
+  {
+    "title": "Zed 1.0 릴리즈",
+    "url": "https://news.hada.io/topic?id=29024",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-05-02",
+    "sourceNote": "2026-05-01-zed-1-0",
+    "tags": [
+      "ai-agents",
+      "zed",
+      "editor",
+      "agentic-ide"
+    ],
+    "description": "GeekNews 링크 큐레이션 성격의 2차 메모다. Zed가 1.0에 도달하며, GPU 중심 편집기 아키텍처 위에 다중 에이전트 병렬 작업, edit predictions, Agent Client Protocol 연동을 묶은 AI-native editor 전략을 전면에 내세웠다는 점을 요약한다."
+  },
+  {
+    "title": "디지털데일리 기사 접근 불가 메모",
+    "url": "https://www.ddaily.co.kr/page/view/2026042413063740344",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "review",
+    "updated": "2026-04-30",
+    "sourceNote": "2026-04-29-ddaily-2026042413063740344-inaccessible",
+    "tags": [
+      "article",
+      "inaccessible",
+      "ddaily"
+    ],
+    "description": "디지털데일리 기사 링크를 저장하려 했지만, 현재 확보된 내용은 403 Forbidden으로 원문 확인에 실패했다는 메모와 메타데이터뿐이다. URL과 Discord 공유 흔적은 남아 있지만 실제 기사 제목과 본문은 확인되지 않는다."
+  },
+  {
+    "title": "애플경제 기사 접근 불가 메모",
+    "url": "http://www.apple-economy.com/news/articleView.html?idxno=78746",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "review",
+    "updated": "2026-04-18",
+    "sourceNote": "2026-04-18-apple-economy-78746-inaccessible",
+    "tags": [
+      "article",
+      "inaccessible"
+    ],
+    "description": "apple-economy.com 기사 링크를 저장하려 했지만, 현재 확보된 내용은 기사 본문이 아니라 본문 확인 실패 상태를 기록한 inbox 메모다. URL과 Discord 공유 흔적은 남아 있지만 실제 기사 제목과 본문은 확인되지 않는다."
+  },
+  {
+    "title": "Fincept Terminal 오픈소스 금융 분석 플랫폼 소개",
+    "url": "https://news.hada.io/topic?id=29089",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "public",
+    "updated": "2026-05-04",
+    "sourceNote": "2026-05-03-fincept-terminal",
+    "tags": [
+      "kr-stocks",
+      "ai-agents",
+      "finance",
+      "terminal",
+      "open-source",
+      "multi-llm"
+    ],
+    "description": "News.Hada에 올라온 요약 메모다. Fincept Terminal을 Bloomberg Terminal 대안을 지향하는 오픈소스 금융 분석 플랫폼으로 소개하며, 전통 금융 분석 기능 위에 다수의 AI 에이전트와 멀티 LLM, 데이터 커넥터, 트레이딩 기능을 결합한 통합 작업 표면으로 설명한다."
+  },
+  {
+    "title": "GeekNews 기사 접근 불가 메모",
+    "url": "https://news.hada.io/topic?id=28884",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "review",
+    "updated": "2026-04-26",
+    "sourceNote": "2026-04-26-geeknews-28884-inaccessible",
+    "tags": [
+      "article",
+      "inaccessible",
+      "geeknews"
+    ],
+    "description": "GeekNews 기사 링크를 저장하려 했지만, 현재 확보된 내용은 실제 기사 제목이나 본문이 아니라 해당 항목을 확인하지 못했다는 접근 실패 메모다."
+  },
+  {
+    "title": "Investing.com 기사 접근 불가 메모",
+    "url": "https://kr.investing.com/news/economy-news/article-1915338",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "review",
+    "updated": "2026-04-29",
+    "sourceNote": "2026-04-28-investing-1915338-inaccessible",
+    "tags": [
+      "article",
+      "inaccessible",
+      "investing"
+    ],
+    "description": "Investing.com 기사 링크를 저장하려 했지만, 현재 확보된 내용은 기사 본문이 아니라 원문 확인 실패 상태를 기록한 메모와 메타데이터뿐이다."
+  },
+  {
+    "title": "The Edit 링크 접근 불가 메모",
+    "url": "https://the-edit.co.kr/84624",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "review",
+    "updated": "2026-04-15",
+    "sourceNote": "2026-04-14-the-edit-84624-inaccessible",
+    "tags": [
+      "article",
+      "inaccessible"
+    ],
+    "description": "the-edit.co.kr/84624 링크를 저장하려 했지만 본문을 안정적으로 가져오지 못한 inbox 메모다. 현재 남아 있는 정보는 기사 내용이 아니라 수집 실패 상태와 링크 메타데이터다."
+  },
+  {
+    "title": "Yozm IT 기사 접근 불가 메모",
+    "url": "https://yozm.wishket.com/magazine/detail/3733/",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "review",
+    "updated": "2026-05-01",
+    "sourceNote": "2026-04-30-yozm-3733-inaccessible",
+    "tags": [
+      "article",
+      "inaccessible",
+      "yozm"
+    ],
+    "description": "Yozm IT 기사 링크를 저장하려 했지만, 현재 확보된 내용은 403 Forbidden으로 원문 확인에 실패했다는 메모와 메타데이터뿐이다. 실제 기사 제목과 본문은 확인되지 않는다."
+  },
+  {
+    "title": "삼성SDI-벤츠 10조 원 배터리 공급 계약 임박 보도",
+    "url": "http://m.g-enews.com/article/Global-Biz/2026/04/2026041508191598170c8c1c064d_1",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-04-16",
+    "sourceNote": "2026-04-15-sdi-10",
+    "tags": [
+      "kr-stocks",
+      "batteries",
+      "samsung-sdi",
+      "mercedes-benz"
+    ],
+    "description": "삼성SDI와 Mercedes-Benz의 2028년형 전기차용 프리즘 배터리 공급 계약이 임박했다는 기사 요약 메모다. 확정 공시가 아니라 보도 기사이므로 계약 성사 여부와 생산 거점 변화는 후속 확인이 필요하다."
+  },
+  {
+    "title": "아시아나 인수 뒤 대한항공, 고유가·고환율 부담이 본격 시험대에 올랐다는 분석",
+    "url": "https://www.hani.co.kr/arti/economy/economy_general/1256903.html",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-05-04",
+    "sourceNote": "2026-05-03-korean-air-oil-fx-headwinds",
+    "tags": [
+      "kr-stocks",
+      "korean-air",
+      "asiana",
+      "airline",
+      "oil",
+      "fx"
+    ],
+    "description": "2026년 5월 3일 캡처 기준으로, 한겨레 기사는 대한항공이 아시아나항공 인수 이후 외형은 커졌지만 중동 전쟁 여파에 따른 유가 급등과 원화 약세가 2026년 2분기부터 수익성에 본격 부담을 줄 수 있다고 짚는다."
+  },
+  {
+    "title": "연준의 새로운 금융환경지수 FCI-G, 연준 통화정책과 미국경제에 미치는 영향",
+    "url": "https://naver.me/Fnsi0iAC",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-05-04",
+    "sourceNote": "2026-05-03-fci-g",
+    "tags": [
+      "kr-stocks",
+      "macro",
+      "fed",
+      "financial-conditions"
+    ],
+    "description": "연준의 새 금융환경지수 FCI-G를 소개하는 네이버 프리미엄 기사 요약 메모다. 현재 확인 가능한 범위는 공개 프리뷰뿐이며, 지수의 개념과 기존 금융환경지수 대비 차별화 포인트를 설명하려는 문제의식까지만 파악된다."
+  }
+]

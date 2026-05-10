@@ -16,6 +16,16 @@ The private vault contains summaries, source notes, operating logs, and working 
 8. Build and verify the Astro site.
 9. Deploy to GitHub Pages.
 
+## Link Index Export
+
+The public link index is generated from private source notes:
+
+```bash
+npm run export:links
+```
+
+The exporter reads `02-wiki/sources/*.md`, extracts source titles and URLs, skips Discord message URLs, and marks inaccessible source notes as `review`.
+
 ## Public Note Template
 
 Each public note should answer:

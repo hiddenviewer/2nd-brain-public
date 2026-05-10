@@ -1,0 +1,103 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+import links from '../data/links.json'
+
+const categories = [
+  { id: 'ai', label: 'AI 에이전트' },
+  { id: 'apple', label: 'Apple' },
+  { id: 'investing', label: '한국 주식' },
+  { id: 'language', label: '언어' },
+  { id: 'travel', label: '여행' },
+  { id: 'general', label: '기타' },
+]
+
+const statusLabels = {
+  public: '공개',
+  review: '검토 필요',
+  private: '비공개',
+  dead: '접근 불가',
+}
+
+const grouped = categories
+  .map((category) => ({
+    ...category,
+    links: links.filter((link) => link.category === category.id),
+  }))
+  .filter((category) => category.links.length > 0)
+
+const publicCount = links.filter((link) => link.status === 'public').length
+const reviewCount = links.filter((link) => link.status === 'review').length
+---
+
+<BaseLayout title="링크 인덱스 | 2nd Brain Public">
+  <main class="container section">
+    <div class="section-header">
+      <div>
+        <p class="eyebrow">링크</p>
+        <h1>링크 인덱스</h1>
+      </div>
+      <p>
+        private 2nd-brain의 source note에서 추출한 공개용 링크 목록입니다.
+        Discord 메시지 링크는 제외했고, 접근 불가로 기록된 원문은 검토 필요로 표시합니다.
+      </p>
+    </div>
+
+    <div class="metric-grid link-summary">
+      <div class="metric">
+        <strong>{links.length}</strong>
+        <span>전체 링크</span>
+      </div>
+      <div class="metric">
+        <strong>{publicCount}</strong>
+        <span>공개 링크</span>
+      </div>
+      <div class="metric">
+        <strong>{reviewCount}</strong>
+        <span>검토 필요</span>
+      </div>
+      <div class="metric">
+        <strong>{grouped.length}</strong>
+        <span>표시 카테고리</span>
+      </div>
+    </div>
+
+    <nav class="link-jump" aria-label="Link category shortcuts">
+      {grouped.map((group) => (
+        <a href={`#${group.id}`}>{group.label} <span>{group.links.length}</span></a>
+      ))}
+    </nav>
+
+    <div class="link-groups">
+      {grouped.map((group) => (
+        <section class="link-group" id={group.id}>
+          <div class="section-header compact">
+            <div>
+              <p class="eyebrow">카테고리</p>
+              <h2>{group.label}</h2>
+            </div>
+            <p>{group.links.length}개 링크</p>
+          </div>
+          <div class="link-list">
+            {group.links.map((link) => (
+              <article class="link-item">
+                <div>
+                  <div class="link-meta">
+                    <span class:list={['status-badge', link.status]}>{statusLabels[link.status] ?? link.status}</span>
+                    {link.updated && <span>{link.updated}</span>}
+                    <span>{link.sourceNote}</span>
+                  </div>
+                  <h3><a href={link.url} target="_blank" rel="noreferrer">{link.title}</a></h3>
+                  {link.description && <p>{link.description}</p>}
+                  <div class="tag-row">
+                    {link.tags.slice(0, 6).map((tag) => <span class="tag">{tag}</span>)}
+                  </div>
+                </div>
+                <a class="external-link" href={link.url} target="_blank" rel="noreferrer">열기</a>
+              </article>
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+  </main>
+</BaseLayout>

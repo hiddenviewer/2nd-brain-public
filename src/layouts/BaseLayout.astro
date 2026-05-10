@@ -24,6 +24,7 @@ const withBase = (href) => `${basePath}${href.replace(/^\//, '')}`
           <a class="topbar-link" href={withBase('/')}>홈</a>
           <nav class="nav" aria-label="Primary navigation">
             <a href={withBase('/notes/')}>노트</a>
+            <a href={withBase('/links/')}>링크</a>
             <a href={withBase('/map/')}>지도</a>
             <a href={withBase('/pipeline/')}>파이프라인</a>
           </nav>
