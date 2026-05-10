@@ -1,0 +1,44 @@
+---
+import { getCollection, render } from 'astro:content'
+import BaseLayout from '../../layouts/BaseLayout.astro'
+
+export async function getStaticPaths() {
+  const notes = await getCollection('notes', ({ data }) => data.status === 'published')
+  return notes.map((note) => ({ params: { slug: note.slug }, props: { note } }))
+}
+
+const { note } = Astro.props
+const { Content } = await render(note)
+const { title, description, category, tags, updated, confidence, sources } = note.data
+---
+
+<BaseLayout title={`${title} | 2nd Brain Public`} description={description}>
+  <main class="container note-layout">
+    <article class="note-body">
+      <p class="eyebrow">{category}</p>
+      <h1>{title}</h1>
+      <p class="lead">{description}</p>
+      <Content />
+    </article>
+    <aside class="aside">
+      <h3>Note Metadata</h3>
+      <p><strong>Updated:</strong> {updated.toISOString().slice(0, 10)}</p>
+      <p><strong>Confidence:</strong> {confidence}</p>
+      <div class="tag-row">
+        {tags.map((tag) => <span class="tag">{tag}</span>)}
+      </div>
+      {sources.length > 0 && (
+        <>
+          <h3 style="margin-top: 24px;">Sources</h3>
+          <ul>
+            {sources.map((source) => (
+              <li>
+                {source.url ? <a href={source.url}>{source.label}</a> : source.label}
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+    </aside>
+  </main>
+</BaseLayout>

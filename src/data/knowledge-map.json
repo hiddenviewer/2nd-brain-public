@@ -1,0 +1,20 @@
+{
+  "nodes": [
+    { "id": "ai", "label": "AI", "kind": "category" },
+    { "id": "investing", "label": "Investing", "kind": "category" },
+    { "id": "harness", "label": "Agent Harness", "kind": "concept", "href": "/notes/ai-agent-harness/" },
+    { "id": "evals", "label": "Evaluation", "kind": "concept" },
+    { "id": "memory", "label": "Memory", "kind": "concept" },
+    { "id": "kr-process", "label": "Korean Equity Process", "kind": "process", "href": "/notes/korean-equity-research-process/" },
+    { "id": "disclosures", "label": "Disclosures", "kind": "source" },
+    { "id": "risk", "label": "Risk Check", "kind": "concept" }
+  ],
+  "edges": [
+    { "source": "ai", "target": "harness" },
+    { "source": "harness", "target": "evals" },
+    { "source": "harness", "target": "memory" },
+    { "source": "investing", "target": "kr-process" },
+    { "source": "kr-process", "target": "disclosures" },
+    { "source": "kr-process", "target": "risk" }
+  ]
+}

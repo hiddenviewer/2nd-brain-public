@@ -1,0 +1,22 @@
+---
+import { getCollection } from 'astro:content'
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import NoteCard from '../../components/NoteCard.astro'
+
+const notes = await getCollection('notes', ({ data }) => data.status === 'published')
+---
+
+<BaseLayout title="Notes | 2nd Brain Public">
+  <main class="container section">
+    <div class="section-header">
+      <div>
+        <p class="eyebrow">Library</p>
+        <h1>Notes</h1>
+      </div>
+      <p>Public visual notes rewritten from selected private knowledge material.</p>
+    </div>
+    <div class="grid">
+      {notes.map((note) => <NoteCard note={note} />)}
+    </div>
+  </main>
+</BaseLayout>

@@ -1,0 +1,83 @@
+---
+import { getCollection } from 'astro:content'
+import BaseLayout from '../layouts/BaseLayout.astro'
+import NoteCard from '../components/NoteCard.astro'
+import KnowledgeGraph from '../components/KnowledgeGraph.astro'
+
+const notes = await getCollection('notes', ({ data }) => data.status === 'published')
+const featured = notes.filter((note) => note.data.featured)
+const base = import.meta.env.BASE_URL
+---
+
+<BaseLayout title="2nd Brain Public" description="Curated visual knowledge notes from a personal second brain.">
+  <main>
+    <section class="container hero">
+      <div>
+        <p class="eyebrow">Public knowledge notes</p>
+        <h1>Visual notes from a curated second brain.</h1>
+        <p class="lead">
+          A public layer for selected ideas on AI agents, Apple technologies, investing research,
+          language learning, travel, and future learning topics.
+        </p>
+      </div>
+      <aside class="hero-panel">
+        <h3>Publishing Model</h3>
+        <p>
+          Private notes are not mirrored directly. Public pages are rewritten as visual explainers,
+          research notes, or slide-like decks with source attribution.
+        </p>
+        <div class="metric-grid">
+          <div class="metric">
+            <strong>{notes.length}</strong>
+            <span>published notes</span>
+          </div>
+          <div class="metric">
+            <strong>5</strong>
+            <span>planned domains</span>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="container section">
+      <div class="section-header">
+        <div>
+          <p class="eyebrow">Explore</p>
+          <h2>Categories</h2>
+        </div>
+        <p>Start with AI and investing. Apple, language learning, and travel are reserved as the public library expands.</p>
+      </div>
+      <div class="category-strip">
+        <a class="category-pill" href={`${base}categories/ai/`}><strong>AI</strong><span>Agents, tools, workflows</span></a>
+        <a class="category-pill" href={`${base}categories/investing/`}><strong>Investing</strong><span>Research process and markets</span></a>
+        <span class="category-pill"><strong>Apple</strong><span>Planned</span></span>
+        <span class="category-pill"><strong>Language</strong><span>Planned</span></span>
+        <span class="category-pill"><strong>Travel</strong><span>Planned</span></span>
+      </div>
+    </section>
+
+    <section class="container section">
+      <div class="section-header">
+        <div>
+          <p class="eyebrow">Featured</p>
+          <h2>Visual Notes</h2>
+        </div>
+        <p>Notes are designed as compact explainers rather than raw Markdown summaries.</p>
+      </div>
+      <div class="grid">
+        {featured.map((note) => <NoteCard note={note} />)}
+      </div>
+    </section>
+
+    <section class="container section">
+      <div class="section-header">
+        <div>
+          <p class="eyebrow">Map</p>
+          <h2>Knowledge Map</h2>
+        </div>
+        <p>A small first pass at showing how public notes connect. This can later be generated from graphify output.</p>
+      </div>
+      <KnowledgeGraph />
+    </section>
+  </main>
+</BaseLayout>

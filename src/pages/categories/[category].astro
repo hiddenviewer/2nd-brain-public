@@ -1,0 +1,51 @@
+---
+import { getCollection } from 'astro:content'
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import NoteCard from '../../components/NoteCard.astro'
+
+const labels = {
+  ai: 'AI',
+  apple: 'Apple',
+  investing: 'Investing',
+  language: 'Language',
+  travel: 'Travel',
+}
+
+export async function getStaticPaths() {
+  const labels = {
+    ai: 'AI',
+    apple: 'Apple',
+    investing: 'Investing',
+    language: 'Language',
+    travel: 'Travel',
+  }
+
+  return Object.keys(labels).map((category) => ({ params: { category } }))
+}
+
+const { category } = Astro.params
+const notes = await getCollection('notes', ({ data }) => data.status === 'published' && data.category === category)
+---
+
+<BaseLayout title={`${labels[category]} | 2nd Brain Public`}>
+  <main class="container section">
+    <div class="section-header">
+      <div>
+        <p class="eyebrow">Category</p>
+        <h1>{labels[category]}</h1>
+      </div>
+      <p>
+        {notes.length > 0
+          ? 'Public notes in this category.'
+          : 'This category is reserved for future public notes.'}
+      </p>
+    </div>
+    {notes.length > 0 ? (
+      <div class="grid">
+        {notes.map((note) => <NoteCard note={note} />)}
+      </div>
+    ) : (
+      <div class="callout" style="padding: 24px;">No public notes yet.</div>
+    )}
+  </main>
+</BaseLayout>

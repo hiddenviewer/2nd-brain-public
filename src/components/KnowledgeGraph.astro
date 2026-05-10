@@ -1,0 +1,71 @@
+---
+import map from '../data/knowledge-map.json'
+
+const base = import.meta.env.BASE_URL
+---
+
+<div class="graph-box" id="knowledge-graph" data-base={base} data-map={JSON.stringify(map)}></div>
+
+<script>
+  import cytoscape from 'cytoscape'
+
+  const el = document.getElementById('knowledge-graph')
+  if (el) {
+    const base = el.dataset.base || '/'
+    const map = JSON.parse(el.dataset.map || '{"nodes":[],"edges":[]}')
+    const elements = [
+      ...map.nodes.map((node) => ({ data: node })),
+      ...map.edges.map((edge) => ({ data: edge })),
+    ]
+
+    const cy = cytoscape({
+      container: el,
+      elements,
+      style: [
+        {
+          selector: 'node',
+          style: {
+            'background-color': '#126b64',
+            color: '#202124',
+            label: 'data(label)',
+            'font-size': 13,
+            'text-valign': 'bottom',
+            'text-margin-y': 9,
+            'text-wrap': 'wrap',
+            'text-max-width': 120,
+            height: 38,
+            width: 38,
+          },
+        },
+        {
+          selector: 'node[kind = "category"]',
+          style: {
+            'background-color': '#a34727',
+            height: 54,
+            width: 54,
+          },
+        },
+        {
+          selector: 'edge',
+          style: {
+            'curve-style': 'bezier',
+            'line-color': '#c8beab',
+            width: 2,
+          },
+        },
+      ],
+      layout: {
+        name: 'cose',
+        animate: false,
+        padding: 48,
+      },
+    })
+
+    cy.on('tap', 'node', (event) => {
+      const href = event.target.data('href')
+      if (href) {
+        window.location.href = `${base}${href.replace(/^\//, '')}`
+      }
+    })
+  }
+</script>
