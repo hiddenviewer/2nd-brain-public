@@ -900,6 +900,20 @@
     "description": "OpenAI가 Codex를 ChatGPT 모바일 앱에 통합해 스마트폰에서 원격 코딩 작업을 확인·제어할 수 있게 했다."
   },
   {
+    "title": "기사 내용을 확인할 수 없음",
+    "url": "https://n.news.naver.com/article/293/0000084307",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-05-17",
+    "sourceNote": "2026-05-17-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "원문 접근이 차단되어 기사 요약을 생성하지 못했습니다."
+  },
+  {
     "title": "디지털데일리 기사 접근 불가 메모",
     "url": "https://www.ddaily.co.kr/page/view/2026042413063740344",
     "category": "general",
