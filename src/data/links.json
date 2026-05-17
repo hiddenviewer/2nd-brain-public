@@ -375,6 +375,20 @@
     "description": "PyTorch Korea 링크 큐레이션 성격의 2차 메모다. LLM이 Chrome DevTools Protocol에 직접 연결해 브라우저를 조작하고, 필요한 기능이 없으면 헬퍼 코드를 직접 추가하는 경량 브라우저 자동화 하네스를 소개한다."
   },
   {
+    "title": "Claude 기초부터 고급까지 100",
+    "url": "https://wikidocs.net/book/19729",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-05-17",
+    "sourceNote": "2026-05-17-claude-100",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Claude와 Claude Code를 실무 자동화, 개발 워크플로, 운영까지 연결해 설명하는 WikiDocs 책입니다."
+  },
+  {
     "title": "Claude 지원 문서 모음: 기능과 기술",
     "url": "https://support.claude.com/ko/collections/18031719-%EA%B8%B0%EB%8A%A5%EA%B3%BC-%EA%B8%B0%EC%88%A0",
     "category": "ai",
@@ -900,20 +914,6 @@
     "description": "OpenAI가 Codex를 ChatGPT 모바일 앱에 통합해 스마트폰에서 원격 코딩 작업을 확인·제어할 수 있게 했다."
   },
   {
-    "title": "기사 내용을 확인할 수 없음",
-    "url": "https://n.news.naver.com/article/293/0000084307",
-    "category": "general",
-    "categoryLabel": "기타",
-    "status": "pending",
-    "updated": "2026-05-17",
-    "sourceNote": "2026-05-17-untitled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "원문 접근이 차단되어 기사 요약을 생성하지 못했습니다."
-  },
-  {
     "title": "디지털데일리 기사 접근 불가 메모",
     "url": "https://www.ddaily.co.kr/page/view/2026042413063740344",
     "category": "general",
@@ -1085,5 +1085,19 @@
       "financial-conditions"
     ],
     "description": "연준의 새 금융환경지수 FCI-G를 소개하는 네이버 프리미엄 기사 요약 메모다. 현재 확인 가능한 범위는 공개 프리뷰뿐이며, 지수의 개념과 기존 금융환경지수 대비 차별화 포인트를 설명하려는 문제의식까지만 파악된다."
+  },
+  {
+    "title": "한국산 철근, 美 데이터센터 붐 타고 대미 수출 급증",
+    "url": "https://www.mk.co.kr/news/business/12049903",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-05-17",
+    "sourceNote": "2026-05-17-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI 인프라와 데이터센터 건설 확대로 한국 철강업계가 50% 관세에도 미국 수출 10년 만의 최대 실적을 냈다."
   }
 ]
