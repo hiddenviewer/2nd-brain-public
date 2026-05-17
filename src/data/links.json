@@ -295,6 +295,20 @@
     "description": "AI타임스의 Claude Opus 4.7 출시 기사 요약 메모다. Anthropic이 기업용 코딩과 에이전트 작업을 겨냥해 새 플래그십 모델을 내놓았다는 점, 그리고 성능뿐 아니라 effort, task budgets, 자체 검증, 비용 통제 같은 운영 기능을 함께 강조했다는 점이 핵심이다."
   },
   {
+    "title": "Artificial Analysis 코딩 에이전트 벤치마크 공개",
+    "url": "https://discuss.pytorch.kr/t/artificial-analysis/10183",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-05-17",
+    "sourceNote": "2026-05-17-artificial-analysis",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "모델 단독이 아니라 모델, 하네스, 설정 조합별로 코딩 에이전트 성능·비용·시간을 비교한 벤치마크 소개 글."
+  },
+  {
     "title": "Awesome AI Anatomy: Claude Code, Dify, Browser Use 등 15개 AI 코딩 에이전트 소스코드 분석 프로젝트 소개",
     "url": "https://discuss.pytorch.kr/t/awesome-ai-anatomy-claude-code-dify-browser-use-15-ai/9747",
     "category": "ai",
@@ -673,6 +687,20 @@
     "description": "AI 코딩 에이전트의 흔한 실수를 줄이기 위해, Andrej Karpathy의 LLM 코딩 함정 관찰을 바탕으로 만든 4가지 원칙 중심의 Claude Code 가이드를 설명하는 글이다."
   },
   {
+    "title": "LLM위키 완벽 가이드",
+    "url": "https://wikidocs.net/book/19830",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-05-17",
+    "sourceNote": "2026-05-17-llm",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LLM 도구와 업무 자료를 재사용 가능한 지식 체계로 정리하는 방법을 다루는 WikiDocs 책입니다."
+  },
+  {
     "title": "Memradar: AI 코딩 세션을 분석해 작업 유형과 회고 리포트를 보여주는 오픈소스",
     "url": "https://news.hada.io/topic?id=28948",
     "category": "ai",
@@ -856,6 +884,20 @@
       "article"
     ],
     "description": "Apple이 macOS 27에서 Liquid Glass UI를 다듬고 성능·배터리·Siri 개선에 집중할 전망이다."
+  },
+  {
+    "title": "OpenAI Codex, 모바일 ChatGPT에 통합",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=210558",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-05-17",
+    "sourceNote": "2026-05-17-openai-codex-chatgpt",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "OpenAI가 Codex를 ChatGPT 모바일 앱에 통합해 스마트폰에서 원격 코딩 작업을 확인·제어할 수 있게 했다."
   },
   {
     "title": "디지털데일리 기사 접근 불가 메모",
