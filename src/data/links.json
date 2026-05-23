@@ -115,6 +115,20 @@
     "description": "GeekNews 링크를 바탕으로 정리된 2차 요약 메모다. Claude Code에서 Markdown 대신 HTML을 산출물 형식으로 쓰면 시각화, 상호작용, 공유성이 좋아져 스펙, 리뷰, 프로토타입, 리서치 보고서 작성에 유리하다는 주장을 다룬다."
   },
   {
+    "title": "클로드 코드(Claude Code) 멀티에이전트 팀 자동화 완전 가이드",
+    "url": "https://wikidocs.net/book/19736",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-05-23",
+    "sourceNote": "2026-05-23-claude-code",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Claude Code와 TMUX, Remote-Control로 6인 AI 개발팀을 구성하고 원격 운용하는 실전 가이드."
+  },
+  {
     "title": "하네스 엔지니어링 백과사전 02 목차",
     "url": "https://wikidocs.net/346094",
     "category": "ai",
