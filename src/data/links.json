@@ -1113,5 +1113,19 @@
       "article"
     ],
     "description": "AI 인프라와 데이터센터 건설 확대로 한국 철강업계가 50% 관세에도 미국 수출 10년 만의 최대 실적을 냈다."
+  },
+  {
+    "title": "HBM 이어 LPDDR까지, Nvidia가 메모리 시장 ‘큰손’으로 부상",
+    "url": "https://www.chosun.com/economy/tech_it/2026/05/18/QYVBSYWHOFDQNNXV72TYA2HO34/",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-05-23",
+    "sourceNote": "2026-05-24-hbm-lpddr-nvidia",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI 서버 수요 확대로 Nvidia가 내년 LPDDR 최대 사용자가 될 전망이다."
   }
 ]
