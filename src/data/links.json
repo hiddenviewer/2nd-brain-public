@@ -1,5 +1,19 @@
 [
   {
+    "title": "삼성SDS·네이버클라우드·엘리스그룹, 2조원 정부 GPU 사업 우선협상대상자 선정",
+    "url": "https://www.etnews.com/20260528000267",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-05-30",
+    "sourceNote": "2026-05-30-sds-2-gpu",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "정부의 대규모 AI GPU 데이터센터 구축 사업에서 삼성SDS, 네이버클라우드, 엘리스그룹이 우선협상대상자로 선정됐다."
+  },
+  {
     "title": "에르메스 에이전트(Hermes Agent)로 AI 업무 자동화와 나만의 AI 팀 운영을 다루는 실전 가이드",
     "url": "https://wikidocs.net/book/19686",
     "category": "ai",
@@ -485,6 +499,20 @@
     "description": "Claude Code Harness 분석 자료를 한국어로 번역·재구성한 웹 문서를 소개하는 요약 메모다. 원저작 자체보다 이를 한국어 학습 자료로 재패키징했다는 점이 핵심이다."
   },
   {
+    "title": "Claude Code를 일상 개발 에이전트로 운영하는 방법",
+    "url": "https://news.hada.io/topic?id=29957",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-05-30",
+    "sourceNote": "2026-05-30-claude-code",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Claude Code 생산성은 프롬프트보다 CLAUDE.md, Skills, Subagents, Plugins, MCP 같은 누적 설정과 검증 흐름에 크게 좌우된다는 글입니다."
+  },
+  {
     "title": "Claude Code와 Codex 실전 비교",
     "url": "https://news.hada.io/topic?id=28538",
     "category": "ai",
@@ -955,6 +983,20 @@
       "inaccessible"
     ],
     "description": "apple-economy.com 기사 링크를 저장하려 했지만, 현재 확보된 내용은 기사 본문이 아니라 본문 확인 실패 상태를 기록한 inbox 메모다. URL과 Discord 공유 흔적은 남아 있지만 실제 기사 제목과 본문은 확인되지 않는다."
+  },
+  {
+    "title": "유니슨, 10MW 해상풍력터빈 실증 착수",
+    "url": "https://www.epj.co.kr/news/articleView.html?idxno=38655",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-05-30",
+    "sourceNote": "2026-05-30-10mw",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "유니슨이 자체 개발한 10MW급 해상풍력터빈 시제품 설치를 시작하고 7월 가동을 목표로 실증에 들어간다."
   },
   {
     "title": "Fincept Terminal 오픈소스 금융 분석 플랫폼 소개",
