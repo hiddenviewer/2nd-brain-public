@@ -578,6 +578,20 @@
     "description": "Superseded in part by [[2026-04-17-anthropic-claude-opus-4-7|Anthropic의 Claude Opus 4.7 정식 출시 메모]] and [[2026-04-18-claude-design|Claude Design 연구 프리뷰 공개 메모]]. 이 문서는 출시 전 관측과 시장 기대를 기록한 메모로 남겨 둔다. AI타임스 보도를 요약한 링크 메모다. A"
   },
   {
+    "title": "CodeBoarding - 코드베이스용 인터랙티브 아키텍처 다이어그램",
+    "url": "https://news.hada.io/topic?id=29976",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-05-30",
+    "sourceNote": "2026-05-30-codeboarding",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "정적 분석과 LLM 추론으로 코드베이스 아키텍처 다이어그램과 문서를 자동 생성하는 오픈소스 도구."
+  },
+  {
     "title": "DESIGN.md: AI 코딩 도구를 위한 디자인 시스템 단일 파일 포맷 정리",
     "url": "https://news.hada.io/topic?id=28861",
     "category": "ai",
