@@ -608,6 +608,20 @@
     "description": "Google Labs의 Stitch에서 제안한 DESIGN.md 포맷을 한국어로 정리한 2차 메모다. DESIGN.md를 단순 예시 모음이 아니라, 디자인 토큰과 설계 판단 기준을 한 파일에 묶는 에이전트용 디자인 시스템 계약으로 설명한다."
   },
   {
+    "title": "Figma 디자인 에이전트 공개",
+    "url": "https://news.hada.io/topic?id=29906",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-05-31",
+    "sourceNote": "2026-05-31-figma",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Figma가 캔버스 안에서 디자인 탐색, 반복 작업 자동화, 피드백 정리를 돕는 내장형 디자인 에이전트를 베타로 공개했다."
+  },
+  {
     "title": "Gemini 앱에서 문서·시트·프레젠테이션 등 파일을 바로 생성하는 기능 공개",
     "url": "https://news.hada.io/topic?id=29044",
     "category": "ai",
