@@ -1,5 +1,19 @@
 [
   {
+    "title": "구글, Nano Banana 2·Nano Banana Pro 정식 출시",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=211134",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-05-31",
+    "sourceNote": "2026-05-31-nano-banana-2-nano-banana-pro",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Google이 기업용 이미지 생성 모델 Nano Banana 2와 Nano Banana Pro를 GA로 공개하고, 동영상 입력 기반 이미지 생성 기능을 프리뷰로 추가했다."
+  },
+  {
     "title": "삼성SDS·네이버클라우드·엘리스그룹, 2조원 정부 GPU 사업 우선협상대상자 선정",
     "url": "https://www.etnews.com/20260528000267",
     "category": "ai",
@@ -832,6 +846,20 @@
     "description": "PyTorchKR 포럼의 소개 글로, OpenKB를 PDF, Word, Markdown, PowerPoint, HTML, Excel 같은 문서를 LLM으로 읽어 위키형 지식 베이스로 누적 컴파일하는 오픈소스 CLI 도구로 설명한다."
   },
   {
+    "title": "Opus 4.8 등장: 클로드는 주도권을 되찾을 수 있을까",
+    "url": "https://yozm.wishket.com/magazine/detail/3780/",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-05-31",
+    "sourceNote": "2026-05-31-opus-4-8",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Anthropic의 Opus 4.8 출시와 Claude Code workflow 업데이트가 GPT-5.5·Codex와의 경쟁 구도에 어떤 의미를 갖는지 분석한 글."
+  },
+  {
     "title": "Prompt Master 소개와 핵심 기능 요약",
     "url": "https://discuss.pytorch.kr/t/prompt-master-ai-claude/9910",
     "category": "ai",
@@ -942,6 +970,20 @@
     "description": "스마트워치 시장에서 OLED 채택이 늘며 Apple Watch용 OLED를 공급하는 LG디스플레이의 수혜 가능성이 커지고 있다."
   },
   {
+    "title": "애플, WWDC서 엣지 AI 전략 부각",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=211107",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-05-31",
+    "sourceNote": "2026-05-31-wwdc-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "애플은 WWDC에서 온디바이스 AI를 앞세워 데이터센터 비용과 개인정보 리스크를 줄이는 하이브리드 AI 전략을 강조할 전망이다."
+  },
+  {
     "title": "中 BOE, 8.6세대 OLED 이달 양산...계획보다 앞당겨",
     "url": "https://www.thelec.kr/news/articleView.html?idxno=56514",
     "category": "apple",
@@ -1011,6 +1053,20 @@
       "inaccessible"
     ],
     "description": "apple-economy.com 기사 링크를 저장하려 했지만, 현재 확보된 내용은 기사 본문이 아니라 본문 확인 실패 상태를 기록한 inbox 메모다. URL과 Discord 공유 흔적은 남아 있지만 실제 기사 제목과 본문은 확인되지 않는다."
+  },
+  {
+    "title": "원문 접근 실패",
+    "url": "https://wikidocs.net/blog/@jaehong/14496/",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-05-31",
+    "sourceNote": "2026-05-31-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "해당 위키독스 블로그 글을 확인할 수 없어 요약을 생성하지 못했습니다."
   },
   {
     "title": "유니슨, 10MW 해상풍력터빈 실증 착수",
