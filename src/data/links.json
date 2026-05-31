@@ -1055,20 +1055,6 @@
     "description": "apple-economy.com 기사 링크를 저장하려 했지만, 현재 확보된 내용은 기사 본문이 아니라 본문 확인 실패 상태를 기록한 inbox 메모다. URL과 Discord 공유 흔적은 남아 있지만 실제 기사 제목과 본문은 확인되지 않는다."
   },
   {
-    "title": "원문 접근 실패",
-    "url": "https://wikidocs.net/blog/@jaehong/14496/",
-    "category": "general",
-    "categoryLabel": "기타",
-    "status": "pending",
-    "updated": "2026-05-31",
-    "sourceNote": "2026-05-31-untitled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "해당 위키독스 블로그 글을 확인할 수 없어 요약을 생성하지 못했습니다."
-  },
-  {
     "title": "유니슨, 10MW 해상풍력터빈 실증 착수",
     "url": "https://www.epj.co.kr/news/articleView.html?idxno=38655",
     "category": "general",
@@ -1081,6 +1067,20 @@
       "article"
     ],
     "description": "유니슨이 자체 개발한 10MW급 해상풍력터빈 시제품 설치를 시작하고 7월 가동을 목표로 실증에 들어간다."
+  },
+  {
+    "title": "페이지 확인 실패",
+    "url": "https://wikidocs.net/359432",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-05-31",
+    "sourceNote": "2026-05-31-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "요청한 WikiDocs 문서를 가져오지 못했습니다."
   },
   {
     "title": "Fincept Terminal 오픈소스 금융 분석 플랫폼 소개",
