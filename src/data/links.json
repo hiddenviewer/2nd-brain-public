@@ -1426,13 +1426,16 @@
     "url": "https://v.daum.net/v/20260602000228635",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-06-02",
+    "status": "public",
+    "updated": "2026-06-03",
     "sourceNote": "2026-06-03-k-lfp",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "battery",
+      "lfp",
+      "ess",
+      "ai-infrastructure"
     ],
-    "description": "국내 배터리 업계가 전기차·ESS 수요 확대와 미국·EU의 중국산 배터리 견제 흐름을 계기로 LFP 배터리 생산과 수주를 빠르게 늘리고 있다."
+    "description": "Daum 기사 요약 메모로, 전기차와 ESS 수요 확대, 미국·EU의 중국산 배터리 견제 흐름을 배경으로 국내 배터리·소재 업체들이 LFP 배터리와 양극재 생산 능력을 늘리고 있다는 내용을 다룬다."
   }
 ]
