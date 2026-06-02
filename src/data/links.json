@@ -247,6 +247,20 @@
     "description": "News.Hada에 올라온 요약 메모다. AI Universal Translator를 Tauri 2, Rust, React, TypeScript로 만든 데스크톱 번역·요약 앱으로 소개하며, LM Studio 기반 로컬 LLM과 Google API 기반 Gemini를 함께 붙여 텍스트와 파일 처리에 활용한다고 정리한다."
   },
   {
+    "title": "AI는 개발자의 역할을 어떻게 바꾸고 있나 (에이전틱 AI 시대의 소프트웨어 개발 패러다임 변화)",
+    "url": "https://www.samsungsds.com/kr/insights/future-of-software-development-agentic-ai.html",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-06-02",
+    "sourceNote": "2026-06-03-ai-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "에이전틱 AI(Agentic AI)의 등장으로 소프트웨어 개발이 자율적 실행 루프 중심으로 변화함에 따라, 개발자의 역할이 코더(Coder)에서 AI 에이전트를 지휘하는 오케스트레이터(Orchestrator)로 재편되고 있으며, 이에 대응하는 조직 프로세스 혁신과 개발자의 핵심 역량 재정의가 시급함을 분석합니다."
+  },
+  {
     "title": "AI타임스 링크 접근 불가 메모",
     "url": "https://www.aitimes.com/news/articleView.html?idxno=209296",
     "category": "ai",
@@ -1014,6 +1028,20 @@
     "description": "GeekNews 링크 큐레이션 성격의 2차 메모다. Zed가 1.0에 도달하며, GPU 중심 편집기 아키텍처 위에 다중 에이전트 병렬 작업, edit predictions, Agent Client Protocol 연동을 묶은 AI-native editor 전략을 전면에 내세웠다는 점을 요약한다."
   },
   {
+    "title": "Backend 시니어의 첫 모바일 앱, 5개월간 바이브 코딩으로 만든 사진 갤러리",
+    "url": "https://news.hada.io/topic?id=30082",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-06-02",
+    "sourceNote": "2026-06-03-backend-5",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "백엔드 시니어 개발자가 모바일 및 프론트엔드 경험 없이 AI(바이브 코딩) 도움을 받아 5개월 동안 사진 갤러리 앱을 개발하여 iOS로 출시하고 Android 비공개 베타를 진행한 경험기입니다."
+  },
+  {
     "title": "디지털데일리 기사 접근 불가 메모",
     "url": "https://www.ddaily.co.kr/page/view/2026042413063740344",
     "category": "general",
@@ -1055,6 +1083,20 @@
       "article"
     ],
     "description": "유니슨이 국내 최대급 10㎿ 해상풍력터빈 실증을 거쳐 내년 6월 양산을 준비하고 있으며, 장기적으로 20㎿급 개발을 목표로 한다."
+  },
+  {
+    "title": "트럼프, 철강·알루미늄 관세 조정…농기계 관세 25%→15%",
+    "url": "https://www.hankyung.com/article/2026060228557",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-06-02",
+    "sourceNote": "2026-06-03-25-15",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "도널드 트럼프 미국 대통령이 철강·알루미늄·구리 관련 일부 수입품에 대한 관세를 조정하는 포고문에 서명했습니다. 미국 제련·주조 금속 비중이 85% 이상인 설비에는 10% 우대 관세를 적용하고, 농기계 및 일부 산업 장비의 관세율은 15%로 낮추며, 이는 내년 말까지 한시적으로 시행됩니다."
   },
   {
     "title": "Daum 기사 접근 불가 메모",
@@ -1179,6 +1221,20 @@
       "defense-ai"
     ],
     "description": "네이버클라우드가 2026년 6월 1일자로 국방 AX 전담 조직을 신설해 한국형 국방 AI 플랫폼 사업화를 추진한다는 기사 요약 메모다. 같은 URL의 기존 수집 실패 메모인 [[2026-05-31-naver-news-011-0004626231-inaccessible|네이버뉴스 기사 접근 불가 메모]]를 보완하는 후속 source다."
+  },
+  {
+    "title": "대한항공, 회사채 수요예측 흥행",
+    "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4417821",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-06-02",
+    "sourceNote": "2026-06-03-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "대한항공이 2천억원 규모 회사채 수요예측에서 1조1천140억원 주문을 확보하며 강한 투자 수요를 확인했다."
   },
   {
     "title": "삼성D, 8.6세대 OLED 2라인에 LTPO 장비 도입 추진",
@@ -1368,5 +1424,19 @@
       "nvidia"
     ],
     "description": "조선일보 기사 요약 메모다. AI 서버 수요 확대 속에서 Nvidia가 HBM뿐 아니라 AI 서버 CPU용 LPDDR에서도 큰 수요처로 부상할 가능성을 다룬다."
+  },
+  {
+    "title": "K-배터리, LFP 배터리 시장 확대로 새 성장 기회 모색",
+    "url": "https://v.daum.net/v/20260602000228635",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-06-02",
+    "sourceNote": "2026-06-03-k-lfp",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "국내 배터리 업계가 전기차·ESS 수요 확대와 미국·EU의 중국산 배터리 견제 흐름을 계기로 LFP 배터리 생산과 수주를 빠르게 늘리고 있다."
   }
 ]
