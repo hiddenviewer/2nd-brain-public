@@ -529,14 +529,18 @@
     "url": "https://yozm.wishket.com/magazine/detail/3777/",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-06-02",
-    "sourceNote": "2026-06-03-claude-code",
+    "status": "public",
+    "updated": "2026-06-03",
+    "sourceNote": "2026-06-03-claude-code-custom-tools",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "claude-code",
+      "mcp",
+      "skills",
+      "hooks",
+      "subagents"
     ],
-    "description": "Claude Code를 더 효과적으로 쓰려면 MCP, Skills, Hooks, Sub-agents를 목적과 비용 구조에 맞게 골라야 한다는 글이다."
+    "description": "Yozm IT의 Claude Code 커스텀 도구 선택 가이드 메모다. Daisy Hollman의 Beyond the Basics with Claude Code 워크숍을 바탕으로 MCP, Skills, Hooks, Sub-agents를 목적과 비용 구조에 맞게 골라야 한다는 관점을 정리한다."
   },
   {
     "title": "Claude Code Harness 한국어판 공유 메모",
