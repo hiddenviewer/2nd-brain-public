@@ -1071,20 +1071,6 @@
     "description": "apple-economy.com 기사 링크를 저장하려 했지만, 현재 확보된 내용은 기사 본문이 아니라 본문 확인 실패 상태를 기록한 inbox 메모다. URL과 Discord 공유 흔적은 남아 있지만 실제 기사 제목과 본문은 확인되지 않는다."
   },
   {
-    "title": "트럼프, 철강·알루미늄 관세 조정…농기계 관세 25%→15%",
-    "url": "https://www.hankyung.com/article/2026060228557",
-    "category": "general",
-    "categoryLabel": "기타",
-    "status": "pending",
-    "updated": "2026-06-02",
-    "sourceNote": "2026-06-03-25-15",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "도널드 트럼프 미국 대통령이 철강·알루미늄·구리 관련 일부 수입품에 대한 관세를 조정하는 포고문에 서명했습니다. 미국 제련·주조 금속 비중이 85% 이상인 설비에는 10% 우대 관세를 적용하고, 농기계 및 일부 산업 장비의 관세율은 15%로 낮추며, 이는 내년 말까지 한시적으로 시행됩니다."
-  },
-  {
     "title": "Daum 기사 접근 불가 메모",
     "url": "https://v.daum.net/v/20260531171800781",
     "category": "general",
@@ -1356,6 +1342,23 @@
       "apple-supply-chain"
     ],
     "description": "BOE가 청두 B16 공장에서 8.6세대 OLED 양산 일정을 당초 하반기 목표보다 앞당겨 2026년 5월 말 유리기판 투입을 시작할 예정이라는 기사다. Asus와 Acer용 14인치 노트북 OLED 패널이 초기 대상이며, 한국 디스플레이 업체의 IT OLED 전환 논지를 볼 때 중국 경쟁사의 속도 변수가 커졌다는 신호로 다룬다."
+  },
+  {
+    "title": "트럼프, 철강·알루미늄 관세 조정과 농기계 관세 인하",
+    "url": "https://www.hankyung.com/article/2026060228557",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-06-03",
+    "sourceNote": "2026-06-03-trump-metal-tariff-adjustment",
+    "tags": [
+      "kr-stocks",
+      "tariffs",
+      "steel",
+      "aluminum",
+      "industrial-equipment"
+    ],
+    "description": "한국경제 기사 요약 메모다. 도널드 트럼프 미국 대통령이 철강·알루미늄·구리 관련 일부 수입품 관세를 조정하는 포고문에 서명했고, 미국산 금속 사용 비중이 높은 설비와 일부 농기계·산업장비에 한시적 우대 관세를 적용한다는 내용을 다룬다."
   },
   {
     "title": "한국산 철근, 美 데이터센터 붐 타고 대미 수출 급증",
