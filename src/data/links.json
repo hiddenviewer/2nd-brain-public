@@ -4,28 +4,17 @@
     "url": "https://www.aitimes.com/news/articleView.html?idxno=211134",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-05-31",
+    "status": "public",
+    "updated": "2026-06-01",
     "sourceNote": "2026-05-31-nano-banana-2-nano-banana-pro",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "google",
+      "gemini",
+      "image-generation",
+      "creative-workflow"
     ],
-    "description": "Google이 기업용 이미지 생성 모델 Nano Banana 2와 Nano Banana Pro를 GA로 공개하고, 동영상 입력 기반 이미지 생성 기능을 프리뷰로 추가했다."
-  },
-  {
-    "title": "삼성SDS·네이버클라우드·엘리스그룹, 2조원 정부 GPU 사업 우선협상대상자 선정",
-    "url": "https://www.etnews.com/20260528000267",
-    "category": "ai",
-    "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-05-30",
-    "sourceNote": "2026-05-30-sds-2-gpu",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "정부의 대규모 AI GPU 데이터센터 구축 사업에서 삼성SDS, 네이버클라우드, 엘리스그룹이 우선협상대상자로 선정됐다."
+    "description": "AI타임스 기사 메모다. Google이 기업용 이미지 생성 모델 Nano Banana 2와 Nano Banana Pro를 Google Cloud Gemini Enterprise Agent Platform에서 일반 공급으로 공개하고, 동영상 입력 기반 이미지 생성 기능을 프리뷰로 추가했다고 정리한다."
   },
   {
     "title": "에르메스 에이전트(Hermes Agent)로 AI 업무 자동화와 나만의 AI 팀 운영을 다루는 실전 가이드",
@@ -127,6 +116,23 @@
     "description": "PyTorchKR의 주간 큐레이션 글로, 2026년 4월 20일~26일 사이 눈여겨볼 AI/ML 논문 10편을 RAG, 자율 에이전트 시스템, 트랜스포머 아키텍처 효율화 흐름 중심으로 묶어 소개한다."
   },
   {
+    "title": "클로드 코드 멀티에이전트 팀 자동화 완전 가이드",
+    "url": "https://wikidocs.net/book/19736",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-06-01",
+    "sourceNote": "2026-05-23-claude-code",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "tmux",
+      "orchestration",
+      "wikidocs"
+    ],
+    "description": "WikiDocs에 공개된 Claude Code 멀티에이전트 팀 자동화 가이드 메모다. Claude Code, tmux, Remote-Control을 조합해 1인 개발자가 여러 역할의 AI 개발팀을 원격으로 운용하는 흐름을 설명한다."
+  },
+  {
     "title": "클로드 코드 사용하기: HTML의 놀라운 효율성",
     "url": "https://news.hada.io/topic?id=29347",
     "category": "ai",
@@ -141,20 +147,6 @@
       "artifacts"
     ],
     "description": "GeekNews 링크를 바탕으로 정리된 2차 요약 메모다. Claude Code에서 Markdown 대신 HTML을 산출물 형식으로 쓰면 시각화, 상호작용, 공유성이 좋아져 스펙, 리뷰, 프로토타입, 리서치 보고서 작성에 유리하다는 주장을 다룬다."
-  },
-  {
-    "title": "클로드 코드(Claude Code) 멀티에이전트 팀 자동화 완전 가이드",
-    "url": "https://wikidocs.net/book/19736",
-    "category": "ai",
-    "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-05-23",
-    "sourceNote": "2026-05-23-claude-code",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "Claude Code와 TMUX, Remote-Control로 6인 AI 개발팀을 구성하고 원격 운용하는 실전 가이드."
   },
   {
     "title": "하네스 엔지니어링 백과사전 02 목차",
@@ -341,14 +333,16 @@
     "url": "https://discuss.pytorch.kr/t/artificial-analysis/10183",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-05-17",
+    "status": "public",
+    "updated": "2026-06-01",
     "sourceNote": "2026-05-17-artificial-analysis",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "coding-agents",
+      "benchmarks",
+      "harness"
     ],
-    "description": "모델 단독이 아니라 모델, 하네스, 설정 조합별로 코딩 에이전트 성능·비용·시간을 비교한 벤치마크 소개 글."
+    "description": "PyTorch KR 게시글 요약 메모다. Artificial Analysis의 Coding Agent Index를 소개하며, 모델 단독 성능이 아니라 모델, 코딩 에이전트 하네스, 설정 조합별 성능·비용·시간을 비교해야 한다는 관점을 제공한다."
   },
   {
     "title": "Awesome AI Anatomy: Claude Code, Dify, Browser Use 등 15개 AI 코딩 에이전트 소스코드 분석 프로젝트 소개",
@@ -421,14 +415,17 @@
     "url": "https://wikidocs.net/book/19729",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-05-17",
+    "status": "public",
+    "updated": "2026-06-01",
     "sourceNote": "2026-05-17-claude-100",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "mcp",
+      "skills"
     ],
-    "description": "Claude와 Claude Code를 실무 자동화, 개발 워크플로, 운영까지 연결해 설명하는 WikiDocs 책입니다."
+    "description": "WikiDocs에 공개된 Claude/Claude Code 실무 학습용 책이다. Claude 입문, 프롬프트, Claude Code 명령, 프로젝트 메모리, 개발 워크플로, Skills, Hooks, MCP, Subagents, Agent Teams, RAG, 배포와 운영을 한 흐름으로 다룬다."
   },
   {
     "title": "Claude 지원 문서 모음: 기능과 기술",
@@ -497,6 +494,20 @@
     "description": "AI Times 기사 요약 메모다. Anthropic이 Claude Code에 연구 프리뷰 기능 루틴(Routines)을 도입해, 일정, 이벤트, HTTP 호출로 반복 작업을 클라우드에서 상시 실행할 수 있게 했다는 내용을 담고 있다."
   },
   {
+    "title": "Claude Code 커스텀 도구 선택 가이드",
+    "url": "https://yozm.wishket.com/magazine/detail/3777/",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-06-02",
+    "sourceNote": "2026-06-03-claude-code",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Claude Code를 더 효과적으로 쓰려면 MCP, Skills, Hooks, Sub-agents를 목적과 비용 구조에 맞게 골라야 한다는 글이다."
+  },
+  {
     "title": "Claude Code Harness 한국어판 공유 메모",
     "url": "https://news.hada.io/topic?id=28683",
     "category": "ai",
@@ -513,32 +524,38 @@
     "description": "Claude Code Harness 분석 자료를 한국어로 번역·재구성한 웹 문서를 소개하는 요약 메모다. 원저작 자체보다 이를 한국어 학습 자료로 재패키징했다는 점이 핵심이다."
   },
   {
-    "title": "Claude Code, 다이나믹 워크플로우 기능 공개 | GeekNews",
+    "title": "Claude Code, 다이나믹 워크플로우 기능 공개",
     "url": "https://news.hada.io/topic?id=29981",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-05-31",
+    "status": "public",
+    "updated": "2026-06-01",
     "sourceNote": "2026-06-01-claude-code-geeknews",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "claude-code",
+      "orchestration",
+      "subagents"
     ],
-    "description": "Claude Code가 단일 에이전트로 수행하기 어려운 복잡하고 대규모인 엔지니어링 작업을 수십~수백 개의 병렬 서브에이전트로 분산 처리하고, 동적 오케스트레이션 및 자체 검증을 거치는 '다이나믹 워크플로우(Dynamic Workflows)' 기능을 공개했습니다."
+    "description": "GeekNews에 공유된 Claude Code Dynamic Workflows 기능 공개 메모다. 단일 에이전트가 감당하기 어려운 대규모 엔지니어링 작업을 수십~수백 개의 병렬 서브에이전트로 분해하고, 동적 오케스트레이션과 자체 검증으로 수렴시키는 기능으로 소개한다."
   },
   {
     "title": "Claude Code를 일상 개발 에이전트로 운영하는 방법",
     "url": "https://news.hada.io/topic?id=29957",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-05-30",
+    "status": "public",
+    "updated": "2026-06-01",
     "sourceNote": "2026-05-30-claude-code",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "claude-code",
+      "harness",
+      "skills",
+      "subagents",
+      "mcp"
     ],
-    "description": "Claude Code 생산성은 프롬프트보다 CLAUDE.md, Skills, Subagents, Plugins, MCP 같은 누적 설정과 검증 흐름에 크게 좌우된다는 글입니다."
+    "description": "GeekNews에 공유된 Claude Code 운영 방법 메모다. Claude Code 생산성은 단발 프롬프트보다 CLAUDE.md, Skills, Subagents, Plugins, MCP 같은 누적 설정과 검증 흐름에 더 크게 좌우된다는 관점을 정리한다."
   },
   {
     "title": "Claude Code와 Codex 실전 비교",
@@ -610,14 +627,16 @@
     "url": "https://news.hada.io/topic?id=29976",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-05-30",
+    "status": "public",
+    "updated": "2026-06-01",
     "sourceNote": "2026-05-30-codeboarding",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "codebase-analysis",
+      "architecture",
+      "diagrams"
     ],
-    "description": "정적 분석과 LLM 추론으로 코드베이스 아키텍처 다이어그램과 문서를 자동 생성하는 오픈소스 도구."
+    "description": "GeekNews에 공유된 CodeBoarding 소개 메모다. 정적 분석과 LLM 추론을 결합해 코드베이스의 아키텍처 다이어그램과 문서를 생성하고, 사람과 AI 에이전트가 함께 읽을 수 있는 코드 지도를 만드는 도구로 설명된다."
   },
   {
     "title": "DESIGN.md: AI 코딩 도구를 위한 디자인 시스템 단일 파일 포맷 정리",
@@ -640,14 +659,16 @@
     "url": "https://news.hada.io/topic?id=29906",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-05-31",
+    "status": "public",
+    "updated": "2026-06-01",
     "sourceNote": "2026-05-31-figma",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "design-tools",
+      "figma",
+      "mcp"
     ],
-    "description": "Figma가 캔버스 안에서 디자인 탐색, 반복 작업 자동화, 피드백 정리를 돕는 내장형 디자인 에이전트를 베타로 공개했다."
+    "description": "Figma가 Figma Design 캔버스와 left rail 안에 내장되는 AI 디자인 에이전트를 베타로 공개했다는 링크 메모다. 기존 Claude Design이나 Open Design처럼 별도 제작 표면을 세우는 흐름과 달리, Figma는 기존 디자인 시스템과 협업 캔버스 안에 에이전트를 흡수하는 방향을 보여 준다."
   },
   {
     "title": "Gemini 앱에서 문서·시트·프레젠테이션 등 파일을 바로 생성하는 기능 공개",
@@ -785,32 +806,35 @@
     "description": "Hacker News Korea 링크 큐레이션 성격의 2차 메모다. Claude Code용 플러그인이 도메인 설명만으로 에이전트 팀 구조와 스킬 문서를 자동 생성하고, 대표적인 다중 에이전트 아키텍처 패턴을 템플릿처럼 제공한다는 점을 소개한다."
   },
   {
-    "title": "Karpathy 관찰을 바탕으로 Claude Code의 동작을 개선하는 단일 `CLAUDE.md` 가이드 소개",
+    "title": "Karpathy 관찰을 바탕으로 Claude Code의 동작을 개선하는 단일 CLAUDE.md 가이드 소개",
     "url": "https://discuss.pytorch.kr/t/karpathy-inspired-claude-code-guidelines-andrej-karpathy-llm-claude-code/9912",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-05-10",
+    "status": "public",
+    "updated": "2026-06-01",
     "sourceNote": "2026-05-10-karpathy-claude-code-claude-md",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "claude-code",
+      "harness",
+      "rules"
     ],
-    "description": "AI 코딩 에이전트의 흔한 실수를 줄이기 위해, Andrej Karpathy의 LLM 코딩 함정 관찰을 바탕으로 만든 4가지 원칙 중심의 Claude Code 가이드를 설명하는 글이다."
+    "description": "Andrej Karpathy의 LLM 코딩 함정 관찰을 바탕으로, Claude Code의 반복 실수를 줄이기 위한 단일 CLAUDE.md 가이드를 소개하는 PyTorch Korea 게시글 메모다."
   },
   {
     "title": "LLM위키 완벽 가이드",
     "url": "https://wikidocs.net/book/19830",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-05-17",
-    "sourceNote": "2026-05-17-llm",
+    "status": "public",
+    "updated": "2026-06-01",
+    "sourceNote": "2026-05-17-llm-wiki-guide",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "knowledge-base",
+      "memory"
     ],
-    "description": "LLM 도구와 업무 자료를 재사용 가능한 지식 체계로 정리하는 방법을 다루는 WikiDocs 책입니다."
+    "description": "WikiDocs 책으로, Claude, ChatGPT, OpenAI Codex 같은 LLM 도구를 업무에 쓰면서 흩어지는 대화, 자료, 결정 사항, 산출물을 재사용 가능한 LLM위키로 구조화하는 방법을 다룬다."
   },
   {
     "title": "Memradar: AI 코딩 세션을 분석해 작업 유형과 회고 리포트를 보여주는 오픈소스",
@@ -845,6 +869,23 @@
     "description": "Open Design을 소개하는 2차 메모다. Claude Design의 클라우드 전용·비공개 성격을 보완하는 대안으로, 로컬 우선 실행, BYOK, 기존 코딩 에이전트 CLI 재사용을 묶은 오픈소스 디자인 워크플로로 설명한다."
   },
   {
+    "title": "OpenAI Codex, 모바일 ChatGPT에 통합",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=210558",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-06-01",
+    "sourceNote": "2026-05-17-openai-codex-chatgpt",
+    "tags": [
+      "ai-agents",
+      "codex",
+      "chatgpt",
+      "mobile",
+      "remote-control"
+    ],
+    "description": "AI타임스 기사 요약 메모다. OpenAI가 Codex를 iOS와 Android용 ChatGPT 앱에 통합해, 스마트폰에서 원격 코딩 작업을 확인하고 제어할 수 있는 프리뷰를 공개했다고 전한다."
+  },
+  {
     "title": "OpenKB: LLM이 문서를 자동으로 위키 형태의 지식 베이스로 컴파일하는 오픈소스 도구",
     "url": "https://discuss.pytorch.kr/t/openkb-llm/10058",
     "category": "ai",
@@ -864,14 +905,17 @@
     "url": "https://yozm.wishket.com/magazine/detail/3780/",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-05-31",
+    "status": "public",
+    "updated": "2026-06-01",
     "sourceNote": "2026-05-31-opus-4-8",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "models",
+      "coding-agents"
     ],
-    "description": "Anthropic의 Opus 4.8 출시와 Claude Code workflow 업데이트가 GPT-5.5·Codex와의 경쟁 구도에 어떤 의미를 갖는지 분석한 글."
+    "description": "Yozm IT의 Anthropic Opus 4.8 출시와 Claude Code workflow 업데이트 분석 메모다. 모델 성능 자체보다 Honesty 개선, 코딩·에이전트 벤치마크, Claude Code의 Dynamic Workflows가 GPT-5.5·Codex와의 경쟁 구도에 어떤 의미를 갖는지를 다룬다."
   },
   {
     "title": "Prompt Master 소개와 핵심 기능 요약",
@@ -970,104 +1014,6 @@
     "description": "GeekNews 링크 큐레이션 성격의 2차 메모다. Zed가 1.0에 도달하며, GPU 중심 편집기 아키텍처 위에 다중 에이전트 병렬 작업, edit predictions, Agent Client Protocol 연동을 묶은 AI-native editor 전략을 전면에 내세웠다는 점을 요약한다."
   },
   {
-    "title": "삼성디스플레이, 세계 첫 8.6세대 IT OLED 양산 예정",
-    "url": "https://v.daum.net/v/20260531171800781",
-    "category": "apple",
-    "categoryLabel": "Apple",
-    "status": "pending",
-    "updated": "2026-05-31",
-    "sourceNote": "2026-06-01-8-6-it-oled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "삼성디스플레이가 7월부터 8.6세대 IT OLED 양산에 들어가며, Apple MacBook Pro와 AI PC·프리미엄 노트북 OLED 전환의 핵심 공급 기반이 될 전망이다."
-  },
-  {
-    "title": "스마트워치 OLED 확대에 LG디스플레이 수혜 기대",
-    "url": "https://news.nate.com/view/20260509n02817",
-    "category": "apple",
-    "categoryLabel": "Apple",
-    "status": "pending",
-    "updated": "2026-05-10",
-    "sourceNote": "2026-05-11-oled-lg",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "스마트워치 시장에서 OLED 채택이 늘며 Apple Watch용 OLED를 공급하는 LG디스플레이의 수혜 가능성이 커지고 있다."
-  },
-  {
-    "title": "애플, WWDC서 엣지 AI 전략 부각",
-    "url": "https://www.aitimes.com/news/articleView.html?idxno=211107",
-    "category": "apple",
-    "categoryLabel": "Apple",
-    "status": "pending",
-    "updated": "2026-05-31",
-    "sourceNote": "2026-05-31-wwdc-ai",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "애플은 WWDC에서 온디바이스 AI를 앞세워 데이터센터 비용과 개인정보 리스크를 줄이는 하이브리드 AI 전략을 강조할 전망이다."
-  },
-  {
-    "title": "中 BOE, 8.6세대 OLED 이달 양산...계획보다 앞당겨",
-    "url": "https://www.thelec.kr/news/articleView.html?idxno=56514",
-    "category": "apple",
-    "categoryLabel": "Apple",
-    "status": "pending",
-    "updated": "2026-05-14",
-    "sourceNote": "2026-05-14-boe-8-6-oled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "BOE가 청두 B16 공장에서 8.6세대 OLED 양산을 이달 말 시작하며, Asus·Acer용 14인치 노트북 패널이 대상이다."
-  },
-  {
-    "title": "MacBook 사용자를 위한 반가운 소식",
-    "url": "https://www.vietnam.vn/ko/tin-vui-cho-nguoi-dung-macbook",
-    "category": "apple",
-    "categoryLabel": "Apple",
-    "status": "pending",
-    "updated": "2026-05-14",
-    "sourceNote": "2026-05-14-macbook",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "Apple이 macOS 27에서 Liquid Glass UI를 다듬고 성능·배터리·Siri 개선에 집중할 전망이다."
-  },
-  {
-    "title": "OpenAI Codex, 모바일 ChatGPT에 통합",
-    "url": "https://www.aitimes.com/news/articleView.html?idxno=210558",
-    "category": "apple",
-    "categoryLabel": "Apple",
-    "status": "pending",
-    "updated": "2026-05-17",
-    "sourceNote": "2026-05-17-openai-codex-chatgpt",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "OpenAI가 Codex를 ChatGPT 모바일 앱에 통합해 스마트폰에서 원격 코딩 작업을 확인·제어할 수 있게 했다."
-  },
-  {
-    "title": "기사 원문 접근 불가",
-    "url": "https://n.news.naver.com/article/011/0004626231",
-    "category": "general",
-    "categoryLabel": "기타",
-    "status": "pending",
-    "updated": "2026-05-31",
-    "sourceNote": "2026-05-31-untitled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "Naver News 원문을 확인하지 못해 기사 내용을 요약할 수 없습니다."
-  },
-  {
     "title": "디지털데일리 기사 접근 불가 메모",
     "url": "https://www.ddaily.co.kr/page/view/2026042413063740344",
     "category": "general",
@@ -1081,20 +1027,6 @@
       "ddaily"
     ],
     "description": "디지털데일리 기사 링크를 저장하려 했지만, 현재 확보된 내용은 403 Forbidden으로 원문 확인에 실패했다는 메모와 메타데이터뿐이다. URL과 Discord 공유 흔적은 남아 있지만 실제 기사 제목과 본문은 확인되지 않는다."
-  },
-  {
-    "title": "문서 접근 불가: WikiDocs 페이지",
-    "url": "https://wikidocs.net/359432",
-    "category": "general",
-    "categoryLabel": "기타",
-    "status": "pending",
-    "updated": "2026-05-31",
-    "sourceNote": "2026-06-01-wikidocs",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "제공된 소스 본문이 없어 기사 내용을 신뢰 있게 요약할 수 없습니다."
   },
   {
     "title": "애플경제 기사 접근 불가 메모",
@@ -1111,18 +1043,33 @@
     "description": "apple-economy.com 기사 링크를 저장하려 했지만, 현재 확보된 내용은 기사 본문이 아니라 본문 확인 실패 상태를 기록한 inbox 메모다. URL과 Discord 공유 흔적은 남아 있지만 실제 기사 제목과 본문은 확인되지 않는다."
   },
   {
-    "title": "유니슨, 10MW 해상풍력터빈 실증 착수",
-    "url": "https://www.epj.co.kr/news/articleView.html?idxno=38655",
+    "title": "유니슨 10㎿ 해상풍력터빈 상용화 임박",
+    "url": "https://v.daum.net/v/20260601043245252",
     "category": "general",
     "categoryLabel": "기타",
     "status": "pending",
-    "updated": "2026-05-30",
-    "sourceNote": "2026-05-30-10mw",
+    "updated": "2026-06-02",
+    "sourceNote": "2026-06-03-10",
     "tags": [
       "inbox",
       "article"
     ],
-    "description": "유니슨이 자체 개발한 10MW급 해상풍력터빈 시제품 설치를 시작하고 7월 가동을 목표로 실증에 들어간다."
+    "description": "유니슨이 국내 최대급 10㎿ 해상풍력터빈 실증을 거쳐 내년 6월 양산을 준비하고 있으며, 장기적으로 20㎿급 개발을 목표로 한다."
+  },
+  {
+    "title": "Daum 기사 접근 불가 메모",
+    "url": "https://v.daum.net/v/20260531171800781",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "review",
+    "updated": "2026-06-01",
+    "sourceNote": "2026-06-01-daum-inaccessible",
+    "tags": [
+      "article",
+      "inaccessible",
+      "daum"
+    ],
+    "description": "Daum 뉴스 기사 링크를 저장하려 했지만, 현재 확보된 내용은 기사 본문이 아니라 본문 확인 실패 상태를 기록한 inbox 메모다. 원문 URL과 Discord 공유 흔적은 남아 있지만 실제 기사 제목, 본문, 기자명, 매체명은 확인되지 않는다."
   },
   {
     "title": "Fincept Terminal 오픈소스 금융 분석 플랫폼 소개",
@@ -1187,6 +1134,21 @@
     "description": "the-edit.co.kr/84624 링크를 저장하려 했지만 본문을 안정적으로 가져오지 못한 inbox 메모다. 현재 남아 있는 정보는 기사 내용이 아니라 수집 실패 상태와 링크 메타데이터다."
   },
   {
+    "title": "WikiDocs 페이지 접근 불가 메모",
+    "url": "https://wikidocs.net/359432",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "review",
+    "updated": "2026-06-01",
+    "sourceNote": "2026-06-01-wikidocs-inaccessible",
+    "tags": [
+      "article",
+      "inaccessible",
+      "wikidocs"
+    ],
+    "description": "WikiDocs 페이지 링크를 저장하려 했지만, 현재 확보된 내용은 실제 문서 본문이 아니라 접근 제한 또는 로딩 차단 상태를 기록한 inbox 메모다. 추출된 제목은 Just a moment...뿐이라 문서 주제, 작성자, 발행일, 핵심 논지를 확인할 수 없다."
+  },
+  {
     "title": "Yozm IT 기사 접근 불가 메모",
     "url": "https://yozm.wishket.com/magazine/detail/3733/",
     "category": "general",
@@ -1200,6 +1162,23 @@
       "yozm"
     ],
     "description": "Yozm IT 기사 링크를 저장하려 했지만, 현재 확보된 내용은 403 Forbidden으로 원문 확인에 실패했다는 메모와 메타데이터뿐이다. 실제 기사 제목과 본문은 확인되지 않는다."
+  },
+  {
+    "title": "네이버, 국방 AX 전담조직 신설로 국방 AI 시장 진출",
+    "url": "https://n.news.naver.com/article/011/0004626231",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-06-01",
+    "sourceNote": "2026-06-01-ax-ai",
+    "tags": [
+      "kr-stocks",
+      "naver",
+      "naver-cloud",
+      "sovereign-ai",
+      "defense-ai"
+    ],
+    "description": "네이버클라우드가 2026년 6월 1일자로 국방 AX 전담 조직을 신설해 한국형 국방 AI 플랫폼 사업화를 추진한다는 기사 요약 메모다. 같은 URL의 기존 수집 실패 메모인 [[2026-05-31-naver-news-011-0004626231-inaccessible|네이버뉴스 기사 접근 불가 메모]]를 보완하는 후속 source다."
   },
   {
     "title": "삼성D, 8.6세대 OLED 2라인에 LTPO 장비 도입 추진",
@@ -1235,18 +1214,55 @@
     "description": "삼성SDI와 Mercedes-Benz의 2028년형 전기차용 프리즘 배터리 공급 계약이 임박했다는 기사 요약 메모다. 확정 공시가 아니라 보도 기사이므로 계약 성사 여부와 생산 거점 변화는 후속 확인이 필요하다."
   },
   {
-    "title": "신한투자증권, 국내 주식 투자의견 ‘중립’ 하향",
+    "title": "삼성SDS·네이버클라우드·엘리스그룹, 2조원 정부 GPU 사업 우선협상대상자 선정",
+    "url": "https://www.etnews.com/20260528000267",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-06-01",
+    "sourceNote": "2026-05-30-sds-2-gpu",
+    "tags": [
+      "kr-stocks",
+      "ai-infrastructure",
+      "data-center",
+      "gpu",
+      "naver",
+      "samsung-sds"
+    ],
+    "description": "전자신문 기사 요약 메모다. 과기정통부와 NIPA의 2026년 AI 컴퓨팅자원 활용 기반 강화사업에서 삼성SDS, 네이버클라우드, 엘리스그룹이 우선협상대상자로 선정됐다는 내용을 다룬다."
+  },
+  {
+    "title": "스마트워치 OLED 확대에 LG디스플레이 수혜 기대",
+    "url": "https://news.nate.com/view/20260509n02817",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-06-01",
+    "sourceNote": "2026-05-11-oled-lg",
+    "tags": [
+      "kr-stocks",
+      "display",
+      "oled",
+      "apple-supply-chain"
+    ],
+    "description": "스마트워치 시장에서 OLED 채택이 늘면서 Apple Watch용 OLED를 공급하는 LG디스플레이가 수혜를 볼 수 있다는 기사다. 기존 K-디스플레이 OLED 논지 중 IT·모바일·차량용 고부가 패널 전환 축에 더해, 웨어러블용 소형 OLED 수요를 보강하는 자료다."
+  },
+  {
+    "title": "신한투자증권, 국내 주식 투자의견 중립 하향",
     "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4417563",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-05-31",
-    "sourceNote": "2026-06-01-untitled",
+    "status": "public",
+    "updated": "2026-06-01",
+    "sourceNote": "2026-06-01-shinhan-korean-equity-neutral",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "kospi",
+      "kosdaq",
+      "asset-allocation",
+      "shinhan-securities"
     ],
-    "description": "신한투자증권이 올해 처음으로 국내 증시 의견을 ‘비중 확대’에서 ‘중립’으로 낮췄다. 주도주 급등에 따른 가격·수급 부담과 거시 불확실성이 주요 배경이다."
+    "description": "신한투자증권이 2026년 6월 들어 국내 주식 투자의견을 비중 확대에서 중립으로 낮추고, 현금은 소폭 선호로 상향했다는 연합인포맥스 기사 요약 메모다."
   },
   {
     "title": "아시아나 인수 뒤 대한항공, 고유가·고환율 부담이 본격 시험대에 올랐다는 분석",
@@ -1283,45 +1299,74 @@
     "description": "연준의 새 금융환경지수 FCI-G를 소개하는 네이버 프리미엄 기사 요약 메모다. 현재 확인 가능한 범위는 공개 프리뷰뿐이며, 지수의 개념과 기존 금융환경지수 대비 차별화 포인트를 설명하려는 문제의식까지만 파악된다."
   },
   {
+    "title": "중국 BOE, 8.6세대 OLED 양산 일정 앞당김",
+    "url": "https://www.thelec.kr/news/articleView.html?idxno=56514",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-06-01",
+    "sourceNote": "2026-05-14-boe-8-6-oled",
+    "tags": [
+      "kr-stocks",
+      "display",
+      "oled",
+      "boe",
+      "apple-supply-chain"
+    ],
+    "description": "BOE가 청두 B16 공장에서 8.6세대 OLED 양산 일정을 당초 하반기 목표보다 앞당겨 2026년 5월 말 유리기판 투입을 시작할 예정이라는 기사다. Asus와 Acer용 14인치 노트북 OLED 패널이 초기 대상이며, 한국 디스플레이 업체의 IT OLED 전환 논지를 볼 때 중국 경쟁사의 속도 변수가 커졌다는 신호로 다룬다."
+  },
+  {
     "title": "한국산 철근, 美 데이터센터 붐 타고 대미 수출 급증",
     "url": "https://www.mk.co.kr/news/business/12049903",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-05-17",
-    "sourceNote": "2026-05-17-untitled",
+    "status": "public",
+    "updated": "2026-06-01",
+    "sourceNote": "2026-05-17-korean-rebar-us-data-center-exports",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "ai-infrastructure",
+      "data-center",
+      "steel",
+      "exports"
     ],
-    "description": "AI 인프라와 데이터센터 건설 확대로 한국 철강업계가 50% 관세에도 미국 수출 10년 만의 최대 실적을 냈다."
+    "description": "매일경제 기사 요약 메모다. 미국 AI 데이터센터 건설 붐이 철근, 강관, 컬러강판 수요를 끌어올리면서 2026년 4월 한국의 대미 철강 수출이 10여 년 만의 최대치를 기록했다는 내용을 다룬다."
   },
   {
     "title": "활주로 막힌 LCC, 홀로 나는 대한항공",
     "url": "https://www.fortunekorea.co.kr/news/articleView.html?idxno=52635",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-05-31",
+    "status": "public",
+    "updated": "2026-06-01",
     "sourceNote": "2026-05-31-lcc",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "korean-air",
+      "lcc",
+      "airline",
+      "fx",
+      "oil",
+      "consolidation"
     ],
-    "description": "대한항공은 아시아나항공 편입 효과와 화물·장거리 노선 경쟁력으로 독주하는 반면, 국내 LCC들은 고환율·고유가와 과열 경쟁으로 구조조정 압박에 몰리고 있다."
+    "description": "2026년 5월 31일 캡처 기준으로, FORTUNE Korea 기사는 대한항공이 아시아나항공 편입 효과, 화물, 장거리 노선, 비용 헤지로 상대적으로 방어하는 반면 국내 LCC는 고환율, 고유가, 과열 경쟁으로 재무 압박과 구조조정 가능성이 커지고 있다고 정리한다."
   },
   {
-    "title": "HBM 이어 LPDDR까지, Nvidia가 메모리 시장 ‘큰손’으로 부상",
+    "title": "HBM 이어 LPDDR까지, Nvidia가 메모리 시장 큰손으로 부상",
     "url": "https://www.chosun.com/economy/tech_it/2026/05/18/QYVBSYWHOFDQNNXV72TYA2HO34/",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-05-23",
+    "status": "public",
+    "updated": "2026-06-01",
     "sourceNote": "2026-05-24-hbm-lpddr-nvidia",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "semiconductors",
+      "ai-memory",
+      "hbm",
+      "lpddr",
+      "nvidia"
     ],
-    "description": "AI 서버 수요 확대로 Nvidia가 내년 LPDDR 최대 사용자가 될 전망이다."
+    "description": "조선일보 기사 요약 메모다. AI 서버 수요 확대 속에서 Nvidia가 HBM뿐 아니라 AI 서버 CPU용 LPDDR에서도 큰 수요처로 부상할 가능성을 다룬다."
   }
 ]
