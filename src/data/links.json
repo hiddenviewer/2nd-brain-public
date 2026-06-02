@@ -393,6 +393,22 @@
     "description": "여러 유명 서비스의 UI 스타일을 DESIGN.md와 미리보기 파일 형태로 모아, AI 코딩 에이전트가 원하는 시각 언어를 빠르게 참조하도록 돕는 컬렉션 소개 메모다."
   },
   {
+    "title": "Backend 시니어의 첫 모바일 앱, 5개월간 바이브 코딩으로 만든 사진 갤러리",
+    "url": "https://news.hada.io/topic?id=30082",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-06-03",
+    "sourceNote": "2026-06-03-backend-5",
+    "tags": [
+      "ai-agents",
+      "agentic-coding",
+      "ios",
+      "mobile-app"
+    ],
+    "description": "Backend 시니어 개발자가 모바일·프론트엔드 경험 없이 AI 기반 바이브 코딩을 활용해 5개월 동안 사진 갤러리 앱을 만들고 iOS에 출시한 경험기다. Android는 개인 개발자 정책 제약으로 비공개 베타 단계라고 설명된다."
+  },
+  {
     "title": "Better Harness: evals로 하네스를 점진적으로 개선하는 방법",
     "url": "https://www.langchain.com/blog/better-harness-a-recipe-for-harness-hill-climbing-with-evals",
     "category": "ai",
@@ -1027,20 +1043,6 @@
       "agentic-ide"
     ],
     "description": "GeekNews 링크 큐레이션 성격의 2차 메모다. Zed가 1.0에 도달하며, GPU 중심 편집기 아키텍처 위에 다중 에이전트 병렬 작업, edit predictions, Agent Client Protocol 연동을 묶은 AI-native editor 전략을 전면에 내세웠다는 점을 요약한다."
-  },
-  {
-    "title": "Backend 시니어의 첫 모바일 앱, 5개월간 바이브 코딩으로 만든 사진 갤러리",
-    "url": "https://news.hada.io/topic?id=30082",
-    "category": "apple",
-    "categoryLabel": "Apple",
-    "status": "pending",
-    "updated": "2026-06-02",
-    "sourceNote": "2026-06-03-backend-5",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "백엔드 시니어 개발자가 모바일 및 프론트엔드 경험 없이 AI(바이브 코딩) 도움을 받아 5개월 동안 사진 갤러리 앱을 개발하여 iOS로 출시하고 Android 비공개 베타를 진행한 경험기입니다."
   },
   {
     "title": "디지털데일리 기사 접근 불가 메모",
