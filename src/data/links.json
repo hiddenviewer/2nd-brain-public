@@ -469,24 +469,6 @@
     "companies": []
   },
   {
-    "title": "Claude 기초부터 고급까지 100",
-    "url": "https://wikidocs.net/book/19729",
-    "category": "ai",
-    "categoryLabel": "AI 에이전트",
-    "status": "public",
-    "updated": "2026-06-01",
-    "sourceNote": "2026-05-17-claude-100",
-    "tags": [
-      "ai-agents",
-      "claude",
-      "claude-code",
-      "mcp",
-      "skills"
-    ],
-    "description": "WikiDocs에 공개된 Claude/Claude Code 실무 학습용 책이다. Claude 입문, 프롬프트, Claude Code 명령, 프로젝트 메모리, 개발 워크플로, Skills, Hooks, MCP, Subagents, Agent Teams, RAG, 배포와 운영을 한 흐름으로 다룬다.",
-    "companies": []
-  },
-  {
     "title": "Claude 지원 문서 모음: 기능과 기술",
     "url": "https://support.claude.com/ko/collections/18031719-%EA%B8%B0%EB%8A%A5%EA%B3%BC-%EA%B8%B0%EC%88%A0",
     "category": "ai",
@@ -1293,6 +1275,22 @@
       "wikidocs"
     ],
     "description": "WikiDocs book 페이지 링크를 저장하려 했지만, 현재 확보된 내용은 실제 문서 본문이 아니라 Cloudflare 등 보안 장벽에 걸린 접근 실패 메모다. 추출된 제목은 Just a moment...뿐이므로 책의 실제 제목, 목차, 저자, 핵심 주제를 확인할 수 없다.",
+    "companies": []
+  },
+  {
+    "title": "WikiDocs book/19729 접근 불가 메모",
+    "url": "https://wikidocs.net/book/19729",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "review",
+    "updated": "2026-06-04",
+    "sourceNote": "2026-06-03-wikidocs-book-19729-inaccessible",
+    "tags": [
+      "article",
+      "inaccessible",
+      "wikidocs"
+    ],
+    "description": "WikiDocs book 페이지 링크를 저장하려 했지만, 확보된 내용은 실제 문서 본문이 아니라 Cloudflare 또는 브라우저 검증 대기 화면으로 보이는 접근 실패 메모다. 추출된 제목은 Just a moment...뿐이라 문서의 실제 제목, 목차, 작성자, 발행일, 핵심 주제를 확인할 수 없다.",
     "companies": []
   },
   {
