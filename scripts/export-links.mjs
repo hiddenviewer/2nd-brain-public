@@ -189,10 +189,10 @@ async function loadCompanyCatalog() {
     const frontmatter = readFrontmatter(markdown)
     const label = frontmatter.title || id
     const annualFinancials = parseMarkdownTable(
-      extractSection(markdown, ['최근 5개년 연간 재무', '연간 재무표', '연도별 재무']),
+      extractSection(markdown, ['연간 재무', '최근 5개년 연간 재무', '연간 재무표', '연도별 재무']),
     )
     const quarterlyFinancials = parseMarkdownTable(
-      extractSection(markdown, ['최근 분기 재무', '분기 재무표', '분기별 재무']),
+      extractSection(markdown, ['분기 재무', '최근 분기 재무', '분기 재무표', '분기별 재무']),
     )
     const aliases = [
       id,

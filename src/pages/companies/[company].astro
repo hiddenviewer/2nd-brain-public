@@ -40,6 +40,122 @@ const reviewCount = companyLinks.filter((link) => link.status === 'review').leng
 const tags = Array.from(new Set(companyLinks.flatMap((link) => link.tags || []))).slice(0, 10)
 const annualFinancials = company.annualFinancials
 const quarterlyFinancials = company.quarterlyFinancials
+
+const parseAmount = (value) => {
+  const text = String(value || '').replace(/\(계산\)/g, '').replace(/,/g, '').trim()
+  const match = text.match(/-?\d+(?:\.\d+)?/)
+  return match ? Number(match[0]) : null
+}
+
+const parsePercent = (value) => {
+  const match = String(value || '').replace(/,/g, '').match(/-?\d+(?:\.\d+)?/)
+  return match ? Number(match[0]) : null
+}
+
+const tableToSeries = (table) => {
+  if (!table) return []
+  const indexOf = (name) => table.headers.findIndex((header) => header === name)
+  const periodIndex = 0
+  const revenueIndex = indexOf('매출')
+  const operatingIncomeIndex = indexOf('영업이익')
+  const netIncomeIndex = indexOf('순이익')
+  const marginIndex = indexOf('영업이익율')
+  const expenseIndex = indexOf('영업비용')
+
+  return table.rows
+    .map((row) => ({
+      period: row[periodIndex],
+      revenue: parseAmount(row[revenueIndex]),
+      operatingIncome: parseAmount(row[operatingIncomeIndex]),
+      netIncome: parseAmount(row[netIncomeIndex]),
+      operatingExpense: parseAmount(row[expenseIndex]),
+      operatingMargin: parsePercent(row[marginIndex]),
+    }))
+    .filter((row) => row.period)
+}
+
+const buildChart = (rows) => {
+  if (!rows.length) return null
+  const metrics = [
+    { key: 'revenue', label: '매출', color: '#126b64' },
+    { key: 'operatingIncome', label: '영업이익', color: '#395a8f' },
+    { key: 'netIncome', label: '순이익', color: '#a34727' },
+    { key: 'operatingExpense', label: '영업비용', color: '#7a6f57' },
+  ]
+  const width = 860
+  const height = 360
+  const margin = { top: 22, right: 64, bottom: 74, left: 72 }
+  const plotWidth = width - margin.left - margin.right
+  const plotHeight = height - margin.top - margin.bottom
+  const amountValues = rows.flatMap((row) => metrics.map((metric) => row[metric.key])).filter((value) => value !== null)
+  const marginValues = rows.map((row) => row.operatingMargin).filter((value) => value !== null)
+  const amountMin = Math.min(0, ...amountValues)
+  const amountMax = Math.max(0, ...amountValues)
+  const marginMin = Math.min(0, ...marginValues)
+  const marginMax = Math.max(0, ...marginValues)
+  const amountSpan = amountMax - amountMin || 1
+  const marginSpan = marginMax - marginMin || 1
+  const yAmount = (value) => margin.top + ((amountMax - value) / amountSpan) * plotHeight
+  const yMargin = (value) => margin.top + ((marginMax - value) / marginSpan) * plotHeight
+  const groupWidth = plotWidth / rows.length
+  const barWidth = Math.max(8, Math.min(18, groupWidth / 7))
+  const zeroY = yAmount(0)
+  const bars = rows.flatMap((row, rowIndex) =>
+    metrics.map((metric, metricIndex) => {
+      const value = row[metric.key]
+      if (value === null) return null
+      const groupStart = margin.left + rowIndex * groupWidth
+      const x = groupStart + groupWidth / 2 - (metrics.length * barWidth) / 2 + metricIndex * barWidth
+      const y = Math.min(yAmount(value), zeroY)
+      const h = Math.max(1, Math.abs(zeroY - yAmount(value)))
+      return { ...metric, value, x, y, height: h }
+    }),
+  ).filter(Boolean)
+  const linePoints = rows
+    .map((row, rowIndex) => {
+      if (row.operatingMargin === null) return null
+      const x = margin.left + rowIndex * groupWidth + groupWidth / 2
+      const y = yMargin(row.operatingMargin)
+      return { x, y, value: row.operatingMargin }
+    })
+    .filter(Boolean)
+  const xLabels = rows.map((row, rowIndex) => ({
+    label: row.period,
+    x: margin.left + rowIndex * groupWidth + groupWidth / 2,
+    y: height - 38,
+  }))
+  const amountTicks = [amountMin, (amountMin + amountMax) / 2, amountMax].map((value) => ({
+    value,
+    label: `${Math.round(value).toLocaleString('ko-KR')}억`,
+    y: yAmount(value),
+  }))
+  const marginTicks = [marginMin, (marginMin + marginMax) / 2, marginMax].map((value) => ({
+    value,
+    label: `${value.toFixed(1)}%`,
+    y: yMargin(value),
+  }))
+  return {
+    width,
+    height,
+    margin,
+    plotWidth,
+    plotHeight,
+    metrics,
+    bars,
+    linePoints,
+    linePath: linePoints.map((point) => `${point.x},${point.y}`).join(' '),
+    xLabels,
+    amountTicks,
+    marginTicks,
+    zeroY,
+  }
+}
+
+const annualSeries = tableToSeries(annualFinancials)
+const quarterlySeries = tableToSeries(quarterlyFinancials)
+const annualChart = buildChart(annualSeries)
+const quarterlyChart = buildChart(quarterlySeries)
+const hasFinancialDashboard = annualFinancials || quarterlyFinancials
 ---
 
 <BaseLayout title={`${company.label} 링크 | 2nd Brain Public`}>
@@ -85,43 +201,125 @@ const quarterlyFinancials = company.quarterlyFinancials
         )}
       </section>
 
-      {(annualFinancials || quarterlyFinancials) && (
+      {hasFinancialDashboard && (
         <section class="financial-section">
           <h2>재무 요약</h2>
-          {annualFinancials && (
-            <div class="financial-table-block">
-              <h3>최근 5개년 연간</h3>
-              <div class="table-scroll">
-                <table>
-                  <thead>
-                    <tr>{annualFinancials.headers.map((header) => <th>{header}</th>)}</tr>
-                  </thead>
-                  <tbody>
-                    {annualFinancials.rows.map((row) => (
-                      <tr>{row.map((cell) => <td>{cell}</td>)}</tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
+          <div class="financial-dashboard">
+            <input id={`financial-annual-${company.id}`} type="radio" name={`financial-view-${company.id}`} checked={Boolean(annualFinancials)} />
+            <input id={`financial-quarterly-${company.id}`} type="radio" name={`financial-view-${company.id}`} checked={!annualFinancials && Boolean(quarterlyFinancials)} />
+            <div class="financial-tabs">
+              {annualFinancials && <label for={`financial-annual-${company.id}`}>연간</label>}
+              {quarterlyFinancials && <label for={`financial-quarterly-${company.id}`}>분기</label>}
             </div>
-          )}
-          {quarterlyFinancials && (
-            <div class="financial-table-block">
-              <h3>최근 분기</h3>
-              <div class="table-scroll">
-                <table>
-                  <thead>
-                    <tr>{quarterlyFinancials.headers.map((header) => <th>{header}</th>)}</tr>
-                  </thead>
-                  <tbody>
-                    {quarterlyFinancials.rows.map((row) => (
-                      <tr>{row.map((cell) => <td>{cell}</td>)}</tr>
-                    ))}
-                  </tbody>
-                </table>
+
+            {annualFinancials && (
+              <div class="financial-panel annual-panel">
+                {annualChart && (
+                  <div class="financial-chart">
+                    <div class="chart-header">
+                      <h3>연간 추이</h3>
+                      <div class="chart-legend">
+                        {annualChart.metrics.map((metric) => <span style={`--legend-color: ${metric.color}`}>{metric.label}</span>)}
+                        <span class="line-legend">영업이익률</span>
+                      </div>
+                    </div>
+                    <div class="chart-scroll">
+                      <svg viewBox={`0 0 ${annualChart.width} ${annualChart.height}`} role="img" aria-label={`${company.label} 연간 재무 그래프`}>
+                        <rect x={annualChart.margin.left} y={annualChart.margin.top} width={annualChart.plotWidth} height={annualChart.plotHeight} class="chart-plot" />
+                        {annualChart.amountTicks.map((tick) => (
+                          <>
+                            <line x1={annualChart.margin.left} x2={annualChart.width - annualChart.margin.right} y1={tick.y} y2={tick.y} class="chart-gridline" />
+                            <text x={annualChart.margin.left - 10} y={tick.y + 4} class="chart-axis left">{tick.label}</text>
+                          </>
+                        ))}
+                        {annualChart.marginTicks.map((tick) => (
+                          <text x={annualChart.width - annualChart.margin.right + 10} y={tick.y + 4} class="chart-axis right">{tick.label}</text>
+                        ))}
+                        <line x1={annualChart.margin.left} x2={annualChart.width - annualChart.margin.right} y1={annualChart.zeroY} y2={annualChart.zeroY} class="chart-zero" />
+                        {annualChart.bars.map((bar) => (
+                          <rect x={bar.x} y={bar.y} width="14" height={bar.height} fill={bar.color} rx="2" />
+                        ))}
+                        {annualChart.linePoints.length > 1 && <polyline points={annualChart.linePath} class="chart-margin-line" />}
+                        {annualChart.linePoints.map((point) => <circle cx={point.x} cy={point.y} r="4" class="chart-margin-dot" />)}
+                        {annualChart.xLabels.map((label) => (
+                          <text x={label.x} y={label.y} class="chart-x-label" transform={`rotate(-35 ${label.x} ${label.y})`}>{label.label}</text>
+                        ))}
+                      </svg>
+                    </div>
+                  </div>
+                )}
+                <div class="financial-table-block">
+                  <h3>전체 연간 재무</h3>
+                  <div class="table-scroll">
+                    <table>
+                      <thead>
+                        <tr>{annualFinancials.headers.map((header) => <th>{header}</th>)}</tr>
+                      </thead>
+                      <tbody>
+                        {annualFinancials.rows.map((row) => (
+                          <tr>{row.map((cell) => <td>{cell}</td>)}</tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
               </div>
-            </div>
-          )}
+            )}
+
+            {quarterlyFinancials && (
+              <div class="financial-panel quarterly-panel">
+                {quarterlyChart && (
+                  <div class="financial-chart">
+                    <div class="chart-header">
+                      <h3>분기 추이</h3>
+                      <div class="chart-legend">
+                        {quarterlyChart.metrics.map((metric) => <span style={`--legend-color: ${metric.color}`}>{metric.label}</span>)}
+                        <span class="line-legend">영업이익률</span>
+                      </div>
+                    </div>
+                    <div class="chart-scroll">
+                      <svg viewBox={`0 0 ${quarterlyChart.width} ${quarterlyChart.height}`} role="img" aria-label={`${company.label} 분기 재무 그래프`}>
+                        <rect x={quarterlyChart.margin.left} y={quarterlyChart.margin.top} width={quarterlyChart.plotWidth} height={quarterlyChart.plotHeight} class="chart-plot" />
+                        {quarterlyChart.amountTicks.map((tick) => (
+                          <>
+                            <line x1={quarterlyChart.margin.left} x2={quarterlyChart.width - quarterlyChart.margin.right} y1={tick.y} y2={tick.y} class="chart-gridline" />
+                            <text x={quarterlyChart.margin.left - 10} y={tick.y + 4} class="chart-axis left">{tick.label}</text>
+                          </>
+                        ))}
+                        {quarterlyChart.marginTicks.map((tick) => (
+                          <text x={quarterlyChart.width - quarterlyChart.margin.right + 10} y={tick.y + 4} class="chart-axis right">{tick.label}</text>
+                        ))}
+                        <line x1={quarterlyChart.margin.left} x2={quarterlyChart.width - quarterlyChart.margin.right} y1={quarterlyChart.zeroY} y2={quarterlyChart.zeroY} class="chart-zero" />
+                        {quarterlyChart.bars.map((bar) => (
+                          <rect x={bar.x} y={bar.y} width="14" height={bar.height} fill={bar.color} rx="2" />
+                        ))}
+                        {quarterlyChart.linePoints.length > 1 && <polyline points={quarterlyChart.linePath} class="chart-margin-line" />}
+                        {quarterlyChart.linePoints.map((point) => <circle cx={point.x} cy={point.y} r="4" class="chart-margin-dot" />)}
+                        {quarterlyChart.xLabels.map((label) => (
+                          <text x={label.x} y={label.y} class="chart-x-label" transform={`rotate(-35 ${label.x} ${label.y})`}>{label.label}</text>
+                        ))}
+                      </svg>
+                    </div>
+                  </div>
+                )}
+                <div class="financial-table-block">
+                  <h3>전체 분기 재무</h3>
+                  <div class="table-scroll">
+                    <table>
+                      <thead>
+                        <tr>{quarterlyFinancials.headers.map((header) => <th>{header}</th>)}</tr>
+                      </thead>
+                      <tbody>
+                        {quarterlyFinancials.rows.map((row) => (
+                          <tr>{row.map((cell) => <td>{cell}</td>)}</tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            )}
+          </div>
         </section>
       )}
     </div>

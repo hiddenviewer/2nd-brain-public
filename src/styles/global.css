@@ -351,6 +351,148 @@ h3 {
   gap: 18px;
 }
 
+.financial-dashboard > input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.financial-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.financial-tabs label {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 800;
+  padding: 8px 13px;
+}
+
+.financial-dashboard > input:nth-of-type(1):checked ~ .financial-tabs label:nth-of-type(1),
+.financial-dashboard > input:nth-of-type(2):checked ~ .financial-tabs label:nth-of-type(2) {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.financial-panel {
+  display: none;
+}
+
+.financial-dashboard > input:nth-of-type(1):checked ~ .annual-panel,
+.financial-dashboard > input:nth-of-type(2):checked ~ .quarterly-panel {
+  display: grid;
+  gap: 18px;
+}
+
+.financial-chart {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.chart-header {
+  align-items: start;
+  display: flex;
+  gap: 14px;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.chart-header h3 {
+  font-size: 17px;
+}
+
+.chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  justify-content: flex-end;
+}
+
+.chart-legend span {
+  align-items: center;
+  color: var(--muted);
+  display: inline-flex;
+  font-size: 12px;
+  gap: 5px;
+}
+
+.chart-legend span::before {
+  background: var(--legend-color);
+  border-radius: 2px;
+  content: "";
+  height: 9px;
+  width: 9px;
+}
+
+.chart-legend .line-legend::before {
+  background: #202124;
+  height: 2px;
+  width: 14px;
+}
+
+.chart-scroll {
+  overflow-x: auto;
+}
+
+.financial-chart svg {
+  display: block;
+  min-width: 780px;
+  width: 100%;
+}
+
+.chart-plot {
+  fill: #fbfaf6;
+  stroke: var(--line);
+}
+
+.chart-gridline {
+  stroke: var(--line);
+  stroke-dasharray: 3 5;
+}
+
+.chart-zero {
+  stroke: var(--text);
+  stroke-width: 1;
+}
+
+.chart-axis,
+.chart-x-label {
+  fill: var(--muted);
+  font-size: 12px;
+}
+
+.chart-axis.left {
+  text-anchor: end;
+}
+
+.chart-axis.right {
+  text-anchor: start;
+}
+
+.chart-x-label {
+  text-anchor: end;
+}
+
+.chart-margin-line {
+  fill: none;
+  stroke: #202124;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2.5;
+}
+
+.chart-margin-dot {
+  fill: #202124;
+  stroke: var(--surface);
+  stroke-width: 2;
+}
+
 .financial-table-block h3 {
   font-size: 17px;
   margin-bottom: 10px;
