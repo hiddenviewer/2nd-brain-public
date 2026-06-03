@@ -123,28 +123,6 @@
     "companies": []
   },
   {
-    "title": "젠슨 황, 8일 네이버 1784 방문 유력…AI 동맹 확대 주목",
-    "url": "https://www.fntimes.com/html/view.php?ud=2026060117031020737fd637f543_18",
-    "category": "ai",
-    "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-06-03",
-    "sourceNote": "2026-06-03-8-1784-ai",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "NVIDIA의 젠슨 황 CEO가 오는 6월 5일 네이버 이해진 의장과 회동하고 8일 제2사옥 '1784'를 방문할 예정인 가운데, 양사의 Sovereign AI, Physical AI 및 국방 AI 분야의 실질적인 사업 협력 확대 가능성에 업계의 이목이 집중되고 있습니다.",
-    "companies": [
-      {
-        "id": "naver",
-        "label": "네이버",
-        "ticker": "035420",
-        "sector": "internet-platform"
-      }
-    ]
-  },
-  {
     "title": "클로드 코드 멀티에이전트 팀 자동화 완전 가이드",
     "url": "https://wikidocs.net/book/19736",
     "category": "ai",
@@ -1632,6 +1610,33 @@
     ],
     "description": "연준의 새 금융환경지수 FCI-G를 소개하는 네이버 프리미엄 기사 요약 메모다. 현재 확인 가능한 범위는 공개 프리뷰뿐이며, 지수의 개념과 기존 금융환경지수 대비 차별화 포인트를 설명하려는 문제의식까지만 파악된다.",
     "companies": []
+  },
+  {
+    "title": "젠슨 황, 네이버 1784 방문 가능성과 AI 동맹 확대 기대",
+    "url": "https://www.fntimes.com/html/view.php?ud=2026060117031020737fd637f543_18",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-06-04",
+    "sourceNote": "2026-06-03-8-1784-ai",
+    "tags": [
+      "kr-stocks",
+      "naver",
+      "naver-cloud",
+      "nvidia",
+      "sovereign-ai",
+      "physical-ai",
+      "defense-ai"
+    ],
+    "description": "파이낸셜뉴스 보도 요약 메모다. Jensen Huang NVIDIA CEO가 2026년 6월 5일 이해진 네이버 의장과 회동하고 6월 8일 네이버 제2사옥 1784를 방문할 가능성이 있다는 보도를 바탕으로, 네이버와 NVIDIA의 Sovereign AI, Physical AI, 국방 AI 협력 확대 기대를 다룬다.",
+    "companies": [
+      {
+        "id": "naver",
+        "label": "네이버",
+        "ticker": "035420",
+        "sector": "internet-platform"
+      }
+    ]
   },
   {
     "title": "중국 BOE, 8.6세대 OLED 양산 일정 앞당김",
