@@ -111,10 +111,19 @@ function stripInlineMarkdown(value) {
 
 function extractSection(markdown, names) {
   const sectionNames = Array.isArray(names) ? names : [names]
-  const escaped = sectionNames.map((name) => name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')
-  const pattern = new RegExp(`^## (${escaped})\\s*\\n([\\s\\S]*?)(?=\\n## |\\n# |$)`, 'm')
-  const match = markdown.match(pattern)
-  return match ? match[2].trim() : ''
+  const lines = markdown.split('\n')
+  const startIndex = lines.findIndex((line) => {
+    const match = line.match(/^##\s+(.+?)\s*$/)
+    return match ? sectionNames.includes(match[1]) : false
+  })
+  if (startIndex < 0) return ''
+
+  const body = []
+  for (const line of lines.slice(startIndex + 1)) {
+    if (/^#{1,2}\s+/.test(line)) break
+    body.push(line)
+  }
+  return body.join('\n').trim()
 }
 
 function extractBullets(markdown, names, limit = 8) {
