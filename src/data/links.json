@@ -1141,6 +1141,34 @@
     "description": "Investing.com 기사 링크를 저장하려 했지만, 현재 확보된 내용은 기사 본문이 아니라 원문 확인 실패 상태를 기록한 메모와 메타데이터뿐이다."
   },
   {
+    "title": "Just a moment...",
+    "url": "https://wikidocs.net/book/19673",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-06-03",
+    "sourceNote": "2026-06-03-just-a-moment",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "요청된 URL(https://wikidocs.net/book/19673)에 접근을 시도했으나, Cloudflare 보안 접속 차단(HTTP 403 Forbidden)으로 인해 본문 내용을 가져오지 못했습니다."
+  },
+  {
+    "title": "LG디스플레이, 게이밍 OLED 로드쇼서 최대 라인업과 차세대 기술 공개",
+    "url": "https://v.daum.net/v/20260601103002221?f=p",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-06-03",
+    "sourceNote": "2026-06-03-lg-oled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LG디스플레이가 대만 타이베이에서 글로벌 고객사를 대상으로 게이밍 OLED 로드쇼를 열고 39인치 5K2K OLED, 27인치 5K OLED, DisplayHDR True Black 1000급 기술 등 차세대 제품 로드맵을 제시한다."
+  },
+  {
     "title": "The Edit 링크 접근 불가 메모",
     "url": "https://the-edit.co.kr/84624",
     "category": "general",
