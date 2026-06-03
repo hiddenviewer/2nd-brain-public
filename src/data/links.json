@@ -116,6 +116,20 @@
     "description": "PyTorchKR의 주간 큐레이션 글로, 2026년 4월 20일~26일 사이 눈여겨볼 AI/ML 논문 10편을 RAG, 자율 에이전트 시스템, 트랜스포머 아키텍처 효율화 흐름 중심으로 묶어 소개한다."
   },
   {
+    "title": "젠슨 황, 8일 네이버 1784 방문 유력…AI 동맹 확대 주목",
+    "url": "https://www.fntimes.com/html/view.php?ud=2026060117031020737fd637f543_18",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-06-03",
+    "sourceNote": "2026-06-03-8-1784-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "NVIDIA의 젠슨 황 CEO가 오는 6월 5일 네이버 이해진 의장과 회동하고 8일 제2사옥 '1784'를 방문할 예정인 가운데, 양사의 Sovereign AI, Physical AI 및 국방 AI 분야의 실질적인 사업 협력 확대 가능성에 업계의 이목이 집중되고 있습니다."
+  },
+  {
     "title": "클로드 코드 멀티에이전트 팀 자동화 완전 가이드",
     "url": "https://wikidocs.net/book/19736",
     "category": "ai",
@@ -1255,6 +1269,20 @@
     "description": "Yozm IT 기사 링크를 저장하려 했지만, 현재 확보된 내용은 403 Forbidden으로 원문 확인에 실패했다는 메모와 메타데이터뿐이다. 실제 기사 제목과 본문은 확인되지 않는다."
   },
   {
+    "title": "골드만삭스, 코스피 목표치 1만2000으로 상향",
+    "url": "https://www.mt.co.kr/stock/2026/06/03/2026060310231520414",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-06-03",
+    "sourceNote": "2026-06-03-1-2000",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Goldman Sachs가 코스피 목표치를 9000에서 1만2000으로 올리고 비중확대 의견을 유지했다."
+  },
+  {
     "title": "국내 상장 로봇기업 1분기 실적 부진",
     "url": "https://www.irobotnews.com/news/articleView.html?idxno=46663",
     "category": "investing",
@@ -1316,6 +1344,20 @@
       "asiana"
     ],
     "description": "2026년 6월 3일 캡처 기준으로, 연합인포맥스 기사는 대한항공이 2천억원 규모 회사채 발행 수요예측에서 1조1140억원 주문을 확보했고, 신용등급 전망 긍정적 부여와 아시아나항공 합병 이후 시장 지위 개선 기대가 투자심리에 작용했다고 정리한다."
+  },
+  {
+    "title": "삼성重, 바다 위 데이터센터 시장 공략… 그리스 선주사·영국 선급·미국 AI 서버 업체와 협력 - 조선비즈",
+    "url": "https://biz.chosun.com/industry/company/2026/06/03/WR2ZC4SY6JHGPL6YDQ35KZIQHE/",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-06-03",
+    "sourceNote": "2026-06-03-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "삼성중공업이 인공지능(AI) 수요 급증에 발맞춰 부유식 데이터센터(FDC) 시장을 선점하기 위해 그리스 캐피탈, 영국 로이드선급(LR), 미국 수퍼마이크로 등 글로벌 기업들과 기술 개발, 타당성 검증, 투자 유치를 포괄하는 글로벌 협력 체계를 구축했다."
   },
   {
     "title": "삼성D, 8.6세대 OLED 2라인에 LTPO 장비 도입 추진",
@@ -1468,6 +1510,20 @@
       "industrial-equipment"
     ],
     "description": "한국경제 기사 요약 메모다. 도널드 트럼프 미국 대통령이 철강·알루미늄·구리 관련 일부 수입품 관세를 조정하는 포고문에 서명했고, 미국산 금속 사용 비중이 높은 설비와 일부 농기계·산업장비에 한시적 우대 관세를 적용한다는 내용을 다룬다."
+  },
+  {
+    "title": "韓, 캐나다산 원유도입 확대… 올해 488만→1600만 배럴로",
+    "url": "https://www.donga.com/news/Economy/article/all/20260603/134039697/2",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-06-03",
+    "sourceNote": "2026-06-03-488-1600",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "정부가 공급망 다변화와 에너지 안보 강화를 위해 캐나다와의 협력을 확대하여 캐나다산 원유 수입량을 지난해 488만 배럴에서 올해 최대 1600만 배럴로 늘리고, 장기적으로 연간 2000만 배럴까지 확대할 계획입니다."
   },
   {
     "title": "한국산 철근, 美 데이터센터 붐 타고 대미 수출 급증",
