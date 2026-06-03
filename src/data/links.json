@@ -1402,15 +1402,26 @@
     "url": "https://v.daum.net/v/uANVuB4qWv",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-06-03",
-    "sourceNote": "2026-06-03-untitled",
+    "status": "public",
+    "updated": "2026-06-04",
+    "sourceNote": "2026-06-03-korean-air-emergency-management-oil-fx",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "korean-air",
+      "airline",
+      "oil",
+      "fx",
+      "emergency-management"
     ],
-    "description": "대한항공은 이란 전쟁 장기화로 항공유 가격과 환율 부담이 커지자 연료 관리, 재무 방어, 비용 효율화를 중심으로 비상경영체제를 이어가고 있다.",
-    "companies": []
+    "description": "2026년 6월 3일 캡처 기준으로, Daum 기사 메모는 대한항공이 고유가와 고환율 부담에 대응해 2026년 4월부터 비상경영체제를 이어가며 연료 관리, 재무 방어, 비용 효율화를 강화하고 있다고 정리한다.",
+    "companies": [
+      {
+        "id": "korean-air",
+        "label": "대한항공",
+        "ticker": "003490",
+        "sector": "airline"
+      }
+    ]
   },
   {
     "title": "대한항공, 회사채 수요예측 흥행",
@@ -1429,7 +1440,14 @@
       "asiana"
     ],
     "description": "2026년 6월 3일 캡처 기준으로, 연합인포맥스 기사는 대한항공이 2천억원 규모 회사채 발행 수요예측에서 1조1140억원 주문을 확보했고, 신용등급 전망 긍정적 부여와 아시아나항공 합병 이후 시장 지위 개선 기대가 투자심리에 작용했다고 정리한다.",
-    "companies": []
+    "companies": [
+      {
+        "id": "korean-air",
+        "label": "대한항공",
+        "ticker": "003490",
+        "sector": "airline"
+      }
+    ]
   },
   {
     "title": "삼성중공업, 부유식 데이터센터 시장 공략 협력",
@@ -1602,7 +1620,14 @@
       "fx"
     ],
     "description": "2026년 5월 3일 캡처 기준으로, 한겨레 기사는 대한항공이 아시아나항공 인수 이후 외형은 커졌지만 중동 전쟁 여파에 따른 유가 급등과 원화 약세가 2026년 2분기부터 수익성에 본격 부담을 줄 수 있다고 짚는다.",
-    "companies": []
+    "companies": [
+      {
+        "id": "korean-air",
+        "label": "대한항공",
+        "ticker": "003490",
+        "sector": "airline"
+      }
+    ]
   },
   {
     "title": "연준의 새로운 금융환경지수 FCI-G, 연준 통화정책과 미국경제에 미치는 영향",
@@ -1763,7 +1788,14 @@
       "consolidation"
     ],
     "description": "2026년 5월 31일 캡처 기준으로, FORTUNE Korea 기사는 대한항공이 아시아나항공 편입 효과, 화물, 장거리 노선, 비용 헤지로 상대적으로 방어하는 반면 국내 LCC는 고환율, 고유가, 과열 경쟁으로 재무 압박과 구조조정 가능성이 커지고 있다고 정리한다.",
-    "companies": []
+    "companies": [
+      {
+        "id": "korean-air",
+        "label": "대한항공",
+        "ticker": "003490",
+        "sector": "airline"
+      }
+    ]
   },
   {
     "title": "HBM 이어 LPDDR까지, Nvidia가 메모리 시장 큰손으로 부상",
