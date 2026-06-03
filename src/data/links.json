@@ -492,6 +492,20 @@
     "description": "Anthropic의 Advisor Strategy를 정리한 2차 메모다. 저비용 executor가 실제 작업과 tool 사용을 계속 담당하고, 고성능 Opus 계열 advisor는 복잡한 판단이 필요한 순간에만 짧게 개입하는 비대칭 실행 패턴을 설명한다."
   },
   {
+    "title": "Claude Code - 문서가 알려주지 않는 설정 가능한 모든 것",
+    "url": "https://news.hada.io/topic?id=30030",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-06-03",
+    "sourceNote": "2026-06-03-claude-code",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Claude Code (v2.1.87)의 공식 문서에 누락된 Hooks, Skills, Agents 등의 숨겨진 설정 필드와 자동 메모리(Dream), Magic Docs 등 세부 제어 방식을 요약한 정보입니다."
+  },
+  {
     "title": "Claude Code 기반 팀 자동화 4계층 아키텍처 미리 보기",
     "url": "https://wikidocs.net/347756",
     "category": "ai",
@@ -688,6 +702,20 @@
       "spec"
     ],
     "description": "Google Labs의 Stitch에서 제안한 DESIGN.md 포맷을 한국어로 정리한 2차 메모다. DESIGN.md를 단순 예시 모음이 아니라, 디자인 토큰과 설계 판단 기준을 한 파일에 묶는 에이전트용 디자인 시스템 계약으로 설명한다."
+  },
+  {
+    "title": "Dual-Brain: Codex/Claude Code용 좌뇌·우뇌식 디베이트 워크플로우",
+    "url": "https://news.hada.io/topic?id=30101",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-06-03",
+    "sourceNote": "2026-06-03-dual-brain-codex-claude-code",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Dual-Brain은 Codex나 Claude Code가 복잡한 코딩 작업에서 과부하, 결정 번복, 맥락 혼선을 줄이도록 설계된 오픈소스 확장 스킬 프로토콜이다."
   },
   {
     "title": "Figma 디자인 에이전트 공개",
@@ -1064,6 +1092,20 @@
     "description": "디지털데일리 기사 링크를 저장하려 했지만, 현재 확보된 내용은 403 Forbidden으로 원문 확인에 실패했다는 메모와 메타데이터뿐이다. URL과 Discord 공유 흔적은 남아 있지만 실제 기사 제목과 본문은 확인되지 않는다."
   },
   {
+    "title": "美, 한국산 철강·알루미늄 파생상품 관세 25%→15% 인하",
+    "url": "https://v.daum.net/v/20260603061847016",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-06-03",
+    "sourceNote": "2026-06-03-25-15",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "미국이 6월 8일부터 한국 등 관세 합의국 대상 철강·알루미늄·구리 파생상품 관세를 15%로 낮춘다."
+  },
+  {
     "title": "애플경제 기사 접근 불가 메모",
     "url": "http://www.apple-economy.com/news/articleView.html?idxno=78746",
     "category": "general",
@@ -1211,6 +1253,20 @@
       "yozm"
     ],
     "description": "Yozm IT 기사 링크를 저장하려 했지만, 현재 확보된 내용은 403 Forbidden으로 원문 확인에 실패했다는 메모와 메타데이터뿐이다. 실제 기사 제목과 본문은 확인되지 않는다."
+  },
+  {
+    "title": "국내 상장 로봇기업 1분기 실적 부진",
+    "url": "https://www.irobotnews.com/news/articleView.html?idxno=46663",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-06-03",
+    "sourceNote": "2026-06-03-1",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "2026년 1분기 국내 주요 상장 로봇기업 34곳은 매출 5669억원으로 정체했고, 영업손실은 871억원으로 확대됐다."
   },
   {
     "title": "네이버, 국방 AX 전담조직 신설로 국방 AI 시장 진출",
