@@ -1305,7 +1305,14 @@
       "article"
     ],
     "description": "LG디스플레이가 대만 타이베이에서 글로벌 고객사를 대상으로 게이밍 OLED 로드쇼를 열고 39인치 5K2K OLED, 27인치 5K OLED, DisplayHDR True Black 1000급 기술 등 차세대 제품 로드맵을 제시한다.",
-    "companies": []
+    "companies": [
+      {
+        "id": "lg",
+        "label": "(주)LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      }
+    ]
   },
   {
     "title": "The Edit 링크 접근 불가 메모",
@@ -1547,6 +1554,12 @@
         "label": "Apple Inc.",
         "ticker": "",
         "sector": ""
+      },
+      {
+        "id": "lg",
+        "label": "(주)LG",
+        "ticker": "003550",
+        "sector": "holding-company"
       }
     ]
   },
