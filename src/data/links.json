@@ -1438,19 +1438,29 @@
     "companies": []
   },
   {
-    "title": "삼성重, 바다 위 데이터센터 시장 공략… 그리스 선주사·영국 선급·미국 AI 서버 업체와 협력 - 조선비즈",
+    "title": "삼성중공업, 부유식 데이터센터 시장 공략 협력",
     "url": "https://biz.chosun.com/industry/company/2026/06/03/WR2ZC4SY6JHGPL6YDQ35KZIQHE/",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-06-03",
-    "sourceNote": "2026-06-03-ai",
+    "status": "public",
+    "updated": "2026-06-04",
+    "sourceNote": "2026-06-03-samsung-heavy-floating-data-center",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "samsung-heavy-industries",
+      "shipbuilding",
+      "data-center",
+      "ai-infrastructure"
     ],
-    "description": "삼성중공업이 인공지능(AI) 수요 급증에 발맞춰 부유식 데이터센터(FDC) 시장을 선점하기 위해 그리스 캐피탈, 영국 로이드선급(LR), 미국 수퍼마이크로 등 글로벌 기업들과 기술 개발, 타당성 검증, 투자 유치를 포괄하는 글로벌 협력 체계를 구축했다.",
-    "companies": []
+    "description": "2026년 6월 3일 조선비즈 기사는 삼성중공업이 AI 데이터센터 수요 증가에 맞춰 부유식 데이터센터(FDC, Floating Data Center) 사업화를 검토하며 그리스 선주사 캐피탈, 영국 로이드선급(LR), 로이드 어드바이서리, 미국 수퍼마이크로와 협력 체계를 만들었다고 전한다.",
+    "companies": [
+      {
+        "id": "samsung-heavy-industries",
+        "label": "삼성중공업",
+        "ticker": "010140",
+        "sector": "shipbuilding"
+      }
+    ]
   },
   {
     "title": "삼성D, 8.6세대 OLED 2라인에 LTPO 장비 도입 추진",
