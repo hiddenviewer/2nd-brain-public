@@ -1249,21 +1249,6 @@
     "companies": []
   },
   {
-    "title": "Just a moment...",
-    "url": "https://wikidocs.net/book/19673",
-    "category": "general",
-    "categoryLabel": "기타",
-    "status": "pending",
-    "updated": "2026-06-03",
-    "sourceNote": "2026-06-03-just-a-moment",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "요청된 URL(https://wikidocs.net/book/19673)에 접근을 시도했으나, Cloudflare 보안 접속 차단(HTTP 403 Forbidden)으로 인해 본문 내용을 가져오지 못했습니다.",
-    "companies": []
-  },
-  {
     "title": "LG디스플레이, 게이밍 OLED 로드쇼서 최대 라인업과 차세대 기술 공개",
     "url": "https://v.daum.net/v/20260601103002221?f=p",
     "category": "general",
@@ -1307,6 +1292,22 @@
       "wikidocs"
     ],
     "description": "WikiDocs 페이지 링크를 저장하려 했지만, 현재 확보된 내용은 실제 문서 본문이 아니라 접근 제한 또는 로딩 차단 상태를 기록한 inbox 메모다. 추출된 제목은 Just a moment...뿐이라 문서 주제, 작성자, 발행일, 핵심 논지를 확인할 수 없다.",
+    "companies": []
+  },
+  {
+    "title": "WikiDocs book/19673 접근 불가 메모",
+    "url": "https://wikidocs.net/book/19673",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "review",
+    "updated": "2026-06-04",
+    "sourceNote": "2026-06-03-wikidocs-book-19673-inaccessible",
+    "tags": [
+      "article",
+      "inaccessible",
+      "wikidocs"
+    ],
+    "description": "WikiDocs book 페이지 링크를 저장하려 했지만, 현재 확보된 내용은 실제 문서 본문이 아니라 Cloudflare 등 보안 장벽에 걸린 접근 실패 메모다. 추출된 제목은 Just a moment...뿐이므로 책의 실제 제목, 목차, 저자, 핵심 주제를 확인할 수 없다.",
     "companies": []
   },
   {
