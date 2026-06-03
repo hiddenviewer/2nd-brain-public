@@ -29,6 +29,10 @@ const grouped = categories
 const publicCount = links.filter((link) => link.status === 'public').length
 const pendingCount = links.filter((link) => link.status === 'pending').length
 const reviewCount = links.filter((link) => link.status === 'review').length
+const companyCount = new Set(links.flatMap((link) => (link.companies || []).map((company) => company.id))).size
+const base = import.meta.env.BASE_URL
+const basePath = base.endsWith('/') ? base : `${base}/`
+const withBase = (href) => `${basePath}${href.replace(/^\//, '')}`
 ---
 
 <BaseLayout title="링크 인덱스 | 2nd Brain Public">
@@ -58,12 +62,13 @@ const reviewCount = links.filter((link) => link.status === 'review').length
         <span>검토 필요</span>
       </div>
       <div class="metric">
-        <strong>{pendingCount}</strong>
-        <span>ingest 대기</span>
+        <strong>{companyCount}</strong>
+        <span>감지된 기업</span>
       </div>
     </div>
 
     <nav class="link-jump" aria-label="Link category shortcuts">
+      <a href={withBase('/companies/')}>기업별 보기 <span>{companyCount}</span></a>
       {grouped.map((group) => (
         <a href={`#${group.id}`}>{group.label} <span>{group.links.length}</span></a>
       ))}

@@ -14,7 +14,8 @@
       "image-generation",
       "creative-workflow"
     ],
-    "description": "AI타임스 기사 메모다. Google이 기업용 이미지 생성 모델 Nano Banana 2와 Nano Banana Pro를 Google Cloud Gemini Enterprise Agent Platform에서 일반 공급으로 공개하고, 동영상 입력 기반 이미지 생성 기능을 프리뷰로 추가했다고 정리한다."
+    "description": "AI타임스 기사 메모다. Google이 기업용 이미지 생성 모델 Nano Banana 2와 Nano Banana Pro를 Google Cloud Gemini Enterprise Agent Platform에서 일반 공급으로 공개하고, 동영상 입력 기반 이미지 생성 기능을 프리뷰로 추가했다고 정리한다.",
+    "companies": []
   },
   {
     "title": "에르메스 에이전트(Hermes Agent)로 AI 업무 자동화와 나만의 AI 팀 운영을 다루는 실전 가이드",
@@ -30,7 +31,8 @@
       "skills",
       "wikidocs"
     ],
-    "description": "WikiDocs 기반 2차 요약 메모다. Hermes Agent를 AI 챗봇이 아니라 개인비서와 역할형 에이전트 팀을 운영하는 실행 표면으로 소개한다."
+    "description": "WikiDocs 기반 2차 요약 메모다. Hermes Agent를 AI 챗봇이 아니라 개인비서와 역할형 에이전트 팀을 운영하는 실행 표면으로 소개한다.",
+    "companies": []
   },
   {
     "title": "에이전트 경제 전환이 여는 새로운 투자 기회",
@@ -46,7 +48,8 @@
       "governance",
       "orchestration"
     ],
-    "description": "GeekNews 링크를 바탕으로 정리된 2차 요약 메모다. 채팅형 AI에서 실행형 에이전트로 무게중심이 이동할 때, 소프트웨어 경쟁력이 UI보다 거버넌스·수직 워크플로·성과형 오케스트레이션으로 재편된다는 주장에 초점을 둔다."
+    "description": "GeekNews 링크를 바탕으로 정리된 2차 요약 메모다. 채팅형 AI에서 실행형 에이전트로 무게중심이 이동할 때, 소프트웨어 경쟁력이 UI보다 거버넌스·수직 워크플로·성과형 오케스트레이션으로 재편된다는 주장에 초점을 둔다.",
+    "companies": []
   },
   {
     "title": "에이전트 하네스 완전 해부",
@@ -63,7 +66,8 @@
       "bash",
       "skills"
     ],
-    "description": "Yozm 기사 요약 메모다. 에이전트 성능 차이가 모델 자체보다도 파일시스템, Bash, 샌드박스, 메모리, 컨텍스트 관리 같은 실행 하네스 설계에서 크게 벌어진다는 관점을 정리한다."
+    "description": "Yozm 기사 요약 메모다. 에이전트 성능 차이가 모델 자체보다도 파일시스템, Bash, 샌드박스, 메모리, 컨텍스트 관리 같은 실행 하네스 설계에서 크게 벌어진다는 관점을 정리한다.",
+    "companies": []
   },
   {
     "title": "오픈AI, Codex CLI에 장기 자율 작업 기능 '/goal' 추가",
@@ -79,7 +83,8 @@
       "codex-cli",
       "autonomy"
     ],
-    "description": "AI타임스 기사 요약 메모다. Codex CLI 0.128.0에 목표 달성 시점까지 계획, 코드 작성, 테스트, 디버깅을 반복하는 장기 자율 실행 명령 /goal이 추가됐다고 전한다."
+    "description": "AI타임스 기사 요약 메모다. Codex CLI 0.128.0에 목표 달성 시점까지 계획, 코드 작성, 테스트, 디버깅을 반복하는 장기 자율 실행 명령 /goal이 추가됐다고 전한다.",
+    "companies": []
   },
   {
     "title": "오픈AI, Codex용 Chrome Extension 출시로 로그인 기반 브라우저 작업 지원",
@@ -96,7 +101,8 @@
       "browser-automation",
       "security"
     ],
-    "description": "AI타임스 기사 요약 메모다. OpenAI가 macOS와 Windows용 Codex Chrome Extension을 공개해, Codex가 로그인된 웹서비스와 사내 업무 시스템을 직접 다룰 수 있는 브라우저 작업 표면을 넓혔다고 전한다."
+    "description": "AI타임스 기사 요약 메모다. OpenAI가 macOS와 Windows용 Codex Chrome Extension을 공개해, Codex가 로그인된 웹서비스와 사내 업무 시스템을 직접 다룰 수 있는 브라우저 작업 표면을 넓혔다고 전한다.",
+    "companies": []
   },
   {
     "title": "이번 주에 살펴볼 만한 AI/ML 논문 모음",
@@ -113,7 +119,8 @@
       "transformers",
       "papers"
     ],
-    "description": "PyTorchKR의 주간 큐레이션 글로, 2026년 4월 20일~26일 사이 눈여겨볼 AI/ML 논문 10편을 RAG, 자율 에이전트 시스템, 트랜스포머 아키텍처 효율화 흐름 중심으로 묶어 소개한다."
+    "description": "PyTorchKR의 주간 큐레이션 글로, 2026년 4월 20일~26일 사이 눈여겨볼 AI/ML 논문 10편을 RAG, 자율 에이전트 시스템, 트랜스포머 아키텍처 효율화 흐름 중심으로 묶어 소개한다.",
+    "companies": []
   },
   {
     "title": "젠슨 황, 8일 네이버 1784 방문 유력…AI 동맹 확대 주목",
@@ -127,7 +134,15 @@
       "inbox",
       "article"
     ],
-    "description": "NVIDIA의 젠슨 황 CEO가 오는 6월 5일 네이버 이해진 의장과 회동하고 8일 제2사옥 '1784'를 방문할 예정인 가운데, 양사의 Sovereign AI, Physical AI 및 국방 AI 분야의 실질적인 사업 협력 확대 가능성에 업계의 이목이 집중되고 있습니다."
+    "description": "NVIDIA의 젠슨 황 CEO가 오는 6월 5일 네이버 이해진 의장과 회동하고 8일 제2사옥 '1784'를 방문할 예정인 가운데, 양사의 Sovereign AI, Physical AI 및 국방 AI 분야의 실질적인 사업 협력 확대 가능성에 업계의 이목이 집중되고 있습니다.",
+    "companies": [
+      {
+        "id": "naver",
+        "label": "네이버",
+        "ticker": "035420",
+        "sector": "internet-platform"
+      }
+    ]
   },
   {
     "title": "클로드 코드 멀티에이전트 팀 자동화 완전 가이드",
@@ -144,7 +159,8 @@
       "orchestration",
       "wikidocs"
     ],
-    "description": "WikiDocs에 공개된 Claude Code 멀티에이전트 팀 자동화 가이드 메모다. Claude Code, tmux, Remote-Control을 조합해 1인 개발자가 여러 역할의 AI 개발팀을 원격으로 운용하는 흐름을 설명한다."
+    "description": "WikiDocs에 공개된 Claude Code 멀티에이전트 팀 자동화 가이드 메모다. Claude Code, tmux, Remote-Control을 조합해 1인 개발자가 여러 역할의 AI 개발팀을 원격으로 운용하는 흐름을 설명한다.",
+    "companies": []
   },
   {
     "title": "클로드 코드 사용하기: HTML의 놀라운 효율성",
@@ -160,7 +176,8 @@
       "html",
       "artifacts"
     ],
-    "description": "GeekNews 링크를 바탕으로 정리된 2차 요약 메모다. Claude Code에서 Markdown 대신 HTML을 산출물 형식으로 쓰면 시각화, 상호작용, 공유성이 좋아져 스펙, 리뷰, 프로토타입, 리서치 보고서 작성에 유리하다는 주장을 다룬다."
+    "description": "GeekNews 링크를 바탕으로 정리된 2차 요약 메모다. Claude Code에서 Markdown 대신 HTML을 산출물 형식으로 쓰면 시각화, 상호작용, 공유성이 좋아져 스펙, 리뷰, 프로토타입, 리서치 보고서 작성에 유리하다는 주장을 다룬다.",
+    "companies": []
   },
   {
     "title": "하네스 엔지니어링 백과사전 02 목차",
@@ -175,7 +192,8 @@
       "harness",
       "wikidocs"
     ],
-    "description": "wikidocs 기반 2차 요약 메모다. 하네스 엔지니어링 백과사전의 전체 구성과 독자별 추천 읽기 경로를 정리한 목차 페이지다."
+    "description": "wikidocs 기반 2차 요약 메모다. 하네스 엔지니어링 백과사전의 전체 구성과 독자별 추천 읽기 경로를 정리한 목차 페이지다.",
+    "companies": []
   },
   {
     "title": "Agentic Coding은 함정이다",
@@ -191,7 +209,8 @@
       "learning",
       "risk"
     ],
-    "description": "GeekNews 링크를 바탕으로 정리된 2차 요약 메모다. agentic coding이 구현 속도를 높이는 동시에 개발자의 이해도, 감독 역량, 비용 통제, 벤더 의존성을 약화시킬 수 있다는 경고를 다룬다."
+    "description": "GeekNews 링크를 바탕으로 정리된 2차 요약 메모다. agentic coding이 구현 속도를 높이는 동시에 개발자의 이해도, 감독 역량, 비용 통제, 벤더 의존성을 약화시킬 수 있다는 경고를 다룬다.",
+    "companies": []
   },
   {
     "title": "AHE는 관측 가능성을 바탕으로 코딩 에이전트 하네스를 자동 진화시키는 프레임워크를 설명한다",
@@ -207,7 +226,8 @@
       "observability",
       "evals"
     ],
-    "description": "PyTorch KR 게시글 요약 메모다. AHE는 코딩 에이전트 성능 차이를 모델보다 하네스 설계와 관측 가능성에서 찾고, 하네스 전체를 분해 가능한 편집 표면으로 다루며 자동 개선하는 프레임워크를 설명한다."
+    "description": "PyTorch KR 게시글 요약 메모다. AHE는 코딩 에이전트 성능 차이를 모델보다 하네스 설계와 관측 가능성에서 찾고, 하네스 전체를 분해 가능한 편집 표면으로 다루며 자동 개선하는 프레임워크를 설명한다.",
+    "companies": []
   },
   {
     "title": "AI 엔지니어링의 새 기준으로 떠오른 하네스",
@@ -223,7 +243,8 @@
       "context-engineering",
       "article"
     ],
-    "description": "AI Times 기사 요약 메모다. 에이전트 경쟁력이 모델 자체보다 모델, 도구, 메모리, 실행 환경, 권한 체계를 묶는 하네스 엔지니어링으로 이동하고 있다는 해석을 정리한다."
+    "description": "AI Times 기사 요약 메모다. 에이전트 경쟁력이 모델 자체보다 모델, 도구, 메모리, 실행 환경, 권한 체계를 묶는 하네스 엔지니어링으로 이동하고 있다는 해석을 정리한다.",
+    "companies": []
   },
   {
     "title": "AI 코딩 시대, 더이상 성장하지 않는 개발자들",
@@ -239,7 +260,8 @@
       "learning",
       "article"
     ],
-    "description": "Hacker News Korea 링크를 통해 수집한 기사 요약 메모다. AI 코딩 도구가 구현 마찰을 줄이는 대신, 개발자의 판단력과 절차 기억 형성에 필요한 학습 마찰까지 제거할 수 있다는 문제의식을 정리한다."
+    "description": "Hacker News Korea 링크를 통해 수집한 기사 요약 메모다. AI 코딩 도구가 구현 마찰을 줄이는 대신, 개발자의 판단력과 절차 기억 형성에 필요한 학습 마찰까지 제거할 수 있다는 문제의식을 정리한다.",
+    "companies": []
   },
   {
     "title": "AI Universal Translator: 로컬 LLM과 Gemini를 지원하는 데스크톱 번역·요약 앱",
@@ -258,7 +280,8 @@
       "lm-studio",
       "desktop"
     ],
-    "description": "News.Hada에 올라온 요약 메모다. AI Universal Translator를 Tauri 2, Rust, React, TypeScript로 만든 데스크톱 번역·요약 앱으로 소개하며, LM Studio 기반 로컬 LLM과 Google API 기반 Gemini를 함께 붙여 텍스트와 파일 처리에 활용한다고 정리한다."
+    "description": "News.Hada에 올라온 요약 메모다. AI Universal Translator를 Tauri 2, Rust, React, TypeScript로 만든 데스크톱 번역·요약 앱으로 소개하며, LM Studio 기반 로컬 LLM과 Google API 기반 Gemini를 함께 붙여 텍스트와 파일 처리에 활용한다고 정리한다.",
+    "companies": []
   },
   {
     "title": "AI는 개발자의 역할을 어떻게 바꾸고 있나",
@@ -273,7 +296,8 @@
       "agentic-coding",
       "software-development"
     ],
-    "description": "Samsung SDS 인사이트에 전재된 IDG 계열 글을 바탕으로, agentic AI가 소프트웨어 개발에서 개발자의 역할을 직접 코딩 중심에서 의도 정의, 검증, 아키텍처 판단, 에이전트 조율 중심으로 이동시킨다는 관점을 정리한 자료다."
+    "description": "Samsung SDS 인사이트에 전재된 IDG 계열 글을 바탕으로, agentic AI가 소프트웨어 개발에서 개발자의 역할을 직접 코딩 중심에서 의도 정의, 검증, 아키텍처 판단, 에이전트 조율 중심으로 이동시킨다는 관점을 정리한 자료다.",
+    "companies": []
   },
   {
     "title": "AI타임스 링크 접근 불가 메모",
@@ -288,7 +312,8 @@
       "article",
       "inaccessible"
     ],
-    "description": "AI타임스 기사 링크를 저장하려 했지만, 현재 남아 있는 내용은 기사 본문이 아니라 본문 확인 실패 상태를 기록한 inbox 메모다. URL과 Discord 공유 흔적은 남아 있지만 실제 기사 제목과 본문은 확보되지 않았다."
+    "description": "AI타임스 기사 링크를 저장하려 했지만, 현재 남아 있는 내용은 기사 본문이 아니라 본문 확인 실패 상태를 기록한 inbox 메모다. URL과 Discord 공유 흔적은 남아 있지만 실제 기사 제목과 본문은 확보되지 않았다.",
+    "companies": []
   },
   {
     "title": "Anthropic Labs Claude Design 연구 프리뷰 원문 메모",
@@ -305,7 +330,8 @@
       "design-tools",
       "prototyping"
     ],
-    "description": "Anthropic Labs의 Claude Design 공식 발표 메모다. 2차 기사 해석이 아니라 1차 출처 기준으로, 이 도구가 research preview 단계의 시각 제작 표면이며 Claude Code handoff와 팀 디자인 시스템 반영을 제품 메시지의 핵심으로 둔다는 점을 확인할 수 있다."
+    "description": "Anthropic Labs의 Claude Design 공식 발표 메모다. 2차 기사 해석이 아니라 1차 출처 기준으로, 이 도구가 research preview 단계의 시각 제작 표면이며 Claude Code handoff와 팀 디자인 시스템 반영을 제품 메시지의 핵심으로 둔다는 점을 확인할 수 있다.",
+    "companies": []
   },
   {
     "title": "Anthropic, Claude Code 장애 원인 3건과 재발 방지책 공개",
@@ -321,7 +347,8 @@
       "claude-code",
       "reliability"
     ],
-    "description": "News.Hada 요약 메모다. Anthropic이 최근 Claude Code 품질 저하를 일으킨 세 가지 운영 변경을 설명하고, 2026년 4월 20일까지 모두 수정했다고 밝힌 사건 정리다."
+    "description": "News.Hada 요약 메모다. Anthropic이 최근 Claude Code 품질 저하를 일으킨 세 가지 운영 변경을 설명하고, 2026년 4월 20일까지 모두 수정했다고 밝힌 사건 정리다.",
+    "companies": []
   },
   {
     "title": "Anthropic의 신뢰할 수 있는 AI 에이전트 설계 원칙",
@@ -337,7 +364,8 @@
       "harness",
       "anthropic"
     ],
-    "description": "Anthropic의 에이전트 신뢰성 원칙을 요약한 2차 메모다. 에이전트 위험을 모델 자체보다 Model, Harness, Tools, Environment를 함께 설계해야 다룰 수 있다는 관점을 정리한다."
+    "description": "Anthropic의 에이전트 신뢰성 원칙을 요약한 2차 메모다. 에이전트 위험을 모델 자체보다 Model, Harness, Tools, Environment를 함께 설계해야 다룰 수 있다는 관점을 정리한다.",
+    "companies": []
   },
   {
     "title": "Anthropic의 Claude Opus 4.7 정식 출시 메모",
@@ -355,7 +383,8 @@
       "coding",
       "agents"
     ],
-    "description": "AI타임스의 Claude Opus 4.7 출시 기사 요약 메모다. Anthropic이 기업용 코딩과 에이전트 작업을 겨냥해 새 플래그십 모델을 내놓았다는 점, 그리고 성능뿐 아니라 effort, task budgets, 자체 검증, 비용 통제 같은 운영 기능을 함께 강조했다는 점이 핵심이다."
+    "description": "AI타임스의 Claude Opus 4.7 출시 기사 요약 메모다. Anthropic이 기업용 코딩과 에이전트 작업을 겨냥해 새 플래그십 모델을 내놓았다는 점, 그리고 성능뿐 아니라 effort, task budgets, 자체 검증, 비용 통제 같은 운영 기능을 함께 강조했다는 점이 핵심이다.",
+    "companies": []
   },
   {
     "title": "Artificial Analysis 코딩 에이전트 벤치마크 공개",
@@ -371,7 +400,8 @@
       "benchmarks",
       "harness"
     ],
-    "description": "PyTorch KR 게시글 요약 메모다. Artificial Analysis의 Coding Agent Index를 소개하며, 모델 단독 성능이 아니라 모델, 코딩 에이전트 하네스, 설정 조합별 성능·비용·시간을 비교해야 한다는 관점을 제공한다."
+    "description": "PyTorch KR 게시글 요약 메모다. Artificial Analysis의 Coding Agent Index를 소개하며, 모델 단독 성능이 아니라 모델, 코딩 에이전트 하네스, 설정 조합별 성능·비용·시간을 비교해야 한다는 관점을 제공한다.",
+    "companies": []
   },
   {
     "title": "Awesome AI Anatomy: Claude Code, Dify, Browser Use 등 15개 AI 코딩 에이전트 소스코드 분석 프로젝트 소개",
@@ -388,7 +418,8 @@
       "claude-code",
       "browser-use"
     ],
-    "description": "Claude Code, Dify, Browser Use, OpenHands, Cline, Codex CLI 등 주요 AI 코딩 에이전트를 코드 수준에서 해부해 아키텍처, 도구 호출, 상태 관리, 보안 자세를 문서화하는 오픈소스 프로젝트 소개 메모다."
+    "description": "Claude Code, Dify, Browser Use, OpenHands, Cline, Codex CLI 등 주요 AI 코딩 에이전트를 코드 수준에서 해부해 아키텍처, 도구 호출, 상태 관리, 보안 자세를 문서화하는 오픈소스 프로젝트 소개 메모다.",
+    "companies": []
   },
   {
     "title": "Awesome Design.MD - 유명 웹사이트 디자인 시스템을 내 사이트에 적용하기",
@@ -404,7 +435,8 @@
       "markdown",
       "repo"
     ],
-    "description": "여러 유명 서비스의 UI 스타일을 DESIGN.md와 미리보기 파일 형태로 모아, AI 코딩 에이전트가 원하는 시각 언어를 빠르게 참조하도록 돕는 컬렉션 소개 메모다."
+    "description": "여러 유명 서비스의 UI 스타일을 DESIGN.md와 미리보기 파일 형태로 모아, AI 코딩 에이전트가 원하는 시각 언어를 빠르게 참조하도록 돕는 컬렉션 소개 메모다.",
+    "companies": []
   },
   {
     "title": "Backend 시니어의 첫 모바일 앱, 5개월간 바이브 코딩으로 만든 사진 갤러리",
@@ -420,7 +452,8 @@
       "ios",
       "mobile-app"
     ],
-    "description": "Backend 시니어 개발자가 모바일·프론트엔드 경험 없이 AI 기반 바이브 코딩을 활용해 5개월 동안 사진 갤러리 앱을 만들고 iOS에 출시한 경험기다. Android는 개인 개발자 정책 제약으로 비공개 베타 단계라고 설명된다."
+    "description": "Backend 시니어 개발자가 모바일·프론트엔드 경험 없이 AI 기반 바이브 코딩을 활용해 5개월 동안 사진 갤러리 앱을 만들고 iOS에 출시한 경험기다. Android는 개인 개발자 정책 제약으로 비공개 베타 단계라고 설명된다.",
+    "companies": []
   },
   {
     "title": "Better Harness: evals로 하네스를 점진적으로 개선하는 방법",
@@ -436,7 +469,8 @@
       "evals",
       "langchain"
     ],
-    "description": "LangChain 블로그 글을 요약한 큐레이션 메모다. 더 나은 agent 성능은 모델 교체보다 하네스 개선에서 나오며, evals를 학습 신호처럼 써서 실패를 누적 관찰하고 하네스를 점진적으로 hill-climbing 해야 한다는 관점을 제시한다."
+    "description": "LangChain 블로그 글을 요약한 큐레이션 메모다. 더 나은 agent 성능은 모델 교체보다 하네스 개선에서 나오며, evals를 학습 신호처럼 써서 실패를 누적 관찰하고 하네스를 점진적으로 hill-climbing 해야 한다는 관점을 제시한다.",
+    "companies": []
   },
   {
     "title": "Browser Harness: LLM이 Chrome을 직접 제어하고 부족한 기능을 스스로 추가하는 자기 치유형 브라우저 자동화",
@@ -453,7 +487,8 @@
       "harness",
       "cdp"
     ],
-    "description": "PyTorch Korea 링크 큐레이션 성격의 2차 메모다. LLM이 Chrome DevTools Protocol에 직접 연결해 브라우저를 조작하고, 필요한 기능이 없으면 헬퍼 코드를 직접 추가하는 경량 브라우저 자동화 하네스를 소개한다."
+    "description": "PyTorch Korea 링크 큐레이션 성격의 2차 메모다. LLM이 Chrome DevTools Protocol에 직접 연결해 브라우저를 조작하고, 필요한 기능이 없으면 헬퍼 코드를 직접 추가하는 경량 브라우저 자동화 하네스를 소개한다.",
+    "companies": []
   },
   {
     "title": "Claude 기초부터 고급까지 100",
@@ -470,7 +505,8 @@
       "mcp",
       "skills"
     ],
-    "description": "WikiDocs에 공개된 Claude/Claude Code 실무 학습용 책이다. Claude 입문, 프롬프트, Claude Code 명령, 프로젝트 메모리, 개발 워크플로, Skills, Hooks, MCP, Subagents, Agent Teams, RAG, 배포와 운영을 한 흐름으로 다룬다."
+    "description": "WikiDocs에 공개된 Claude/Claude Code 실무 학습용 책이다. Claude 입문, 프롬프트, Claude Code 명령, 프로젝트 메모리, 개발 워크플로, Skills, Hooks, MCP, Subagents, Agent Teams, RAG, 배포와 운영을 한 흐름으로 다룬다.",
+    "companies": []
   },
   {
     "title": "Claude 지원 문서 모음: 기능과 기술",
@@ -487,7 +523,8 @@
       "skills",
       "cowork"
     ],
-    "description": "Anthropic 지원 센터의 기능과 기술 컬렉션을 정리한 source다. 개별 기능 설명보다, Claude의 제품 표면이 Skills, Cowork, Office 연동, Claude Design까지 하나의 작업 환경으로 묶여 제시된다는 점이 중요하다."
+    "description": "Anthropic 지원 센터의 기능과 기술 컬렉션을 정리한 source다. 개별 기능 설명보다, Claude의 제품 표면이 Skills, Cowork, Office 연동, Claude Design까지 하나의 작업 환경으로 묶여 제시된다는 점이 중요하다.",
+    "companies": []
   },
   {
     "title": "Claude API 신기능: Advisor Strategy(어드바이저 전략) 정리",
@@ -503,7 +540,8 @@
       "advisor",
       "orchestration"
     ],
-    "description": "Anthropic의 Advisor Strategy를 정리한 2차 메모다. 저비용 executor가 실제 작업과 tool 사용을 계속 담당하고, 고성능 Opus 계열 advisor는 복잡한 판단이 필요한 순간에만 짧게 개입하는 비대칭 실행 패턴을 설명한다."
+    "description": "Anthropic의 Advisor Strategy를 정리한 2차 메모다. 저비용 executor가 실제 작업과 tool 사용을 계속 담당하고, 고성능 Opus 계열 advisor는 복잡한 판단이 필요한 순간에만 짧게 개입하는 비대칭 실행 패턴을 설명한다.",
+    "companies": []
   },
   {
     "title": "Claude Code - 문서가 알려주지 않는 설정 가능한 모든 것",
@@ -517,7 +555,8 @@
       "inbox",
       "article"
     ],
-    "description": "Claude Code (v2.1.87)의 공식 문서에 누락된 Hooks, Skills, Agents 등의 숨겨진 설정 필드와 자동 메모리(Dream), Magic Docs 등 세부 제어 방식을 요약한 정보입니다."
+    "description": "Claude Code (v2.1.87)의 공식 문서에 누락된 Hooks, Skills, Agents 등의 숨겨진 설정 필드와 자동 메모리(Dream), Magic Docs 등 세부 제어 방식을 요약한 정보입니다.",
+    "companies": []
   },
   {
     "title": "Claude Code 기반 팀 자동화 4계층 아키텍처 미리 보기",
@@ -534,7 +573,8 @@
       "claude-code",
       "wikidocs"
     ],
-    "description": "WikiDocs 기반 2차 요약 메모다. Claude Code 기반 팀 자동화 시스템을 Control -> Orchestration -> Execution -> Infrastructure의 4계층으로 나눠, 사용자의 원격 지시가 팀장 pane과 팀원 pane을 거쳐 로컬 실행 환경으로 전달되는 흐름을 설명한다."
+    "description": "WikiDocs 기반 2차 요약 메모다. Claude Code 기반 팀 자동화 시스템을 Control -> Orchestration -> Execution -> Infrastructure의 4계층으로 나눠, 사용자의 원격 지시가 팀장 pane과 팀원 pane을 거쳐 로컬 실행 환경으로 전달되는 흐름을 설명한다.",
+    "companies": []
   },
   {
     "title": "Claude Code 루틴 연구 프리뷰 메모",
@@ -550,7 +590,8 @@
       "automation",
       "coding-agents"
     ],
-    "description": "AI Times 기사 요약 메모다. Anthropic이 Claude Code에 연구 프리뷰 기능 루틴(Routines)을 도입해, 일정, 이벤트, HTTP 호출로 반복 작업을 클라우드에서 상시 실행할 수 있게 했다는 내용을 담고 있다."
+    "description": "AI Times 기사 요약 메모다. Anthropic이 Claude Code에 연구 프리뷰 기능 루틴(Routines)을 도입해, 일정, 이벤트, HTTP 호출로 반복 작업을 클라우드에서 상시 실행할 수 있게 했다는 내용을 담고 있다.",
+    "companies": []
   },
   {
     "title": "Claude Code 커스텀 도구 선택 가이드",
@@ -568,7 +609,8 @@
       "hooks",
       "subagents"
     ],
-    "description": "Yozm IT의 Claude Code 커스텀 도구 선택 가이드 메모다. Daisy Hollman의 Beyond the Basics with Claude Code 워크숍을 바탕으로 MCP, Skills, Hooks, Sub-agents를 목적과 비용 구조에 맞게 골라야 한다는 관점을 정리한다."
+    "description": "Yozm IT의 Claude Code 커스텀 도구 선택 가이드 메모다. Daisy Hollman의 Beyond the Basics with Claude Code 워크숍을 바탕으로 MCP, Skills, Hooks, Sub-agents를 목적과 비용 구조에 맞게 골라야 한다는 관점을 정리한다.",
+    "companies": []
   },
   {
     "title": "Claude Code Harness 한국어판 공유 메모",
@@ -584,7 +626,8 @@
       "harness",
       "translation"
     ],
-    "description": "Claude Code Harness 분석 자료를 한국어로 번역·재구성한 웹 문서를 소개하는 요약 메모다. 원저작 자체보다 이를 한국어 학습 자료로 재패키징했다는 점이 핵심이다."
+    "description": "Claude Code Harness 분석 자료를 한국어로 번역·재구성한 웹 문서를 소개하는 요약 메모다. 원저작 자체보다 이를 한국어 학습 자료로 재패키징했다는 점이 핵심이다.",
+    "companies": []
   },
   {
     "title": "Claude Code, 다이나믹 워크플로우 기능 공개",
@@ -600,7 +643,8 @@
       "orchestration",
       "subagents"
     ],
-    "description": "GeekNews에 공유된 Claude Code Dynamic Workflows 기능 공개 메모다. 단일 에이전트가 감당하기 어려운 대규모 엔지니어링 작업을 수십~수백 개의 병렬 서브에이전트로 분해하고, 동적 오케스트레이션과 자체 검증으로 수렴시키는 기능으로 소개한다."
+    "description": "GeekNews에 공유된 Claude Code Dynamic Workflows 기능 공개 메모다. 단일 에이전트가 감당하기 어려운 대규모 엔지니어링 작업을 수십~수백 개의 병렬 서브에이전트로 분해하고, 동적 오케스트레이션과 자체 검증으로 수렴시키는 기능으로 소개한다.",
+    "companies": []
   },
   {
     "title": "Claude Code를 일상 개발 에이전트로 운영하는 방법",
@@ -618,7 +662,8 @@
       "subagents",
       "mcp"
     ],
-    "description": "GeekNews에 공유된 Claude Code 운영 방법 메모다. Claude Code 생산성은 단발 프롬프트보다 CLAUDE.md, Skills, Subagents, Plugins, MCP 같은 누적 설정과 검증 흐름에 더 크게 좌우된다는 관점을 정리한다."
+    "description": "GeekNews에 공유된 Claude Code 운영 방법 메모다. Claude Code 생산성은 단발 프롬프트보다 CLAUDE.md, Skills, Subagents, Plugins, MCP 같은 누적 설정과 검증 흐름에 더 크게 좌우된다는 관점을 정리한다.",
+    "companies": []
   },
   {
     "title": "Claude Code와 Codex 실전 비교",
@@ -634,7 +679,8 @@
       "claude-code",
       "coding-agents"
     ],
-    "description": "Hacker News Korea 링크를 통해 수집한 실전 비교 메모다. 대규모 코드베이스에서 Claude Code와 Codex를 함께 써 본 경험을 바탕으로, 속도보다 감독 비용과 지시 준수도가 운영 품질을 더 크게 가른다는 관점을 정리한다."
+    "description": "Hacker News Korea 링크를 통해 수집한 실전 비교 메모다. 대규모 코드베이스에서 Claude Code와 Codex를 함께 써 본 경험을 바탕으로, 속도보다 감독 비용과 지시 준수도가 운영 품질을 더 크게 가른다는 관점을 정리한다.",
+    "companies": []
   },
   {
     "title": "Claude Design 연구 프리뷰 공개 메모",
@@ -651,7 +697,8 @@
       "design-tools",
       "prototyping"
     ],
-    "description": "AI타임스의 Claude Design 공개 기사 요약 메모다. 같은 이벤트의 1차 출처는 [[2026-04-18-anthropic-labs-claude-design|Anthropic Labs Claude Design 연구 프리뷰 원문 메모]]이며, 이 문서는 2차 기사 해석과 시장 반응을 함께 담은 보조 맥락으로 본다."
+    "description": "AI타임스의 Claude Design 공개 기사 요약 메모다. 같은 이벤트의 1차 출처는 [[2026-04-18-anthropic-labs-claude-design|Anthropic Labs Claude Design 연구 프리뷰 원문 메모]]이며, 이 문서는 2차 기사 해석과 시장 반응을 함께 담은 보조 맥락으로 본다.",
+    "companies": []
   },
   {
     "title": "Claude Design이 제기한 디자인 도구의 방향 전환",
@@ -667,7 +714,8 @@
       "design-tools",
       "figma"
     ],
-    "description": "Hacker News Korea 성격의 링크 큐레이션 페이지에서 Claude Design을 계기로 디자인 도구의 source of truth가 다시 코드로 이동할 수 있다는 관측을 정리한 2차 해석 메모다. 제품 사실 자체보다 Figma 중심 워크플로에 대한 반작용과 design-to-code 루프 재편 가능성을 읽는 자료로 보는 편이 맞다."
+    "description": "Hacker News Korea 성격의 링크 큐레이션 페이지에서 Claude Design을 계기로 디자인 도구의 source of truth가 다시 코드로 이동할 수 있다는 관측을 정리한 2차 해석 메모다. 제품 사실 자체보다 Figma 중심 워크플로에 대한 반작용과 design-to-code 루프 재편 가능성을 읽는 자료로 보는 편이 맞다.",
+    "companies": []
   },
   {
     "title": "Claude Opus 4.7 출시 임박 보도와 AI 디자인 도구 관측",
@@ -683,7 +731,8 @@
       "claude",
       "design-tools"
     ],
-    "description": "Superseded in part by [[2026-04-17-anthropic-claude-opus-4-7|Anthropic의 Claude Opus 4.7 정식 출시 메모]] and [[2026-04-18-claude-design|Claude Design 연구 프리뷰 공개 메모]]. 이 문서는 출시 전 관측과 시장 기대를 기록한 메모로 남겨 둔다. AI타임스 보도를 요약한 링크 메모다. A"
+    "description": "Superseded in part by [[2026-04-17-anthropic-claude-opus-4-7|Anthropic의 Claude Opus 4.7 정식 출시 메모]] and [[2026-04-18-claude-design|Claude Design 연구 프리뷰 공개 메모]]. 이 문서는 출시 전 관측과 시장 기대를 기록한 메모로 남겨 둔다. AI타임스 보도를 요약한 링크 메모다. A",
+    "companies": []
   },
   {
     "title": "CodeBoarding - 코드베이스용 인터랙티브 아키텍처 다이어그램",
@@ -699,7 +748,8 @@
       "architecture",
       "diagrams"
     ],
-    "description": "GeekNews에 공유된 CodeBoarding 소개 메모다. 정적 분석과 LLM 추론을 결합해 코드베이스의 아키텍처 다이어그램과 문서를 생성하고, 사람과 AI 에이전트가 함께 읽을 수 있는 코드 지도를 만드는 도구로 설명된다."
+    "description": "GeekNews에 공유된 CodeBoarding 소개 메모다. 정적 분석과 LLM 추론을 결합해 코드베이스의 아키텍처 다이어그램과 문서를 생성하고, 사람과 AI 에이전트가 함께 읽을 수 있는 코드 지도를 만드는 도구로 설명된다.",
+    "companies": []
   },
   {
     "title": "DESIGN.md: AI 코딩 도구를 위한 디자인 시스템 단일 파일 포맷 정리",
@@ -715,7 +765,8 @@
       "markdown",
       "spec"
     ],
-    "description": "Google Labs의 Stitch에서 제안한 DESIGN.md 포맷을 한국어로 정리한 2차 메모다. DESIGN.md를 단순 예시 모음이 아니라, 디자인 토큰과 설계 판단 기준을 한 파일에 묶는 에이전트용 디자인 시스템 계약으로 설명한다."
+    "description": "Google Labs의 Stitch에서 제안한 DESIGN.md 포맷을 한국어로 정리한 2차 메모다. DESIGN.md를 단순 예시 모음이 아니라, 디자인 토큰과 설계 판단 기준을 한 파일에 묶는 에이전트용 디자인 시스템 계약으로 설명한다.",
+    "companies": []
   },
   {
     "title": "Dual-Brain: Codex/Claude Code용 좌뇌·우뇌식 디베이트 워크플로우",
@@ -729,7 +780,8 @@
       "inbox",
       "article"
     ],
-    "description": "Dual-Brain은 Codex나 Claude Code가 복잡한 코딩 작업에서 과부하, 결정 번복, 맥락 혼선을 줄이도록 설계된 오픈소스 확장 스킬 프로토콜이다."
+    "description": "Dual-Brain은 Codex나 Claude Code가 복잡한 코딩 작업에서 과부하, 결정 번복, 맥락 혼선을 줄이도록 설계된 오픈소스 확장 스킬 프로토콜이다.",
+    "companies": []
   },
   {
     "title": "Figma 디자인 에이전트 공개",
@@ -745,7 +797,8 @@
       "figma",
       "mcp"
     ],
-    "description": "Figma가 Figma Design 캔버스와 left rail 안에 내장되는 AI 디자인 에이전트를 베타로 공개했다는 링크 메모다. 기존 Claude Design이나 Open Design처럼 별도 제작 표면을 세우는 흐름과 달리, Figma는 기존 디자인 시스템과 협업 캔버스 안에 에이전트를 흡수하는 방향을 보여 준다."
+    "description": "Figma가 Figma Design 캔버스와 left rail 안에 내장되는 AI 디자인 에이전트를 베타로 공개했다는 링크 메모다. 기존 Claude Design이나 Open Design처럼 별도 제작 표면을 세우는 흐름과 달리, Figma는 기존 디자인 시스템과 협업 캔버스 안에 에이전트를 흡수하는 방향을 보여 준다.",
+    "companies": []
   },
   {
     "title": "Gemini 앱에서 문서·시트·프레젠테이션 등 파일을 바로 생성하는 기능 공개",
@@ -764,7 +817,8 @@
       "slides",
       "productivity"
     ],
-    "description": "News.Hada에 올라온 요약 메모다. Google이 Gemini 앱에서 프롬프트만으로 Google Docs, Sheets, Slides와 PDF, DOCX, XLSX 등 다양한 파일을 직접 만들고 저장·내보낼 수 있게 했다고 정리한다."
+    "description": "News.Hada에 올라온 요약 메모다. Google이 Gemini 앱에서 프롬프트만으로 Google Docs, Sheets, Slides와 PDF, DOCX, XLSX 등 다양한 파일을 직접 만들고 저장·내보낼 수 있게 했다고 정리한다.",
+    "companies": []
   },
   {
     "title": "Gemini in Chrome 한국 출시 메모",
@@ -781,7 +835,8 @@
       "chrome",
       "browser"
     ],
-    "description": "News.Hada에 올라온 요약 메모다. Google이 2026년 4월 20일 한국에 Gemini in Chrome을 출시해, 브라우저 탭 안에서 페이지 이해, 후속 작업, 다중 탭 비교를 수행하는 AI 작업 표면을 넓혔다고 정리한다."
+    "description": "News.Hada에 올라온 요약 메모다. Google이 2026년 4월 20일 한국에 Gemini in Chrome을 출시해, 브라우저 탭 안에서 페이지 이해, 후속 작업, 다중 탭 비교를 수행하는 AI 작업 표면을 넓혔다고 정리한다.",
+    "companies": []
   },
   {
     "title": "Gemma 4를 Codex CLI에서 로컬 모델로 실행한 사례와 설정 요약",
@@ -798,7 +853,8 @@
       "local-models",
       "tool-calling"
     ],
-    "description": "Gemma 4를 Codex CLI의 로컬 모델로 연결해 실제 코드 생성과 도구 호출을 시험한 커뮤니티 메모다. Mac과 NVIDIA GB10 환경을 나눠 보며, 로컬 코딩 에이전트의 실사용성은 토큰 속도보다 첫 시도 성공률과 도구 호출 안정성에 더 크게 좌우된다는 관점을 제시한다."
+    "description": "Gemma 4를 Codex CLI의 로컬 모델로 연결해 실제 코드 생성과 도구 호출을 시험한 커뮤니티 메모다. Mac과 NVIDIA GB10 환경을 나눠 보며, 로컬 코딩 에이전트의 실사용성은 토큰 속도보다 첫 시도 성공률과 도구 호출 안정성에 더 크게 좌우된다는 관점을 제시한다.",
+    "companies": []
   },
   {
     "title": "Google Agents CLI: 코딩 에이전트를 에이전트 빌더로 확장하는 Google의 메타 도구",
@@ -815,7 +871,8 @@
       "adk",
       "google-cloud"
     ],
-    "description": "GeekNews 링크 큐레이션 성격의 2차 메모다. Google Agents CLI를 Gemini CLI, Claude Code, Codex 같은 코딩 에이전트에 붙여, Google Cloud 기반 에이전트 설계·평가·배포 작업까지 수행하게 만드는 메타 도구로 소개한다."
+    "description": "GeekNews 링크 큐레이션 성격의 2차 메모다. Google Agents CLI를 Gemini CLI, Claude Code, Codex 같은 코딩 에이전트에 붙여, Google Cloud 기반 에이전트 설계·평가·배포 작업까지 수행하게 만드는 메타 도구로 소개한다.",
+    "companies": []
   },
   {
     "title": "Harness Engineering",
@@ -831,7 +888,8 @@
       "verification",
       "youtube"
     ],
-    "description": "AI 에이전트 성능은 모델 자체보다도 이를 둘러싼 실행 하네스의 설계에 크게 좌우된다는 점을 설명하는 YouTube 영상 요약 메모다."
+    "description": "AI 에이전트 성능은 모델 자체보다도 이를 둘러싼 실행 하네스의 설계에 크게 좌우된다는 점을 설명하는 YouTube 영상 요약 메모다.",
+    "companies": []
   },
   {
     "title": "harness-lab 설치와 사용법 요약",
@@ -847,7 +905,8 @@
       "skills",
       "claude-code"
     ],
-    "description": "wikidocs 기반 2차 요약 메모다. harness-lab을 Claude Code 실습용 스킬로 설치하고, 각 장을 청사진 확인 후 승인 실행하는 흐름으로 사용하는 방법을 정리한다."
+    "description": "wikidocs 기반 2차 요약 메모다. harness-lab을 Claude Code 실습용 스킬로 설치하고, 각 장을 청사진 확인 후 승인 실행하는 흐름으로 사용하는 방법을 정리한다.",
+    "companies": []
   },
   {
     "title": "harness-lab 설치와 사용법 요약",
@@ -863,7 +922,8 @@
       "skills",
       "claude-code"
     ],
-    "description": "wikidocs 기반 2차 요약 메모다. harness-lab을 Claude Code 실습용 스킬로 설치하고, 각 장을 청사진 확인 후 승인 실행하는 흐름으로 사용하는 방법을 정리한다."
+    "description": "wikidocs 기반 2차 요약 메모다. harness-lab을 Claude Code 실습용 스킬로 설치하고, 각 장을 청사진 확인 후 승인 실행하는 흐름으로 사용하는 방법을 정리한다.",
+    "companies": []
   },
   {
     "title": "Harness: Claude Code용 에이전트 팀과 스킬을 자동 설계하는 플러그인",
@@ -880,7 +940,8 @@
       "plugins",
       "multi-agent"
     ],
-    "description": "Hacker News Korea 링크 큐레이션 성격의 2차 메모다. Claude Code용 플러그인이 도메인 설명만으로 에이전트 팀 구조와 스킬 문서를 자동 생성하고, 대표적인 다중 에이전트 아키텍처 패턴을 템플릿처럼 제공한다는 점을 소개한다."
+    "description": "Hacker News Korea 링크 큐레이션 성격의 2차 메모다. Claude Code용 플러그인이 도메인 설명만으로 에이전트 팀 구조와 스킬 문서를 자동 생성하고, 대표적인 다중 에이전트 아키텍처 패턴을 템플릿처럼 제공한다는 점을 소개한다.",
+    "companies": []
   },
   {
     "title": "Karpathy 관찰을 바탕으로 Claude Code의 동작을 개선하는 단일 CLAUDE.md 가이드 소개",
@@ -896,7 +957,8 @@
       "harness",
       "rules"
     ],
-    "description": "Andrej Karpathy의 LLM 코딩 함정 관찰을 바탕으로, Claude Code의 반복 실수를 줄이기 위한 단일 CLAUDE.md 가이드를 소개하는 PyTorch Korea 게시글 메모다."
+    "description": "Andrej Karpathy의 LLM 코딩 함정 관찰을 바탕으로, Claude Code의 반복 실수를 줄이기 위한 단일 CLAUDE.md 가이드를 소개하는 PyTorch Korea 게시글 메모다.",
+    "companies": []
   },
   {
     "title": "LLM위키 완벽 가이드",
@@ -911,7 +973,8 @@
       "knowledge-base",
       "memory"
     ],
-    "description": "WikiDocs 책으로, Claude, ChatGPT, OpenAI Codex 같은 LLM 도구를 업무에 쓰면서 흩어지는 대화, 자료, 결정 사항, 산출물을 재사용 가능한 LLM위키로 구조화하는 방법을 다룬다."
+    "description": "WikiDocs 책으로, Claude, ChatGPT, OpenAI Codex 같은 LLM 도구를 업무에 쓰면서 흩어지는 대화, 자료, 결정 사항, 산출물을 재사용 가능한 LLM위키로 구조화하는 방법을 다룬다.",
+    "companies": []
   },
   {
     "title": "Memradar: AI 코딩 세션을 분석해 작업 유형과 회고 리포트를 보여주는 오픈소스",
@@ -927,7 +990,8 @@
       "observability",
       "retrospection"
     ],
-    "description": "Memradar를 소개하는 2차 메모다. Claude Code와 Codex의 로컬 세션 로그를 읽어 작업 유형, 시간 사용 패턴, 토큰·비용 통계, 회고용 이미지 리포트를 브라우저 대시보드로 보여 주는 개인용 분석 도구로 설명한다."
+    "description": "Memradar를 소개하는 2차 메모다. Claude Code와 Codex의 로컬 세션 로그를 읽어 작업 유형, 시간 사용 패턴, 토큰·비용 통계, 회고용 이미지 리포트를 브라우저 대시보드로 보여 주는 개인용 분석 도구로 설명한다.",
+    "companies": []
   },
   {
     "title": "Open Design: Claude Design의 제약을 보완하는 오픈소스 AI 디자인 도구",
@@ -943,7 +1007,8 @@
       "local-first",
       "open-source"
     ],
-    "description": "Open Design을 소개하는 2차 메모다. Claude Design의 클라우드 전용·비공개 성격을 보완하는 대안으로, 로컬 우선 실행, BYOK, 기존 코딩 에이전트 CLI 재사용을 묶은 오픈소스 디자인 워크플로로 설명한다."
+    "description": "Open Design을 소개하는 2차 메모다. Claude Design의 클라우드 전용·비공개 성격을 보완하는 대안으로, 로컬 우선 실행, BYOK, 기존 코딩 에이전트 CLI 재사용을 묶은 오픈소스 디자인 워크플로로 설명한다.",
+    "companies": []
   },
   {
     "title": "OpenAI Codex, 모바일 ChatGPT에 통합",
@@ -960,7 +1025,8 @@
       "mobile",
       "remote-control"
     ],
-    "description": "AI타임스 기사 요약 메모다. OpenAI가 Codex를 iOS와 Android용 ChatGPT 앱에 통합해, 스마트폰에서 원격 코딩 작업을 확인하고 제어할 수 있는 프리뷰를 공개했다고 전한다."
+    "description": "AI타임스 기사 요약 메모다. OpenAI가 Codex를 iOS와 Android용 ChatGPT 앱에 통합해, 스마트폰에서 원격 코딩 작업을 확인하고 제어할 수 있는 프리뷰를 공개했다고 전한다.",
+    "companies": []
   },
   {
     "title": "OpenKB: LLM이 문서를 자동으로 위키 형태의 지식 베이스로 컴파일하는 오픈소스 도구",
@@ -975,7 +1041,8 @@
       "knowledge-base",
       "memory"
     ],
-    "description": "PyTorchKR 포럼의 소개 글로, OpenKB를 PDF, Word, Markdown, PowerPoint, HTML, Excel 같은 문서를 LLM으로 읽어 위키형 지식 베이스로 누적 컴파일하는 오픈소스 CLI 도구로 설명한다."
+    "description": "PyTorchKR 포럼의 소개 글로, OpenKB를 PDF, Word, Markdown, PowerPoint, HTML, Excel 같은 문서를 LLM으로 읽어 위키형 지식 베이스로 누적 컴파일하는 오픈소스 CLI 도구로 설명한다.",
+    "companies": []
   },
   {
     "title": "Opus 4.8 등장: 클로드는 주도권을 되찾을 수 있을까",
@@ -992,7 +1059,8 @@
       "models",
       "coding-agents"
     ],
-    "description": "Yozm IT의 Anthropic Opus 4.8 출시와 Claude Code workflow 업데이트 분석 메모다. 모델 성능 자체보다 Honesty 개선, 코딩·에이전트 벤치마크, Claude Code의 Dynamic Workflows가 GPT-5.5·Codex와의 경쟁 구도에 어떤 의미를 갖는지를 다룬다."
+    "description": "Yozm IT의 Anthropic Opus 4.8 출시와 Claude Code workflow 업데이트 분석 메모다. 모델 성능 자체보다 Honesty 개선, 코딩·에이전트 벤치마크, Claude Code의 Dynamic Workflows가 GPT-5.5·Codex와의 경쟁 구도에 어떤 의미를 갖는지를 다룬다.",
+    "companies": []
   },
   {
     "title": "Prompt Master 소개와 핵심 기능 요약",
@@ -1008,7 +1076,8 @@
       "skills",
       "claude"
     ],
-    "description": "Prompt Master를 여러 AI 도구용 프롬프트를 자동 설계하는 Claude 스킬로 소개한 2차 메모다. 핵심 가치는 긴 프롬프트를 늘리는 데 있지 않고, 요청을 구조화하고 필요한 명확화 질문만 남겨 재시도와 토큰 낭비를 줄이는 데 있다고 설명한다."
+    "description": "Prompt Master를 여러 AI 도구용 프롬프트를 자동 설계하는 Claude 스킬로 소개한 2차 메모다. 핵심 가치는 긴 프롬프트를 늘리는 데 있지 않고, 요청을 구조화하고 필요한 명확화 질문만 남겨 재시도와 토큰 낭비를 줄이는 데 있다고 설명한다.",
+    "companies": []
   },
   {
     "title": "Swagger/OpenAPI를 AI 프론트엔드 자동화의 핵심 컨텍스트와 하네스로 쓰는 방법",
@@ -1025,7 +1094,8 @@
       "sdk",
       "frontend"
     ],
-    "description": "Swagger/OpenAPI 명세를 단순 문서가 아니라 AI가 읽는 구조화 컨텍스트이자 타입이 있는 SDK 생성의 출발점으로 활용해야 한다는 메모다. 프론트엔드 자동화의 정확도는 프롬프트 길이보다 명세 품질과 실행 가능한 검증 하네스에 더 크게 좌우된다는 주장에 가깝다."
+    "description": "Swagger/OpenAPI 명세를 단순 문서가 아니라 AI가 읽는 구조화 컨텍스트이자 타입이 있는 SDK 생성의 출발점으로 활용해야 한다는 메모다. 프론트엔드 자동화의 정확도는 프롬프트 길이보다 명세 품질과 실행 가능한 검증 하네스에 더 크게 좌우된다는 주장에 가깝다.",
+    "companies": []
   },
   {
     "title": "TMUX 설치 및 기본 명령어 요약",
@@ -1041,7 +1111,8 @@
       "terminal",
       "workflow"
     ],
-    "description": "wikidocs 기반 2차 요약 메모다. tmux 설치, 세션·윈도우·pane 구조, 기본 단축키, 그리고 여러 pane에 명령을 보내는 실습 흐름을 짧게 정리한다."
+    "description": "wikidocs 기반 2차 요약 메모다. tmux 설치, 세션·윈도우·pane 구조, 기본 단축키, 그리고 여러 pane에 명령을 보내는 실습 흐름을 짧게 정리한다.",
+    "companies": []
   },
   {
     "title": "Warp, 오픈소스로 전환하며 agent-first 개발 모델 공개",
@@ -1057,7 +1128,8 @@
       "terminal-tools",
       "open-source"
     ],
-    "description": "GeekNews 링크 큐레이션 성격의 2차 메모다. Warp가 클라이언트를 AGPL로 오픈소스화하고, 에이전트가 구현을 맡고 사람은 명세와 검증에 집중하는 agent-first 개발 표면을 공개 협업 방식으로 확장하겠다는 방향을 요약한다."
+    "description": "GeekNews 링크 큐레이션 성격의 2차 메모다. Warp가 클라이언트를 AGPL로 오픈소스화하고, 에이전트가 구현을 맡고 사람은 명세와 검증에 집중하는 agent-first 개발 표면을 공개 협업 방식으로 확장하겠다는 방향을 요약한다.",
+    "companies": []
   },
   {
     "title": "YouTube 링크 접근 불가 메모",
@@ -1072,7 +1144,8 @@
       "youtube",
       "inaccessible"
     ],
-    "description": "YouTube 영상 링크를 저장하려 했지만, 현재 확보된 내용은 실제 영상 제목이나 설명이 아니라 콘텐츠 조회 실패 상태를 기록한 inbox 메모다. URL과 Discord 공유 흔적은 남아 있지만 영상의 주제와 핵심 주장 자체는 확인되지 않는다."
+    "description": "YouTube 영상 링크를 저장하려 했지만, 현재 확보된 내용은 실제 영상 제목이나 설명이 아니라 콘텐츠 조회 실패 상태를 기록한 inbox 메모다. URL과 Discord 공유 흔적은 남아 있지만 영상의 주제와 핵심 주장 자체는 확인되지 않는다.",
+    "companies": []
   },
   {
     "title": "Zed 1.0 릴리즈",
@@ -1088,7 +1161,8 @@
       "editor",
       "agentic-ide"
     ],
-    "description": "GeekNews 링크 큐레이션 성격의 2차 메모다. Zed가 1.0에 도달하며, GPU 중심 편집기 아키텍처 위에 다중 에이전트 병렬 작업, edit predictions, Agent Client Protocol 연동을 묶은 AI-native editor 전략을 전면에 내세웠다는 점을 요약한다."
+    "description": "GeekNews 링크 큐레이션 성격의 2차 메모다. Zed가 1.0에 도달하며, GPU 중심 편집기 아키텍처 위에 다중 에이전트 병렬 작업, edit predictions, Agent Client Protocol 연동을 묶은 AI-native editor 전략을 전면에 내세웠다는 점을 요약한다.",
+    "companies": []
   },
   {
     "title": "디지털데일리 기사 접근 불가 메모",
@@ -1103,7 +1177,8 @@
       "inaccessible",
       "ddaily"
     ],
-    "description": "디지털데일리 기사 링크를 저장하려 했지만, 현재 확보된 내용은 403 Forbidden으로 원문 확인에 실패했다는 메모와 메타데이터뿐이다. URL과 Discord 공유 흔적은 남아 있지만 실제 기사 제목과 본문은 확인되지 않는다."
+    "description": "디지털데일리 기사 링크를 저장하려 했지만, 현재 확보된 내용은 403 Forbidden으로 원문 확인에 실패했다는 메모와 메타데이터뿐이다. URL과 Discord 공유 흔적은 남아 있지만 실제 기사 제목과 본문은 확인되지 않는다.",
+    "companies": []
   },
   {
     "title": "美, 한국산 철강·알루미늄 파생상품 관세 25%→15% 인하",
@@ -1117,7 +1192,8 @@
       "inbox",
       "article"
     ],
-    "description": "미국이 6월 8일부터 한국 등 관세 합의국 대상 철강·알루미늄·구리 파생상품 관세를 15%로 낮춘다."
+    "description": "미국이 6월 8일부터 한국 등 관세 합의국 대상 철강·알루미늄·구리 파생상품 관세를 15%로 낮춘다.",
+    "companies": []
   },
   {
     "title": "애플경제 기사 접근 불가 메모",
@@ -1131,7 +1207,8 @@
       "article",
       "inaccessible"
     ],
-    "description": "apple-economy.com 기사 링크를 저장하려 했지만, 현재 확보된 내용은 기사 본문이 아니라 본문 확인 실패 상태를 기록한 inbox 메모다. URL과 Discord 공유 흔적은 남아 있지만 실제 기사 제목과 본문은 확인되지 않는다."
+    "description": "apple-economy.com 기사 링크를 저장하려 했지만, 현재 확보된 내용은 기사 본문이 아니라 본문 확인 실패 상태를 기록한 inbox 메모다. URL과 Discord 공유 흔적은 남아 있지만 실제 기사 제목과 본문은 확인되지 않는다.",
+    "companies": []
   },
   {
     "title": "Daum 기사 접근 불가 메모",
@@ -1146,7 +1223,8 @@
       "inaccessible",
       "daum"
     ],
-    "description": "Daum 뉴스 기사 링크를 저장하려 했지만, 현재 확보된 내용은 기사 본문이 아니라 본문 확인 실패 상태를 기록한 inbox 메모다. 원문 URL과 Discord 공유 흔적은 남아 있지만 실제 기사 제목, 본문, 기자명, 매체명은 확인되지 않는다."
+    "description": "Daum 뉴스 기사 링크를 저장하려 했지만, 현재 확보된 내용은 기사 본문이 아니라 본문 확인 실패 상태를 기록한 inbox 메모다. 원문 URL과 Discord 공유 흔적은 남아 있지만 실제 기사 제목, 본문, 기자명, 매체명은 확인되지 않는다.",
+    "companies": []
   },
   {
     "title": "Fincept Terminal 오픈소스 금융 분석 플랫폼 소개",
@@ -1164,7 +1242,8 @@
       "open-source",
       "multi-llm"
     ],
-    "description": "News.Hada에 올라온 요약 메모다. Fincept Terminal을 Bloomberg Terminal 대안을 지향하는 오픈소스 금융 분석 플랫폼으로 소개하며, 전통 금융 분석 기능 위에 다수의 AI 에이전트와 멀티 LLM, 데이터 커넥터, 트레이딩 기능을 결합한 통합 작업 표면으로 설명한다."
+    "description": "News.Hada에 올라온 요약 메모다. Fincept Terminal을 Bloomberg Terminal 대안을 지향하는 오픈소스 금융 분석 플랫폼으로 소개하며, 전통 금융 분석 기능 위에 다수의 AI 에이전트와 멀티 LLM, 데이터 커넥터, 트레이딩 기능을 결합한 통합 작업 표면으로 설명한다.",
+    "companies": []
   },
   {
     "title": "GeekNews 기사 접근 불가 메모",
@@ -1179,7 +1258,8 @@
       "inaccessible",
       "geeknews"
     ],
-    "description": "GeekNews 기사 링크를 저장하려 했지만, 현재 확보된 내용은 실제 기사 제목이나 본문이 아니라 해당 항목을 확인하지 못했다는 접근 실패 메모다."
+    "description": "GeekNews 기사 링크를 저장하려 했지만, 현재 확보된 내용은 실제 기사 제목이나 본문이 아니라 해당 항목을 확인하지 못했다는 접근 실패 메모다.",
+    "companies": []
   },
   {
     "title": "Investing.com 기사 접근 불가 메모",
@@ -1194,7 +1274,8 @@
       "inaccessible",
       "investing"
     ],
-    "description": "Investing.com 기사 링크를 저장하려 했지만, 현재 확보된 내용은 기사 본문이 아니라 원문 확인 실패 상태를 기록한 메모와 메타데이터뿐이다."
+    "description": "Investing.com 기사 링크를 저장하려 했지만, 현재 확보된 내용은 기사 본문이 아니라 원문 확인 실패 상태를 기록한 메모와 메타데이터뿐이다.",
+    "companies": []
   },
   {
     "title": "Just a moment...",
@@ -1208,7 +1289,8 @@
       "inbox",
       "article"
     ],
-    "description": "요청된 URL(https://wikidocs.net/book/19673)에 접근을 시도했으나, Cloudflare 보안 접속 차단(HTTP 403 Forbidden)으로 인해 본문 내용을 가져오지 못했습니다."
+    "description": "요청된 URL(https://wikidocs.net/book/19673)에 접근을 시도했으나, Cloudflare 보안 접속 차단(HTTP 403 Forbidden)으로 인해 본문 내용을 가져오지 못했습니다.",
+    "companies": []
   },
   {
     "title": "LG디스플레이, 게이밍 OLED 로드쇼서 최대 라인업과 차세대 기술 공개",
@@ -1222,7 +1304,8 @@
       "inbox",
       "article"
     ],
-    "description": "LG디스플레이가 대만 타이베이에서 글로벌 고객사를 대상으로 게이밍 OLED 로드쇼를 열고 39인치 5K2K OLED, 27인치 5K OLED, DisplayHDR True Black 1000급 기술 등 차세대 제품 로드맵을 제시한다."
+    "description": "LG디스플레이가 대만 타이베이에서 글로벌 고객사를 대상으로 게이밍 OLED 로드쇼를 열고 39인치 5K2K OLED, 27인치 5K OLED, DisplayHDR True Black 1000급 기술 등 차세대 제품 로드맵을 제시한다.",
+    "companies": []
   },
   {
     "title": "The Edit 링크 접근 불가 메모",
@@ -1236,7 +1319,8 @@
       "article",
       "inaccessible"
     ],
-    "description": "the-edit.co.kr/84624 링크를 저장하려 했지만 본문을 안정적으로 가져오지 못한 inbox 메모다. 현재 남아 있는 정보는 기사 내용이 아니라 수집 실패 상태와 링크 메타데이터다."
+    "description": "the-edit.co.kr/84624 링크를 저장하려 했지만 본문을 안정적으로 가져오지 못한 inbox 메모다. 현재 남아 있는 정보는 기사 내용이 아니라 수집 실패 상태와 링크 메타데이터다.",
+    "companies": []
   },
   {
     "title": "WikiDocs 페이지 접근 불가 메모",
@@ -1251,7 +1335,8 @@
       "inaccessible",
       "wikidocs"
     ],
-    "description": "WikiDocs 페이지 링크를 저장하려 했지만, 현재 확보된 내용은 실제 문서 본문이 아니라 접근 제한 또는 로딩 차단 상태를 기록한 inbox 메모다. 추출된 제목은 Just a moment...뿐이라 문서 주제, 작성자, 발행일, 핵심 논지를 확인할 수 없다."
+    "description": "WikiDocs 페이지 링크를 저장하려 했지만, 현재 확보된 내용은 실제 문서 본문이 아니라 접근 제한 또는 로딩 차단 상태를 기록한 inbox 메모다. 추출된 제목은 Just a moment...뿐이라 문서 주제, 작성자, 발행일, 핵심 논지를 확인할 수 없다.",
+    "companies": []
   },
   {
     "title": "Yozm IT 기사 접근 불가 메모",
@@ -1266,7 +1351,8 @@
       "inaccessible",
       "yozm"
     ],
-    "description": "Yozm IT 기사 링크를 저장하려 했지만, 현재 확보된 내용은 403 Forbidden으로 원문 확인에 실패했다는 메모와 메타데이터뿐이다. 실제 기사 제목과 본문은 확인되지 않는다."
+    "description": "Yozm IT 기사 링크를 저장하려 했지만, 현재 확보된 내용은 403 Forbidden으로 원문 확인에 실패했다는 메모와 메타데이터뿐이다. 실제 기사 제목과 본문은 확인되지 않는다.",
+    "companies": []
   },
   {
     "title": "골드만삭스, 코스피 목표치 1만2000으로 상향",
@@ -1280,7 +1366,8 @@
       "inbox",
       "article"
     ],
-    "description": "Goldman Sachs가 코스피 목표치를 9000에서 1만2000으로 올리고 비중확대 의견을 유지했다."
+    "description": "Goldman Sachs가 코스피 목표치를 9000에서 1만2000으로 올리고 비중확대 의견을 유지했다.",
+    "companies": []
   },
   {
     "title": "국내 상장 로봇기업 1분기 실적 부진",
@@ -1294,7 +1381,8 @@
       "inbox",
       "article"
     ],
-    "description": "2026년 1분기 국내 주요 상장 로봇기업 34곳은 매출 5669억원으로 정체했고, 영업손실은 871억원으로 확대됐다."
+    "description": "2026년 1분기 국내 주요 상장 로봇기업 34곳은 매출 5669억원으로 정체했고, 영업손실은 871억원으로 확대됐다.",
+    "companies": []
   },
   {
     "title": "네이버, 국방 AX 전담조직 신설로 국방 AI 시장 진출",
@@ -1311,7 +1399,15 @@
       "sovereign-ai",
       "defense-ai"
     ],
-    "description": "네이버클라우드가 2026년 6월 1일자로 국방 AX 전담 조직을 신설해 한국형 국방 AI 플랫폼 사업화를 추진한다는 기사 요약 메모다. 같은 URL의 기존 수집 실패 메모인 [[2026-05-31-naver-news-011-0004626231-inaccessible|네이버뉴스 기사 접근 불가 메모]]를 보완하는 후속 source다."
+    "description": "네이버클라우드가 2026년 6월 1일자로 국방 AX 전담 조직을 신설해 한국형 국방 AI 플랫폼 사업화를 추진한다는 기사 요약 메모다. 같은 URL의 기존 수집 실패 메모인 [[2026-05-31-naver-news-011-0004626231-inaccessible|네이버뉴스 기사 접근 불가 메모]]를 보완하는 후속 source다.",
+    "companies": [
+      {
+        "id": "naver",
+        "label": "네이버",
+        "ticker": "035420",
+        "sector": "internet-platform"
+      }
+    ]
   },
   {
     "title": "대한항공, 비상경영으로 고유가·고환율 대응",
@@ -1325,7 +1421,8 @@
       "inbox",
       "article"
     ],
-    "description": "대한항공은 이란 전쟁 장기화로 항공유 가격과 환율 부담이 커지자 연료 관리, 재무 방어, 비용 효율화를 중심으로 비상경영체제를 이어가고 있다."
+    "description": "대한항공은 이란 전쟁 장기화로 항공유 가격과 환율 부담이 커지자 연료 관리, 재무 방어, 비용 효율화를 중심으로 비상경영체제를 이어가고 있다.",
+    "companies": []
   },
   {
     "title": "대한항공, 회사채 수요예측 흥행",
@@ -1343,7 +1440,8 @@
       "credit",
       "asiana"
     ],
-    "description": "2026년 6월 3일 캡처 기준으로, 연합인포맥스 기사는 대한항공이 2천억원 규모 회사채 발행 수요예측에서 1조1140억원 주문을 확보했고, 신용등급 전망 긍정적 부여와 아시아나항공 합병 이후 시장 지위 개선 기대가 투자심리에 작용했다고 정리한다."
+    "description": "2026년 6월 3일 캡처 기준으로, 연합인포맥스 기사는 대한항공이 2천억원 규모 회사채 발행 수요예측에서 1조1140억원 주문을 확보했고, 신용등급 전망 긍정적 부여와 아시아나항공 합병 이후 시장 지위 개선 기대가 투자심리에 작용했다고 정리한다.",
+    "companies": []
   },
   {
     "title": "삼성重, 바다 위 데이터센터 시장 공략… 그리스 선주사·영국 선급·미국 AI 서버 업체와 협력 - 조선비즈",
@@ -1357,7 +1455,8 @@
       "inbox",
       "article"
     ],
-    "description": "삼성중공업이 인공지능(AI) 수요 급증에 발맞춰 부유식 데이터센터(FDC) 시장을 선점하기 위해 그리스 캐피탈, 영국 로이드선급(LR), 미국 수퍼마이크로 등 글로벌 기업들과 기술 개발, 타당성 검증, 투자 유치를 포괄하는 글로벌 협력 체계를 구축했다."
+    "description": "삼성중공업이 인공지능(AI) 수요 급증에 발맞춰 부유식 데이터센터(FDC) 시장을 선점하기 위해 그리스 캐피탈, 영국 로이드선급(LR), 미국 수퍼마이크로 등 글로벌 기업들과 기술 개발, 타당성 검증, 투자 유치를 포괄하는 글로벌 협력 체계를 구축했다.",
+    "companies": []
   },
   {
     "title": "삼성D, 8.6세대 OLED 2라인에 LTPO 장비 도입 추진",
@@ -1374,7 +1473,15 @@
       "ltpo",
       "apple-supply-chain"
     ],
-    "description": "삼성디스플레이가 8.6세대 OLED 두 번째 생산라인에 LTPO TFT 관련 장비 도입을 추진한다는 기사다. 첫 번째 라인의 oxide TFT 기반 IT OLED와 달리, 후속 라인은 노트북뿐 아니라 태블릿과 중장기 스마트폰용 패널까지 겨냥할 수 있다는 해석을 담고 있다."
+    "description": "삼성디스플레이가 8.6세대 OLED 두 번째 생산라인에 LTPO TFT 관련 장비 도입을 추진한다는 기사다. 첫 번째 라인의 oxide TFT 기반 IT OLED와 달리, 후속 라인은 노트북뿐 아니라 태블릿과 중장기 스마트폰용 패널까지 겨냥할 수 있다는 해석을 담고 있다.",
+    "companies": [
+      {
+        "id": "apple-inc",
+        "label": "Apple Inc.",
+        "ticker": "",
+        "sector": ""
+      }
+    ]
   },
   {
     "title": "삼성SDI-벤츠 10조 원 배터리 공급 계약 임박 보도",
@@ -1390,7 +1497,8 @@
       "samsung-sdi",
       "mercedes-benz"
     ],
-    "description": "삼성SDI와 Mercedes-Benz의 2028년형 전기차용 프리즘 배터리 공급 계약이 임박했다는 기사 요약 메모다. 확정 공시가 아니라 보도 기사이므로 계약 성사 여부와 생산 거점 변화는 후속 확인이 필요하다."
+    "description": "삼성SDI와 Mercedes-Benz의 2028년형 전기차용 프리즘 배터리 공급 계약이 임박했다는 기사 요약 메모다. 확정 공시가 아니라 보도 기사이므로 계약 성사 여부와 생산 거점 변화는 후속 확인이 필요하다.",
+    "companies": []
   },
   {
     "title": "삼성SDS·네이버클라우드·엘리스그룹, 2조원 정부 GPU 사업 우선협상대상자 선정",
@@ -1408,7 +1516,15 @@
       "naver",
       "samsung-sds"
     ],
-    "description": "전자신문 기사 요약 메모다. 과기정통부와 NIPA의 2026년 AI 컴퓨팅자원 활용 기반 강화사업에서 삼성SDS, 네이버클라우드, 엘리스그룹이 우선협상대상자로 선정됐다는 내용을 다룬다."
+    "description": "전자신문 기사 요약 메모다. 과기정통부와 NIPA의 2026년 AI 컴퓨팅자원 활용 기반 강화사업에서 삼성SDS, 네이버클라우드, 엘리스그룹이 우선협상대상자로 선정됐다는 내용을 다룬다.",
+    "companies": [
+      {
+        "id": "naver",
+        "label": "네이버",
+        "ticker": "035420",
+        "sector": "internet-platform"
+      }
+    ]
   },
   {
     "title": "스마트워치 OLED 확대에 LG디스플레이 수혜 기대",
@@ -1424,7 +1540,15 @@
       "oled",
       "apple-supply-chain"
     ],
-    "description": "스마트워치 시장에서 OLED 채택이 늘면서 Apple Watch용 OLED를 공급하는 LG디스플레이가 수혜를 볼 수 있다는 기사다. 기존 K-디스플레이 OLED 논지 중 IT·모바일·차량용 고부가 패널 전환 축에 더해, 웨어러블용 소형 OLED 수요를 보강하는 자료다."
+    "description": "스마트워치 시장에서 OLED 채택이 늘면서 Apple Watch용 OLED를 공급하는 LG디스플레이가 수혜를 볼 수 있다는 기사다. 기존 K-디스플레이 OLED 논지 중 IT·모바일·차량용 고부가 패널 전환 축에 더해, 웨어러블용 소형 OLED 수요를 보강하는 자료다.",
+    "companies": [
+      {
+        "id": "apple-inc",
+        "label": "Apple Inc.",
+        "ticker": "",
+        "sector": ""
+      }
+    ]
   },
   {
     "title": "신한투자증권, 국내 주식 투자의견 중립 하향",
@@ -1441,7 +1565,21 @@
       "asset-allocation",
       "shinhan-securities"
     ],
-    "description": "신한투자증권이 2026년 6월 들어 국내 주식 투자의견을 비중 확대에서 중립으로 낮추고, 현금은 소폭 선호로 상향했다는 연합인포맥스 기사 요약 메모다."
+    "description": "신한투자증권이 2026년 6월 들어 국내 주식 투자의견을 비중 확대에서 중립으로 낮추고, 현금은 소폭 선호로 상향했다는 연합인포맥스 기사 요약 메모다.",
+    "companies": [
+      {
+        "id": "samsung-electronics",
+        "label": "삼성전자",
+        "ticker": "005930",
+        "sector": "semiconductors"
+      },
+      {
+        "id": "sk-hynix",
+        "label": "SK하이닉스",
+        "ticker": "000660",
+        "sector": "semiconductors"
+      }
+    ]
   },
   {
     "title": "아시아나 인수 뒤 대한항공, 고유가·고환율 부담이 본격 시험대에 올랐다는 분석",
@@ -1459,7 +1597,8 @@
       "oil",
       "fx"
     ],
-    "description": "2026년 5월 3일 캡처 기준으로, 한겨레 기사는 대한항공이 아시아나항공 인수 이후 외형은 커졌지만 중동 전쟁 여파에 따른 유가 급등과 원화 약세가 2026년 2분기부터 수익성에 본격 부담을 줄 수 있다고 짚는다."
+    "description": "2026년 5월 3일 캡처 기준으로, 한겨레 기사는 대한항공이 아시아나항공 인수 이후 외형은 커졌지만 중동 전쟁 여파에 따른 유가 급등과 원화 약세가 2026년 2분기부터 수익성에 본격 부담을 줄 수 있다고 짚는다.",
+    "companies": []
   },
   {
     "title": "연준의 새로운 금융환경지수 FCI-G, 연준 통화정책과 미국경제에 미치는 영향",
@@ -1475,7 +1614,8 @@
       "fed",
       "financial-conditions"
     ],
-    "description": "연준의 새 금융환경지수 FCI-G를 소개하는 네이버 프리미엄 기사 요약 메모다. 현재 확인 가능한 범위는 공개 프리뷰뿐이며, 지수의 개념과 기존 금융환경지수 대비 차별화 포인트를 설명하려는 문제의식까지만 파악된다."
+    "description": "연준의 새 금융환경지수 FCI-G를 소개하는 네이버 프리미엄 기사 요약 메모다. 현재 확인 가능한 범위는 공개 프리뷰뿐이며, 지수의 개념과 기존 금융환경지수 대비 차별화 포인트를 설명하려는 문제의식까지만 파악된다.",
+    "companies": []
   },
   {
     "title": "중국 BOE, 8.6세대 OLED 양산 일정 앞당김",
@@ -1492,7 +1632,15 @@
       "boe",
       "apple-supply-chain"
     ],
-    "description": "BOE가 청두 B16 공장에서 8.6세대 OLED 양산 일정을 당초 하반기 목표보다 앞당겨 2026년 5월 말 유리기판 투입을 시작할 예정이라는 기사다. Asus와 Acer용 14인치 노트북 OLED 패널이 초기 대상이며, 한국 디스플레이 업체의 IT OLED 전환 논지를 볼 때 중국 경쟁사의 속도 변수가 커졌다는 신호로 다룬다."
+    "description": "BOE가 청두 B16 공장에서 8.6세대 OLED 양산 일정을 당초 하반기 목표보다 앞당겨 2026년 5월 말 유리기판 투입을 시작할 예정이라는 기사다. Asus와 Acer용 14인치 노트북 OLED 패널이 초기 대상이며, 한국 디스플레이 업체의 IT OLED 전환 논지를 볼 때 중국 경쟁사의 속도 변수가 커졌다는 신호로 다룬다.",
+    "companies": [
+      {
+        "id": "apple-inc",
+        "label": "Apple Inc.",
+        "ticker": "",
+        "sector": ""
+      }
+    ]
   },
   {
     "title": "트럼프, 철강·알루미늄 관세 조정과 농기계 관세 인하",
@@ -1509,7 +1657,8 @@
       "aluminum",
       "industrial-equipment"
     ],
-    "description": "한국경제 기사 요약 메모다. 도널드 트럼프 미국 대통령이 철강·알루미늄·구리 관련 일부 수입품 관세를 조정하는 포고문에 서명했고, 미국산 금속 사용 비중이 높은 설비와 일부 농기계·산업장비에 한시적 우대 관세를 적용한다는 내용을 다룬다."
+    "description": "한국경제 기사 요약 메모다. 도널드 트럼프 미국 대통령이 철강·알루미늄·구리 관련 일부 수입품 관세를 조정하는 포고문에 서명했고, 미국산 금속 사용 비중이 높은 설비와 일부 농기계·산업장비에 한시적 우대 관세를 적용한다는 내용을 다룬다.",
+    "companies": []
   },
   {
     "title": "韓, 캐나다산 원유도입 확대… 올해 488만→1600만 배럴로",
@@ -1523,7 +1672,8 @@
       "inbox",
       "article"
     ],
-    "description": "정부가 공급망 다변화와 에너지 안보 강화를 위해 캐나다와의 협력을 확대하여 캐나다산 원유 수입량을 지난해 488만 배럴에서 올해 최대 1600만 배럴로 늘리고, 장기적으로 연간 2000만 배럴까지 확대할 계획입니다."
+    "description": "정부가 공급망 다변화와 에너지 안보 강화를 위해 캐나다와의 협력을 확대하여 캐나다산 원유 수입량을 지난해 488만 배럴에서 올해 최대 1600만 배럴로 늘리고, 장기적으로 연간 2000만 배럴까지 확대할 계획입니다.",
+    "companies": []
   },
   {
     "title": "한국산 철근, 美 데이터센터 붐 타고 대미 수출 급증",
@@ -1540,7 +1690,8 @@
       "steel",
       "exports"
     ],
-    "description": "매일경제 기사 요약 메모다. 미국 AI 데이터센터 건설 붐이 철근, 강관, 컬러강판 수요를 끌어올리면서 2026년 4월 한국의 대미 철강 수출이 10여 년 만의 최대치를 기록했다는 내용을 다룬다."
+    "description": "매일경제 기사 요약 메모다. 미국 AI 데이터센터 건설 붐이 철근, 강관, 컬러강판 수요를 끌어올리면서 2026년 4월 한국의 대미 철강 수출이 10여 년 만의 최대치를 기록했다는 내용을 다룬다.",
+    "companies": []
   },
   {
     "title": "활주로 막힌 LCC, 홀로 나는 대한항공",
@@ -1559,7 +1710,8 @@
       "oil",
       "consolidation"
     ],
-    "description": "2026년 5월 31일 캡처 기준으로, FORTUNE Korea 기사는 대한항공이 아시아나항공 편입 효과, 화물, 장거리 노선, 비용 헤지로 상대적으로 방어하는 반면 국내 LCC는 고환율, 고유가, 과열 경쟁으로 재무 압박과 구조조정 가능성이 커지고 있다고 정리한다."
+    "description": "2026년 5월 31일 캡처 기준으로, FORTUNE Korea 기사는 대한항공이 아시아나항공 편입 효과, 화물, 장거리 노선, 비용 헤지로 상대적으로 방어하는 반면 국내 LCC는 고환율, 고유가, 과열 경쟁으로 재무 압박과 구조조정 가능성이 커지고 있다고 정리한다.",
+    "companies": []
   },
   {
     "title": "HBM 이어 LPDDR까지, Nvidia가 메모리 시장 큰손으로 부상",
@@ -1577,7 +1729,21 @@
       "lpddr",
       "nvidia"
     ],
-    "description": "조선일보 기사 요약 메모다. AI 서버 수요 확대 속에서 Nvidia가 HBM뿐 아니라 AI 서버 CPU용 LPDDR에서도 큰 수요처로 부상할 가능성을 다룬다."
+    "description": "조선일보 기사 요약 메모다. AI 서버 수요 확대 속에서 Nvidia가 HBM뿐 아니라 AI 서버 CPU용 LPDDR에서도 큰 수요처로 부상할 가능성을 다룬다.",
+    "companies": [
+      {
+        "id": "samsung-electronics",
+        "label": "삼성전자",
+        "ticker": "005930",
+        "sector": "semiconductors"
+      },
+      {
+        "id": "sk-hynix",
+        "label": "SK하이닉스",
+        "ticker": "000660",
+        "sector": "semiconductors"
+      }
+    ]
   },
   {
     "title": "K-배터리, LFP 배터리 시장 확대로 새 성장 기회 모색",
@@ -1594,6 +1760,7 @@
       "ess",
       "ai-infrastructure"
     ],
-    "description": "Daum 기사 요약 메모로, 전기차와 ESS 수요 확대, 미국·EU의 중국산 배터리 견제 흐름을 배경으로 국내 배터리·소재 업체들이 LFP 배터리와 양극재 생산 능력을 늘리고 있다는 내용을 다룬다."
+    "description": "Daum 기사 요약 메모로, 전기차와 ESS 수요 확대, 미국·EU의 중국산 배터리 견제 흐름을 배경으로 국내 배터리·소재 업체들이 LFP 배터리와 양극재 생산 능력을 늘리고 있다는 내용을 다룬다.",
+    "companies": []
   }
 ]

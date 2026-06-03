@@ -269,6 +269,14 @@ h3 {
   border-color: var(--accent);
 }
 
+.company-card {
+  min-height: 220px;
+}
+
+.company-tags {
+  margin-bottom: 22px;
+}
+
 .tag-row {
   display: flex;
   flex-wrap: wrap;

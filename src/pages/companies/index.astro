@@ -1,0 +1,66 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import links from '../../data/links.json'
+
+const base = import.meta.env.BASE_URL
+const basePath = base.endsWith('/') ? base : `${base}/`
+const withBase = (href) => `${basePath}${href.replace(/^\//, '')}`
+
+const companyMap = new Map()
+for (const link of links) {
+  for (const company of link.companies || []) {
+    if (!companyMap.has(company.id)) {
+      companyMap.set(company.id, {
+        ...company,
+        links: [],
+        tags: new Map(),
+      })
+    }
+    const entry = companyMap.get(company.id)
+    entry.links.push(link)
+    for (const tag of link.tags || []) {
+      entry.tags.set(tag, (entry.tags.get(tag) || 0) + 1)
+    }
+  }
+}
+
+const companies = Array.from(companyMap.values())
+  .map((company) => ({
+    ...company,
+    latest: company.links
+      .map((link) => link.updated)
+      .filter(Boolean)
+      .sort()
+      .at(-1) || '',
+    topTags: Array.from(company.tags.entries())
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+      .slice(0, 5)
+      .map(([tag]) => tag),
+  }))
+  .sort((a, b) => b.links.length - a.links.length || a.label.localeCompare(b.label, 'ko'))
+---
+
+<BaseLayout title="기업별 링크 | 2nd Brain Public">
+  <main class="container section">
+    <div class="section-header">
+      <div>
+        <p class="eyebrow">한국 주식</p>
+        <h1>기업별 링크</h1>
+      </div>
+      <p>한국 주식 source note와 inbox metadata에서 감지한 기업별 링크 모음입니다.</p>
+    </div>
+
+    <div class="grid">
+      {companies.map((company) => (
+        <a class="note-card company-card" href={withBase(`/companies/${company.id}/`)}>
+          <span class="eyebrow">{company.ticker || company.sector || 'Company'}</span>
+          <h3>{company.label}</h3>
+          <p>{company.links.length}개 링크{company.latest ? ` · 최근 ${company.latest}` : ''}</p>
+          <div class="tag-row">
+            {company.topTags.map((tag) => <span class="tag">{tag}</span>)}
+          </div>
+        </a>
+      ))}
+    </div>
+  </main>
+</BaseLayout>

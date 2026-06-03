@@ -5,6 +5,7 @@ const repoRoot = new URL('../', import.meta.url)
 const vaultRoot = new URL('../../', repoRoot)
 const sourceDir = new URL('02-wiki/sources/', vaultRoot)
 const inboxDir = new URL('00-inbox/', vaultRoot)
+const companyDir = new URL('02-wiki/companies/', vaultRoot)
 const outputPath = new URL('src/data/links.json', repoRoot)
 
 const domainToCategory = {
@@ -90,7 +91,77 @@ function inferDescription(markdown) {
     .slice(0, 220)
 }
 
+function normalizeText(value) {
+  return String(value || '')
+    .replace(urlPattern, ' ')
+    .toLowerCase()
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+async function loadCompanyCatalog() {
+  let files = []
+  try {
+    files = (await readdir(companyDir))
+      .filter((file) => file.endsWith('.md'))
+      .sort()
+  } catch {
+    return []
+  }
+
+  const companies = []
+  for (const file of files) {
+    const id = basename(file, '.md')
+    const markdown = await readFile(join(companyDir.pathname, file), 'utf8')
+    const frontmatter = readFrontmatter(markdown)
+    const label = frontmatter.title || id
+    const aliases = [
+      id,
+      label,
+      frontmatter.ticker,
+      ...(Array.isArray(frontmatter.aliases) ? frontmatter.aliases : []),
+    ].filter(Boolean)
+
+    companies.push({
+      id,
+      label,
+      ticker: frontmatter.ticker || '',
+      sector: frontmatter.sector || '',
+      sources: Array.isArray(frontmatter.sources) ? frontmatter.sources : [],
+      aliases: [...new Set(aliases.map((alias) => String(alias).trim()).filter(Boolean))],
+    })
+  }
+  return companies
+}
+
+function detectCompanies({ sourceId = '', frontmatter = {}, markdown = '', metadata = {}, companies = [] }) {
+  const tags = Array.isArray(frontmatter.tags) ? frontmatter.tags : []
+  const sourceRefs = Array.isArray(frontmatter.sources) ? frontmatter.sources : []
+  const matchText = normalizeText([
+    sourceId,
+    frontmatter.title,
+    tags.join(' '),
+    metadata.title,
+    metadata.summary,
+    metadata.body,
+  ].filter(Boolean).join(' '))
+
+  const detected = companies.filter((company) => {
+    if (company.sources.includes(sourceId)) return true
+    if (sourceRefs.some((source) => company.sources.includes(source))) return true
+    if (tags.includes(company.id)) return true
+    if (markdown.includes(`[[${company.id}`)) return true
+    return company.aliases.some((alias) => {
+      const normalized = normalizeText(alias)
+      return normalized.length >= 2 && matchText.includes(normalized)
+    })
+  })
+
+  return detected.map(({ id, label, ticker, sector }) => ({ id, label, ticker, sector }))
+}
+
 async function main() {
+  const companies = await loadCompanyCatalog()
   const sourceFiles = (await readdir(sourceDir))
     .filter((file) => file.endsWith('.md'))
     .sort()
@@ -109,6 +180,7 @@ async function main() {
     const sourceId = basename(file, '.md')
     const category = domainToCategory[frontmatter.domain] || 'general'
     const status = inferStatus(file, frontmatter)
+    const detectedCompanies = detectCompanies({ sourceId, frontmatter, markdown, companies })
 
     for (const url of urls) {
       linksByUrl.set(url, {
@@ -121,6 +193,7 @@ async function main() {
         sourceNote: sourceId,
         tags: Array.isArray(frontmatter.tags) ? frontmatter.tags.filter((tag) => tag !== 'source') : [],
         description: inferDescription(markdown),
+        companies: detectedCompanies,
       })
     }
   }
@@ -142,6 +215,7 @@ async function main() {
 
     const category = inferInboxCategory(metadata)
     const sourceNote = basename(file, '.metadata.json')
+    const detectedCompanies = detectCompanies({ sourceId: sourceNote, metadata, companies })
     linksByUrl.set(url, {
       title: metadata.title || sourceNote,
       url,
@@ -152,6 +226,7 @@ async function main() {
       sourceNote,
       tags: ['inbox', metadata.link_type].filter(Boolean),
       description: metadata.summary || '',
+      companies: detectedCompanies,
     })
   }
 

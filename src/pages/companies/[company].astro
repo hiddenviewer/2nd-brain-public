@@ -1,0 +1,94 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import links from '../../data/links.json'
+
+const statusLabels = {
+  public: '공개',
+  pending: '대기',
+  review: '검토 필요',
+  private: '비공개',
+  dead: '접근 불가',
+}
+
+export async function getStaticPaths() {
+  const companyMap = new Map()
+  for (const link of links) {
+    for (const company of link.companies || []) {
+      if (!companyMap.has(company.id)) {
+        companyMap.set(company.id, company)
+      }
+    }
+  }
+  return Array.from(companyMap.values()).map((company) => ({
+    params: { company: company.id },
+    props: { company },
+  }))
+}
+
+const { company } = Astro.props
+const companyLinks = links
+  .filter((link) => (link.companies || []).some((item) => item.id === company.id))
+  .sort((a, b) => (b.updated || '').localeCompare(a.updated || '') || a.title.localeCompare(b.title, 'ko'))
+
+const publicCount = companyLinks.filter((link) => link.status === 'public').length
+const pendingCount = companyLinks.filter((link) => link.status === 'pending').length
+const reviewCount = companyLinks.filter((link) => link.status === 'review').length
+const tags = Array.from(new Set(companyLinks.flatMap((link) => link.tags || []))).slice(0, 10)
+---
+
+<BaseLayout title={`${company.label} 링크 | 2nd Brain Public`}>
+  <main class="container section">
+    <div class="section-header">
+      <div>
+        <p class="eyebrow">{company.ticker || company.sector || 'Company'}</p>
+        <h1>{company.label}</h1>
+      </div>
+      <p>이 기업과 연결된 공개 링크, 검토 링크, ingest 대기 링크를 최신순으로 모았습니다.</p>
+    </div>
+
+    <div class="metric-grid link-summary">
+      <div class="metric">
+        <strong>{companyLinks.length}</strong>
+        <span>전체 링크</span>
+      </div>
+      <div class="metric">
+        <strong>{publicCount}</strong>
+        <span>공개 링크</span>
+      </div>
+      <div class="metric">
+        <strong>{reviewCount}</strong>
+        <span>검토 필요</span>
+      </div>
+      <div class="metric">
+        <strong>{pendingCount}</strong>
+        <span>ingest 대기</span>
+      </div>
+    </div>
+
+    {tags.length > 0 && (
+      <div class="tag-row company-tags">
+        {tags.map((tag) => <span class="tag">{tag}</span>)}
+      </div>
+    )}
+
+    <div class="link-list">
+      {companyLinks.map((link) => (
+        <article class="link-item">
+          <div>
+            <div class="link-meta">
+              <span class:list={['status-badge', link.status]}>{statusLabels[link.status] ?? link.status}</span>
+              {link.updated && <span>{link.updated}</span>}
+              <span>{link.sourceNote}</span>
+            </div>
+            <h3><a href={link.url} target="_blank" rel="noreferrer">{link.title}</a></h3>
+            {link.description && <p>{link.description}</p>}
+            <div class="tag-row">
+              {(link.tags || []).slice(0, 6).map((tag) => <span class="tag">{tag}</span>)}
+            </div>
+          </div>
+          <a class="external-link" href={link.url} target="_blank" rel="noreferrer">열기</a>
+        </article>
+      ))}
+    </div>
+  </main>
+</BaseLayout>
