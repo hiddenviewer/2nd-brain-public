@@ -705,13 +705,14 @@
     "label": "삼성전자",
     "ticker": "005930",
     "sector": "semiconductors",
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "confidence": "low",
     "dartCorpCode": "00126380",
     "naverFinanceUrl": "https://finance.naver.com/item/main.naver?code=005930",
     "sources": [
       "2026-04-24-semiconductor-big3-korea-sales-share",
-      "2026-05-24-hbm-lpddr-nvidia"
+      "2026-05-24-hbm-lpddr-nvidia",
+      "2026-06-03-goldman-sachs-kospi-12000"
     ],
     "aliases": [
       "samsung-electronics",
@@ -863,13 +864,14 @@
     "label": "SK하이닉스",
     "ticker": "000660",
     "sector": "semiconductors",
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "confidence": "low",
     "dartCorpCode": "00164779",
     "naverFinanceUrl": "https://finance.naver.com/item/main.naver?code=000660",
     "sources": [
       "2026-04-24-semiconductor-big3-korea-sales-share",
-      "2026-05-24-hbm-lpddr-nvidia"
+      "2026-05-24-hbm-lpddr-nvidia",
+      "2026-06-03-goldman-sachs-kospi-12000"
     ],
     "aliases": [
       "sk-hynix",

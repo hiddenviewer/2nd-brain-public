@@ -1359,15 +1359,31 @@
     "url": "https://www.mt.co.kr/stock/2026/06/03/2026060310231520414",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-06-03",
-    "sourceNote": "2026-06-03-1-2000",
+    "status": "public",
+    "updated": "2026-06-04",
+    "sourceNote": "2026-06-03-goldman-sachs-kospi-12000",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "kospi",
+      "semiconductors",
+      "memory",
+      "goldman-sachs"
     ],
-    "description": "Goldman Sachs가 코스피 목표치를 9000에서 1만2000으로 올리고 비중확대 의견을 유지했다.",
-    "companies": []
+    "description": "골드만삭스가 2026년 6월 3일 기준 코스피 목표치를 기존 9000에서 1만2000으로 상향하고 한국 증시 비중확대 의견을 유지했다는 머니투데이 기사 요약 메모다.",
+    "companies": [
+      {
+        "id": "samsung-electronics",
+        "label": "삼성전자",
+        "ticker": "005930",
+        "sector": "semiconductors"
+      },
+      {
+        "id": "sk-hynix",
+        "label": "SK하이닉스",
+        "ticker": "000660",
+        "sector": "semiconductors"
+      }
+    ]
   },
   {
     "title": "국내 상장 로봇기업 1분기 실적 부진",
