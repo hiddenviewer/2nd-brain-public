@@ -1677,18 +1677,21 @@
     "companies": []
   },
   {
-    "title": "韓, 캐나다산 원유도입 확대… 올해 488만→1600만 배럴로",
+    "title": "한국, 캐나다산 원유 도입 확대",
     "url": "https://www.donga.com/news/Economy/article/all/20260603/134039697/2",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-06-03",
-    "sourceNote": "2026-06-03-488-1600",
+    "status": "public",
+    "updated": "2026-06-04",
+    "sourceNote": "2026-06-03-canadian-crude-import-expansion",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "energy-security",
+      "crude-oil",
+      "lng",
+      "critical-minerals"
     ],
-    "description": "정부가 공급망 다변화와 에너지 안보 강화를 위해 캐나다와의 협력을 확대하여 캐나다산 원유 수입량을 지난해 488만 배럴에서 올해 최대 1600만 배럴로 늘리고, 장기적으로 연간 2000만 배럴까지 확대할 계획입니다.",
+    "description": "동아일보 기사 요약 메모다. 정부가 공급망 다변화와 에너지 안보 강화를 위해 캐나다산 원유, LNG, 핵심 광물 협력을 확대한다는 내용을 다룬다.",
     "companies": []
   },
   {
