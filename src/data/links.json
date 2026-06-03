@@ -1249,21 +1249,6 @@
     "companies": []
   },
   {
-    "title": "LG디스플레이, 게이밍 OLED 로드쇼서 최대 라인업과 차세대 기술 공개",
-    "url": "https://v.daum.net/v/20260601103002221?f=p",
-    "category": "general",
-    "categoryLabel": "기타",
-    "status": "pending",
-    "updated": "2026-06-03",
-    "sourceNote": "2026-06-03-lg-oled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "LG디스플레이가 대만 타이베이에서 글로벌 고객사를 대상으로 게이밍 OLED 로드쇼를 열고 39인치 5K2K OLED, 27인치 5K OLED, DisplayHDR True Black 1000급 기술 등 차세대 제품 로드맵을 제시한다.",
-    "companies": []
-  },
-  {
     "title": "The Edit 링크 접근 불가 메모",
     "url": "https://the-edit.co.kr/84624",
     "category": "general",
@@ -1560,6 +1545,12 @@
         "label": "Apple Inc.",
         "ticker": "",
         "sector": ""
+      },
+      {
+        "id": "lg-display",
+        "label": "LG디스플레이",
+        "ticker": "034220",
+        "sector": "display"
       }
     ]
   },
@@ -1823,5 +1814,29 @@
     ],
     "description": "Daum 기사 요약 메모로, 전기차와 ESS 수요 확대, 미국·EU의 중국산 배터리 견제 흐름을 배경으로 국내 배터리·소재 업체들이 LFP 배터리와 양극재 생산 능력을 늘리고 있다는 내용을 다룬다.",
     "companies": []
+  },
+  {
+    "title": "LG디스플레이, 게이밍 OLED 로드쇼서 최대 라인업과 차세대 기술 공개",
+    "url": "https://v.daum.net/v/20260601103002221?f=p",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-06-04",
+    "sourceNote": "2026-06-03-lg-oled",
+    "tags": [
+      "kr-stocks",
+      "display",
+      "oled",
+      "gaming-monitor"
+    ],
+    "description": "LG디스플레이가 2026년 6월 4~10일 대만 타이베이에서 게이밍 OLED 로드쇼를 열고 39인치 5K2K OLED, 27인치 5K OLED, RGB 스트라이프 OLED, DisplayHDR True Black 1000급 차세대 패널을 공개한다는 기사다. 기존 K-디스플레이 OLED 논지 중 IT·모니터용 고부가 OLED 확장 축을 보강한다.",
+    "companies": [
+      {
+        "id": "lg-display",
+        "label": "LG디스플레이",
+        "ticker": "034220",
+        "sector": "display"
+      }
+    ]
   }
 ]
