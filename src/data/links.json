@@ -1390,15 +1390,30 @@
     "url": "https://www.irobotnews.com/news/articleView.html?idxno=46663",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-06-03",
-    "sourceNote": "2026-06-03-1",
+    "status": "public",
+    "updated": "2026-06-04",
+    "sourceNote": "2026-06-03-listed-robot-companies-q1-earnings",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "robotics",
+      "industrial-automation",
+      "earnings"
     ],
-    "description": "2026년 1분기 국내 주요 상장 로봇기업 34곳은 매출 5669억원으로 정체했고, 영업손실은 871억원으로 확대됐다.",
-    "companies": []
+    "description": "로봇신문의 국내 주요 상장 로봇기업 34곳 2026년 1분기 실적 분석 기사 요약 메모다. 총매출은 전년 동기 대비 정체됐고, 영업손실은 확대됐다는 점을 중심으로 로봇 섹터의 단기 수익성 부담을 다룬다.",
+    "companies": [
+      {
+        "id": "doosan-robotics",
+        "label": "두산로보틱스",
+        "ticker": "454910",
+        "sector": "robotics"
+      },
+      {
+        "id": "samick-thk",
+        "label": "삼익THK",
+        "ticker": "004380",
+        "sector": "industrial-automation"
+      }
+    ]
   },
   {
     "title": "네이버, 국방 AX 전담조직 신설로 국방 AI 시장 진출",
