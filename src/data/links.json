@@ -755,14 +755,18 @@
     "url": "https://news.hada.io/topic?id=30101",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-06-03",
+    "status": "public",
+    "updated": "2026-06-04",
     "sourceNote": "2026-06-03-dual-brain-codex-claude-code",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "codex",
+      "claude-code",
+      "skills",
+      "memory",
+      "orchestration"
     ],
-    "description": "Dual-Brain은 Codex나 Claude Code가 복잡한 코딩 작업에서 과부하, 결정 번복, 맥락 혼선을 줄이도록 설계된 오픈소스 확장 스킬 프로토콜이다.",
+    "description": "GeekNews에 공유된 Dual-Brain 소개 메모다. Dual-Brain은 Codex와 Claude Code에서 복잡한 코딩 작업을 바로 실행하기 전에 우뇌식 맥락 심문과 좌뇌식 논리 검증을 거치게 하는 오픈소스 확장 스킬 프로토콜로 설명된다.",
     "companies": []
   },
   {
