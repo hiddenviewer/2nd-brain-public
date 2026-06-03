@@ -350,6 +350,7 @@ h3 {
 .financial-section {
   display: grid;
   gap: 18px;
+  grid-column: 1 / -1;
 }
 
 .financial-dashboard > input {
@@ -535,6 +536,13 @@ h3 {
 .financial-table-block th {
   background: var(--surface-2);
   color: var(--text);
+}
+
+@media (min-width: 1180px) {
+  .financial-chart svg,
+  .financial-table-block table {
+    min-width: 0;
+  }
 }
 
 .tag-row {
