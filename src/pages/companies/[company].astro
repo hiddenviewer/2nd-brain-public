@@ -95,15 +95,22 @@ const buildChart = (rows) => {
   ]
   const width = 860
   const height = 360
-  const margin = { top: 22, right: 64, bottom: 74, left: 72 }
-  const plotWidth = width - margin.left - margin.right
-  const plotHeight = height - margin.top - margin.bottom
   const amountValues = rows.flatMap((row) => metrics.map((metric) => row[metric.key])).filter((value) => value !== null)
   const marginValues = rows.map((row) => row.operatingMargin).filter((value) => value !== null)
   const amountMin = Math.min(0, ...amountValues)
   const amountMax = Math.max(0, ...amountValues)
   const marginMin = Math.min(0, ...marginValues)
   const marginMax = Math.max(0, ...marginValues)
+  const useTrillionAxis = Math.max(Math.abs(amountMin), Math.abs(amountMax)) >= 10000
+  const formatAmountTick = (value) => {
+    if (!useTrillionAxis) return `${Math.round(value).toLocaleString('ko-KR')}억`
+    const scaled = value / 10000
+    const maximumFractionDigits = Math.abs(scaled) >= 100 ? 0 : 1
+    return `${scaled.toLocaleString('ko-KR', { maximumFractionDigits })}조`
+  }
+  const margin = { top: 22, right: 64, bottom: 74, left: useTrillionAxis ? 86 : 72 }
+  const plotWidth = width - margin.left - margin.right
+  const plotHeight = height - margin.top - margin.bottom
   const amountSpan = amountMax - amountMin || 1
   const marginSpan = marginMax - marginMin || 1
   const yAmount = (value) => margin.top + ((amountMax - value) / amountSpan) * plotHeight
@@ -144,7 +151,7 @@ const buildChart = (rows) => {
   }))
   const amountTicks = [amountMin, (amountMin + amountMax) / 2, amountMax].map((value) => ({
     value,
-    label: `${Math.round(value).toLocaleString('ko-KR')}억`,
+    label: formatAmountTick(value),
     y: yAmount(value),
   }))
   const marginTicks = [marginMin, (marginMin + marginMax) / 2, marginMax].map((value) => ({
