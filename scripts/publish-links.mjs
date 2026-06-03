@@ -27,6 +27,14 @@ if (!hasChanges()) {
   process.exit(0)
 }
 
-const stamp = new Date().toISOString().slice(0, 16).replace('T', ' ')
-run('git', ['commit', '-m', `Update public links (${stamp} UTC)`], { stdio: 'inherit' })
+const stamp = new Intl.DateTimeFormat('sv-SE', {
+  timeZone: 'Asia/Seoul',
+  year: 'numeric',
+  month: '2-digit',
+  day: '2-digit',
+  hour: '2-digit',
+  minute: '2-digit',
+  hour12: false,
+}).format(new Date())
+run('git', ['commit', '-m', `Update public links (${stamp} KST)`], { stdio: 'inherit' })
 run('git', ['push'], { stdio: 'inherit' })
