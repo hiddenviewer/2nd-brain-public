@@ -292,13 +292,13 @@ const summaryMetrics = [
                         ))}
                         <line x1={annualChart.margin.left} x2={annualChart.width - annualChart.margin.right} y1={annualChart.zeroY} y2={annualChart.zeroY} class="chart-zero" />
                         {annualChart.bars.map((bar) => (
-                          <rect class="chart-data-point" tabindex="0" x={bar.x} y={bar.y} width="14" height={bar.height} fill={bar.color} rx="2" aria-label={`${bar.period} ${bar.label} ${bar.displayValue}`}>
+                          <rect class="chart-data-point" tabindex="0" data-tooltip={`${bar.period} ${bar.label}: ${bar.displayValue}`} x={bar.x} y={bar.y} width="14" height={bar.height} fill={bar.color} rx="2" aria-label={`${bar.period} ${bar.label} ${bar.displayValue}`}>
                             <title>{`${bar.period} ${bar.label}: ${bar.displayValue}`}</title>
                           </rect>
                         ))}
                         {annualChart.linePoints.length > 1 && <polyline points={annualChart.linePath} class="chart-margin-line" />}
                         {annualChart.linePoints.map((point) => (
-                          <circle class="chart-data-point chart-margin-dot" tabindex="0" cx={point.x} cy={point.y} r="4" aria-label={`${point.period} 영업이익률 ${point.displayValue}`}>
+                          <circle class="chart-data-point chart-margin-dot" tabindex="0" data-tooltip={`${point.period} 영업이익률: ${point.displayValue}`} cx={point.x} cy={point.y} r="4" aria-label={`${point.period} 영업이익률 ${point.displayValue}`}>
                             <title>{`${point.period} 영업이익률: ${point.displayValue}`}</title>
                           </circle>
                         ))}
@@ -307,6 +307,7 @@ const summaryMetrics = [
                         ))}
                       </svg>
                     </div>
+                    <div class="chart-tooltip" aria-live="polite"></div>
                   </div>
                 )}
                 <div class="financial-table-block">
@@ -352,13 +353,13 @@ const summaryMetrics = [
                         ))}
                         <line x1={quarterlyChart.margin.left} x2={quarterlyChart.width - quarterlyChart.margin.right} y1={quarterlyChart.zeroY} y2={quarterlyChart.zeroY} class="chart-zero" />
                         {quarterlyChart.bars.map((bar) => (
-                          <rect class="chart-data-point" tabindex="0" x={bar.x} y={bar.y} width="14" height={bar.height} fill={bar.color} rx="2" aria-label={`${bar.period} ${bar.label} ${bar.displayValue}`}>
+                          <rect class="chart-data-point" tabindex="0" data-tooltip={`${bar.period} ${bar.label}: ${bar.displayValue}`} x={bar.x} y={bar.y} width="14" height={bar.height} fill={bar.color} rx="2" aria-label={`${bar.period} ${bar.label} ${bar.displayValue}`}>
                             <title>{`${bar.period} ${bar.label}: ${bar.displayValue}`}</title>
                           </rect>
                         ))}
                         {quarterlyChart.linePoints.length > 1 && <polyline points={quarterlyChart.linePath} class="chart-margin-line" />}
                         {quarterlyChart.linePoints.map((point) => (
-                          <circle class="chart-data-point chart-margin-dot" tabindex="0" cx={point.x} cy={point.y} r="4" aria-label={`${point.period} 영업이익률 ${point.displayValue}`}>
+                          <circle class="chart-data-point chart-margin-dot" tabindex="0" data-tooltip={`${point.period} 영업이익률: ${point.displayValue}`} cx={point.x} cy={point.y} r="4" aria-label={`${point.period} 영업이익률 ${point.displayValue}`}>
                             <title>{`${point.period} 영업이익률: ${point.displayValue}`}</title>
                           </circle>
                         ))}
@@ -367,6 +368,7 @@ const summaryMetrics = [
                         ))}
                       </svg>
                     </div>
+                    <div class="chart-tooltip" aria-live="polite"></div>
                   </div>
                 )}
                 <div class="financial-table-block">
@@ -436,4 +438,38 @@ const summaryMetrics = [
       ))}
     </div>
   </main>
+
+  <script is:inline>
+    const showChartTooltip = (target, event) => {
+      const chart = target.closest('.financial-chart')
+      const tooltip = chart?.querySelector('.chart-tooltip')
+      const text = target.dataset.tooltip
+      if (!chart || !tooltip || !text) return
+
+      tooltip.textContent = text
+      tooltip.classList.add('visible')
+
+      const chartRect = chart.getBoundingClientRect()
+      const targetRect = target.getBoundingClientRect()
+      const sourceX = event?.clientX ?? targetRect.left + targetRect.width / 2
+      const sourceY = event?.clientY ?? targetRect.top
+      const x = Math.min(Math.max(sourceX - chartRect.left + 12, 12), chartRect.width - tooltip.offsetWidth - 12)
+      const y = Math.max(sourceY - chartRect.top - 36, 12)
+
+      tooltip.style.left = `${x}px`
+      tooltip.style.top = `${y}px`
+    }
+
+    document.querySelectorAll('.chart-data-point').forEach((target) => {
+      target.addEventListener('mouseenter', (event) => showChartTooltip(target, event))
+      target.addEventListener('mousemove', (event) => showChartTooltip(target, event))
+      target.addEventListener('focus', () => showChartTooltip(target))
+      target.addEventListener('mouseleave', () => {
+        target.closest('.financial-chart')?.querySelector('.chart-tooltip')?.classList.remove('visible')
+      })
+      target.addEventListener('blur', () => {
+        target.closest('.financial-chart')?.querySelector('.chart-tooltip')?.classList.remove('visible')
+      })
+    })
+  </script>
 </BaseLayout>
