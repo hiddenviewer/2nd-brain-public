@@ -52,6 +52,12 @@ const parsePercent = (value) => {
   return match ? Number(match[0]) : null
 }
 
+const getCell = (table, row, name) => {
+  if (!table || !row) return ''
+  const index = table.headers.findIndex((header) => header === name)
+  return index >= 0 ? row[index] : ''
+}
+
 const tableToSeries = (table) => {
   if (!table) return []
   const indexOf = (name) => table.headers.findIndex((header) => header === name)
@@ -66,10 +72,15 @@ const tableToSeries = (table) => {
     .map((row) => ({
       period: row[periodIndex],
       revenue: parseAmount(row[revenueIndex]),
+      revenueLabel: row[revenueIndex],
       operatingIncome: parseAmount(row[operatingIncomeIndex]),
+      operatingIncomeLabel: row[operatingIncomeIndex],
       netIncome: parseAmount(row[netIncomeIndex]),
+      netIncomeLabel: row[netIncomeIndex],
       operatingExpense: parseAmount(row[expenseIndex]),
+      operatingExpenseLabel: row[expenseIndex],
       operatingMargin: parsePercent(row[marginIndex]),
+      operatingMarginLabel: row[marginIndex],
     }))
     .filter((row) => row.period)
 }
@@ -104,11 +115,12 @@ const buildChart = (rows) => {
     metrics.map((metric, metricIndex) => {
       const value = row[metric.key]
       if (value === null) return null
+      const displayValue = row[`${metric.key}Label`] || `${value.toLocaleString('ko-KR')}억원`
       const groupStart = margin.left + rowIndex * groupWidth
       const x = groupStart + groupWidth / 2 - (metrics.length * barWidth) / 2 + metricIndex * barWidth
       const y = Math.min(yAmount(value), zeroY)
       const h = Math.max(1, Math.abs(zeroY - yAmount(value)))
-      return { ...metric, value, x, y, height: h }
+      return { ...metric, value, displayValue, period: row.period, x, y, height: h }
     }),
   ).filter(Boolean)
   const linePoints = rows
@@ -116,7 +128,13 @@ const buildChart = (rows) => {
       if (row.operatingMargin === null) return null
       const x = margin.left + rowIndex * groupWidth + groupWidth / 2
       const y = yMargin(row.operatingMargin)
-      return { x, y, value: row.operatingMargin }
+      return {
+        x,
+        y,
+        value: row.operatingMargin,
+        displayValue: row.operatingMarginLabel || `${row.operatingMargin.toFixed(1)}%`,
+        period: row.period,
+      }
     })
     .filter(Boolean)
   const xLabels = rows.map((row, rowIndex) => ({
@@ -156,6 +174,26 @@ const quarterlySeries = tableToSeries(quarterlyFinancials)
 const annualChart = buildChart(annualSeries)
 const quarterlyChart = buildChart(quarterlySeries)
 const hasFinancialDashboard = annualFinancials || quarterlyFinancials
+const latestAnnualRow = annualFinancials?.rows?.at(-1)
+const latestQuarterlyRow = quarterlyFinancials?.rows?.at(-1)
+const summaryMetrics = [
+  latestAnnualRow && {
+    label: `${latestAnnualRow[0]} 매출`,
+    value: getCell(annualFinancials, latestAnnualRow, '매출'),
+  },
+  latestAnnualRow && {
+    label: `${latestAnnualRow[0]} 영업이익`,
+    value: getCell(annualFinancials, latestAnnualRow, '영업이익'),
+  },
+  latestAnnualRow && {
+    label: `${latestAnnualRow[0]} 영업이익률`,
+    value: getCell(annualFinancials, latestAnnualRow, '영업이익율'),
+  },
+  latestQuarterlyRow && {
+    label: `${latestQuarterlyRow[0]} 영업이익률`,
+    value: getCell(quarterlyFinancials, latestQuarterlyRow, '영업이익율'),
+  },
+].filter(Boolean)
 ---
 
 <BaseLayout title={`${company.label} 링크 | 2nd Brain Public`}>
@@ -170,34 +208,51 @@ const hasFinancialDashboard = annualFinancials || quarterlyFinancials
 
     <div class="company-overview">
       <section class="company-profile">
-        <h2>회사 기본정보</h2>
-        <dl>
+        <div class="company-profile-header">
           <div>
-            <dt>종목코드</dt>
-            <dd>{company.ticker || '확인 필요'}</dd>
+            <p class="eyebrow">Company Snapshot</p>
+            <h2>{company.label}</h2>
           </div>
-          <div>
-            <dt>섹터</dt>
-            <dd>{company.sector || '확인 필요'}</dd>
-          </div>
-          <div>
-            <dt>DART 코드</dt>
-            <dd>{company.dartCorpCode || '확인 필요'}</dd>
-          </div>
-          <div>
-            <dt>업데이트</dt>
-            <dd>{company.updated || '확인 필요'}</dd>
-          </div>
-        </dl>
+          {company.naverFinanceUrl && (
+            <a class="button secondary company-action" href={company.naverFinanceUrl} target="_blank" rel="noreferrer">
+              네이버 금융
+            </a>
+          )}
+        </div>
+        <div class="company-profile-grid">
+          <dl>
+            <div>
+              <dt>종목코드</dt>
+              <dd>{company.ticker || '확인 필요'}</dd>
+            </div>
+            <div>
+              <dt>섹터</dt>
+              <dd>{company.sector || '확인 필요'}</dd>
+            </div>
+            <div>
+              <dt>DART 코드</dt>
+              <dd>{company.dartCorpCode || '확인 필요'}</dd>
+            </div>
+            <div>
+              <dt>업데이트</dt>
+              <dd>{company.updated || '확인 필요'}</dd>
+            </div>
+          </dl>
+          {summaryMetrics.length > 0 && (
+            <div class="company-metric-strip">
+              {summaryMetrics.map((metric) => (
+                <div>
+                  <strong>{metric.value}</strong>
+                  <span>{metric.label}</span>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
         {company.companyInfo?.length > 0 && (
-          <ul>
-            {company.companyInfo.map((item) => <li>{item}</li>)}
+          <ul class="company-info-list">
+            {company.companyInfo.slice(0, 6).map((item) => <li>{item}</li>)}
           </ul>
-        )}
-        {company.naverFinanceUrl && (
-          <a class="button secondary company-action" href={company.naverFinanceUrl} target="_blank" rel="noreferrer">
-            네이버 금융
-          </a>
         )}
       </section>
 
@@ -237,10 +292,16 @@ const hasFinancialDashboard = annualFinancials || quarterlyFinancials
                         ))}
                         <line x1={annualChart.margin.left} x2={annualChart.width - annualChart.margin.right} y1={annualChart.zeroY} y2={annualChart.zeroY} class="chart-zero" />
                         {annualChart.bars.map((bar) => (
-                          <rect x={bar.x} y={bar.y} width="14" height={bar.height} fill={bar.color} rx="2" />
+                          <rect class="chart-data-point" tabindex="0" x={bar.x} y={bar.y} width="14" height={bar.height} fill={bar.color} rx="2" aria-label={`${bar.period} ${bar.label} ${bar.displayValue}`}>
+                            <title>{`${bar.period} ${bar.label}: ${bar.displayValue}`}</title>
+                          </rect>
                         ))}
                         {annualChart.linePoints.length > 1 && <polyline points={annualChart.linePath} class="chart-margin-line" />}
-                        {annualChart.linePoints.map((point) => <circle cx={point.x} cy={point.y} r="4" class="chart-margin-dot" />)}
+                        {annualChart.linePoints.map((point) => (
+                          <circle class="chart-data-point chart-margin-dot" tabindex="0" cx={point.x} cy={point.y} r="4" aria-label={`${point.period} 영업이익률 ${point.displayValue}`}>
+                            <title>{`${point.period} 영업이익률: ${point.displayValue}`}</title>
+                          </circle>
+                        ))}
                         {annualChart.xLabels.map((label) => (
                           <text x={label.x} y={label.y} class="chart-x-label" transform={`rotate(-35 ${label.x} ${label.y})`}>{label.label}</text>
                         ))}
@@ -291,10 +352,16 @@ const hasFinancialDashboard = annualFinancials || quarterlyFinancials
                         ))}
                         <line x1={quarterlyChart.margin.left} x2={quarterlyChart.width - quarterlyChart.margin.right} y1={quarterlyChart.zeroY} y2={quarterlyChart.zeroY} class="chart-zero" />
                         {quarterlyChart.bars.map((bar) => (
-                          <rect x={bar.x} y={bar.y} width="14" height={bar.height} fill={bar.color} rx="2" />
+                          <rect class="chart-data-point" tabindex="0" x={bar.x} y={bar.y} width="14" height={bar.height} fill={bar.color} rx="2" aria-label={`${bar.period} ${bar.label} ${bar.displayValue}`}>
+                            <title>{`${bar.period} ${bar.label}: ${bar.displayValue}`}</title>
+                          </rect>
                         ))}
                         {quarterlyChart.linePoints.length > 1 && <polyline points={quarterlyChart.linePath} class="chart-margin-line" />}
-                        {quarterlyChart.linePoints.map((point) => <circle cx={point.x} cy={point.y} r="4" class="chart-margin-dot" />)}
+                        {quarterlyChart.linePoints.map((point) => (
+                          <circle class="chart-data-point chart-margin-dot" tabindex="0" cx={point.x} cy={point.y} r="4" aria-label={`${point.period} 영업이익률 ${point.displayValue}`}>
+                            <title>{`${point.period} 영업이익률: ${point.displayValue}`}</title>
+                          </circle>
+                        ))}
                         {quarterlyChart.xLabels.map((label) => (
                           <text x={label.x} y={label.y} class="chart-x-label" transform={`rotate(-35 ${label.x} ${label.y})`}>{label.label}</text>
                         ))}
