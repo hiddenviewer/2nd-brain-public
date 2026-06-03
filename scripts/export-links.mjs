@@ -7,6 +7,7 @@ const sourceDir = new URL('02-wiki/sources/', vaultRoot)
 const inboxDir = new URL('00-inbox/', vaultRoot)
 const companyDir = new URL('02-wiki/companies/', vaultRoot)
 const outputPath = new URL('src/data/links.json', repoRoot)
+const companyOutputPath = new URL('src/data/companies.json', repoRoot)
 
 const domainToCategory = {
   'ai-agents': 'ai',
@@ -99,6 +100,69 @@ function normalizeText(value) {
     .trim()
 }
 
+function stripInlineMarkdown(value) {
+  return String(value || '')
+    .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, '$2')
+    .replace(/\[\[([^\]]+)\]\]/g, '$1')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/`([^`]+)`/g, '$1')
+    .trim()
+}
+
+function extractSection(markdown, names) {
+  const sectionNames = Array.isArray(names) ? names : [names]
+  const escaped = sectionNames.map((name) => name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')
+  const pattern = new RegExp(`^## (${escaped})\\s*\\n([\\s\\S]*?)(?=\\n## |\\n# |$)`, 'm')
+  const match = markdown.match(pattern)
+  return match ? match[2].trim() : ''
+}
+
+function extractBullets(markdown, names, limit = 8) {
+  const section = extractSection(markdown, names)
+  if (!section) return []
+  return section
+    .split('\n')
+    .map((line) => line.trim())
+    .filter((line) => line.startsWith('- '))
+    .map((line) => stripInlineMarkdown(line.slice(2)))
+    .filter(Boolean)
+    .slice(0, limit)
+}
+
+function parseMarkdownTable(markdown) {
+  const lines = markdown
+    .split('\n')
+    .map((line) => line.trim())
+    .filter((line) => line.startsWith('|') && line.endsWith('|'))
+  if (lines.length < 3) return null
+
+  const separatorIndex = lines.findIndex((line) =>
+    line
+      .split('|')
+      .slice(1, -1)
+      .every((cell) => /^:?-{3,}:?$/.test(cell.trim())),
+  )
+  if (separatorIndex <= 0) return null
+
+  const parseRow = (line) =>
+    line
+      .split('|')
+      .slice(1, -1)
+      .map((cell) => stripInlineMarkdown(cell.replace(/<br\s*\/?>/gi, ' ')))
+
+  const headers = parseRow(lines[separatorIndex - 1])
+  const rows = lines.slice(separatorIndex + 1).map(parseRow).filter((row) => row.some(Boolean))
+  if (headers.length === 0 || rows.length === 0) return null
+  return { headers, rows }
+}
+
+function deriveNaverFinanceUrl(frontmatter) {
+  if (frontmatter.naver_finance_url) return frontmatter.naver_finance_url
+  const ticker = String(frontmatter.ticker || '').replace(/\D/g, '')
+  if (ticker.length === 0) return ''
+  return `https://finance.naver.com/item/main.naver?code=${ticker.padStart(6, '0')}`
+}
+
 async function loadCompanyCatalog() {
   let files = []
   try {
@@ -115,6 +179,12 @@ async function loadCompanyCatalog() {
     const markdown = await readFile(join(companyDir.pathname, file), 'utf8')
     const frontmatter = readFrontmatter(markdown)
     const label = frontmatter.title || id
+    const annualFinancials = parseMarkdownTable(
+      extractSection(markdown, ['최근 5개년 연간 재무', '연간 재무표', '연도별 재무']),
+    )
+    const quarterlyFinancials = parseMarkdownTable(
+      extractSection(markdown, ['최근 분기 재무', '분기 재무표', '분기별 재무']),
+    )
     const aliases = [
       id,
       label,
@@ -127,8 +197,15 @@ async function loadCompanyCatalog() {
       label,
       ticker: frontmatter.ticker || '',
       sector: frontmatter.sector || '',
+      updated: frontmatter.updated || '',
+      confidence: frontmatter.confidence || '',
+      dartCorpCode: frontmatter.dart_corp_code || '',
+      naverFinanceUrl: deriveNaverFinanceUrl(frontmatter),
       sources: Array.isArray(frontmatter.sources) ? frontmatter.sources : [],
       aliases: [...new Set(aliases.map((alias) => String(alias).trim()).filter(Boolean))],
+      companyInfo: extractBullets(markdown, ['회사 기본정보', '확인된 사실'], 8),
+      annualFinancials,
+      quarterlyFinancials,
     })
   }
   return companies
@@ -240,7 +317,9 @@ async function main() {
 
   await mkdir(new URL('src/data/', repoRoot), { recursive: true })
   await writeFile(outputPath, `${JSON.stringify(links, null, 2)}\n`)
+  await writeFile(companyOutputPath, `${JSON.stringify(companies, null, 2)}\n`)
   console.log(`Exported ${links.length} links to ${outputPath.pathname}`)
+  console.log(`Exported ${companies.length} companies to ${companyOutputPath.pathname}`)
 }
 
 main().catch((error) => {

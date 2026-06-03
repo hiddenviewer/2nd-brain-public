@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro'
 import links from '../../data/links.json'
+import companies from '../../data/companies.json'
 
 const statusLabels = {
   public: '공개',
@@ -12,6 +13,9 @@ const statusLabels = {
 
 export async function getStaticPaths() {
   const companyMap = new Map()
+  for (const company of companies) {
+    companyMap.set(company.id, company)
+  }
   for (const link of links) {
     for (const company of link.companies || []) {
       if (!companyMap.has(company.id)) {
@@ -34,6 +38,8 @@ const publicCount = companyLinks.filter((link) => link.status === 'public').leng
 const pendingCount = companyLinks.filter((link) => link.status === 'pending').length
 const reviewCount = companyLinks.filter((link) => link.status === 'review').length
 const tags = Array.from(new Set(companyLinks.flatMap((link) => link.tags || []))).slice(0, 10)
+const annualFinancials = company.annualFinancials
+const quarterlyFinancials = company.quarterlyFinancials
 ---
 
 <BaseLayout title={`${company.label} 링크 | 2nd Brain Public`}>
@@ -44,6 +50,80 @@ const tags = Array.from(new Set(companyLinks.flatMap((link) => link.tags || []))
         <h1>{company.label}</h1>
       </div>
       <p>이 기업과 연결된 공개 링크, 검토 링크, ingest 대기 링크를 최신순으로 모았습니다.</p>
+    </div>
+
+    <div class="company-overview">
+      <section class="company-profile">
+        <h2>회사 기본정보</h2>
+        <dl>
+          <div>
+            <dt>종목코드</dt>
+            <dd>{company.ticker || '확인 필요'}</dd>
+          </div>
+          <div>
+            <dt>섹터</dt>
+            <dd>{company.sector || '확인 필요'}</dd>
+          </div>
+          <div>
+            <dt>DART 코드</dt>
+            <dd>{company.dartCorpCode || '확인 필요'}</dd>
+          </div>
+          <div>
+            <dt>업데이트</dt>
+            <dd>{company.updated || '확인 필요'}</dd>
+          </div>
+        </dl>
+        {company.companyInfo?.length > 0 && (
+          <ul>
+            {company.companyInfo.map((item) => <li>{item}</li>)}
+          </ul>
+        )}
+        {company.naverFinanceUrl && (
+          <a class="button secondary company-action" href={company.naverFinanceUrl} target="_blank" rel="noreferrer">
+            네이버 금융
+          </a>
+        )}
+      </section>
+
+      {(annualFinancials || quarterlyFinancials) && (
+        <section class="financial-section">
+          <h2>재무 요약</h2>
+          {annualFinancials && (
+            <div class="financial-table-block">
+              <h3>최근 5개년 연간</h3>
+              <div class="table-scroll">
+                <table>
+                  <thead>
+                    <tr>{annualFinancials.headers.map((header) => <th>{header}</th>)}</tr>
+                  </thead>
+                  <tbody>
+                    {annualFinancials.rows.map((row) => (
+                      <tr>{row.map((cell) => <td>{cell}</td>)}</tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          )}
+          {quarterlyFinancials && (
+            <div class="financial-table-block">
+              <h3>최근 분기</h3>
+              <div class="table-scroll">
+                <table>
+                  <thead>
+                    <tr>{quarterlyFinancials.headers.map((header) => <th>{header}</th>)}</tr>
+                  </thead>
+                  <tbody>
+                    {quarterlyFinancials.rows.map((row) => (
+                      <tr>{row.map((cell) => <td>{cell}</td>)}</tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          )}
+        </section>
+      )}
     </div>
 
     <div class="metric-grid link-summary">

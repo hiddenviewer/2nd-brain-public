@@ -1,0 +1,153 @@
+[
+  {
+    "id": "apple-inc",
+    "label": "Apple Inc.",
+    "ticker": "",
+    "sector": "",
+    "updated": "2026-06-01",
+    "confidence": "medium",
+    "dartCorpCode": "",
+    "naverFinanceUrl": "",
+    "sources": [
+      "2026-04-14-apple-ai",
+      "2026-04-18-google-gemma-4-iphone-ai",
+      "2026-04-23-tim-cook-apple",
+      "2026-05-31-wwdc-ai"
+    ],
+    "aliases": [
+      "apple-inc",
+      "Apple Inc.",
+      "AAPL"
+    ],
+    "companyInfo": [],
+    "annualFinancials": null,
+    "quarterlyFinancials": null
+  },
+  {
+    "id": "device",
+    "label": "디바이스",
+    "ticker": "",
+    "sector": "display-semiconductor-equipment",
+    "updated": "2026-04-12",
+    "confidence": "medium",
+    "dartCorpCode": "",
+    "naverFinanceUrl": "",
+    "sources": [
+      "2025-09-05-device-display-equipment-order",
+      "2026-03-23-device-2025-business-report",
+      "2026-03-10-device-skhynix-order",
+      "2026-04-10-device-bonus-issue",
+      "2026-04-10-device-samsung-order"
+    ],
+    "aliases": [
+      "device",
+      "디바이스"
+    ],
+    "companyInfo": [],
+    "annualFinancials": null,
+    "quarterlyFinancials": null
+  },
+  {
+    "id": "naver",
+    "label": "네이버",
+    "ticker": "035420",
+    "sector": "internet-platform",
+    "updated": "2026-06-01",
+    "confidence": "low",
+    "dartCorpCode": "",
+    "naverFinanceUrl": "https://finance.naver.com/item/main.naver?code=035420",
+    "sources": [
+      "2026-04-13-e",
+      "2026-04-18-naver-europe-fintech",
+      "2026-04-22-naver-kakao-q1-earnings-outlook",
+      "2026-04-22-naver-kakao-renewable-ppa",
+      "2026-04-30-naver-q1-earnings-5522-outlook",
+      "2026-05-01-npay",
+      "2026-05-30-sds-2-gpu",
+      "2026-06-01-ax-ai"
+    ],
+    "aliases": [
+      "naver",
+      "네이버",
+      "035420",
+      "NAVER"
+    ],
+    "companyInfo": [
+      "네이버·쿠팡, e커머스 선불충전금 격차 확대 기준 네이버페이 선불충전금은 플랫폼 락인과 결제 확장성을 보는 보조 지표로 의미가 있다."
+    ],
+    "annualFinancials": null,
+    "quarterlyFinancials": null
+  },
+  {
+    "id": "samsung-electronics",
+    "label": "삼성전자",
+    "ticker": "005930",
+    "sector": "semiconductors",
+    "updated": "2026-06-01",
+    "confidence": "low",
+    "dartCorpCode": "",
+    "naverFinanceUrl": "https://finance.naver.com/item/main.naver?code=005930",
+    "sources": [
+      "2026-04-24-semiconductor-big3-korea-sales-share",
+      "2026-05-24-hbm-lpddr-nvidia"
+    ],
+    "aliases": [
+      "samsung-electronics",
+      "삼성전자",
+      "005930"
+    ],
+    "companyInfo": [],
+    "annualFinancials": null,
+    "quarterlyFinancials": null
+  },
+  {
+    "id": "sk-hynix",
+    "label": "SK하이닉스",
+    "ticker": "000660",
+    "sector": "semiconductors",
+    "updated": "2026-06-01",
+    "confidence": "low",
+    "dartCorpCode": "",
+    "naverFinanceUrl": "https://finance.naver.com/item/main.naver?code=000660",
+    "sources": [
+      "2026-04-24-semiconductor-big3-korea-sales-share",
+      "2026-05-24-hbm-lpddr-nvidia"
+    ],
+    "aliases": [
+      "sk-hynix",
+      "SK하이닉스",
+      "000660"
+    ],
+    "companyInfo": [],
+    "annualFinancials": null,
+    "quarterlyFinancials": null
+  },
+  {
+    "id": "xi-snd",
+    "label": "자이에스앤디",
+    "ticker": "",
+    "sector": "construction-housing-home-solution",
+    "updated": "2026-04-12",
+    "confidence": "medium",
+    "dartCorpCode": "",
+    "naverFinanceUrl": "",
+    "sources": [
+      "2026-03-16-gsnd-2025-business-report",
+      "2025-05-28-gsnd-euljiro-office-order",
+      "2025-11-27-gsnd-gongdeok-order",
+      "2025-12-19-gsnd-daegu-gamsam-order",
+      "2026-03-20-gsnd-mangwon-456-order",
+      "2026-04-03-gsnd-mangwon-459-order",
+      "2026-04-10-gsnd-geomam-order"
+    ],
+    "aliases": [
+      "xi-snd",
+      "자이에스앤디",
+      "Xi S&D",
+      "gsnd"
+    ],
+    "companyInfo": [],
+    "annualFinancials": null,
+    "quarterlyFinancials": null
+  }
+]

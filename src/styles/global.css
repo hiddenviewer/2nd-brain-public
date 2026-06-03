@@ -282,8 +282,107 @@ h3 {
   min-height: 220px;
 }
 
+.company-card-link {
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 800;
+  margin-top: auto;
+}
+
 .company-tags {
   margin-bottom: 22px;
+}
+
+.company-overview {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: minmax(280px, 0.75fr) minmax(0, 1.25fr);
+  margin-bottom: 24px;
+}
+
+.company-profile,
+.financial-section {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.company-profile h2,
+.financial-section h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.company-profile dl {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0 0 18px;
+}
+
+.company-profile dl div {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 8px;
+}
+
+.company-profile dt {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.company-profile dd {
+  margin: 2px 0 0;
+}
+
+.company-profile ul {
+  color: var(--muted);
+  margin: 0;
+  padding-left: 20px;
+}
+
+.company-action {
+  margin-top: 18px;
+}
+
+.financial-section {
+  display: grid;
+  gap: 18px;
+}
+
+.financial-table-block h3 {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+.financial-table-block table {
+  border-collapse: collapse;
+  min-width: 760px;
+  width: 100%;
+}
+
+.financial-table-block th,
+.financial-table-block td {
+  border: 1px solid var(--line);
+  font-size: 13px;
+  padding: 9px 10px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.financial-table-block th:first-child,
+.financial-table-block td:first-child {
+  text-align: left;
+}
+
+.financial-table-block th {
+  background: var(--surface-2);
+  color: var(--text);
 }
 
 .tag-row {
@@ -607,7 +706,8 @@ h3 {
   }
 
   .hero,
-  .note-layout {
+  .note-layout,
+  .company-overview {
     grid-template-columns: 1fr;
   }
 

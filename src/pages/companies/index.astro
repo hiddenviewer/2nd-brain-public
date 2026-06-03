@@ -1,12 +1,20 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro'
 import links from '../../data/links.json'
+import companiesData from '../../data/companies.json'
 
 const base = import.meta.env.BASE_URL
 const basePath = base.endsWith('/') ? base : `${base}/`
 const withBase = (href) => `${basePath}${href.replace(/^\//, '')}`
 
 const companyMap = new Map()
+for (const company of companiesData) {
+  companyMap.set(company.id, {
+    ...company,
+    links: [],
+    tags: new Map(),
+  })
+}
 for (const link of links) {
   for (const company of link.companies || []) {
     if (!companyMap.has(company.id)) {
@@ -31,7 +39,7 @@ const companies = Array.from(companyMap.values())
       .map((link) => link.updated)
       .filter(Boolean)
       .sort()
-      .at(-1) || '',
+      .at(-1) || company.updated || '',
     topTags: Array.from(company.tags.entries())
       .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
       .slice(0, 5)
@@ -56,6 +64,7 @@ const companies = Array.from(companyMap.values())
           <span class="eyebrow">{company.ticker || company.sector || 'Company'}</span>
           <h3>{company.label}</h3>
           <p>{company.links.length}개 링크{company.latest ? ` · 최근 ${company.latest}` : ''}</p>
+          {company.naverFinanceUrl && <span class="company-card-link">네이버 금융 연결됨</span>}
           <div class="tag-row">
             {company.topTags.map((tag) => <span class="tag">{tag}</span>)}
           </div>
