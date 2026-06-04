@@ -174,6 +174,21 @@
     "companies": []
   },
   {
+    "title": "Agent Learning Hub: AI 에이전트 빌더를 위한 단계별 학습 로드맵",
+    "url": "https://discuss.pytorch.kr/t/agent-learning-hub-ai/10326",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-06-04",
+    "sourceNote": "2026-06-05-agent-learning-hub-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Datawhale 멤버 jjyaoao가 큐레이션한 AI 에이전트 학습 로드맵 저장소로, 단순 역할극 데모보다 실질적인 도구 사용, 상태 관리, 평가 및 안전에 집중하는 9단계 학습 코스와 11단계 프로젝트 사다리를 제시합니다.",
+    "companies": []
+  },
+  {
     "title": "Agentic Coding은 함정이다",
     "url": "https://news.hada.io/topic?id=29155",
     "category": "ai",
@@ -748,6 +763,21 @@
     "companies": []
   },
   {
+    "title": "designlang: 웹사이트의 디자인 시스템을 한 번에 추출하는 CLI와 AI 에이전트 도구",
+    "url": "https://discuss.pytorch.kr/t/designlang-cli-ai/10494",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-06-04",
+    "sourceNote": "2026-06-05-designlang-cli-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "웹사이트 URL에서 레이아웃 구조, 반응형 동작, 접근성 점수, 디자인 토큰 등 종합적인 디자인 시스템을 단 한 줄의 명령어로 자동 추출하는 MIT 라이선스 기반의 오픈소스 CLI 및 AI 에이전트 연동 도구인 designlang을 소개합니다.",
+    "companies": []
+  },
+  {
     "title": "Dual-Brain: Codex/Claude Code용 좌뇌·우뇌식 디베이트 워크플로우",
     "url": "https://news.hada.io/topic?id=30101",
     "category": "ai",
@@ -1163,6 +1193,21 @@
     "companies": []
   },
   {
+    "title": "iOS 27 Siri 및 AI 전면 개편과 애플의 AI 전략 전환",
+    "url": "https://www.vietnam.vn/ko/he-lo-cuoc-dai-tu-siri-va-ai-tren-ios-27-apple-phan-cong",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-06-04",
+    "sourceNote": "2026-06-05-ios-27-siri-ai-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "애플이 iOS 27에서 Siri를 단순 음성 비서에서 개인 상황 인식, 화면 분석 및 다중 AI 모델(ChatGPT, Gemini, Claude) 연동이 가능한 종합 'AI 에이전트'로 전면 개편하고 독자적인 Siri 대화형 앱과 카메라/사진 내 생성형 AI 편집 도구를 선보일 예정입니다.",
+    "companies": []
+  },
+  {
     "title": "디지털데일리 기사 접근 불가 메모",
     "url": "https://www.ddaily.co.kr/page/view/2026042413063740344",
     "category": "general",
@@ -1191,6 +1236,21 @@
       "inaccessible"
     ],
     "description": "apple-economy.com 기사 링크를 저장하려 했지만, 현재 확보된 내용은 기사 본문이 아니라 본문 확인 실패 상태를 기록한 inbox 메모다. URL과 Discord 공유 흔적은 남아 있지만 실제 기사 제목과 본문은 확인되지 않는다.",
+    "companies": []
+  },
+  {
+    "title": "BOE, 8.6세대 OLED 양산식으로 삼성디스플레이와 경쟁 본격화",
+    "url": "https://www.etnews.com/20260603000046",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-06-04",
+    "sourceNote": "2026-06-05-boe-8-6-oled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "BOE가 6월 17일 청두 B16 생산기지에서 8.6세대 OLED 양산식을 열고, 삼성디스플레이보다 앞서 양산 공식화에 나선다.",
     "companies": []
   },
   {
