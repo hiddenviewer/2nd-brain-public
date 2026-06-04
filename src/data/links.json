@@ -1148,6 +1148,21 @@
     "companies": []
   },
   {
+    "title": "Apple, 2026 Apple 디자인 어워드 수상작 발표",
+    "url": "https://www.apple.com/kr/newsroom/2026/06/apple-reveals-winners-of-the-2026-apple-design-awards/",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-06-04",
+    "sourceNote": "2026-06-04-apple-2026-apple",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Apple이 WWDC26을 앞두고 6개 부문에서 앱과 게임 12개를 2026 Apple 디자인 어워드 수상작으로 선정했다.",
+    "companies": []
+  },
+  {
     "title": "디지털데일리 기사 접근 불가 메모",
     "url": "https://www.ddaily.co.kr/page/view/2026042413063740344",
     "category": "general",
@@ -1807,6 +1822,34 @@
         "label": "대한항공",
         "ticker": "003490",
         "sector": "airline"
+      }
+    ]
+  },
+  {
+    "title": "Goldman Sachs, KOSPI 12개월 목표치 12,000으로 재상향",
+    "url": "https://v.daum.net/v/20260603154506882",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-06-04",
+    "sourceNote": "2026-06-04-goldman-sachs-kospi-12-12-000",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Goldman Sachs가 반도체 메모리 사이클 장기화, 이익 전망 상향, 밸류업 재평가 가능성을 근거로 KOSPI 12개월 목표치를 9,000에서 12,000으로 올렸다.",
+    "companies": [
+      {
+        "id": "samsung-electronics",
+        "label": "삼성전자",
+        "ticker": "005930",
+        "sector": "semiconductors"
+      },
+      {
+        "id": "sk-hynix",
+        "label": "SK하이닉스",
+        "ticker": "000660",
+        "sector": "semiconductors"
       }
     ]
   },
