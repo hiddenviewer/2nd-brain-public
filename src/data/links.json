@@ -1846,6 +1846,40 @@
     "companies": []
   },
   {
+    "title": "LG, 엔비디아 Blackwell GPU 1만 장 도입 및 그룹 AX 가속화",
+    "url": "https://share.google/NI9R2aAfDkwXWe6EM",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-06-04",
+    "sourceNote": "2026-06-04-lg-blackwell-gpu-1-ax",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LG그룹이 엔비디아의 Blackwell GPU 1만 장을 도입하여 초거대 AI 'EXAONE' 고도화, 휴머노이드 로봇 학습, AI 데이터센터 등 그룹의 인공지능 전환(AX) 및 피지컬 AI 사업에 속도를 냅니다.",
+    "companies": [
+      {
+        "id": "hyundai-motor",
+        "label": "현대차",
+        "ticker": "005380",
+        "sector": "automotive"
+      },
+      {
+        "id": "lg-electronics",
+        "label": "LG전자",
+        "ticker": "066570",
+        "sector": "electronics"
+      },
+      {
+        "id": "naver",
+        "label": "네이버",
+        "ticker": "035420",
+        "sector": "internet-platform"
+      }
+    ]
+  },
+  {
     "title": "LG디스플레이, 게이밍 OLED 로드쇼서 최대 라인업과 차세대 기술 공개",
     "url": "https://v.daum.net/v/20260601103002221?f=p",
     "category": "investing",
