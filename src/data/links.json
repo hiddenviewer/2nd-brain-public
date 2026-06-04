@@ -662,18 +662,21 @@
     "companies": []
   },
   {
-    "title": "Claude Code의 Dynamic Workflows(다이내믹 워크플로) 도입",
+    "title": "Claude Code의 Dynamic Workflows 도입",
     "url": "https://news.hada.io/topic?id=30144",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-06-04",
+    "status": "public",
+    "updated": "2026-06-05",
     "sourceNote": "2026-06-04-claude-code-dynamic-workflows",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "claude-code",
+      "dynamic-workflows",
+      "orchestration",
+      "harness"
     ],
-    "description": "Anthropic의 Claude Code 팀이 공개한 Dynamic Workflows는 에이전트가 작업에 맞춰 실시간으로 자체적인 실행 구조(하네스)를 JavaScript 파일 형태로 직접 작성해 여러 서브에이전트를 조율하는 기능입니다. 이를 통해 단일 컨텍스트의 한계를 극복하고 대규모 리팩토링, 딥 리서치 등 장시간 구조적 작업을 효율적으로 해결합니다.",
+    "description": "GeekNews에 공유된 Claude Code Dynamic Workflows 소개 메모다. Claude Code가 작업에 맞춰 JavaScript 기반 실행 구조를 즉석에서 작성하고, 여러 서브에이전트를 조율해 장시간·대규모 작업을 처리하는 기능으로 정리한다.",
     "companies": []
   },
   {
