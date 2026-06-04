@@ -778,14 +778,16 @@
     "url": "https://discuss.pytorch.kr/t/designlang-cli-ai/10494",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-06-04",
+    "status": "public",
+    "updated": "2026-06-05",
     "sourceNote": "2026-06-05-designlang-cli-ai",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "design-systems",
+      "cli",
+      "mcp"
     ],
-    "description": "웹사이트 URL에서 레이아웃 구조, 반응형 동작, 접근성 점수, 디자인 토큰 등 종합적인 디자인 시스템을 단 한 줄의 명령어로 자동 추출하는 MIT 라이선스 기반의 오픈소스 CLI 및 AI 에이전트 연동 도구인 designlang을 소개합니다.",
+    "description": "PyTorchKR 포럼에 올라온 designlang 소개 메모다. designlang은 웹사이트 URL에서 디자인 토큰, 레이아웃 구조, 반응형 동작, 접근성 점수, 컴포넌트 관련 산출물을 추출하고, 이를 AI 코딩 에이전트가 참조할 수 있는 포맷으로 내보내는 오픈소스 CLI/에이전트 연동 도구로 소개된다.",
     "companies": []
   },
   {
