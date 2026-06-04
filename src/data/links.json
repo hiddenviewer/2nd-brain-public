@@ -1182,14 +1182,16 @@
     "url": "https://www.apple.com/kr/newsroom/2026/06/apple-reveals-winners-of-the-2026-apple-design-awards/",
     "category": "apple",
     "categoryLabel": "Apple",
-    "status": "pending",
+    "status": "public",
     "updated": "2026-06-04",
     "sourceNote": "2026-06-04-apple-2026-apple",
     "tags": [
-      "inbox",
-      "article"
+      "apple",
+      "wwdc",
+      "design-awards",
+      "app-design"
     ],
-    "description": "Apple이 WWDC26을 앞두고 6개 부문에서 앱과 게임 12개를 2026 Apple 디자인 어워드 수상작으로 선정했다.",
+    "description": "Apple Newsroom의 2026 Apple 디자인 어워드 수상작 발표 자료다. Apple은 WWDC26을 앞두고 36개 최종 후보 중 6개 부문에서 앱 6개와 게임 6개, 총 12개 수상작을 선정했다.",
     "companies": []
   },
   {
