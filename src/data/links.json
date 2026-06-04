@@ -659,7 +659,14 @@
       "memory"
     ],
     "description": "GeekNews의 Claude Code 비공식 설정 정리 메모다. @anthropic-ai/claude-code@2.1.87 기준으로 공식 문서에 충분히 드러나지 않은 Hooks, Skills, Agents, Auto Mode, 자동 메모리, Magic Docs 관련 설정 필드를 소개한다.",
-    "companies": []
+    "companies": [
+      {
+        "id": "goldman-sachs",
+        "label": "Goldman Sachs",
+        "ticker": "GS",
+        "sector": "global investment banking"
+      }
+    ]
   },
   {
     "title": "Claude Code의 Dynamic Workflows 도입",
@@ -1422,6 +1429,12 @@
     "description": "골드만삭스가 2026년 6월 3일 기준 코스피 목표치를 기존 9000에서 1만2000으로 상향하고 한국 증시 비중확대 의견을 유지했다는 머니투데이 기사 요약 메모다.",
     "companies": [
       {
+        "id": "goldman-sachs",
+        "label": "Goldman Sachs",
+        "ticker": "GS",
+        "sector": "global investment banking"
+      },
+      {
         "id": "samsung-electronics",
         "label": "삼성전자",
         "ticker": "005930",
@@ -1456,6 +1469,12 @@
         "label": "두산로보틱스",
         "ticker": "454910",
         "sector": "robotics"
+      },
+      {
+        "id": "goldman-sachs",
+        "label": "Goldman Sachs",
+        "ticker": "GS",
+        "sector": "global investment banking"
       },
       {
         "id": "samick-thk",
@@ -1895,15 +1914,24 @@
     "url": "https://v.daum.net/v/20260603154506882",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-06-04",
+    "status": "public",
+    "updated": "2026-06-05",
     "sourceNote": "2026-06-04-goldman-sachs-kospi-12-12-000",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "kospi",
+      "semiconductors",
+      "memory",
+      "goldman-sachs"
     ],
-    "description": "Goldman Sachs가 반도체 메모리 사이클 장기화, 이익 전망 상향, 밸류업 재평가 가능성을 근거로 KOSPI 12개월 목표치를 9,000에서 12,000으로 올렸다.",
+    "description": "Goldman Sachs가 코스피 12개월 목표치를 9000에서 12000으로 재상향하고 한국 증시 비중 확대 의견을 유지했다는 Daum 기사 요약 메모다.",
     "companies": [
+      {
+        "id": "goldman-sachs",
+        "label": "Goldman Sachs",
+        "ticker": "GS",
+        "sector": "global investment banking"
+      },
       {
         "id": "samsung-electronics",
         "label": "삼성전자",
