@@ -1677,6 +1677,12 @@
         "sector": ""
       },
       {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
         "id": "lg-display",
         "label": "LG디스플레이",
         "ticker": "034220",
@@ -2001,32 +2007,31 @@
     "url": "https://share.google/NI9R2aAfDkwXWe6EM",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-06-04",
+    "status": "public",
+    "updated": "2026-06-05",
     "sourceNote": "2026-06-04-lg-blackwell-gpu-1-ax",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "lg",
+      "lg-electronics",
+      "nvidia",
+      "blackwell",
+      "physical-ai",
+      "ax"
     ],
-    "description": "LG그룹이 엔비디아의 Blackwell GPU 1만 장을 도입하여 초거대 AI 'EXAONE' 고도화, 휴머노이드 로봇 학습, AI 데이터센터 등 그룹의 인공지능 전환(AX) 및 피지컬 AI 사업에 속도를 냅니다.",
+    "description": "LG그룹이 NVIDIA Blackwell GPU 1만 장을 도입해 EXAONE, 로봇 학습, AI 데이터센터, 그룹 AX를 가속한다는 보도 요약 메모다. 기사 메타데이터는 투자 규모와 세부 배분 일정이 공식 계약 공시가 아니라 업계 추정에 의존한다고 제한한다.",
     "companies": [
       {
-        "id": "hyundai-motor",
-        "label": "현대차",
-        "ticker": "005380",
-        "sector": "automotive"
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
       },
       {
         "id": "lg-electronics",
         "label": "LG전자",
         "ticker": "066570",
         "sector": "electronics"
-      },
-      {
-        "id": "naver",
-        "label": "네이버",
-        "ticker": "035420",
-        "sector": "internet-platform"
       }
     ]
   },
@@ -2046,6 +2051,12 @@
     ],
     "description": "LG디스플레이가 2026년 6월 4~10일 대만 타이베이에서 게이밍 OLED 로드쇼를 열고 39인치 5K2K OLED, 27인치 5K OLED, RGB 스트라이프 OLED, DisplayHDR True Black 1000급 차세대 패널을 공개한다는 기사다. 기존 K-디스플레이 OLED 논지 중 IT·모니터용 고부가 OLED 확장 축을 보강한다.",
     "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
       {
         "id": "lg-display",
         "label": "LG디스플레이",
