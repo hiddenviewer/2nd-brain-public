@@ -178,14 +178,15 @@
     "url": "https://discuss.pytorch.kr/t/agent-learning-hub-ai/10326",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-06-04",
+    "status": "public",
+    "updated": "2026-06-05",
     "sourceNote": "2026-06-05-agent-learning-hub-ai",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "learning-roadmap",
+      "harness"
     ],
-    "description": "Datawhale 멤버 jjyaoao가 큐레이션한 AI 에이전트 학습 로드맵 저장소로, 단순 역할극 데모보다 실질적인 도구 사용, 상태 관리, 평가 및 안전에 집중하는 9단계 학습 코스와 11단계 프로젝트 사다리를 제시합니다.",
+    "description": "PyTorchKR 포럼의 소개 글로, Datawhale 멤버 jjyaoao가 큐레이션한 Agent Learning Hub를 AI 에이전트 빌더를 위한 단계별 학습 로드맵으로 설명한다.",
     "companies": []
   },
   {
