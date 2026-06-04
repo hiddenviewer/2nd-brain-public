@@ -2006,6 +2006,41 @@
     }
   },
   {
+    "id": "samsung-display",
+    "label": "삼성디스플레이",
+    "ticker": "비상장",
+    "sector": "display",
+    "updated": "2026-06-05",
+    "confidence": "medium",
+    "dartCorpCode": "00912006",
+    "naverFinanceUrl": "확인 필요",
+    "sources": [
+      "2026-06-01-8-6-it-oled",
+      "2026-06-05-boe-8-6-oled"
+    ],
+    "aliases": [
+      "samsung-display",
+      "삼성디스플레이",
+      "비상장",
+      "삼성디스플레이 주식회사",
+      "Samsung Display",
+      "Samsung Display Co.",
+      "Ltd."
+    ],
+    "companyInfo": [
+      "DART 기준 회사명: 삼성디스플레이 주식회사",
+      "영문명: SAMSUNG DISPLAY CO., LTD.",
+      "대표자: 이청",
+      "시장 구분: 기타법인",
+      "종목코드: 비상장",
+      "DART corp code: 00912006",
+      "홈페이지: www.samsungdisplay.com",
+      "결산월: 12월"
+    ],
+    "annualFinancials": null,
+    "quarterlyFinancials": null
+  },
+  {
     "id": "samsung-electronics",
     "label": "삼성전자",
     "ticker": "005930",
