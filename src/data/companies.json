@@ -408,11 +408,13 @@
     "label": "현대차",
     "ticker": "005380",
     "sector": "automotive",
-    "updated": "2026-06-04",
+    "updated": "2026-06-07",
     "confidence": "medium",
     "dartCorpCode": "00164742",
     "naverFinanceUrl": "https://finance.naver.com/item/main.naver?code=005380",
-    "sources": [],
+    "sources": [
+      "2026-06-06-hbm-lpddr"
+    ],
     "aliases": [
       "hyundai-motor",
       "현대차",
@@ -2050,7 +2052,7 @@
     "label": "삼성전자",
     "ticker": "005930",
     "sector": "semiconductors",
-    "updated": "2026-06-05",
+    "updated": "2026-06-07",
     "confidence": "low",
     "dartCorpCode": "00126380",
     "naverFinanceUrl": "https://finance.naver.com/item/main.naver?code=005930",
@@ -2058,7 +2060,8 @@
       "2026-04-24-semiconductor-big3-korea-sales-share",
       "2026-05-24-hbm-lpddr-nvidia",
       "2026-06-03-goldman-sachs-kospi-12000",
-      "2026-06-04-goldman-sachs-kospi-12-12-000"
+      "2026-06-04-goldman-sachs-kospi-12-12-000",
+      "2026-06-06-hbm-lpddr"
     ],
     "aliases": [
       "samsung-electronics",
@@ -2370,7 +2373,7 @@
     "label": "SK하이닉스",
     "ticker": "000660",
     "sector": "semiconductors",
-    "updated": "2026-06-05",
+    "updated": "2026-06-07",
     "confidence": "low",
     "dartCorpCode": "00164779",
     "naverFinanceUrl": "https://finance.naver.com/item/main.naver?code=000660",
@@ -2378,7 +2381,8 @@
       "2026-04-24-semiconductor-big3-korea-sales-share",
       "2026-05-24-hbm-lpddr-nvidia",
       "2026-06-03-goldman-sachs-kospi-12000",
-      "2026-06-04-goldman-sachs-kospi-12-12-000"
+      "2026-06-04-goldman-sachs-kospi-12-12-000",
+      "2026-06-06-hbm-lpddr"
     ],
     "aliases": [
       "sk-hynix",
