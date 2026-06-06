@@ -806,6 +806,25 @@
     "companies": []
   },
   {
+    "title": "Codex, 역할별 플러그인·Sites·주석으로 비개발자 업무까지 확장",
+    "url": "https://news.hada.io/topic?id=30125",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-06-07",
+    "sourceNote": "2026-06-06-codex-sites",
+    "tags": [
+      "ai-agents",
+      "codex",
+      "plugins",
+      "sites",
+      "annotations",
+      "productivity"
+    ],
+    "description": "GeekNews에 공유된 Codex 기능 확장 메모다. Codex가 역할별 플러그인, 공유 가능한 Sites, 문서·스프레드시트·슬라이드 영역 지정 수정용 Annotations를 통해 개발자 중심 도구에서 팀 업무 생산성 도구로 확장되고 있다고 전한다.",
+    "companies": []
+  },
+  {
     "title": "DESIGN.md: AI 코딩 도구를 위한 디자인 시스템 단일 파일 포맷 정리",
     "url": "https://news.hada.io/topic?id=28861",
     "category": "ai",
@@ -2067,21 +2086,6 @@
         "sector": "semiconductors"
       }
     ]
-  },
-  {
-    "title": "Codex, 역할별 플러그인·Sites·주석으로 비개발자 업무까지 확장",
-    "url": "https://news.hada.io/topic?id=30125",
-    "category": "investing",
-    "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-06-06",
-    "sourceNote": "2026-06-06-codex-sites",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "AI 도구 Codex가 비개발자 사용자의 빠른 증가에 대응해 코딩 없이도 업무 생산성을 높일 수 있는 역할별 플러그인, 대시보드 및 플래너 웹사이트로 결과물을 전환·공유하는 'Sites', 그리고 문서나 슬라이드의 특정 부분을 직접 지정해 수정 요청하는 'Annotations' 기능을 추가하여 비개발 업무 영역으로 지원 범위를 넓혔습니다.",
-    "companies": []
   },
   {
     "title": "Goldman Sachs, KOSPI 12개월 목표치 12,000으로 재상향",
