@@ -28,7 +28,7 @@
     "label": "디바이스",
     "ticker": "187870",
     "sector": "display-semiconductor-equipment",
-    "updated": "2026-06-03",
+    "updated": "2026-06-07",
     "confidence": "medium",
     "dartCorpCode": "00624509",
     "naverFinanceUrl": "https://finance.naver.com/item/main.naver?code=187870",
@@ -37,7 +37,8 @@
       "2026-03-23-device-2025-business-report",
       "2026-03-10-device-skhynix-order",
       "2026-04-10-device-bonus-issue",
-      "2026-04-10-device-samsung-order"
+      "2026-04-10-device-samsung-order",
+      "2026-06-06-device-q1-boe-profitability"
     ],
     "aliases": [
       "device",

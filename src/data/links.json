@@ -1642,18 +1642,22 @@
     ]
   },
   {
-    "title": "디바이스, 1분기 영업이익률 39.4%…BOE 효과에 수익성 급증",
+    "title": "디바이스, 1분기 BOE 효과로 영업이익률 39.4% 기록",
     "url": "https://www.thelec.kr/news/articleView.html?idxno=57663",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-06-06",
-    "sourceNote": "2026-06-06-1-39-4-boe",
+    "status": "public",
+    "updated": "2026-06-07",
+    "sourceNote": "2026-06-06-device-q1-boe-profitability",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "display",
+      "oled",
+      "equipment",
+      "device",
+      "boe"
     ],
-    "description": "2026년 1분기 국내 디스플레이 장비기업 27개사 중 12개사가 중국 패널업체의 투자 재개와 수주 효과에 힘입어 흑자전환에 성공했습니다. 특히 디바이스는 BOE 장비 공급 효과로 매출이 260.5% 증가하고 업계 최고 수준인 39.4%의 영업이익률을 기록하며 큰 수익성 개선을 보였습니다.",
+    "description": "2026년 1분기 국내 디스플레이 장비기업 27곳의 실적을 정리하면서, 중국 패널사 투자 재개와 수주 효과가 장비사 실적 개선으로 연결됐다는 디일렉 기사다. 특히 [[device|디바이스]]는 BOE향 고수익 장비 매출 반영으로 업계 최고 수준의 영업이익률을 기록한 사례로 제시된다.",
     "companies": [
       {
         "id": "device",
