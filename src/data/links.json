@@ -2246,19 +2246,27 @@
     ]
   },
   {
-    "title": "LG화학, 배터리·화학 회복에 2분기 ‘깜짝 실적’ 기대…목표가↑-KB",
+    "title": "LG화학, 배터리·화학 회복에 2분기 깜짝 실적 기대",
     "url": "https://www.hankyung.com/article/2026060585486",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-06-06",
+    "status": "public",
+    "updated": "2026-06-07",
     "sourceNote": "2026-06-06-lg-2-kb",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "chemicals",
+      "battery",
+      "ess"
     ],
-    "description": "KB증권은 LG화학이 배터리와 석유화학 부문의 동반 회복에 힘입어 2분기 시장 컨센서스를 약 97% 상회하는 깜짝 실적(영업이익 6,107억 원)을 기록할 것으로 전망하며, 목표주가를 기존 43만 원에서 47만 원으로 상향 조정했습니다.",
+    "description": "KB증권이 LG화학의 2026년 2분기 영업이익을 시장 컨센서스보다 크게 높은 6,107억 원으로 전망하고 목표주가를 43만 원에서 47만 원으로 상향했다는 한국경제 기사다. 석유화학 스프레드 회복과 LG에너지솔루션 실적 개선 가능성을 함께 다룬다.",
     "companies": [
+      {
+        "id": "lg-chem",
+        "label": "LG화학",
+        "ticker": "051910",
+        "sector": "chemicals"
+      },
       {
         "id": "lg-corp",
         "label": "LG",
