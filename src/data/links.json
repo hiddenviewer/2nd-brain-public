@@ -18,21 +18,6 @@
     "companies": []
   },
   {
-    "title": "누구나 만드는 시대의 경쟁력: 속도보다 방향과 완성도",
-    "url": "https://yozm.wishket.com/magazine/detail/3785/",
-    "category": "ai",
-    "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-06-06",
-    "sourceNote": "2026-06-06-untitled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "이 글은 Claude Code의 dynamic workflows, OpenAI Codex Sites, Figma CPO Yuhki Yamashita의 관점을 통해 AI 시대 프로덕트 메이커에게 중요한 역량이 무엇인지 정리한다.",
-    "companies": []
-  },
-  {
     "title": "에르메스 에이전트(Hermes Agent)로 AI 업무 자동화와 나만의 AI 팀 운영을 다루는 실전 가이드",
     "url": "https://wikidocs.net/book/19686",
     "category": "ai",
@@ -170,6 +155,21 @@
         "sector": "semiconductors"
       }
     ]
+  },
+  {
+    "title": "코드는 더 싸졌다",
+    "url": "https://news.hada.io/topic?id=30215",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-06-06",
+    "sourceNote": "2026-06-06-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI 코딩 도구의 도입으로 코드 작성 비용은 급감했으나 생성된 코드를 이해하고 관리하는 복잡성 비용은 오히려 증가하였으며, 이를 해결하기 위해 불필요한 코드를 제거하고 제약하는 '빼는 엔지니어(subtractive engineer)'의 중요성과 기예 유지를 강조합니다.",
+    "companies": []
   },
   {
     "title": "클로드 코드 멀티에이전트 팀 자동화 완전 가이드",
