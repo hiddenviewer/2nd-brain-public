@@ -1255,34 +1255,6 @@
     "companies": []
   },
   {
-    "title": "\"AI 입은 애플 신고가 경신…LG디스플레이 수혜 입을 것\"-대신",
-    "url": "https://www.hankyung.com/article/2026060585516",
-    "category": "apple",
-    "categoryLabel": "Apple",
-    "status": "pending",
-    "updated": "2026-06-06",
-    "sourceNote": "2026-06-06-ai-lg",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "대신증권은 애플이 AI 모멘텀(WWDC26 기대감, 시리 강화 등)으로 신고가를 경신한 가운데, 핵심 부품 공급사인 LG디스플레이가 하반기 아이폰18 및 첫 폴더블 아이폰 출시의 직접적인 수혜를 입어 실적이 대폭 개선될 것으로 전망했습니다.",
-    "companies": [
-      {
-        "id": "lg-corp",
-        "label": "LG",
-        "ticker": "003550",
-        "sector": "holding-company"
-      },
-      {
-        "id": "lg-display",
-        "label": "LG디스플레이",
-        "ticker": "034220",
-        "sector": "display"
-      }
-    ]
-  },
-  {
     "title": "Apple, 2026 Apple 디자인 어워드 수상작 발표",
     "url": "https://www.apple.com/kr/newsroom/2026/06/apple-reveals-winners-of-the-2026-apple-design-awards/",
     "category": "apple",
@@ -2018,6 +1990,43 @@
         "label": "대한항공",
         "ticker": "003490",
         "sector": "airline"
+      }
+    ]
+  },
+  {
+    "title": "AI 기대감 속 Apple 신고가와 LG디스플레이 수혜 전망",
+    "url": "https://www.hankyung.com/article/2026060585516",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-06-07",
+    "sourceNote": "2026-06-06-ai-lg",
+    "tags": [
+      "kr-stocks",
+      "display",
+      "oled",
+      "apple-supply-chain",
+      "ai"
+    ],
+    "description": "대신증권이 Apple의 AI 모멘텀과 하반기 신제품 기대를 근거로 LG디스플레이의 Apple향 OLED 수혜 가능성을 제시한 한국경제 기사다. 기존 LG디스플레이와 K-디스플레이 OLED 논지 중 Apple 공급망, 폴더블 iPhone, 고성능 OLED 패널 수요 축을 보강한다.",
+    "companies": [
+      {
+        "id": "apple-inc",
+        "label": "Apple Inc.",
+        "ticker": "",
+        "sector": ""
+      },
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-display",
+        "label": "LG디스플레이",
+        "ticker": "034220",
+        "sector": "display"
       }
     ]
   },

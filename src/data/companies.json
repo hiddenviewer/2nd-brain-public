@@ -43,7 +43,10 @@
     "aliases": [
       "device",
       "디바이스",
-      "187870"
+      "187870",
+      "디바이스이엔지",
+      "DEVICE CO.",
+      "Ltd"
     ],
     "companyInfo": [
       "DART 기준 회사명: (주)디바이스",
@@ -1128,13 +1131,14 @@
     "label": "LG디스플레이",
     "ticker": "034220",
     "sector": "display",
-    "updated": "2026-06-04",
+    "updated": "2026-06-07",
     "confidence": "medium",
     "dartCorpCode": "00105873",
     "naverFinanceUrl": "https://finance.naver.com/item/main.naver?code=034220",
     "sources": [
       "2026-05-11-oled-lg",
-      "2026-06-03-lg-oled"
+      "2026-06-03-lg-oled",
+      "2026-06-06-ai-lg"
     ],
     "aliases": [
       "lg-display",
