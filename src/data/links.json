@@ -174,6 +174,21 @@
     "companies": []
   },
   {
+    "title": "호르무즈해협 봉쇄 장기화와 걸프국 석유 수송로 재편",
+    "url": "https://v.daum.net/v/20260605170316700",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-06-06",
+    "sourceNote": "2026-06-06-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "미국·이란 전쟁으로 호르무즈해협 봉쇄가 길어지면서 걸프 산유국들이 송유관, 항만, 철도 등 대체 수송 인프라 확보에 속도를 내고 있다.",
+    "companies": []
+  },
+  {
     "title": "Agent Learning Hub: AI 에이전트 빌더를 위한 단계별 학습 로드맵",
     "url": "https://discuss.pytorch.kr/t/agent-learning-hub-ai/10326",
     "category": "ai",
@@ -2168,6 +2183,28 @@
         "label": "LG디스플레이",
         "ticker": "034220",
         "sector": "display"
+      }
+    ]
+  },
+  {
+    "title": "LG화학, 배터리·화학 회복에 2분기 ‘깜짝 실적’ 기대…목표가↑-KB",
+    "url": "https://www.hankyung.com/article/2026060585486",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-06-06",
+    "sourceNote": "2026-06-06-lg-2-kb",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "KB증권은 LG화학이 배터리와 석유화학 부문의 동반 회복에 힘입어 2분기 시장 컨센서스를 약 97% 상회하는 깜짝 실적(영업이익 6,107억 원)을 기록할 것으로 전망하며, 목표주가를 기존 43만 원에서 47만 원으로 상향 조정했습니다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
       }
     ]
   },
