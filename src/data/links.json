@@ -1182,14 +1182,16 @@
     "url": "https://discuss.pytorch.kr/t/pydantic-ai-harness-pydantic-ai/10479",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-06-06",
+    "status": "public",
+    "updated": "2026-06-07",
     "sourceNote": "2026-06-06-pydantic-ai-harness",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "pydantic-ai",
+      "harness",
+      "codemode"
     ],
-    "description": "Pydantic AI Harness는 Pydantic AI 에이전트에 CodeMode 등 재사용 가능한 기능을 붙일 수 있게 해주는 공식 라이브러리다.",
+    "description": "PyTorchKR 포럼에 공유된 Pydantic AI Harness 소개 메모다. Pydantic AI Harness는 Pydantic AI 에이전트에 재사용 가능한 기능 블록을 붙이기 위한 공식 capability 라이브러리로 소개되며, 현재 핵심 예시는 CodeMode다.",
     "companies": []
   },
   {
