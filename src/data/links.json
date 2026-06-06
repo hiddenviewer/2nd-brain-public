@@ -969,6 +969,25 @@
     "companies": []
   },
   {
+    "title": "Google I/O 2026 주요 발표 12가지 키노트 모아보기",
+    "url": "https://news.hada.io/topic?id=30165",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-06-07",
+    "sourceNote": "2026-06-06-google-i-o-2026-12",
+    "tags": [
+      "ai-agents",
+      "google",
+      "gemini",
+      "search",
+      "antigravity",
+      "agents"
+    ],
+    "description": "News.Hada에 올라온 Google I/O 2026 키노트 요약 메모다. Gemini Omni, Gemini 3.5 Flash, Google Search의 에이전트형 UI, 개인 브리핑·백그라운드 에이전트, 스마트 안경, SynthID, Gemini for Science 등을 12개 발표로 정리한다.",
+    "companies": []
+  },
+  {
     "title": "Harness Engineering",
     "url": "https://youtu.be/5buNm0pA1mg?si=UGge7fBDEYt00iHj",
     "category": "ai",
@@ -1288,21 +1307,6 @@
       "app-design"
     ],
     "description": "Apple Newsroom의 2026 Apple 디자인 어워드 수상작 발표 자료다. Apple은 WWDC26을 앞두고 36개 최종 후보 중 6개 부문에서 앱 6개와 게임 6개, 총 12개 수상작을 선정했다.",
-    "companies": []
-  },
-  {
-    "title": "Google I/O 2026 주요 발표 12가지 키노트 모아보기",
-    "url": "https://news.hada.io/topic?id=30165",
-    "category": "apple",
-    "categoryLabel": "Apple",
-    "status": "pending",
-    "updated": "2026-06-06",
-    "sourceNote": "2026-06-06-google-i-o-2026-12",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "Google I/O 2026에서 공개된 12가지 핵심 발표를 모아놓은 요약글입니다. 신규 AI 모델인 Gemini Omni 및 Gemini 3.5 Flash 출시, Antigravity 기반 생성형 UI와 에이전트 도입을 통한 Google Search의 진화, Daily Brief 및 Gemini Spark 등 백그라운드 개인 에이전트 기능, 새로운 디자인 언어 Neural Expressive, 스마트 글래스, 쇼핑 편의를 위한 Universal Cart, 그리고 SynthID를 통한 AI 저작물 검증 및 과학 분야 전용 도구인 Gemini for Science가 포함되어 있습니다.",
     "companies": []
   },
   {
