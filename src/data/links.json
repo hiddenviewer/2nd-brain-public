@@ -18,6 +18,21 @@
     "companies": []
   },
   {
+    "title": "누구나 만드는 시대의 경쟁력: 속도보다 방향과 완성도",
+    "url": "https://yozm.wishket.com/magazine/detail/3785/",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-06-06",
+    "sourceNote": "2026-06-06-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "이 글은 Claude Code의 dynamic workflows, OpenAI Codex Sites, Figma CPO Yuhki Yamashita의 관점을 통해 AI 시대 프로덕트 메이커에게 중요한 역량이 무엇인지 정리한다.",
+    "companies": []
+  },
+  {
     "title": "에르메스 에이전트(Hermes Agent)로 AI 업무 자동화와 나만의 AI 팀 운영을 다루는 실전 가이드",
     "url": "https://wikidocs.net/book/19686",
     "category": "ai",
@@ -123,6 +138,40 @@
     "companies": []
   },
   {
+    "title": "젠슨 황, 한국산 HBM·LPDDR 수요 확대 예고",
+    "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4418536",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-06-06",
+    "sourceNote": "2026-06-06-hbm-lpddr",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "젠슨 황 NVIDIA CEO는 내년 네 가지 신제품 출시로 한국 파트너사의 HBM과 LPDDR 수요가 크게 늘 것이라고 밝혔다.",
+    "companies": [
+      {
+        "id": "hyundai-motor",
+        "label": "현대차",
+        "ticker": "005380",
+        "sector": "automotive"
+      },
+      {
+        "id": "samsung-electronics",
+        "label": "삼성전자",
+        "ticker": "005930",
+        "sector": "semiconductors"
+      },
+      {
+        "id": "sk-hynix",
+        "label": "SK하이닉스",
+        "ticker": "000660",
+        "sector": "semiconductors"
+      }
+    ]
+  },
+  {
     "title": "클로드 코드 멀티에이전트 팀 자동화 완전 가이드",
     "url": "https://wikidocs.net/book/19736",
     "category": "ai",
@@ -171,21 +220,6 @@
       "wikidocs"
     ],
     "description": "wikidocs 기반 2차 요약 메모다. 하네스 엔지니어링 백과사전의 전체 구성과 독자별 추천 읽기 경로를 정리한 목차 페이지다.",
-    "companies": []
-  },
-  {
-    "title": "호르무즈해협 봉쇄 장기화와 걸프국 석유 수송로 재편",
-    "url": "https://v.daum.net/v/20260605170316700",
-    "category": "ai",
-    "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-06-06",
-    "sourceNote": "2026-06-06-untitled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "미국·이란 전쟁으로 호르무즈해협 봉쇄가 길어지면서 걸프 산유국들이 송유관, 항만, 철도 등 대체 수송 인프라 확보에 속도를 내고 있다.",
     "companies": []
   },
   {
