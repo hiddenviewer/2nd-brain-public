@@ -1106,6 +1106,21 @@
     "companies": []
   },
   {
+    "title": "Pydantic AI Harness 공식 기능 라이브러리 소개",
+    "url": "https://discuss.pytorch.kr/t/pydantic-ai-harness-pydantic-ai/10479",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-06-06",
+    "sourceNote": "2026-06-06-pydantic-ai-harness",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Pydantic AI Harness는 Pydantic AI 에이전트에 CodeMode 등 재사용 가능한 기능을 붙일 수 있게 해주는 공식 라이브러리다.",
+    "companies": []
+  },
+  {
     "title": "Swagger/OpenAPI를 AI 프론트엔드 자동화의 핵심 컨텍스트와 하네스로 쓰는 방법",
     "url": "https://news.hada.io/topic?id=28597",
     "category": "ai",
@@ -1189,6 +1204,34 @@
     ],
     "description": "GeekNews 링크 큐레이션 성격의 2차 메모다. Zed가 1.0에 도달하며, GPU 중심 편집기 아키텍처 위에 다중 에이전트 병렬 작업, edit predictions, Agent Client Protocol 연동을 묶은 AI-native editor 전략을 전면에 내세웠다는 점을 요약한다.",
     "companies": []
+  },
+  {
+    "title": "\"AI 입은 애플 신고가 경신…LG디스플레이 수혜 입을 것\"-대신",
+    "url": "https://www.hankyung.com/article/2026060585516",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-06-06",
+    "sourceNote": "2026-06-06-ai-lg",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "대신증권은 애플이 AI 모멘텀(WWDC26 기대감, 시리 강화 등)으로 신고가를 경신한 가운데, 핵심 부품 공급사인 LG디스플레이가 하반기 아이폰18 및 첫 폴더블 아이폰 출시의 직접적인 수혜를 입어 실적이 대폭 개선될 것으로 전망했습니다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-display",
+        "label": "LG디스플레이",
+        "ticker": "034220",
+        "sector": "display"
+      }
+    ]
   },
   {
     "title": "Apple, 2026 Apple 디자인 어워드 수상작 발표",
@@ -1546,6 +1589,28 @@
         "label": "대한항공",
         "ticker": "003490",
         "sector": "airline"
+      }
+    ]
+  },
+  {
+    "title": "디바이스, 1분기 영업이익률 39.4%…BOE 효과에 수익성 급증",
+    "url": "https://www.thelec.kr/news/articleView.html?idxno=57663",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-06-06",
+    "sourceNote": "2026-06-06-1-39-4-boe",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "2026년 1분기 국내 디스플레이 장비기업 27개사 중 12개사가 중국 패널업체의 투자 재개와 수주 효과에 힘입어 흑자전환에 성공했습니다. 특히 디바이스는 BOE 장비 공급 효과로 매출이 260.5% 증가하고 업계 최고 수준인 39.4%의 영업이익률을 기록하며 큰 수익성 개선을 보였습니다.",
+    "companies": [
+      {
+        "id": "device",
+        "label": "디바이스",
+        "ticker": "187870",
+        "sector": "display-semiconductor-equipment"
       }
     ]
   },
@@ -1942,6 +2007,21 @@
     ]
   },
   {
+    "title": "Codex, 역할별 플러그인·Sites·주석으로 비개발자 업무까지 확장",
+    "url": "https://news.hada.io/topic?id=30125",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-06-06",
+    "sourceNote": "2026-06-06-codex-sites",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI 도구 Codex가 비개발자 사용자의 빠른 증가에 대응해 코딩 없이도 업무 생산성을 높일 수 있는 역할별 플러그인, 대시보드 및 플래너 웹사이트로 결과물을 전환·공유하는 'Sites', 그리고 문서나 슬라이드의 특정 부분을 직접 지정해 수정 요청하는 'Annotations' 기능을 추가하여 비개발 업무 영역으로 지원 범위를 넓혔습니다.",
+    "companies": []
+  },
+  {
     "title": "Goldman Sachs, KOSPI 12개월 목표치 12,000으로 재상향",
     "url": "https://v.daum.net/v/20260603154506882",
     "category": "investing",
@@ -2090,5 +2170,20 @@
         "sector": "display"
       }
     ]
+  },
+  {
+    "title": "OpenAI Codex, 코딩을 넘어 모든 직무로 확장하는 플러그인, 사이트, 주석 기능 공개",
+    "url": "https://discuss.pytorch.kr/t/openai-codex/10521",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-06-06",
+    "sourceNote": "2026-06-06-openai-codex",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "OpenAI가 에이전트형 코딩 도구인 Codex를 비개발 직군까지 확장하기 위해 플러그인(Plugins), 사이트(Sites), 주석(Annotations) 기능을 발표했습니다. 사용자 중 비개발자가 20%에 달하고 성장세가 개발자보다 3배 빠른 가운데, 이번 업데이트는 6종의 역할별 플러그인 지원, D1/R2 저장소를 활용한 인터랙티브 웹 앱(Sites) 배포, 부분 수정을 돕는 주석 기능 및 기업용 보안(RBAC) 설정을 제공합니다.",
+    "companies": []
   }
 ]
