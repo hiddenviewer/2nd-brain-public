@@ -1743,19 +1743,29 @@
     ]
   },
   {
-    "title": "삼성SDI 전고체 배터리 개발 속도 중국에 밀려, 최주선 로봇에서 돌파구 모색",
+    "title": "삼성SDI 전고체 배터리 개발 속도와 로봇용 배터리 전략",
     "url": "https://www.businesspost.co.kr/BP?command=article_view&num=439289",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-06-07",
+    "status": "public",
+    "updated": "2026-06-08",
     "sourceNote": "2026-06-07-sdi",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "batteries",
+      "samsung-sdi",
+      "solid-state-battery",
+      "robotics"
     ],
-    "description": "삼성SDI는 중국 기업들의 빠른 전고체 배터리 상용화 속도에 대응하여, 높은 생산단가 장벽을 극복하기 위해 초기 전고체 배터리 제품을 전기차 대신 휴머노이드 로봇용으로 우선 개발하는 전략 수정을 모색하고 있습니다.",
-    "companies": []
+    "description": "BusinessPost의 삼성SDI 전고체 배터리 전략 관련 기사 요약 메모다. 중국 기업의 전고체 배터리 상용화 속도, 삼성SDI의 2027년 하반기 양산 계획, 초기 적용처를 전기차 외 로봇·UAM으로 넓히는 관측을 다룬다.",
+    "companies": [
+      {
+        "id": "samsung-sdi",
+        "label": "삼성SDI",
+        "ticker": "006400",
+        "sector": "batteries"
+      }
+    ]
   },
   {
     "title": "삼성SDI-벤츠 10조 원 배터리 공급 계약 임박 보도",
@@ -1772,7 +1782,14 @@
       "mercedes-benz"
     ],
     "description": "삼성SDI와 Mercedes-Benz의 2028년형 전기차용 프리즘 배터리 공급 계약이 임박했다는 기사 요약 메모다. 확정 공시가 아니라 보도 기사이므로 계약 성사 여부와 생산 거점 변화는 후속 확인이 필요하다.",
-    "companies": []
+    "companies": [
+      {
+        "id": "samsung-sdi",
+        "label": "삼성SDI",
+        "ticker": "006400",
+        "sector": "batteries"
+      }
+    ]
   },
   {
     "title": "삼성SDS·네이버클라우드·엘리스그룹, 2조원 정부 GPU 사업 우선협상대상자 선정",
