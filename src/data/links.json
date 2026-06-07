@@ -644,21 +644,6 @@
     "companies": []
   },
   {
-    "title": "Claude Code에서 Skills를 구축하며 얻은 교훈",
-    "url": "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills",
-    "category": "ai",
-    "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-06-07",
-    "sourceNote": "2026-06-07-claude-code-skills",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "Anthropic은 Claude Code 내부에서 수백 개의 skills를 운영하며, 좋은 skill은 명확한 범위, 검증 중심 설계, gotchas 축적, 점진적 공개 구조를 갖춰야 한다고 설명한다.",
-    "companies": []
-  },
-  {
     "title": "Claude Code와 Codex 실전 비교",
     "url": "https://news.hada.io/topic?id=28538",
     "category": "ai",
