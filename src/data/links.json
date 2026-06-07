@@ -1345,21 +1345,6 @@
     "companies": []
   },
   {
-    "title": "호르무즈 해협 봉쇄 3개월에도 국제유가가 100달러를 넘지 않은 이유",
-    "url": "https://www.blockmedia.co.kr/archives/1102105",
-    "category": "general",
-    "categoryLabel": "기타",
-    "status": "pending",
-    "updated": "2026-06-07",
-    "sourceNote": "2026-06-07-3-100",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "호르무즈 해협 봉쇄에도 불구하고 미국의 원유 수출 증가, 중국의 예상 밖 수요 둔화, 각국의 전략비축유(SPR) 방출 및 우회 경로 활용 덕분에 유가가 배럴당 100달러 아래로 안정되었습니다. 다만 글로벌 재고 감소로 향후 유가 재급등 우려가 존재합니다.",
-    "companies": []
-  },
-  {
     "title": "Daum 기사 접근 불가 메모",
     "url": "https://v.daum.net/v/20260531171800781",
     "category": "general",
@@ -2083,6 +2068,24 @@
       "exports"
     ],
     "description": "매일경제 기사 요약 메모다. 미국 AI 데이터센터 건설 붐이 철근, 강관, 컬러강판 수요를 끌어올리면서 2026년 4월 한국의 대미 철강 수출이 10여 년 만의 최대치를 기록했다는 내용을 다룬다.",
+    "companies": []
+  },
+  {
+    "title": "호르무즈 해협 봉쇄에도 국제유가가 100달러를 넘지 않은 이유",
+    "url": "https://www.blockmedia.co.kr/archives/1102105",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-06-08",
+    "sourceNote": "2026-06-07-hormuz-oil-under-100",
+    "tags": [
+      "kr-stocks",
+      "macro",
+      "crude-oil",
+      "hormuz",
+      "energy-security"
+    ],
+    "description": "Blockmedia가 Bloomberg 보도를 바탕으로 정리한 기사 요약 메모다. 호르무즈 해협 봉쇄가 3개월 이어졌다는 가정 아래에서도 국제유가가 배럴당 100달러를 넘지 않은 이유를 미국 수출 확대, 중국 수요 둔화, 전략비축유 방출, 우회 수송 경로로 설명한다.",
     "companies": []
   },
   {
