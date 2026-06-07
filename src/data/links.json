@@ -644,6 +644,23 @@
     "companies": []
   },
   {
+    "title": "Claude Code에서 Skills를 구축하며 얻은 교훈",
+    "url": "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-06-08",
+    "sourceNote": "2026-06-07-claude-code-skills",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "skills",
+      "harness"
+    ],
+    "description": "Anthropic 블로그 Lessons from building Claude Code: How we use skills를 요약한 메모다. Claude Code 내부에서 수백 개의 skills를 운영하며 얻은 스킬 설계 원칙, 분류, 검증 중심 운영 방식을 정리한다.",
+    "companies": []
+  },
+  {
     "title": "Claude Code와 Codex 실전 비교",
     "url": "https://news.hada.io/topic?id=28538",
     "category": "ai",
