@@ -2251,7 +2251,7 @@
     "label": "삼성전자",
     "ticker": "005930",
     "sector": "semiconductors",
-    "updated": "2026-06-07",
+    "updated": "2026-06-08",
     "confidence": "low",
     "dartCorpCode": "00126380",
     "naverFinanceUrl": "https://finance.naver.com/item/main.naver?code=005930",
@@ -2260,7 +2260,8 @@
       "2026-05-24-hbm-lpddr-nvidia",
       "2026-06-03-goldman-sachs-kospi-12000",
       "2026-06-04-goldman-sachs-kospi-12-12-000",
-      "2026-06-06-hbm-lpddr"
+      "2026-06-06-hbm-lpddr",
+      "2026-06-07-2026-1-tv-31-3-1"
     ],
     "aliases": [
       "samsung-electronics",
