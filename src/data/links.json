@@ -18,6 +18,28 @@
     "companies": []
   },
   {
+    "title": "삼성전자, 2026년 1분기 글로벌 TV 매출 점유율 31.3%로 1위",
+    "url": "https://www.thelec.kr/news/articleView.html?idxno=57560",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-06-07",
+    "sourceNote": "2026-06-07-2026-1-tv-31-3-1",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "삼성전자가 Omdia 자료 기준 2026년 1분기 글로벌 TV 시장에서 매출 점유율 31.3%를 기록하며 1위를 유지했다.",
+    "companies": [
+      {
+        "id": "samsung-electronics",
+        "label": "삼성전자",
+        "ticker": "005930",
+        "sector": "semiconductors"
+      }
+    ]
+  },
+  {
     "title": "에르메스 에이전트(Hermes Agent)로 AI 업무 자동화와 나만의 AI 팀 운영을 다루는 실전 가이드",
     "url": "https://wikidocs.net/book/19686",
     "category": "ai",
@@ -1730,6 +1752,21 @@
         "sector": ""
       }
     ]
+  },
+  {
+    "title": "삼성SDI 전고체 배터리 개발 속도 중국에 밀려, 최주선 로봇에서 돌파구 모색",
+    "url": "https://www.businesspost.co.kr/BP?command=article_view&num=439289",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-06-07",
+    "sourceNote": "2026-06-07-sdi",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "삼성SDI는 중국 기업들의 빠른 전고체 배터리 상용화 속도에 대응하여, 높은 생산단가 장벽을 극복하기 위해 초기 전고체 배터리 제품을 전기차 대신 휴머노이드 로봇용으로 우선 개발하는 전략 수정을 모색하고 있습니다.",
+    "companies": []
   },
   {
     "title": "삼성SDI-벤츠 10조 원 배터리 공급 계약 임박 보도",
