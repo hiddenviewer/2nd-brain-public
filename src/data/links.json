@@ -1928,6 +1928,32 @@
     "companies": []
   },
   {
+    "title": "이란 전쟁으로 저가 항공의 시대 끝나나",
+    "url": "https://www.mt.co.kr/world/2026/06/06/2026060521315684834",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-06-08",
+    "sourceNote": "2026-06-07-iran-war-low-cost-airline-era",
+    "tags": [
+      "kr-stocks",
+      "airline",
+      "lcc",
+      "oil",
+      "hormuz",
+      "korean-air"
+    ],
+    "description": "머니투데이/PADO가 Financial Times 보도를 소개한 기사 요약 메모다. 이란 전쟁 여파로 항공유 가격과 수급 불안이 커지면 수십 년간 이어진 저가 항공 여행 모델이 흔들릴 수 있다는 관점을 제시한다.",
+    "companies": [
+      {
+        "id": "korean-air",
+        "label": "대한항공",
+        "ticker": "003490",
+        "sector": "airline"
+      }
+    ]
+  },
+  {
     "title": "젠슨 황, 네이버 1784 방문 가능성과 AI 동맹 확대 기대",
     "url": "https://www.fntimes.com/html/view.php?ud=2026060117031020737fd637f543_18",
     "category": "investing",
@@ -2388,20 +2414,5 @@
         "sector": "holding-company"
       }
     ]
-  },
-  {
-    "title": "이란 전쟁으로 저가 항공의 시대 끝나나",
-    "url": "https://www.mt.co.kr/world/2026/06/06/2026060521315684834",
-    "category": "travel",
-    "categoryLabel": "여행",
-    "status": "pending",
-    "updated": "2026-06-07",
-    "sourceNote": "2026-06-07-untitled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "이란 전쟁으로 인한 항공유 가격 폭등과 수급 부족으로 글로벌 항공사들의 취소 사태와 파산이 이어지며, 지난 수십 년간 지속된 저가 항공 시대가 막을 내릴 수 있다는 전망이 나오고 있습니다.",
-    "companies": []
   }
 ]
