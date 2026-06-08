@@ -1299,6 +1299,28 @@
     "companies": []
   },
   {
+    "title": "애플, WWDC 2026에서 구글 Gemini 탑재한 차세대 'Siri AI' 공개 및 Tim Cook CEO 퇴임 예고",
+    "url": "https://www.mk.co.kr/news/it/12068989",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-06-08",
+    "sourceNote": "2026-06-09-wwdc-2026-gemini-siri-ai-tim-cook-ceo",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "애플이 WWDC 2026에서 구글 Gemini를 핵심 두뇌로 채택하여 화면 인식 및 멀티 앱 실행이 가능한 차세대 'Siri AI'를 발표했으며, 이번 기조연설은 오는 9월 퇴임을 앞둔 Tim Cook CEO의 마지막 무대였습니다.",
+    "companies": [
+      {
+        "id": "device",
+        "label": "디바이스",
+        "ticker": "187870",
+        "sector": "display-semiconductor-equipment"
+      }
+    ]
+  },
+  {
     "title": "Apple, 2026 Apple 디자인 어워드 수상작 발표",
     "url": "https://www.apple.com/kr/newsroom/2026/06/apple-reveals-winners-of-the-2026-apple-design-awards/",
     "category": "apple",
