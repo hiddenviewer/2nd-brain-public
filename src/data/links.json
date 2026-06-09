@@ -1327,24 +1327,29 @@
     ]
   },
   {
-    "title": "애플, WWDC 2026에서 구글 Gemini 탑재한 차세대 'Siri AI' 공개 및 Tim Cook CEO 퇴임 예고",
+    "title": "Apple WWDC 2026, Gemini 기반 Siri AI와 Tim Cook 퇴임 보도",
     "url": "https://www.mk.co.kr/news/it/12068989",
     "category": "apple",
     "categoryLabel": "Apple",
-    "status": "pending",
-    "updated": "2026-06-08",
+    "status": "public",
+    "updated": "2026-06-10",
     "sourceNote": "2026-06-09-wwdc-2026-gemini-siri-ai-tim-cook-ceo",
     "tags": [
-      "inbox",
-      "article"
+      "apple",
+      "siri",
+      "apple-intelligence",
+      "gemini",
+      "tim-cook",
+      "john-ternus",
+      "ai"
     ],
-    "description": "애플이 WWDC 2026에서 구글 Gemini를 핵심 두뇌로 채택하여 화면 인식 및 멀티 앱 실행이 가능한 차세대 'Siri AI'를 발표했으며, 이번 기조연설은 오는 9월 퇴임을 앞둔 Tim Cook CEO의 마지막 무대였습니다.",
+    "description": "매일경제의 WWDC 2026 기사 메모다. Apple이 차세대 Siri AI의 핵심 두뇌로 Google Gemini를 활용하고, Tim Cook이 2026년 9월 1일 CEO에서 물러나 John Ternus가 후임 CEO가 된다는 내용을 함께 다룬다.",
     "companies": [
       {
-        "id": "device",
-        "label": "디바이스",
-        "ticker": "187870",
-        "sector": "display-semiconductor-equipment"
+        "id": "apple-inc",
+        "label": "Apple Inc.",
+        "ticker": "",
+        "sector": ""
       }
     ]
   },
