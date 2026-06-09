@@ -1313,6 +1313,12 @@
     "description": "애플이 사용자 맥락과 개인정보 보호를 결합한 차세대 AI 시스템인 'Apple Intelligence'와 새로운 'Siri AI'를 발표했습니다. 올해 말 영어 지원을 시작으로 제공되며 온디바이스 및 프라이빗 클라우드 컴퓨팅을 활용합니다.",
     "companies": [
       {
+        "id": "apple-inc",
+        "label": "Apple Inc.",
+        "ticker": "",
+        "sector": ""
+      },
+      {
         "id": "device",
         "label": "디바이스",
         "ticker": "187870",

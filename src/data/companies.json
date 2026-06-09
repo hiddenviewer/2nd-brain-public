@@ -4,7 +4,7 @@
     "label": "Apple Inc.",
     "ticker": "",
     "sector": "",
-    "updated": "2026-06-01",
+    "updated": "2026-06-10",
     "confidence": "medium",
     "dartCorpCode": "",
     "naverFinanceUrl": "",
@@ -12,7 +12,8 @@
       "2026-04-14-apple-ai",
       "2026-04-18-google-gemma-4-iphone-ai",
       "2026-04-23-tim-cook-apple",
-      "2026-05-31-wwdc-ai"
+      "2026-05-31-wwdc-ai",
+      "2026-06-09-apple-intelligence-siri-ai"
     ],
     "aliases": [
       "apple-inc",
