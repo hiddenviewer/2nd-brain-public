@@ -142,14 +142,15 @@
     "url": "https://news.hada.io/topic?id=30338",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-06-10",
+    "status": "public",
+    "updated": "2026-06-11",
     "sourceNote": "2026-06-10-taste-30-ai",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "coding",
+      "engineering-judgment"
     ],
-    "description": "AI가 코드 대부분을 자동 생성하는 시대에 엔지니어의 핵심 경쟁력은 코딩 속도가 아닌 무엇을 만들고 어떻게 아키텍처를 구성할지 평가하는 '취향(taste)'이며, 이를 키우기 위한 정의, 핵심 영역, 90일 실행 계획을 제시합니다.",
+    "description": "GeekNews에 공유된 AI 코딩 시대의 개발자 역량 변화에 관한 2차 요약 메모다. 코드 작성 비용이 낮아질수록 엔지니어의 차별화 지점은 타이핑 속도보다 무엇을 만들지 고르고, 어떤 구조가 충분히 단순하고 지속 가능한지 평가하는 taste로 이동한다는 관점을 정리한다.",
     "companies": []
   },
   {
