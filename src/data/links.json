@@ -18,6 +18,21 @@
     "companies": []
   },
   {
+    "title": "루프 엔지니어링 - 에이전트를 프롬프트하는 시스템을 설계하기",
+    "url": "https://news.hada.io/topic?id=30336",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-06-10",
+    "sourceNote": "2026-06-10-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "코딩 에이전트에게 매 턴 직접 프롬프트를 입력하는 대신, 목표 달성 시까지 재귀적으로 동작하는 시스템(루프)을 구축하는 '루프 엔지니어링'의 개념, 5대 구성 요소(Automations, Worktrees, Skills, Plugins, Sub-agents), 디스크 기반 메모리 활용법, 그리고 인지적 주도권을 잃지 않는 엔지니어의 역할에 대해 설명한다.",
+    "companies": []
+  },
+  {
     "title": "에르메스 에이전트(Hermes Agent)로 AI 업무 자동화와 나만의 AI 팀 운영을 다루는 실전 가이드",
     "url": "https://wikidocs.net/book/19686",
     "category": "ai",
@@ -120,6 +135,21 @@
       "papers"
     ],
     "description": "PyTorchKR의 주간 큐레이션 글로, 2026년 4월 20일~26일 사이 눈여겨볼 AI/ML 논문 10편을 RAG, 자율 에이전트 시스템, 트랜스포머 아키텍처 효율화 흐름 중심으로 묶어 소개한다.",
+    "companies": []
+  },
+  {
+    "title": "취향(taste)을 갖춘 30배 AI 엔지니어가 되는 법",
+    "url": "https://news.hada.io/topic?id=30338",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-06-10",
+    "sourceNote": "2026-06-10-taste-30-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI가 코드 대부분을 자동 생성하는 시대에 엔지니어의 핵심 경쟁력은 코딩 속도가 아닌 무엇을 만들고 어떻게 아키텍처를 구성할지 평가하는 '취향(taste)'이며, 이를 키우기 위한 정의, 핵심 영역, 90일 실행 계획을 제시합니다.",
     "companies": []
   },
   {
