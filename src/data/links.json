@@ -2508,14 +2508,18 @@
     "url": "https://m.dnews.co.kr/m_home/view.jsp?idxno=202606061316394910277",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-06-10",
+    "status": "public",
+    "updated": "2026-06-11",
     "sourceNote": "2026-06-10-lg-aidc-ai",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "lg-uplus",
+      "lg",
+      "ai-infrastructure",
+      "data-center",
+      "aidc"
     ],
-    "description": "LG유플러스는 파주 AI 데이터센터를 중심으로 LG그룹 계열사 역량을 결집해 ‘One LG’ 기반 국산 AI 인프라 표준 모델을 만들고, 2030년 누적 수주 5조원을 목표로 제시했다.",
+    "description": "대한경제 기사 요약 메모다. LG유플러스가 경기도 파주 200MW급 AI 데이터센터(AIDC)를 중심으로 LG그룹 계열사 기술을 결합해 국산 AI 인프라 표준 모델을 만들고, 2030년 누적 수주 5조원을 목표로 제시했다는 내용을 다룬다.",
     "companies": [
       {
         "id": "lg-corp",
@@ -2528,6 +2532,12 @@
         "label": "LG전자",
         "ticker": "066570",
         "sector": "electronics"
+      },
+      {
+        "id": "lg-uplus",
+        "label": "LG유플러스",
+        "ticker": "032640",
+        "sector": "telecom"
       }
     ]
   },
