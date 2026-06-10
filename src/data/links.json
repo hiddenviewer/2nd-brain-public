@@ -1075,6 +1075,21 @@
     "companies": []
   },
   {
+    "title": "LLM이 내 소프트웨어 엔지니어링 커리어를 잠식하고 있으며 무엇을 해야 할지 모르겠다 | GeekNews",
+    "url": "https://news.hada.io/topic?id=30267",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-06-09",
+    "sourceNote": "2026-06-10-llm-geeknews",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Claude Code, MCP 등 AI 개발 에이전트의 발전으로 금융·결제 백엔드 엔지니어의 핵심 경쟁력인 도메인 지식, 분산 디버깅 역량, 아키텍처 설계가 대체·축소되는 현상에 따른 커리어적 위기감과 이에 대한 현업 엔지니어들의 토론을 다룬 글입니다.",
+    "companies": []
+  },
+  {
     "title": "Memradar: AI 코딩 세션을 분석해 작업 유형과 회고 리포트를 보여주는 오픈소스",
     "url": "https://news.hada.io/topic?id=28948",
     "category": "ai",
@@ -1619,6 +1634,21 @@
         "sector": "industrial-automation"
       }
     ]
+  },
+  {
+    "title": "국민성장펀드, 야월 해상풍력에 약 3000억원 투자 검토",
+    "url": "https://view.asiae.co.kr/article/2026061007220833662",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-06-09",
+    "sourceNote": "2026-06-10-3000",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "정부가 국민성장펀드를 통해 전남 영광 야월 해상풍력 사업에 약 3000억원을 투자하는 방안을 검토 중이다.",
+    "companies": []
   },
   {
     "title": "네이버, 국방 AX 전담조직 신설로 국방 AI 시장 진출",
@@ -2437,6 +2467,34 @@
         "label": "LG디스플레이",
         "ticker": "034220",
         "sector": "display"
+      }
+    ]
+  },
+  {
+    "title": "LG유플러스, 파주 AIDC로 국산 AI 데이터센터 표준화 추진",
+    "url": "https://m.dnews.co.kr/m_home/view.jsp?idxno=202606061316394910277",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-06-10",
+    "sourceNote": "2026-06-10-lg-aidc-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LG유플러스는 파주 AI 데이터센터를 중심으로 LG그룹 계열사 역량을 결집해 ‘One LG’ 기반 국산 AI 인프라 표준 모델을 만들고, 2030년 누적 수주 5조원을 목표로 제시했다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-electronics",
+        "label": "LG전자",
+        "ticker": "066570",
+        "sector": "electronics"
       }
     ]
   },
