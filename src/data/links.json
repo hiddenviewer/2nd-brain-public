@@ -22,14 +22,16 @@
     "url": "https://news.hada.io/topic?id=30336",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-06-10",
-    "sourceNote": "2026-06-10-untitled",
+    "status": "public",
+    "updated": "2026-06-11",
+    "sourceNote": "2026-06-10-loop-engineering",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "loop-engineering",
+      "harness",
+      "orchestration"
     ],
-    "description": "코딩 에이전트에게 매 턴 직접 프롬프트를 입력하는 대신, 목표 달성 시까지 재귀적으로 동작하는 시스템(루프)을 구축하는 '루프 엔지니어링'의 개념, 5대 구성 요소(Automations, Worktrees, Skills, Plugins, Sub-agents), 디스크 기반 메모리 활용법, 그리고 인지적 주도권을 잃지 않는 엔지니어의 역할에 대해 설명한다.",
+    "description": "GeekNews에 공유된 루프 엔지니어링 메모다. 코딩 에이전트에게 매 턴 직접 프롬프트를 입력하는 방식보다, 목표 달성까지 반복 실행되는 상위 시스템을 설계하는 관점을 정리한다.",
     "companies": []
   },
   {
