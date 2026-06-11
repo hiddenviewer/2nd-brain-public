@@ -2366,7 +2366,7 @@
     "label": "네이버",
     "ticker": "035420",
     "sector": "internet-platform",
-    "updated": "2026-06-04",
+    "updated": "2026-06-12",
     "confidence": "low",
     "dartCorpCode": "00266961",
     "naverFinanceUrl": "https://finance.naver.com/item/main.naver?code=035420",
@@ -2379,7 +2379,8 @@
       "2026-05-01-npay",
       "2026-05-30-sds-2-gpu",
       "2026-06-01-ax-ai",
-      "2026-06-03-8-1784-ai"
+      "2026-06-03-8-1784-ai",
+      "2026-06-11-naver-ai-factory-20t-revenue"
     ],
     "aliases": [
       "naver",
