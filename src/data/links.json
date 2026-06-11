@@ -1714,6 +1714,28 @@
     ]
   },
   {
+    "title": "네이버, AI팩토리 가동 시 연 20조원 신규 매출 전망",
+    "url": "https://naver.me/58qTFe5t",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-06-11",
+    "sourceNote": "2026-06-11-ai-20",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "NAVER는 NVIDIA와 손잡고 글로벌 AI 팩토리 사업에 진출하여 2030년까지 1GW급 인프라를 구축하고 연간 20조원의 신규 매출을 창출할 계획입니다. 단, 75조~90조원에 달하는 막대한 투자 자금 조달 방안의 불확실성과 초기 감가상각 부담 등의 리스크가 존재하며, 삼성증권은 목표 주가를 30만원으로 상향하고 분할 매수를 추천했습니다.",
+    "companies": [
+      {
+        "id": "naver",
+        "label": "네이버",
+        "ticker": "035420",
+        "sector": "internet-platform"
+      }
+    ]
+  },
+  {
     "title": "대한항공, 비상경영으로 고유가·고환율 대응",
     "url": "https://v.daum.net/v/uANVuB4qWv",
     "category": "investing",
