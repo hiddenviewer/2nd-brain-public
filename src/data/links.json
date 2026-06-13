@@ -2140,15 +2140,26 @@
     "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=421635",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-06-13",
-    "sourceNote": "2026-06-13-untitled",
+    "status": "public",
+    "updated": "2026-06-14",
+    "sourceNote": "2026-06-13-korean-ccfd-legalization",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "policy",
+      "carbon",
+      "steel",
+      "chemicals",
+      "cement"
     ],
-    "description": "정부가 철강·석유화학·시멘트 등 다배출·난감축 업종의 저탄소 설비 투자를 지원하기 위해 K-CCfD 법제화와 제도 설계에 들어갔다는 내용이다.",
-    "companies": []
+    "description": "시사저널e 기사 요약 메모다. 정부가 철강·석유화학·시멘트 같은 탄소 다배출·난감축 업종의 저탄소 설비 투자를 지원하기 위해 한국형 탄소차액계약제도(K-CCfD) 법제화와 제도 설계 연구에 착수했다는 내용을 다룬다.",
+    "companies": [
+      {
+        "id": "lg-chem",
+        "label": "LG화학",
+        "ticker": "051910",
+        "sector": "chemicals"
+      }
+    ]
   },
   {
     "title": "젠슨 황, 네이버 1784 방문 가능성과 AI 동맹 확대 기대",
