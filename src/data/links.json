@@ -570,6 +570,21 @@
     "companies": []
   },
   {
+    "title": "Claude Code 개발자 Boris Cherny, \"이제 프롬프트 대신 루프(Loops)를 작성한다\"",
+    "url": "https://x.com/nicos_ai/status/2065485711491334384?s=12",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-06-13",
+    "sourceNote": "2026-06-13-claude-code-boris-cherny-loops",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Claude Code의 제작자인 Boris Cherny는 개발 방식이 단발성 프롬프트 작성에서 스스로 검증하고 작업을 수행하는 '루프(Loops)' 설계 방식으로 진화했다고 강조했습니다. Anthropic 또한 자율형 모델 Fable 5의 내부 작동 방식을 공유하며 프롬프트 시대의 종말과 루프 설계의 중요성을 밝혔습니다.",
+    "companies": []
+  },
+  {
     "title": "Claude Code 기반 팀 자동화 4계층 아키텍처 미리 보기",
     "url": "https://wikidocs.net/347756",
     "category": "ai",
