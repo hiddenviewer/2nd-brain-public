@@ -808,6 +808,21 @@
     "companies": []
   },
   {
+    "title": "Claude Fable 5 프롬프트 작성",
+    "url": "https://platform.claude.com/docs/ko/build-with-claude/prompt-engineering/prompting-claude-fable-5",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-06-13",
+    "sourceNote": "2026-06-13-claude-fable-5",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Claude Fable 5와 Claude Mythos 5의 프롬프트 작성 차이를 다루는 Claude API Docs 문서로 보이나, 제공된 본문이 없어 요약은 제한적입니다.",
+    "companies": []
+  },
+  {
     "title": "Claude Opus 4.7 출시 임박 보도와 AI 디자인 도구 관측",
     "url": "https://www.aitimes.com/news/articleView.html?idxno=209260",
     "category": "ai",
@@ -2114,6 +2129,21 @@
         "sector": "airline"
       }
     ]
+  },
+  {
+    "title": "정부, 한국형 탄소차액계약제도 법제화 착수",
+    "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=421635",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-06-13",
+    "sourceNote": "2026-06-13-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "정부가 철강·석유화학·시멘트 등 다배출·난감축 업종의 저탄소 설비 투자를 지원하기 위해 K-CCfD 법제화와 제도 설계에 들어갔다는 내용이다.",
+    "companies": []
   },
   {
     "title": "젠슨 황, 네이버 1784 방문 가능성과 AI 동맹 확대 기대",
