@@ -808,8 +808,8 @@
     "companies": []
   },
   {
-    "title": "Claude Fable 5 프롬프트 작성",
-    "url": "https://platform.claude.com/docs/ko/build-with-claude/prompt-engineering/prompting-claude-fable-5",
+    "title": "Claude Fable 5 출시 및 모델 특징 정리",
+    "url": "https://goddaehee.tistory.com/613",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
     "status": "pending",
@@ -819,7 +819,7 @@
       "inbox",
       "article"
     ],
-    "description": "Claude Fable 5와 Claude Mythos 5의 프롬프트 작성 차이를 다루는 Claude API Docs 문서로 보이나, 제공된 본문이 없어 요약은 제한적입니다.",
+    "description": "2026년 6월 9일 Anthropic이 출시한 일반 공개용 Claude Fable 5와 사이버 방어자용 Mythos 5 모델의 성능, 요금제, 적응형 추론, 안전장치 및 데이터 정책을 정리한 내용입니다.",
     "companies": []
   },
   {
