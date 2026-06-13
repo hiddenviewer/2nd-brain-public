@@ -829,14 +829,17 @@
     "url": "https://goddaehee.tistory.com/613",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-06-13",
+    "status": "public",
+    "updated": "2026-06-14",
     "sourceNote": "2026-06-13-claude-fable-5",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "claude",
+      "anthropic",
+      "frontier-models",
+      "safety"
     ],
-    "description": "2026년 6월 9일 Anthropic이 발표한 Claude Fable 5 모델은 일반용으로 안전화된 Mythos-class 모델로, 향상된 코딩 성능, 상시 켜져 있는 적응형 추론(adaptive thinking), 그리고 안전을 위한 30일 데이터 보관 정책이 특징입니다.",
+    "description": "Tistory 글이 Claude Fable 5를 일반 공개된 Mythos-class 모델로 소개하며, 코딩 성능, 긴 컨텍스트, 상시 적응형 추론, 가격, 안전 필터와 데이터 보관 조건을 정리한 2차 기사 메모다.",
     "companies": []
   },
   {
