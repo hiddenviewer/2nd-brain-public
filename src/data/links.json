@@ -808,7 +808,7 @@
     "companies": []
   },
   {
-    "title": "Claude Fable 5 출시 및 모델 특징 정리",
+    "title": "Claude Fable 5 출시 및 주요 특징 분석",
     "url": "https://goddaehee.tistory.com/613",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
@@ -819,7 +819,7 @@
       "inbox",
       "article"
     ],
-    "description": "2026년 6월 9일 Anthropic이 출시한 일반 공개용 Claude Fable 5와 사이버 방어자용 Mythos 5 모델의 성능, 요금제, 적응형 추론, 안전장치 및 데이터 정책을 정리한 내용입니다.",
+    "description": "2026년 6월 9일 Anthropic이 발표한 Claude Fable 5 모델은 일반용으로 안전화된 Mythos-class 모델로, 향상된 코딩 성능, 상시 켜져 있는 적응형 추론(adaptive thinking), 그리고 안전을 위한 30일 데이터 보관 정책이 특징입니다.",
     "companies": []
   },
   {
