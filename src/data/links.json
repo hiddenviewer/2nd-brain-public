@@ -864,14 +864,16 @@
     "url": "https://youtu.be/_6bBV09r58Y?si=QPhLSMgmyZ97L5FQ",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-06-15",
+    "status": "public",
+    "updated": "2026-06-16",
     "sourceNote": "2026-06-16-claude-skills-ppt",
     "tags": [
-      "inbox",
-      "youtube"
+      "ai-agents",
+      "claude",
+      "skills",
+      "presentations"
     ],
-    "description": "Claude Skills를 활용해 AI로 만든 티가 덜 나는 PPT를 제작하는 방법을 안내하는 YouTube 영상으로 보입니다.",
+    "description": "YouTube 영상 (26년 6월 업데이트) 클로드 Skills로 AI 티 안 나는 고퀄 PPT 만드는 방법 | 프롬프트 무료제공에 대한 부분 수집 메모다. Claude Skills를 이용해 발표자료 제작 품질을 높이는 실전 튜토리얼 성격으로 보인다.",
     "companies": []
   },
   {
