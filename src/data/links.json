@@ -1491,21 +1491,6 @@
     "companies": []
   },
   {
-    "title": "계절근로자와 호르무즈·대만 리스크를 다룬 더 보다 108회",
-    "url": "https://youtu.be/43YZuth7Gn8?si=vK2jumaWwlsJd5K0",
-    "category": "general",
-    "categoryLabel": "기타",
-    "status": "pending",
-    "updated": "2026-06-16",
-    "sourceNote": "2026-06-16-108",
-    "tags": [
-      "inbox",
-      "youtube"
-    ],
-    "description": "농촌 인력난과 계절근로자 제도, 호르무즈 해협의 지정학적 경고, 대만 사례를 연결해 한국 사회의 대응 과제를 짚은 YouTube 영상으로 보인다.",
-    "companies": []
-  },
-  {
     "title": "디지털데일리 기사 접근 불가 메모",
     "url": "https://www.ddaily.co.kr/page/view/2026042413063740344",
     "category": "general",
@@ -1680,6 +1665,25 @@
       "yozm"
     ],
     "description": "Yozm IT 기사 링크를 저장하려 했지만, 현재 확보된 내용은 403 Forbidden으로 원문 확인에 실패했다는 메모와 메타데이터뿐이다. 실제 기사 제목과 본문은 확인되지 않는다.",
+    "companies": []
+  },
+  {
+    "title": "계절근로자와 호르무즈·대만 리스크를 다룬 더 보다 108회",
+    "url": "https://youtu.be/43YZuth7Gn8?si=vK2jumaWwlsJd5K0",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-06-17",
+    "sourceNote": "2026-06-16-the-boda-108-seasonal-workers-hormuz-taiwan",
+    "tags": [
+      "kr-stocks",
+      "macro",
+      "supply-chain",
+      "hormuz",
+      "taiwan",
+      "agriculture"
+    ],
+    "description": "KBS 계열 시사 프로그램으로 보이는 YouTube 영상 계절근로자를 사수하라 / 호르무즈의 경고, 대만의 바람을 배워라 | 더 보다 108회 (2026.06.14.)에 대한 부분 수집 메모다. 농촌 인력난과 외국인 계절근로자 제도, 호르무즈 해협과 대만 사례를 통한 지정학·공급망 리스크를 함께 다루는 구성으로 보인다.",
     "companies": []
   },
   {
