@@ -1867,18 +1867,22 @@
     ]
   },
   {
-    "title": "대한항공, 삼성금융과 대규모 MOU… 항공·금융 신사업 발굴",
+    "title": "대한항공, 삼성금융과 항공·금융 신사업 MOU 체결",
     "url": "https://www.chosun.com/economy/industry-company/2026/06/18/NZQSCG4V7NEVLLNN7TMUZNJVYM/",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-06-19",
-    "sourceNote": "2026-06-20-mou",
+    "status": "public",
+    "updated": "2026-06-20",
+    "sourceNote": "2026-06-20-korean-air-samsung-finance-mou",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "korean-air",
+      "airline",
+      "finance",
+      "samsung",
+      "mou"
     ],
-    "description": "대한항공이 한진그룹 항공 계열사들과 함께 삼성금융네트웍스(삼성생명·화재·카드·증권·자산운용)와 항공·금융을 결합한 신사업 발굴 및 차세대 기술 기반 공동 서비스 추진을 위한 전략적 파트너십(MOU)을 체결함.",
+    "description": "2026년 6월 18일 조선일보 보도 기준으로, 대한항공을 포함한 한진그룹 항공 계열사 4곳이 삼성금융네트웍스 5개 계열사와 항공·금융 결합 신사업 발굴을 위한 전략적 파트너십 MOU를 체결했다는 내용이다.",
     "companies": [
       {
         "id": "korean-air",
