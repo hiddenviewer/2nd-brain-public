@@ -2694,13 +2694,14 @@
     "label": "삼성디스플레이",
     "ticker": "비상장",
     "sector": "display",
-    "updated": "2026-06-05",
+    "updated": "2026-06-20",
     "confidence": "medium",
     "dartCorpCode": "00912006",
     "naverFinanceUrl": "확인 필요",
     "sources": [
       "2026-06-01-8-6-it-oled",
-      "2026-06-05-boe-8-6-oled"
+      "2026-06-05-boe-8-6-oled",
+      "2026-06-20-8-6-oled"
     ],
     "aliases": [
       "samsung-display",

@@ -1434,28 +1434,6 @@
     "companies": []
   },
   {
-    "title": "삼성디스플레이, 중국 8.6세대 OLED 추격에 수율과 고객 선점으로 대응",
-    "url": "https://www.businesspost.co.kr/BP?command=article_view&num=440398",
-    "category": "apple",
-    "categoryLabel": "Apple",
-    "status": "pending",
-    "updated": "2026-06-19",
-    "sourceNote": "2026-06-20-8-6-oled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "BOE 등 중국 업체가 8.6세대 IT용 OLED 양산과 설비 투자에서 속도를 내면서 삼성디스플레이의 1위 지위가 시험대에 올랐지만, 삼성디스플레이는 높은 수율과 Apple 등 주요 고객 확보를 방어 카드로 삼고 있다.",
-    "companies": [
-      {
-        "id": "samsung-display",
-        "label": "삼성디스플레이",
-        "ticker": "비상장",
-        "sector": "display"
-      }
-    ]
-  },
-  {
     "title": "애플, Apple Intelligence 기반 차세대 Siri AI 공개",
     "url": "https://news.hada.io/topic?id=30313",
     "category": "apple",
@@ -1957,6 +1935,38 @@
         "label": "디바이스",
         "ticker": "187870",
         "sector": "display-semiconductor-equipment"
+      }
+    ]
+  },
+  {
+    "title": "삼성디스플레이, 중국 8.6세대 OLED 추격에 수율과 고객 선점으로 대응",
+    "url": "https://www.businesspost.co.kr/BP?command=article_view&num=440398",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-06-20",
+    "sourceNote": "2026-06-20-8-6-oled",
+    "tags": [
+      "kr-stocks",
+      "display",
+      "oled",
+      "samsung-display",
+      "boe",
+      "apple-supply-chain"
+    ],
+    "description": "BOE 등 중국 업체가 8.6세대 IT용 OLED 양산과 설비 투자에서 속도를 내는 가운데, 삼성디스플레이가 수율과 Apple 등 주요 고객 선점으로 방어한다는 Business Post 기사다. 기존 위키의 BOE 선양산 리스크와 삼성디스플레이 A6 수율 추적점을, 실제 BOE 양산 출하식 보도와 생산능력 격차 전망까지 포함해 보강하는 자료다.",
+    "companies": [
+      {
+        "id": "apple-inc",
+        "label": "Apple Inc.",
+        "ticker": "",
+        "sector": ""
+      },
+      {
+        "id": "samsung-display",
+        "label": "삼성디스플레이",
+        "ticker": "비상장",
+        "sector": "display"
       }
     ]
   },
