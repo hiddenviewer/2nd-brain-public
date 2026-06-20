@@ -621,12 +621,13 @@
     "label": "현대차",
     "ticker": "005380",
     "sector": "automotive",
-    "updated": "2026-06-07",
+    "updated": "2026-06-21",
     "confidence": "medium",
     "dartCorpCode": "00164742",
     "naverFinanceUrl": "https://finance.naver.com/item/main.naver?code=005380",
     "sources": [
-      "2026-06-06-hbm-lpddr"
+      "2026-06-06-hbm-lpddr",
+      "2026-06-20-4-900-boston-dynamics"
     ],
     "aliases": [
       "hyundai-motor",
