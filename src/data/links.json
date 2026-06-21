@@ -190,24 +190,6 @@
     "companies": []
   },
   {
-    "title": "클로드 코드 멀티에이전트 팀 자동화 완전 가이드",
-    "url": "https://wikidocs.net/book/19736",
-    "category": "ai",
-    "categoryLabel": "AI 에이전트",
-    "status": "public",
-    "updated": "2026-06-01",
-    "sourceNote": "2026-05-23-claude-code",
-    "tags": [
-      "ai-agents",
-      "claude-code",
-      "tmux",
-      "orchestration",
-      "wikidocs"
-    ],
-    "description": "WikiDocs에 공개된 Claude Code 멀티에이전트 팀 자동화 가이드 메모다. Claude Code, tmux, Remote-Control을 조합해 1인 개발자가 여러 역할의 AI 개발팀을 원격으로 운용하는 흐름을 설명한다.",
-    "companies": []
-  },
-  {
     "title": "클로드 코드 사용하기: HTML의 놀라운 효율성",
     "url": "https://news.hada.io/topic?id=29347",
     "category": "ai",
@@ -1683,6 +1665,22 @@
       "wikidocs"
     ],
     "description": "WikiDocs book 페이지 링크를 저장하려 했지만, 확보된 내용은 실제 문서 본문이 아니라 Cloudflare 또는 브라우저 검증 대기 화면으로 보이는 접근 실패 메모다. 추출된 제목은 Just a moment...뿐이라 문서의 실제 제목, 목차, 작성자, 발행일, 핵심 주제를 확인할 수 없다.",
+    "companies": []
+  },
+  {
+    "title": "WikiDocs book/19736 접근 불가 메모",
+    "url": "https://wikidocs.net/book/19736",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "review",
+    "updated": "2026-06-22",
+    "sourceNote": "2026-06-21-wikidocs-book-19736-inaccessible",
+    "tags": [
+      "article",
+      "inaccessible",
+      "wikidocs"
+    ],
+    "description": "WikiDocs book 페이지 링크를 저장하려 했지만, 확보된 내용은 실제 문서 본문이 아니라 접근 제한 또는 브라우저 검증 대기 화면으로 보이는 수집 실패 메모다. 추출된 제목은 Just a moment...뿐이라 문서의 실제 제목, 목차, 작성자, 발행일, 핵심 주제를 확인할 수 없다.",
     "companies": []
   },
   {
