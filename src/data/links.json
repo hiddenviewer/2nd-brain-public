@@ -1718,34 +1718,6 @@
     "companies": []
   },
   {
-    "title": "\"전기차보다 ESS\"… K배터리 전략 바뀐다",
-    "url": "https://www.mk.co.kr/news/business/12079467",
-    "category": "investing",
-    "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-06-21",
-    "sourceNote": "2026-06-21-ess-k",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "전기차 캐즘(정체기) 장기화에 따라 국내 배터리 3사(LG에너지솔루션, SK온, 삼성SDI)가 ESS(에너지저장장치) 시장으로 전략을 선회하고 있으며, 미국 AI 데이터센터 수요 급증과 정부의 공공 조달 활성화가 시장 성장을 견인하고 있습니다.",
-    "companies": [
-      {
-        "id": "lg-corp",
-        "label": "LG",
-        "ticker": "003550",
-        "sector": "holding-company"
-      },
-      {
-        "id": "samsung-sdi",
-        "label": "삼성SDI",
-        "ticker": "006400",
-        "sector": "batteries"
-      }
-    ]
-  },
-  {
     "title": "계절근로자와 호르무즈·대만 리스크를 다룬 더 보다 108회",
     "url": "https://youtu.be/43YZuth7Gn8?si=vK2jumaWwlsJd5K0",
     "category": "investing",
@@ -2304,6 +2276,42 @@
         "label": "대한항공",
         "ticker": "003490",
         "sector": "airline"
+      }
+    ]
+  },
+  {
+    "title": "전기차보다 ESS, K배터리 전략 전환 보도",
+    "url": "https://www.mk.co.kr/news/business/12079467",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-06-22",
+    "sourceNote": "2026-06-21-ess-k",
+    "tags": [
+      "kr-stocks",
+      "batteries",
+      "ess",
+      "ai-infrastructure"
+    ],
+    "description": "매일경제의 국내 배터리 3사 ESS 전략 전환 관련 기사 요약 메모다. 전기차 수요 둔화가 길어지는 가운데 LG에너지솔루션, SK온, 삼성SDI가 ESS 생산 거점과 역량을 강화하고, 미국 AI 데이터센터 수요와 한국 정부 조달 정책이 ESS 시장 확대 요인으로 제시됐다는 내용이다.",
+    "companies": [
+      {
+        "id": "lg-energy-solution",
+        "label": "LG에너지솔루션",
+        "ticker": "373220",
+        "sector": "batteries"
+      },
+      {
+        "id": "samsung-sdi",
+        "label": "삼성SDI",
+        "ticker": "006400",
+        "sector": "batteries"
+      },
+      {
+        "id": "sk-on",
+        "label": "SK온",
+        "ticker": "",
+        "sector": "batteries"
       }
     ]
   },
