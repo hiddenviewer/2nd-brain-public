@@ -1542,14 +1542,15 @@
     "url": "https://health.chosun.com/site/data/html_dir/2026/06/19/2026061902321.html",
     "category": "general",
     "categoryLabel": "기타",
-    "status": "pending",
-    "updated": "2026-06-22",
-    "sourceNote": "2026-06-23-untitled",
+    "status": "public",
+    "updated": "2026-06-23",
+    "sourceNote": "2026-06-23-thrombosis-prevention-foods",
     "tags": [
-      "inbox",
-      "article"
+      "health",
+      "nutrition",
+      "thrombosis"
     ],
-    "description": "헬스조선 기사는 미역·다시마, 깨, 생마늘이 혈전 억제와 혈관 건강에 도움을 줄 수 있으며, 초가공식품은 혈전 위험을 높일 수 있다고 설명한다.",
+    "description": "헬스조선의 2026년 6월 19일 기사 요약 메모다. 미역·다시마, 깨, 생마늘이 혈전 억제나 혈관 건강에 도움을 줄 수 있고, 초가공식품은 정맥혈전색전증 위험 증가와 연결될 수 있다는 일반 건강정보를 다룬다.",
     "companies": []
   },
   {
