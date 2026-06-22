@@ -2641,15 +2641,25 @@
     "url": "https://www.businesspost.co.kr/BP?command=article_view&num=440101",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-06-22",
+    "status": "public",
+    "updated": "2026-06-23",
     "sourceNote": "2026-06-23-eu",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "battery",
+      "cathode",
+      "eu",
+      "ecopro-bm"
     ],
-    "description": "EU의 18억 유로 규모 배터리 산업 지원과 역내 소재 조달 의무화가 에코프로비엠 헝가리 양극재 공장에 기회로 작용할 수 있다는 내용이다.",
-    "companies": []
+    "description": "비즈니스포스트의 EU 배터리 산업 지원책과 에코프로비엠 유럽 양극재 공략 관련 기사 요약 메모다. EU의 18억 유로 규모 배터리 지원, 2027년 이후 역내 핵심 소재 조달 의무화 방향, 에코프로비엠 헝가리 데브레첸 양극재 공장의 현지 공급망 역할 가능성을 연결해 설명한다.",
+    "companies": [
+      {
+        "id": "ecopro-bm",
+        "label": "에코프로비엠",
+        "ticker": "247540",
+        "sector": "battery materials"
+      }
+    ]
   },
   {
     "title": "Goldman Sachs, KOSPI 12개월 목표치 12,000으로 재상향",
