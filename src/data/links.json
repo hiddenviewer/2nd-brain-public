@@ -2345,18 +2345,23 @@
     ]
   },
   {
-    "title": "전쟁 딛고 다시 나는 대한항공…이익 컨센서스 46% 상향",
+    "title": "전쟁 딛고 다시 나는 대한항공, 이익 컨센서스 46% 상향",
     "url": "https://www.hankyung.com/article/202606232567i",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-06-23",
-    "sourceNote": "2026-06-24-46",
+    "status": "public",
+    "updated": "2026-06-24",
+    "sourceNote": "2026-06-24-korean-air-profit-consensus-upgrade",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "korean-air",
+      "airline",
+      "cargo",
+      "oil",
+      "consensus",
+      "asiana"
     ],
-    "description": "미국과 이란의 종전 협상 진전으로 유가가 하락하고 AI 투자 확대로 고단가 항공 화물 운임이 상승하면서, 대한항공(Korean Air)의 올해 지배주주순이익 컨센서스가 46.42% 상향 조정되었습니다. 아울러 올해 말 예정된 아시아나항공과의 합병 시너지가 내년부터 본격화될 것으로 기대됩니다.",
+    "description": "2026년 6월 23일 한국경제 보도 요약 메모다. 에픽AI 집계 기준 대한항공의 2026년 지배주주순이익 컨센서스가 일주일 전 1612억원에서 2360억원으로 46.42% 상향됐고, 항공 화물 운임 강세와 유가 하락 기대, 아시아나항공 통합 시너지 기대가 함께 제시됐다.",
     "companies": [
       {
         "id": "korean-air",

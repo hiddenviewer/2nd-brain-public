@@ -1102,7 +1102,7 @@
     "label": "대한항공",
     "ticker": "003490",
     "sector": "airline",
-    "updated": "2026-06-20",
+    "updated": "2026-06-24",
     "confidence": "medium",
     "dartCorpCode": "00113526",
     "naverFinanceUrl": "https://finance.naver.com/item/main.naver?code=003490",
@@ -1114,7 +1114,8 @@
       "2026-06-03-korean-air-bond-demand",
       "2026-06-03-korean-air-emergency-management-oil-fx",
       "2026-06-07-iran-war-low-cost-airline-era",
-      "2026-06-20-korean-air-samsung-finance-mou"
+      "2026-06-20-korean-air-samsung-finance-mou",
+      "2026-06-24-korean-air-profit-consensus-upgrade"
     ],
     "aliases": [
       "korean-air",
