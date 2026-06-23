@@ -52,6 +52,21 @@
     "companies": []
   },
   {
+    "title": "아티팩트로 세션 출력 공유 - Claude Code Docs",
+    "url": "https://code.claude.com/docs/ko/artifacts",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-06-23",
+    "sourceNote": "2026-06-24-claude-code-docs",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "아티팩트(Artifacts)는 Claude Code CLI 세션의 작업 결과를 claude.ai의 비공개 URL을 통해 인터랙티브 라이브 웹 페이지로 변환하여 동일 조직 내에서 안전하게 공유할 수 있게 지원하는 베타 기능입니다.",
+    "companies": []
+  },
+  {
     "title": "에르메스 에이전트(Hermes Agent)로 AI 업무 자동화와 나만의 AI 팀 운영을 다루는 실전 가이드",
     "url": "https://wikidocs.net/book/19686",
     "category": "ai",
@@ -2326,6 +2341,28 @@
         "label": "SK온",
         "ticker": "",
         "sector": "batteries"
+      }
+    ]
+  },
+  {
+    "title": "전쟁 딛고 다시 나는 대한항공…이익 컨센서스 46% 상향",
+    "url": "https://www.hankyung.com/article/202606232567i",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-06-23",
+    "sourceNote": "2026-06-24-46",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "미국과 이란의 종전 협상 진전으로 유가가 하락하고 AI 투자 확대로 고단가 항공 화물 운임이 상승하면서, 대한항공(Korean Air)의 올해 지배주주순이익 컨센서스가 46.42% 상향 조정되었습니다. 아울러 올해 말 예정된 아시아나항공과의 합병 시너지가 내년부터 본격화될 것으로 기대됩니다.",
+    "companies": [
+      {
+        "id": "korean-air",
+        "label": "대한항공",
+        "ticker": "003490",
+        "sector": "airline"
       }
     ]
   },
