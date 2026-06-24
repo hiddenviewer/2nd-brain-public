@@ -2970,27 +2970,5 @@
         "sector": "holding-company"
       }
     ]
-  },
-  {
-    "title": "현대차그룹·KAI, AAM 합작법인 설립…10월 중 확정",
-    "url": "https://news.mtn.co.kr/news-detail/2026062413562479325",
-    "category": "travel",
-    "categoryLabel": "여행",
-    "status": "pending",
-    "updated": "2026-06-24",
-    "sourceNote": "2026-06-24-kai-aam-10",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "현대자동차그룹과 한국항공우주산업(KAI)이 Advanced Air Mobility(AAM) 개발을 위한 합작법인(JV)을 10월 출범 목표로 설립합니다. 현대차의 자본 및 전동화 기술과 KAI의 기체 개발 및 인증 능력을 결합합니다.",
-    "companies": [
-      {
-        "id": "hyundai-motor",
-        "label": "현대차",
-        "ticker": "005380",
-        "sector": "automotive"
-      }
-    ]
   }
 ]
