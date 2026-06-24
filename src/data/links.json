@@ -1540,21 +1540,6 @@
     "companies": []
   },
   {
-    "title": "신라젠, 항암바이러스 후속 파이프라인 SJ-640 국내 특허 등록",
-    "url": "https://www.pharmnews.com/news/articleView.html?idxno=304402",
-    "category": "general",
-    "categoryLabel": "기타",
-    "status": "pending",
-    "updated": "2026-06-24",
-    "sourceNote": "2026-06-24-sj-640",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "신라젠이 항암바이러스 플랫폼 SJ-600 시리즈의 후속 파이프라인 SJ-640에 대해 국내 특허를 등록했다.",
-    "companies": []
-  },
-  {
     "title": "애플경제 기사 접근 불가 메모",
     "url": "http://www.apple-economy.com/news/articleView.html?idxno=78746",
     "category": "general",
@@ -2222,6 +2207,31 @@
         "label": "LG디스플레이",
         "ticker": "034220",
         "sector": "display"
+      }
+    ]
+  },
+  {
+    "title": "신라젠, 항암바이러스 후속 파이프라인 SJ-640 국내 특허 등록",
+    "url": "https://www.pharmnews.com/news/articleView.html?idxno=304402",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-06-25",
+    "sourceNote": "2026-06-24-sj-640",
+    "tags": [
+      "kr-stocks",
+      "biotech",
+      "oncology",
+      "patent",
+      "sillajen"
+    ],
+    "description": "팜뉴스의 신라젠 항암바이러스 플랫폼 SJ-600 시리즈 후속 파이프라인 SJ-640 국내 특허 등록 기사 요약 메모다. 회사 발표 중심 기사이며, 특허 번호, 청구항 범위, 전임상 수치, 임상 일정은 제공된 추출 본문에 포함되어 있지 않다.",
+    "companies": [
+      {
+        "id": "sillajen",
+        "label": "신라젠",
+        "ticker": "215600",
+        "sector": "biotech"
       }
     ]
   },
