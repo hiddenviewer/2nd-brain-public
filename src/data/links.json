@@ -1540,6 +1540,21 @@
     "companies": []
   },
   {
+    "title": "신라젠, 항암바이러스 후속 파이프라인 SJ-640 국내 특허 등록",
+    "url": "https://www.pharmnews.com/news/articleView.html?idxno=304402",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-06-24",
+    "sourceNote": "2026-06-24-sj-640",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "신라젠이 항암바이러스 플랫폼 SJ-600 시리즈의 후속 파이프라인 SJ-640에 대해 국내 특허를 등록했다.",
+    "companies": []
+  },
+  {
     "title": "애플경제 기사 접근 불가 메모",
     "url": "http://www.apple-economy.com/news/articleView.html?idxno=78746",
     "category": "general",
@@ -1584,6 +1599,21 @@
       "daum"
     ],
     "description": "Daum 뉴스 기사 링크를 저장하려 했지만, 현재 확보된 내용은 기사 본문이 아니라 본문 확인 실패 상태를 기록한 inbox 메모다. 원문 URL과 Discord 공유 흔적은 남아 있지만 실제 기사 제목, 본문, 기자명, 매체명은 확인되지 않는다.",
+    "companies": []
+  },
+  {
+    "title": "EU 철강 빗장 높아지지만…韓, 무관세 물량 확보 '선방'",
+    "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=03749046645484344",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-06-24",
+    "sourceNote": "2026-06-24-eu",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "유럽연합(EU)의 철강 세이프가드 강화 조치로 인해 무관세 쿼터가 대폭 축소될 위기 속에서, 한국은 정부의 총력 대응과 한-EU 자유무역협정(FTA) 관계 등을 바탕으로 주요 경쟁국 대비 양호한 수준의 무관세 수입 쿼터를 확보하는 데 성공했습니다. 다만 글로벌 수요 둔화와 각국의 수입 규제 강화 등으로 철강업계의 악재는 여전히 지속되고 있습니다.",
     "companies": []
   },
   {
@@ -2921,6 +2951,28 @@
         "label": "LG",
         "ticker": "003550",
         "sector": "holding-company"
+      }
+    ]
+  },
+  {
+    "title": "현대차그룹·KAI, AAM 합작법인 설립…10월 중 확정",
+    "url": "https://news.mtn.co.kr/news-detail/2026062413562479325",
+    "category": "travel",
+    "categoryLabel": "여행",
+    "status": "pending",
+    "updated": "2026-06-24",
+    "sourceNote": "2026-06-24-kai-aam-10",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "현대자동차그룹과 한국항공우주산업(KAI)이 Advanced Air Mobility(AAM) 개발을 위한 합작법인(JV)을 10월 출범 목표로 설립합니다. 현대차의 자본 및 전동화 기술과 KAI의 기체 개발 및 인증 능력을 결합합니다.",
+    "companies": [
+      {
+        "id": "hyundai-motor",
+        "label": "현대차",
+        "ticker": "005380",
+        "sector": "automotive"
       }
     ]
   }
