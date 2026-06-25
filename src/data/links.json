@@ -2149,6 +2149,28 @@
     ]
   },
   {
+    "title": "삼성SDI, 미국 합작공장 ESS 전환 장비 발주 착수",
+    "url": "https://www.etnews.com/20260624000157",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-06-25",
+    "sourceNote": "2026-06-26-sdi-ess",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "삼성SDI가 스텔란티스와의 미국 합작공장 일부 전기차 배터리 라인을 ESS용 LFP 배터리 생산라인으로 전환하며 장비 발주 단계에 들어갔다.",
+    "companies": [
+      {
+        "id": "samsung-sdi",
+        "label": "삼성SDI",
+        "ticker": "006400",
+        "sector": "batteries"
+      }
+    ]
+  },
+  {
     "title": "삼성SDS·네이버클라우드·엘리스그룹, 2조원 정부 GPU 사업 우선협상대상자 선정",
     "url": "https://www.etnews.com/20260528000267",
     "category": "investing",
