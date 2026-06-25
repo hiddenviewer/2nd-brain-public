@@ -1524,6 +1524,28 @@
     "companies": []
   },
   {
+    "title": "골드만삭스, 전쟁발 EV 수요 증가가 유가 하락 압력으로 이어질 것으로 전망",
+    "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4421580",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-06-25",
+    "sourceNote": "2026-06-26-ev",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "골드만삭스는 이란 전쟁과 석유 파동 이후 전기차 수요가 늘면서 내년 말까지 국제 유가가 하락할 수 있다고 봤다.",
+    "companies": [
+      {
+        "id": "goldman-sachs",
+        "label": "Goldman Sachs",
+        "ticker": "GS",
+        "sector": "global investment banking"
+      }
+    ]
+  },
+  {
     "title": "디지털데일리 기사 접근 불가 메모",
     "url": "https://www.ddaily.co.kr/page/view/2026042413063740344",
     "category": "general",
