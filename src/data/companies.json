@@ -824,13 +824,14 @@
     "label": "Goldman Sachs",
     "ticker": "GS",
     "sector": "global investment banking",
-    "updated": "2026-06-05",
+    "updated": "2026-06-26",
     "confidence": "medium",
     "dartCorpCode": "",
     "naverFinanceUrl": "",
     "sources": [
       "2026-06-03-goldman-sachs-kospi-12000",
-      "2026-06-04-goldman-sachs-kospi-12-12-000"
+      "2026-06-04-goldman-sachs-kospi-12-12-000",
+      "2026-06-26-goldman-sachs-ev-oil-demand"
     ],
     "aliases": [
       "goldman-sachs",
