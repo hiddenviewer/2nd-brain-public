@@ -2380,6 +2380,34 @@
     ]
   },
   {
+    "title": "자이C&A, AI 데이터센터 중심 성장 전략 발표",
+    "url": "https://n.news.naver.com/article/031/0001037148",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-06-25",
+    "sourceNote": "2026-06-26-c-a-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "자이C&A는 AI 데이터센터를 핵심 성장축으로 삼고 5년 내 매출 2조2700억원, 해외 매출 비중 33% 이상을 목표로 제시했다.",
+    "companies": [
+      {
+        "id": "goldman-sachs",
+        "label": "Goldman Sachs",
+        "ticker": "GS",
+        "sector": "global investment banking"
+      },
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      }
+    ]
+  },
+  {
     "title": "전기차보다 ESS, K배터리 전략 전환 보도",
     "url": "https://www.mk.co.kr/news/business/12079467",
     "category": "investing",
