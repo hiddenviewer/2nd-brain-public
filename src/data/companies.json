@@ -5034,7 +5034,7 @@
     "label": "자이에스앤디",
     "ticker": "317400",
     "sector": "construction-housing-home-solution",
-    "updated": "2026-06-26",
+    "updated": "2026-06-27",
     "confidence": "medium",
     "dartCorpCode": "00367844",
     "naverFinanceUrl": "https://finance.naver.com/item/main.naver?code=317400",
@@ -5046,7 +5046,8 @@
       "2026-03-20-gsnd-mangwon-456-order",
       "2026-04-03-gsnd-mangwon-459-order",
       "2026-04-10-gsnd-geomam-order",
-      "2026-06-26-c-a-ai"
+      "2026-06-26-c-a-ai",
+      "2026-06-27-gsnd-seocho-asset-sale"
     ],
     "aliases": [
       "xi-snd",
