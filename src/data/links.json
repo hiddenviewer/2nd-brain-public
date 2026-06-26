@@ -2386,6 +2386,40 @@
     ]
   },
   {
+    "title": "자이에스앤디, 1400억 규모 서초동 부동산 매각…신사업 투자 및 유동성 확보",
+    "url": "https://naver.me/5c8VB9ww",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-06-26",
+    "sourceNote": "2026-06-27-1400",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "자이에스앤디가 서초동 부동산을 1400억 원에 매각하여 약 550억 원의 차익을 실현했습니다. 이는 AI 데이터센터 등 첨단 신사업으로의 사업 구조 재편을 위한 재원 마련이자, 실적 악화와 모회사 GS건설의 지원 한계 속에서 자체 유동성 위기에 대응하기 위한 조치로 풀이됩니다.",
+    "companies": [
+      {
+        "id": "goldman-sachs",
+        "label": "Goldman Sachs",
+        "ticker": "GS",
+        "sector": "global investment banking"
+      },
+      {
+        "id": "xi-cna",
+        "label": "자이씨앤에이",
+        "ticker": "",
+        "sector": "industrial-plant-data-center-epc"
+      },
+      {
+        "id": "xi-snd",
+        "label": "자이에스앤디",
+        "ticker": "317400",
+        "sector": "construction-housing-home-solution"
+      }
+    ]
+  },
+  {
     "title": "전기차보다 ESS, K배터리 전략 전환 보도",
     "url": "https://www.mk.co.kr/news/business/12079467",
     "category": "investing",
