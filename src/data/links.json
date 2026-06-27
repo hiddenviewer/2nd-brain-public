@@ -2630,14 +2630,19 @@
     "url": "https://naver.me/5Hy49LP0",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-06-27",
+    "status": "public",
+    "updated": "2026-06-28",
     "sourceNote": "2026-06-27-lg",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "tesla",
+      "battery",
+      "lfp",
+      "display",
+      "robotics",
+      "supply-chain"
     ],
-    "description": "미·중 갈등 장기화 속에 테슬라가 중국 의존도를 낮추기 위해 배터리(ESS/EV), 자율주행(FSD) 카메라 모듈, 디스플레이, 휴머노이드 로봇(Optimus) 등 핵심 분야에서 한국 기업(LG에너지솔루션, 삼성전기 등)과의 협력을 대폭 확대하고 있습니다.",
+    "description": "",
     "companies": [
       {
         "id": "lg-corp",
@@ -2658,10 +2663,22 @@
         "sector": "batteries"
       },
       {
+        "id": "lg-innotek",
+        "label": "LG이노텍",
+        "ticker": "011070",
+        "sector": "electronic-components"
+      },
+      {
         "id": "samsung-display",
         "label": "삼성디스플레이",
         "ticker": "비상장",
         "sector": "display"
+      },
+      {
+        "id": "samsung-electro-mechanics",
+        "label": "삼성전기",
+        "ticker": "009150",
+        "sector": "electronic-components"
       },
       {
         "id": "samsung-sdi",
