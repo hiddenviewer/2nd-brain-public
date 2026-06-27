@@ -2606,6 +2606,52 @@
     ]
   },
   {
+    "title": "테슬라 생태계 핵심 파트너로 부상한 LG에너지솔루션·삼성전기",
+    "url": "https://naver.me/5Hy49LP0",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-06-27",
+    "sourceNote": "2026-06-27-lg",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "미·중 갈등 장기화 속에 테슬라가 중국 의존도를 낮추기 위해 배터리(ESS/EV), 자율주행(FSD) 카메라 모듈, 디스플레이, 휴머노이드 로봇(Optimus) 등 핵심 분야에서 한국 기업(LG에너지솔루션, 삼성전기 등)과의 협력을 대폭 확대하고 있습니다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-display",
+        "label": "LG디스플레이",
+        "ticker": "034220",
+        "sector": "display"
+      },
+      {
+        "id": "lg-energy-solution",
+        "label": "LG에너지솔루션",
+        "ticker": "373220",
+        "sector": "batteries"
+      },
+      {
+        "id": "samsung-display",
+        "label": "삼성디스플레이",
+        "ticker": "비상장",
+        "sector": "display"
+      },
+      {
+        "id": "samsung-sdi",
+        "label": "삼성SDI",
+        "ticker": "006400",
+        "sector": "batteries"
+      }
+    ]
+  },
+  {
     "title": "트럼프, 철강·알루미늄 관세 조정과 농기계 관세 인하",
     "url": "https://www.hankyung.com/article/2026060228557",
     "category": "investing",
