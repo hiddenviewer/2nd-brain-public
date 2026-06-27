@@ -415,14 +415,17 @@
     "url": "https://news.hada.io/topic?id=30809",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-06-27",
+    "status": "public",
+    "updated": "2026-06-28",
     "sourceNote": "2026-06-27-anthropic-slack-claude-tag",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "slack",
+      "collaboration"
     ],
-    "description": "Anthropic이 Slack 채널에 팀원으로 참여하여 @Claude 태그만으로 도구, 데이터, 코드베이스를 사용해 백그라운드에서 복잡한 작업을 단계적으로 처리하는 협업 기능인 'Claude Tag'를 공개했습니다.",
+    "description": "GeekNews의 Anthropic Claude Tag 공개 메모를 정리한 source다. 핵심은 Claude가 Slack 채널에서 @Claude 태그로 호출되는 협업형 에이전트가 되고, 채널 맥락, 공유 메모리, 도구 권한을 기반으로 백그라운드 작업을 수행한다는 점이다.",
     "companies": []
   },
   {
