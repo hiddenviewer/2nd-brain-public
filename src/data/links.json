@@ -1002,14 +1002,16 @@
     "url": "https://discuss.pytorch.kr/t/drawio-skill-draw-io/10750",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-06-27",
+    "status": "public",
+    "updated": "2026-06-28",
     "sourceNote": "2026-06-27-drawio-skill-draw-io",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "skills",
+      "diagrams",
+      "drawio"
     ],
-    "description": "drawio-skill은 자연어 설명이나 코드베이스 구조를 .drawio XML과 PNG/SVG/PDF/JPG 산출물로 변환하는 MIT 라이선스 에이전트 스킬이다.",
+    "description": "PyTorch Korea 포럼에 공유된 drawio-skill 소개 글을 정리한 source다. 핵심은 자연어 설명이나 코드베이스 구조를 편집 가능한 .drawio XML과 PNG/SVG/PDF/JPG 산출물로 변환하는 MIT 라이선스 에이전트 스킬이라는 점이다.",
     "companies": []
   },
   {
