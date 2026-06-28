@@ -1,5 +1,20 @@
 [
   {
+    "title": "'기획 하네스(planning harness)'로 완성하는 상세기획 워크플로우 자동화",
+    "url": "https://news.hada.io/topic?id=30870",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-06-28",
+    "sourceNote": "2026-06-28-planning-harness",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI가 일관된 규칙과 컨텍스트 내에서 기획서를 작성할 수 있도록 통제하는 '기획 하네스(Planning Harness)'를 도입하여, 수작업 비중이 높은 상세 기획 워크플로우를 자동화한 사례입니다.",
+    "companies": []
+  },
+  {
     "title": "구글 Open Knowledge Format(OKF) 공개 - AI 에이전트를 위한 지식 공유 표준",
     "url": "https://news.hada.io/topic?id=30622",
     "category": "ai",
