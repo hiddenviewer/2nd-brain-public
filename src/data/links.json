@@ -1590,6 +1590,28 @@
     "companies": []
   },
   {
+    "title": "미국발 원전 기자재 발주 본격화 및 국내 밸류체인 수혜 전망",
+    "url": "https://www.mk.co.kr/news/economy/12083979",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-06-28",
+    "sourceNote": "2026-06-28-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "미국 에너지부(DOE)가 175억 달러 규모의 원전 공급망 대출 프로그램을 가동하면서 원자로 및 증기발생기 등 장납기 기자재 발주가 본격화될 전망입니다. 이에 따라 뛰어난 주기기 제작 능력을 갖춘 한국 원전 기업(특히 두산에너빌리티)의 수혜가 기대되나, 미국의 현지화 조달 요구 등 정책적 변수가 존재합니다.",
+    "companies": [
+      {
+        "id": "doosan-enerbility",
+        "label": "두산에너빌리티",
+        "ticker": "034020",
+        "sector": "발전설비, 원전, 해상풍력 터빈"
+      }
+    ]
+  },
+  {
     "title": "애플경제 기사 접근 불가 메모",
     "url": "http://www.apple-economy.com/news/articleView.html?idxno=78746",
     "category": "general",
@@ -2091,6 +2113,40 @@
         "label": "디바이스",
         "ticker": "187870",
         "sector": "display-semiconductor-equipment"
+      }
+    ]
+  },
+  {
+    "title": "삼성·SK AI 데이터센터 투자 기대와 ‘한국판 스타게이트’ 전망",
+    "url": "https://www.newsis.com/view/NISX20260626_0003685578",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-06-28",
+    "sourceNote": "2026-06-28-sk-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "뉴시스는 삼성전자·SK하이닉스의 국내 대규모 투자 발표 가능성과 함께 AI 데이터센터, 반도체 클러스터, 전력 인프라 확장 기대가 커지고 있다고 보도했다.",
+    "companies": [
+      {
+        "id": "hyundai-motor",
+        "label": "현대차",
+        "ticker": "005380",
+        "sector": "automotive"
+      },
+      {
+        "id": "samsung-electronics",
+        "label": "삼성전자",
+        "ticker": "005930",
+        "sector": "semiconductors"
+      },
+      {
+        "id": "sk-hynix",
+        "label": "SK하이닉스",
+        "ticker": "000660",
+        "sector": "semiconductors"
       }
     ]
   },
