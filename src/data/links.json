@@ -254,6 +254,21 @@
     "companies": []
   },
   {
+    "title": "Agent Reach: AI 에이전트용 웹·소셜 읽기 CLI",
+    "url": "https://discuss.pytorch.kr/t/agent-reach-ai-cli/10937",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-06-28",
+    "sourceNote": "2026-06-29-agent-reach-ai-cli",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Agent Reach는 AI 에이전트가 웹, 소셜미디어, 영상 자막, RSS, GitHub 등을 읽고 검색할 수 있도록 플랫폼별 도구 설치와 설정을 자동화하는 CLI 도구다.",
+    "companies": []
+  },
+  {
     "title": "Agentic Coding은 함정이다",
     "url": "https://news.hada.io/topic?id=29155",
     "category": "ai",
@@ -1414,6 +1429,21 @@
       "codemode"
     ],
     "description": "PyTorchKR 포럼에 공유된 Pydantic AI Harness 소개 메모다. Pydantic AI Harness는 Pydantic AI 에이전트에 재사용 가능한 기능 블록을 붙이기 위한 공식 capability 라이브러리로 소개되며, 현재 핵심 예시는 CodeMode다.",
+    "companies": []
+  },
+  {
+    "title": "SMR 상업화 착공과 한국 원전 공급망 기대",
+    "url": "http://m.g-enews.com/article/Global-Biz/2026/06/20260626070353711fbbec65dfb_1",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-06-28",
+    "sourceNote": "2026-06-29-smr",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "서방권 첫 전력망용 SMR 착공이 두산·현대 등 한국 원전 기업의 공급망 선점 기회로 연결될 수 있다는 기사다.",
     "companies": []
   },
   {
@@ -2791,6 +2821,40 @@
     ],
     "description": "한국경제 기사 요약 메모다. 도널드 트럼프 미국 대통령이 철강·알루미늄·구리 관련 일부 수입품 관세를 조정하는 포고문에 서명했고, 미국산 금속 사용 비중이 높은 설비와 일부 농기계·산업장비에 한시적 우대 관세를 적용한다는 내용을 다룬다.",
     "companies": []
+  },
+  {
+    "title": "한국 디스플레이 장비사, CSOT 8.6세대 OLED 투자 수혜",
+    "url": "https://www.etnews.com/20260626000196",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-06-28",
+    "sourceNote": "2026-06-29-csot-8-6-oled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "CSOT의 중국 광저우 8.6세대 OLED 설비 투자에 SFA, 힘스, 디바이스, HB솔루션 등 한국 장비 업체들이 대거 공급사로 선정됐다.",
+    "companies": [
+      {
+        "id": "device",
+        "label": "디바이스",
+        "ticker": "187870",
+        "sector": "display-semiconductor-equipment"
+      },
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-electronics",
+        "label": "LG전자",
+        "ticker": "066570",
+        "sector": "electronics"
+      }
+    ]
   },
   {
     "title": "한국 증시, 글로벌 랠리에서 가장 과열된 시장으로 꼽혀 — BCA",
