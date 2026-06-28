@@ -274,14 +274,16 @@
     "url": "https://discuss.pytorch.kr/t/agent-reach-ai-cli/10937",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-06-28",
+    "status": "public",
+    "updated": "2026-06-29",
     "sourceNote": "2026-06-29-agent-reach-ai-cli",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "cli",
+      "tools",
+      "web-reading"
     ],
-    "description": "Agent Reach는 AI 에이전트가 웹, 소셜미디어, 영상 자막, RSS, GitHub 등을 읽고 검색할 수 있도록 플랫폼별 도구 설치와 설정을 자동화하는 CLI 도구다.",
+    "description": "PyTorch Korea 포럼에 공유된 Agent Reach 소개 메모다. AI 에이전트가 웹, 소셜미디어, 영상 자막, RSS, GitHub 등을 읽고 검색할 수 있도록 플랫폼별 도구 설치와 설정을 자동화하는 CLI 도구로 설명한다.",
     "companies": []
   },
   {
