@@ -2978,14 +2978,18 @@
     "url": "https://www.etnews.com/20260626000196",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-06-28",
+    "status": "public",
+    "updated": "2026-06-29",
     "sourceNote": "2026-06-29-csot-8-6-oled",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "display",
+      "oled",
+      "equipment",
+      "csot",
+      "china"
     ],
-    "description": "CSOT의 중국 광저우 8.6세대 OLED 설비 투자에 SFA, 힘스, 디바이스, HB솔루션 등 한국 장비 업체들이 대거 공급사로 선정됐다.",
+    "description": "CSOT의 중국 광저우 8.6세대 OLED 설비 투자에서 한국 디스플레이 장비 업체들이 공급사로 선정됐다는 전자신문 기사 메모다. [[sfa|SFA]], [[hims|힘스]], [[device|디바이스]], [[hb-solution|HB솔루션]]이 신규 설비 공급사로 언급되고, 중국 패널사 CAPEX가 국내 장비사 실적 변수로 커지고 있다는 점이 핵심이다.",
     "companies": [
       {
         "id": "device",
@@ -2994,16 +2998,22 @@
         "sector": "display-semiconductor-equipment"
       },
       {
-        "id": "lg-corp",
-        "label": "LG",
-        "ticker": "003550",
-        "sector": "holding-company"
+        "id": "hb-solution",
+        "label": "HB솔루션",
+        "ticker": "297890",
+        "sector": "display-inspection-equipment"
       },
       {
-        "id": "lg-electronics",
-        "label": "LG전자",
-        "ticker": "066570",
-        "sector": "electronics"
+        "id": "hims",
+        "label": "힘스",
+        "ticker": "238490",
+        "sector": "display-equipment"
+      },
+      {
+        "id": "sfa",
+        "label": "SFA",
+        "ticker": "056190",
+        "sector": "display-automation-equipment"
       }
     ]
   },
