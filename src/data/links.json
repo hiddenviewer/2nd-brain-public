@@ -1758,21 +1758,6 @@
     "companies": []
   },
   {
-    "title": "코스닥, 동전주 퇴출·저PBR 공개로 밸류업 정책 강화",
-    "url": "https://www.yna.co.kr/view/AKR20260627032000008",
-    "category": "general",
-    "categoryLabel": "기타",
-    "status": "pending",
-    "updated": "2026-06-28",
-    "sourceNote": "2026-06-29-pbr",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "코스닥 출범 30주년을 맞아 7월부터 1천원 미만 동전주 퇴출 규정과 저PBR 상장사 공개가 본격 시행된다.",
-    "companies": []
-  },
-  {
     "title": "콜레스테롤 관리에 도움 되는 식품 14가지",
     "url": "https://v.daum.net/v/20260622190151511",
     "category": "general",
@@ -2889,6 +2874,37 @@
         "label": "Apple Inc.",
         "ticker": "",
         "sector": ""
+      }
+    ]
+  },
+  {
+    "title": "코스닥, 동전주 퇴출·저PBR 공개로 밸류업 정책 강화",
+    "url": "https://www.yna.co.kr/view/AKR20260627032000008",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-06-29",
+    "sourceNote": "2026-06-29-pbr",
+    "tags": [
+      "kr-stocks",
+      "kosdaq",
+      "value-up",
+      "pbr",
+      "listing-rules"
+    ],
+    "description": "연합뉴스가 코스닥 출범 30주년을 계기로 2026년 7월부터 시행되는 1천원 미만 주가 미달 상장폐지 규정과 업종별 저PBR 기업 공개 제도를 정리한 기사 메모다.",
+    "companies": [
+      {
+        "id": "astk",
+        "label": "아스트",
+        "ticker": "067390",
+        "sector": "aerospace-parts"
+      },
+      {
+        "id": "korea-capital",
+        "label": "한국캐피탈",
+        "ticker": "023760",
+        "sector": "finance-leasing"
       }
     ]
   },
