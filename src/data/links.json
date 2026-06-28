@@ -1,20 +1,5 @@
 [
   {
-    "title": "'기획 하네스(planning harness)'로 완성하는 상세기획 워크플로우 자동화",
-    "url": "https://news.hada.io/topic?id=30870",
-    "category": "ai",
-    "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-06-28",
-    "sourceNote": "2026-06-28-planning-harness",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "AI가 일관된 규칙과 컨텍스트 내에서 기획서를 작성할 수 있도록 통제하는 '기획 하네스(Planning Harness)'를 도입하여, 수작업 비중이 높은 상세 기획 워크플로우를 자동화한 사례입니다.",
-    "companies": []
-  },
-  {
     "title": "구글 Open Knowledge Format(OKF) 공개 - AI 에이전트를 위한 지식 공유 표준",
     "url": "https://news.hada.io/topic?id=30622",
     "category": "ai",
@@ -47,6 +32,23 @@
       "creative-workflow"
     ],
     "description": "AI타임스 기사 메모다. Google이 기업용 이미지 생성 모델 Nano Banana 2와 Nano Banana Pro를 Google Cloud Gemini Enterprise Agent Platform에서 일반 공급으로 공개하고, 동영상 입력 기반 이미지 생성 기능을 프리뷰로 추가했다고 정리한다.",
+    "companies": []
+  },
+  {
+    "title": "기획 하네스로 상세기획 워크플로우 자동화하기",
+    "url": "https://news.hada.io/topic?id=30870",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-06-29",
+    "sourceNote": "2026-06-28-planning-harness",
+    "tags": [
+      "ai-agents",
+      "harness",
+      "planning",
+      "claude-code"
+    ],
+    "description": "GeekNews에 공유된 기획 하네스 사례 메모다. CLAUDE.md 같은 로컬 규칙 파일, 전용 명령어, 가드레일, 자동 검증 흐름을 묶어 상세기획 산출물을 반복 생성하는 워크플로우를 설명한다.",
     "companies": []
   },
   {
