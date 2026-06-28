@@ -1540,21 +1540,6 @@
     "companies": []
   },
   {
-    "title": "SMR 상업화 착공과 한국 원전 공급망 기대",
-    "url": "http://m.g-enews.com/article/Global-Biz/2026/06/20260626070353711fbbec65dfb_1",
-    "category": "ai",
-    "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-06-28",
-    "sourceNote": "2026-06-29-smr",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "서방권 첫 전력망용 SMR 착공이 두산·현대 등 한국 원전 기업의 공급망 선점 기회로 연결될 수 있다는 기사다.",
-    "companies": []
-  },
-  {
     "title": "Swagger/OpenAPI를 AI 프론트엔드 자동화의 핵심 컨텍스트와 하네스로 쓰는 방법",
     "url": "https://news.hada.io/topic?id=28597",
     "category": "ai",
@@ -3510,6 +3495,38 @@
         "label": "LG",
         "ticker": "003550",
         "sector": "holding-company"
+      }
+    ]
+  },
+  {
+    "title": "SMR 상업화 착공과 한국 원전 공급망 기대",
+    "url": "http://m.g-enews.com/article/Global-Biz/2026/06/20260626070353711fbbec65dfb_1",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-06-29",
+    "sourceNote": "2026-06-29-smr",
+    "tags": [
+      "kr-stocks",
+      "nuclear",
+      "smr",
+      "power-equipment",
+      "doosan-enerbility",
+      "hyundai-engineering-construction"
+    ],
+    "description": "글로벌이코노믹의 SMR 상업화 착공과 한국 원전 공급망 기대 관련 기사 요약 메모다. 서방권 첫 전력망용 소형모듈원자로(SMR) 착공을 계기로 AI 데이터센터 전력 수요, 원전 공급망 선점 경쟁, 한국 기업의 주기기 제작·시공 역량이 함께 거론된다.",
+    "companies": [
+      {
+        "id": "doosan-enerbility",
+        "label": "두산에너빌리티",
+        "ticker": "034020",
+        "sector": "발전설비, 원전, 해상풍력 터빈"
+      },
+      {
+        "id": "hyundai-engineering-construction",
+        "label": "현대건설",
+        "ticker": "000720",
+        "sector": "건설, 원전 시공, 인프라"
       }
     ]
   }
