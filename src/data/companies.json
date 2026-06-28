@@ -194,13 +194,14 @@
     "label": "두산에너빌리티",
     "ticker": "034020",
     "sector": "발전설비, 원전, 해상풍력 터빈",
-    "updated": "2026-06-11",
+    "updated": "2026-06-29",
     "confidence": "medium",
     "dartCorpCode": "00159616",
     "naverFinanceUrl": "https://finance.naver.com/item/main.naver?code=034020",
     "sources": [
       "2026-04-28-doosan-k-wind",
-      "2026-06-10-yawol-offshore-wind-growth-fund"
+      "2026-06-10-yawol-offshore-wind-growth-fund",
+      "2026-06-28-us-nuclear-equipment-orders"
     ],
     "aliases": [
       "doosan-enerbility",
