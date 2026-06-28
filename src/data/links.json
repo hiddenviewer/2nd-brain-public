@@ -1657,6 +1657,36 @@
     "companies": []
   },
   {
+    "title": "접근 제한으로 본문 확인 불가",
+    "url": "https://wikidocs.net/book/19054",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-06-28",
+    "sourceNote": "2026-06-29-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "제공된 URL의 추출 컨텍스트가 Cloudflare 대기 화면으로 보이며, 실제 문서 내용을 확인할 수 없습니다.",
+    "companies": []
+  },
+  {
+    "title": "코스닥, 동전주 퇴출·저PBR 공개로 밸류업 정책 강화",
+    "url": "https://www.yna.co.kr/view/AKR20260627032000008",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-06-28",
+    "sourceNote": "2026-06-29-pbr",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "코스닥 출범 30주년을 맞아 7월부터 1천원 미만 동전주 퇴출 규정과 저PBR 상장사 공개가 본격 시행된다.",
+    "companies": []
+  },
+  {
     "title": "콜레스테롤 관리에 도움 되는 식품 14가지",
     "url": "https://v.daum.net/v/20260622190151511",
     "category": "general",
