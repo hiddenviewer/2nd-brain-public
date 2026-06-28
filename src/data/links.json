@@ -2888,19 +2888,35 @@
     ]
   },
   {
-    "title": "한국 증시, 글로벌 랠리에서 가장 과열된 시장으로 꼽혀 — BCA",
+    "title": "한국 증시, 글로벌 랠리에서 가장 과열된 시장으로 꼽혀 - BCA",
     "url": "https://kr.investing.com/news/stock-market-news/article-1998067",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-06-27",
+    "status": "public",
+    "updated": "2026-06-29",
     "sourceNote": "2026-06-28-bca",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "kospi",
+      "semiconductors",
+      "asset-allocation",
+      "bca-research"
     ],
-    "description": "BCA Research는 반도체 급등과 개인 투자자 유입으로 인한 투기적 과잉 징후를 경고하며 한국 주식의 투자의견을 '비중확대'에서 '중립'으로 하향 조정했습니다. 다만, 원화(KRW) 및 10년물 국채에 대해서는 긍정적인 시각을 유지했습니다.",
-    "companies": []
+    "description": "BCA Research가 한국 주식 투자의견을 비중확대에서 중립으로 낮췄다는 Investing.com 기사 요약 메모다. 메타데이터는 원문 URL 직접 접근이 차단되어 기사 전문이 아니라 검색 결과 스니펫과 제3자 요약 정보에 기반했다고 명시한다.",
+    "companies": [
+      {
+        "id": "samsung-electronics",
+        "label": "삼성전자",
+        "ticker": "005930",
+        "sector": "semiconductors"
+      },
+      {
+        "id": "sk-hynix",
+        "label": "SK하이닉스",
+        "ticker": "000660",
+        "sector": "semiconductors"
+      }
+    ]
   },
   {
     "title": "한국, 캐나다산 원유 도입 확대",
