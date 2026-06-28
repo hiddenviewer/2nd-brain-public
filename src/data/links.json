@@ -1728,21 +1728,6 @@
     "companies": []
   },
   {
-    "title": "접근 제한으로 본문 확인 불가",
-    "url": "https://wikidocs.net/book/19054",
-    "category": "general",
-    "categoryLabel": "기타",
-    "status": "pending",
-    "updated": "2026-06-28",
-    "sourceNote": "2026-06-29-untitled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "제공된 URL의 추출 컨텍스트가 Cloudflare 대기 화면으로 보이며, 실제 문서 내용을 확인할 수 없습니다.",
-    "companies": []
-  },
-  {
     "title": "콜레스테롤 관리에 도움 되는 식품 14가지",
     "url": "https://v.daum.net/v/20260622190151511",
     "category": "general",
@@ -1870,6 +1855,22 @@
       "wikidocs"
     ],
     "description": "WikiDocs 페이지 링크를 저장하려 했지만, 현재 확보된 내용은 실제 문서 본문이 아니라 접근 제한 또는 로딩 차단 상태를 기록한 inbox 메모다. 추출된 제목은 Just a moment...뿐이라 문서 주제, 작성자, 발행일, 핵심 논지를 확인할 수 없다.",
+    "companies": []
+  },
+  {
+    "title": "WikiDocs book/19054 접근 불가 메모",
+    "url": "https://wikidocs.net/book/19054",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "review",
+    "updated": "2026-06-29",
+    "sourceNote": "2026-06-29-wikidocs-book-19054-inaccessible",
+    "tags": [
+      "article",
+      "inaccessible",
+      "wikidocs"
+    ],
+    "description": "WikiDocs book 페이지 링크를 저장하려 했지만, 현재 확보된 내용은 실제 문서 본문이 아니라 Cloudflare 또는 유사한 브라우저 검증 대기 화면으로 보이는 수집 실패 메모다. 추출된 원문 제목은 실제 책 제목이 아니라 Just a moment... 신호로 판단되며, 책의 제목, 저자, 목차, 핵심 주제를 확인할 수 없다.",
     "companies": []
   },
   {
