@@ -1168,6 +1168,21 @@
     "companies": []
   },
   {
+    "title": "Flutter/Flame 게임 출시용 Claude Code 플러그인 공개",
+    "url": "https://news.hada.io/topic?id=30918",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-06-29",
+    "sourceNote": "2026-06-29-flutter-flame-claude-code",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Flutter/Flame 게임을 아이디어 단계부터 App Store 제출까지 안내하는 오픈소스 Claude Code 플러그인 소개 글이다.",
+    "companies": []
+  },
+  {
     "title": "Gemini 앱에서 문서·시트·프레젠테이션 등 파일을 바로 생성하는 기능 공개",
     "url": "https://news.hada.io/topic?id=29044",
     "category": "ai",
