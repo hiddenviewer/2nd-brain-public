@@ -1169,17 +1169,38 @@
   },
   {
     "title": "Flutter/Flame 게임 출시용 Claude Code 플러그인 공개",
+    "url": "https://github.com/tjdrhs90/flutter-flame-harness",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-06-30",
+    "sourceNote": "2026-06-29-flutter-flame-claude-code",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "flutter",
+      "flame",
+      "harness"
+    ],
+    "description": "GeekNews에 공유된 Flutter/Flame 게임 출시용 Claude Code 플러그인 소개 메모다. 아이디어 발상부터 기획, 구현, QA, 광고 설정, 빌드, 스크린샷, App Store 제출까지의 흐름을 Claude Code 하네스로 절차화한 오픈소스 프로젝트로 정리한다.",
+    "companies": []
+  },
+  {
+    "title": "Flutter/Flame 게임 출시용 Claude Code 플러그인 공개",
     "url": "https://news.hada.io/topic?id=30918",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-06-29",
+    "status": "public",
+    "updated": "2026-06-30",
     "sourceNote": "2026-06-29-flutter-flame-claude-code",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "claude-code",
+      "flutter",
+      "flame",
+      "harness"
     ],
-    "description": "Flutter/Flame 게임을 아이디어 단계부터 App Store 제출까지 안내하는 오픈소스 Claude Code 플러그인 소개 글이다.",
+    "description": "GeekNews에 공유된 Flutter/Flame 게임 출시용 Claude Code 플러그인 소개 메모다. 아이디어 발상부터 기획, 구현, QA, 광고 설정, 빌드, 스크린샷, App Store 제출까지의 흐름을 Claude Code 하네스로 절차화한 오픈소스 프로젝트로 정리한다.",
     "companies": []
   },
   {
