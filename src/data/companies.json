@@ -4758,11 +4758,13 @@
     "label": "파마리서치",
     "ticker": "214450",
     "sector": "pharmaceuticals-aesthetics",
-    "updated": "2026-06-28",
+    "updated": "2026-07-03",
     "confidence": "medium",
     "dartCorpCode": "00970453",
     "naverFinanceUrl": "https://finance.naver.com/item/main.naver?code=214450",
-    "sources": [],
+    "sources": [
+      "2026-07-03-pharma-research-rejuran-global-expansion"
+    ],
     "aliases": [
       "pharma-research",
       "파마리서치",
