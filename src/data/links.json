@@ -1,20 +1,5 @@
 [
   {
-    "title": "개정된 엔지니어링 리더십 규칙",
-    "url": "https://news.hada.io/topic?id=30994",
-    "category": "ai",
-    "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-07-02",
-    "sourceNote": "2026-07-03-untitled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "AI 도구 도입과 초고속 성장(hypergrowth) 환경에서 재정립된 엔지니어링 리더십의 5대 규칙과 실제 사례를 요약한 글입니다. 마이그레이션의 개인 주도 가능성, 개발 하네스의 중요성, 프로세스 자동화, 도메인 맥락 중심 팀의 중요성, 신속한 의사결정이 AI 수혜의 핵심 전제 조건임을 강조합니다.",
-    "companies": []
-  },
-  {
     "title": "구글 Open Knowledge Format(OKF) 공개 - AI 에이전트를 위한 지식 공유 표준",
     "url": "https://news.hada.io/topic?id=30622",
     "category": "ai",
@@ -3095,6 +3080,28 @@
     ],
     "description": "한국경제 기사 요약 메모다. 도널드 트럼프 미국 대통령이 철강·알루미늄·구리 관련 일부 수입품 관세를 조정하는 포고문에 서명했고, 미국산 금속 사용 비중이 높은 설비와 일부 농기계·산업장비에 한시적 우대 관세를 적용한다는 내용을 다룬다.",
     "companies": []
+  },
+  {
+    "title": "파마리서치, 리쥬란 중심 성장과 글로벌 확장",
+    "url": "https://n.news.naver.com/mnews/article/123/0002385852",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-07-02",
+    "sourceNote": "2026-07-03-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "파마리서치는 리쥬란과 PN·PDRN 기술 기반 포트폴리오를 앞세워 역대 최대 실적을 기록하고 해외 시장 확대를 추진 중이다.",
+    "companies": [
+      {
+        "id": "pharma-research",
+        "label": "파마리서치",
+        "ticker": "214450",
+        "sector": "pharmaceuticals-aesthetics"
+      }
+    ]
   },
   {
     "title": "한국 디스플레이 장비사, CSOT 8.6세대 OLED 투자 수혜",
