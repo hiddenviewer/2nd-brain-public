@@ -1592,6 +1592,23 @@
     "companies": []
   },
   {
+    "title": "supertree - 디시젼 트리 인터랙티브 시각화 도구",
+    "url": "https://news.hada.io/topic?id=31025",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-07-03",
+    "sourceNote": "2026-07-03-supertree",
+    "tags": [
+      "ai-tools",
+      "machine-learning",
+      "visualization",
+      "jupyter"
+    ],
+    "description": "GeekNews에 공유된 supertree 소개 메모다. supertree는 Jupyter, JupyterLab, Google Colab 같은 노트북 환경에서 의사결정 트리를 인터랙티브하게 탐색하도록 돕는 Python 시각화 패키지로 설명된다.",
+    "companies": []
+  },
+  {
     "title": "Swagger/OpenAPI를 AI 프론트엔드 자동화의 핵심 컨텍스트와 하네스로 쓰는 방법",
     "url": "https://news.hada.io/topic?id=28597",
     "category": "ai",
@@ -1876,21 +1893,6 @@
       "investing"
     ],
     "description": "Investing.com 기사 링크를 저장하려 했지만, 현재 확보된 내용은 기사 본문이 아니라 원문 확인 실패 상태를 기록한 메모와 메타데이터뿐이다.",
-    "companies": []
-  },
-  {
-    "title": "supertree - 디시젼 트리 인터랙티브 시각화 도구",
-    "url": "https://news.hada.io/topic?id=31025",
-    "category": "general",
-    "categoryLabel": "기타",
-    "status": "pending",
-    "updated": "2026-07-02",
-    "sourceNote": "2026-07-03-supertree",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "supertree는 Jupyter 계열 노트북에서 의사결정 트리를 확대, 이동, 접기, 샘플 경로 추적까지 지원하는 Python 시각화 패키지다.",
     "companies": []
   },
   {
