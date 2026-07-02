@@ -1,5 +1,20 @@
 [
   {
+    "title": "개정된 엔지니어링 리더십 규칙",
+    "url": "https://news.hada.io/topic?id=30994",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-07-02",
+    "sourceNote": "2026-07-03-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI 도구 도입과 초고속 성장(hypergrowth) 환경에서 재정립된 엔지니어링 리더십의 5대 규칙과 실제 사례를 요약한 글입니다. 마이그레이션의 개인 주도 가능성, 개발 하네스의 중요성, 프로세스 자동화, 도메인 맥락 중심 팀의 중요성, 신속한 의사결정이 AI 수혜의 핵심 전제 조건임을 강조합니다.",
+    "companies": []
+  },
+  {
     "title": "구글 Open Knowledge Format(OKF) 공개 - AI 에이전트를 위한 지식 공유 표준",
     "url": "https://news.hada.io/topic?id=30622",
     "category": "ai",
@@ -541,6 +556,21 @@
       "harness"
     ],
     "description": "PyTorch KR 게시글 요약 메모다. Artificial Analysis의 Coding Agent Index를 소개하며, 모델 단독 성능이 아니라 모델, 코딩 에이전트 하네스, 설정 조합별 성능·비용·시간을 비교해야 한다는 관점을 제공한다.",
+    "companies": []
+  },
+  {
+    "title": "Atlassian의 DESIGN.md 공개 - 이식 가능한 디자인 컨텍스트 실전 테스트 교훈",
+    "url": "https://news.hada.io/topic?id=30990",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-07-02",
+    "sourceNote": "2026-07-03-atlassian-design-md",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI가 브랜드 정체성 없는 UI(slop)를 생성하는 문제를 해결하기 위해 디자인 시스템의 핵심 요소를 단일 Markdown 파일에 담아 프롬프트에 제공하는 'DESIGN.md' 포맷의 테스트 결과와 그에 따른 한계 및 활용 방안을 정리한 글입니다.",
     "companies": []
   },
   {
@@ -1860,6 +1890,21 @@
       "investing"
     ],
     "description": "Investing.com 기사 링크를 저장하려 했지만, 현재 확보된 내용은 기사 본문이 아니라 원문 확인 실패 상태를 기록한 메모와 메타데이터뿐이다.",
+    "companies": []
+  },
+  {
+    "title": "supertree - 디시젼 트리 인터랙티브 시각화 도구",
+    "url": "https://news.hada.io/topic?id=31025",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-07-02",
+    "sourceNote": "2026-07-03-supertree",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "supertree는 Jupyter 계열 노트북에서 의사결정 트리를 확대, 이동, 접기, 샘플 경로 추적까지 지원하는 Python 시각화 패키지다.",
     "companies": []
   },
   {
