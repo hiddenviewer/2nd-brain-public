@@ -538,18 +538,21 @@
     "companies": []
   },
   {
-    "title": "Anthropic의 Claude Fable 5 프롬프팅 가이드: 강력해진 모델에 맞춘 프롬프트 재설계",
+    "title": "Anthropic의 Claude Fable 5 프롬프팅 가이드",
     "url": "https://share.google/cgzn2mbvIrReZwwtK",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-07-04",
+    "status": "public",
+    "updated": "2026-07-05",
     "sourceNote": "2026-07-04-anthropic-claude-fable-5",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "claude",
+      "anthropic",
+      "prompting",
+      "harness"
     ],
-    "description": "Anthropic이 Claude Fable 5를 출시하며 공개한 프롬프팅 가이드 요약으로, 모델의 향상된 장기 자율성과 지능에 맞춰 기존의 복잡한 가드레일을 제거하고 프롬프트와 실행 구조(스캐폴딩)를 원점에서 재검토해야 함을 설명합니다.",
+    "description": "Anthropic이 Claude Fable 5 출시와 함께 공개한 프롬프팅 가이드를 한국어로 정리한 article 캡처다. 핵심은 더 강한 장기 자율 모델에는 이전 모델용 장황한 가드레일을 그대로 이식하지 말고, 프롬프트와 실행 하네스를 함께 재설계해야 한다는 주장이다.",
     "companies": []
   },
   {
