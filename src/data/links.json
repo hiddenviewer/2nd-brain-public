@@ -2387,6 +2387,34 @@
     ]
   },
   {
+    "title": "삼성·SK, 충청권 첨단산업에 대규모 투자 발표",
+    "url": "https://www.sedaily.com/article/20063185",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-07-04",
+    "sourceNote": "2026-07-04-sk",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "이재명 대통령이 삼성디스플레이 아산사업장에서 세계 최초 8.6세대 OLED 양산 선언 행사에 참석했고, 삼성·SK는 충청권에 총 300조 원대 첨단산업 투자 계획을 공개했다.",
+    "companies": [
+      {
+        "id": "samsung-display",
+        "label": "삼성디스플레이",
+        "ticker": "비상장",
+        "sector": "display"
+      },
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      }
+    ]
+  },
+  {
     "title": "삼성디스플레이, 중국 8.6세대 OLED 추격에 수율과 고객 선점으로 대응",
     "url": "https://www.businesspost.co.kr/BP?command=article_view&num=440398",
     "category": "investing",
