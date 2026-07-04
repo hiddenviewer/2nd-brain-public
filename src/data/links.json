@@ -240,14 +240,16 @@
     "url": "https://yozm.wishket.com/magazine/detail/3828/",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-07-04",
-    "sourceNote": "2026-07-04-repo-1",
+    "status": "public",
+    "updated": "2026-07-05",
+    "sourceNote": "2026-07-04-repo-second-brain-one-year",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "knowledge-base",
+      "llm-wiki",
+      "claude-code"
     ],
-    "description": "라인플러스의 비개발자 PM이 Claude Code와 Git 저장소를 연동하여 회의록 정리, 글로벌 기술 문의 대응, 시장 리서치 자동화 등 일반 업무 전반을 효율화하고 자신만의 '세컨 브레인'으로 구축해 온 1년간의 경험과 실전 노하우를 공유한다.",
+    "description": "요즘IT가 클코나잇 2 웨비나 발표를 정리한 article 캡처다. 라인플러스의 비개발자 PM이 Claude Code와 Git 저장소를 코딩이 아닌 회의록, 글로벌 기술 문의 대응, 시장 리서치 자동화에 1년간 활용한 경험을 다룬다.",
     "companies": []
   },
   {
