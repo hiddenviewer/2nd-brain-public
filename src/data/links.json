@@ -2441,20 +2441,31 @@
     "url": "https://www.sedaily.com/article/20063185",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-07-04",
+    "status": "public",
+    "updated": "2026-07-05",
     "sourceNote": "2026-07-04-sk",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "samsung-display",
+      "sk",
+      "sk-hynix",
+      "oled",
+      "ai-infrastructure",
+      "data-center"
     ],
-    "description": "이재명 대통령이 삼성디스플레이 아산사업장에서 세계 최초 8.6세대 OLED 양산 선언 행사에 참석했고, 삼성·SK는 충청권에 총 300조 원대 첨단산업 투자 계획을 공개했다.",
+    "description": "서울경제 기사 요약 메모다. 이재명 대통령이 삼성디스플레이 아산사업장에서 8.6세대 OLED 양산 선언 행사에 참석했고, 삼성과 SK가 충청권 첨단산업 투자 계획을 제시했다는 내용을 다룬다.",
     "companies": [
       {
         "id": "samsung-display",
         "label": "삼성디스플레이",
         "ticker": "비상장",
         "sector": "display"
+      },
+      {
+        "id": "sk-hynix",
+        "label": "SK하이닉스",
+        "ticker": "000660",
+        "sector": "semiconductors"
       },
       {
         "id": "sk-inc",
