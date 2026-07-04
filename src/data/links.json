@@ -208,14 +208,15 @@
     "url": "https://news.hada.io/topic?id=31067",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-07-04",
-    "sourceNote": "2026-07-05-untitled",
+    "status": "public",
+    "updated": "2026-07-05",
+    "sourceNote": "2026-07-05-code-review-maintainability",
     "tags": [
-      "inbox",
-      "article"
+      "coding",
+      "code-review",
+      "maintainability"
     ],
-    "description": "코드 리뷰의 핵심 목적은 버그 검출이나 무결성 보증보다 향후 유지보수하기 어려운 코드를 조기에 발견해 개선하는 데 있으며, 이에 대해 지식 공유, 협업 안전장치 등 코드 리뷰의 다면적 가치를 강조하는 커뮤니티의 다양한 의견을 다룹니다.",
+    "description": "GeekNews에 공유된 코드 리뷰 관점에 관한 2차 요약 메모다. 코드 리뷰를 버그 검출이나 무결성 보증 절차로만 보기보다, 미래 유지보수자가 이해하기 어려울 코드를 작성자 맥락이 남아 있을 때 발견하고 고치는 과정으로 봐야 한다는 주장을 다룬다.",
     "companies": []
   },
   {
