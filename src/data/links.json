@@ -523,6 +523,21 @@
     "companies": []
   },
   {
+    "title": "Anthropic의 Claude Fable 5 프롬프팅 가이드: 강력해진 모델에 맞춘 프롬프트 재설계",
+    "url": "https://share.google/cgzn2mbvIrReZwwtK",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-07-04",
+    "sourceNote": "2026-07-04-anthropic-claude-fable-5",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Anthropic이 Claude Fable 5를 출시하며 공개한 프롬프팅 가이드 요약으로, 모델의 향상된 장기 자율성과 지능에 맞춰 기존의 복잡한 가드레일을 제거하고 프롬프트와 실행 구조(스캐폴딩)를 원점에서 재검토해야 함을 설명합니다.",
+    "companies": []
+  },
+  {
     "title": "Anthropic의 Claude Opus 4.7 정식 출시 메모",
     "url": "https://www.aitimes.com/news/articleView.html?idxno=209371",
     "category": "ai",
