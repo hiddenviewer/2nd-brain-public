@@ -3620,19 +3620,34 @@
     "companies": []
   },
   {
-    "title": "K-뷰티 열풍에...국민연금, '화장품 ODM 투톱' 지분 늘렸다",
+    "title": "K-뷰티 열풍과 국민연금의 화장품 ODM 투톱 지분 확대",
     "url": "https://naver.me/FIci6AhW",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-07-05",
+    "status": "public",
+    "updated": "2026-07-06",
     "sourceNote": "2026-07-05-k-odm",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "cosmetics",
+      "odm",
+      "k-beauty"
     ],
-    "description": "글로벌 K-뷰티 열풍 및 중소 인디 브랜드의 수출 증가에 힘입어, 국민연금이 국내 대표 화장품 ODM(연구·개발·생산) 기업인 코스맥스와 한국콜마의 지분을 대폭 확대했습니다.",
-    "companies": []
+    "description": "",
+    "companies": [
+      {
+        "id": "cosmax",
+        "label": "코스맥스",
+        "ticker": "192820",
+        "sector": "cosmetics-odm"
+      },
+      {
+        "id": "kolmar-korea",
+        "label": "한국콜마",
+        "ticker": "161890",
+        "sector": "cosmetics-odm"
+      }
+    ]
   },
   {
     "title": "LG, 엔비디아 Blackwell GPU 1만 장 도입 및 그룹 AX 가속화",
