@@ -69,6 +69,21 @@
     "companies": []
   },
   {
+    "title": "루프 엔지니어링의 미학 (The Art of Loop Engineering)",
+    "url": "https://news.hada.io/topic?id=31106",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-07-05",
+    "sourceNote": "2026-07-05-the-art-of-loop-engineering",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "안정적이고 유용한 LLM 에이전트 구축을 위해 모델 단독 개발을 넘어 네 가지 핵심 루프(에이전트, 검증, 이벤트 기반, 힐 클라이밍)와 인간 참여형(Human-in-the-loop) 설계를 활용하는 하네스(harness) 엔지니어링의 중요성을 다룹니다.",
+    "companies": []
+  },
+  {
     "title": "에르메스 에이전트(Hermes Agent)로 AI 업무 자동화와 나만의 AI 팀 운영을 다루는 실전 가이드",
     "url": "https://wikidocs.net/book/19686",
     "category": "ai",
