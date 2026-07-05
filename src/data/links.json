@@ -2229,6 +2229,28 @@
     ]
   },
   {
+    "title": "관세 환급은 '보너스'…삼성SDI, 본업 회복에 7분기 만의 흑자 기대",
+    "url": "https://naver.me/G7NTjk9H",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-07-05",
+    "sourceNote": "2026-07-05-sdi-7",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "삼성SDI가 AI 데이터센터용 배터리 및 미국 ESS 사업의 성장과 유럽 전기차 배터리 시장의 완만한 회복에 힘입어 이르면 2026년 2분기 영업 흑자전환에 성공할 것으로 전망된다. 이는 2024년 4분기 적자 전환 이후 7분기 만의 성과로, 미국 ESS 관세 환급 또한 추가적인 일회성 이익 요인으로 작용할 예정이다.",
+    "companies": [
+      {
+        "id": "samsung-sdi",
+        "label": "삼성SDI",
+        "ticker": "006400",
+        "sector": "batteries"
+      }
+    ]
+  },
+  {
     "title": "국내 상장 로봇기업 1분기 실적 부진",
     "url": "https://www.irobotnews.com/news/articleView.html?idxno=46663",
     "category": "investing",
