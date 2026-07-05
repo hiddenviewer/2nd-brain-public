@@ -1788,6 +1788,21 @@
     ]
   },
   {
+    "title": "웹 개발자를 위한 Safari MCP 서버",
+    "url": "https://news.hada.io/topic?id=31131",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-07-05",
+    "sourceNote": "2026-07-05-safari-mcp",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Safari MCP 서버는 코딩 에이전트를 실제 Safari 창에 연결해 렌더링, DOM, 네트워크, 콘솔, 스크린샷을 직접 확인하게 하는 웹 개발·디버깅 도구다.",
+    "companies": []
+  },
+  {
     "title": "Apple WWDC 2026, Gemini 기반 Siri AI와 Tim Cook 퇴임 보도",
     "url": "https://www.mk.co.kr/news/it/12068989",
     "category": "apple",
@@ -2087,6 +2102,28 @@
     ],
     "description": "Yozm IT 기사 링크를 저장하려 했지만, 현재 확보된 내용은 403 Forbidden으로 원문 확인에 실패했다는 메모와 메타데이터뿐이다. 실제 기사 제목과 본문은 확인되지 않는다.",
     "companies": []
+  },
+  {
+    "title": "\"에이피알, 美 이어 유럽도 본궤도…글로벌 영토 확장 가속\" [줌인e종목]",
+    "url": "https://naver.me/FoX20qD6",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-07-05",
+    "sourceNote": "2026-07-05-e",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "하나증권은 에이피알(APR)이 미국 내 대형 오프라인 유통망(Target, Walmart) 확대 및 Amazon Prime Day 효과와 더불어, 유럽 시장 진출 본격화에 힘입어 2분기 사상 최대 실적을 달성할 것으로 전망했습니다.",
+    "companies": [
+      {
+        "id": "device",
+        "label": "디바이스",
+        "ticker": "187870",
+        "sector": "display-semiconductor-equipment"
+      }
+    ]
   },
   {
     "title": "계절근로자와 호르무즈·대만 리스크를 다룬 더 보다 108회",
