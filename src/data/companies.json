@@ -6396,7 +6396,7 @@
     "label": "삼성SDI",
     "ticker": "006400",
     "sector": "batteries",
-    "updated": "2026-06-28",
+    "updated": "2026-07-06",
     "confidence": "medium",
     "dartCorpCode": "00126362",
     "naverFinanceUrl": "https://finance.naver.com/item/main.naver?code=006400",
@@ -6405,7 +6405,8 @@
       "2026-06-07-sdi",
       "2026-06-21-ess-k",
       "2026-06-26-sdi-ess",
-      "2026-06-27-lg"
+      "2026-06-27-lg",
+      "2026-07-05-sdi-7"
     ],
     "aliases": [
       "samsung-sdi",

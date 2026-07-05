@@ -2209,28 +2209,6 @@
     ]
   },
   {
-    "title": "관세 환급은 '보너스'…삼성SDI, 본업 회복에 7분기 만의 흑자 기대",
-    "url": "https://naver.me/G7NTjk9H",
-    "category": "investing",
-    "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-07-05",
-    "sourceNote": "2026-07-05-sdi-7",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "삼성SDI가 AI 데이터센터용 배터리 및 미국 ESS 사업의 성장과 유럽 전기차 배터리 시장의 완만한 회복에 힘입어 이르면 2026년 2분기 영업 흑자전환에 성공할 것으로 전망된다. 이는 2024년 4분기 적자 전환 이후 7분기 만의 성과로, 미국 ESS 관세 환급 또한 추가적인 일회성 이익 요인으로 작용할 예정이다.",
-    "companies": [
-      {
-        "id": "samsung-sdi",
-        "label": "삼성SDI",
-        "ticker": "006400",
-        "sector": "batteries"
-      }
-    ]
-  },
-  {
     "title": "국내 상장 로봇기업 1분기 실적 부진",
     "url": "https://www.irobotnews.com/news/articleView.html?idxno=46663",
     "category": "investing",
@@ -2723,6 +2701,31 @@
       "lfp"
     ],
     "description": "전자신문의 삼성SDI 미국 합작공장 ESS 전환 장비 발주 보도 요약 메모다. 삼성SDI가 스텔란티스와의 미국 합작법인 StarPlus Energy 1공장 일부 전기차 배터리 라인을 ESS용 LFP 및 NCA 배터리 라인으로 전환하고, 국내 장비·부품사에 LOI를 발송한 것으로 전해졌다는 내용이다.",
+    "companies": [
+      {
+        "id": "samsung-sdi",
+        "label": "삼성SDI",
+        "ticker": "006400",
+        "sector": "batteries"
+      }
+    ]
+  },
+  {
+    "title": "삼성SDI, 본업 회복으로 7분기 만의 흑자전환 기대",
+    "url": "https://naver.me/G7NTjk9H",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-07-06",
+    "sourceNote": "2026-07-05-sdi-7",
+    "tags": [
+      "kr-stocks",
+      "batteries",
+      "samsung-sdi",
+      "ess",
+      "ai-data-center"
+    ],
+    "description": "삼성SDI가 AI 데이터센터용 배터리, 미국 ESS 사업, 유럽 EV 배터리 가동률 회복에 힘입어 2026년 2분기 영업흑자 전환을 달성할 수 있다는 전망 기사 요약 메모다. 관세 환급은 보너스 성격의 일회성 이익 요인으로 제시되지만, 기사 자체는 본업 회복 여부를 핵심으로 본다.",
     "companies": [
       {
         "id": "samsung-sdi",
