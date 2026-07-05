@@ -185,6 +185,23 @@
     "companies": []
   },
   {
+    "title": "웹 개발자를 위한 Safari MCP 서버",
+    "url": "https://news.hada.io/topic?id=31131",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-07-06",
+    "sourceNote": "2026-07-05-safari-mcp",
+    "tags": [
+      "ai-agents",
+      "mcp",
+      "safari",
+      "browser-automation"
+    ],
+    "description": "GeekNews에 공유된 Safari MCP 서버 소개 메모다. 코딩 에이전트를 실제 Safari 창에 연결해 렌더링 결과, DOM, 네트워크, 콘솔, 스크린샷을 확인하게 하는 웹 개발·디버깅 도구로 설명한다.",
+    "companies": []
+  },
+  {
     "title": "이번 주에 살펴볼 만한 AI/ML 논문 모음",
     "url": "https://discuss.pytorch.kr/t/2026-04-20-26-ai-ml/9907",
     "category": "ai",
@@ -1786,21 +1803,6 @@
         "sector": "display-semiconductor-equipment"
       }
     ]
-  },
-  {
-    "title": "웹 개발자를 위한 Safari MCP 서버",
-    "url": "https://news.hada.io/topic?id=31131",
-    "category": "apple",
-    "categoryLabel": "Apple",
-    "status": "pending",
-    "updated": "2026-07-05",
-    "sourceNote": "2026-07-05-safari-mcp",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "Safari MCP 서버는 코딩 에이전트를 실제 Safari 창에 연결해 렌더링, DOM, 네트워크, 콘솔, 스크린샷을 직접 확인하게 하는 웹 개발·디버깅 도구다.",
-    "companies": []
   },
   {
     "title": "Apple WWDC 2026, Gemini 기반 Siri AI와 Tim Cook 퇴임 보도",
