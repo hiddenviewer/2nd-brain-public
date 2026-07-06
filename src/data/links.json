@@ -2617,6 +2617,34 @@
     ]
   },
   {
+    "title": "삼성SDI 수혜주 부상... 벤츠 헝가리行 확정",
+    "url": "http://m.g-enews.com/article/Global-Biz/2026/07/2026070521504735342bd56fbc3c_1",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-07-06",
+    "sourceNote": "2026-07-07-sdi",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "메르세데스-벤츠가 2027년 출시할 소형 SUV '미니 G클래스'의 생산지를 독일 대신 헝가리 켁케메트 공장으로 확정함에 따라, 벤츠와 각형 배터리 공급 계약을 맺은 삼성SDI가 현지 생산 확대의 주요 수혜주로 재조명받고 있습니다.",
+    "companies": [
+      {
+        "id": "samsung-sdi",
+        "label": "삼성SDI",
+        "ticker": "006400",
+        "sector": "batteries"
+      },
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      }
+    ]
+  },
+  {
     "title": "삼성SDI 전고체 배터리 개발 속도와 로봇용 배터리 전략",
     "url": "https://www.businesspost.co.kr/BP?command=article_view&num=439289",
     "category": "investing",
