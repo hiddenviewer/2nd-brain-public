@@ -142,6 +142,28 @@
     ]
   },
   {
+    "title": "앤트로픽, 'Claude Cowork' 모바일 및 웹 버전 출시... 기기 꺼져도 작동하는 백그라운드 자동화 지원",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=212530",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-07-08",
+    "sourceNote": "2026-07-09-claude-cowork",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "앤트로픽이 데스크톱 전용이었던 AI 업무 에이전트 'Claude Cowork'를 모바일 및 웹 베타 버전으로 출시하여 기기 간 연속성을 제공하고 기기가 꺼져도 백그라운드에서 작업이 지속되는 자동화 기능을 선보였다.",
+    "companies": [
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      }
+    ]
+  },
+  {
     "title": "에르메스 에이전트(Hermes Agent)로 AI 업무 자동화와 나만의 AI 팀 운영을 다루는 실전 가이드",
     "url": "https://wikidocs.net/book/19686",
     "category": "ai",
@@ -1919,6 +1941,21 @@
       "app-design"
     ],
     "description": "Apple Newsroom의 2026 Apple 디자인 어워드 수상작 발표 자료다. Apple은 WWDC26을 앞두고 36개 최종 후보 중 6개 부문에서 앱 6개와 게임 6개, 총 12개 수상작을 선정했다.",
+    "companies": []
+  },
+  {
+    "title": "iOS 27 베타 3의 Apple Intelligence와 Liquid Glass 개선",
+    "url": "https://www.vietnam.vn/ko/ios-27-beta-3-apple-intelligence-va-buoc-tien-moi-cua-giao-dien-liquid-glass",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-07-08",
+    "sourceNote": "2026-07-09-ios-27-3-apple-intelligence-liquid-glass",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "iOS 27 베타 3는 Siri의 AI 기능 강화, Liquid Glass UI 개인화, 성능 및 연결성 최적화에 초점을 둔 개발자 베타 업데이트로 요약된다.",
     "companies": []
   },
   {
@@ -3948,6 +3985,28 @@
         "label": "현대건설",
         "ticker": "000720",
         "sector": "건설, 원전 시공, 인프라"
+      }
+    ]
+  },
+  {
+    "title": "[단독] 아시아나·대한항공, 한국 최초 '스타링크' 장착",
+    "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=848846",
+    "category": "travel",
+    "categoryLabel": "여행",
+    "status": "pending",
+    "updated": "2026-07-08",
+    "sourceNote": "2026-07-09-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "통합을 앞둔 아시아나항공과 대한항공이 국내 항공업계 최초로 에어버스 A350-900 기종에 스페이스X의 위성인터넷 서비스인 '스타링크(Starlink)' 안테나 장착 작업을 시작했습니다.",
+    "companies": [
+      {
+        "id": "korean-air",
+        "label": "대한항공",
+        "ticker": "003490",
+        "sector": "airline"
       }
     ]
   }
