@@ -1,5 +1,33 @@
 [
   {
+    "title": "[단독]엔비디아와 로봇동맹 LG전자, 피지컬AI 사업화에 운명 건다",
+    "url": "https://www.donga.com/news/Economy/article/all/20260707/134253864/2",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-07-08",
+    "sourceNote": "2026-07-09-lg-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LG전자가 엔비디아와의 차세대 로보틱스 동맹을 바탕으로 CEO 직속 로보틱스사업센터를 신설하고, 대규모 로봇학습용 데이터팩토리를 서울 양재에 구축하여 피지컬 AI 사업화에 속도를 냅니다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-electronics",
+        "label": "LG전자",
+        "ticker": "066570",
+        "sector": "electronics"
+      }
+    ]
+  },
+  {
     "title": "구글 Open Knowledge Format(OKF) 공개 - AI 에이전트를 위한 지식 공유 표준",
     "url": "https://news.hada.io/topic?id=30622",
     "category": "ai",
@@ -84,6 +112,34 @@
     ],
     "description": "GeekNews에 공유된 The Art of Loop Engineering 메모다. 안정적인 LLM 에이전트는 모델 단독 성능보다 작업 맞춤형 하네스와 반복 루프 설계에 좌우된다는 관점을 정리한다.",
     "companies": []
+  },
+  {
+    "title": "애플, 보급형 XR 디스플레이 개발 백지화",
+    "url": "https://www.thelec.kr/news/articleView.html?idxno=59241",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-07-08",
+    "sourceNote": "2026-07-09-xr",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "애플이 Vision Pro 후속으로 검토하던 저가·경량형 XR 기기용 디스플레이 개발을 중단한 것으로 전해졌다.",
+    "companies": [
+      {
+        "id": "samsung-display",
+        "label": "삼성디스플레이",
+        "ticker": "비상장",
+        "sector": "display"
+      },
+      {
+        "id": "samsung-electronics",
+        "label": "삼성전자",
+        "ticker": "005930",
+        "sector": "semiconductors"
+      }
+    ]
   },
   {
     "title": "에르메스 에이전트(Hermes Agent)로 AI 업무 자동화와 나만의 AI 팀 운영을 다루는 실전 가이드",
@@ -392,6 +448,21 @@
       "evals"
     ],
     "description": "PyTorch KR 게시글 요약 메모다. AHE는 코딩 에이전트 성능 차이를 모델보다 하네스 설계와 관측 가능성에서 찾고, 하네스 전체를 분해 가능한 편집 표면으로 다루며 자동 개선하는 프레임워크를 설명한다.",
+    "companies": []
+  },
+  {
+    "title": "AI 시대, Figma를 다시 생각하다",
+    "url": "https://news.hada.io/topic?id=31169",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-07-08",
+    "sourceNote": "2026-07-09-ai-figma",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI의 발전으로 기획과 프로토타이핑이 코드로 직결되면서 Figma의 캔버스 중심 디자인 워크플로와 협업 좌석(seat) 비즈니스 모델이 위협받고 있으며, 이에 대응해 Figma는 Config 2026에서 디자인 데이터를 코드 및 에이전트 워크플로로 확장하여 플랫폼 레이어로서 생존을 도모하고 있습니다.",
     "companies": []
   },
   {
@@ -1895,6 +1966,21 @@
       "cholesterol"
     ],
     "description": "Daum 뉴스에 공유된 하이닥 건강정보 기사 요약 메모다. LDL 콜레스테롤 관리를 위해 식이섬유, 불포화지방, 오메가-3가 풍부한 식품을 늘리고 생활 습관 개선을 병행해야 한다는 내용을 다룬다.",
+    "companies": []
+  },
+  {
+    "title": "혈관 건강에 도움 되는 음식 5가지",
+    "url": "https://v.daum.net/v/20260708123108159",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-07-08",
+    "sourceNote": "2026-07-09-5",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "기사 원문 추출문은 동맥경화 위험을 낮추는 식품으로 고등어, 비트, 엑스트라버진 올리브오일, 귀리, 다크초콜릿을 제시한다.",
     "companies": []
   },
   {
