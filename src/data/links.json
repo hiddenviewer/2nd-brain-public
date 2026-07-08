@@ -3006,6 +3006,31 @@
     ]
   },
   {
+    "title": "아시아나·대한항공, 국내 항공업계 최초 Starlink 장착 착수 보도",
+    "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=848846",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-07-09",
+    "sourceNote": "2026-07-09-korean-air-asiana-starlink",
+    "tags": [
+      "kr-stocks",
+      "korean-air",
+      "asiana",
+      "airline",
+      "starlink"
+    ],
+    "description": "2026년 7월 7일 한스경제 단독 보도 기준으로, 아시아나항공과 대한항공이 국내 항공업계 최초로 Airbus A350-900 기종에 SpaceX의 Starlink 기내 위성인터넷 안테나 장착 작업을 시작했다는 내용이다.",
+    "companies": [
+      {
+        "id": "korean-air",
+        "label": "대한항공",
+        "ticker": "003490",
+        "sector": "airline"
+      }
+    ]
+  },
+  {
     "title": "연준의 새로운 금융환경지수 FCI-G, 연준 통화정책과 미국경제에 미치는 영향",
     "url": "https://naver.me/Fnsi0iAC",
     "category": "investing",
@@ -3962,28 +3987,6 @@
         "label": "현대건설",
         "ticker": "000720",
         "sector": "건설, 원전 시공, 인프라"
-      }
-    ]
-  },
-  {
-    "title": "[단독] 아시아나·대한항공, 한국 최초 '스타링크' 장착",
-    "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=848846",
-    "category": "travel",
-    "categoryLabel": "여행",
-    "status": "pending",
-    "updated": "2026-07-08",
-    "sourceNote": "2026-07-09-untitled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "통합을 앞둔 아시아나항공과 대한항공이 국내 항공업계 최초로 에어버스 A350-900 기종에 스페이스X의 위성인터넷 서비스인 '스타링크(Starlink)' 안테나 장착 작업을 시작했습니다.",
-    "companies": [
-      {
-        "id": "korean-air",
-        "label": "대한항공",
-        "ticker": "003490",
-        "sector": "airline"
       }
     ]
   }
