@@ -477,14 +477,15 @@
     "url": "https://news.hada.io/topic?id=31169",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-07-08",
+    "status": "public",
+    "updated": "2026-07-09",
     "sourceNote": "2026-07-09-ai-figma",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "design-tools",
+      "figma"
     ],
-    "description": "AI의 발전으로 기획과 프로토타이핑이 코드로 직결되면서 Figma의 캔버스 중심 디자인 워크플로와 협업 좌석(seat) 비즈니스 모델이 위협받고 있으며, 이에 대응해 Figma는 Config 2026에서 디자인 데이터를 코드 및 에이전트 워크플로로 확장하여 플랫폼 레이어로서 생존을 도모하고 있습니다.",
+    "description": "GeekNews에 공유된 Figma 전략 해석 메모다. AI 코딩 도구와 에이전트 워크플로가 정적 목업과 handoff 단계를 줄이면서, Figma의 캔버스 중심 제품 경험과 협업 좌석 모델이 동시에 압박받고 있다는 관점을 제시한다.",
     "companies": []
   },
   {
