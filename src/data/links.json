@@ -86,34 +86,6 @@
     "companies": []
   },
   {
-    "title": "애플, 보급형 XR 디스플레이 개발 백지화",
-    "url": "https://www.thelec.kr/news/articleView.html?idxno=59241",
-    "category": "ai",
-    "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-07-08",
-    "sourceNote": "2026-07-09-xr",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "애플이 Vision Pro 후속으로 검토하던 저가·경량형 XR 기기용 디스플레이 개발을 중단한 것으로 전해졌다.",
-    "companies": [
-      {
-        "id": "samsung-display",
-        "label": "삼성디스플레이",
-        "ticker": "비상장",
-        "sector": "display"
-      },
-      {
-        "id": "samsung-electronics",
-        "label": "삼성전자",
-        "ticker": "005930",
-        "sector": "semiconductors"
-      }
-    ]
-  },
-  {
     "title": "에르메스 에이전트(Hermes Agent)로 AI 업무 자동화와 나만의 AI 팀 운영을 다루는 실전 가이드",
     "url": "https://wikidocs.net/book/19686",
     "category": "ai",
@@ -1929,6 +1901,39 @@
     "companies": []
   },
   {
+    "title": "애플, 보급형 XR 디스플레이 개발 백지화",
+    "url": "https://www.thelec.kr/news/articleView.html?idxno=59241",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "public",
+    "updated": "2026-07-09",
+    "sourceNote": "2026-07-09-xr",
+    "tags": [
+      "apple",
+      "xr",
+      "smart-glasses",
+      "display",
+      "oled",
+      "samsung-display",
+      "kr-stocks"
+    ],
+    "description": "디일렉 기사 요약 메모다. Apple이 Vision Pro 후속 또는 보급형 XR 기기 후보로 검토하던 저가·경량형 디스플레이 개발을 중단했고, 이에 따라 삼성디스플레이의 Apple XR 기기용 유리 기판 기반 마이크로 OLED 과제 G-VR가 조기 종료 수순에 들어갔다는 내용을 다룬다.",
+    "companies": [
+      {
+        "id": "apple-inc",
+        "label": "Apple Inc.",
+        "ticker": "",
+        "sector": ""
+      },
+      {
+        "id": "samsung-display",
+        "label": "삼성디스플레이",
+        "ticker": "비상장",
+        "sector": "display"
+      }
+    ]
+  },
+  {
     "title": "애플경제 기사 접근 불가 메모",
     "url": "http://www.apple-economy.com/news/articleView.html?idxno=78746",
     "category": "general",
@@ -2438,6 +2443,12 @@
     ],
     "description": "2026년 6월 27일 캡처 기준으로, 블로터 기사는 대한항공이 아시아나항공과의 합병 인가를 넘었지만 2026년 12월 통합 항공사 출범 전후로 아시아나의 적자와 고부채 구조, PMI 비용, 마일리지와 조직 통합 과제를 흡수해야 한다고 정리한다.",
     "companies": [
+      {
+        "id": "asiana-airlines",
+        "label": "아시아나항공",
+        "ticker": "020560",
+        "sector": "airline"
+      },
       {
         "id": "korean-air",
         "label": "대한항공",
@@ -3022,6 +3033,12 @@
     ],
     "description": "2026년 7월 7일 한스경제 단독 보도 기준으로, 아시아나항공과 대한항공이 국내 항공업계 최초로 Airbus A350-900 기종에 SpaceX의 Starlink 기내 위성인터넷 안테나 장착 작업을 시작했다는 내용이다.",
     "companies": [
+      {
+        "id": "asiana-airlines",
+        "label": "아시아나항공",
+        "ticker": "020560",
+        "sector": "airline"
+      },
       {
         "id": "korean-air",
         "label": "대한항공",
