@@ -2410,6 +2410,34 @@
     ]
   },
   {
+    "title": "디바이스, CSOT 8.6세대 OLED 라인에 256억원 장비 수주",
+    "url": "https://www.creditnews.kr/news/articleView.html?idxno=3261",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-07-08",
+    "sourceNote": "2026-07-08-csot-8-6-oled-256",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "디바이스가 China Star Optoelectronics와 256억원 규모 OLED 제조장비 공급계약을 체결하며 BOE 이후 신규 중국 패널 투자 라인을 확보했다.",
+    "companies": [
+      {
+        "id": "device",
+        "label": "디바이스",
+        "ticker": "187870",
+        "sector": "display-semiconductor-equipment"
+      },
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      }
+    ]
+  },
+  {
     "title": "미국발 원전 기자재 발주 본격화 및 국내 밸류체인 수혜 전망",
     "url": "https://www.mk.co.kr/news/economy/12083979",
     "category": "investing",
