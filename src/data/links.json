@@ -2010,14 +2010,16 @@
     "url": "https://v.daum.net/v/20260708123108159",
     "category": "general",
     "categoryLabel": "기타",
-    "status": "pending",
-    "updated": "2026-07-08",
-    "sourceNote": "2026-07-09-5",
+    "status": "public",
+    "updated": "2026-07-09",
+    "sourceNote": "2026-07-08-vascular-health-foods",
     "tags": [
-      "inbox",
-      "article"
+      "health",
+      "nutrition",
+      "vascular-health",
+      "cholesterol"
     ],
-    "description": "기사 원문 추출문은 동맥경화 위험을 낮추는 식품으로 고등어, 비트, 엑스트라버진 올리브오일, 귀리, 다크초콜릿을 제시한다.",
+    "description": "Daum 뉴스에 공유된 하이닥 건강정보 기사 요약 메모다. 동맥경화 위험을 낮추고 혈관 내피 기능, LDL 콜레스테롤, 중성지방, 염증 관리에 도움 될 수 있는 식품으로 고등어, 비트, 엑스트라버진 올리브오일, 귀리, 다크초콜릿을 소개한다.",
     "companies": []
   },
   {
