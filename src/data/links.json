@@ -1,33 +1,5 @@
 [
   {
-    "title": "[단독]엔비디아와 로봇동맹 LG전자, 피지컬AI 사업화에 운명 건다",
-    "url": "https://www.donga.com/news/Economy/article/all/20260707/134253864/2",
-    "category": "ai",
-    "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-07-08",
-    "sourceNote": "2026-07-09-lg-ai",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "LG전자가 엔비디아와의 차세대 로보틱스 동맹을 바탕으로 CEO 직속 로보틱스사업센터를 신설하고, 대규모 로봇학습용 데이터팩토리를 서울 양재에 구축하여 피지컬 AI 사업화에 속도를 냅니다.",
-    "companies": [
-      {
-        "id": "lg-corp",
-        "label": "LG",
-        "ticker": "003550",
-        "sector": "holding-company"
-      },
-      {
-        "id": "lg-electronics",
-        "label": "LG전자",
-        "ticker": "066570",
-        "sector": "electronics"
-      }
-    ]
-  },
-  {
     "title": "구글 Open Knowledge Format(OKF) 공개 - AI 에이전트를 위한 지식 공유 표준",
     "url": "https://news.hada.io/topic?id=30622",
     "category": "ai",
