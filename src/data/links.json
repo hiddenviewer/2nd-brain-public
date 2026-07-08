@@ -2088,21 +2088,6 @@
     "companies": []
   },
   {
-    "title": "Investing.com 기사 본문 접근 제한",
-    "url": "https://kr.investing.com/news/stock-market-news/article-2008284",
-    "category": "general",
-    "categoryLabel": "기타",
-    "status": "pending",
-    "updated": "2026-07-08",
-    "sourceNote": "2026-07-08-investing-com",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "제공된 source context에는 기사 제목이나 본문이 없고, 접근 차단 화면 신호만 있어 내용을 요약할 수 없습니다.",
-    "companies": []
-  },
-  {
     "title": "Investing.com 기사 접근 불가 메모",
     "url": "https://kr.investing.com/news/economy-news/article-1915338",
     "category": "general",
@@ -2116,6 +2101,22 @@
       "investing"
     ],
     "description": "Investing.com 기사 링크를 저장하려 했지만, 현재 확보된 내용은 기사 본문이 아니라 원문 확인 실패 상태를 기록한 메모와 메타데이터뿐이다.",
+    "companies": []
+  },
+  {
+    "title": "Investing.com article-2008284 접근 불가 메모",
+    "url": "https://kr.investing.com/news/stock-market-news/article-2008284",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "review",
+    "updated": "2026-07-09",
+    "sourceNote": "2026-07-08-investing-com-2008284-inaccessible",
+    "tags": [
+      "article",
+      "inaccessible",
+      "investing"
+    ],
+    "description": "Investing.com 한국어 주식시장 뉴스 링크를 저장하려 했지만, 현재 확보된 내용은 기사 본문이 아니라 접근 제한 또는 추출 실패 상태를 기록한 메모와 메타데이터뿐이다.",
     "companies": []
   },
   {
