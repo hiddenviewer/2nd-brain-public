@@ -629,7 +629,7 @@
     "label": "디바이스",
     "ticker": "187870",
     "sector": "display-semiconductor-equipment",
-    "updated": "2026-06-29",
+    "updated": "2026-07-09",
     "confidence": "medium",
     "dartCorpCode": "00624509",
     "naverFinanceUrl": "https://finance.naver.com/item/main.naver?code=187870",
@@ -640,7 +640,8 @@
       "2026-04-10-device-bonus-issue",
       "2026-04-10-device-samsung-order",
       "2026-06-06-device-q1-boe-profitability",
-      "2026-06-29-csot-8-6-oled"
+      "2026-06-29-csot-8-6-oled",
+      "2026-07-08-csot-8-6-oled-256"
     ],
     "aliases": [
       "device",

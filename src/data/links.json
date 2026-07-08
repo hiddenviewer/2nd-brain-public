@@ -2552,26 +2552,24 @@
     "url": "https://www.creditnews.kr/news/articleView.html?idxno=3261",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-07-08",
+    "status": "public",
+    "updated": "2026-07-09",
     "sourceNote": "2026-07-08-csot-8-6-oled-256",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "device",
+      "display",
+      "oled",
+      "csot",
+      "order"
     ],
-    "description": "디바이스가 China Star Optoelectronics와 256억원 규모 OLED 제조장비 공급계약을 체결하며 BOE 이후 신규 중국 패널 투자 라인을 확보했다.",
+    "description": "디바이스가 China Star Optoelectronics(CSOT) 광저우 법인과 256억원 규모 OLED 제조장비 공급계약을 체결했다는 크레딧뉴스 기사 메모다. 2026년 6월 CSOT 8.6세대 OLED 공급사 선정 보도에서 확인되지 않았던 계약 금액과 납기 조건을 보강하는 source다.",
     "companies": [
       {
         "id": "device",
         "label": "디바이스",
         "ticker": "187870",
         "sector": "display-semiconductor-equipment"
-      },
-      {
-        "id": "sk-inc",
-        "label": "SK",
-        "ticker": "034730",
-        "sector": "holding-company"
       }
     ]
   },
@@ -3742,6 +3740,28 @@
         "label": "SK하이닉스",
         "ticker": "000660",
         "sector": "semiconductors"
+      }
+    ]
+  },
+  {
+    "title": "HBM 승부수 띄운 마이크론…국내 후공정 장비 수요 커진다 [반도체레이다]",
+    "url": "https://naver.me/xVRPBpvi",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-07-08",
+    "sourceNote": "2026-07-09-hbm",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "미국 Micron이 일본, 미국, 싱가포르 등 글로벌 주요 거점에서 D램 및 HBM 투자를 공격적으로 확대함에 따라, 한미반도체, SFA 등 국내 반도체 후공정 소재·부품·장비(소부장) 기업들의 수주 확대와 수혜 기대감이 고조되고 있습니다.",
+    "companies": [
+      {
+        "id": "sfa",
+        "label": "SFA",
+        "ticker": "056190",
+        "sector": "display-automation-equipment"
       }
     ]
   },
