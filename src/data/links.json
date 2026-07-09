@@ -1636,6 +1636,24 @@
     "companies": []
   },
   {
+    "title": "OpenAI, 실시간 대화 모델 GPT-Live 공개",
+    "url": "https://news.hada.io/topic?id=31254",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-07-10",
+    "sourceNote": "2026-07-09-openai-gpt-live",
+    "tags": [
+      "ai-agents",
+      "openai",
+      "chatgpt",
+      "voice",
+      "real-time"
+    ],
+    "description": "GeekNews에 공유된 OpenAI GPT-Live 공개 메모다. 기존 턴 기반 음성 대화의 지연과 끊김을 줄이기 위해 GPT-Live-1과 GPT-Live-1 mini가 전이중 대화 구조를 제공한다는 내용이다.",
+    "companies": []
+  },
+  {
     "title": "OpenKB: LLM이 문서를 자동으로 위키 형태의 지식 베이스로 컴파일하는 오픈소스 도구",
     "url": "https://discuss.pytorch.kr/t/openkb-llm/10058",
     "category": "ai",
@@ -1882,21 +1900,6 @@
       "app-design"
     ],
     "description": "Apple Newsroom의 2026 Apple 디자인 어워드 수상작 발표 자료다. Apple은 WWDC26을 앞두고 36개 최종 후보 중 6개 부문에서 앱 6개와 게임 6개, 총 12개 수상작을 선정했다.",
-    "companies": []
-  },
-  {
-    "title": "OpenAI, 실시간 대화 모델 'GPT-Live' 공개",
-    "url": "https://news.hada.io/topic?id=31254",
-    "category": "apple",
-    "categoryLabel": "Apple",
-    "status": "pending",
-    "updated": "2026-07-09",
-    "sourceNote": "2026-07-09-openai-gpt-live",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "OpenAI가 기존 턴 기반 음성 대화의 지연 및 끊김 문제를 개선하고, 동시에 듣고 말할 수 있는 전이중(Full-Duplex) 구조의 신규 음성 모델인 GPT-Live-1 및 GPT-Live-1 mini를 공개했습니다.",
     "companies": []
   },
   {
