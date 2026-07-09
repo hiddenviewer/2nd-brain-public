@@ -2557,6 +2557,104 @@
     ]
   },
   {
+    "title": "마이크론 HBM 투자 확대와 국내 후공정 장비 수요 기대",
+    "url": "https://naver.me/xVRPBpvi",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-07-10",
+    "sourceNote": "2026-07-09-hbm-micron-backend-equipment",
+    "tags": [
+      "kr-stocks",
+      "semiconductor",
+      "hbm",
+      "backend-equipment",
+      "micron"
+    ],
+    "description": "",
+    "companies": [
+      {
+        "id": "cmtx",
+        "label": "씨엠티엑스",
+        "ticker": "388210",
+        "sector": "semiconductor-components"
+      },
+      {
+        "id": "hanmi-semiconductor",
+        "label": "한미반도체",
+        "ticker": "042700",
+        "sector": "semiconductor-equipment"
+      },
+      {
+        "id": "pemtron",
+        "label": "펨트론",
+        "ticker": "168360",
+        "sector": "semiconductor-inspection-equipment"
+      },
+      {
+        "id": "sfa",
+        "label": "SFA",
+        "ticker": "056190",
+        "sector": "display-automation-equipment"
+      },
+      {
+        "id": "techwing",
+        "label": "테크윙",
+        "ticker": "089030",
+        "sector": "semiconductor-test-equipment"
+      }
+    ]
+  },
+  {
+    "title": "마이크론 HBM 투자 확대와 국내 후공정 장비 수요 기대",
+    "url": "https://www.ddaily.co.kr/page/view/2026070814344086757",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-07-10",
+    "sourceNote": "2026-07-09-hbm-micron-backend-equipment",
+    "tags": [
+      "kr-stocks",
+      "semiconductor",
+      "hbm",
+      "backend-equipment",
+      "micron"
+    ],
+    "description": "",
+    "companies": [
+      {
+        "id": "cmtx",
+        "label": "씨엠티엑스",
+        "ticker": "388210",
+        "sector": "semiconductor-components"
+      },
+      {
+        "id": "hanmi-semiconductor",
+        "label": "한미반도체",
+        "ticker": "042700",
+        "sector": "semiconductor-equipment"
+      },
+      {
+        "id": "pemtron",
+        "label": "펨트론",
+        "ticker": "168360",
+        "sector": "semiconductor-inspection-equipment"
+      },
+      {
+        "id": "sfa",
+        "label": "SFA",
+        "ticker": "056190",
+        "sector": "display-automation-equipment"
+      },
+      {
+        "id": "techwing",
+        "label": "테크윙",
+        "ticker": "089030",
+        "sector": "semiconductor-test-equipment"
+      }
+    ]
+  },
+  {
     "title": "미국발 원전 기자재 발주 본격화 및 국내 밸류체인 수혜 전망",
     "url": "https://www.mk.co.kr/news/economy/12083979",
     "category": "investing",
@@ -3754,28 +3852,6 @@
         "label": "SK하이닉스",
         "ticker": "000660",
         "sector": "semiconductors"
-      }
-    ]
-  },
-  {
-    "title": "HBM 승부수 띄운 마이크론…국내 후공정 장비 수요 커진다 [반도체레이다]",
-    "url": "https://naver.me/xVRPBpvi",
-    "category": "investing",
-    "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-07-08",
-    "sourceNote": "2026-07-09-hbm",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "미국 Micron이 일본, 미국, 싱가포르 등 글로벌 주요 거점에서 D램 및 HBM 투자를 공격적으로 확대함에 따라, 한미반도체, SFA 등 국내 반도체 후공정 소재·부품·장비(소부장) 기업들의 수주 확대와 수혜 기대감이 고조되고 있습니다.",
-    "companies": [
-      {
-        "id": "sfa",
-        "label": "SFA",
-        "ticker": "056190",
-        "sector": "display-automation-equipment"
       }
     ]
   },
