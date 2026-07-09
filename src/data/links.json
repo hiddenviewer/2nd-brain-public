@@ -1885,6 +1885,21 @@
     "companies": []
   },
   {
+    "title": "OpenAI, 실시간 대화 모델 'GPT-Live' 공개",
+    "url": "https://news.hada.io/topic?id=31254",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-07-09",
+    "sourceNote": "2026-07-09-openai-gpt-live",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "OpenAI가 기존 턴 기반 음성 대화의 지연 및 끊김 문제를 개선하고, 동시에 듣고 말할 수 있는 전이중(Full-Duplex) 구조의 신규 음성 모델인 GPT-Live-1 및 GPT-Live-1 mini를 공개했습니다.",
+    "companies": []
+  },
+  {
     "title": "디지털데일리 기사 접근 불가 메모",
     "url": "https://www.ddaily.co.kr/page/view/2026042413063740344",
     "category": "general",
