@@ -1230,21 +1230,6 @@
     "companies": []
   },
   {
-    "title": "Coursera로 컴퓨터 과학 학위 마치기",
-    "url": "https://news.hada.io/topic?id=31181",
-    "category": "ai",
-    "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-07-10",
-    "sourceNote": "2026-07-11-coursera",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "학위 없이 21년 가까이 경력을 쌓아온 소프트웨어 개발자/MLE가 Coursera를 활용해 런던대학교 컴퓨터과학(CS) 학사 학위를 일과 병행하며 3년 9개월 만에 취득한 경험담 및 분석.",
-    "companies": []
-  },
-  {
     "title": "DESIGN.md: AI 코딩 도구를 위한 디자인 시스템 단일 파일 포맷 정리",
     "url": "https://news.hada.io/topic?id=28861",
     "category": "ai",
@@ -2078,6 +2063,24 @@
       "thrombosis"
     ],
     "description": "헬스조선의 2026년 6월 19일 기사 요약 메모다. 미역·다시마, 깨, 생마늘이 혈전 억제나 혈관 건강에 도움을 줄 수 있고, 초가공식품은 정맥혈전색전증 위험 증가와 연결될 수 있다는 일반 건강정보를 다룬다.",
+    "companies": []
+  },
+  {
+    "title": "Coursera로 컴퓨터 과학 학위 마치기",
+    "url": "https://news.hada.io/topic?id=31181",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "public",
+    "updated": "2026-07-11",
+    "sourceNote": "2026-07-11-coursera",
+    "tags": [
+      "cs",
+      "learning",
+      "career",
+      "ai-policy",
+      "article"
+    ],
+    "description": "GeekNews에 공유된 Coursera 기반 University of London 컴퓨터과학 학사 과정 후기 요약 메모다. 21년 경력의 소프트웨어 개발자/MLE가 학위 없이 경력을 쌓아오다 해외 취업 비자와 지식 공백 문제를 해결하기 위해 온라인 CS 학위를 병행했고, 3년 9개월 만에 마쳤다는 경험담을 다룬다.",
     "companies": []
   },
   {
