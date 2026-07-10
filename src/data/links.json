@@ -86,34 +86,6 @@
     "companies": []
   },
   {
-    "title": "메모리 가격 상승이 LTPO OLED 수요와 LG디스플레이에 미치는 영향",
-    "url": "https://v.daum.net/v/VC7tgvb0YA?f=p",
-    "category": "ai",
-    "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-07-10",
-    "sourceNote": "2026-07-11-ltpo-oled-lg",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "메모리 가격 상승과 AI 스마트폰 확산으로 스마트폰 시장이 프리미엄 중심으로 이동하면서 LTPO OLED 수요와 LG디스플레이의 고부가 OLED 사업이 주목받고 있다.",
-    "companies": [
-      {
-        "id": "lg-corp",
-        "label": "LG",
-        "ticker": "003550",
-        "sector": "holding-company"
-      },
-      {
-        "id": "lg-display",
-        "label": "LG디스플레이",
-        "ticker": "034220",
-        "sector": "display"
-      }
-    ]
-  },
-  {
     "title": "에르메스 에이전트(Hermes Agent)로 AI 업무 자동화와 나만의 AI 팀 운영을 다루는 실전 가이드",
     "url": "https://wikidocs.net/book/19686",
     "category": "ai",
@@ -2801,6 +2773,43 @@
         "label": "테크윙",
         "ticker": "089030",
         "sector": "semiconductor-test-equipment"
+      }
+    ]
+  },
+  {
+    "title": "메모리 가격 상승이 LTPO OLED 수요와 LG디스플레이에 미치는 영향",
+    "url": "https://v.daum.net/v/VC7tgvb0YA?f=p",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-07-11",
+    "sourceNote": "2026-07-11-ltpo-oled-lg",
+    "tags": [
+      "kr-stocks",
+      "display",
+      "oled",
+      "ltpo",
+      "apple-supply-chain"
+    ],
+    "description": "메모리 가격 상승으로 스마트폰 제조사의 원가 부담이 커지면서, 제조사가 ASP가 높은 프리미엄 스마트폰 비중을 확대할 수 있고 이 과정에서 전력 효율이 높은 LTPO OLED 수요가 늘 수 있다는 기사다. 기존 [[lg-display|LG디스플레이]]와 [[k-display-oled|K-디스플레이 OLED]] 논지 중 Apple향·프리미엄 모바일 OLED, 한국 업체의 고난도 LTPO 공정 ",
+    "companies": [
+      {
+        "id": "apple-inc",
+        "label": "Apple Inc.",
+        "ticker": "",
+        "sector": ""
+      },
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-display",
+        "label": "LG디스플레이",
+        "ticker": "034220",
+        "sector": "display"
       }
     ]
   },

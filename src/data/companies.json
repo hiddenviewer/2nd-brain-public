@@ -4602,7 +4602,7 @@
     "label": "LG디스플레이",
     "ticker": "034220",
     "sector": "display",
-    "updated": "2026-06-28",
+    "updated": "2026-07-11",
     "confidence": "medium",
     "dartCorpCode": "00105873",
     "naverFinanceUrl": "https://finance.naver.com/item/main.naver?code=034220",
@@ -4610,7 +4610,8 @@
       "2026-05-11-oled-lg",
       "2026-06-03-lg-oled",
       "2026-06-06-ai-lg",
-      "2026-06-27-lg"
+      "2026-06-27-lg",
+      "2026-07-11-ltpo-oled-lg"
     ],
     "aliases": [
       "lg-display",
