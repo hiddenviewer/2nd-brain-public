@@ -86,6 +86,34 @@
     "companies": []
   },
   {
+    "title": "메모리 가격 상승이 LTPO OLED 수요와 LG디스플레이에 미치는 영향",
+    "url": "https://v.daum.net/v/VC7tgvb0YA?f=p",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-07-10",
+    "sourceNote": "2026-07-11-ltpo-oled-lg",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "메모리 가격 상승과 AI 스마트폰 확산으로 스마트폰 시장이 프리미엄 중심으로 이동하면서 LTPO OLED 수요와 LG디스플레이의 고부가 OLED 사업이 주목받고 있다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-display",
+        "label": "LG디스플레이",
+        "ticker": "034220",
+        "sector": "display"
+      }
+    ]
+  },
+  {
     "title": "에르메스 에이전트(Hermes Agent)로 AI 업무 자동화와 나만의 AI 팀 운영을 다루는 실전 가이드",
     "url": "https://wikidocs.net/book/19686",
     "category": "ai",
@@ -220,6 +248,28 @@
     ],
     "description": "PyTorchKR의 주간 큐레이션 글로, 2026년 4월 20일~26일 사이 눈여겨볼 AI/ML 논문 10편을 RAG, 자율 에이전트 시스템, 트랜스포머 아키텍처 효율화 흐름 중심으로 묶어 소개한다.",
     "companies": []
+  },
+  {
+    "title": "철강업계도 AI 덕에 웃는다… 美 데이터센터 건설 붐에 철근 수요 급증",
+    "url": "https://biz.chosun.com/industry/company/2026/07/09/2SJJBP7RHNEPFK3CYQWGWVJXQQ/",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-07-10",
+    "sourceNote": "2026-07-11-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI 시장 팽창과 미국 빅테크 기업들의 데이터센터 및 ESS 인프라 건설 붐으로 인해 국내 철강업계의 대미 철근 수출이 급증하고 있으며, 국내 주요 철강사들은 관련 전담 조직을 가동하여 수요에 적극 대응하고 있습니다.",
+    "companies": [
+      {
+        "id": "hyundai-steel",
+        "label": "현대제철",
+        "ticker": "004020",
+        "sector": "steel"
+      }
+    ]
   },
   {
     "title": "취향(taste)을 갖춘 30배 AI 엔지니어가 되는 법",
@@ -1202,6 +1252,21 @@
     "companies": []
   },
   {
+    "title": "Coursera로 컴퓨터 과학 학위 마치기",
+    "url": "https://news.hada.io/topic?id=31181",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-07-10",
+    "sourceNote": "2026-07-11-coursera",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "학위 없이 21년 가까이 경력을 쌓아온 소프트웨어 개발자/MLE가 Coursera를 활용해 런던대학교 컴퓨터과학(CS) 학사 학위를 일과 병행하며 3년 9개월 만에 취득한 경험담 및 분석.",
+    "companies": []
+  },
+  {
     "title": "DESIGN.md: AI 코딩 도구를 위한 디자인 시스템 단일 파일 포맷 정리",
     "url": "https://news.hada.io/topic?id=28861",
     "category": "ai",
@@ -1430,6 +1495,28 @@
     ],
     "description": "News.Hada에 올라온 Google I/O 2026 키노트 요약 메모다. Gemini Omni, Gemini 3.5 Flash, Google Search의 에이전트형 UI, 개인 브리핑·백그라운드 에이전트, 스마트 안경, SynthID, Gemini for Science 등을 12개 발표로 정리한다.",
     "companies": []
+  },
+  {
+    "title": "Google Labs의 AI 기반 UI 디자인 도구 'Google Stitch' 및 SDK/MCP 출시 분석",
+    "url": "https://discuss.pytorch.kr/t/google-stitch-ui-google-labs-stitch-sdk-mcp-design-md-agent-skills/11094",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-07-10",
+    "sourceNote": "2026-07-11-google-labs-ai-ui-google-stitch-sdk-mcp",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "자연어 프롬프트나 스크린샷으로 UI를 생성하고 Figma 및 HTML/CSS로 내보낼 수 있는 Google Labs의 AI 네이티브 디자인 도구 'Google Stitch'와 그 활용 방법(DESIGN.md, MCP, Agent Skills, SDK)에 대한 요약입니다.",
+    "companies": [
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      }
+    ]
   },
   {
     "title": "Harness Engineering",
@@ -2099,6 +2186,21 @@
     "companies": []
   },
   {
+    "title": "LDL 콜레스테롤 관리에 도움 되는 식품 4가지",
+    "url": "https://health.chosun.com/site/data/html_dir/2026/07/09/2026070902381.html",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-07-10",
+    "sourceNote": "2026-07-11-ldl-4",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "헬스조선 기사는 건자두, 가지, 검은콩, 갈조류가 LDL 콜레스테롤 개선과 혈관 건강에 도움이 될 수 있다고 소개한다.",
+    "companies": []
+  },
+  {
     "title": "The Edit 링크 접근 불가 메모",
     "url": "https://the-edit.co.kr/84624",
     "category": "general",
@@ -2224,6 +2326,58 @@
     ],
     "description": "Yozm IT 기사 링크를 저장하려 했지만, 현재 확보된 내용은 403 Forbidden으로 원문 확인에 실패했다는 메모와 메타데이터뿐이다. 실제 기사 제목과 본문은 확인되지 않는다.",
     "companies": []
+  },
+  {
+    "title": "[단독] 삼성SDI, AI 활용 배전망 ESS 배터리 첫 수주전서 완승",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=370186",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-07-10",
+    "sourceNote": "2026-07-11-sdi-ai-ess",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "수천억 원 규모의 'AI 활용 배전망 ESS 사업' 1차 수주전에서 삼성SDI가 NCA 삼원계 배터리를 앞세운 공격적인 제안으로 전체 32개 프로젝트 중 절반 이상을 수주하며 완승을 거두었습니다.",
+    "companies": [
+      {
+        "id": "hyundai-engineering-construction",
+        "label": "현대건설",
+        "ticker": "000720",
+        "sector": "건설, 원전 시공, 인프라"
+      },
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-energy-solution",
+        "label": "LG에너지솔루션",
+        "ticker": "373220",
+        "sector": "batteries"
+      },
+      {
+        "id": "samsung-sdi",
+        "label": "삼성SDI",
+        "ticker": "006400",
+        "sector": "batteries"
+      },
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      },
+      {
+        "id": "sk-on",
+        "label": "SK온",
+        "ticker": "",
+        "sector": "batteries"
+      }
+    ]
   },
   {
     "title": "계절근로자와 호르무즈·대만 리스크를 다룬 더 보다 108회",
@@ -2390,6 +2544,21 @@
         "sector": "internet-platform"
       }
     ]
+  },
+  {
+    "title": "넷마블, 자산 현금화와 수익구조 개선으로 턴어라운드 시도",
+    "url": "https://www.ajunews.com/view/20260705231916870",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-07-10",
+    "sourceNote": "2026-07-11-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "넷마블은 하이브 지분과 구로 지타워 매각으로 유동성을 확보하고, 넷마블네오 완전자회사 편입과 자체 결제 확대를 통해 이익 체질 개선을 추진하고 있다.",
+    "companies": []
   },
   {
     "title": "대한항공, 비상경영으로 고유가·고환율 대응",
@@ -3935,6 +4104,34 @@
         "label": "한국콜마",
         "ticker": "161890",
         "sector": "cosmetics-odm"
+      }
+    ]
+  },
+  {
+    "title": "K배터리 새 먹거리 ESS, 왜 생산 더딜까",
+    "url": "https://www.hankyung.com/article/2026070963001",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-07-10",
+    "sourceNote": "2026-07-11-k-ess",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "배터리 업계가 ESS 분야에서 '후공정 병목 현상'으로 생산 차질을 겪으며 2분기 매출이 시장 기대치를 하회했습니다. 미국 내 숙련 인력 부족과 LFP 배터리팩 조립 기술 한계가 주요 원인이며, 올해 4분기 이후 정상화될 것으로 보입니다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-energy-solution",
+        "label": "LG에너지솔루션",
+        "ticker": "373220",
+        "sector": "batteries"
       }
     ]
   },
