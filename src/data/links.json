@@ -250,28 +250,6 @@
     "companies": []
   },
   {
-    "title": "철강업계도 AI 덕에 웃는다… 美 데이터센터 건설 붐에 철근 수요 급증",
-    "url": "https://biz.chosun.com/industry/company/2026/07/09/2SJJBP7RHNEPFK3CYQWGWVJXQQ/",
-    "category": "ai",
-    "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-07-10",
-    "sourceNote": "2026-07-11-ai",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "AI 시장 팽창과 미국 빅테크 기업들의 데이터센터 및 ESS 인프라 건설 붐으로 인해 국내 철강업계의 대미 철근 수출이 급증하고 있으며, 국내 주요 철강사들은 관련 전담 조직을 가동하여 수요에 적극 대응하고 있습니다.",
-    "companies": [
-      {
-        "id": "hyundai-steel",
-        "label": "현대제철",
-        "ticker": "004020",
-        "sector": "steel"
-      }
-    ]
-  },
-  {
     "title": "취향(taste)을 갖춘 30배 AI 엔지니어가 되는 법",
     "url": "https://news.hada.io/topic?id=30338",
     "category": "ai",
@@ -3801,7 +3779,7 @@
     "category": "investing",
     "categoryLabel": "한국 주식",
     "status": "public",
-    "updated": "2026-06-01",
+    "updated": "2026-07-11",
     "sourceNote": "2026-05-17-korean-rebar-us-data-center-exports",
     "tags": [
       "kr-stocks",
@@ -3892,6 +3870,44 @@
         "label": "LG디스플레이",
         "ticker": "034220",
         "sector": "display"
+      }
+    ]
+  },
+  {
+    "title": "AI 데이터센터 건설 붐과 한국 철근 대미 수출 급증",
+    "url": "https://biz.chosun.com/industry/company/2026/07/09/2SJJBP7RHNEPFK3CYQWGWVJXQQ/",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-07-11",
+    "sourceNote": "2026-07-09-ai-data-center-rebar-steel-exports",
+    "tags": [
+      "kr-stocks",
+      "ai-infrastructure",
+      "data-center",
+      "steel",
+      "rebar",
+      "exports"
+    ],
+    "description": "조선비즈 기사 요약 메모다. 미국 빅테크의 AI 데이터센터와 ESS 인프라 건설이 늘면서 한국 철강사의 대미 철근 수출이 급증했고, 현대제철·동국제강·포스코가 관련 대응 조직을 강화하고 있다는 내용을 다룬다.",
+    "companies": [
+      {
+        "id": "dongkuk-steel",
+        "label": "동국제강",
+        "ticker": "460860",
+        "sector": "steel"
+      },
+      {
+        "id": "hyundai-steel",
+        "label": "현대제철",
+        "ticker": "004020",
+        "sector": "steel"
+      },
+      {
+        "id": "posco-holdings",
+        "label": "POSCO홀딩스",
+        "ticker": "005490",
+        "sector": "steel"
       }
     ]
   },
