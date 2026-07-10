@@ -2278,58 +2278,6 @@
     "companies": []
   },
   {
-    "title": "[단독] 삼성SDI, AI 활용 배전망 ESS 배터리 첫 수주전서 완승",
-    "url": "https://www.electimes.com/news/articleView.html?idxno=370186",
-    "category": "investing",
-    "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-07-10",
-    "sourceNote": "2026-07-11-sdi-ai-ess",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "수천억 원 규모의 'AI 활용 배전망 ESS 사업' 1차 수주전에서 삼성SDI가 NCA 삼원계 배터리를 앞세운 공격적인 제안으로 전체 32개 프로젝트 중 절반 이상을 수주하며 완승을 거두었습니다.",
-    "companies": [
-      {
-        "id": "hyundai-engineering-construction",
-        "label": "현대건설",
-        "ticker": "000720",
-        "sector": "건설, 원전 시공, 인프라"
-      },
-      {
-        "id": "lg-corp",
-        "label": "LG",
-        "ticker": "003550",
-        "sector": "holding-company"
-      },
-      {
-        "id": "lg-energy-solution",
-        "label": "LG에너지솔루션",
-        "ticker": "373220",
-        "sector": "batteries"
-      },
-      {
-        "id": "samsung-sdi",
-        "label": "삼성SDI",
-        "ticker": "006400",
-        "sector": "batteries"
-      },
-      {
-        "id": "sk-inc",
-        "label": "SK",
-        "ticker": "034730",
-        "sector": "holding-company"
-      },
-      {
-        "id": "sk-on",
-        "label": "SK온",
-        "ticker": "비상장",
-        "sector": "batteries"
-      }
-    ]
-  },
-  {
     "title": "계절근로자와 호르무즈·대만 리스크를 다룬 더 보다 108회",
     "url": "https://youtu.be/43YZuth7Gn8?si=vK2jumaWwlsJd5K0",
     "category": "investing",
@@ -3135,6 +3083,32 @@
       "ai-data-center"
     ],
     "description": "삼성SDI가 AI 데이터센터용 배터리, 미국 ESS 사업, 유럽 EV 배터리 가동률 회복에 힘입어 2026년 2분기 영업흑자 전환을 달성할 수 있다는 전망 기사 요약 메모다. 관세 환급은 보너스 성격의 일회성 이익 요인으로 제시되지만, 기사 자체는 본업 회복 여부를 핵심으로 본다.",
+    "companies": [
+      {
+        "id": "samsung-sdi",
+        "label": "삼성SDI",
+        "ticker": "006400",
+        "sector": "batteries"
+      }
+    ]
+  },
+  {
+    "title": "삼성SDI, AI 활용 배전망 ESS 배터리 첫 수주전서 완승",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=370186",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-07-11",
+    "sourceNote": "2026-07-11-sdi-ai-ess",
+    "tags": [
+      "kr-stocks",
+      "batteries",
+      "samsung-sdi",
+      "ess",
+      "ai-infrastructure",
+      "power-grid"
+    ],
+    "description": "전기신문 기사로, AI 활용 배전망 ESS 사업 1차 수주전에서 삼성SDI가 전체 32개 프로젝트 중 절반 이상에 배터리를 공급하는 것으로 보도됐다는 메모다. 국내 배터리 3사의 ESS 수주 경쟁에서 삼성SDI가 NCA 삼원계 배터리와 공격적 가격 제안으로 초기 점유율을 확보했다는 신호로 다룬다.",
     "companies": [
       {
         "id": "samsung-sdi",
