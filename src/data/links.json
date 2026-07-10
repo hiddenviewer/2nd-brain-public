@@ -4139,29 +4139,37 @@
     ]
   },
   {
-    "title": "K배터리 새 먹거리 ESS, 왜 생산 더딜까",
+    "title": "K배터리 ESS 생산 지연의 후공정 병목",
     "url": "https://www.hankyung.com/article/2026070963001",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-07-10",
+    "status": "public",
+    "updated": "2026-07-11",
     "sourceNote": "2026-07-11-k-ess",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "batteries",
+      "ess",
+      "lfp"
     ],
-    "description": "배터리 업계가 ESS 분야에서 '후공정 병목 현상'으로 생산 차질을 겪으며 2분기 매출이 시장 기대치를 하회했습니다. 미국 내 숙련 인력 부족과 LFP 배터리팩 조립 기술 한계가 주요 원인이며, 올해 4분기 이후 정상화될 것으로 보입니다.",
+    "description": "한국경제의 K배터리 ESS 생산 지연 관련 기사 요약 메모다. LG에너지솔루션, 삼성SDI, SK온 등 국내 배터리 3사가 ESS 수요 확대를 추적하고 있지만, 미국 현지 후공정 인력과 LFP 모듈·팩 조립 역량이 병목으로 작동해 생산 확대 속도가 기대보다 더딘 것으로 정리한다.",
     "companies": [
-      {
-        "id": "lg-corp",
-        "label": "LG",
-        "ticker": "003550",
-        "sector": "holding-company"
-      },
       {
         "id": "lg-energy-solution",
         "label": "LG에너지솔루션",
         "ticker": "373220",
+        "sector": "batteries"
+      },
+      {
+        "id": "samsung-sdi",
+        "label": "삼성SDI",
+        "ticker": "006400",
+        "sector": "batteries"
+      },
+      {
+        "id": "sk-on",
+        "label": "SK온",
+        "ticker": "",
         "sector": "batteries"
       }
     ]

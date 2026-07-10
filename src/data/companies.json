@@ -4966,13 +4966,14 @@
     "label": "LG에너지솔루션",
     "ticker": "373220",
     "sector": "batteries",
-    "updated": "2026-06-28",
+    "updated": "2026-07-11",
     "confidence": "medium",
     "dartCorpCode": "01515323",
     "naverFinanceUrl": "https://finance.naver.com/item/main.naver?code=373220",
     "sources": [
       "2026-06-21-ess-k",
-      "2026-06-27-lg"
+      "2026-06-27-lg",
+      "2026-07-11-k-ess"
     ],
     "aliases": [
       "lg-energy-solution",
@@ -7233,7 +7234,8 @@
       "2026-06-26-sdi-ess",
       "2026-06-27-lg",
       "2026-07-05-sdi-7",
-      "2026-07-07-sdi"
+      "2026-07-07-sdi",
+      "2026-07-11-k-ess"
     ],
     "aliases": [
       "samsung-sdi",
@@ -8109,12 +8111,13 @@
     "label": "SK온",
     "ticker": "",
     "sector": "batteries",
-    "updated": "2026-06-22",
+    "updated": "2026-07-11",
     "confidence": "low",
     "dartCorpCode": "",
     "naverFinanceUrl": "",
     "sources": [
-      "2026-06-21-ess-k"
+      "2026-06-21-ess-k",
+      "2026-07-11-k-ess"
     ],
     "aliases": [
       "sk-on",
