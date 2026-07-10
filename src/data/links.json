@@ -2179,21 +2179,6 @@
     "companies": []
   },
   {
-    "title": "LDL 콜레스테롤 관리에 도움 되는 식품 4가지",
-    "url": "https://health.chosun.com/site/data/html_dir/2026/07/09/2026070902381.html",
-    "category": "general",
-    "categoryLabel": "기타",
-    "status": "pending",
-    "updated": "2026-07-10",
-    "sourceNote": "2026-07-11-ldl-4",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "헬스조선 기사는 건자두, 가지, 검은콩, 갈조류가 LDL 콜레스테롤 개선과 혈관 건강에 도움이 될 수 있다고 소개한다.",
-    "companies": []
-  },
-  {
     "title": "The Edit 링크 접근 불가 메모",
     "url": "https://the-edit.co.kr/84624",
     "category": "general",
@@ -2367,7 +2352,7 @@
       {
         "id": "sk-on",
         "label": "SK온",
-        "ticker": "",
+        "ticker": "비상장",
         "sector": "batteries"
       }
     ]
@@ -3399,7 +3384,7 @@
       {
         "id": "sk-on",
         "label": "SK온",
-        "ticker": "",
+        "ticker": "비상장",
         "sector": "batteries"
       }
     ]
@@ -4169,7 +4154,7 @@
       {
         "id": "sk-on",
         "label": "SK온",
-        "ticker": "",
+        "ticker": "비상장",
         "sector": "batteries"
       }
     ]
