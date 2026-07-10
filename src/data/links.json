@@ -1460,26 +1460,38 @@
     "companies": []
   },
   {
-    "title": "Google Labs의 AI 기반 UI 디자인 도구 'Google Stitch' 및 SDK/MCP 출시 분석",
+    "title": "Google Labs의 AI 기반 UI 디자인 도구 Google Stitch 및 SDK/MCP 출시 분석",
+    "url": "https://stitch.googleapis.com/mcp",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-07-11",
+    "sourceNote": "2026-07-11-google-labs-ai-ui-google-stitch-sdk-mcp",
+    "tags": [
+      "ai-agents",
+      "design-tools",
+      "mcp",
+      "sdk"
+    ],
+    "description": "PyTorch Korea 포럼에 공유된 Google Labs Stitch 소개 메모다. 자연어 프롬프트, 와이어프레임, 스크린샷으로 UI를 만들고 Figma나 HTML/CSS로 내보내는 AI 디자인 캔버스와, 이를 에이전트 워크플로로 확장하는 DESIGN.md, MCP, Agent Skills, TypeScript/JavaScript SDK를 함께 정리한다.",
+    "companies": []
+  },
+  {
+    "title": "Google Labs의 AI 기반 UI 디자인 도구 Google Stitch 및 SDK/MCP 출시 분석",
     "url": "https://discuss.pytorch.kr/t/google-stitch-ui-google-labs-stitch-sdk-mcp-design-md-agent-skills/11094",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-07-10",
+    "status": "public",
+    "updated": "2026-07-11",
     "sourceNote": "2026-07-11-google-labs-ai-ui-google-stitch-sdk-mcp",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "design-tools",
+      "mcp",
+      "sdk"
     ],
-    "description": "자연어 프롬프트나 스크린샷으로 UI를 생성하고 Figma 및 HTML/CSS로 내보낼 수 있는 Google Labs의 AI 네이티브 디자인 도구 'Google Stitch'와 그 활용 방법(DESIGN.md, MCP, Agent Skills, SDK)에 대한 요약입니다.",
-    "companies": [
-      {
-        "id": "sk-inc",
-        "label": "SK",
-        "ticker": "034730",
-        "sector": "holding-company"
-      }
-    ]
+    "description": "PyTorch Korea 포럼에 공유된 Google Labs Stitch 소개 메모다. 자연어 프롬프트, 와이어프레임, 스크린샷으로 UI를 만들고 Figma나 HTML/CSS로 내보내는 AI 디자인 캔버스와, 이를 에이전트 워크플로로 확장하는 DESIGN.md, MCP, Agent Skills, TypeScript/JavaScript SDK를 함께 정리한다.",
+    "companies": []
   },
   {
     "title": "Harness Engineering",
