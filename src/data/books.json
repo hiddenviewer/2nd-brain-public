@@ -317,5 +317,24 @@
         "error": ""
       }
     ]
+  },
+  {
+    "id": "wikidocs-20530",
+    "title": "WikiDocs 책 20530",
+    "author": "",
+    "description": "",
+    "summary": "WikiDocs의 접근 제한으로 책 본문과 목차를 아직 확보하지 못했습니다.",
+    "domain": "cross-domain",
+    "status": "review",
+    "updated": "2026-07-12",
+    "sourceUrl": "https://wikidocs.net/book/20530",
+    "keyPoints": [],
+    "progress": {
+      "total": 0,
+      "summarized": 0,
+      "pending": 0,
+      "failed": 0
+    },
+    "chapters": []
   }
 ]
