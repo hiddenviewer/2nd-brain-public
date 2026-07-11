@@ -4,6 +4,7 @@ export const navigation = [
     items: [
       { label: '홈', href: '/' },
       { label: '전체 노트', href: '/notes/' },
+      { label: '책', href: '/books/' },
       { label: '링크 인덱스', href: '/links/' },
       { label: '기업별 링크', href: '/companies/' },
       { label: '지식 지도', href: '/map/' },

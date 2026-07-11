@@ -21,7 +21,7 @@ if (!hasChanges()) {
   process.exit(0)
 }
 
-run('git', ['add', 'src/data/links.json', 'src/data/companies.json'])
+run('git', ['add', 'src/data/links.json', 'src/data/companies.json', 'src/data/books.json'])
 if (!hasChanges()) {
   console.log('No staged public link changes to publish.')
   process.exit(0)

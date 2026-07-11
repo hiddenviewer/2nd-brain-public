@@ -6,8 +6,10 @@ const vaultRoot = new URL('../../', repoRoot)
 const sourceDir = new URL('02-wiki/sources/', vaultRoot)
 const inboxDir = new URL('00-inbox/', vaultRoot)
 const companyDir = new URL('02-wiki/companies/', vaultRoot)
+const bookDir = new URL('02-wiki/books/', vaultRoot)
 const outputPath = new URL('src/data/links.json', repoRoot)
 const companyOutputPath = new URL('src/data/companies.json', repoRoot)
+const bookOutputPath = new URL('src/data/books.json', repoRoot)
 
 const domainToCategory = {
   'ai-agents': 'ai',
@@ -220,6 +222,60 @@ async function loadCompanyCatalog() {
   return companies
 }
 
+async function loadBookCatalog() {
+  let directories = []
+  try {
+    directories = (await readdir(bookDir, { withFileTypes: true }))
+      .filter((entry) => entry.isDirectory())
+      .map((entry) => entry.name)
+      .sort()
+  } catch {
+    return []
+  }
+
+  const books = []
+  for (const id of directories) {
+    const statePath = join(bookDir.pathname, id, 'book-state.json')
+    let state
+    try {
+      state = JSON.parse(await readFile(statePath, 'utf8'))
+    } catch {
+      continue
+    }
+    const chapters = Array.isArray(state.toc) ? state.toc : []
+    const summarized = chapters.filter((chapter) => chapter.status === 'summarized').length
+    const failed = chapters.filter((chapter) => chapter.status === 'failed').length
+    books.push({
+      id,
+      title: state.title || id,
+      author: state.author || '',
+      description: state.description || '',
+      summary: state.summary || '',
+      domain: state.domain || 'cross-domain',
+      status: state.status || 'indexed',
+      updated: state.updated || '',
+      sourceUrl: state.source_url || '',
+      keyPoints: Array.isArray(state.key_points) ? state.key_points : [],
+      progress: {
+        total: chapters.length,
+        summarized,
+        pending: Math.max(0, chapters.length - summarized - failed),
+        failed,
+      },
+      chapters: chapters.map((chapter, index) => ({
+        position: chapter.position || index + 1,
+        title: chapter.title || `Chapter ${index + 1}`,
+        url: chapter.url || '',
+        status: chapter.status || 'pending',
+        summary: chapter.summary || '',
+        detail: chapter.detail || '',
+        error: chapter.error || '',
+      })),
+    })
+  }
+  return books
+}
+
 function detectCompanies({ sourceId = '', frontmatter = {}, markdown = '', metadata = {}, companies = [] }) {
   const tags = Array.isArray(frontmatter.tags) ? frontmatter.tags : []
   const sourceRefs = Array.isArray(frontmatter.sources) ? frontmatter.sources : []
@@ -248,6 +304,7 @@ function detectCompanies({ sourceId = '', frontmatter = {}, markdown = '', metad
 
 async function main() {
   const companies = await loadCompanyCatalog()
+  const books = await loadBookCatalog()
   const sourceFiles = (await readdir(sourceDir))
     .filter((file) => file.endsWith('.md'))
     .sort()
@@ -327,8 +384,10 @@ async function main() {
   await mkdir(new URL('src/data/', repoRoot), { recursive: true })
   await writeFile(outputPath, `${JSON.stringify(links, null, 2)}\n`)
   await writeFile(companyOutputPath, `${JSON.stringify(companies, null, 2)}\n`)
+  await writeFile(bookOutputPath, `${JSON.stringify(books, null, 2)}\n`)
   console.log(`Exported ${links.length} links to ${outputPath.pathname}`)
   console.log(`Exported ${companies.length} companies to ${companyOutputPath.pathname}`)
+  console.log(`Exported ${books.length} books to ${bookOutputPath.pathname}`)
 }
 
 main().catch((error) => {

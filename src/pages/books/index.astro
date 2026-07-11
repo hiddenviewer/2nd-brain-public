@@ -1,0 +1,44 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import books from '../../data/books.json'
+
+const base = import.meta.env.BASE_URL
+const basePath = base.endsWith('/') ? base : `${base}/`
+const withBase = (href) => `${basePath}${href.replace(/^\//, '')}`
+const sortedBooks = [...books].sort((a, b) => b.updated.localeCompare(a.updated) || a.title.localeCompare(b.title, 'ko'))
+---
+
+<BaseLayout title="책 | 2nd Brain Public" description="온라인 책을 목차별로 수집하고 순차 요약한 학습 페이지입니다.">
+  <main class="container section">
+    <div class="section-header">
+      <div>
+        <p class="eyebrow">Book ingest</p>
+        <h1>책</h1>
+      </div>
+      <p>전체 목차를 먼저 정리하고, 장별 상세 내용을 작은 배치로 보강합니다.</p>
+    </div>
+
+    <div class="book-list">
+      {sortedBooks.map((book) => {
+        const percent = book.progress.total
+          ? Math.round((book.progress.summarized / book.progress.total) * 100)
+          : 0
+        return (
+          <a class="book-list-item" href={withBase(`/books/${book.id}/`)}>
+            <div>
+              <span class="eyebrow">{book.domain} · {book.status}</span>
+              <h2>{book.title}</h2>
+              <p>{book.summary || book.description}</p>
+            </div>
+            <div class="book-list-progress" aria-label={`상세 요약 ${percent}% 완료`}>
+              <strong>{percent}%</strong>
+              <span>{book.progress.summarized}/{book.progress.total}장</span>
+              <progress value={book.progress.summarized} max={Math.max(book.progress.total, 1)}></progress>
+            </div>
+          </a>
+        )
+      })}
+    </div>
+  </main>
+</BaseLayout>
+

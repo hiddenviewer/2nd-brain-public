@@ -1,0 +1,109 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import books from '../../data/books.json'
+
+const base = import.meta.env.BASE_URL
+const basePath = base.endsWith('/') ? base : `${base}/`
+const withBase = (href) => `${basePath}${href.replace(/^\//, '')}`
+
+export function getStaticPaths() {
+  return books.map((book) => ({ params: { book: book.id }, props: { book } }))
+}
+
+const { book } = Astro.props
+const percent = book.progress.total
+  ? Math.round((book.progress.summarized / book.progress.total) * 100)
+  : 0
+const chapterId = (chapter) => `chapter-${chapter.position}`
+const detailBlocks = (detail = '') => detail
+  .split('\n')
+  .map((line) => line.trim())
+  .filter(Boolean)
+  .map((line) => {
+    if (line.startsWith('### ')) return { type: 'h4', text: line.slice(4) }
+    if (line.startsWith('## ')) return { type: 'h3', text: line.slice(3) }
+    if (line.startsWith('# ')) return { type: 'h3', text: line.slice(2) }
+    if (line.startsWith('- ')) return { type: 'bullet', text: line.slice(2) }
+    return { type: 'paragraph', text: line }
+  })
+---
+
+<BaseLayout title={`${book.title} | 2nd Brain Public`} description={book.summary}>
+  <main class="book-page">
+    <header class="book-header">
+      <div>
+        <a class="back-link" href={withBase('/books/')}>책 목록</a>
+        <p class="eyebrow">{book.domain} · {book.status}</p>
+        <h1>{book.title}</h1>
+        <p class="book-lead">{book.summary}</p>
+        <div class="book-meta">
+          <span>저자 {book.author || '확인 필요'}</span>
+          <span>업데이트 {book.updated || '확인 필요'}</span>
+          {book.sourceUrl && <a href={book.sourceUrl} target="_blank" rel="noreferrer">원문</a>}
+        </div>
+      </div>
+      <div class="book-progress-summary">
+        <strong>{percent}%</strong>
+        <span>상세 요약 {book.progress.summarized}/{book.progress.total}장</span>
+        <progress value={book.progress.summarized} max={Math.max(book.progress.total, 1)}></progress>
+        <small>대기 {book.progress.pending} · 실패 {book.progress.failed}</small>
+      </div>
+    </header>
+
+    <div class="book-reading-layout">
+      <aside class="book-toc" aria-label="책 목차">
+        <h2>목차</h2>
+        <ol>
+          {book.chapters.map((chapter) => (
+            <li class:list={[chapter.status]}>
+              <a href={`#${chapterId(chapter)}`}>
+                <span>{chapter.position}</span>
+                <span>{chapter.title}</span>
+              </a>
+            </li>
+          ))}
+        </ol>
+      </aside>
+
+      <article class="book-content">
+        {book.keyPoints.length > 0 && (
+          <section class="book-key-points">
+            <h2>책의 핵심</h2>
+            <ul>{book.keyPoints.map((point) => <li>{point}</li>)}</ul>
+          </section>
+        )}
+
+        {book.chapters.map((chapter) => (
+          <section id={chapterId(chapter)} class:list={['book-chapter', chapter.status]}>
+            <div class="book-chapter-heading">
+              <div>
+                <span class="chapter-number">{String(chapter.position).padStart(2, '0')}</span>
+                <h2>{chapter.title}</h2>
+              </div>
+              <span class:list={['chapter-status', chapter.status]}>{chapter.status}</span>
+            </div>
+            <p class="chapter-summary">{chapter.summary || '상세 수집 대기'}</p>
+
+            {chapter.status === 'summarized' ? (
+              <div class="chapter-detail">
+                {detailBlocks(chapter.detail).map((block) => {
+                  if (block.type === 'h3') return <h3>{block.text}</h3>
+                  if (block.type === 'h4') return <h4>{block.text}</h4>
+                  if (block.type === 'bullet') return <p class="detail-bullet">{block.text}</p>
+                  return <p>{block.text}</p>
+                })}
+              </div>
+            ) : chapter.status === 'failed' ? (
+              <p class="chapter-notice">수집 실패: {chapter.error || '다음 배치에서 재시도합니다.'}</p>
+            ) : (
+              <p class="chapter-notice">이 장은 다음 상세 처리 배치를 기다리고 있습니다.</p>
+            )}
+
+            {chapter.url && <a class="chapter-source" href={chapter.url} target="_blank" rel="noreferrer">장 원문</a>}
+          </section>
+        ))}
+      </article>
+    </div>
+  </main>
+</BaseLayout>
+
