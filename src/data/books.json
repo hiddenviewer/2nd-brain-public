@@ -94,7 +94,7 @@
       {
         "position": 8,
         "title": "08. 제1장. 하네스의 탄생: 배선, 테스트, AI 에이전트",
-        "url": "https://wikidocs.net/346099",
+        "url": "https://wikidocs.net/346793",
         "status": "pending",
         "summary": "배선 하네스와 테스트 하네스에서 AI 하네스로 이어지는 개념의 기원과 의미를 설명한다.",
         "detail": "",
@@ -103,7 +103,7 @@
       {
         "position": 9,
         "title": "09. 제2장. LLM 에이전트의 작동 원리",
-        "url": "https://wikidocs.net/346100",
+        "url": "https://wikidocs.net/346794",
         "status": "pending",
         "summary": "모델, 토큰, 컨텍스트 창, 도구 호출과 에이전트 루프가 결합되어 작업을 수행하는 원리를 다룬다.",
         "detail": "",
@@ -112,7 +112,7 @@
       {
         "position": 10,
         "title": "10. 제3장. 프롬프트와 컨텍스트 엔지니어링",
-        "url": "https://wikidocs.net/346101",
+        "url": "https://wikidocs.net/346795",
         "status": "pending",
         "summary": "작업 지시인 프롬프트와 작업에 필요한 정보 배치인 컨텍스트를 구분하고 설계 원칙을 설명한다.",
         "detail": "",
@@ -121,7 +121,7 @@
       {
         "position": 11,
         "title": "11. 제4장. 도구 엔지니어링과 MCP",
-        "url": "https://wikidocs.net/346102",
+        "url": "https://wikidocs.net/346796",
         "status": "pending",
         "summary": "도구의 이름, 설명, 입력과 출력 구조 및 MCP 기반 외부 시스템 연결 방법을 다룬다.",
         "detail": "",
@@ -130,7 +130,7 @@
       {
         "position": 12,
         "title": "12. 제5장. 평가 하네스와 신뢰성",
-        "url": "https://wikidocs.net/346103",
+        "url": "https://wikidocs.net/346797",
         "status": "pending",
         "summary": "테스트, 평가 사례, 루브릭, LLM 평가자와 회귀 평가를 이용해 결과의 신뢰성을 확인하는 방법을 설명한다.",
         "detail": "",
@@ -139,7 +139,7 @@
       {
         "position": 13,
         "title": "13. 제6장. OpenAI에서 하네스 구축하기",
-        "url": "https://wikidocs.net/346104",
+        "url": "https://wikidocs.net/346798",
         "status": "pending",
         "summary": "Responses API, Agents SDK, Codex와 Evals를 하네스 구성 요소의 관점에서 살펴본다.",
         "detail": "",
@@ -148,7 +148,7 @@
       {
         "position": 14,
         "title": "14. 제7장. Claude에서 하네스 구축하기",
-        "url": "https://wikidocs.net/346105",
+        "url": "https://wikidocs.net/346799",
         "status": "pending",
         "summary": "Claude Code, Claude Agent SDK, CLAUDE.md, Skills, subagent, hooks와 MCP의 실무 활용 흐름을 정리한다.",
         "detail": "",
@@ -157,7 +157,7 @@
       {
         "position": 15,
         "title": "15. 제8장. 장시간 실행 에이전트와 세션 인계",
-        "url": "https://wikidocs.net/346106",
+        "url": "https://wikidocs.net/346800",
         "status": "pending",
         "summary": "여러 세션에 걸친 작업에서 진행 파일, 기능 목록, Git 기록과 인수인계 정보가 필요한 이유를 설명한다.",
         "detail": "",
@@ -166,7 +166,7 @@
       {
         "position": 16,
         "title": "16. 제9장. Generator-Evaluator 하네스",
-        "url": "https://wikidocs.net/346107",
+        "url": "https://wikidocs.net/346801",
         "status": "pending",
         "summary": "결과를 만드는 역할과 평가하는 역할을 분리해 반복적으로 품질을 개선하는 구조를 다룬다.",
         "detail": "",
