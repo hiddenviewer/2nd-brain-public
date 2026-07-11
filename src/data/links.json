@@ -1953,6 +1953,21 @@
     "companies": []
   },
   {
+    "title": "문서 접근 제한으로 내용 확인 불가",
+    "url": "https://wikidocs.net/376847",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-07-11",
+    "sourceNote": "2026-07-11-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "제공된 소스 컨텍스트가 Cloudflare 대기 화면 수준이라 원문 내용을 확인할 수 없습니다.",
+    "companies": []
+  },
+  {
     "title": "애플, 보급형 XR 디스플레이 개발 백지화",
     "url": "https://www.thelec.kr/news/articleView.html?idxno=59241",
     "category": "general",
