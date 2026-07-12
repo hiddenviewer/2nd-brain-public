@@ -2166,6 +2166,34 @@
     "companies": []
   },
   {
+    "title": "LG전자, 로봇 액추에이터 ‘악시움’ 조기 양산",
+    "url": "https://www.mk.co.kr/news/business/12095018",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-07-12",
+    "sourceNote": "2026-07-12-lg",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LG전자가 휴머노이드 로봇 핵심 부품인 액추에이터 ‘악시움’ 생산을 앞당기며 로보틱스 사업 확대에 속도를 내고 있다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-electronics",
+        "label": "LG전자",
+        "ticker": "066570",
+        "sector": "electronics"
+      }
+    ]
+  },
+  {
     "title": "The Edit 링크 접근 불가 메모",
     "url": "https://the-edit.co.kr/84624",
     "category": "general",
