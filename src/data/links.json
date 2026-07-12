@@ -1898,29 +1898,6 @@
     "companies": []
   },
   {
-    "title": "삼성D, 세계 첫 8.6세대 IT OLED 양산 추진",
-    "url": "https://v.daum.net/v/20260531171800781",
-    "category": "apple",
-    "categoryLabel": "Apple",
-    "status": "pending",
-    "updated": "2026-07-12",
-    "sourceNote": "2026-07-12-d-8-6-it-oled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "삼성디스플레이가 2026년 7월부터 충남 아산 8.6세대 IT OLED 라인에서 세계 최초 양산에 나설 예정이라는 보도다.",
-    "companies": [
-      {
-        "id": "samsung-display",
-        "label": "삼성디스플레이",
-        "ticker": "비상장",
-        "sector": "display"
-      }
-    ],
-    "captureRepair": {}
-  },
-  {
     "title": "애플, Apple Intelligence 기반 차세대 Siri AI 공개",
     "url": "https://news.hada.io/topic?id=30313",
     "category": "apple",
@@ -3112,6 +3089,37 @@
         "label": "Apple Inc.",
         "ticker": "",
         "sector": ""
+      }
+    ]
+  },
+  {
+    "title": "삼성D, 세계 첫 8.6세대 IT OLED 양산 추진",
+    "url": "https://v.daum.net/v/20260531171800781",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-07-13",
+    "sourceNote": "2026-07-12-d-8-6-it-oled",
+    "tags": [
+      "kr-stocks",
+      "display",
+      "oled",
+      "samsung-display",
+      "apple-supply-chain"
+    ],
+    "description": "삼성디스플레이가 2026년 7월부터 충남 아산 8.6세대 IT OLED 라인에서 세계 최초 양산에 나설 예정이라는 Daum 기사 캡처 메모다. 기존 [[2026-06-01-8-6-it-oled|삼성디스플레이, 세계 첫 8.6세대 IT OLED 양산 예정]]과 같은 원문 URL을 다시 수집한 자료로 보이며, 장기 지식에는 신규 사건이 아니라 8.6세대 양산 예정·수율 90% 초과·Apple M",
+    "companies": [
+      {
+        "id": "apple-inc",
+        "label": "Apple Inc.",
+        "ticker": "",
+        "sector": ""
+      },
+      {
+        "id": "samsung-display",
+        "label": "삼성디스플레이",
+        "ticker": "비상장",
+        "sector": "display"
       }
     ]
   },
