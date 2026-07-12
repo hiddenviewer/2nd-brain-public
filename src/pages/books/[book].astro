@@ -14,6 +14,16 @@ const { book } = Astro.props
 const percent = book.progress.total
   ? Math.round((book.progress.summarized / book.progress.total) * 100)
   : 0
+const statusLabel = (status) => {
+  if (status === 'completed') return '완료'
+  if (status === 'partial') return '진행 중'
+  if (status === 'review') return '검토 필요'
+  if (status === 'indexed') return '목차 확보'
+  if (status === 'summarized') return '요약 완료'
+  if (status === 'pending') return '대기'
+  if (status === 'failed') return '실패'
+  return status
+}
 const chapterId = (chapter) => `chapter-${chapter.position}`
 const detailBlocks = (detail = '') => detail
   .split('\n')
@@ -33,7 +43,7 @@ const detailBlocks = (detail = '') => detail
     <header class="book-header">
       <div>
         <a class="back-link" href={withBase('/books/')}>책 목록</a>
-        <p class="eyebrow">{book.domain} · {book.status}</p>
+        <p class="eyebrow">{book.domain} · {statusLabel(book.status)}</p>
         <h1>{book.title}</h1>
         <p class="book-lead">{book.summary}</p>
         <div class="book-meta">
@@ -50,15 +60,57 @@ const detailBlocks = (detail = '') => detail
       </div>
     </header>
 
+    <section class="book-study-dashboard" aria-label="책 학습 현황">
+      <div class="book-study-card primary">
+        <span>상세 요약 완료</span>
+        <strong>{book.progress.summarized}</strong>
+        <small>{book.progress.total}개 장 중 {percent}%</small>
+      </div>
+      <div class="book-study-card">
+        <span>다음 처리 대상</span>
+        <strong>{Math.min(book.progress.pending + book.progress.failed, 3)}</strong>
+        <small>배치 단위 장 수</small>
+      </div>
+      <div class="book-study-card">
+        <span>대기</span>
+        <strong>{book.progress.pending}</strong>
+        <small>목차 요약만 보유</small>
+      </div>
+      <div class="book-study-card">
+        <span>실패</span>
+        <strong>{book.progress.failed}</strong>
+        <small>재시도 대상</small>
+      </div>
+    </section>
+
+    {book.keyPoints.length > 0 && (
+      <section class="book-learning-points">
+        <div>
+          <p class="eyebrow">Learning map</p>
+          <h2>이 책에서 배울 수 있는 것</h2>
+        </div>
+        <ul>{book.keyPoints.slice(0, 8).map((point) => <li>{point}</li>)}</ul>
+      </section>
+    )}
+
     <div class="book-reading-layout">
       <aside class="book-toc" aria-label="책 목차">
-        <h2>목차</h2>
+        <div class="book-toc-header">
+          <h2>목차</h2>
+          <div class="book-toc-filters" aria-label="목차 필터">
+            <button type="button" class="active" data-book-filter="all">전체</button>
+            <button type="button" data-book-filter="summarized">완료</button>
+            <button type="button" data-book-filter="pending">대기</button>
+            <button type="button" data-book-filter="failed">실패</button>
+          </div>
+        </div>
         <ol>
           {book.chapters.map((chapter) => (
-            <li class:list={[chapter.status]}>
+            <li class:list={[chapter.status]} data-chapter-status={chapter.status}>
               <a href={`#${chapterId(chapter)}`}>
                 <span>{chapter.position}</span>
                 <span>{chapter.title}</span>
+                <small>{statusLabel(chapter.status)}</small>
               </a>
             </li>
           ))}
@@ -66,21 +118,18 @@ const detailBlocks = (detail = '') => detail
       </aside>
 
       <article class="book-content">
-        {book.keyPoints.length > 0 && (
-          <section class="book-key-points">
-            <h2>책의 핵심</h2>
-            <ul>{book.keyPoints.map((point) => <li>{point}</li>)}</ul>
-          </section>
-        )}
-
         {book.chapters.map((chapter) => (
-          <section id={chapterId(chapter)} class:list={['book-chapter', chapter.status]}>
+          <section
+            id={chapterId(chapter)}
+            class:list={['book-chapter', chapter.status, chapter.status !== 'summarized' && 'compact']}
+            data-chapter-status={chapter.status}
+          >
             <div class="book-chapter-heading">
               <div>
                 <span class="chapter-number">{String(chapter.position).padStart(2, '0')}</span>
                 <h2>{chapter.title}</h2>
               </div>
-              <span class:list={['chapter-status', chapter.status]}>{chapter.status}</span>
+              <span class:list={['chapter-status', chapter.status]}>{statusLabel(chapter.status)}</span>
             </div>
             <p class="chapter-summary">{chapter.summary || '상세 수집 대기'}</p>
 
@@ -105,5 +154,19 @@ const detailBlocks = (detail = '') => detail
       </article>
     </div>
   </main>
-</BaseLayout>
+  <script>
+    const filterButtons = Array.from(document.querySelectorAll('[data-book-filter]'))
+    const filterTargets = Array.from(document.querySelectorAll('[data-chapter-status]'))
 
+    filterButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        const filter = button.getAttribute('data-book-filter')
+        filterButtons.forEach((item) => item.classList.toggle('active', item === button))
+        filterTargets.forEach((target) => {
+          const status = target.getAttribute('data-chapter-status')
+          target.toggleAttribute('hidden', filter !== 'all' && status !== filter)
+        })
+      })
+    })
+  </script>
+</BaseLayout>
