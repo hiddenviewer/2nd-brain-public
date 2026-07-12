@@ -17,20 +17,22 @@
     "companies": []
   },
   {
-    "title": "구글, ‘노트북LM’을 제미니에 직접 통합",
+    "title": "구글, 노트북LM을 제미니에 직접 통합",
     "url": "http://www.apple-economy.com/news/articleView.html?idxno=78746",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-07-12",
-    "sourceNote": "2026-07-12-lm",
+    "status": "public",
+    "updated": "2026-07-13",
+    "sourceNote": "2026-07-12-notebooklm-gemini-integration",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "google",
+      "gemini",
+      "notebooklm",
+      "workspace"
     ],
-    "description": "구글이 노트북LM을 제미니에 통합하여 사용자가 PDF, 구글 문서, 웹사이트 등의 개별 소스를 제미니 채팅 내에서 실시간 컨텍스트로 연동하고 답변을 생성할 수 있도록 지원합니다.",
-    "companies": [],
-    "captureRepair": {}
+    "description": "애플경제 기사 메모다. Google이 NotebookLM을 Gemini 인터페이스에 직접 통합해, 사용자가 별도 노트북에 모아 둔 PDF, Google Docs, 웹사이트 등 개별 소스 집합을 Gemini 채팅의 실시간 컨텍스트로 활용할 수 있게 했다고 정리한다.",
+    "companies": []
   },
   {
     "title": "구글, Nano Banana 2·Nano Banana Pro 정식 출시",
