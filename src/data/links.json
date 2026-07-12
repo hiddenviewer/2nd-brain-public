@@ -1950,23 +1950,17 @@
     "url": "https://the-edit.co.kr/84624",
     "category": "apple",
     "categoryLabel": "Apple",
-    "status": "pending",
-    "updated": "2026-07-12",
+    "status": "public",
+    "updated": "2026-07-13",
     "sourceNote": "2026-07-12-liquid-glass",
     "tags": [
-      "inbox",
-      "article"
+      "apple",
+      "ios",
+      "design",
+      "liquid-glass"
     ],
-    "description": "글은 Liquid Glass를 단순한 시각 효과가 아니라, 애플이 2007년 iPhone부터 이어온 ‘필요한 순간에만 드러나는 UI’ 철학의 연장선으로 해석한다.",
-    "companies": [
-      {
-        "id": "sk-inc",
-        "label": "SK",
-        "ticker": "034730",
-        "sector": "holding-company"
-      }
-    ],
-    "captureRepair": {}
+    "description": "The Edit 기사 메모로, Liquid Glass를 단순한 시각 효과가 아니라 2007년 iPhone부터 이어진 Apple의 \"필요한 순간에만 드러나는 UI\" 철학의 연장선으로 해석한다.",
+    "companies": []
   },
   {
     "title": "Apple WWDC 2026, Gemini 기반 Siri AI와 Tim Cook 퇴임 보도",
