@@ -2154,22 +2154,6 @@
     "companies": []
   },
   {
-    "title": "Chapter 04. draw.io를 사용하는 이유",
-    "url": "https://wikidocs.net/359432",
-    "category": "general",
-    "categoryLabel": "기타",
-    "status": "pending",
-    "updated": "2026-07-12",
-    "sourceNote": "2026-07-12-chapter-04-draw-io",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "이 글은 UML 클래스 다이어그램 학습 도구로 draw.io를 선택한 이유를 설명한다.",
-    "companies": [],
-    "captureRepair": {}
-  },
-  {
     "title": "Coursera로 컴퓨터 과학 학위 마치기",
     "url": "https://news.hada.io/topic?id=31181",
     "category": "general",
@@ -2249,6 +2233,22 @@
       "wikidocs"
     ],
     "description": "WikiDocs 문서 링크를 저장하려 했지만, 현재 확보된 내용은 실제 문서 본문이 아니라 Cloudflare 또는 유사한 접근 검증 화면으로 보이는 수집 실패 메모다. 추출된 제목은 Just a moment...뿐이라 문서의 실제 제목, 작성자, 발행 맥락, 핵심 주장을 확인할 수 없다.",
+    "companies": []
+  },
+  {
+    "title": "WikiDocs 페이지 접근 불가 메모",
+    "url": "https://wikidocs.net/359432",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "review",
+    "updated": "2026-06-01",
+    "sourceNote": "2026-06-01-wikidocs-inaccessible",
+    "tags": [
+      "article",
+      "inaccessible",
+      "wikidocs"
+    ],
+    "description": "WikiDocs 페이지 링크를 저장하려 했지만, 현재 확보된 내용은 실제 문서 본문이 아니라 접근 제한 또는 로딩 차단 상태를 기록한 inbox 메모다. 추출된 제목은 Just a moment...뿐이라 문서 주제, 작성자, 발행일, 핵심 논지를 확인할 수 없다.",
     "companies": []
   },
   {
