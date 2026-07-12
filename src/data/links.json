@@ -1865,6 +1865,29 @@
     "companies": []
   },
   {
+    "title": "삼성D, 세계 첫 8.6세대 IT OLED 양산 추진",
+    "url": "https://v.daum.net/v/20260531171800781",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-07-12",
+    "sourceNote": "2026-07-12-d-8-6-it-oled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "삼성디스플레이가 2026년 7월부터 충남 아산 8.6세대 IT OLED 라인에서 세계 최초 양산에 나설 예정이라는 보도다.",
+    "companies": [
+      {
+        "id": "samsung-display",
+        "label": "삼성디스플레이",
+        "ticker": "비상장",
+        "sector": "display"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "애플, Apple Intelligence 기반 차세대 Siri AI 공개",
     "url": "https://news.hada.io/topic?id=30313",
     "category": "apple",
@@ -1890,7 +1913,8 @@
         "ticker": "187870",
         "sector": "display-semiconductor-equipment"
       }
-    ]
+    ],
+    "captureRepair": null
   },
   {
     "title": "Apple WWDC 2026, Gemini 기반 Siri AI와 Tim Cook 퇴임 보도",
@@ -1949,7 +1973,8 @@
       "article"
     ],
     "description": "기술 인터뷰에서 '중앙값 계산' 문제를 통해 코딩 기초 및 API 설계 능력을 평가할 수 있다는 입장과, 특정 알고리즘(예: Quickselect) 암기 여부에 의존하게 되어 평가 도구로 부적절하다는 반론을 소개합니다.",
-    "companies": []
+    "companies": [],
+    "captureRepair": null
   },
   {
     "title": "디지털데일리 기사 접근 불가 메모",
@@ -2083,22 +2108,6 @@
     "companies": []
   },
   {
-    "title": "Daum 기사 접근 불가 메모",
-    "url": "https://v.daum.net/v/20260531171800781",
-    "category": "general",
-    "categoryLabel": "기타",
-    "status": "review",
-    "updated": "2026-06-01",
-    "sourceNote": "2026-06-01-daum-inaccessible",
-    "tags": [
-      "article",
-      "inaccessible",
-      "daum"
-    ],
-    "description": "Daum 뉴스 기사 링크를 저장하려 했지만, 현재 확보된 내용은 기사 본문이 아니라 본문 확인 실패 상태를 기록한 inbox 메모다. 원문 URL과 Discord 공유 흔적은 남아 있지만 실제 기사 제목, 본문, 기자명, 매체명은 확인되지 않는다.",
-    "companies": []
-  },
-  {
     "title": "Fincept Terminal 오픈소스 금융 분석 플랫폼 소개",
     "url": "https://news.hada.io/topic?id=29089",
     "category": "general",
@@ -2150,22 +2159,6 @@
     "companies": []
   },
   {
-    "title": "Investing.com article-2008284 접근 불가 메모",
-    "url": "https://kr.investing.com/news/stock-market-news/article-2008284",
-    "category": "general",
-    "categoryLabel": "기타",
-    "status": "review",
-    "updated": "2026-07-09",
-    "sourceNote": "2026-07-08-investing-com-2008284-inaccessible",
-    "tags": [
-      "article",
-      "inaccessible",
-      "investing"
-    ],
-    "description": "Investing.com 한국어 주식시장 뉴스 링크를 저장하려 했지만, 현재 확보된 내용은 기사 본문이 아니라 접근 제한 또는 추출 실패 상태를 기록한 메모와 메타데이터뿐이다.",
-    "companies": []
-  },
-  {
     "title": "LG전자, 로봇 액추에이터 ‘악시움’ 조기 양산",
     "url": "https://www.mk.co.kr/news/business/12095018",
     "category": "general",
@@ -2191,7 +2184,8 @@
         "ticker": "066570",
         "sector": "electronics"
       }
-    ]
+    ],
+    "captureRepair": null
   },
   {
     "title": "The Edit 링크 접근 불가 메모",
@@ -2337,6 +2331,29 @@
     "companies": []
   },
   {
+    "title": "[공시분석] 디바이스, 中 TCL CSOT 자회사와 257억 규모 디스플레이 장비 계약 체결",
+    "url": "https://kr.investing.com/news/stock-market-news/article-2008284",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-07-12",
+    "sourceNote": "2026-07-12-tcl-csot-257",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "코스닥 상장사 디바이스가 중국 TCL CSOT의 자회사와 약 257억 원 규모의 디스플레이 제조장비 공급 계약을 체결했습니다. 이는 전년 매출의 30.5%에 달하는 대규모 수주로, 하반기 실적 턴어라운드가 기대됩니다.",
+    "companies": [
+      {
+        "id": "device",
+        "label": "디바이스",
+        "ticker": "187870",
+        "sector": "display-semiconductor-equipment"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "1400조 메가프로젝트 수주전… 건설사 경쟁 2027년 이후 본격화",
     "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/07/12/KEPMXI4OWRHB7AW4VS4G7UZSWM/",
     "category": "investing",
@@ -2362,7 +2379,8 @@
         "ticker": "034730",
         "sector": "holding-company"
       }
-    ]
+    ],
+    "captureRepair": null
   },
   {
     "title": "계절근로자와 호르무즈·대만 리스크를 다룬 더 보다 108회",
@@ -3613,7 +3631,8 @@
         "ticker": "034730",
         "sector": "holding-company"
       }
-    ]
+    ],
+    "captureRepair": null
   },
   {
     "title": "코스닥 승강제, 프리미엄·스탠다드 세그먼트별 의무 부여 추진",
@@ -4020,7 +4039,8 @@
         "ticker": "000720",
         "sector": "건설, 원전 시공, 인프라"
       }
-    ]
+    ],
+    "captureRepair": null
   },
   {
     "title": "BOE, 8.6세대 OLED 양산식으로 삼성디스플레이와 경쟁 본격화",
