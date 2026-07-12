@@ -3,12 +3,15 @@ import { getCollection } from 'astro:content'
 import BaseLayout from '../../layouts/BaseLayout.astro'
 import NoteCard from '../../components/NoteCard.astro'
 import travelDestinations from '../../data/travel-destinations.json'
+import { languageGuides } from '../../data/language-guides'
 
 const labels = {
   ai: 'AI 에이전트',
   apple: 'Apple',
   investing: '한국 주식',
   language: '언어',
+  english: '영어',
+  japanese: '일본어',
   travel: '여행',
 }
 
@@ -18,6 +21,8 @@ export async function getStaticPaths() {
     apple: 'Apple',
     investing: '한국 주식',
     language: '언어',
+    english: '영어',
+    japanese: '일본어',
     travel: '여행',
   }
 
@@ -27,15 +32,9 @@ export async function getStaticPaths() {
 const { category } = Astro.params
 const notes = await getCollection('notes', ({ data }) => data.status === 'published' && data.category === category)
 const isTravelCategory = category === 'travel'
-const languageArtifacts = [
-  {
-    title: 'Workplace Buddy English Phrase Guide',
-    description: '외국인 동료나 방문자를 도울 때 바로 쓸 수 있는 상황별 영어 표현 가이드입니다.',
-    href: '/english/workplace-buddy-english/',
-    tags: ['english', 'workplace', 'speaking'],
-  },
-]
-const artifacts = category === 'language' ? languageArtifacts : []
+const isLanguageCategory = category === 'english' || category === 'japanese' || category === 'language'
+const languageFilter = category === 'language' ? ['english', 'japanese'] : [category]
+const artifacts = isLanguageCategory ? languageGuides.filter((guide) => languageFilter.includes(guide.language)) : []
 const base = import.meta.env.BASE_URL
 const basePath = base.endsWith('/') ? base : `${base}/`
 const withBase = (href) => `${basePath}${href.replace(/^\//, '')}`
@@ -318,6 +317,40 @@ const mapPosition = (coordinates) => ({
           </article>
         </section>
       </div>
+    ) : isLanguageCategory ? (
+      <div class="language-category-page">
+        <section class="section-header">
+          <div>
+            <p class="eyebrow">Language Learning</p>
+            <h1>{labels[category]}</h1>
+          </div>
+          <p>
+            상황별로 바로 꺼내 쓸 수 있는 표현을 카드와 듣기 기능이 있는 학습 페이지로 정리합니다.
+          </p>
+        </section>
+        <section class="language-library-grid" aria-label={`${labels[category]} 학습 자료`}>
+          {artifacts.map((artifact) => (
+            <a class="language-resource-card" href={withBase(`/languages/${artifact.language}/${artifact.id}/`)}>
+              <div>
+                <p class="eyebrow">{artifact.subtitle}</p>
+                <h2>{artifact.title}</h2>
+                <p>{artifact.description}</p>
+              </div>
+              <dl>
+                <div><dt>난이도</dt><dd>{artifact.level}</dd></div>
+                <div><dt>상황</dt><dd>{artifact.situations}</dd></div>
+                <div><dt>표현</dt><dd>{artifact.phraseCount}</dd></div>
+              </dl>
+              <div class="tag-row">
+                {artifact.tags.map((tag) => <span class="tag">{tag}</span>)}
+              </div>
+            </a>
+          ))}
+        </section>
+        {artifacts.length === 0 && (
+          <div class="callout" style="padding: 24px;">아직 공개된 학습 자료가 없습니다.</div>
+        )}
+      </div>
     ) : (
       <>
         <div class="section-header">
@@ -331,31 +364,13 @@ const mapPosition = (coordinates) => ({
               : '앞으로 공개 노트를 추가할 예정인 카테고리입니다.'}
           </p>
         </div>
-        {artifacts.length > 0 && (
-          <section class="resource-section">
-            <h2>영어 학습 자료</h2>
-            <div class="grid">
-              {artifacts.map((artifact) => (
-                <a class="note-card resource-card" href={withBase(artifact.href)}>
-                  <p class="eyebrow">Interactive HTML</p>
-                  <h3>{artifact.title}</h3>
-                  <p>{artifact.description}</p>
-                  <div class="tag-row">
-                    {artifact.tags.map((tag) => <span class="tag">{tag}</span>)}
-                  </div>
-                </a>
-              ))}
-            </div>
-          </section>
-        )}
-
         {notes.length > 0 ? (
           <div class="grid">
             {notes.map((note) => <NoteCard note={note} />)}
           </div>
-        ) : artifacts.length === 0 ? (
+        ) : (
           <div class="callout" style="padding: 24px;">아직 공개된 노트가 없습니다.</div>
-        ) : null}
+        )}
       </>
     )}
     {isTravelCategory && (

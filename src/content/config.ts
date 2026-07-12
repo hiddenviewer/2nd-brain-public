@@ -5,7 +5,7 @@ const notes = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
-    category: z.enum(['ai', 'apple', 'investing', 'language', 'travel']),
+    category: z.enum(['ai', 'apple', 'investing', 'language', 'english', 'japanese', 'travel']),
     noteType: z.enum(['visual-note', 'research-note', 'deck']),
     status: z.enum(['draft', 'published']),
     featured: z.boolean().default(false),

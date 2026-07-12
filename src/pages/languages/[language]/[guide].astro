@@ -1,0 +1,136 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro'
+import { languageGuides } from '../../../data/language-guides'
+
+export function getStaticPaths() {
+  return languageGuides.map((guide) => ({
+    params: { language: guide.language, guide: guide.id },
+    props: { guide },
+  }))
+}
+
+const { guide } = Astro.props
+const base = import.meta.env.BASE_URL
+const basePath = base.endsWith('/') ? base : `${base}/`
+const withBase = (href) => `${basePath}${href.replace(/^\//, '')}`
+---
+
+<BaseLayout title={`${guide.title} | 2nd Brain Public`} description={guide.description}>
+  <main class="container section language-guide-page">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href={withBase(`/categories/${guide.language}/`)}>{guide.languageLabel}</a>
+      <span>{guide.title}</span>
+    </nav>
+
+    <section class="language-guide-hero">
+      <div>
+        <p class="eyebrow">{guide.subtitle}</p>
+        <h1>{guide.title}</h1>
+        <p>{guide.description}</p>
+      </div>
+      <aside class="language-guide-stats" aria-label="학습 자료 정보">
+        <div><span>난이도</span><strong>{guide.level}</strong></div>
+        <div><span>상황</span><strong>{guide.situations}</strong></div>
+        <div><span>표현</span><strong>{guide.phraseCount}</strong></div>
+      </aside>
+    </section>
+
+    <section class="language-quick-grid" aria-label="학습 원칙">
+      {guide.quickRules.map((rule) => (
+        <article>
+          <h2>{rule.title}</h2>
+          <p>{rule.body}</p>
+        </article>
+      ))}
+    </section>
+
+    <section class="language-flow" aria-label="학습 흐름">
+      {guide.flow.map((step) => (
+        <article>
+          <span>{step.label}</span>
+          <h2>{step.title}</h2>
+          <p>{step.phrase}</p>
+        </article>
+      ))}
+    </section>
+
+    {guide.tables && guide.tables.length > 0 && (
+      <section class="language-table-sections" aria-label="문자와 발음 표">
+        {guide.tables.map((table) => (
+          <article class="language-table-card">
+            <h2>{table.title}</h2>
+            <div class="language-table-wrap">
+              <table>
+                <thead>
+                  <tr>{table.columns.map((column) => <th>{column}</th>)}</tr>
+                </thead>
+                <tbody>
+                  {table.rows.map((row) => (
+                    <tr>{row.map((cell) => <td>{cell}</td>)}</tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </article>
+        ))}
+      </section>
+    )}
+
+    {guide.points && guide.points.length > 0 && (
+      <section class="language-point-grid" aria-label="발음과 인토네이션 핵심">
+        {guide.points.map((point) => (
+          <article>
+            <h2>{point.title}</h2>
+            <p>{point.body}</p>
+          </article>
+        ))}
+      </section>
+    )}
+
+    <section class="language-study-layout">
+      <aside class="language-toc" aria-label="상황 목차">
+        {guide.sections.map((section) => (
+          <a href={`#${section.tag.toLowerCase().replace(/\s+/g, '-')}`}>
+            <span>{section.tag}</span>
+            <strong>{section.title}</strong>
+          </a>
+        ))}
+      </aside>
+
+      <div class="language-phrase-sections">
+        {guide.sections.map((section) => (
+          <section class="language-phrase-card" id={section.tag.toLowerCase().replace(/\s+/g, '-')}>
+            <div class="language-card-head">
+              <h2>{section.title}</h2>
+              <span>{section.tag}</span>
+            </div>
+            {section.phrases.map((phrase) => (
+              <article class="language-phrase">
+                <p>{phrase.ko}</p>
+                <div>
+                  <strong>{phrase.text}</strong>
+                  <button type="button" data-speak={phrase.text}>듣기</button>
+                </div>
+                <small>{phrase.pron}</small>
+                {phrase.tip && <em>{phrase.tip}</em>}
+              </article>
+            ))}
+          </section>
+        ))}
+      </div>
+    </section>
+
+    <script>
+      document.querySelectorAll('[data-speak]').forEach((button) => {
+        button.addEventListener('click', () => {
+          const text = button.getAttribute('data-speak')
+          if (!text || !('speechSynthesis' in window)) return
+          window.speechSynthesis.cancel()
+          const utterance = new SpeechSynthesisUtterance(text)
+          utterance.lang = /[ぁ-んァ-ン一-龥]/.test(text) ? 'ja-JP' : 'en-US'
+          window.speechSynthesis.speak(utterance)
+        })
+      })
+    </script>
+  </main>
+</BaseLayout>
