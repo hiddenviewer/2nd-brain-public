@@ -3,7 +3,13 @@ import links from '../src/data/links.json' with { type: 'json' }
 const needsRepair = (link) => {
   const tags = link.tags || []
   const source = `${link.title || ''} ${link.sourceNote || ''}`.toLowerCase()
-  return link.status === 'dead' || tags.includes('inaccessible') || source.includes('inaccessible') || source.includes('접근 불가')
+  return (
+    link.status === 'dead' ||
+    link.captureRepair?.status === 'manual_review' ||
+    tags.includes('inaccessible') ||
+    source.includes('inaccessible') ||
+    source.includes('접근 불가')
+  )
 }
 
 const getDomain = (url) => {

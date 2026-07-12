@@ -84,6 +84,22 @@ function inferStatus(fileName, frontmatter) {
   return 'public'
 }
 
+function needsRepair(link) {
+  const tags = Array.isArray(link.tags) ? link.tags : []
+  const source = `${link.title || ''} ${link.sourceNote || ''}`.toLowerCase()
+  return (
+    link.status === 'dead' ||
+    link.captureRepair?.status === 'manual_review' ||
+    tags.includes('inaccessible') ||
+    source.includes('inaccessible') ||
+    source.includes('접근 불가')
+  )
+}
+
+function metadataNeedsRepair(metadata) {
+  return metadata.capture_repair?.status === 'manual_review' || Boolean(metadata.capture_repair?.reason)
+}
+
 function inferDescription(markdown) {
   const overview = markdown.match(/## 자료 개요\n\n([\s\S]*?)(?:\n\n## |\n## |$)/)
   if (!overview) return ''
@@ -354,7 +370,9 @@ async function main() {
     const filePath = join(inboxDir.pathname, file)
     const metadata = JSON.parse(await readFile(filePath, 'utf8'))
     const url = cleanUrl(metadata.source_url || '')
-    if (!url || shouldSkipUrl(url) || linksByUrl.has(url)) continue
+    if (!url || shouldSkipUrl(url)) continue
+    const existingLink = linksByUrl.get(url)
+    if (existingLink && (metadataNeedsRepair(metadata) || !needsRepair(existingLink))) continue
 
     const category = inferInboxCategory(metadata)
     const sourceNote = basename(file, '.metadata.json')
