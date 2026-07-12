@@ -1352,6 +1352,25 @@
     "companies": []
   },
   {
+    "title": "firma: Claude를 내 포트폴리오 AI 비서로 만드는 로컬 퍼스트 자산관리 CLI",
+    "url": "https://news.hada.io/topic?id=28884",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-07-13",
+    "sourceNote": "2026-07-12-firma-claude-ai-cli",
+    "tags": [
+      "article",
+      "geeknews",
+      "mcp",
+      "claude",
+      "local-first",
+      "finance-cli"
+    ],
+    "description": "GeekNews에 공유된 firma 소개 메모다. firma는 개인 투자자와 개인 재무 관리를 위해 만든 로컬 퍼스트 CLI 도구로, SQLite 로컬 DB와 Claude Desktop의 MCP 연동을 통해 포트폴리오와 지출을 대화형으로 조회·입력할 수 있다고 설명된다.",
+    "companies": []
+  },
+  {
     "title": "Flutter/Flame 게임 출시용 Claude Code 플러그인 공개",
     "url": "https://github.com/tjdrhs90/flutter-flame-harness",
     "category": "ai",
@@ -1992,29 +2011,6 @@
     ],
     "description": "Apple Newsroom의 2026 Apple 디자인 어워드 수상작 발표 자료다. Apple은 WWDC26을 앞두고 36개 최종 후보 중 6개 부문에서 앱 6개와 게임 6개, 총 12개 수상작을 선정했다.",
     "companies": []
-  },
-  {
-    "title": "firma: Claude를 내 포트폴리오 AI 비서로 만드는 로컬 퍼스트 자산관리 CLI",
-    "url": "https://news.hada.io/topic?id=28884",
-    "category": "apple",
-    "categoryLabel": "Apple",
-    "status": "pending",
-    "updated": "2026-07-12",
-    "sourceNote": "2026-07-12-firma-claude-ai-cli",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "GeekNews에 소개된 'firma'는 개인 투자자가 포트폴리오와 지출을 로컬 환경에서 관리하고, Claude Desktop과 MCP(Model Context Protocol)로 연동하여 대화형으로 자산을 조회 및 입력할 수 있는 CLI 도구입니다.",
-    "companies": [
-      {
-        "id": "sk-inc",
-        "label": "SK",
-        "ticker": "034730",
-        "sector": "holding-company"
-      }
-    ],
-    "captureRepair": {}
   },
   {
     "title": "내가 좋아하는 소프트웨어 엔지니어링 인터뷰 질문: 중앙값 계산",
