@@ -1239,16 +1239,16 @@
     "url": "https://youtu.be/W1gWIQp9k1Y?si=0a8Zm_qCVcD-jH40",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-07-12",
+    "status": "public",
+    "updated": "2026-07-13",
     "sourceNote": "2026-07-12-design-md-ai-ui",
     "tags": [
-      "inbox",
-      "youtube"
+      "ai-agents",
+      "design-systems",
+      "design-tools"
     ],
-    "description": "DESIGN.md는 AI 에이전트가 특정 디자인 시스템을 지속적으로 이해하여 일관된 사용자 인터페이스(UI)를 생성할 수 있도록 돕는 구조화된 텍스트 파일 형식의 새로운 오픈 표준입니다.",
-    "companies": [],
-    "captureRepair": {}
+    "description": "YouTube 영상 Meet DESIGN.md: A new open standard for AI-generated UI에 대한 캡처 메모다. DESIGN.md를 AI 에이전트가 프로젝트의 디자인 시스템을 지속적으로 이해하고 일관된 UI를 생성하도록 돕는 구조화된 Markdown 표준으로 소개한다.",
+    "companies": []
   },
   {
     "title": "DESIGN.md: AI 코딩 도구를 위한 디자인 시스템 단일 파일 포맷 정리",
