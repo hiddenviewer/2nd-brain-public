@@ -86,21 +86,6 @@
     "companies": []
   },
   {
-    "title": "사람이 유지보수할 것처럼 코드를 작성하라",
-    "url": "https://news.hada.io/topic?id=31307",
-    "category": "ai",
-    "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-07-12",
-    "sourceNote": "2026-07-12-untitled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "LLM이 코드를 대신 작성하더라도, 코드베이스에 병합된 중복·임시 구현은 이후 생성 코드의 기준점이 되므로 사람이 읽고 고칠 수 있는 품질을 유지해야 한다는 글이다.",
-    "companies": []
-  },
-  {
     "title": "에르메스 에이전트(Hermes Agent)로 AI 업무 자동화와 나만의 AI 팀 운영을 다루는 실전 가이드",
     "url": "https://wikidocs.net/book/19686",
     "category": "ai",
@@ -1949,6 +1934,21 @@
       "app-design"
     ],
     "description": "Apple Newsroom의 2026 Apple 디자인 어워드 수상작 발표 자료다. Apple은 WWDC26을 앞두고 36개 최종 후보 중 6개 부문에서 앱 6개와 게임 6개, 총 12개 수상작을 선정했다.",
+    "companies": []
+  },
+  {
+    "title": "내가 좋아하는 소프트웨어 엔지니어링 인터뷰 질문: 중앙값 계산",
+    "url": "https://news.hada.io/topic?id=31248",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-07-12",
+    "sourceNote": "2026-07-12-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "기술 인터뷰에서 '중앙값 계산' 문제를 통해 코딩 기초 및 API 설계 능력을 평가할 수 있다는 입장과, 특정 알고리즘(예: Quickselect) 암기 여부에 의존하게 되어 평가 도구로 부적절하다는 반론을 소개합니다.",
     "companies": []
   },
   {
@@ -3935,6 +3935,34 @@
         "label": "POSCO홀딩스",
         "ticker": "005490",
         "sector": "steel"
+      }
+    ]
+  },
+  {
+    "title": "AI 데이터센터 기대감에 GS건설 장중 급등",
+    "url": "http://www.choicenews.co.kr/news/articleView.html?idxno=167975",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-07-12",
+    "sourceNote": "2026-07-12-ai-gs",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "GS그룹의 대규모 AI 데이터센터 구축 기대가 GS건설과 건설업종 주가 상승 모멘텀으로 부각됐다는 기사다.",
+    "companies": [
+      {
+        "id": "goldman-sachs",
+        "label": "Goldman Sachs",
+        "ticker": "GS",
+        "sector": "global investment banking"
+      },
+      {
+        "id": "hyundai-engineering-construction",
+        "label": "현대건설",
+        "ticker": "000720",
+        "sector": "건설, 원전 시공, 인프라"
       }
     ]
   },
