@@ -8067,7 +8067,7 @@
     "label": "SK하이닉스",
     "ticker": "000660",
     "sector": "semiconductors",
-    "updated": "2026-07-05",
+    "updated": "2026-07-13",
     "confidence": "low",
     "dartCorpCode": "00164779",
     "naverFinanceUrl": "https://finance.naver.com/item/main.naver?code=000660",
@@ -8079,7 +8079,8 @@
       "2026-06-06-hbm-lpddr",
       "2026-06-28-bca",
       "2026-06-28-sk-ai",
-      "2026-07-04-sk"
+      "2026-07-04-sk",
+      "2026-07-12-sk"
     ],
     "aliases": [
       "sk-hynix",
@@ -8231,13 +8232,14 @@
     "label": "SK",
     "ticker": "034730",
     "sector": "holding-company",
-    "updated": "2026-07-05",
+    "updated": "2026-07-13",
     "confidence": "low",
     "dartCorpCode": "00181712",
     "naverFinanceUrl": "https://finance.naver.com/item/main.naver?code=034730",
     "sources": [
       "2026-06-28-sk-ai",
-      "2026-07-04-sk"
+      "2026-07-04-sk",
+      "2026-07-12-sk"
     ],
     "aliases": [
       "sk-inc",

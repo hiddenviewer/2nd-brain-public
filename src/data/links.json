@@ -3618,19 +3618,29 @@
     ]
   },
   {
-    "title": "최태원 SK 회장 \"반도체, 과거 사이클 벗어나 구조적 변화…공급 확대 총력\"",
+    "title": "최태원 SK 회장, AI 메모리 구조적 성장과 공급 확대 언급",
     "url": "https://naver.me/5HyJmmad",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-07-12",
+    "status": "public",
+    "updated": "2026-07-13",
     "sourceNote": "2026-07-12-sk",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "sk",
+      "sk-hynix",
+      "semiconductors",
+      "ai-memory",
+      "hbm"
     ],
-    "description": "최태원 SK그룹 회장은 미국 나스닥 언론 간담회에서 AI 확산으로 반도체 산업이 기존 사이클을 탈피해 구조적 변화를 맞이했다고 진단하고, 급증하는 메모리 수요 충족을 위해 미국 등 글로벌 공급망을 포함한 공급력 확대에 총력을 다하겠다고 밝혔습니다.",
+    "description": "네이버 기사 요약 메모다. 최태원 SK그룹 회장이 SK하이닉스 ADR 나스닥 상장 오프닝 벨 행사 참석차 미국 뉴욕을 방문해 기자간담회를 열고, AI 확산이 메모리 반도체 산업을 기존 다운턴·업턴 사이클에서 벗어난 구조적 성장 국면으로 바꾸고 있다고 언급한 내용을 다룬다.",
     "companies": [
+      {
+        "id": "samsung-electronics",
+        "label": "삼성전자",
+        "ticker": "005930",
+        "sector": "semiconductors"
+      },
       {
         "id": "sk-hynix",
         "label": "SK하이닉스",
@@ -3643,8 +3653,7 @@
         "ticker": "034730",
         "sector": "holding-company"
       }
-    ],
-    "captureRepair": null
+    ]
   },
   {
     "title": "코스닥 승강제, 프리미엄·스탠다드 세그먼트별 의무 부여 추진",
