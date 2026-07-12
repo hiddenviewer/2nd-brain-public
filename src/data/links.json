@@ -2164,35 +2164,6 @@
     "companies": []
   },
   {
-    "title": "LG전자, 로봇 액추에이터 ‘악시움’ 조기 양산",
-    "url": "https://www.mk.co.kr/news/business/12095018",
-    "category": "general",
-    "categoryLabel": "기타",
-    "status": "pending",
-    "updated": "2026-07-12",
-    "sourceNote": "2026-07-12-lg",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "LG전자가 휴머노이드 로봇 핵심 부품인 액추에이터 ‘악시움’ 생산을 앞당기며 로보틱스 사업 확대에 속도를 내고 있다.",
-    "companies": [
-      {
-        "id": "lg-corp",
-        "label": "LG",
-        "ticker": "003550",
-        "sector": "holding-company"
-      },
-      {
-        "id": "lg-electronics",
-        "label": "LG전자",
-        "ticker": "066570",
-        "sector": "electronics"
-      }
-    ],
-    "captureRepair": null
-  },
-  {
     "title": "WikiDocs 376847 접근 불가 메모",
     "url": "https://wikidocs.net/376847",
     "category": "general",
@@ -4451,6 +4422,37 @@
         "label": "LG유플러스",
         "ticker": "032640",
         "sector": "telecom"
+      }
+    ]
+  },
+  {
+    "title": "LG전자, 로봇 액추에이터 악시움 조기 양산",
+    "url": "https://www.mk.co.kr/news/business/12095018",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-07-13",
+    "sourceNote": "2026-07-12-lg-axium",
+    "tags": [
+      "kr-stocks",
+      "lg-electronics",
+      "robotics",
+      "actuator",
+      "physical-ai"
+    ],
+    "description": "2026년 7월 12일 매일경제 보도 메모 기준으로, LG전자가 휴머노이드 로봇 핵심 부품인 액추에이터 악시움의 양산 시점을 앞당기고 경남 창원 공장에서 생산을 시작했다는 기사다. LG전자의 피지컬 AI 전략이 데이터팩토리와 홈로봇 LG 클로이드, 로봇 핵심 부품 내재화로 이어지는지 추적할 근거가 된다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-electronics",
+        "label": "LG전자",
+        "ticker": "066570",
+        "sector": "electronics"
       }
     ]
   },

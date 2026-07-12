@@ -5001,14 +5001,15 @@
     "label": "LG전자",
     "ticker": "066570",
     "sector": "electronics",
-    "updated": "2026-07-09",
+    "updated": "2026-07-13",
     "confidence": "medium",
     "dartCorpCode": "00401731",
     "naverFinanceUrl": "https://finance.naver.com/item/main.naver?code=066570",
     "sources": [
       "2026-06-04-lg-blackwell-gpu-1-ax",
       "2026-06-10-lg-aidc-ai",
-      "2026-07-09-lg-ai"
+      "2026-07-09-lg-ai",
+      "2026-07-12-lg-axium"
     ],
     "aliases": [
       "lg-electronics",
