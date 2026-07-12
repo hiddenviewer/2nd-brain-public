@@ -1,17 +1,363 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro'
-import KnowledgeGraph from '../components/KnowledgeGraph.astro'
+import links from '../data/links.json'
+import companiesData from '../data/companies.json'
+
+const base = import.meta.env.BASE_URL
+const basePath = base.endsWith('/') ? base : `${base}/`
+const withBase = (href) => `${basePath}${href.replace(/^\//, '')}`
+
+const categoryOrder = ['ai', 'investing', 'apple', 'language', 'travel', 'general']
+const categoryLabels = {
+  ai: 'AI 에이전트',
+  investing: '한국 주식',
+  apple: 'Apple',
+  language: '언어',
+  travel: '여행',
+  general: '기타',
+}
+const statusLabels = {
+  public: '공개',
+  pending: '대기',
+  review: '검토 필요',
+  private: '비공개',
+  dead: '접근 불가',
+}
+const repairReasonLabels = {
+  cloudflare: 'Cloudflare 검증',
+  empty_extraction: '본문 추출 실패',
+  http_403: '403 접근 제한',
+  http_404: '404 Not Found',
+  network_error: '네트워크 오류',
+  non_html: 'HTML 아님',
+  timeout: '시간 초과',
+  unknown: '원인 미분류',
+}
+
+const countBy = (items, getKeys) => {
+  const counts = new Map()
+  for (const item of items) {
+    const keys = getKeys(item)
+    for (const key of Array.isArray(keys) ? keys : [keys]) {
+      if (!key) continue
+      counts.set(key, (counts.get(key) || 0) + 1)
+    }
+  }
+  return counts
+}
+
+const entries = (counts) =>
+  Array.from(counts.entries()).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'ko'))
+
+const getDomain = (url) => {
+  try {
+    return new URL(url).hostname.replace(/^www\./, '')
+  } catch {
+    return ''
+  }
+}
+
+const isNeedsRepair = (link) => {
+  const tags = link.tags || []
+  const source = `${link.title || ''} ${link.sourceNote || ''}`.toLowerCase()
+  return link.status === 'dead' || tags.includes('inaccessible') || source.includes('inaccessible') || source.includes('접근 불가')
+}
+
+const publicLinks = links.filter((link) => link.status === 'public')
+const repairLinks = links.filter(isNeedsRepair).sort((a, b) => (b.updated || '').localeCompare(a.updated || ''))
+const companyIds = new Set(links.flatMap((link) => (link.companies || []).map((company) => company.id)))
+const companyLabels = new Map(companiesData.map((company) => [company.id, company.label || company.id]))
+const latestUpdated = links.map((link) => link.updated).filter(Boolean).sort().at(-1)
+const recentThreshold = latestUpdated ? new Date(`${latestUpdated}T00:00:00`) : null
+if (recentThreshold) recentThreshold.setDate(recentThreshold.getDate() - 30)
+const recentLinks = recentThreshold
+  ? links.filter((link) => link.updated && new Date(`${link.updated}T00:00:00`) >= recentThreshold)
+  : links
+
+const categories = categoryOrder
+  .map((category) => {
+    const categoryLinks = links.filter((link) => link.category === category)
+    const recentCount = categoryLinks.filter((link) => recentLinks.includes(link)).length
+    return {
+      id: category,
+      label: categoryLabels[category] || category,
+      count: categoryLinks.length,
+      recentCount,
+      href: category === 'general' ? '/links/#general' : `/categories/${category}/`,
+    }
+  })
+  .filter((category) => category.count > 0)
+
+const topTags = entries(countBy(links, (link) => link.tags || [])).slice(0, 18)
+const topDomains = entries(countBy(links, (link) => getDomain(link.url))).slice(0, 10)
+const topCompanies = entries(countBy(links, (link) => (link.companies || []).map((company) => company.id))).slice(0, 10)
+const recentTags = entries(countBy(recentLinks, (link) => link.tags || [])).slice(0, 10)
+const domainHref = (domain) => {
+  const link = links.find((item) => getDomain(item.url) === domain)
+  try {
+    const url = new URL(link?.url || `https://${domain}`)
+    return `${url.protocol}//${url.hostname}/`
+  } catch {
+    return `https://${domain}`
+  }
+}
+const tagPrimaryCategory = new Map()
+for (const [tag] of recentTags) {
+  const counts = entries(countBy(links.filter((link) => (link.tags || []).includes(tag)), (link) => link.category))
+  tagPrimaryCategory.set(tag, counts[0]?.[0] || 'ai')
+}
+const months = entries(countBy(links, (link) => (link.updated || '').slice(0, 7)))
+  .sort((a, b) => a[0].localeCompare(b[0]))
+  .slice(-6)
+const maxMonthCount = Math.max(...months.map(([, count]) => count), 1)
+const maxCategoryCount = Math.max(...categories.map((category) => category.count), 1)
+const maxTagCount = Math.max(...topTags.map(([, count]) => count), 1)
+const maxDomainCount = Math.max(...topDomains.map(([, count]) => count), 1)
+const maxCompanyCount = Math.max(...topCompanies.map(([, count]) => count), 1)
+
+const candidateSeen = new Set()
+const noteCandidateTags = topTags
+  .filter(([tag]) => !['ai-agents', 'kr-stocks', 'article', 'inaccessible'].includes(tag))
+  .slice(0, 6)
+  .map(([tag, count]) => {
+    const localSeen = new Set()
+    const uniqueLinks = []
+    for (const link of links
+      .filter((item) => (item.tags || []).includes(tag))
+      .sort((a, b) => (b.updated || '').localeCompare(a.updated || ''))) {
+      const key = `${link.title || ''}::${link.url || ''}`.toLowerCase()
+      const titleKey = (link.title || '').trim().toLowerCase()
+      if (localSeen.has(key) || localSeen.has(titleKey) || candidateSeen.has(key) || candidateSeen.has(titleKey)) continue
+      localSeen.add(key)
+      localSeen.add(titleKey)
+      candidateSeen.add(key)
+      candidateSeen.add(titleKey)
+      uniqueLinks.push(link)
+      if (uniqueLinks.length === 3) break
+    }
+    return {
+      tag,
+      count,
+      links: uniqueLinks,
+    }
+  })
+  .filter((candidate) => candidate.links.length > 0)
 ---
 
-<BaseLayout title="지식 지도 | 2nd Brain Public">
-  <main class="container section">
+<BaseLayout title="리서치 인사이트 | 2nd Brain Public" description="공개 링크와 노트의 축적 상태, 보강 필요 링크, 주제별 흐름을 보여주는 리서치 대시보드입니다.">
+  <main class="container section research-dashboard">
     <div class="section-header">
       <div>
-        <p class="eyebrow">지도</p>
-        <h1>지식 지도</h1>
+        <p class="eyebrow">지식 지도</p>
+        <h1>리서치 인사이트</h1>
       </div>
-      <p>초기 공개 노트와 핵심 개념의 연결을 보여주는 인터랙티브 지도입니다.</p>
+      <p>
+        공개 링크, 태그, 기업, 출처를 기준으로 개인 지식 베이스가 어디에 집중되고 있는지와
+        어떤 링크를 보강해야 하는지 확인합니다.
+      </p>
     </div>
-    <KnowledgeGraph />
+
+    <section class="metric-grid insight-summary" aria-label="리서치 요약">
+      <div class="metric">
+        <strong>{links.length}</strong>
+        <span>전체 링크</span>
+      </div>
+      <div class="metric">
+        <strong>{publicLinks.length}</strong>
+        <span>공개 링크</span>
+      </div>
+      <div class="metric attention">
+        <strong>{repairLinks.length}</strong>
+        <span>보강 필요</span>
+      </div>
+      <div class="metric">
+        <strong>{companyIds.size}</strong>
+        <span>연결 기업</span>
+      </div>
+      <div class="metric">
+        <strong>{recentLinks.length}</strong>
+        <span>최근 30일 링크</span>
+      </div>
+      <div class="metric">
+        <strong>{latestUpdated || '-'}</strong>
+        <span>최근 업데이트</span>
+      </div>
+    </section>
+
+    <section class="insight-panel">
+      <div class="section-header compact">
+        <div>
+          <p class="eyebrow">관심사 분포</p>
+          <h2>주제별 축적 상태</h2>
+        </div>
+        <p>카테고리별 링크 수와 최근 30일 증가분입니다.</p>
+      </div>
+      <div class="topic-bars">
+        {categories.map((category) => (
+          <a class="topic-row" href={withBase(category.href)}>
+            <span class="topic-label">{category.label}</span>
+            <span class="topic-track">
+              <span class="topic-fill" style={`--bar-width: ${(category.count / maxCategoryCount) * 100}%`}></span>
+            </span>
+            <strong>{category.count}</strong>
+            <em>+{category.recentCount}</em>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <div class="insight-grid">
+      <section class="insight-panel">
+        <div class="section-header compact">
+          <div>
+            <p class="eyebrow">성장 신호</p>
+            <h2>최근 많이 쌓인 태그</h2>
+          </div>
+        </div>
+        <div class="rank-list">
+          {recentTags.map(([tag, count], index) => (
+            <a class="rank-row" href={withBase(`/links/#${tagPrimaryCategory.get(tag) || 'ai'}`)}>
+              <span>{index + 1}</span>
+              <strong>{tag}</strong>
+              <em>{count}개</em>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <section class="insight-panel">
+        <div class="section-header compact">
+          <div>
+            <p class="eyebrow">월별 흐름</p>
+            <h2>업데이트 추이</h2>
+          </div>
+        </div>
+        <div class="month-chart" aria-label="월별 링크 업데이트 수">
+          {months.map(([month, count]) => (
+            <div class="month-bar">
+              <span style={`--bar-height: ${(count / maxMonthCount) * 100}%`}></span>
+              <strong>{count}</strong>
+              <em>{month.slice(5)}</em>
+            </div>
+          ))}
+        </div>
+      </section>
+    </div>
+
+    <section class="insight-panel repair-panel">
+      <div class="section-header compact">
+        <div>
+          <p class="eyebrow">품질 큐</p>
+          <h2>접근 불가·보강 필요 링크</h2>
+        </div>
+        <p>원문 확인 실패, 접근 불가 메모, dead 상태를 우선 보강 대상으로 모았습니다.</p>
+      </div>
+      <div class="repair-list">
+        {repairLinks.slice(0, 8).map((link) => (
+          <article class="repair-item">
+            <div>
+              <div class="link-meta">
+                <span class:list={['status-badge', link.status]}>{statusLabels[link.status] ?? link.status}</span>
+                {link.updated && <span>{link.updated}</span>}
+                <span>{link.categoryLabel || categoryLabels[link.category] || link.category}</span>
+                <span>{getDomain(link.url)}</span>
+                {link.captureRepair?.reason && <span>{repairReasonLabels[link.captureRepair.reason] || link.captureRepair.reason}</span>}
+              </div>
+              <h3><a href={link.url} target="_blank" rel="noreferrer">{link.title}</a></h3>
+              {link.description && <p>{link.description}</p>}
+              {link.captureRepair && (
+                <p class="repair-note">
+                  즉시 재시도: {link.captureRepair.retry_method || 'none'} / {link.captureRepair.retry_result || 'not_attempted'}
+                  {link.captureRepair.last_attempt_at ? ` · 마지막 시도 ${String(link.captureRepair.last_attempt_at).slice(0, 10)}` : ''}
+                </p>
+              )}
+              <div class="tag-row">
+                {(link.tags || []).slice(0, 6).map((tag) => <span class="tag">{tag}</span>)}
+              </div>
+            </div>
+            <a class="external-link" href={link.url} target="_blank" rel="noreferrer">확인</a>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <div class="insight-grid">
+      <section class="insight-panel">
+        <div class="section-header compact">
+          <div>
+            <p class="eyebrow">태그 히트맵</p>
+            <h2>누적 관심사</h2>
+          </div>
+        </div>
+        <div class="tag-cloud">
+          {topTags.map(([tag, count]) => (
+            <span class="tag-chip" style={`--tag-scale: ${0.85 + (count / maxTagCount) * 0.55}`}>
+              <strong>{tag}</strong>
+              <em>{count}</em>
+            </span>
+          ))}
+        </div>
+      </section>
+
+      <section class="insight-panel">
+        <div class="section-header compact">
+          <div>
+            <p class="eyebrow">출처 지도</p>
+            <h2>자주 쓰는 출처</h2>
+          </div>
+        </div>
+        <div class="compact-bars">
+          {topDomains.map(([domain, count]) => (
+            <a class="compact-bar" href={domainHref(domain)} target="_blank" rel="noreferrer">
+              <span>{domain}</span>
+              <i><b style={`--bar-width: ${(count / maxDomainCount) * 100}%`}></b></i>
+              <strong>{count}</strong>
+            </a>
+          ))}
+        </div>
+      </section>
+    </div>
+
+    <div class="insight-grid">
+      <section class="insight-panel">
+        <div class="section-header compact">
+          <div>
+            <p class="eyebrow">기업 레이더</p>
+            <h2>기업별 연결</h2>
+          </div>
+        </div>
+        <div class="compact-bars">
+          {topCompanies.map(([company, count]) => (
+            <a class="compact-bar" href={withBase(`/companies/${company}/`)}>
+              <span>{companyLabels.get(company) || company}</span>
+              <i><b style={`--bar-width: ${(count / maxCompanyCount) * 100}%`}></b></i>
+              <strong>{count}</strong>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <section class="insight-panel">
+        <div class="section-header compact">
+          <div>
+            <p class="eyebrow">노트 후보</p>
+            <h2>승격할 만한 주제</h2>
+          </div>
+        </div>
+        <div class="candidate-list">
+          {noteCandidateTags.map((candidate) => (
+            <article>
+              <div>
+                <strong>{candidate.tag}</strong>
+                <span>{candidate.count}개 링크</span>
+              </div>
+              <ul>
+                {candidate.links.map((link) => <li>{link.title}</li>)}
+              </ul>
+            </article>
+          ))}
+        </div>
+      </section>
+    </div>
   </main>
 </BaseLayout>

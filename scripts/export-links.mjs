@@ -364,12 +364,17 @@ async function main() {
       url,
       category,
       categoryLabel: categoryLabels[category] || category,
-      status: 'pending',
+      status: metadata.capture_repair?.status === 'manual_review' ? 'review' : 'pending',
       updated: (metadata.captured_at || '').slice(0, 10),
       sourceNote,
-      tags: ['inbox', metadata.link_type].filter(Boolean),
+      tags: [
+        'inbox',
+        metadata.link_type,
+        metadata.capture_repair?.reason ? 'inaccessible' : '',
+      ].filter(Boolean),
       description: metadata.summary || '',
       companies: detectedCompanies,
+      captureRepair: metadata.capture_repair || null,
     })
   }
 

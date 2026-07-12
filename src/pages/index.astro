@@ -2,13 +2,19 @@
 import { getCollection } from 'astro:content'
 import BaseLayout from '../layouts/BaseLayout.astro'
 import NoteCard from '../components/NoteCard.astro'
-import KnowledgeGraph from '../components/KnowledgeGraph.astro'
+import links from '../data/links.json'
 
 const notes = await getCollection('notes', ({ data }) => data.status === 'published')
 const featured = notes.filter((note) => note.data.featured)
 const base = import.meta.env.BASE_URL
 const basePath = base.endsWith('/') ? base : `${base}/`
 const withBase = (href) => `${basePath}${href.replace(/^\//, '')}`
+const repairCount = links.filter((link) => {
+  const source = `${link.title || ''} ${link.sourceNote || ''}`.toLowerCase()
+  return link.status === 'dead' || (link.tags || []).includes('inaccessible') || source.includes('inaccessible') || source.includes('접근 불가')
+}).length
+const companyCount = new Set(links.flatMap((link) => (link.companies || []).map((company) => company.id))).size
+const latestUpdated = links.map((link) => link.updated).filter(Boolean).sort().at(-1)
 ---
 
 <BaseLayout title="2nd Brain Public" description="개인 세컨드 브레인에서 선별한 공개용 시각 지식 노트입니다.">
@@ -76,11 +82,34 @@ const withBase = (href) => `${basePath}${href.replace(/^\//, '')}`
       <div class="section-header">
         <div>
           <p class="eyebrow">지도</p>
-          <h2>지식 지도</h2>
+          <h2>리서치 인사이트</h2>
         </div>
-        <p>공개 노트 사이의 연결을 먼저 작게 보여주고, 이후 graphify 결과를 바탕으로 자동 생성할 수 있게 확장합니다.</p>
+        <p>공개 링크, 태그, 기업, 출처를 기준으로 지식 베이스의 축적 상태와 보강 필요 항목을 확인합니다.</p>
       </div>
-      <KnowledgeGraph />
+      <a class="insight-teaser" href={withBase('/map/')}>
+        <div>
+          <span class="eyebrow">Research dashboard</span>
+          <h3>무엇이 쌓이고 있고, 무엇을 보강해야 하는지 한눈에 봅니다.</h3>
+        </div>
+        <div class="metric-grid">
+          <div class="metric">
+            <strong>{links.length}</strong>
+            <span>전체 링크</span>
+          </div>
+          <div class="metric">
+            <strong>{repairCount}</strong>
+            <span>보강 필요</span>
+          </div>
+          <div class="metric">
+            <strong>{companyCount}</strong>
+            <span>연결 기업</span>
+          </div>
+          <div class="metric">
+            <strong>{latestUpdated || '-'}</strong>
+            <span>최근 업데이트</span>
+          </div>
+        </div>
+      </a>
     </section>
   </main>
 </BaseLayout>
