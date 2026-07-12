@@ -86,6 +86,21 @@
     "companies": []
   },
   {
+    "title": "사람이 유지보수할 것처럼 코드를 작성하라",
+    "url": "https://news.hada.io/topic?id=31307",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-07-12",
+    "sourceNote": "2026-07-12-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LLM이 코드를 대신 작성하더라도, 코드베이스에 병합된 중복·임시 구현은 이후 생성 코드의 기준점이 되므로 사람이 읽고 고칠 수 있는 품질을 유지해야 한다는 글이다.",
+    "companies": []
+  },
+  {
     "title": "에르메스 에이전트(Hermes Agent)로 AI 업무 자동화와 나만의 AI 팀 운영을 다루는 실전 가이드",
     "url": "https://wikidocs.net/book/19686",
     "category": "ai",
@@ -2292,6 +2307,34 @@
     ],
     "description": "Yozm IT 기사 링크를 저장하려 했지만, 현재 확보된 내용은 403 Forbidden으로 원문 확인에 실패했다는 메모와 메타데이터뿐이다. 실제 기사 제목과 본문은 확인되지 않는다.",
     "companies": []
+  },
+  {
+    "title": "1400조 메가프로젝트 수주전… 건설사 경쟁 2027년 이후 본격화",
+    "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/07/12/KEPMXI4OWRHB7AW4VS4G7UZSWM/",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-07-12",
+    "sourceNote": "2026-07-12-1400-2027",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "정부와 기업이 반도체, 피지컬 AI, AI 데이터센터 구축을 위해 추진하는 1400조 원 규모의 '3대 메가프로젝트'가 발표되면서 건설 업계의 수주 기대감이 높아지고 있으나, 실제 수주는 2027년 이후 본격화할 전망이며 고난도 시설은 기술력을 갖춘 대형사 중심으로 수혜가 집중될 것으로 보입니다.",
+    "companies": [
+      {
+        "id": "goldman-sachs",
+        "label": "Goldman Sachs",
+        "ticker": "GS",
+        "sector": "global investment banking"
+      },
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      }
+    ]
   },
   {
     "title": "계절근로자와 호르무즈·대만 리스크를 다룬 더 보다 108회",
