@@ -2256,29 +2256,6 @@
     "companies": []
   },
   {
-    "title": "[공시분석] 디바이스, 中 TCL CSOT 자회사와 257억 규모 디스플레이 장비 계약 체결",
-    "url": "https://kr.investing.com/news/stock-market-news/article-2008284",
-    "category": "investing",
-    "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-07-12",
-    "sourceNote": "2026-07-12-tcl-csot-257",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "코스닥 상장사 디바이스가 중국 TCL CSOT의 자회사와 약 257억 원 규모의 디스플레이 제조장비 공급 계약을 체결했습니다. 이는 전년 매출의 30.5%에 달하는 대규모 수주로, 하반기 실적 턴어라운드가 기대됩니다.",
-    "companies": [
-      {
-        "id": "device",
-        "label": "디바이스",
-        "ticker": "187870",
-        "sector": "display-semiconductor-equipment"
-      }
-    ],
-    "captureRepair": {}
-  },
-  {
     "title": "1400조 메가프로젝트 수주전과 건설사 경쟁 본격화 전망",
     "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/07/12/KEPMXI4OWRHB7AW4VS4G7UZSWM/",
     "category": "investing",
@@ -2646,6 +2623,32 @@
       "order"
     ],
     "description": "디바이스가 China Star Optoelectronics(CSOT) 광저우 법인과 256억원 규모 OLED 제조장비 공급계약을 체결했다는 크레딧뉴스 기사 메모다. 2026년 6월 CSOT 8.6세대 OLED 공급사 선정 보도에서 확인되지 않았던 계약 금액과 납기 조건을 보강하는 source다.",
+    "companies": [
+      {
+        "id": "device",
+        "label": "디바이스",
+        "ticker": "187870",
+        "sector": "display-semiconductor-equipment"
+      }
+    ]
+  },
+  {
+    "title": "디바이스, TCL CSOT 자회사와 257억원 규모 디스플레이 장비 계약",
+    "url": "https://kr.investing.com/news/stock-market-news/article-2008284",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-07-13",
+    "sourceNote": "2026-07-12-tcl-csot-257",
+    "tags": [
+      "kr-stocks",
+      "device",
+      "display",
+      "oled",
+      "csot",
+      "order"
+    ],
+    "description": "Investing.com 한국어 기사 메모 기준, 디바이스가 중국 TCL CSOT 계열사인 Guangzhou China Star Optoelectronics Printing Display Technology와 256억 5,140만원 규모의 디스플레이 제조장비 공급계약을 체결했다. 같은 URL의 기존 수집 실패 메모에서 확인하지 못했던 실제 기사 제목과 핵심 수치가 확보된 source다.",
     "companies": [
       {
         "id": "device",
