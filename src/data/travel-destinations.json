@@ -1,0 +1,344 @@
+[
+  {
+    "id": "milan",
+    "country": "이탈리아",
+    "region": "밀라노",
+    "continent": "유럽",
+    "status": "visited",
+    "coordinates": { "lat": 45.4642, "lng": 9.19 },
+    "summary": "북이탈리아의 금융, 패션, 디자인 중심지이자 고딕 두오모와 오페라 문화가 강한 도시.",
+    "bestSeason": "4-6월, 9-10월",
+    "travelStyle": ["도시", "건축", "쇼핑", "미식"],
+    "routeGroup": "이탈리아 북중남 루트",
+    "recommendedDays": "2-3일",
+    "naverTravelUrl": "https://travel.naver.com/overseas/IT187768/country/summary",
+    "highlights": ["두오모", "갤러리아 비토리오 에마누엘레 2세", "스포르체스코 성", "브레라 지구"],
+    "historyNotes": [
+      "밀라노는 중세 이후 북이탈리아 상업과 권력의 중심지였고, 스포르차 가문 시기에 예술과 군사 건축이 발달했다.",
+      "두오모와 갤러리아는 종교, 상업, 도시 자부심이 한 공간에 축적된 상징으로 볼 수 있다."
+    ]
+  },
+  {
+    "id": "florence",
+    "country": "이탈리아",
+    "region": "피렌체",
+    "continent": "유럽",
+    "status": "visited",
+    "coordinates": { "lat": 43.7696, "lng": 11.2558 },
+    "summary": "르네상스 미술과 메디치 가문의 흔적이 도시 전체에 압축된 토스카나의 핵심 도시.",
+    "bestSeason": "4-6월, 9-10월",
+    "travelStyle": ["역사", "미술", "도시 산책"],
+    "routeGroup": "이탈리아 북중남 루트",
+    "recommendedDays": "2-3일",
+    "naverTravelUrl": "https://travel.naver.com/overseas/IT187768/country/summary",
+    "highlights": ["두오모", "우피치 미술관", "베키오 다리", "미켈란젤로 광장"],
+    "historyNotes": [
+      "피렌체는 르네상스의 중심지로, 메디치 가문의 금융력과 후원이 예술과 건축 발전을 이끌었다.",
+      "두오모와 우피치 미술관은 도시국가 피렌체의 경제력, 종교성, 미적 경쟁심을 함께 보여준다."
+    ]
+  },
+  {
+    "id": "rome",
+    "country": "이탈리아",
+    "region": "로마",
+    "continent": "유럽",
+    "status": "visited",
+    "coordinates": { "lat": 41.9028, "lng": 12.4964 },
+    "summary": "고대 로마, 가톨릭, 바로크 도시가 겹쳐진 역사 여행의 중심지.",
+    "bestSeason": "4-6월, 9-10월",
+    "travelStyle": ["역사", "도시 산책", "미식"],
+    "routeGroup": "이탈리아 북중남 루트",
+    "recommendedDays": "3-4일",
+    "naverTravelUrl": "https://travel.naver.com/overseas/IT187768/country/summary",
+    "highlights": ["콜로세움", "포로 로마노", "바티칸", "트레비 분수"],
+    "historyNotes": [
+      "로마는 공화정과 제국을 거치며 지중해 세계의 정치, 법, 군사 질서를 만든 도시다.",
+      "바티칸과 성당들은 로마가 제국 수도에서 가톨릭 세계의 중심지로 이어진 역사를 보여준다."
+    ]
+  },
+  {
+    "id": "sorrento",
+    "country": "이탈리아",
+    "region": "소렌토",
+    "continent": "유럽",
+    "status": "visited",
+    "coordinates": { "lat": 40.6263, "lng": 14.3758 },
+    "summary": "나폴리만과 아말피 해안을 잇는 절벽 도시로, 남이탈리아 해안 루트의 거점.",
+    "bestSeason": "5-6월, 9월",
+    "travelStyle": ["해안", "휴양", "미식"],
+    "routeGroup": "이탈리아 남부 해안 루트",
+    "recommendedDays": "1-2일",
+    "naverTravelUrl": "https://travel.naver.com/overseas/IT187768/country/summary",
+    "highlights": ["마리나 그란데", "소렌토 구시가", "레몬 정원", "카프리 이동 거점"],
+    "historyNotes": [
+      "소렌토 일대는 고대 로마 귀족의 휴양지였고, 이후 지중해 해상 교역과 남부 해안 문화의 영향을 받았다.",
+      "레몬과 리몬첼로 문화는 기후, 지형, 지역 농업이 여행 경험으로 연결되는 사례다."
+    ]
+  },
+  {
+    "id": "positano",
+    "country": "이탈리아",
+    "region": "포지타노",
+    "continent": "유럽",
+    "status": "visited",
+    "coordinates": { "lat": 40.6281, "lng": 14.4849 },
+    "summary": "절벽을 따라 집과 골목이 쌓인 아말피 해안의 대표적인 풍경 여행지.",
+    "bestSeason": "5-6월, 9월",
+    "travelStyle": ["해안", "풍경", "휴양"],
+    "routeGroup": "이탈리아 남부 해안 루트",
+    "recommendedDays": "1-2일",
+    "naverTravelUrl": "https://travel.naver.com/overseas/IT187768/country/summary",
+    "highlights": ["스피아지아 그란데", "절벽 마을 전망", "해안 보트", "아말피 드라이브"],
+    "historyNotes": [
+      "아말피 해안은 중세 해상 공화국과 지중해 교역의 기억을 품은 지역이다.",
+      "포지타노의 수직적인 마을 구조는 산지가 바다와 바로 만나는 지형이 만든 생활 방식이다."
+    ]
+  },
+  {
+    "id": "phu-quoc",
+    "country": "베트남",
+    "region": "푸꾸옥",
+    "continent": "아시아",
+    "status": "visited",
+    "coordinates": { "lat": 10.2899, "lng": 103.984 },
+    "summary": "베트남 남서부의 섬 휴양지로 해변, 리조트, 야시장 중심의 느린 여행에 적합하다.",
+    "bestSeason": "11-4월",
+    "travelStyle": ["휴양", "해변", "가족"],
+    "routeGroup": "동남아 휴양 루트",
+    "recommendedDays": "3-5일",
+    "naverTravelUrl": "https://search.naver.com/search.naver?query=%EB%84%A4%EC%9D%B4%EB%B2%84%20%EC%97%AC%ED%96%89%20%ED%91%B8%EA%BE%B8%EC%98%A5",
+    "highlights": ["롱비치", "푸꾸옥 야시장", "사오비치", "혼똔섬 케이블카"],
+    "historyNotes": [
+      "푸꾸옥은 베트남 남부 해양 문화와 어업, 국경 해역의 지정학이 만나는 섬이다.",
+      "현대에는 리조트 개발과 항공 접근성 개선으로 베트남 대표 휴양지로 빠르게 성장했다."
+    ]
+  },
+  {
+    "id": "tokyo",
+    "country": "일본",
+    "region": "도쿄",
+    "continent": "아시아",
+    "status": "visited",
+    "coordinates": { "lat": 35.6762, "lng": 139.6503 },
+    "summary": "에도의 역사와 현대 대도시 문화가 공존하는 일본 수도권 여행의 중심지.",
+    "bestSeason": "3-5월, 10-11월",
+    "travelStyle": ["도시", "미식", "쇼핑", "문화"],
+    "routeGroup": "일본 도시 여행",
+    "recommendedDays": "3-5일",
+    "naverTravelUrl": "https://search.naver.com/search.naver?query=%EB%84%A4%EC%9D%B4%EB%B2%84%20%EC%97%AC%ED%96%89%20%EB%8F%84%EC%BF%84",
+    "highlights": ["아사쿠사", "긴자", "시부야", "우에노", "도쿄역"],
+    "historyNotes": [
+      "도쿄는 에도 막부의 성하마을에서 출발해 메이지 유신 이후 일본의 근대 수도가 되었다.",
+      "아사쿠사, 우에노, 도쿄역 일대는 에도 문화, 근대화, 전후 재건의 층위를 함께 보여준다."
+    ]
+  },
+  {
+    "id": "phuket",
+    "country": "태국",
+    "region": "푸켓",
+    "continent": "아시아",
+    "status": "visited",
+    "coordinates": { "lat": 7.8804, "lng": 98.3923 },
+    "summary": "안다만 해의 대표 휴양지로 해변, 섬 투어, 리조트 여행에 적합하다.",
+    "bestSeason": "11-3월",
+    "travelStyle": ["휴양", "해변", "섬 투어"],
+    "routeGroup": "동남아 휴양 루트",
+    "recommendedDays": "3-5일",
+    "naverTravelUrl": "https://search.naver.com/search.naver?query=%EB%84%A4%EC%9D%B4%EB%B2%84%20%EC%97%AC%ED%96%89%20%ED%91%B8%EC%BC%93",
+    "highlights": ["빠통", "카론 비치", "푸켓 올드타운", "피피섬 투어"],
+    "historyNotes": [
+      "푸켓은 안다만 해 교역로에 놓인 섬으로, 주석 광산과 화교 상인 문화의 흔적이 남아 있다.",
+      "푸켓 올드타운의 건축은 태국, 중국, 말레이 해상 교역 문화가 섞인 결과다."
+    ]
+  },
+  {
+    "id": "san-francisco",
+    "country": "미국",
+    "region": "샌프란시스코",
+    "continent": "북미",
+    "status": "visited",
+    "coordinates": { "lat": 37.7749, "lng": -122.4194 },
+    "summary": "태평양, 금문교, 언덕길, 기술 산업과 이민사가 겹쳐진 미국 서부 대표 도시.",
+    "bestSeason": "4-6월, 9-10월",
+    "travelStyle": ["도시", "해안", "문화", "기술"],
+    "routeGroup": "미국 서부 베이 에어리어",
+    "recommendedDays": "2-4일",
+    "naverTravelUrl": "https://search.naver.com/search.naver?query=%EB%84%A4%EC%9D%B4%EB%B2%84%20%EC%97%AC%ED%96%89%20%EC%83%8C%ED%94%84%EB%9E%80%EC%8B%9C%EC%8A%A4%EC%BD%94",
+    "highlights": ["금문교", "피셔맨스 워프", "페리 빌딩", "알카트라즈", "케이블카"],
+    "historyNotes": [
+      "샌프란시스코는 골드러시 이후 급성장했고, 항구 도시와 이민 도시의 성격이 도시 문화에 깊게 남아 있다.",
+      "실리콘밸리와 가까워 기술 산업, 반문화 운동, 도시 재생의 흐름을 함께 읽기 좋은 곳이다."
+    ]
+  },
+  {
+    "id": "san-jose",
+    "country": "미국",
+    "region": "산호세",
+    "continent": "북미",
+    "status": "visited",
+    "coordinates": { "lat": 37.3382, "lng": -121.8863 },
+    "summary": "실리콘밸리의 중심 도시로 기술 기업 생태계와 캘리포니아 도시 확장을 함께 볼 수 있는 지역.",
+    "bestSeason": "4-6월, 9-10월",
+    "travelStyle": ["도시", "기술", "근교"],
+    "routeGroup": "미국 서부 베이 에어리어",
+    "recommendedDays": "1-2일",
+    "naverTravelUrl": "https://search.naver.com/search.naver?query=%EB%84%A4%EC%9D%B4%EB%B2%84%20%EC%97%AC%ED%96%89%20%EC%82%B0%ED%98%B8%EC%84%B8",
+    "highlights": ["실리콘밸리", "산호세 다운타운", "테크 인터랙티브", "산타나 로우"],
+    "historyNotes": [
+      "산호세는 스페인 식민지 시대의 농업 정착지에서 출발해 20세기 후반 반도체와 소프트웨어 산업의 중심으로 변했다.",
+      "실리콘밸리의 성장은 대학, 방위 산업, 벤처 자본, 이민 인재가 결합된 현대 산업사의 사례로 볼 수 있다."
+    ]
+  },
+  {
+    "id": "switzerland",
+    "country": "스위스",
+    "region": "스위스",
+    "continent": "유럽",
+    "status": "wishlist",
+    "coordinates": { "lat": 46.8182, "lng": 8.2275 },
+    "summary": "알프스 풍경, 철도 여행, 호수 도시를 묶어 보는 자연 중심 여행 후보.",
+    "bestSeason": "6-9월, 12-2월",
+    "travelStyle": ["자연", "철도", "알프스", "도시"],
+    "routeGroup": "알프스 철도 루트",
+    "recommendedDays": "5-8일",
+    "naverTravelUrl": "https://search.naver.com/search.naver?query=%EB%84%A4%EC%9D%B4%EB%B2%84%20%EC%97%AC%ED%96%89%20%EC%8A%A4%EC%9C%84%EC%8A%A4",
+    "highlights": ["취리히", "루체른", "인터라켄", "융프라우", "체르마트"],
+    "historyNotes": [
+      "스위스는 알프스 교통로와 칸톤 연방의 역사 위에서 형성된 나라다.",
+      "중립국 이미지, 시계 산업, 금융, 관광은 산악 지형과 유럽 정치사의 영향을 함께 받았다."
+    ]
+  },
+  {
+    "id": "osaka",
+    "country": "일본",
+    "region": "오사카",
+    "continent": "아시아",
+    "status": "wishlist",
+    "coordinates": { "lat": 34.6937, "lng": 135.5023 },
+    "summary": "상업도시의 활기, 길거리 음식, 간사이 여행 거점 성격이 강한 도시.",
+    "bestSeason": "3-5월, 10-11월",
+    "travelStyle": ["도시", "미식", "역사"],
+    "routeGroup": "간사이 역사 도시 루트",
+    "recommendedDays": "2-3일",
+    "naverTravelUrl": "https://search.naver.com/search.naver?query=%EB%84%A4%EC%9D%B4%EB%B2%84%20%EC%97%AC%ED%96%89%20%EC%98%A4%EC%82%AC%EC%B9%B4",
+    "highlights": ["도톤보리", "오사카성", "우메다", "신세카이"],
+    "historyNotes": [
+      "오사카는 에도 시대 일본의 부엌으로 불릴 만큼 상업과 물류가 발달한 도시다.",
+      "오사카성은 도요토미 히데요시의 권력과 전국시대 이후 통일 질서를 이해하는 핵심 장소다."
+    ]
+  },
+  {
+    "id": "fukuoka",
+    "country": "일본",
+    "region": "후쿠오카",
+    "continent": "아시아",
+    "status": "wishlist",
+    "coordinates": { "lat": 33.5902, "lng": 130.4017 },
+    "summary": "한국에서 접근성이 좋고 하카타 음식, 항구 도시, 규슈 여행의 출발점 역할을 한다.",
+    "bestSeason": "3-5월, 10-11월",
+    "travelStyle": ["도시", "미식", "근교"],
+    "routeGroup": "규슈 입문 루트",
+    "recommendedDays": "2-4일",
+    "naverTravelUrl": "https://search.naver.com/search.naver?query=%EB%84%A4%EC%9D%B4%EB%B2%84%20%EC%97%AC%ED%96%89%20%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4",
+    "highlights": ["하카타", "텐진", "오호리 공원", "다자이후"],
+    "historyNotes": [
+      "후쿠오카와 하카타는 한반도와 중국 대륙을 잇는 교류의 관문이었다.",
+      "몽골 침입 방어와 다자이후의 행정 기능은 규슈가 일본 외교와 방어의 전초였음을 보여준다."
+    ]
+  },
+  {
+    "id": "kyoto",
+    "country": "일본",
+    "region": "교토",
+    "continent": "아시아",
+    "status": "wishlist",
+    "coordinates": { "lat": 35.0116, "lng": 135.7681 },
+    "summary": "천년 수도의 사찰, 정원, 전통 거리와 계절 풍경을 중심으로 보는 문화 여행지.",
+    "bestSeason": "3-4월, 10-11월",
+    "travelStyle": ["역사", "사찰", "정원", "도시 산책"],
+    "routeGroup": "간사이 역사 도시 루트",
+    "recommendedDays": "2-4일",
+    "naverTravelUrl": "https://search.naver.com/search.naver?query=%EB%84%A4%EC%9D%B4%EB%B2%84%20%EC%97%AC%ED%96%89%20%EA%B5%90%ED%86%A0",
+    "highlights": ["기요미즈데라", "금각사", "후시미이나리", "아라시야마"],
+    "historyNotes": [
+      "교토는 헤이안쿄 이후 오랫동안 일본의 수도였고, 귀족 문화와 불교 사찰 문화가 깊게 축적됐다.",
+      "사찰과 정원은 종교 공간이면서 권력, 미학, 계절 감각을 표현하는 문화 장치로 볼 수 있다."
+    ]
+  },
+  {
+    "id": "cusco-machu-picchu",
+    "country": "페루",
+    "region": "쿠스코·마추픽추",
+    "continent": "남미",
+    "status": "wishlist",
+    "coordinates": { "lat": -13.1631, "lng": -72.545 },
+    "summary": "안데스 산악 지형과 잉카 문명의 도시·성지·길 문화를 함께 보는 남미 대표 역사 여행 후보.",
+    "bestSeason": "5-9월",
+    "travelStyle": ["역사", "고산", "유적", "자연"],
+    "routeGroup": "안데스 잉카 문명 루트",
+    "recommendedDays": "4-6일",
+    "naverTravelUrl": "https://search.naver.com/search.naver?query=%EB%84%A4%EC%9D%B4%EB%B2%84%20%EC%97%AC%ED%96%89%20%EB%A7%88%EC%B6%94%ED%94%BD%EC%B6%94",
+    "highlights": ["쿠스코", "마추픽추", "성스러운 계곡", "올란타이탐보"],
+    "historyNotes": [
+      "쿠스코는 잉카 제국의 수도였고, 스페인 정복 이후 식민 도시 구조가 그 위에 겹쳐졌다.",
+      "마추픽추는 산악 지형, 종교적 상징, 잉카의 석조 기술과 길 체계를 함께 이해할 수 있는 장소다."
+    ]
+  },
+  {
+    "id": "cairo-luxor",
+    "country": "이집트",
+    "region": "카이로·룩소르",
+    "continent": "아프리카",
+    "status": "wishlist",
+    "coordinates": { "lat": 26.8206, "lng": 30.8025 },
+    "summary": "피라미드, 박물관, 나일강 유적과 고대 왕국의 권력 구조를 연결해서 볼 수 있는 역사 여행 후보.",
+    "bestSeason": "10-4월",
+    "travelStyle": ["역사", "고대문명", "박물관", "강"],
+    "routeGroup": "나일 고대문명 루트",
+    "recommendedDays": "5-7일",
+    "naverTravelUrl": "https://search.naver.com/search.naver?query=%EB%84%A4%EC%9D%B4%EB%B2%84%20%EC%97%AC%ED%96%89%20%EC%9D%B4%EC%A7%91%ED%8A%B8%20%EC%B9%B4%EC%9D%B4%EB%A1%9C%20%EB%A3%A9%EC%86%8C%EB%A5%B4",
+    "highlights": ["기자 피라미드", "이집트 박물관", "카르나크 신전", "왕가의 계곡"],
+    "historyNotes": [
+      "카이로와 기자는 고왕국의 왕권과 장례 문화를 이해하는 출발점이다.",
+      "룩소르는 고대 테베의 유산이 남아 있어 신전, 왕릉, 나일강 문명을 입체적으로 볼 수 있다."
+    ]
+  },
+  {
+    "id": "sydney",
+    "country": "호주",
+    "region": "시드니",
+    "continent": "오세아니아",
+    "status": "wishlist",
+    "coordinates": { "lat": -33.8688, "lng": 151.2093 },
+    "summary": "항구 도시 풍경, 오페라하우스, 해변 문화와 다문화 도시성을 함께 보는 오세아니아 대표 후보.",
+    "bestSeason": "9-11월, 3-5월",
+    "travelStyle": ["도시", "항구", "해변", "문화"],
+    "routeGroup": "호주 동부 도시·해안 루트",
+    "recommendedDays": "4-6일",
+    "naverTravelUrl": "https://search.naver.com/search.naver?query=%EB%84%A4%EC%9D%B4%EB%B2%84%20%EC%97%AC%ED%96%89%20%EC%8B%9C%EB%93%9C%EB%8B%88",
+    "highlights": ["시드니 오페라하우스", "하버브리지", "본다이 비치", "더 록스"],
+    "historyNotes": [
+      "시드니는 영국 식민지 도시로 출발했지만, 오늘날에는 원주민 역사와 이민 사회가 함께 축적된 도시다.",
+      "항구와 해변은 도시 정체성을 형성한 핵심 지형이며, 더 록스 일대는 초기 식민 도시의 흔적을 읽기 좋다."
+    ]
+  },
+  {
+    "id": "antarctic-peninsula",
+    "country": "남극",
+    "region": "남극반도",
+    "continent": "남극",
+    "status": "wishlist",
+    "coordinates": { "lat": -64.8255, "lng": -62.8716 },
+    "summary": "빙하, 극지 생태, 탐험사를 중심으로 보는 장기 목표형 여행 후보.",
+    "bestSeason": "11-3월",
+    "travelStyle": ["자연", "극지", "탐험", "생태"],
+    "routeGroup": "극지 탐험 루트",
+    "recommendedDays": "10-14일",
+    "naverTravelUrl": "https://search.naver.com/search.naver?query=%EB%82%A8%EA%B7%B9%EB%B0%98%EB%8F%84%20%EC%97%AC%ED%96%89",
+    "highlights": ["드레이크 해협", "빙하 지형", "극지 생태 관찰", "탐험선 항해"],
+    "historyNotes": [
+      "남극반도는 남미에서 접근하는 대표적인 극지 항로이며, 19~20세기 탐험사와 과학 관측의 맥락을 함께 갖고 있다.",
+      "남극 여행은 자연 감상보다 환경 보전, 국제 협약, 극지 과학을 함께 이해해야 하는 특수한 여행이다."
+    ]
+  }
+]

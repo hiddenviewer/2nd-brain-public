@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content'
 import BaseLayout from '../../layouts/BaseLayout.astro'
 import NoteCard from '../../components/NoteCard.astro'
+import travelDestinations from '../../data/travel-destinations.json'
 
 const labels = {
   ai: 'AI 에이전트',
@@ -25,6 +26,7 @@ export async function getStaticPaths() {
 
 const { category } = Astro.params
 const notes = await getCollection('notes', ({ data }) => data.status === 'published' && data.category === category)
+const isTravelCategory = category === 'travel'
 const languageArtifacts = [
   {
     title: 'Workplace Buddy English Phrase Guide',
@@ -37,45 +39,473 @@ const artifacts = category === 'language' ? languageArtifacts : []
 const base = import.meta.env.BASE_URL
 const basePath = base.endsWith('/') ? base : `${base}/`
 const withBase = (href) => `${basePath}${href.replace(/^\//, '')}`
+const worldMapSrc = withBase('/assets/mapchart-world.png')
+const worldMapSourceUrl = 'https://www.mapchart.net/world.html'
+const travelStats = {
+  total: travelDestinations.length,
+  visited: travelDestinations.filter((destination) => destination.status === 'visited').length,
+  wishlist: travelDestinations.filter((destination) => destination.status === 'wishlist').length,
+  countries: new Set(travelDestinations.map((destination) => destination.country)).size,
+}
+const continentOrder = ['아시아', '유럽', '북미', '남미', '아프리카', '오세아니아', '남극']
+const travelTree = continentOrder
+  .map((continent) => {
+    const destinations = travelDestinations.filter((destination) => destination.continent === continent)
+    const countries = Array.from(new Set(destinations.map((destination) => destination.country))).map((country) => {
+      const countryDestinations = destinations.filter((destination) => destination.country === country)
+      return {
+        country,
+        destinations: countryDestinations,
+        visited: countryDestinations.filter((destination) => destination.status === 'visited').length,
+        wishlist: countryDestinations.filter((destination) => destination.status === 'wishlist').length,
+      }
+    })
+    return { continent, countries, count: destinations.length }
+  })
+  .filter((group) => group.count > 0)
+const travelStatusLabel = {
+  visited: '가본 곳',
+  wishlist: '가보고 싶은 곳',
+}
+const summaryLabel = (visited, wishlist) => [
+  visited + wishlist > 0 ? `${visited + wishlist}곳` : '',
+  visited > 0 ? `가본 곳 ${visited}` : '',
+  wishlist > 0 ? `후보 ${wishlist}` : '',
+].filter(Boolean).join(' · ')
+const groupInfo = {
+  continents: {
+    아시아: '가까운 도시 여행과 동남아 휴양지가 함께 있는 권역입니다. 접근성이 좋고 짧은 일정부터 장기 휴양까지 폭이 넓습니다.',
+    유럽: '도시별 역사와 미술, 철도 이동, 오래된 도시 구조를 함께 보기 좋은 권역입니다.',
+    북미: '대도시, 기술 산업, 자연 경관을 함께 묶어 보기 좋은 장거리 여행 권역입니다.',
+    남미: '고산 지형과 고대 문명, 식민 도시가 겹쳐 있어 역사와 자연을 함께 보는 여행에 적합합니다.',
+    아프리카: '고대 문명, 사막, 강, 사파리처럼 큰 지형과 오래된 문명사를 함께 볼 수 있는 권역입니다.',
+    오세아니아: '항구 도시, 해변, 자연 생태와 다문화 도시 경험을 함께 보기 좋은 권역입니다.',
+    남극: '극지 생태와 탐험사, 환경 보전 관점이 중요한 장기 목표형 여행 권역입니다.',
+  },
+  countries: {
+    이탈리아: '로마 제국, 르네상스, 남부 해안 문화가 이어지는 역사 중심 여행지입니다.',
+    베트남: '섬 휴양과 남부 해양 문화를 중심으로 느린 휴식 여행에 적합합니다.',
+    일본: '도시 문화, 음식, 사찰과 역사 도시를 짧은 동선으로 묶기 좋습니다.',
+    태국: '해변 휴양과 동남아 해상 교역 문화의 흔적을 함께 볼 수 있습니다.',
+    미국: '서부 도시와 기술 산업 생태계를 중심으로 현대 도시사를 보기 좋습니다.',
+    스위스: '알프스 지형, 철도 이동, 호수 도시를 연결하는 자연 중심 후보지입니다.',
+    페루: '안데스 지형과 잉카 문명의 도시·길·성지 문화를 함께 보는 후보지입니다.',
+    이집트: '나일강과 고대 왕국의 유적을 중심으로 고대 문명사를 보기 좋은 후보지입니다.',
+    호주: '항구 도시, 해변, 원주민 역사와 다문화 도시성을 함께 볼 수 있습니다.',
+    남극: '극지 자연과 탐험사, 국제 환경 보전의 맥락을 함께 이해해야 하는 특수 후보지입니다.',
+  },
+}
+const compactSummary = (visited, wishlist) => ({ total: visited + wishlist, visited, wishlist })
+const mapMarkerPositions = {
+  milan: { left: '50.4%', top: '40.0%' },
+  florence: { left: '50.5%', top: '41.3%' },
+  rome: { left: '50.7%', top: '42.5%' },
+  sorrento: { left: '50.9%', top: '43.7%' },
+  positano: { left: '50.9%', top: '43.7%' },
+  'phu-quoc': { left: '80.7%', top: '61.1%' },
+  tokyo: { left: '88.5%', top: '42.0%' },
+  phuket: { left: '78.0%', top: '58.7%' },
+  'san-francisco': { left: '15.4%', top: '40.5%' },
+  'san-jose': { left: '15.5%', top: '40.9%' },
+  switzerland: { left: '49.9%', top: '39.2%' },
+  osaka: { left: '88.0%', top: '43.0%' },
+  fukuoka: { left: '87.4%', top: '43.4%' },
+  kyoto: { left: '87.9%', top: '42.9%' },
+  'cusco-machu-picchu': { left: '30.1%', top: '69.0%' },
+  'cairo-luxor': { left: '56.1%', top: '49.6%' },
+  sydney: { left: '86.1%', top: '77.1%' },
+  'antarctic-peninsula': { left: '31.0%', top: '92.0%' },
+}
+const mapPosition = (coordinates) => ({
+  left: `${((coordinates.lng + 180) / 360) * 100}%`,
+  top: `${((90 - coordinates.lat) / 180) * 100}%`,
+})
 ---
 
 <BaseLayout title={`${labels[category]} | 2nd Brain Public`}>
-  <main class="container section">
-    <div class="section-header">
-      <div>
-        <p class="eyebrow">카테고리</p>
-        <h1>{labels[category]}</h1>
-      </div>
-      <p>
-        {notes.length > 0
-          ? '이 카테고리에 공개된 노트입니다.'
-          : '앞으로 공개 노트를 추가할 예정인 카테고리입니다.'}
-      </p>
-    </div>
-    {artifacts.length > 0 && (
-      <section class="resource-section">
-        <h2>영어 학습 자료</h2>
-        <div class="grid">
-          {artifacts.map((artifact) => (
-            <a class="note-card resource-card" href={withBase(artifact.href)}>
-              <p class="eyebrow">Interactive HTML</p>
-              <h3>{artifact.title}</h3>
-              <p>{artifact.description}</p>
-              <div class="tag-row">
-                {artifact.tags.map((tag) => <span class="tag">{tag}</span>)}
-              </div>
-            </a>
-          ))}
-        </div>
-      </section>
-    )}
+  <main class={`container section${isTravelCategory ? ' travel-container' : ''}`}>
+    {isTravelCategory ? (
+      <div class="travel-page" data-travel-page>
+        <section class="travel-hero">
+          <div>
+            <p class="eyebrow">Travel Atlas</p>
+            <h1>여행 지도</h1>
+            <p>
+              다녀온 도시와 가보고 싶은 후보지를 세계 지도에서 고르고, 여행 포인트와
+              알아두면 좋은 역사 맥락을 함께 볼 수 있는 여행 학습 페이지입니다.
+            </p>
+          </div>
+          <div class="travel-stats" aria-label="여행 목적지 통계">
+            <div>
+              <span>전체</span>
+              <strong>{travelStats.total}</strong>
+            </div>
+            <div>
+              <span>가본 곳</span>
+              <strong>{travelStats.visited}</strong>
+            </div>
+            <div>
+              <span>가보고 싶은 곳</span>
+              <strong>{travelStats.wishlist}</strong>
+            </div>
+            <div>
+              <span>국가</span>
+              <strong>{travelStats.countries}</strong>
+            </div>
+          </div>
+        </section>
 
-    {notes.length > 0 ? (
-      <div class="grid">
-        {notes.map((note) => <NoteCard note={note} />)}
+        <section class="travel-map-section" aria-label="여행지 지도">
+          <div class="travel-map-wrap">
+            <div class="travel-map-toolbar">
+              <div>
+                <strong data-travel-map-title>{travelDestinations[0].region}</strong>
+                <span data-travel-map-meta>{travelDestinations[0].country} · {travelStatusLabel[travelDestinations[0].status]}</span>
+              </div>
+              <label class="travel-marker-toggle">
+                <input type="checkbox" data-travel-marker-mode />
+                <span>전체 마커 표시</span>
+              </label>
+              <button type="button" class="travel-fullscreen-button" data-travel-fullscreen>
+                <svg viewBox="0 0 20 20" aria-hidden="true">
+                  <path d="M3 8V3h5M12 3h5v5M17 12v5h-5M8 17H3v-5"></path>
+                </svg>
+                <span>전체화면</span>
+              </button>
+            </div>
+            <div class="travel-map">
+              <img class="world-map-image" src={worldMapSrc} alt="세계 지도" loading="eager" />
+            {travelDestinations.map((destination, index) => {
+              const position = mapMarkerPositions[destination.id] || mapPosition(destination.coordinates)
+              return (
+                <button
+                  type="button"
+                  class={`travel-marker ${destination.status}${index === 0 ? ' active' : ''}`}
+                  style={`left: ${position.left}; top: ${position.top};`}
+                  data-travel-marker={destination.id}
+                  data-status={destination.status}
+                  data-continent={destination.continent}
+                  aria-label={`${destination.region} 선택`}
+                >
+                  <span></span>
+                  <em>{destination.country} · {destination.region}</em>
+                </button>
+              )
+            })}
+            </div>
+            <div class="travel-map-legend" aria-label="지도 범례">
+              <span><i class="visited"></i>가본 곳</span>
+              <span><i class="wishlist"></i>가보고 싶은 곳</span>
+              <a href={worldMapSourceUrl} target="_blank" rel="noreferrer">지도 출처: MapChart</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="travel-content-layout" aria-label="여행지 탐색과 상세 정보">
+          <nav class="travel-tree" aria-label="대륙, 나라, 지역 탐색">
+            {travelTree.map((continentGroup) => (
+              <section class="travel-tree-continent" data-tree-continent>
+                <div class="travel-tree-continent-header">
+                  <button
+                    type="button"
+                    class="travel-tree-select"
+                    data-travel-group="continent"
+                    data-continent={continentGroup.continent}
+                  >
+                    <strong>{continentGroup.continent}</strong>
+                    {(() => {
+                      const summary = compactSummary(
+                        continentGroup.countries.reduce((sum, country) => sum + country.visited, 0),
+                        continentGroup.countries.reduce((sum, country) => sum + country.wishlist, 0),
+                      )
+                      return (
+                        <span class="travel-tree-summary" aria-label={summaryLabel(summary.visited, summary.wishlist)}>
+                          <b>{summary.total}</b>
+                          {summary.visited > 0 && <i class="visited" title={`가본 곳 ${summary.visited}`} aria-label={`가본 곳 ${summary.visited}`}>{summary.visited}</i>}
+                          {summary.wishlist > 0 && <i class="wishlist" title={`가보고 싶은 곳 ${summary.wishlist}`} aria-label={`가보고 싶은 곳 ${summary.wishlist}`}>{summary.wishlist}</i>}
+                        </span>
+                      )
+                    })()}
+                  </button>
+                  <button type="button" class="travel-tree-toggle" data-tree-toggle aria-label={`${continentGroup.continent} 접기`} aria-expanded="true">
+                    <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 8l4 4 4-4"></path></svg>
+                  </button>
+                </div>
+                {continentGroup.countries.map((countryGroup) => (
+                  <div class="travel-tree-country" data-tree-country>
+                    <div class="travel-tree-country-header">
+                      <button
+                        type="button"
+                        class="travel-tree-select"
+                        data-travel-group="country"
+                        data-country={countryGroup.country}
+                        data-continent={continentGroup.continent}
+                      >
+                        <strong>{countryGroup.country}</strong>
+                        {(() => {
+                          const summary = compactSummary(countryGroup.visited, countryGroup.wishlist)
+                          return (
+                            <span class="travel-tree-summary" aria-label={summaryLabel(summary.visited, summary.wishlist)}>
+                              <b>{summary.total}</b>
+                              {summary.visited > 0 && <i class="visited" title={`가본 곳 ${summary.visited}`} aria-label={`가본 곳 ${summary.visited}`}>{summary.visited}</i>}
+                              {summary.wishlist > 0 && <i class="wishlist" title={`가보고 싶은 곳 ${summary.wishlist}`} aria-label={`가보고 싶은 곳 ${summary.wishlist}`}>{summary.wishlist}</i>}
+                            </span>
+                          )
+                        })()}
+                      </button>
+                      <button type="button" class="travel-tree-toggle" data-tree-toggle aria-label={`${countryGroup.country} 접기`} aria-expanded="true">
+                        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 8l4 4 4-4"></path></svg>
+                      </button>
+                    </div>
+                    <div class="travel-tree-regions">
+                      {countryGroup.destinations.map((destination, index) => (
+                        <button
+                          type="button"
+                          class={`travel-tree-region ${destination.status}${destination.id === travelDestinations[0].id ? ' active' : ''}`}
+                          data-travel-card={destination.id}
+                          data-status={destination.status}
+                          data-continent={destination.continent}
+                        >
+                          <span>{destination.region}</span>
+                          <em class={`status-dot ${destination.status}`} title={travelStatusLabel[destination.status]} aria-label={travelStatusLabel[destination.status]}></em>
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </section>
+            ))}
+          </nav>
+          <article class="travel-panel" data-travel-panel>
+            <p class="eyebrow" data-travel-panel-meta data-travel-region-only>
+              {travelDestinations[0].country} · {travelStatusLabel[travelDestinations[0].status]}
+            </p>
+            <h2 data-travel-panel-title>{travelDestinations[0].region}</h2>
+            <p data-travel-panel-summary>{travelDestinations[0].summary}</p>
+            <div class="travel-group-summary" data-travel-group-summary hidden></div>
+            <div class="travel-detail-grid" data-travel-region-only>
+              <div>
+                <span>추천 시기</span>
+                <strong data-travel-panel-season>{travelDestinations[0].bestSeason}</strong>
+              </div>
+              <div>
+                <span>권장 일정</span>
+                <strong data-travel-panel-days>{travelDestinations[0].recommendedDays}</strong>
+              </div>
+              <div>
+                <span>루트</span>
+                <strong data-travel-panel-route>{travelDestinations[0].routeGroup}</strong>
+              </div>
+            </div>
+            <div class="tag-row" data-travel-panel-tags>
+              {travelDestinations[0].travelStyle.map((tag) => <span class="tag">{tag}</span>)}
+            </div>
+            <section data-travel-region-only>
+              <h3>여행 포인트</h3>
+              <ul data-travel-panel-highlights>
+                {travelDestinations[0].highlights.map((item) => <li>{item}</li>)}
+              </ul>
+            </section>
+            <section data-travel-region-only>
+              <h3>알아두면 좋은 역사</h3>
+              <ul data-travel-panel-history>
+                {travelDestinations[0].historyNotes.map((item) => <li>{item}</li>)}
+              </ul>
+            </section>
+            <a class="external-link travel-link" href={travelDestinations[0].naverTravelUrl} target="_blank" rel="noreferrer" data-travel-panel-link data-travel-region-only>
+              네이버 여행에서 보기
+            </a>
+          </article>
+        </section>
       </div>
-    ) : artifacts.length === 0 ? (
-      <div class="callout" style="padding: 24px;">아직 공개된 노트가 없습니다.</div>
-    ) : null}
+    ) : (
+      <>
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">카테고리</p>
+            <h1>{labels[category]}</h1>
+          </div>
+          <p>
+            {notes.length > 0
+              ? '이 카테고리에 공개된 노트입니다.'
+              : '앞으로 공개 노트를 추가할 예정인 카테고리입니다.'}
+          </p>
+        </div>
+        {artifacts.length > 0 && (
+          <section class="resource-section">
+            <h2>영어 학습 자료</h2>
+            <div class="grid">
+              {artifacts.map((artifact) => (
+                <a class="note-card resource-card" href={withBase(artifact.href)}>
+                  <p class="eyebrow">Interactive HTML</p>
+                  <h3>{artifact.title}</h3>
+                  <p>{artifact.description}</p>
+                  <div class="tag-row">
+                    {artifact.tags.map((tag) => <span class="tag">{tag}</span>)}
+                  </div>
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {notes.length > 0 ? (
+          <div class="grid">
+            {notes.map((note) => <NoteCard note={note} />)}
+          </div>
+        ) : artifacts.length === 0 ? (
+          <div class="callout" style="padding: 24px;">아직 공개된 노트가 없습니다.</div>
+        ) : null}
+      </>
+    )}
+    {isTravelCategory && (
+      <script define:vars={{ destinations: travelDestinations, statusLabel: travelStatusLabel, groupInfo }}>
+        const page = document.querySelector('[data-travel-page]')
+        const panel = document.querySelector('[data-travel-panel]')
+        const markers = Array.from(document.querySelectorAll('[data-travel-marker]'))
+        const cards = Array.from(document.querySelectorAll('[data-travel-card]'))
+        const groupButtons = Array.from(document.querySelectorAll('[data-travel-group]'))
+        const treeToggles = Array.from(document.querySelectorAll('[data-tree-toggle]'))
+        const markerMode = document.querySelector('[data-travel-marker-mode]')
+        const fullscreenButton = document.querySelector('[data-travel-fullscreen]')
+        const mapWrap = document.querySelector('.travel-map-wrap')
+        const mapTitle = document.querySelector('[data-travel-map-title]')
+        const mapMeta = document.querySelector('[data-travel-map-meta]')
+        let activeDestinationId = destinations[0]?.id
+        let showAllMarkers = false
+
+        const createList = (items) => items.map((item) => `<li>${item}</li>`).join('')
+        const createTags = (items) => items.map((item) => `<span class="tag">${item}</span>`).join('')
+        const makeSummaryLabel = (items) => {
+          const visited = items.filter((item) => item.status === 'visited').length
+          const wishlist = items.filter((item) => item.status === 'wishlist').length
+          return [
+            items.length ? `${items.length}곳` : '',
+            visited ? `가본 곳 ${visited}` : '',
+            wishlist ? `후보 ${wishlist}` : '',
+          ].filter(Boolean).join(' · ')
+        }
+
+        const setRegionSections = (visible) => {
+          panel.querySelectorAll('[data-travel-region-only]').forEach((element) => {
+            element.hidden = !visible
+          })
+        }
+
+        const updateMarkerVisibility = () => {
+          page?.classList.toggle('show-all-markers', showAllMarkers)
+          markers.forEach((marker) => {
+            marker.classList.toggle('active', marker.dataset.travelMarker === activeDestinationId)
+            marker.hidden = !showAllMarkers && marker.dataset.travelMarker !== activeDestinationId
+          })
+        }
+
+        const setActiveTreeItem = (id) => {
+          cards.forEach((card) => card.classList.toggle('active', card.dataset.travelCard === id))
+          groupButtons.forEach((button) => button.classList.remove('active'))
+        }
+
+        const selectDestination = (id) => {
+          const destination = destinations.find((item) => item.id === id)
+          if (!destination || !panel) return
+          activeDestinationId = id
+
+          updateMarkerVisibility()
+          setActiveTreeItem(id)
+          setRegionSections(true)
+
+          panel.querySelector('[data-travel-panel-meta]').textContent = `${destination.country} · ${statusLabel[destination.status]}`
+          panel.querySelector('[data-travel-panel-title]').textContent = destination.region
+          panel.querySelector('[data-travel-panel-summary]').textContent = destination.summary
+          panel.querySelector('[data-travel-group-summary]').hidden = true
+          panel.querySelector('[data-travel-panel-season]').textContent = destination.bestSeason
+          panel.querySelector('[data-travel-panel-days]').textContent = destination.recommendedDays
+          panel.querySelector('[data-travel-panel-route]').textContent = destination.routeGroup
+          panel.querySelector('[data-travel-panel-tags]').innerHTML = createTags(destination.travelStyle)
+          panel.querySelector('[data-travel-panel-highlights]').innerHTML = createList(destination.highlights)
+          panel.querySelector('[data-travel-panel-history]').innerHTML = createList(destination.historyNotes)
+          panel.querySelector('[data-travel-panel-link]').href = destination.naverTravelUrl
+          mapTitle.textContent = destination.region
+          mapMeta.textContent = `${destination.country} · ${statusLabel[destination.status]}`
+        }
+
+        const selectGroup = (button) => {
+          const isContinent = button.dataset.travelGroup === 'continent'
+          const items = destinations.filter((item) => {
+            if (isContinent) return item.continent === button.dataset.continent
+            return item.country === button.dataset.country && item.continent === button.dataset.continent
+          })
+          if (!items.length || !panel) return
+
+          const first = items[0]
+          activeDestinationId = first.id
+          updateMarkerVisibility()
+          cards.forEach((card) => card.classList.toggle('active', items.some((item) => item.id === card.dataset.travelCard)))
+          groupButtons.forEach((groupButton) => groupButton.classList.toggle('active', groupButton === button))
+          setRegionSections(false)
+
+          const title = isContinent ? button.dataset.continent : button.dataset.country
+          panel.querySelector('[data-travel-panel-title]').textContent = title
+          panel.querySelector('[data-travel-panel-summary]').textContent = isContinent
+            ? `${title} 대륙의 여행지를 한 번에 보는 그룹입니다. 아래 지역을 선택하면 더 구체적인 여행 포인트와 역사 메모를 볼 수 있습니다.`
+            : `${title}에 속한 여행지를 모아 보는 그룹입니다. 지역을 선택하면 상세 여행 정보로 전환됩니다.`
+          panel.querySelector('[data-travel-panel-tags]').innerHTML = createTags([...new Set(items.flatMap((item) => item.travelStyle))].slice(0, 8))
+          const summary = panel.querySelector('[data-travel-group-summary]')
+          summary.hidden = false
+          const visited = items.filter((item) => item.status === 'visited').length
+          const wishlist = items.filter((item) => item.status === 'wishlist').length
+          const seasons = [...new Set(items.map((item) => item.bestSeason))].slice(0, 4).join(' · ')
+          const routes = [...new Set(items.map((item) => item.routeGroup))].slice(0, 4).join(' · ')
+          const description = isContinent
+            ? groupInfo.continents[title] || `${title} 권역의 여행지를 모아 보는 그룹입니다.`
+            : groupInfo.countries[title] || `${title}에 속한 여행지를 모아 보는 그룹입니다.`
+          summary.innerHTML = `
+            <div><span>설명</span><strong>${description}</strong></div>
+            <div><span>구성</span><strong>전체 ${items.length}곳 · 가본 곳 ${visited} · 후보 ${wishlist}</strong></div>
+            <div><span>추천 시기</span><strong>${seasons}</strong></div>
+            <div><span>루트</span><strong>${routes}</strong></div>
+          `
+          mapTitle.textContent = title
+          mapMeta.textContent = makeSummaryLabel(items)
+        }
+
+        markers.forEach((marker) => {
+          marker.addEventListener('click', () => selectDestination(marker.dataset.travelMarker))
+        })
+        cards.forEach((card) => {
+          card.addEventListener('click', () => selectDestination(card.dataset.travelCard))
+        })
+        groupButtons.forEach((button) => {
+          button.addEventListener('click', () => selectGroup(button))
+        })
+        treeToggles.forEach((button) => {
+          button.addEventListener('click', () => {
+            const section = button.closest('[data-tree-country], [data-tree-continent]')
+            const collapsed = section.classList.toggle('collapsed')
+            button.setAttribute('aria-expanded', String(!collapsed))
+          })
+        })
+        markerMode?.addEventListener('change', () => {
+          showAllMarkers = markerMode.checked
+          updateMarkerVisibility()
+        })
+        fullscreenButton?.addEventListener('click', async () => {
+          if (!mapWrap) return
+          if (document.fullscreenElement) {
+            await document.exitFullscreen()
+          } else {
+            await mapWrap.requestFullscreen()
+          }
+        })
+        document.addEventListener('fullscreenchange', () => {
+          const isFullscreen = document.fullscreenElement === mapWrap
+          fullscreenButton?.classList.toggle('active', isFullscreen)
+          const label = fullscreenButton?.querySelector('span')
+          if (label) label.textContent = isFullscreen ? '나가기' : '전체화면'
+        })
+
+        if (page && destinations[0]) selectDestination(destinations[0].id)
+      </script>
+    )}
   </main>
 </BaseLayout>
