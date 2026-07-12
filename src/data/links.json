@@ -2074,22 +2074,6 @@
     "companies": []
   },
   {
-    "title": "한국 OLED 시장점유율, 2025년 68.7%로 첫 반등",
-    "url": "https://kr.investing.com/news/economy-news/article-1915338",
-    "category": "general",
-    "categoryLabel": "기타",
-    "status": "pending",
-    "updated": "2026-07-12",
-    "sourceNote": "2026-07-12-oled-2025-68-7",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "한국 OLED가 중국 추격 속에서도 LTPO 등 고부가 기술 우위를 바탕으로 2025년 글로벌 점유율을 68.7%까지 확대했다.",
-    "companies": [],
-    "captureRepair": {}
-  },
-  {
     "title": "혈관 건강에 도움 되는 음식 5가지",
     "url": "https://v.daum.net/v/20260708123108159",
     "category": "general",
@@ -3864,6 +3848,37 @@
         "label": "SK하이닉스",
         "ticker": "000660",
         "sector": "semiconductors"
+      }
+    ]
+  },
+  {
+    "title": "한국 OLED 시장점유율, 2025년 68.7%로 첫 반등",
+    "url": "https://kr.investing.com/news/economy-news/article-1915338",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-07-13",
+    "sourceNote": "2026-07-12-oled-2025-68-7",
+    "tags": [
+      "kr-stocks",
+      "display",
+      "oled",
+      "ltpo",
+      "apple-supply-chain"
+    ],
+    "description": "한국디스플레이산업협회가 OMDIA 데이터를 분석한 결과, 2025년 한국 OLED 글로벌 시장점유율이 68.7%로 전년 대비 1.5%p 상승했다는 기사다. 중국 업체 진입 이후 하락하던 한국 OLED 점유율이 처음 반등했다는 점에서 [[k-display-oled|K-디스플레이 OLED]]의 고부가 OLED 방어력 논지를 보강한다.",
+    "companies": [
+      {
+        "id": "lg-display",
+        "label": "LG디스플레이",
+        "ticker": "034220",
+        "sector": "display"
+      },
+      {
+        "id": "samsung-display",
+        "label": "삼성디스플레이",
+        "ticker": "비상장",
+        "sector": "display"
       }
     ]
   },
