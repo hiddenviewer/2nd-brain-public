@@ -341,16 +341,17 @@
     "url": "https://yozm.wishket.com/magazine/detail/3733/",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-07-12",
-    "sourceNote": "2026-07-12-ai",
+    "status": "public",
+    "updated": "2026-07-13",
+    "sourceNote": "2026-07-12-ai-harness-engineering-control",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "harness",
+      "hooks",
+      "agents-md"
     ],
-    "description": "이 글은 프롬프트만으로 AI 에이전트를 제어하는 한계를 짚고, hooks, 모듈화, 빌드타임 컴파일, AGENTS.md, 멀티모델 협업을 통해 실행 환경 자체를 설계하는 ‘하네스 엔지니어링’으로 전환한 경험을 정리한다.",
-    "companies": [],
-    "captureRepair": {}
+    "description": "Yozm 기사 요약 메모다. 프롬프트만으로 AI 에이전트 행동을 통제하기 어렵다는 문제의식에서 출발해, hooks, 규칙 모듈화, 빌드타임 컴파일, AGENTS.md, 멀티모델 검토를 묶은 하네스 엔지니어링 전환을 설명한다.",
+    "companies": []
   },
   {
     "title": "Agent Learning Hub: AI 에이전트 빌더를 위한 단계별 학습 로드맵",
