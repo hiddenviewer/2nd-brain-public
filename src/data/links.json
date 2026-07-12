@@ -2389,24 +2389,39 @@
     "captureRepair": {}
   },
   {
-    "title": "1400조 메가프로젝트 수주전… 건설사 경쟁 2027년 이후 본격화",
+    "title": "1400조 메가프로젝트 수주전과 건설사 경쟁 본격화 전망",
     "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/07/12/KEPMXI4OWRHB7AW4VS4G7UZSWM/",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-07-12",
-    "sourceNote": "2026-07-12-1400-2027",
+    "status": "public",
+    "updated": "2026-07-13",
+    "sourceNote": "2026-07-12-1400-megaproject-construction-2027",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "construction",
+      "ai-infrastructure",
+      "data-center",
+      "semiconductor"
     ],
-    "description": "정부와 기업이 반도체, 피지컬 AI, AI 데이터센터 구축을 위해 추진하는 1400조 원 규모의 '3대 메가프로젝트'가 발표되면서 건설 업계의 수주 기대감이 높아지고 있으나, 실제 수주는 2027년 이후 본격화할 전망이며 고난도 시설은 기술력을 갖춘 대형사 중심으로 수혜가 집중될 것으로 보입니다.",
+    "description": "조선비즈 기사 요약 메모다. 정부와 기업이 반도체, 피지컬 AI, AI 데이터센터 인프라에 1차로 약 1400조 원을 투자한다는 계획이 건설업 수주 기대를 키우지만, 실제 수주는 2027년 이후 본격화될 가능성이 크다는 내용을 다룬다.",
     "companies": [
       {
-        "id": "goldman-sachs",
-        "label": "Goldman Sachs",
-        "ticker": "GS",
-        "sector": "global investment banking"
+        "id": "apr",
+        "label": "에이피알",
+        "ticker": "278470",
+        "sector": "cosmetics-beauty-devices"
+      },
+      {
+        "id": "gs-engineering-construction",
+        "label": "GS건설",
+        "ticker": "006360",
+        "sector": "건설, 플랜트, 인프라, 하이테크 시공"
+      },
+      {
+        "id": "naver",
+        "label": "네이버",
+        "ticker": "035420",
+        "sector": "internet-platform"
       },
       {
         "id": "sk-inc",
@@ -2414,8 +2429,7 @@
         "ticker": "034730",
         "sector": "holding-company"
       }
-    ],
-    "captureRepair": null
+    ]
   },
   {
     "title": "계절근로자와 호르무즈·대만 리스크를 다룬 더 보다 108회",
@@ -4067,6 +4081,12 @@
         "label": "Goldman Sachs",
         "ticker": "GS",
         "sector": "global investment banking"
+      },
+      {
+        "id": "gs-engineering-construction",
+        "label": "GS건설",
+        "ticker": "006360",
+        "sector": "건설, 플랜트, 인프라, 하이테크 시공"
       },
       {
         "id": "hyundai-engineering-construction",
