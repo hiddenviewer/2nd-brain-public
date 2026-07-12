@@ -4074,14 +4074,17 @@
     "url": "http://www.choicenews.co.kr/news/articleView.html?idxno=167975",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-07-12",
+    "status": "public",
+    "updated": "2026-07-13",
     "sourceNote": "2026-07-12-ai-gs",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "construction",
+      "ai-infrastructure",
+      "data-center",
+      "gs"
     ],
-    "description": "GS그룹의 대규모 AI 데이터센터 구축 기대가 GS건설과 건설업종 주가 상승 모멘텀으로 부각됐다는 기사다.",
+    "description": "초이스경제 기사 요약 메모다. GS그룹의 AI 데이터센터 구축 계획이 GS건설과 건설업종의 단기 주가 모멘텀으로 부각됐다는 내용을 다룬다.",
     "companies": [
       {
         "id": "goldman-sachs",
@@ -4094,15 +4097,8 @@
         "label": "GS건설",
         "ticker": "006360",
         "sector": "건설, 플랜트, 인프라, 하이테크 시공"
-      },
-      {
-        "id": "hyundai-engineering-construction",
-        "label": "현대건설",
-        "ticker": "000720",
-        "sector": "건설, 원전 시공, 인프라"
       }
-    ],
-    "captureRepair": null
+    ]
   },
   {
     "title": "BOE, 8.6세대 OLED 양산식으로 삼성디스플레이와 경쟁 본격화",
