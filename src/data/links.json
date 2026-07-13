@@ -70,22 +70,6 @@
     "companies": []
   },
   {
-    "title": "농심, 부산 녹산 AI 수출공장으로 연 12억개 라면 수출 생산체제 추진",
-    "url": "https://www.etnews.com/20260712000050",
-    "category": "ai",
-    "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-07-13",
-    "sourceNote": "2026-07-14-ai-12",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "농심은 2026년 10월 완공 예정인 부산 녹산 수출전용공장에 AI 품질관리와 빅데이터 예측 시스템을 적용해 해외 라면 수요와 품질 기준 강화에 대응하려 한다.",
-    "companies": [],
-    "captureRepair": {}
-  },
-  {
     "title": "루프 엔지니어링 - 에이전트를 프롬프트하는 시스템을 설계하기",
     "url": "https://news.hada.io/topic?id=30336",
     "category": "ai",
@@ -2486,6 +2470,38 @@
         "label": "네이버",
         "ticker": "035420",
         "sector": "internet-platform"
+      }
+    ]
+  },
+  {
+    "title": "농심, 부산 녹산 AI 수출공장으로 연 12억개 라면 수출 생산체제 추진",
+    "url": "https://www.etnews.com/20260712000050",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-07-14",
+    "sourceNote": "2026-07-14-ai-12",
+    "tags": [
+      "kr-stocks",
+      "nongshim",
+      "food",
+      "export",
+      "smart-factory",
+      "ai"
+    ],
+    "description": "전자신문 기사 요약 메모다. 농심이 2026년 10월 완공 예정인 부산 녹산 수출전용공장에 AI 품질관리와 빅데이터 기반 이상 징후 예측 시스템을 적용해 해외 라면 수요와 품질 기준 강화에 대응하려 한다는 내용이다.",
+    "companies": [
+      {
+        "id": "goldman-sachs",
+        "label": "Goldman Sachs",
+        "ticker": "GS",
+        "sector": "global investment banking"
+      },
+      {
+        "id": "nongshim",
+        "label": "농심",
+        "ticker": "004370",
+        "sector": "food"
       }
     ]
   },
