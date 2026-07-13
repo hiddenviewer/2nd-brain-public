@@ -1120,6 +1120,251 @@
     ]
   },
   {
+    "id": "wikidocs-20486",
+    "title": "루프 엔지니어링",
+    "author": "김동학",
+    "description": "AI 에이전트가 반복 작업을 스스로 수행·검증·기록·중단하도록 설계하는 Loop Engineering 입문서다. WikiDocs 책 페이지와 일부 장 페이지는 확인했지만, 일부 TOC 링크는 slug형 URL fetch가 실패해 verified=false로 표시했다.",
+    "summary": "이 책은 사람이 매번 프롬프트를 입력하고 결과를 확인하던 방식을, 검증과 상태 기록과 멈춤 조건을 갖춘 반복 시스템으로 바꾸는 방법을 설명한다. 초반부는 사용자가 사실상 Loop 역할을 하고 있었다는 문제의식에서 출발해 Loop와 단순 자동화의 차이를 정리한다. 중반부는 Verify, State file, Stop condition, Skill, Minimum Viable Loop 같은 핵심 부품을 다룬다. 이후 Harness Engineering, Scheduling, Worktree, Connector, Sub-agent, Headless pipeline처럼 실제 운영 가능한 루프로 확장하는 요소를 설명한다. 마지막에는 비용, 보안, 이해 부채, 조용한 실패, Outer Loop 같은 운영 리스크를 다루며 사람이 남겨야 할 판단 영역을 강조한다.",
+    "domain": "ai-agents",
+    "status": "partial",
+    "updated": "2026-07-14",
+    "sourceUrl": "https://wikidocs.net/book/20486",
+    "keyPoints": [
+      "Loop Engineering은 프롬프트를 더 잘 쓰는 기술이 아니라 반복 작업 시스템을 설계하는 일이다.",
+      "좋은 Loop에는 결과 검증, 상태 기록, 명확한 멈춤 조건이 필요하다.",
+      "반복성, 자동 검증 가능성, 토큰 예산, 실행 도구라는 네 조건을 먼저 확인해야 한다.",
+      "Skill은 반복 지시를 재사용 가능한 운영 매뉴얼로 만드는 장치다.",
+      "Minimum Viable Loop는 작고 검증 가능한 단위에서 시작해야 한다.",
+      "Harness, Scheduling, Worktree, Connector, Sub-agent는 Loop를 실제 업무 흐름에 붙이는 확장 요소다.",
+      "Loop는 비용과 보안 공격면을 키울 수 있으므로 가드레일과 사람의 검토가 필요하다.",
+      "Outer Loop의 품질 판단과 책임은 에이전트가 아니라 사람이 소유해야 한다."
+    ],
+    "progress": {
+      "total": 24,
+      "summarized": 3,
+      "pending": 21,
+      "failed": 0
+    },
+    "chapters": [
+      {
+        "position": 1,
+        "title": "01. 서문",
+        "url": "https://wikidocs.net/375935",
+        "status": "summarized",
+        "summary": "이 장은 루프 엔지니어링을 ‘더 좋은 프롬프트 작성법’이 아니라 사람이 직접 돌리던 반복을 시스템으로 옮기는 설계 관점으로 소개한다. 핵심은 검증, 기억, 멈춤 조건을 갖춘 작은 작업 시스템을 만드는 것이다. 책은 코딩 에이전트 사용자, 반복 업무를 자동화하려는 팀, 비용과 위험을 먼저 따져보려는 엔지니어를 주요 독자로 둔다.",
+        "detail": "## 핵심 주장\n- 사용자가 프롬프트 입력, 테스트, 에러 전달, 재시도 판단을 계속하고 있다면 실제 Loop는 사람이 돌리고 있는 것이다.\n- 루프 엔지니어링은 반복 실행을 검증, 상태 기록, 멈춤 조건이 있는 작업 시스템으로 이전하는 일이다.\n\n## 주요 개념\n- Verify: 결과가 맞는지 확인하는 장치.\n- State: 무엇이 끝났고 남았는지 기억하는 기록.\n- Stop condition: 언제 멈추고 사람에게 넘길지 정한 규칙.\n- Skill, Worktree, Connector, Sub-agent는 기초 부품 이후에 다루는 확장 장치다.\n\n## 실무 적용\n- 처음부터 큰 자동화 시스템을 만들기보다 작고 실제 도움이 되는 Loop 하나를 고른다.\n- 기존 반복 업무에서 사람이 매번 확인하고 판단하는 부분을 식별한다.\n- 바로 구현하려는 독자도 8, 9, 11, 12, 13, 14장을 먼저 읽어 가치와 위험, 핵심 부품을 확인하는 것이 좋다.\n\n## 주의점\n- Loop는 강력하지만 모든 작업에 필요한 것은 아니다.\n- 비용, 권한, 보안, 이해 부채를 함께 관리해야 한다.\n- 이 노트는 해당 WikiDocs 장 본문과 로컬 책 인덱스 메모를 기준으로 작성했다.\n\n## 다른 장과의 연결\n- 03장은 ‘내가 왜 Loop였는지’를 구체화한다.\n- 04~05장은 Loop와 단순 자동화의 차이를 정의한다.\n- 12~14장은 서문에서 제시한 Verify, State, Stop condition을 각각 분해한다.",
+        "error": ""
+      },
+      {
+        "position": 2,
+        "title": "02. 목차",
+        "url": "https://wikidocs.net/375936",
+        "status": "summarized",
+        "summary": "이 장은 책 전체의 학습 경로를 안내한다. 초반에는 사람이 직접 돌리던 반복을 인식하고, 중반에는 Verify, State, Stop condition, Skill 같은 핵심 부품을 익히며, 후반에는 Harness, Scheduling, Worktree, Connector, Sub-agent, 비용, 실패, 보안을 다룬다. 독자의 상황별로 먼저 읽을 장도 제안한다.",
+        "detail": "## 핵심 주장\n- 루프 엔지니어링은 도구 이름을 외우는 것보다 ‘내가 어떤 반복을 하고 있었는지’ 감각을 잡는 데서 시작한다.\n- 작은 완료선을 긋고, 검증과 기억과 멈춤 조건을 붙인 뒤, 점진적으로 운영 가능한 Loop로 확장한다.\n\n## 주요 개념\n- 전체 구성: 들어가기, 만들기 전 판단, 핵심 부품, 첫 Loop 만들기, 운영 가능한 Loop, 실패하지 않는 Loop, 마무리와 부록.\n- 핵심 부품: Verify, State, Stop condition, Skill.\n- 운영 확장: Harness, Scheduling, Worktree, Connector, Sub-agent, Headless pipeline.\n- 위험 관리: 비용, 조용한 실패, 이해 부채, 보안, Outer Loop.\n\n## 실무 적용\n- Loop가 처음이면 03, 04, 05, 07, 12, 13, 14장을 우선 읽는다.\n- 바로 만들고 싶다면 판단 장과 핵심 부품 장을 거친 뒤 15~19, 23장으로 넘어간다.\n- 이미 자동화를 돌리는 팀은 12, 14, 19~21, 27, 29~31, 33장을 점검 경로로 삼을 수 있다.\n\n## 주의점\n- 목차 장은 전체 지도 역할이므로 각 장의 세부 구현법을 모두 설명하지 않는다.\n- 낯선 용어는 뒤 장에서 설명된다는 전제이므로, 이 장만으로 개념을 완전히 이해했다고 보면 안 된다.\n- 이 노트는 해당 WikiDocs 목차 본문과 로컬 책 인덱스 메모를 기준으로 작성했다.\n\n## 다른 장과의 연결\n- 03~07장은 Loop의 필요성과 기본 감각을 만든다.\n- 08~11장은 만들기 전 가치와 위험 판단을 담당한다.\n- 12~16장은 Loop의 핵심 부품, 17~28장은 실제 실행 구조와 운영, 29~33장은 실패와 책임 문제로 이어진다.",
+        "error": ""
+      },
+      {
+        "position": 3,
+        "title": "03. 이제 여러분이 Loop가 되지 마세요",
+        "url": "https://wikidocs.net/377826",
+        "status": "summarized",
+        "summary": "이 장은 현재 많은 사용자가 AI에게 일을 시킨다고 생각하지만 실제로는 사람이 반복의 연결부를 담당하고 있다고 지적한다. 사람이 하던 일은 다음 작업 찾기, 에이전트에게 넘기기, 결과 확인, 진행 상태 기억, 계속할지 결정하기로 정리된다. Loop는 이 다섯 가지를 시스템이 맡도록 만들고, 특히 ‘완료 확인’ 능력이 프롬프트와 Loop를 가르는 핵심이라고 설명한다.",
+        "detail": "## 핵심 주장\n- AI가 파일을 고치더라도 테스트 실행, 에러 전달, 남은 일 파악, 재시도 판단을 사람이 하면 사람 자신이 Loop 역할을 하는 것이다.\n- 루프 엔지니어링의 출발점은 ‘내가 지금 반복을 돌리고 있다’는 사실을 알아차리는 것이다.\n- Loop는 한 번의 요청이 아니라 일이 끝날 때까지 돌아가는 작은 운영 절차다.\n\n## 주요 개념\n- 사람이 대신 돌리던 다섯 가지: 찾기, 넘기기, 확인, 기억, 결정.\n- Prompting: 한 번 부탁하고 사람이 후속 판단을 챙기는 방식.\n- Loop: 목표, 실행, 확인, 상태 기록, 다음 단계 판단을 시스템으로 묶는 방식.\n- 완료 확인: 글이나 코드가 그럴듯한지가 아니라 실제로 끝났는지 검증하는 능력.\n\n## 실무 적용\n- 반복 업무를 볼 때 먼저 사람이 매번 하는 다섯 가지 행동을 적어본다.\n- brief 작성 같은 작업에서도 링크 확인, 출처 적합성 확인, 잘못된 출처 교체 같은 검증 단계를 Loop에 포함해야 한다.\n- 에이전트에게 지시문만 주지 말고 확인 기준, 진행 기록, 멈춤 신호를 함께 설계한다.\n\n## 주의점\n- 단일 프롬프트는 결과가 완성된 것처럼 보이는 순간 멈추기 쉽다.\n- Loop라고 부르려면 결과 검증과 상태 기록, 멈춤 판단이 있어야 한다.\n- 사람이 완전히 사라지는 것이 목표가 아니라, 사람이 옆에서 매번 반복을 연결하지 않아도 되는 구조를 만드는 것이 목표다.\n- 이 노트는 해당 WikiDocs 장 본문과 로컬 책 인덱스 메모를 기준으로 작성했다.\n\n## 다른 장과의 연결\n- 01장의 문제의식을 구체적인 사용자 행동 다섯 가지로 풀어낸다.\n- 04장은 여기서 말한 Loop를 더 명확히 정의한다.\n- 12~14장은 ‘확인, 기억, 결정’을 Verify, State file, Stop condition으로 분해해 다룬다.",
+        "error": ""
+      },
+      {
+        "position": 4,
+        "title": "04. Loop란 무엇인가",
+        "url": "https://wikidocs.net/377827",
+        "status": "pending",
+        "summary": "Loop를 단순 반복이 아니라 목표를 보고 작업하고 확인하고 기록한 뒤 다시 이어가는 자동화된 작업 흐름으로 정의한다.",
+        "detail": "",
+        "error": ""
+      },
+      {
+        "position": 6,
+        "title": "06. 루프 엔지니어링은 무엇을 바꾸는가",
+        "url": "https://wikidocs.net/377829",
+        "status": "pending",
+        "summary": "루프 엔지니어링이 하네스 위에서 반복 실행 구조를 만들고 생산성의 무게중심을 바꾸는 방식을 설명한다.",
+        "detail": "",
+        "error": ""
+      },
+      {
+        "position": 7,
+        "title": "07. 5분 만에 이해하는 Loop Engineering",
+        "url": "https://wikidocs.net/377830",
+        "status": "pending",
+        "summary": "완료선을 기준으로 작은 Loop를 이해하며 지시문보다 조건을 쓰는 사고방식을 소개한다.",
+        "detail": "",
+        "error": ""
+      },
+      {
+        "position": 8,
+        "title": "08. 만들기 전에 먼저 물어야 할 질문",
+        "url": "https://wikidocs.net/377831",
+        "status": "pending",
+        "summary": "Loop를 만들기 전에 작업의 적합성과 위험을 판단하기 위한 질문을 제시한다.",
+        "detail": "",
+        "error": ""
+      },
+      {
+        "position": 12,
+        "title": "12. Verify: Loop의 심장",
+        "url": "https://wikidocs.net/377837",
+        "status": "pending",
+        "summary": "Loop가 결과를 자기 주장으로 끝내지 않고 객관적 Gate로 확인해야 함을 설명한다.",
+        "detail": "",
+        "error": ""
+      },
+      {
+        "position": 13,
+        "title": "13. State file: 에이전트는 잊지만 파일은 기억합니다",
+        "url": "https://wikidocs.net/377838",
+        "status": "pending",
+        "summary": "반복 실행 사이에 무엇을 했고 무엇이 남았는지 이어받게 하는 상태 파일의 역할을 다룬다.",
+        "detail": "",
+        "error": ""
+      },
+      {
+        "position": 14,
+        "title": "14. Stop condition: 멈출 줄 알아야 Loop입니다",
+        "url": "https://wikidocs.net/377839",
+        "status": "pending",
+        "summary": "성공과 실패 모두에 대해 Loop가 언제 멈춰야 하는지 객관적 조건과 하드 리밋을 설명한다.",
+        "detail": "",
+        "error": ""
+      },
+      {
+        "position": 16,
+        "title": "16. AI 에이전트에 맞는 Skill 만드는 법",
+        "url": "https://wikidocs.net/377842",
+        "status": "pending",
+        "summary": "좋은 Skill을 실패 유형에서 출발해 짧고 명확한 절차로 설계하는 법을 설명한다.",
+        "detail": "",
+        "error": ""
+      },
+      {
+        "position": 17,
+        "title": "17. Minimum Viable Loop: 가장 작게 시작하기",
+        "url": "https://wikidocs.net/377845",
+        "status": "pending",
+        "summary": "작고 검증 가능한 첫 Loop를 만들어 과도한 자동화로 출발하지 않도록 안내한다.",
+        "detail": "",
+        "error": ""
+      },
+      {
+        "position": 20,
+        "title": "20. 새로운 AI Stack: Model, Harness, Loop, Optimizer",
+        "url": "https://wikidocs.net/377848",
+        "status": "pending",
+        "summary": "Model, Harness, Loop, Optimizer를 하나의 AI 작업 스택으로 배치해 각 층의 역할을 설명한다.",
+        "detail": "",
+        "error": ""
+      },
+      {
+        "position": 21,
+        "title": "21. Automation, `/goal`, `/loop`",
+        "url": "https://wikidocs.net/377849",
+        "status": "pending",
+        "summary": "자동화를 Loop의 재실행 장치로 보고 `/goal`과 `/loop`가 각각 멈춤 조건과 반복 리듬을 만드는 방식을 설명한다.",
+        "detail": "",
+        "error": ""
+      },
+      {
+        "position": 22,
+        "title": "22. Turn, Goal, Time, Proactive Loop",
+        "url": "https://wikidocs.net/377850",
+        "status": "pending",
+        "summary": "Loop를 Turn-based, Goal-based, Time-based, Proactive 유형으로 나누어 적용 상황을 구분한다.",
+        "detail": "",
+        "error": ""
+      },
+      {
+        "position": 23,
+        "title": "23. Scheduling: 실제로 다시 깨어나게 만들기",
+        "url": "https://wikidocs.net/377851",
+        "status": "pending",
+        "summary": "Loop가 한 번 실행되고 끝나지 않도록 일정과 트리거로 다시 실행되게 만드는 방법을 다룬다.",
+        "detail": "",
+        "error": ""
+      },
+      {
+        "position": 27,
+        "title": "27. 비용과 가드레일",
+        "url": "https://wikidocs.net/377855",
+        "status": "pending",
+        "summary": "Loop 실행의 토큰, 시간, 권한 비용을 제한하고 과도한 반복을 막는 운영 가드레일을 설명한다.",
+        "detail": "",
+        "error": ""
+      },
+      {
+        "position": 28,
+        "title": "28. Headless 실행과 Agent pipeline",
+        "url": "https://wikidocs.net/377856",
+        "status": "pending",
+        "summary": "사람이 직접 보고 있지 않은 상태에서 에이전트 파이프라인을 실행하는 구조와 주의점을 다룬다.",
+        "detail": "",
+        "error": ""
+      },
+      {
+        "position": 30,
+        "title": "30. 이해 부채와 생각을 포기하는 문제",
+        "url": "https://wikidocs.net/377858",
+        "status": "pending",
+        "summary": "Loop가 잘 작동할수록 사람이 diff와 판단을 읽지 않아 생기는 이해 부채의 위험을 설명한다.",
+        "detail": "",
+        "error": ""
+      },
+      {
+        "position": 32,
+        "title": "32. 루프를 돈 먹는 하마로 만드는 실수들",
+        "url": "https://wikidocs.net/377860",
+        "status": "pending",
+        "summary": "조건 확인, Gate, 상태, 예산, 검토를 빠뜨려 Loop가 비용만 태우는 대표 실수를 정리한다.",
+        "detail": "",
+        "error": ""
+      },
+      {
+        "position": 33,
+        "title": "33. Outer Loop를 소유하라",
+        "url": "https://wikidocs.net/377861",
+        "status": "pending",
+        "summary": "에이전트가 Inner Loop를 돌더라도 품질과 책임을 판단하는 Outer Loop는 사람이 소유해야 함을 강조한다.",
+        "detail": "",
+        "error": ""
+      },
+      {
+        "position": 34,
+        "title": "34. 이번 주에 만들 수 있는 Loop들",
+        "url": "https://wikidocs.net/377865",
+        "status": "pending",
+        "summary": "당장 시도할 수 있는 작고 현실적인 Loop 예시들을 제시한다.",
+        "detail": "",
+        "error": ""
+      },
+      {
+        "position": 35,
+        "title": "35. 결론: 프롬프트 작성자에서 루프 설계자로",
+        "url": "https://wikidocs.net/377866",
+        "status": "pending",
+        "summary": "프롬프트를 직접 이어 쓰는 역할에서 반복 시스템을 설계하는 역할로 전환하자는 결론을 제시한다.",
+        "detail": "",
+        "error": ""
+      },
+      {
+        "position": 36,
+        "title": "36. 참고자료",
+        "url": "https://wikidocs.net/377867",
+        "status": "pending",
+        "summary": "용어와 도구의 맥락을 확인하기 위한 참고자료를 모아둔 부록이다.",
+        "detail": "",
+        "error": ""
+      }
+    ]
+  },
+  {
     "id": "wikidocs-20530",
     "title": "하네스 엔지니어링 - Re:제로 부터 시작하는 소프트웨어공학",
     "author": "양병석(Luke Yang)",

@@ -70,6 +70,22 @@
     "companies": []
   },
   {
+    "title": "농심, 부산 녹산 AI 수출공장으로 연 12억개 라면 수출 생산체제 추진",
+    "url": "https://www.etnews.com/20260712000050",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-07-13",
+    "sourceNote": "2026-07-14-ai-12",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "농심은 2026년 10월 완공 예정인 부산 녹산 수출전용공장에 AI 품질관리와 빅데이터 예측 시스템을 적용해 해외 라면 수요와 품질 기준 강화에 대응하려 한다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "루프 엔지니어링 - 에이전트를 프롬프트하는 시스템을 설계하기",
     "url": "https://news.hada.io/topic?id=30336",
     "category": "ai",
@@ -2474,6 +2490,38 @@
     ]
   },
   {
+    "title": "대한항공, 2026년 2분기 매출 역대 최대에도 영업이익 감소",
+    "url": "https://v.daum.net/v/20260713162409571",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-07-14",
+    "sourceNote": "2026-07-14-korean-air-q2-record-revenue-profit-decline",
+    "tags": [
+      "kr-stocks",
+      "korean-air",
+      "earnings",
+      "airline",
+      "cargo",
+      "oil"
+    ],
+    "description": "2026년 7월 13일 보도 기준으로, 대한항공이 2026년 2분기 별도 기준 잠정 매출 5조199억원을 기록했지만 연료비 부담으로 영업이익이 전년 동기 대비 34% 감소했다는 내용이다.",
+    "companies": [
+      {
+        "id": "goldman-sachs",
+        "label": "Goldman Sachs",
+        "ticker": "GS",
+        "sector": "global investment banking"
+      },
+      {
+        "id": "korean-air",
+        "label": "대한항공",
+        "ticker": "003490",
+        "sector": "airline"
+      }
+    ]
+  },
+  {
     "title": "대한항공, 비상경영으로 고유가·고환율 대응",
     "url": "https://v.daum.net/v/uANVuB4qWv",
     "category": "investing",
@@ -4565,28 +4613,5 @@
         "sector": "건설, 원전 시공, 인프라"
       }
     ]
-  },
-  {
-    "title": "대한항공, 2분기 매출 역대 최대에도 영업이익 34% 감소",
-    "url": "https://v.daum.net/v/20260713162409571",
-    "category": "travel",
-    "categoryLabel": "여행",
-    "status": "pending",
-    "updated": "2026-07-13",
-    "sourceNote": "2026-07-14-2-34",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "대한항공은 2026년 2분기 매출 5조199억원으로 역대 2분기 최대치를 기록했지만, 유가 상승에 따른 연료비 부담으로 영업이익은 전년 대비 34% 줄었다.",
-    "companies": [
-      {
-        "id": "korean-air",
-        "label": "대한항공",
-        "ticker": "003490",
-        "sector": "airline"
-      }
-    ],
-    "captureRepair": {}
   }
 ]
