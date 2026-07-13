@@ -4273,6 +4273,22 @@
     ]
   },
   {
+    "title": "JP모건, 코스닥 소부장 4개사 지분 5% 이상 확보",
+    "url": "https://www.sedaily.com/article/20066723",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-07-13",
+    "sourceNote": "2026-07-14-jp-4-5",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "JP모건이 주가 조정을 받은 코스닥 소부장 기업 4곳의 지분을 5% 이상 확보하며 반도체·AI 인프라 관련 실적 개선 기대주에 투자 비중을 늘렸다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "K-배터리, LFP 배터리 시장 확대로 새 성장 기회 모색",
     "url": "https://v.daum.net/v/20260602000228635",
     "category": "investing",
@@ -4549,5 +4565,28 @@
         "sector": "건설, 원전 시공, 인프라"
       }
     ]
+  },
+  {
+    "title": "대한항공, 2분기 매출 역대 최대에도 영업이익 34% 감소",
+    "url": "https://v.daum.net/v/20260713162409571",
+    "category": "travel",
+    "categoryLabel": "여행",
+    "status": "pending",
+    "updated": "2026-07-13",
+    "sourceNote": "2026-07-14-2-34",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "대한항공은 2026년 2분기 매출 5조199억원으로 역대 2분기 최대치를 기록했지만, 유가 상승에 따른 연료비 부담으로 영업이익은 전년 대비 34% 줄었다.",
+    "companies": [
+      {
+        "id": "korean-air",
+        "label": "대한항공",
+        "ticker": "003490",
+        "sector": "airline"
+      }
+    ],
+    "captureRepair": {}
   }
 ]
