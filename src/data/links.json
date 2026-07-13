@@ -4341,16 +4341,43 @@
     "url": "https://www.sedaily.com/article/20066723",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-07-13",
+    "status": "public",
+    "updated": "2026-07-14",
     "sourceNote": "2026-07-14-jp-4-5",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "kosdaq",
+      "foreign-flow",
+      "semiconductor",
+      "materials"
     ],
-    "description": "JP모건이 주가 조정을 받은 코스닥 소부장 기업 4곳의 지분을 5% 이상 확보하며 반도체·AI 인프라 관련 실적 개선 기대주에 투자 비중을 늘렸다.",
-    "companies": [],
-    "captureRepair": {}
+    "description": "",
+    "companies": [
+      {
+        "id": "leeno-industrial",
+        "label": "리노공업",
+        "ticker": "058470",
+        "sector": "semiconductor-components"
+      },
+      {
+        "id": "mk-electron",
+        "label": "엠케이전자",
+        "ticker": "033160",
+        "sector": "semiconductor-materials"
+      },
+      {
+        "id": "sung-kwang-bend",
+        "label": "성광벤드",
+        "ticker": "014620",
+        "sector": "pipe-fittings"
+      },
+      {
+        "id": "tlb",
+        "label": "티엘비",
+        "ticker": "356860",
+        "sector": "pcb"
+      }
+    ]
   },
   {
     "title": "K-배터리, LFP 배터리 시장 확대로 새 성장 기회 모색",
