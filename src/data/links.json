@@ -2088,16 +2088,16 @@
     "url": "https://news.hada.io/topic?id=31382",
     "category": "general",
     "categoryLabel": "기타",
-    "status": "pending",
-    "updated": "2026-07-17",
-    "sourceNote": "2026-07-17-untitled",
+    "status": "public",
+    "updated": "2026-07-18",
+    "sourceNote": "2026-07-17-read-more-books",
     "tags": [
-      "inbox",
-      "article"
+      "reading",
+      "habit",
+      "attention"
     ],
-    "description": "스마트폰과 화면을 보던 자투리 시간을 책 읽기로 바꾸고, 항상 책을 휴대하며, 흥미 중심으로 꾸준히 읽는 습관을 만드는 방법을 정리한 글이다.",
-    "companies": [],
-    "captureRepair": {}
+    "description": "GeekNews에 공유된 독서 습관 글 요약 메모다. 핵심은 별도의 거대한 독서 시간을 확보하기보다, 스마트폰과 화면을 보던 자투리 시간을 책 읽기로 전환하고, 항상 읽을 책을 가까이 두는 것이다.",
+    "companies": []
   },
   {
     "title": "콜레스테롤 관리에 도움 되는 식품 14가지",
