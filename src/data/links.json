@@ -1774,6 +1774,23 @@
     "companies": []
   },
   {
+    "title": "OpenKnowledge: Claude, Codex와 협업하는 로컬 마크다운 에디터 겸 LLM Wiki",
+    "url": "https://discuss.pytorch.kr/t/openknowledge-claude-codex-llm-wiki/11222",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-07-17",
+    "sourceNote": "2026-07-17-openknowledge-claude-codex-llm-wiki",
+    "tags": [
+      "ai-agents",
+      "knowledge-base",
+      "memory",
+      "editor"
+    ],
+    "description": "PyTorchKR 포럼의 소개 글로, OpenKnowledge를 로컬 Markdown/MDX 파일을 Notion식 WYSIWYG로 편집하면서 Claude Code, Codex, Cursor 같은 AI 에이전트와 함께 다룰 수 있는 오픈소스 LLM Wiki 도구로 설명한다.",
+    "companies": []
+  },
+  {
     "title": "Opus 4.8 등장: 클로드는 주도권을 되찾을 수 있을까",
     "url": "https://yozm.wishket.com/magazine/detail/3780/",
     "category": "ai",
@@ -2032,22 +2049,6 @@
     ],
     "description": "Apple Newsroom의 2026 Apple 디자인 어워드 수상작 발표 자료다. Apple은 WWDC26을 앞두고 36개 최종 후보 중 6개 부문에서 앱 6개와 게임 6개, 총 12개 수상작을 선정했다.",
     "companies": []
-  },
-  {
-    "title": "OpenKnowledge: Claude, Codex와 협업하는 로컬 마크다운 에디터 겸 LLM Wiki",
-    "url": "https://discuss.pytorch.kr/t/openknowledge-claude-codex-llm-wiki/11222",
-    "category": "apple",
-    "categoryLabel": "Apple",
-    "status": "pending",
-    "updated": "2026-07-17",
-    "sourceNote": "2026-07-17-openknowledge-claude-codex-llm-wiki",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "OpenKnowledge는 Notion의 WYSIWYG 편집 인터페이스와 VS Code의 마크다운 버전 관리를 결합한 로컬 에디터로, Claude, Codex, Cursor 등 AI 에이전트와의 원활한 협업 및 MCP 설정을 기본 지원하는 오픈소스 LLM Wiki 도구입니다.",
-    "companies": [],
-    "captureRepair": {}
   },
   {
     "title": "애플, 보급형 XR 디스플레이 개발 백지화",
