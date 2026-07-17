@@ -6996,13 +6996,14 @@
     "label": "POSCO홀딩스",
     "ticker": "005490",
     "sector": "steel",
-    "updated": "2026-07-11",
+    "updated": "2026-07-18",
     "confidence": "medium",
     "dartCorpCode": "00155319",
     "naverFinanceUrl": "https://finance.naver.com/item/main.naver?code=005490",
     "sources": [
       "2026-06-24-eu-steel-safeguard-quota",
-      "2026-07-09-ai-data-center-rebar-steel-exports"
+      "2026-07-09-ai-data-center-rebar-steel-exports",
+      "2026-07-17-posco-61-5-800"
     ],
     "aliases": [
       "posco-holdings",
