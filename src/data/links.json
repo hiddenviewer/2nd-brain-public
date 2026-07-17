@@ -2034,6 +2034,22 @@
     "companies": []
   },
   {
+    "title": "OpenKnowledge: Claude, Codex와 협업하는 로컬 마크다운 에디터 겸 LLM Wiki",
+    "url": "https://discuss.pytorch.kr/t/openknowledge-claude-codex-llm-wiki/11222",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-07-17",
+    "sourceNote": "2026-07-17-openknowledge-claude-codex-llm-wiki",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "OpenKnowledge는 Notion의 WYSIWYG 편집 인터페이스와 VS Code의 마크다운 버전 관리를 결합한 로컬 에디터로, Claude, Codex, Cursor 등 AI 에이전트와의 원활한 협업 및 MCP 설정을 기본 지원하는 오픈소스 LLM Wiki 도구입니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "애플, 보급형 XR 디스플레이 개발 백지화",
     "url": "https://www.thelec.kr/news/articleView.html?idxno=59241",
     "category": "general",
