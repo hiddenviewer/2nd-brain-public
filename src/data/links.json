@@ -2281,6 +2281,29 @@
     "companies": []
   },
   {
+    "title": "“철강주 재평가 기대”...POSCO홀딩스 목표주가 61만 5,800원 돌파",
+    "url": "https://www.mk.co.kr/news/economy/12100262",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-07-17",
+    "sourceNote": "2026-07-17-posco-61-5-800",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "중국 감산 및 원가 안정으로 철강 업황이 반등 국면에 진입하고, AI 데이터센터 및 리튬 등 신사업 성과가 가시화됨에 따라 극도로 저평가된 국내 철강주의 재평가 기대감이 커지고 있습니다. 대신증권은 POSCO홀딩스를 톱픽으로 꼽으며 목표가 61만 5,800원을 제시했습니다.",
+    "companies": [
+      {
+        "id": "posco-holdings",
+        "label": "POSCO홀딩스",
+        "ticker": "005490",
+        "sector": "steel"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "1400조 메가프로젝트 수주전과 건설사 경쟁 본격화 전망",
     "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/07/12/KEPMXI4OWRHB7AW4VS4G7UZSWM/",
     "category": "investing",
