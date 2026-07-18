@@ -2731,23 +2731,33 @@
     "url": "https://v.daum.net/v/87agIEAi5m",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-07-18",
-    "sourceNote": "2026-07-18-ai-40",
+    "status": "public",
+    "updated": "2026-07-19",
+    "sourceNote": "2026-07-18-korean-air-ai-cargo-yield-surge",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "korean-air",
+      "earnings",
+      "airline",
+      "cargo",
+      "ai-data-center",
+      "semiconductor"
     ],
-    "description": "대한항공은 2분기 화물 물량이 거의 제자리였지만 AI 데이터센터 관련 고부가 화물 수요 덕분에 평균 운임과 화물 매출이 크게 늘었다.",
+    "description": "2026년 7월 18일 캡처된 Daum 기사 메모다. 대한항공의 2026년 2분기 화물 수송량 증가는 제한적이었지만, AI 데이터센터 관련 반도체·서버·전력장비 등 시간 민감형 고부가 화물 수요가 평균 운임과 화물 매출을 크게 끌어올렸다는 내용이다.",
     "companies": [
+      {
+        "id": "goldman-sachs",
+        "label": "Goldman Sachs",
+        "ticker": "GS",
+        "sector": "global investment banking"
+      },
       {
         "id": "korean-air",
         "label": "대한항공",
         "ticker": "003490",
         "sector": "airline"
       }
-    ],
-    "captureRepair": {}
+    ]
   },
   {
     "title": "디바이스, 1분기 BOE 효과로 영업이익률 39.4% 기록",
