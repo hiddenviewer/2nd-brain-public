@@ -1,5 +1,21 @@
 [
   {
+    "title": "2026년 7월 오픈소스 AI 현황",
+    "url": "https://news.hada.io/topic?id=31538",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-07-18",
+    "sourceNote": "2026-07-18-2026-7-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "2026년 7월 기준 오픈 웨이트 모델은 코딩 및 지시 이행 등에서 폐쇄형 모델 수준에 도달하고 추론 비용이 50배 하락했으나, 프로덕션 배포율과 에이전트 거버넌스 도구의 표준화 측면에서는 여전히 과제를 안고 있으며 경쟁의 중심이 에이전트 하네스 스택으로 이동하고 있습니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "구글 Open Knowledge Format(OKF) 공개 - AI 에이전트를 위한 지식 공유 표준",
     "url": "https://news.hada.io/topic?id=30622",
     "category": "ai",
@@ -2051,6 +2067,52 @@
     "companies": []
   },
   {
+    "title": "LCD 버리고 OLED 탑재… 애플, 10월 8세대 iPad mini 조기 출시 전망",
+    "url": "https://v.daum.net/v/20260717102624351?f=p",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-07-18",
+    "sourceNote": "2026-07-18-lcd-oled-10-8-ipad-mini",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "애플이 태블릿 매출 방어와 Apple Intelligence 생태계 확장을 위해 오는 10월 OLED 디스플레이와 A19 Pro 칩을 탑재한 8세대 iPad mini를 조기 출시할 예정이나, 원가 절감 등을 위해 120Hz ProMotion은 제외될 것으로 알려졌습니다.",
+    "companies": [
+      {
+        "id": "samsung-electronics",
+        "label": "삼성전자",
+        "ticker": "005930",
+        "sector": "semiconductors"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
+    "title": "달리기 코스 설계부터 마라톤까지…네이버·카카오, 1000만 러너 공략 나섰다",
+    "url": "https://v.daum.net/v/7h6FkF5T1m",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-07-18",
+    "sourceNote": "2026-07-18-1000",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "러닝 크루와 드로잉런이 젊은 세대 트렌드로 자리 잡으면서 네이버와 카카오가 달리기 시장 공략에 나섰습니다. 네이버는 지도 앱에 사용자 정의 경로 설계 및 공유가 가능한 '도보 코스 만들기' 기능을 추가했고, 카카오는 '프렌즈런' 상표를 출원하며 캐릭터 IP를 결합한 오프라인 마라톤 대회 개최를 준비 중입니다.",
+    "companies": [
+      {
+        "id": "naver",
+        "label": "네이버",
+        "ticker": "035420",
+        "sector": "internet-platform"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "애플, 보급형 XR 디스플레이 개발 백지화",
     "url": "https://www.thelec.kr/news/articleView.html?idxno=59241",
     "category": "general",
@@ -2685,6 +2747,29 @@
         "sector": "airline"
       }
     ]
+  },
+  {
+    "title": "대한항공, AI 반도체 화물 특수로 운임 40% 급등",
+    "url": "https://v.daum.net/v/87agIEAi5m",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-07-18",
+    "sourceNote": "2026-07-18-ai-40",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "대한항공은 2분기 화물 물량이 거의 제자리였지만 AI 데이터센터 관련 고부가 화물 수요 덕분에 평균 운임과 화물 매출이 크게 늘었다.",
+    "companies": [
+      {
+        "id": "korean-air",
+        "label": "대한항공",
+        "ticker": "003490",
+        "sector": "airline"
+      }
+    ],
+    "captureRepair": {}
   },
   {
     "title": "디바이스, 1분기 BOE 효과로 영업이익률 39.4% 기록",
