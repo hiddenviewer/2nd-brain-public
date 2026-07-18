@@ -4,16 +4,17 @@
     "url": "https://news.hada.io/topic?id=31538",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-07-18",
+    "status": "public",
+    "updated": "2026-07-19",
     "sourceNote": "2026-07-18-2026-7-ai",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "open-models",
+      "agent-harness",
+      "governance"
     ],
-    "description": "2026년 7월 기준 오픈 웨이트 모델은 코딩 및 지시 이행 등에서 폐쇄형 모델 수준에 도달하고 추론 비용이 50배 하락했으나, 프로덕션 배포율과 에이전트 거버넌스 도구의 표준화 측면에서는 여전히 과제를 안고 있으며 경쟁의 중심이 에이전트 하네스 스택으로 이동하고 있습니다.",
-    "companies": [],
-    "captureRepair": {}
+    "description": "GeekNews 링크를 바탕으로 정리된 2차 요약 메모다. 2026년 7월 기준 오픈 웨이트 모델의 성능·비용 개선과, 경쟁축이 모델 자체에서 배포 운영·에이전트 하네스·거버넌스 계층으로 이동한다는 관찰에 초점을 둔다.",
+    "companies": []
   },
   {
     "title": "구글 Open Knowledge Format(OKF) 공개 - AI 에이전트를 위한 지식 공유 표준",
