@@ -2068,29 +2068,6 @@
     "companies": []
   },
   {
-    "title": "LCD 버리고 OLED 탑재… 애플, 10월 8세대 iPad mini 조기 출시 전망",
-    "url": "https://v.daum.net/v/20260717102624351?f=p",
-    "category": "apple",
-    "categoryLabel": "Apple",
-    "status": "pending",
-    "updated": "2026-07-18",
-    "sourceNote": "2026-07-18-lcd-oled-10-8-ipad-mini",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "애플이 태블릿 매출 방어와 Apple Intelligence 생태계 확장을 위해 오는 10월 OLED 디스플레이와 A19 Pro 칩을 탑재한 8세대 iPad mini를 조기 출시할 예정이나, 원가 절감 등을 위해 120Hz ProMotion은 제외될 것으로 알려졌습니다.",
-    "companies": [
-      {
-        "id": "samsung-electronics",
-        "label": "삼성전자",
-        "ticker": "005930",
-        "sector": "semiconductors"
-      }
-    ],
-    "captureRepair": {}
-  },
-  {
     "title": "애플, 보급형 XR 디스플레이 개발 백지화",
     "url": "https://www.thelec.kr/news/articleView.html?idxno=59241",
     "category": "general",
@@ -2224,6 +2201,37 @@
     ],
     "description": "News.Hada에 올라온 요약 메모다. Fincept Terminal을 Bloomberg Terminal 대안을 지향하는 오픈소스 금융 분석 플랫폼으로 소개하며, 전통 금융 분석 기능 위에 다수의 AI 에이전트와 멀티 LLM, 데이터 커넥터, 트레이딩 기능을 결합한 통합 작업 표면으로 설명한다.",
     "companies": []
+  },
+  {
+    "title": "LCD 버리고 OLED 탑재, Apple 10월 8세대 iPad mini 조기 출시 전망",
+    "url": "https://v.daum.net/v/20260717102624351?f=p",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "public",
+    "updated": "2026-07-19",
+    "sourceNote": "2026-07-18-lcd-oled-10-8-ipad-mini",
+    "tags": [
+      "apple",
+      "ipad",
+      "oled",
+      "display",
+      "kr-stocks"
+    ],
+    "description": "Daum 기사 메모로, Apple이 2026년 10월 8세대 iPad mini를 조기 출시하면서 기존 LCD에서 8.4인치 LTPS 기반 하이브리드 OLED로 전환할 수 있다는 전망을 다룬다. Apple 제품 로드맵과 [[k-display-oled|K-디스플레이 OLED]]의 Apple향 IT·태블릿 OLED 적용처 확대를 함께 추적할 source다.",
+    "companies": [
+      {
+        "id": "apple-inc",
+        "label": "Apple Inc.",
+        "ticker": "",
+        "sector": ""
+      },
+      {
+        "id": "samsung-electronics",
+        "label": "삼성전자",
+        "ticker": "005930",
+        "sector": "semiconductors"
+      }
+    ]
   },
   {
     "title": "WikiDocs 376847 접근 불가 메모",
