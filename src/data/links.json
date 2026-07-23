@@ -87,29 +87,6 @@
     "companies": []
   },
   {
-    "title": "네이버, ‘1784 모델’ 일본 대형 복합빌딩에 첫 상용 적용",
-    "url": "http://www.financialreview.co.kr/news/articleView.html?idxno=43740",
-    "category": "ai",
-    "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-07-23",
-    "sourceNote": "2026-07-24-1784",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "팀네이버가 NTT동일본·미쓰이부동산과 함께 도쿄 미드타운 야에스에 1784 기반 스마트빌딩·로봇 운영 기술을 적용한다.",
-    "companies": [
-      {
-        "id": "naver",
-        "label": "네이버",
-        "ticker": "035420",
-        "sector": "internet-platform"
-      }
-    ],
-    "captureRepair": {}
-  },
-  {
     "title": "루프 엔지니어링 - 에이전트를 프롬프트하는 시스템을 설계하기",
     "url": "https://news.hada.io/topic?id=30336",
     "category": "ai",
@@ -2525,6 +2502,33 @@
         "label": "삼익THK",
         "ticker": "004380",
         "sector": "industrial-automation"
+      }
+    ]
+  },
+  {
+    "title": "네이버, 1784 모델 일본 대형 복합빌딩에 첫 상용 적용",
+    "url": "http://www.financialreview.co.kr/news/articleView.html?idxno=43740",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-07-24",
+    "sourceNote": "2026-07-24-1784",
+    "tags": [
+      "kr-stocks",
+      "naver",
+      "naver-cloud",
+      "naver-labs",
+      "smart-building",
+      "robotics",
+      "physical-ai"
+    ],
+    "description": "파이낸셜리뷰 기사 요약 메모다. 팀네이버가 NTT동일본, 미쓰이부동산과 함께 도쿄역 연결 복합빌딩 도쿄 미드타운 야에스에 네이버 사옥 1784에서 검증한 스마트빌딩·로봇 운영 기술을 적용한다는 내용을 다룬다.",
+    "companies": [
+      {
+        "id": "naver",
+        "label": "네이버",
+        "ticker": "035420",
+        "sector": "internet-platform"
       }
     ]
   },
