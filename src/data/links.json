@@ -87,6 +87,29 @@
     "companies": []
   },
   {
+    "title": "네이버, ‘1784 모델’ 일본 대형 복합빌딩에 첫 상용 적용",
+    "url": "http://www.financialreview.co.kr/news/articleView.html?idxno=43740",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-07-23",
+    "sourceNote": "2026-07-24-1784",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "팀네이버가 NTT동일본·미쓰이부동산과 함께 도쿄 미드타운 야에스에 1784 기반 스마트빌딩·로봇 운영 기술을 적용한다.",
+    "companies": [
+      {
+        "id": "naver",
+        "label": "네이버",
+        "ticker": "035420",
+        "sector": "internet-platform"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "루프 엔지니어링 - 에이전트를 프롬프트하는 시스템을 설계하기",
     "url": "https://news.hada.io/topic?id=30336",
     "category": "ai",
@@ -3627,6 +3650,41 @@
         "sector": "airline"
       }
     ]
+  },
+  {
+    "title": "이재만 하나증권 실장, 코스피 1만 가능성 제시",
+    "url": "https://v.daum.net/v/20260723171137599",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-07-23",
+    "sourceNote": "2026-07-24-1",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "SK하이닉스의 급락 이후 반도체 이익 전망과 코스피 순이익 증가를 근거로 코스피가 전고점을 회복해 1만 포인트까지 오를 수 있다는 전망을 담은 인터뷰다.",
+    "companies": [
+      {
+        "id": "samsung-electronics",
+        "label": "삼성전자",
+        "ticker": "005930",
+        "sector": "semiconductors"
+      },
+      {
+        "id": "sk-hynix",
+        "label": "SK하이닉스",
+        "ticker": "000660",
+        "sector": "semiconductors"
+      },
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      }
+    ],
+    "captureRepair": {}
   },
   {
     "title": "전기차보다 ESS, K배터리 전략 전환 보도",
