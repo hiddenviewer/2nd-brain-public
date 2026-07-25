@@ -3113,22 +3113,6 @@
     ]
   },
   {
-    "title": "반년 만에 작년 수준 일감 확보한 韓 선박엔진 2사… “조선보다 호황 길 것” 전망도",
-    "url": "https://biz.chosun.com/industry/company/2026/07/25/6LDXTSWPGVBGBGHV6XBQMJMKGI/",
-    "category": "investing",
-    "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-07-25",
-    "sourceNote": "2026-07-25-2",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "한화엔진과 HD현대마린엔진이 올해 상반기 수주액 2조 원을 돌파하며 반년 만에 지난해 연간 수준의 일감을 확보했습니다. 중국 조선소의 엔진 공급 부족과 고부가가치 친환경 이중연료 엔진 수요 확대에 힘입어 선박엔진 업계의 호황이 일반 조선사보다 더 길게 이어질 것으로 전망됩니다.",
-    "companies": [],
-    "captureRepair": {}
-  },
-  {
     "title": "삼성·SK AI 데이터센터 투자 기대와 한국판 스타게이트 전망",
     "url": "https://www.newsis.com/view/NISX20260626_0003685578",
     "category": "investing",
@@ -4289,6 +4273,43 @@
     ],
     "description": "매일경제 기사 요약 메모다. 미국 AI 데이터센터 건설 붐이 철근, 강관, 컬러강판 수요를 끌어올리면서 2026년 4월 한국의 대미 철강 수출이 10여 년 만의 최대치를 기록했다는 내용을 다룬다.",
     "companies": []
+  },
+  {
+    "title": "한화엔진과 HD현대마린엔진, 상반기 선박엔진 수주 급증",
+    "url": "https://biz.chosun.com/industry/company/2026/07/25/6LDXTSWPGVBGBGHV6XBQMJMKGI/",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-07-26",
+    "sourceNote": "2026-07-25-ship-engine-orders",
+    "tags": [
+      "kr-stocks",
+      "shipbuilding",
+      "ship-engine",
+      "lng",
+      "dual-fuel"
+    ],
+    "description": "조선비즈의 국내 선박엔진 2사 수주 호황 기사 요약 메모다. 한화엔진과 HD현대마린엔진이 2026년 상반기 합산 2조원 이상의 수주를 확보했고, 중국 조선소의 엔진 생산능력 부족과 LNG·LPG·메탄올 이중연료 엔진 수요 확대가 배경으로 제시됐다.",
+    "companies": [
+      {
+        "id": "hanwha-engine",
+        "label": "한화엔진",
+        "ticker": "082740",
+        "sector": "ship-engine"
+      },
+      {
+        "id": "hd-hyundai-marine-engine",
+        "label": "HD현대마린엔진",
+        "ticker": "071970",
+        "sector": "ship-engine"
+      },
+      {
+        "id": "samsung-heavy-industries",
+        "label": "삼성중공업",
+        "ticker": "010140",
+        "sector": "shipbuilding"
+      }
+    ]
   },
   {
     "title": "호르무즈 해협 봉쇄에도 국제유가가 100달러를 넘지 않은 이유",
