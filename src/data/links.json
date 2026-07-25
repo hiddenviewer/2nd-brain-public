@@ -1982,6 +1982,41 @@
     "captureRepair": null
   },
   {
+    "title": "애플, iPhone 18 OLED 단가 20% 인하 압박",
+    "url": "https://www.thelec.kr/news/articleView.html?idxno=60003",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-07-25",
+    "sourceNote": "2026-07-25-iphone-18-oled-20",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Apple이 메모리 가격 상승에 따른 원가 부담을 줄이기 위해 iPhone 18 OLED 패널 공급사에 강한 가격 인하를 요구하고 있다는 내용이다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-display",
+        "label": "LG디스플레이",
+        "ticker": "034220",
+        "sector": "display"
+      },
+      {
+        "id": "samsung-display",
+        "label": "삼성디스플레이",
+        "ticker": "비상장",
+        "sector": "display"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "애플이 Liquid Glass를 선택한 이유",
     "url": "https://the-edit.co.kr/84624",
     "category": "apple",
@@ -3030,6 +3065,22 @@
         "sector": "발전설비, 원전, 해상풍력 터빈"
       }
     ]
+  },
+  {
+    "title": "반년 만에 작년 수준 일감 확보한 韓 선박엔진 2사… “조선보다 호황 길 것” 전망도",
+    "url": "https://biz.chosun.com/industry/company/2026/07/25/6LDXTSWPGVBGBGHV6XBQMJMKGI/",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-07-25",
+    "sourceNote": "2026-07-25-2",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "한화엔진과 HD현대마린엔진이 올해 상반기 수주액 2조 원을 돌파하며 반년 만에 지난해 연간 수준의 일감을 확보했습니다. 중국 조선소의 엔진 공급 부족과 고부가가치 친환경 이중연료 엔진 수요 확대에 힘입어 선박엔진 업계의 호황이 일반 조선사보다 더 길게 이어질 것으로 전망됩니다.",
+    "companies": [],
+    "captureRepair": {}
   },
   {
     "title": "삼성·SK AI 데이터센터 투자 기대와 한국판 스타게이트 전망",
