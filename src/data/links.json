@@ -2043,41 +2043,6 @@
     "captureRepair": null
   },
   {
-    "title": "애플, iPhone 18 OLED 단가 20% 인하 압박",
-    "url": "https://www.thelec.kr/news/articleView.html?idxno=60003",
-    "category": "apple",
-    "categoryLabel": "Apple",
-    "status": "pending",
-    "updated": "2026-07-25",
-    "sourceNote": "2026-07-25-iphone-18-oled-20",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "Apple이 메모리 가격 상승에 따른 원가 부담을 줄이기 위해 iPhone 18 OLED 패널 공급사에 강한 가격 인하를 요구하고 있다는 내용이다.",
-    "companies": [
-      {
-        "id": "lg-corp",
-        "label": "LG",
-        "ticker": "003550",
-        "sector": "holding-company"
-      },
-      {
-        "id": "lg-display",
-        "label": "LG디스플레이",
-        "ticker": "034220",
-        "sector": "display"
-      },
-      {
-        "id": "samsung-display",
-        "label": "삼성디스플레이",
-        "ticker": "비상장",
-        "sector": "display"
-      }
-    ],
-    "captureRepair": {}
-  },
-  {
     "title": "애플이 Liquid Glass를 선택한 이유",
     "url": "https://the-edit.co.kr/84624",
     "category": "apple",
@@ -4474,6 +4439,42 @@
         "label": "GS건설",
         "ticker": "006360",
         "sector": "건설, 플랜트, 인프라, 하이테크 시공"
+      }
+    ]
+  },
+  {
+    "title": "Apple, iPhone 18 OLED 패널 단가 20% 인하 압박",
+    "url": "https://www.thelec.kr/news/articleView.html?idxno=60003",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "public",
+    "updated": "2026-07-26",
+    "sourceNote": "2026-07-25-iphone-18-oled-20",
+    "tags": [
+      "kr-stocks",
+      "display",
+      "oled",
+      "apple-supply-chain"
+    ],
+    "description": "Apple이 메모리 반도체 가격 상승에 따른 원가 부담을 줄이기 위해 iPhone 18 OLED 패널 공급사에 가격 인하를 요구하고 있다는 디일렉 기사 메모다. 기존 [[lg-display|LG디스플레이]], [[samsung-display|삼성디스플레이]], [[k-display-oled|K-디스플레이 OLED]]의 Apple향 OLED 논지에 물량 확대 기대와 ASP·마진 압박이 동시에 ",
+    "companies": [
+      {
+        "id": "apple-inc",
+        "label": "Apple Inc.",
+        "ticker": "",
+        "sector": ""
+      },
+      {
+        "id": "lg-display",
+        "label": "LG디스플레이",
+        "ticker": "034220",
+        "sector": "display"
+      },
+      {
+        "id": "samsung-display",
+        "label": "삼성디스플레이",
+        "ticker": "비상장",
+        "sector": "display"
       }
     ]
   },
