@@ -626,6 +626,24 @@
     "companies": []
   },
   {
+    "title": "Anthropic, Claude Opus 5 출시 및 주요 포지셔닝",
+    "url": "https://news.hada.io/topic?id=31783",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "public",
+    "updated": "2026-07-26",
+    "sourceNote": "2026-07-25-anthropic-claude-opus-5",
+    "tags": [
+      "ai-agents",
+      "claude",
+      "anthropic",
+      "frontier-models",
+      "model-routing"
+    ],
+    "description": "GeekNews에 공유된 Anthropic Claude Opus 5 출시 메모다. 본문은 2026년 7월 24일 공개된 Opus 티어 모델을 Fable 5급 지능에 근접하면서 더 낮은 가격과 완화된 데이터 보관 조건을 제공하는 선택지로 정리한다.",
+    "companies": []
+  },
+  {
     "title": "Anthropic, Slack 협업 에이전트 'Claude Tag' 공개",
     "url": "https://news.hada.io/topic?id=30809",
     "category": "ai",
@@ -4971,21 +4989,5 @@
         "sector": "건설, 원전 시공, 인프라"
       }
     ]
-  },
-  {
-    "title": "Anthropic, Claude Opus 5 출시 및 주요 포지셔닝",
-    "url": "https://news.hada.io/topic?id=31783",
-    "category": "language",
-    "categoryLabel": "언어",
-    "status": "pending",
-    "updated": "2026-07-25",
-    "sourceNote": "2026-07-25-anthropic-claude-opus-5",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "Anthropic이 2026년 7월 24일 Claude Opus 5를 공개했습니다. 프론티어 모델인 Fable 5에 근접한 지능을 절반 가격으로 제공하는 세대 교체급 모델로, 데이터 보관 조건 완화 및 UI 렌더링 정확도 향상 등이 특징입니다.",
-    "companies": [],
-    "captureRepair": {}
   }
 ]
