@@ -840,14 +840,17 @@
     "url": "https://news.hada.io/topic?id=31782",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-07-25",
-    "sourceNote": "2026-07-25-claude-5",
+    "status": "public",
+    "updated": "2026-07-26",
+    "sourceNote": "2026-07-25-claude-5-context-engineering",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "claude",
+      "context-engineering",
+      "skills",
+      "harness"
     ],
-    "description": "Claude Opus 5 및 Claude Fable 5 도입에 따라 Claude Code의 시스템 프롬프트를 80% 이상 줄이면서도 코딩 성능 저하 없이 컨텍스트 효율을 극대화한 새로운 컨텍스트 엔지니어링 및 점진적 공개(progressive disclosure) 전략 요약.",
+    "description": "GeekNews에 공유된 Claude 5 계열 모델용 컨텍스트 엔지니어링 규칙 요약이다. 본문은 Claude Opus 5와 Claude Fable 5 도입 이후 Claude Code의 시스템 프롬프트를 크게 줄이고, 상세 지침을 필요한 시점에 불러오는 progressive disclosure 방식으로 옮기는 흐름을 설명한다.",
     "companies": [
       {
         "id": "sk-inc",
@@ -855,8 +858,7 @@
         "ticker": "034730",
         "sector": "holding-company"
       }
-    ],
-    "captureRepair": {}
+    ]
   },
   {
     "title": "Claude 지원 문서 모음: 기능과 기술",
