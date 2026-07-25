@@ -818,6 +818,29 @@
     "companies": []
   },
   {
+    "title": "Claude 5 모델을 위한 새로운 컨텍스트 엔지니어링 규칙",
+    "url": "https://news.hada.io/topic?id=31782",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-07-25",
+    "sourceNote": "2026-07-25-claude-5",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Claude Opus 5 및 Claude Fable 5 도입에 따라 Claude Code의 시스템 프롬프트를 80% 이상 줄이면서도 코딩 성능 저하 없이 컨텍스트 효율을 극대화한 새로운 컨텍스트 엔지니어링 및 점진적 공개(progressive disclosure) 전략 요약.",
+    "companies": [
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "Claude 지원 문서 모음: 기능과 기술",
     "url": "https://support.claude.com/ko/collections/18031719-%EA%B8%B0%EB%8A%A5%EA%B3%BC-%EA%B8%B0%EC%88%A0",
     "category": "ai",
@@ -1104,6 +1127,29 @@
     ],
     "description": "GeekNews에 공유된 Claude Code Dynamic Workflows 소개 메모다. Claude Code가 작업에 맞춰 JavaScript 기반 실행 구조를 즉석에서 작성하고, 여러 서브에이전트를 조율해 장시간·대규모 작업을 처리하는 기능으로 정리한다.",
     "companies": []
+  },
+  {
+    "title": "Claude Cookbook: 에이전트부터 RAG·멀티모달·운영까지",
+    "url": "https://news.hada.io/topic?id=31793",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-07-25",
+    "sourceNote": "2026-07-25-claude-cookbook-rag",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Claude 애플리케이션 구현을 위한 실전 가이드와 예제 모음집인 Claude Cookbook을 소개하고, 에이전트 구축, RAG, 멀티모달, 평가 및 배포 운영 패턴과 이에 대한 커뮤니티의 논의를 다룹니다.",
+    "companies": [
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      }
+    ],
+    "captureRepair": {}
   },
   {
     "title": "Claude Design 연구 프리뷰 공개 메모",
