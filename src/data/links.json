@@ -4853,5 +4853,21 @@
         "sector": "건설, 원전 시공, 인프라"
       }
     ]
+  },
+  {
+    "title": "Anthropic, Claude Opus 5 출시 및 주요 포지셔닝",
+    "url": "https://news.hada.io/topic?id=31783",
+    "category": "language",
+    "categoryLabel": "언어",
+    "status": "pending",
+    "updated": "2026-07-25",
+    "sourceNote": "2026-07-25-anthropic-claude-opus-5",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Anthropic이 2026년 7월 24일 Claude Opus 5를 공개했습니다. 프론티어 모델인 Fable 5에 근접한 지능을 절반 가격으로 제공하는 세대 교체급 모델로, 데이터 보관 조건 완화 및 UI 렌더링 정확도 향상 등이 특징입니다.",
+    "companies": [],
+    "captureRepair": {}
   }
 ]
