@@ -1153,23 +1153,18 @@
     "url": "https://news.hada.io/topic?id=31793",
     "category": "ai",
     "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-07-25",
+    "status": "public",
+    "updated": "2026-07-26",
     "sourceNote": "2026-07-25-claude-cookbook-rag",
     "tags": [
-      "inbox",
-      "article"
+      "ai-agents",
+      "claude",
+      "rag",
+      "multimodal",
+      "harness"
     ],
-    "description": "Claude 애플리케이션 구현을 위한 실전 가이드와 예제 모음집인 Claude Cookbook을 소개하고, 에이전트 구축, RAG, 멀티모달, 평가 및 배포 운영 패턴과 이에 대한 커뮤니티의 논의를 다룹니다.",
-    "companies": [
-      {
-        "id": "sk-inc",
-        "label": "SK",
-        "ticker": "034730",
-        "sector": "holding-company"
-      }
-    ],
-    "captureRepair": {}
+    "description": "GeekNews에 공유된 Claude Cookbook 소개 메모다. Claude 기반 애플리케이션 구현 예제를 에이전트 구축, RAG, 도구 사용, 멀티모달, 평가, 배포, 운영 패턴까지 폭넓게 묶어 소개한다.",
+    "companies": []
   },
   {
     "title": "Claude Design 연구 프리뷰 공개 메모",
