@@ -3678,16 +3678,27 @@
     "url": "https://n.news.naver.com/article/014/0005553654",
     "category": "investing",
     "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-07-27",
+    "status": "public",
+    "updated": "2026-07-28",
     "sourceNote": "2026-07-28-e-a-330-rcs",
     "tags": [
-      "inbox",
-      "article"
+      "kr-stocks",
+      "ecopro-hn",
+      "samsung-e-and-a",
+      "semiconductor",
+      "emissions",
+      "rcs",
+      "order"
     ],
-    "description": "에코프로에이치엔이 삼성E&A와 330억원 규모의 중앙식 온실가스 저감 시스템(RCS) 공급 계약을 체결했으며, 설비는 국내 반도체사에 도입될 예정이다.",
-    "companies": [],
-    "captureRepair": {}
+    "description": "에코프로에이치엔이 삼성E&A와 330억원 규모의 중앙식 온실가스 저감 시스템(RCS) 공급 계약을 체결했다는 파이낸셜뉴스 기사 메모다. 설비는 국내 반도체 제조 현장에 도입될 예정으로 설명된다.",
+    "companies": [
+      {
+        "id": "ecopro-hn",
+        "label": "에코프로에이치엔",
+        "ticker": "383310",
+        "sector": "environmental-materials-and-semiconductor-emissions-equipment"
+      }
+    ]
   },
   {
     "title": "연준의 새로운 금융환경지수 FCI-G, 연준 통화정책과 미국경제에 미치는 영향",
