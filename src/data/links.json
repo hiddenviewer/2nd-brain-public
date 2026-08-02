@@ -2145,6 +2145,41 @@
     "companies": []
   },
   {
+    "title": "2026년 건설업체 시공능력평가 순위 발표",
+    "url": "https://www.sankun.com/blog/detail/1714_2026-construction-capability-evaluation-ranking",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-08-02",
+    "sourceNote": "2026-08-02-2026",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "삼성물산이 34조 8,785억원으로 13년 연속 1위를 유지했고, GS건설·현대엔지니어링의 상승으로 5대 건설사 구성이 재편됐다.",
+    "companies": [
+      {
+        "id": "goldman-sachs",
+        "label": "Goldman Sachs",
+        "ticker": "GS",
+        "sector": "global investment banking"
+      },
+      {
+        "id": "gs-engineering-construction",
+        "label": "GS건설",
+        "ticker": "006360",
+        "sector": "건설, 플랜트, 인프라, 하이테크 시공"
+      },
+      {
+        "id": "hyundai-engineering-construction",
+        "label": "현대건설",
+        "ticker": "000720",
+        "sector": "건설, 원전 시공, 인프라"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "애플, 보급형 XR 디스플레이 개발 백지화",
     "url": "https://www.thelec.kr/news/articleView.html?idxno=59241",
     "category": "general",
@@ -4484,6 +4519,38 @@
         "sector": "건설, 플랜트, 인프라, 하이테크 시공"
       }
     ]
+  },
+  {
+    "title": "AI 반도체 병목으로 부상한 패키징·테스트",
+    "url": "https://www.thelec.kr/news/articleView.html?idxno=60398",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-08-02",
+    "sourceNote": "2026-08-02-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "디일렉은 GPU·HBM 공급 확대 이후의 핵심 병목으로 OSAT, 패키징, 테스트, 검사 공정을 지목하며 관련 콘퍼런스를 예고했다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
+    "title": "AI 훈풍과 노후 전력망 교체 수요에 따른 K-전력기기 3사의 2분기 호실적 및 하반기 수주 전망",
+    "url": "https://www.mk.co.kr/news/business/12114133",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-08-02",
+    "sourceNote": "2026-08-02-ai-k-3-2",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "인공지능(AI) 데이터센터 전용 배전설비 수요와 노후 전력망 교체 수요가 맞물려 HD현대일렉트릭, 효성중공업, LS일렉트릭 등 국내 주요 전력기기 3사가 올해 2분기 역대급 실적을 달성하였으며, 북미 등 해외 생산 능력 확대와 글로벌 빅테크 수주를 바탕으로 하반기에도 호황을 이어갈 전망입니다.",
+    "companies": [],
+    "captureRepair": {}
   },
   {
     "title": "Apple, iPhone 18 OLED 패널 단가 20% 인하 압박",
