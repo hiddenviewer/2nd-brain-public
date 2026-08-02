@@ -2046,6 +2046,35 @@
     "companies": []
   },
   {
+    "title": "2026년 노트북 사양 선택 가이드: CPU·NPU·RAM 중심 핵심 구매 기준",
+    "url": "https://wikidocs.net/blog/@openwiki/26943/",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-08-02",
+    "sourceNote": "2026-08-02-2026-cpu-npu-ram",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "2026년 기준 노트북 구매 시 3~4년 후의 만족도를 결정하는 핵심 스펙은 CPU 세대(Intel Core Ultra 3, AMD Ryzen AI 400, Snapdragon X2, Apple M5), RAM 용량(최소 16GB), SSD 용량(안전선 512GB) 세 가지입니다. 메인보드 온보드 형태가 많은 RAM을 최우선 확보하고, Copilot+ PC 인증 요건(RAM 16GB, SSD 256GB, NPU 40 TOPS 이상)과 디스플레이·무게·포트 등 교체 불가능한 요소를 종합적으로 고려해야 합니다.",
+    "companies": [
+      {
+        "id": "device",
+        "label": "디바이스",
+        "ticker": "187870",
+        "sector": "display-semiconductor-equipment"
+      },
+      {
+        "id": "dunamu",
+        "label": "두나무",
+        "ticker": "확인 필요",
+        "sector": "fintech-digital-assets"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "애플, Apple Intelligence 기반 차세대 Siri AI 공개",
     "url": "https://news.hada.io/topic?id=30313",
     "category": "apple",
