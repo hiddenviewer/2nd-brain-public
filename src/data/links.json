@@ -222,6 +222,22 @@
     "companies": []
   },
   {
+    "title": "오픈AI, GPT-5.6 가격 인하의 비결은 '컴퓨트 멀티플라이어'",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=213385",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-08-02",
+    "sourceNote": "2026-08-02-ai-gpt-5-6",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "오픈AI가 모델 성능 축소 없이 추론 시스템 최적화 기술인 '컴퓨트 멀티플라이어'를 적용하여 GPT-5.6 라인업의 API 가격을 최대 80% 인하했습니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "웹 개발자를 위한 Safari MCP 서버",
     "url": "https://news.hada.io/topic?id=31131",
     "category": "ai",
