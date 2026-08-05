@@ -372,6 +372,22 @@
     "companies": []
   },
   {
+    "title": "클로드, CLAUDE.md 자동 채점 플러그인 출시",
+    "url": "https://share.google/AHmbQxrZXWZ1uFzji",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-08-05",
+    "sourceNote": "2026-08-05-claude-md",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Anthropic이 Claude Code 프로젝트 규칙 파일(CLAUDE.md)의 컨텍스트 비대화(Context Rot) 현상을 해결하기 위해 6가지 품질 지표 기반 자동 진단 및 라이프사이클 관리 도구인 claude-md-management 플러그인을 공식 출시함.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "하네스 엔지니어링 백과사전 02 목차",
     "url": "https://wikidocs.net/346094",
     "category": "ai",
