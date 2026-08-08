@@ -2241,6 +2241,29 @@
     "captureRepair": {}
   },
   {
+    "title": "美, 포스코 후판 상계관세 예비세율 1.14%로 인하",
+    "url": "https://www.dailian.co.kr/news/view/1675773/%EB%8B%A8%EB%8F%85-%E7%BE%8E-%ED%8F%AC%EC%8A%A4%EC%BD%94-%ED%9B%84%ED%8C%90-%EC%83%81%EA%B3%84%EA%B4%80%EC%84%B8-1%EB%8C%80%EB%A1%9C-2026",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-08-08",
+    "sourceNote": "2026-08-09-1-14",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "미국 상무부가 포스코산 후판의 2024년분 상계관세율을 1.14%로 예비 산정했다. 직전 연도 최종세율 3.70%보다 크게 낮지만, 최종판정 전 의견 제출과 불복 절차 가능성이 남아 있다.",
+    "companies": [
+      {
+        "id": "posco-holdings",
+        "label": "POSCO홀딩스",
+        "ticker": "005490",
+        "sector": "steel"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "애플, 보급형 XR 디스플레이 개발 백지화",
     "url": "https://www.thelec.kr/news/articleView.html?idxno=59241",
     "category": "general",
