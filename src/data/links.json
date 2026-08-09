@@ -289,6 +289,29 @@
     "companies": []
   },
   {
+    "title": "조선업 새 먹거리로 떠오른 부유식 데이터센터",
+    "url": "https://v.daum.net/v/20260809070140991",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-08-09",
+    "sourceNote": "2026-08-09-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI 전력 수요와 데이터센터 공급난 속에서 FDC가 조선업계의 신사업으로 부상했고, 삼성중공업에 이어 HD현대도 수주 가능성을 검토하며 본격 진입하고 있다.",
+    "companies": [
+      {
+        "id": "samsung-heavy-industries",
+        "label": "삼성중공업",
+        "ticker": "010140",
+        "sector": "shipbuilding"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "취향(taste)을 갖춘 30배 AI 엔지니어가 되는 법",
     "url": "https://news.hada.io/topic?id=30338",
     "category": "ai",
@@ -384,6 +407,22 @@
       "article"
     ],
     "description": "Anthropic이 Claude Code 프로젝트 규칙 파일(CLAUDE.md)의 컨텍스트 비대화(Context Rot) 현상을 해결하기 위해 6가지 품질 지표 기반 자동 진단 및 라이프사이클 관리 도구인 claude-md-management 플러그인을 공식 출시함.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
+    "title": "평가 주도 개발 (Eval-driven Development)",
+    "url": "https://news.hada.io/topic?id=32257",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-08-09",
+    "sourceNote": "2026-08-09-eval-driven-development",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Airbnb가 GenAI 제품의 비결정적 출력과 복잡한 연쇄 실패 문제를 해결하기 위해 도입한 '평가 주도 개발(EDD)' 프레임워크 및 실무 모범 사례를 정리한 아티클 요약입니다.",
     "companies": [],
     "captureRepair": {}
   },
@@ -2343,29 +2382,6 @@
     ],
     "description": "Daum 뉴스에 공유된 하이닥 건강정보 기사 요약 메모다. LDL 콜레스테롤 관리를 위해 식이섬유, 불포화지방, 오메가-3가 풍부한 식품을 늘리고 생활 습관 개선을 병행해야 한다는 내용을 다룬다.",
     "companies": []
-  },
-  {
-    "title": "현대차·기아, 사우디와 미래 모빌리티·스마트시티 협력 확대",
-    "url": "https://www.theguru.co.kr/mobile/article.html?no=105486",
-    "category": "general",
-    "categoryLabel": "기타",
-    "status": "pending",
-    "updated": "2026-08-09",
-    "sourceNote": "2026-08-09-untitled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "현대차·기아가 사우디 교통청과 MOU를 맺고 친환경 모빌리티, 로보틱스, 스마트시티 솔루션, 규제·기술 표준 개발까지 협력 범위를 넓힌다.",
-    "companies": [
-      {
-        "id": "hyundai-motor",
-        "label": "현대차",
-        "ticker": "005380",
-        "sector": "automotive"
-      }
-    ],
-    "captureRepair": {}
   },
   {
     "title": "혈관 건강에 도움 되는 음식 5가지",
