@@ -2206,6 +2206,22 @@
     "companies": []
   },
   {
+    "title": "Warp Agent CLI: 다양한 터미널 환경을 지원하는 독립형 AI 코딩 에이전트",
+    "url": "https://news.hada.io/topic?id=32177",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-08-09",
+    "sourceNote": "2026-08-09-warp-agent-cli-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Warp Terminal의 내장 다중 모델 코딩 에이전트가 Ghostty, iTerm 2, VS Code 등 사용자가 선호하는 다양한 터미널에서 실행할 수 있는 독립형 CLI로 출시되었습니다. tmux 스타일의 PTY 멀티플렉싱 구조를 적용해 터미널 상태 변화에 유연하게 대응하고 원격 실행 및 대화형 앱 제어를 지원합니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "2026년 건설업체 시공능력평가 순위 발표",
     "url": "https://www.sankun.com/blog/detail/1714_2026-construction-capability-evaluation-ranking",
     "category": "general",
@@ -2327,6 +2343,29 @@
     ],
     "description": "Daum 뉴스에 공유된 하이닥 건강정보 기사 요약 메모다. LDL 콜레스테롤 관리를 위해 식이섬유, 불포화지방, 오메가-3가 풍부한 식품을 늘리고 생활 습관 개선을 병행해야 한다는 내용을 다룬다.",
     "companies": []
+  },
+  {
+    "title": "현대차·기아, 사우디와 미래 모빌리티·스마트시티 협력 확대",
+    "url": "https://www.theguru.co.kr/mobile/article.html?no=105486",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-08-09",
+    "sourceNote": "2026-08-09-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "현대차·기아가 사우디 교통청과 MOU를 맺고 친환경 모빌리티, 로보틱스, 스마트시티 솔루션, 규제·기술 표준 개발까지 협력 범위를 넓힌다.",
+    "companies": [
+      {
+        "id": "hyundai-motor",
+        "label": "현대차",
+        "ticker": "005380",
+        "sector": "automotive"
+      }
+    ],
+    "captureRepair": {}
   },
   {
     "title": "혈관 건강에 도움 되는 음식 5가지",
