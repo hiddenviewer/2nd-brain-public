@@ -3046,35 +3046,6 @@
     ]
   },
   {
-    "title": "두 번 미뤄진 네이버-두나무 합병…공정위 '연내 결론' 청신호",
-    "url": "https://kr.investing.com/news/stock-market-news/article-2055694",
-    "category": "investing",
-    "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-08-11",
-    "sourceNote": "2026-08-12-untitled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "네이버파이낸셜과 두나무의 기업결합 심사가 두 차례 연기된 가운데, 공정거래위원회가 연내 심사 완료 방침을 밝히고 금융위원회가 디지털자산 기본법 입법에 속도를 내면서 합병 타결 기대감이 재부각되고 있습니다.",
-    "companies": [
-      {
-        "id": "dunamu",
-        "label": "두나무",
-        "ticker": "확인 필요",
-        "sector": "fintech-digital-assets"
-      },
-      {
-        "id": "naver",
-        "label": "네이버",
-        "ticker": "035420",
-        "sector": "internet-platform"
-      }
-    ],
-    "captureRepair": {}
-  },
-  {
     "title": "디바이스, 1분기 BOE 효과로 영업이익률 39.4% 기록",
     "url": "https://www.thelec.kr/news/articleView.html?idxno=57663",
     "category": "investing",
@@ -3918,6 +3889,22 @@
         "sector": "environmental-materials-and-semiconductor-emissions-equipment"
       }
     ]
+  },
+  {
+    "title": "엔지니어링 리더의 하루는 보이지 않는 조율의 연속",
+    "url": "https://news.hada.io/topic?id=32376",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-08-11",
+    "sourceNote": "2026-08-12-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "엔지니어링 리더의 핵심 업무는 코드 산출물이 아니라 정보 수집, 맥락 공유, 의사결정, 영향력 행사, 실행 주도, 계획 수립을 통해 팀과 조직을 원하는 방향으로 움직이는 것이다.",
+    "companies": [],
+    "captureRepair": {}
   },
   {
     "title": "연준의 새로운 금융환경지수 FCI-G, 연준 통화정책과 미국경제에 미치는 영향",
