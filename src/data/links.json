@@ -611,6 +611,22 @@
     ]
   },
   {
+    "title": "AI가 소프트웨어 엔지니어링의 중산층을 없애고 있음",
+    "url": "https://news.hada.io/topic?id=32441",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-08-14",
+    "sourceNote": "2026-08-14-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI로 인해 코드 구현 속도가 폭증하면서 단순 코딩 인력은 조직의 부채나 리스크로 전락하는 반면, 시스템 복잡성을 통제하고 AI 결과물을 검증할 수 있는 소수 핵심 엔지니어에게 가치와 보상이 집중되어 엔지니어링 직군의 양극화와 중산층 소멸이 가속화되고 있다는 분석입니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "AI는 개발자의 역할을 어떻게 바꾸고 있나",
     "url": "https://www.samsungsds.com/kr/insights/future-of-software-development-agentic-ai.html",
     "category": "ai",
