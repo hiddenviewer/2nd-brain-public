@@ -121,6 +121,22 @@
     "companies": []
   },
   {
+    "title": "실전 루프 엔지니어링 요약",
+    "url": "https://news.hada.io/topic?id=32519",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-08-16",
+    "sourceNote": "2026-08-16-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI 에이전트 반복 작업은 자율성보다 측정 가능한 완료 조건, 명확한 제약, 인간의 최종 판단 분리가 핵심이다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "에르메스 에이전트(Hermes Agent)로 AI 업무 자동화와 나만의 AI 팀 운영을 다루는 실전 가이드",
     "url": "https://wikidocs.net/book/19686",
     "category": "ai",
@@ -3954,6 +3970,29 @@
     ]
   },
   {
+    "title": "앤트로픽, 2분기 매출 115억달러 돌파 및 첫 흑자전환…올가을 IPO 본격 추진",
+    "url": "https://www.mk.co.kr/news/it/12128846",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-08-16",
+    "sourceNote": "2026-08-16-2-115-ipo",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "앤트로픽이 2분기 매출 115억달러를 달성하며 전년 동기 대비 14배 이상 성장하고 첫 조정 영업이익 흑자를 기록한 가운데, 2028년 매출 2000억달러 전망을 바탕으로 올가을 조기 IPO를 추진하고 있습니다.",
+    "companies": [
+      {
+        "id": "goldman-sachs",
+        "label": "Goldman Sachs",
+        "ticker": "GS",
+        "sector": "global investment banking"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "에코프로에이치엔, 삼성E&A에 330억원 규모 RCS 공급",
     "url": "https://n.news.naver.com/article/014/0005553654",
     "category": "investing",
@@ -5365,5 +5404,34 @@
         "sector": "건설, 원전 시공, 인프라"
       }
     ]
+  },
+  {
+    "title": "대한항공·아시아나 12월 통합 후 노선·마일리지 운영 변화",
+    "url": "https://haninpost.com/archives/130723",
+    "category": "travel",
+    "categoryLabel": "여행",
+    "status": "pending",
+    "updated": "2026-08-16",
+    "sourceNote": "2026-08-16-12",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "대한항공과 아시아나항공 통합 법인이 12월 17일 출범하며, 중복 시간대 조정·노선 증편·신규 취항을 추진한다.",
+    "companies": [
+      {
+        "id": "asiana-airlines",
+        "label": "아시아나항공",
+        "ticker": "020560",
+        "sector": "airline"
+      },
+      {
+        "id": "korean-air",
+        "label": "대한항공",
+        "ticker": "003490",
+        "sector": "airline"
+      }
+    ],
+    "captureRepair": {}
   }
 ]
