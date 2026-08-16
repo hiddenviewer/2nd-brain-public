@@ -1817,6 +1817,35 @@
     "companies": []
   },
   {
+    "title": "LG전자, 브라질 新공장 가동…글로벌사우스 공략 강화",
+    "url": "https://naver.me/xTy5QkqP",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-08-16",
+    "sourceNote": "2026-08-16-lg",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LG전자가 중남미 최대 내수 시장인 브라질에 AI·로봇·디지털트윈 기반의 신규 가전 공장을 가동하며 글로벌 사우스 시장 공략을 본격화합니다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-electronics",
+        "label": "LG전자",
+        "ticker": "066570",
+        "sector": "electronics"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "LLM위키 완벽 가이드",
     "url": "https://wikidocs.net/book/19830",
     "category": "ai",
