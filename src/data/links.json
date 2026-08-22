@@ -2051,6 +2051,22 @@
     "companies": []
   },
   {
+    "title": "Orca vs. Paseo vs. 순정: 에이전트 관리 도구 비교",
+    "url": "https://yozm.wishket.com/magazine/detail/3903/",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-08-22",
+    "sourceNote": "2026-08-22-orca-vs-paseo-vs",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "코딩 에이전트 활용의 병목이 모델 선택에서 여러 세션을 감독하는 사람의 관리 능력으로 옮겨가며, Orca·Paseo·순정 터미널 방식의 적합한 사용 맥락을 비교한 글이다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "Prompt Master 소개와 핵심 기능 요약",
     "url": "https://discuss.pytorch.kr/t/prompt-master-ai-claude/9910",
     "category": "ai",
@@ -2368,6 +2384,29 @@
         "label": "현대건설",
         "ticker": "000720",
         "sector": "건설, 원전 시공, 인프라"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
+    "title": "네이버 상반기 해외 매출 첫 1조원 돌파",
+    "url": "https://biz.chosun.com/it-science/ict/2026/08/20/7S23NQSBLZCLDNNLEJYUENKZOY/",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-08-22",
+    "sourceNote": "2026-08-22-1",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "네이버의 2026년 상반기 해외 매출이 처음으로 1조원을 넘었고, Poshmark 성장과 Wallapop 편입이 지역 매출 확대를 이끈 것으로 보인다.",
+    "companies": [
+      {
+        "id": "naver",
+        "label": "네이버",
+        "ticker": "035420",
+        "sector": "internet-platform"
       }
     ],
     "captureRepair": {}
@@ -4140,6 +4179,35 @@
         "sector": "semiconductors"
       }
     ]
+  },
+  {
+    "title": "이재용·정의선 협력 본격화… 삼성SDI 배터리, “GV90부터 로봇까지”",
+    "url": "https://v.daum.net/v/5agOzfmjaH?f=p",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-08-22",
+    "sourceNote": "2026-08-22-sdi-gv90",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "현대차그룹과 삼성SDI의 배터리 협력이 본격화되어 제네시스 플래그십 전기 SUV 'GV90'에 삼성SDI 각형 배터리가 탑재되었으며, 향후 보스턴다이내믹스 휴머노이드 로봇 등을 위한 전고체 배터리 개발로 협력 범위가 확대되고 있습니다.",
+    "companies": [
+      {
+        "id": "hyundai-motor",
+        "label": "현대차",
+        "ticker": "005380",
+        "sector": "automotive"
+      },
+      {
+        "id": "samsung-sdi",
+        "label": "삼성SDI",
+        "ticker": "006400",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
   },
   {
     "title": "전기차보다 ESS, K배터리 전략 전환 보도",
