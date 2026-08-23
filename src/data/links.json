@@ -121,6 +121,22 @@
     "companies": []
   },
   {
+    "title": "새로운 MCP 로드맵: 집중 개발을 위한 5가지 핵심 영역",
+    "url": "https://news.hada.io/topic?id=32777",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-08-23",
+    "sourceNote": "2026-08-23-mcp-5",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Model Context Protocol(MCP)이 장시간 실행되는 에이전트 작업 제어, HTTP 기반 전송 계층 통합, Agent Identity 및 보안 표준화, 대규모 도구의 점진적 탐색(Progressive Discovery), SDK 및 명세 적합성 강화를 골자로 하는 향후 로드맵을 발표했습니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "실전 루프 엔지니어링 요약",
     "url": "https://news.hada.io/topic?id=32519",
     "category": "ai",
@@ -2220,6 +2236,22 @@
         "sector": "fintech-digital-assets"
       }
     ],
+    "captureRepair": {}
+  },
+  {
+    "title": "아이패드OS 27, 활성 앱 표시·상시 메뉴바 도입으로 Mac형 사용성 강화",
+    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=694780",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-08-23",
+    "sourceNote": "2026-08-23-os-27-mac",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "애플이 iPadOS 27에서 상태바 활성 앱 표시, 상시 메뉴바 설정, 파일 전송 및 시스템 반응 속도 대폭 개선(최대 5배)을 적용해 Mac과 유사한 데스크톱급 생산성 및 멀티태스킹 사용성을 강화했습니다.",
+    "companies": [],
     "captureRepair": {}
   },
   {
