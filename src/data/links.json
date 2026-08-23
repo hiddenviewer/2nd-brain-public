@@ -4258,6 +4258,41 @@
     "captureRepair": {}
   },
   {
+    "title": "전고체 배터리 경쟁, 성능보다 양산 역량으로 이동",
+    "url": "https://www.newsway.co.kr/news/view?ud=2026082109541599674",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-08-23",
+    "sourceNote": "2026-08-23-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "현대차·기아와 SK온의 Factorial 협력은 전고체 배터리 기술 확보를 넘어 기존 생산 인프라를 활용한 대량생산 생태계 선점 전략으로 해석된다.",
+    "companies": [
+      {
+        "id": "hyundai-motor",
+        "label": "현대차",
+        "ticker": "005380",
+        "sector": "automotive"
+      },
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      },
+      {
+        "id": "sk-on",
+        "label": "SK온",
+        "ticker": "비상장",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "전기차보다 ESS, K배터리 전략 전환 보도",
     "url": "https://www.mk.co.kr/news/business/12079467",
     "category": "investing",
