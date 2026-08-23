@@ -270,6 +270,22 @@
     "captureRepair": {}
   },
   {
+    "title": "요즘 클로드가 한국어를 어색하게 쓴다고 느꼈다면 | 요즘IT",
+    "url": "https://yozm.wishket.com/magazine/detail/3908/",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-08-23",
+    "sourceNote": "2026-08-23-it",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Claude의 한국어 표현 및 추론 품질을 보완하는 오픈소스 지침 'fluent-korean', 구조와 원리를 정리한 무료 오픈소스 'AI 에이전트' 교과서, AI 생성물을 유기적으로 연결하고 방향을 설정하는 인간 메이커의 역할을 다룬 3가지 AI 소식을 정리했습니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "우리 팀의 CLAUDE.md, AGENTS.md로 바꿔도 될까",
     "url": "https://yozm.wishket.com/magazine/detail/3874/",
     "category": "ai",
