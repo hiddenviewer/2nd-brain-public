@@ -5398,6 +5398,35 @@
     ]
   },
   {
+    "title": "LG에너지솔루션, 미국 방산 배터리 공급 제안 검토",
+    "url": "https://biz.chosun.com/industry/company/2026/08/21/TJ7ODBTVXVHK5CGFUCHML7CV7M/",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-08-23",
+    "sourceNote": "2026-08-23-lg",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LG에너지솔루션이 미국 정부와 주요 방위산업체로부터 무인 무기 체계용 배터리 공급 요청을 받고 검토 중인 것으로 전해졌다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-energy-solution",
+        "label": "LG에너지솔루션",
+        "ticker": "373220",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "LG유플러스, 파주 AIDC로 국산 AI 데이터센터 표준화 추진",
     "url": "https://m.dnews.co.kr/m_home/view.jsp?idxno=202606061316394910277",
     "category": "investing",
