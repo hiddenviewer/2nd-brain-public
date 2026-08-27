@@ -2483,6 +2483,29 @@
     "captureRepair": {}
   },
   {
+    "title": "두산에너빌리티, 상반기 수주 호조로 연간 목표 초과 가능성",
+    "url": "https://www.news1.kr/industry/general-industry/6269159",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-08-27",
+    "sourceNote": "2026-08-28-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "두산에너빌리티가 상반기 7.1조 원을 수주해 연간 목표의 53.6%를 달성했으며, 가스터빈 주문 확대와 하반기 추가 수주가 기대된다.",
+    "companies": [
+      {
+        "id": "doosan-enerbility",
+        "label": "두산에너빌리티",
+        "ticker": "034020",
+        "sector": "발전설비, 원전, 해상풍력 터빈"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "美, 포스코 후판 상계관세 예비세율 1.14%로 인하",
     "url": "https://www.dailian.co.kr/news/view/1675773/%EB%8B%A8%EB%8F%85-%E7%BE%8E-%ED%8F%AC%EC%8A%A4%EC%BD%94-%ED%9B%84%ED%8C%90-%EC%83%81%EA%B3%84%EA%B4%80%EC%84%B8-1%EB%8C%80%EB%A1%9C-2026",
     "category": "general",
