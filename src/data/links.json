@@ -4605,6 +4605,29 @@
     ]
   },
   {
+    "title": "코웨이 산업용 수처리 사업, AI 반도체 투자 수혜로 성장",
+    "url": "https://naver.me/F3Emtzn4",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-08-29",
+    "sourceNote": "2026-08-29-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "코웨이엔텍의 산업용 수처리 사업이 반도체 설비투자 확대에 힘입어 상반기 고성장과 흑자 전환을 기록했다.",
+    "companies": [
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "테슬라 생태계 핵심 파트너로 부상한 LG에너지솔루션·삼성전기",
     "url": "https://naver.me/5Hy49LP0",
     "category": "investing",
