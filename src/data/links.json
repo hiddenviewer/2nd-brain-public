@@ -2594,6 +2594,29 @@
     ]
   },
   {
+    "title": "유니슨, 2030년 매출 1조원 목표로 종합 풍력 기업 전환 추진",
+    "url": "https://naver.me/x2Y8Fabf",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-08-29",
+    "sourceNote": "2026-08-30-2030-1",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "유니슨은 최근 대규모 공급계약을 기반으로 터빈 제조를 넘어 풍력단지 개발과 유지보수까지 확장하며 종합 풍력 기업으로 도약하려는 전략을 내세웠다.",
+    "companies": [
+      {
+        "id": "unison",
+        "label": "유니슨",
+        "ticker": "018000",
+        "sector": "풍력발전기, 해상풍력 터빈"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "책을 더 많이 읽는 방법",
     "url": "https://news.hada.io/topic?id=31382",
     "category": "general",
