@@ -2441,6 +2441,29 @@
     "captureRepair": {}
   },
   {
+    "title": "'나혼렙: 어라이즈' 중국 출시 관문 통과",
+    "url": "https://naver.me/GlR0g2jH",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-09-01",
+    "sourceNote": "2026-09-02-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "넷마블의 'Solo Leveling: ARISE'가 중국 외자판호를 획득하며 현지 정식 출시 가능성이 커졌다.",
+    "companies": [
+      {
+        "id": "netmarble",
+        "label": "넷마블",
+        "ticker": "251270",
+        "sector": "games"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "2026년 건설업체 시공능력평가 순위 발표",
     "url": "https://www.sankun.com/blog/detail/1714_2026-construction-capability-evaluation-ranking",
     "category": "general",
