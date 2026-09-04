@@ -3629,6 +3629,53 @@
     ]
   },
   {
+    "title": "빨라진 韓 LFP 양산 판도…삼성SDI·SK온 추격 본격화",
+    "url": "https://v.daum.net/v/20260904171809792",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-04",
+    "sourceNote": "2026-09-05-lfp-sdi-sk",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "국내 배터리 3사가 북미 ESS용 LFP 배터리 시장에서 양산·수주 경쟁을 본격화하고 있다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-energy-solution",
+        "label": "LG에너지솔루션",
+        "ticker": "373220",
+        "sector": "batteries"
+      },
+      {
+        "id": "samsung-sdi",
+        "label": "삼성SDI",
+        "ticker": "006400",
+        "sector": "batteries"
+      },
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      },
+      {
+        "id": "sk-on",
+        "label": "SK온",
+        "ticker": "비상장",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "삼성·SK AI 데이터센터 투자 기대와 한국판 스타게이트 전망",
     "url": "https://www.newsis.com/view/NISX20260626_0003685578",
     "category": "investing",
