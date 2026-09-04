@@ -2522,6 +2522,29 @@
     "captureRepair": {}
   },
   {
+    "title": "네이버, 사우디서 MOU 8건으로 지도 기반 슈퍼앱 확장",
+    "url": "https://www.etnews.com/20260903000050",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-09-04",
+    "sourceNote": "2026-09-05-mou-8",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "네이버가 사우디에서 Meta, NSG 등 8곳과 MOU를 맺고 지도·예약·결제·부동산·우주 기술까지 연결하는 슈퍼앱 생태계 구축을 추진한다.",
+    "companies": [
+      {
+        "id": "naver",
+        "label": "네이버",
+        "ticker": "035420",
+        "sector": "internet-platform"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "두산에너빌리티, 상반기 수주 호조로 연간 목표 초과 가능성",
     "url": "https://www.news1.kr/industry/general-industry/6269159",
     "category": "general",
