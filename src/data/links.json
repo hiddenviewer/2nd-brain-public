@@ -2568,6 +2568,41 @@
     "captureRepair": {}
   },
   {
+    "title": "신형 Genesis G90, OLED 첫 탑재 전망",
+    "url": "https://www.thelec.kr/news/articleView.html?idxno=61826",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-09-04",
+    "sourceNote": "2026-09-05-genesis-g90-oled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "The Elec은 신형 Genesis G90 부분변경 모델에 LG Display의 차량용 P-OLED가 처음 적용될 전망이라고 보도했다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-display",
+        "label": "LG디스플레이",
+        "ticker": "034220",
+        "sector": "display"
+      },
+      {
+        "id": "samsung-display",
+        "label": "삼성디스플레이",
+        "ticker": "비상장",
+        "sector": "display"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "심근경색 환자, LDL-콜레스테롤 관리하면 사망 위험 감소",
     "url": "https://naver.me/Ghw4CIZP",
     "category": "general",
