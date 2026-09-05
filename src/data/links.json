@@ -1820,6 +1820,22 @@
     "companies": []
   },
   {
+    "title": "GPT-6 Astra 출시: 하네스와 작업 유형에 따른 성능 및 비용 역전 분석",
+    "url": "https://aisparkup.com/posts/15598",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-09-05",
+    "sourceNote": "2026-09-05-gpt-6-astra",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "OpenAI가 공개한 GPT-6 Astra는 토큰 단가가 이전 모델 대비 2.5배 인상되었으나, 코딩 작업에서는 높은 토큰 효율로 실질 비용이 절감되는 반면 지능 작업에서는 75% 비싸지는 양극화를 보였습니다. 특히 ARC-AGI-3 평가에서 이전 추론 상태를 보존하는 Provider Adapter 하네스 적용 시 62.7%에서 99.9%로 성능이 급상승하여, 모델 외부 실행 환경과 상태 관리 방식이 최종 성능과 비용을 좌우함을 시사합니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "Harness Engineering",
     "url": "https://youtu.be/5buNm0pA1mg?si=UGge7fBDEYt00iHj",
     "category": "ai",
