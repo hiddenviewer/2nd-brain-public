@@ -5408,6 +5408,41 @@
     ]
   },
   {
+    "title": "ESS 수주 확대가 국내 LFP 양극재 수요로 확산",
+    "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=423467",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-05",
+    "sourceNote": "2026-09-05-ess-lfp",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "북미 ESS용 LFP 배터리 수주가 늘면서 국내 양극재 업체들이 전기차 부진의 돌파구를 찾고 있다.",
+    "companies": [
+      {
+        "id": "samsung-sdi",
+        "label": "삼성SDI",
+        "ticker": "006400",
+        "sector": "batteries"
+      },
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      },
+      {
+        "id": "sk-on",
+        "label": "SK온",
+        "ticker": "비상장",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "EU 배터리 지원책에 에코프로비엠 유럽 공략 탄력",
     "url": "https://www.businesspost.co.kr/BP?command=article_view&num=440101",
     "category": "investing",
