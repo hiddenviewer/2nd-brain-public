@@ -482,6 +482,22 @@
     "companies": []
   },
   {
+    "title": "클로드 페이블(Claude Fable) 5.1 등장: 주요 변화 및 에이전트 최적화 분석",
+    "url": "https://yozm.wishket.com/magazine/detail/3926/",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-09-05",
+    "sourceNote": "2026-09-06-claude-fable-5-1",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "앤트로픽이 공개한 클로드 페이블 5.1은 기본 API 단가는 유지하되 캐시 읽기 비용을 75% 인하하여 에이전트 총비용을 최대 45% 절감하고, 불필요한 Opus 폴백 완화, 고객 클라우드 저장 기반 EFS 도입, 간결해진 글쓰기 스타일 등 실무 에이전트 워크플로 개선에 집중했습니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "클로드, CLAUDE.md 자동 채점 플러그인 출시",
     "url": "https://share.google/AHmbQxrZXWZ1uFzji",
     "category": "ai",
