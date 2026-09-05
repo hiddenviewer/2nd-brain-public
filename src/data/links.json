@@ -2538,6 +2538,29 @@
     "captureRepair": {}
   },
   {
+    "title": "네이버, 11월 말 멤버십 전용 N배송 새벽배송 전환",
+    "url": "https://www.etnews.com/20260904000138",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-09-05",
+    "sourceNote": "2026-09-06-11-n",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "네이버가 2026년 11월 말부터 N배송 새벽배송을 네이버플러스 멤버십 전용 혜택으로 전환하며 쿠팡의 와우멤버십·로켓배송 모델과 직접 경쟁에 나선다.",
+    "companies": [
+      {
+        "id": "naver",
+        "label": "네이버",
+        "ticker": "035420",
+        "sector": "internet-platform"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "네이버, 사우디서 MOU 8건으로 지도 기반 슈퍼앱 확장",
     "url": "https://www.etnews.com/20260903000050",
     "category": "general",
@@ -6072,6 +6095,22 @@
         "sector": "건설, 원전 시공, 인프라"
       }
     ]
+  },
+  {
+    "title": "스탠퍼드대, AI Index 중국어판 첫 발간 및 한국어판 파트너 물색",
+    "url": "https://naver.me/Fhu1o1f1",
+    "category": "language",
+    "categoryLabel": "언어",
+    "status": "pending",
+    "updated": "2026-09-05",
+    "sourceNote": "2026-09-06-ai-index",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "스탠퍼드대학교가 AI Index Report의 첫 외국어판으로 중국어판을 발간했고, 한국어·일본어 등 추가 번역판 확대를 검토 중인 것으로 전해졌다.",
+    "companies": [],
+    "captureRepair": {}
   },
   {
     "title": "대한항공·아시아나 12월 통합 후 노선·마일리지 운영 변화",
