@@ -4999,22 +4999,6 @@
     "companies": []
   },
   {
-    "title": "퍼시피코 에너지, 한국 해상풍력사업에 조 단위 투자 신고",
-    "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=202900",
-    "category": "investing",
-    "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-09-05",
-    "sourceNote": "2026-09-06-untitled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "퍼시피코 에너지가 만호해상풍력과 진도바람해상풍력에 조 단위 투자를 신고하며 전남·광주권 청정에너지 공급 기반 확대를 추진한다.",
-    "companies": [],
-    "captureRepair": {}
-  },
-  {
     "title": "포스코홀딩스, 아르헨티나 리튬사업에 1조원 유동성 확보",
     "url": "https://m.dnews.co.kr/m_home/view.jsp?idxno=202608281238486910711",
     "category": "investing",
@@ -5027,6 +5011,29 @@
       "article"
     ],
     "description": "포스코홀딩스의 아르헨티나 리튬 생산법인 포스코아르헨티나가 IDB Invest로부터 7억달러 규모 단기 차입한도를 승인받아 리튬사업 운영자금과 확장 여력을 확보했다.",
+    "companies": [
+      {
+        "id": "posco-holdings",
+        "label": "POSCO홀딩스",
+        "ticker": "005490",
+        "sector": "steel"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
+    "title": "포스코홀딩스의 호주 리튬 투자, 저점 매수 평가 부각",
+    "url": "https://v.daum.net/v/2BVBGbYCHp",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-05",
+    "sourceNote": "2026-09-06-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "포스코홀딩스가 호주 워지나·마운트마리온 리튬광산에 투자한 직후 판매량, 가격, 수익성이 개선되며 투자 타이밍이 긍정적으로 평가되고 있다.",
     "companies": [
       {
         "id": "posco-holdings",
