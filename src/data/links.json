@@ -3119,6 +3119,29 @@
     ]
   },
   {
+    "title": "네이버-브룩필드, 1GW급 AI 팩토리 후속 논의",
+    "url": "https://n.news.naver.com/mnews/article/293/0000090050",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-05",
+    "sourceNote": "2026-09-06-1gw-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "이해진 네이버 이사회 의장이 브루스 플랫 Brookfield 회장과 만나 1GW급 AI 팩토리 사업 진행 상황과 후속 협력 방안을 논의했다.",
+    "companies": [
+      {
+        "id": "naver",
+        "label": "네이버",
+        "ticker": "035420",
+        "sector": "internet-platform"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "네이버, 1784 모델 일본 대형 복합빌딩에 첫 상용 적용",
     "url": "http://www.financialreview.co.kr/news/articleView.html?idxno=43740",
     "category": "investing",
