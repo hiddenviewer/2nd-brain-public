@@ -3096,6 +3096,45 @@
     "companies": []
   },
   {
+    "title": "YouTube 영상 접근 제한",
+    "url": "https://youtube.com/watch?v=NXvWMePx_HI&si=kRM4G2kan1n3l21h",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "review",
+    "updated": "2026-09-06",
+    "sourceNote": "2026-09-06-youtube",
+    "tags": [
+      "inbox",
+      "youtube",
+      "inaccessible"
+    ],
+    "description": "제공된 YouTube URL의 본문·자막·영상 내용을 직접 확인할 수 없어 요약을 완료하지 못했습니다.",
+    "companies": [],
+    "captureRepair": {
+      "status": "manual_review",
+      "reason": "empty_extraction",
+      "retry_attempted": true,
+      "retry_method": "curl-alt",
+      "retry_result": "failed",
+      "last_attempt_at": "2026-09-06T05:51:45.967954+00:00",
+      "operator_note": "원문 사전 추출 실패: HTML에서 제목/본문을 찾지 못했습니다.",
+      "attempts": [
+        {
+          "method": "curl",
+          "ok": false,
+          "reason": "empty_extraction",
+          "detail": "원문 사전 추출 실패: HTML에서 제목/본문을 찾지 못했습니다."
+        },
+        {
+          "method": "curl-alt",
+          "ok": false,
+          "reason": "empty_extraction",
+          "detail": "원문 사전 추출 실패: HTML에서 제목/본문을 찾지 못했습니다."
+        }
+      ]
+    }
+  },
+  {
     "title": "1400조 메가프로젝트 수주전과 건설사 경쟁 본격화 전망",
     "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/07/12/KEPMXI4OWRHB7AW4VS4G7UZSWM/",
     "category": "investing",
