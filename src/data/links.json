@@ -5897,6 +5897,53 @@
     ]
   },
   {
+    "title": "K배터리 3사, 미국 ESS 시장에서 새 성장축 확보",
+    "url": "https://v.daum.net/v/20260906060212878",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-06",
+    "sourceNote": "2026-09-06-k-3-ess",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "전기차 수요 둔화 속 SK온·LG에너지솔루션·삼성SDI가 미국 ESS 시장 확대와 공급망 규제 강화를 기회로 삼고 있다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-energy-solution",
+        "label": "LG에너지솔루션",
+        "ticker": "373220",
+        "sector": "batteries"
+      },
+      {
+        "id": "samsung-sdi",
+        "label": "삼성SDI",
+        "ticker": "006400",
+        "sector": "batteries"
+      },
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      },
+      {
+        "id": "sk-on",
+        "label": "SK온",
+        "ticker": "비상장",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "K배터리 ESS 생산 지연의 후공정 병목",
     "url": "https://www.hankyung.com/article/2026070963001",
     "category": "investing",
