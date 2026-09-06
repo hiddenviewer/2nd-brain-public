@@ -5061,29 +5061,6 @@
     "captureRepair": {}
   },
   {
-    "title": "포스코홀딩스의 호주 리튬 투자, 저점 매수 평가 부각",
-    "url": "https://v.daum.net/v/2BVBGbYCHp",
-    "category": "investing",
-    "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-09-05",
-    "sourceNote": "2026-09-06-untitled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "포스코홀딩스가 호주 워지나·마운트마리온 리튬광산에 투자한 직후 판매량, 가격, 수익성이 개선되며 투자 타이밍이 긍정적으로 평가되고 있다.",
-    "companies": [
-      {
-        "id": "posco-holdings",
-        "label": "POSCO홀딩스",
-        "ticker": "005490",
-        "sector": "steel"
-      }
-    ],
-    "captureRepair": {}
-  },
-  {
     "title": "한국 디스플레이 장비사, CSOT 8.6세대 OLED 투자 수혜",
     "url": "https://www.etnews.com/20260626000196",
     "category": "investing",
@@ -6126,6 +6103,35 @@
     ],
     "description": "스탠퍼드대학교가 AI Index Report의 첫 외국어판으로 중국어판을 발간했고, 한국어·일본어 등 추가 번역판 확대를 검토 중인 것으로 전해졌다.",
     "companies": [],
+    "captureRepair": {}
+  },
+  {
+    "title": "대한항공, 아시아나 통합 앞두고 전문 자회사 체계 확장",
+    "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=423490",
+    "category": "travel",
+    "categoryLabel": "여행",
+    "status": "pending",
+    "updated": "2026-09-06",
+    "sourceNote": "2026-09-06-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "대한항공이 아시아나항공 흡수합병을 앞두고 지상조업·IT·엔진정비에 이어 부동산·시설관리 영역까지 전문 자회사 기반을 넓히는 흐름이 포착됐다.",
+    "companies": [
+      {
+        "id": "asiana-airlines",
+        "label": "아시아나항공",
+        "ticker": "020560",
+        "sector": "airline"
+      },
+      {
+        "id": "korean-air",
+        "label": "대한항공",
+        "ticker": "003490",
+        "sector": "airline"
+      }
+    ],
     "captureRepair": {}
   },
   {
