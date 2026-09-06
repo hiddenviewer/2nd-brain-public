@@ -6244,6 +6244,29 @@
     "captureRepair": {}
   },
   {
+    "title": "대한항공, 태국을 시작으로 동남아 군용기 MRO 확장",
+    "url": "https://v.daum.net/v/20260904155149409",
+    "category": "travel",
+    "categoryLabel": "여행",
+    "status": "pending",
+    "updated": "2026-09-06",
+    "sourceNote": "2026-09-06-mro",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "대한항공이 UH-60 정비 경험을 앞세워 태국 TAI와 협력하며 동남아 군용기 MRO 시장 진출을 본격화한다.",
+    "companies": [
+      {
+        "id": "korean-air",
+        "label": "대한항공",
+        "ticker": "003490",
+        "sector": "airline"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "대한항공·아시아나 12월 통합 후 노선·마일리지 운영 변화",
     "url": "https://haninpost.com/archives/130723",
     "category": "travel",
