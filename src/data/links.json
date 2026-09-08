@@ -5420,6 +5420,35 @@
     ]
   },
   {
+    "title": "현대제철·포스코홀딩스, 美 합작 제철소 호재에도 주가 흐름 엇갈림",
+    "url": "https://v.daum.net/v/20260908061104329",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-08",
+    "sourceNote": "2026-09-09-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "미국 합작 제철소 착공 소식 이후 현대제철은 상승했지만 포스코홀딩스는 외국인 매도 영향으로 하락했다.",
+    "companies": [
+      {
+        "id": "hyundai-steel",
+        "label": "현대제철",
+        "ticker": "004020",
+        "sector": "steel"
+      },
+      {
+        "id": "posco-holdings",
+        "label": "POSCO홀딩스",
+        "ticker": "005490",
+        "sector": "steel"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "현대차·기아, 상반기 유럽 전기차 판매 13만 대 돌파하며 반기 역대 최대 실적 기록",
     "url": "https://www.segye.com/newsView/20260802504006",
     "category": "investing",
