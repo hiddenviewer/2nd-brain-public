@@ -4562,6 +4562,22 @@
     ]
   },
   {
+    "title": "앤트로픽 IPO 관련 기사 본문 확인 제한",
+    "url": "https://www.hankyung.com/article/202609082356i",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-08",
+    "sourceNote": "2026-09-09-ipo",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "제공된 추출문에는 기사 본문이 거의 없어, 앤트로픽 IPO가 어떤 종목의 하락 위험으로 연결되는지 판단할 수 없습니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "앤트로픽, 2분기 매출 115억달러 돌파 및 첫 흑자전환…올가을 IPO 본격 추진",
     "url": "https://www.mk.co.kr/news/it/12128846",
     "category": "investing",
@@ -5420,35 +5436,6 @@
     ]
   },
   {
-    "title": "현대제철·포스코홀딩스, 美 합작 제철소 호재에도 주가 흐름 엇갈림",
-    "url": "https://v.daum.net/v/20260908061104329",
-    "category": "investing",
-    "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-09-08",
-    "sourceNote": "2026-09-09-untitled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "미국 합작 제철소 착공 소식 이후 현대제철은 상승했지만 포스코홀딩스는 외국인 매도 영향으로 하락했다.",
-    "companies": [
-      {
-        "id": "hyundai-steel",
-        "label": "현대제철",
-        "ticker": "004020",
-        "sector": "steel"
-      },
-      {
-        "id": "posco-holdings",
-        "label": "POSCO홀딩스",
-        "ticker": "005490",
-        "sector": "steel"
-      }
-    ],
-    "captureRepair": {}
-  },
-  {
     "title": "현대차·기아, 상반기 유럽 전기차 판매 13만 대 돌파하며 반기 역대 최대 실적 기록",
     "url": "https://www.segye.com/newsView/20260802504006",
     "category": "investing",
@@ -5515,6 +5502,29 @@
         "sector": "airline"
       }
     ]
+  },
+  {
+    "title": "휘발유차도 자율주행…현대차 기술 성벽 쌓는다 | 한국경제",
+    "url": "https://www.hankyung.com/article/2026090819621",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-08",
+    "sourceNote": "2026-09-09-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "현대자동차그룹이 전기차뿐만 아니라 휘발유차와 하이브리드카(HEV)에도 테슬라 수준의 레벨 2+ 자율주행을 적용하기 위한 기술 개발에 착수했습니다. 2028년 전기차 기반 자율주행차 출시를 시작으로 내연기관 및 하이브리드 차량까지 순차 확대하여 테슬라 및 중국 전기차 업체가 쉽게 따라오지 못하는 기술 장벽을 구축한다는 전략입니다.",
+    "companies": [
+      {
+        "id": "hyundai-motor",
+        "label": "현대차",
+        "ticker": "005380",
+        "sector": "automotive"
+      }
+    ],
+    "captureRepair": {}
   },
   {
     "title": "AI 기대감 속 Apple 신고가와 LG디스플레이 수혜 전망",
