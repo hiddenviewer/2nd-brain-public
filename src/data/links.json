@@ -1875,6 +1875,29 @@
     "captureRepair": {}
   },
   {
+    "title": "GPT-6 Astra를 위한 스킬과 프롬프트 다시 생각하기",
+    "url": "https://news.hada.io/topic?id=33404",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-09-10",
+    "sourceNote": "2026-09-11-gpt-6-astra",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "코딩 에이전트의 성능 향상에 맞춰 기존에 누적된 과도한 보조 프롬프트와 스킬을 재검토하고, 점진적 공개 방식과 명확한 자율 실행 경계를 설정해야 한다는 가이드입니다.",
+    "companies": [
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "Harness Engineering",
     "url": "https://youtu.be/5buNm0pA1mg?si=UGge7fBDEYt00iHj",
     "category": "ai",
@@ -2794,6 +2817,29 @@
         "label": "유니슨",
         "ticker": "018000",
         "sector": "풍력발전기, 해상풍력 터빈"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
+    "title": "중국 외 전기차 시장 30.5% 성장…현대차그룹 4위",
+    "url": "https://www.m-i.kr/news/articleView.html?idxno=1412643",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-09-10",
+    "sourceNote": "2026-09-11-30-5-4",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "올해 1∼7월 중국 제외 글로벌 전기차 인도량은 543만4000대로 30.5% 증가했으며, 현대차그룹은 44만1000대로 4위를 기록했다.",
+    "companies": [
+      {
+        "id": "hyundai-motor",
+        "label": "현대차",
+        "ticker": "005380",
+        "sector": "automotive"
       }
     ],
     "captureRepair": {}
