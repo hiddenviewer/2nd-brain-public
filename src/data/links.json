@@ -488,6 +488,22 @@
     "companies": []
   },
   {
+    "title": "코딩이 해결됐다면, 코드의 조잡함은 어떻게 측정할까?",
+    "url": "https://news.hada.io/topic?id=33547",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-09-13",
+    "sourceNote": "2026-09-13-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI 코딩 에이전트가 단위 테스트를 통과하더라도 중복, 불필요한 추상화, 설계 결함 등 '코드 조잡함(slop)'을 양산하는 문제를 짚고, 이를 정량적으로 측정하기 위한 벤치마크인 SlopCodeBench(장황성 및 침식도 지표)와 반복 개발 환경에서의 아키텍처 부채 누적 문제를 설명합니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "클로드 코드 사용하기: HTML의 놀라운 효율성",
     "url": "https://news.hada.io/topic?id=29347",
     "category": "ai",
@@ -2797,6 +2813,29 @@
         "sector": "display"
       }
     ]
+  },
+  {
+    "title": "에코프로비엠 헝가리 NCA 라인 가동정지 및 시정 조치 보도",
+    "url": "http://m.g-enews.com/article/Global-Biz/2026/09/2026091217344412fbbec65dfb_1",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-09-13",
+    "sourceNote": "2026-09-13-nca",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "헝가리 산업안전 당국이 에코프로비엠 데브레첸 공장 NCA 제조동에 대해 안전 보고서 불이행을 이유로 가동정지와 벌금을 부과했으며, 보도 제목상 보수 마무리 등 시정 조치가 완료된 것으로 보인다.",
+    "companies": [
+      {
+        "id": "ecopro-bm",
+        "label": "에코프로비엠",
+        "ticker": "247540",
+        "sector": "battery materials"
+      }
+    ],
+    "captureRepair": {}
   },
   {
     "title": "유니슨, 2030년 매출 1조원 목표로 종합 풍력 기업 전환 추진",
@@ -5314,6 +5353,22 @@
         "sector": "steel"
       }
     ],
+    "captureRepair": {}
+  },
+  {
+    "title": "폴더블폰 OLED 소재 수요 증가로 덕산네오룩스 실적 기대 확대",
+    "url": "https://www.thelec.kr/news/articleView.html?idxno=62171",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-13",
+    "sourceNote": "2026-09-13-oled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "북타입 폴더블폰 확대가 OLED 소재 사용량과 공급 품목 증가로 이어지며 덕산네오룩스의 매출 성장 기대를 키우고 있다.",
+    "companies": [],
     "captureRepair": {}
   },
   {
