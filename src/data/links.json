@@ -2970,6 +2970,22 @@
     "companies": []
   },
   {
+    "title": "GPT-6 Astra 코딩 실험에 대한 회의적 후기",
+    "url": "https://news.hada.io/topic?id=33524",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-09-13",
+    "sourceNote": "2026-09-13-gpt-6-astra",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Astra는 컴퓨터 사용과 이미지 이해에는 강하지만, 장시간 자율 코딩에서는 비용·가독성·신뢰성 문제가 두드러졌다는 GeekNews 요약이다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "LCD 버리고 OLED 탑재, Apple 10월 8세대 iPad mini 조기 출시 전망",
     "url": "https://v.daum.net/v/20260717102624351?f=p",
     "category": "general",
@@ -6259,6 +6275,35 @@
       "article"
     ],
     "description": "LG에너지솔루션이 미국 정부와 주요 방위산업체로부터 무인 무기 체계용 배터리 공급 요청을 받고 검토 중인 것으로 전해졌다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-energy-solution",
+        "label": "LG에너지솔루션",
+        "ticker": "373220",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
+    "title": "LG에너지솔루션, 북미 ESS 5대 거점과 LFP 양산 역량 강화",
+    "url": "https://v.daum.net/v/20260912050503578",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-13",
+    "sourceNote": "2026-09-13-lg-ess-5-lfp",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LG에너지솔루션은 EV 수요 둔화에 대응해 북미 ESS 생산거점을 확대하고, ESS용 LFP 배터리 양산·안전기술·운영 플랫폼을 결합해 시장 주도권을 노리고 있다.",
     "companies": [
       {
         "id": "lg-corp",
