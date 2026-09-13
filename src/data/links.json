@@ -3588,6 +3588,35 @@
     ]
   },
   {
+    "title": "대미투자 1호 이르면 이번 주 공개…텍사스 엔시날 발전소·원전 8기·알래스카 LNG 주목",
+    "url": "https://v.daum.net/v/20260913070205410",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-13",
+    "sourceNote": "2026-09-13-1-8-lng",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "한국 정부의 2000억 달러 규모 대미 전략투자 첫 사업인 텍사스 엔시날 LNG 복합화력발전소 건설 계획이 이르면 이번 주 공개될 예정이며, 후속 후보로 미국 내 대형 원전 최대 8기 건설과 알래스카 LNG 프로젝트가 함께 거론되고 있습니다.",
+    "companies": [
+      {
+        "id": "apr",
+        "label": "에이피알",
+        "ticker": "278470",
+        "sector": "cosmetics-beauty-devices"
+      },
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "대한전선, 구리값 상승 속 400억원 공모채로 원재료 자금 조달",
     "url": "https://www.bloter.net/news/articleView.html?idxno=673354",
     "category": "investing",
