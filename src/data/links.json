@@ -2542,6 +2542,22 @@
     "companies": []
   },
   {
+    "title": "Homebrew v7 주요 변화 요약",
+    "url": "https://news.hada.io/topic?id=33618",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-09-14",
+    "sourceNote": "2026-09-14-homebrew-v7",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Homebrew v7은 지원 macOS 범위를 조정하고 Intel Mac 지원을 단계적으로 축소하며, 공식 GUI 앱과 취약점 검사 기능을 추가할 예정입니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "Warp Agent CLI: 다양한 터미널 환경을 지원하는 독립형 AI 코딩 에이전트",
     "url": "https://news.hada.io/topic?id=32177",
     "category": "apple",
@@ -4788,6 +4804,29 @@
         "sector": "environmental-materials-and-semiconductor-emissions-equipment"
       }
     ]
+  },
+  {
+    "title": "에코프로에이치엔, 올해 누적 수주 1천914억원 달성",
+    "url": "https://www.imaeil.com/page/view/2026091415402507215",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-14",
+    "sourceNote": "2026-09-14-1-914",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "에코프로에이치엔이 반도체 온실가스 저감 설비와 발전소 친환경 설비 수주 확대에 힘입어 올해 누적 수주액 1천914억원을 기록했다.",
+    "companies": [
+      {
+        "id": "ecopro-hn",
+        "label": "에코프로에이치엔",
+        "ticker": "383310",
+        "sector": "environmental-materials-and-semiconductor-emissions-equipment"
+      }
+    ],
+    "captureRepair": {}
   },
   {
     "title": "엔지니어링 리더의 하루는 보이지 않는 조율의 연속",
