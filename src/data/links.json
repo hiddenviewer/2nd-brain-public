@@ -2877,6 +2877,29 @@
     "captureRepair": {}
   },
   {
+    "title": "中·日 수소트럭 경쟁 가속과 한국의 추격 과제",
+    "url": "https://naver.me/GjyqcJXk",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-09-17",
+    "sourceNote": "2026-09-17-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "중국과 일본이 수소트럭 기술·공급망 경쟁을 키우는 가운데, 현대차는 실주행 성과를 냈지만 내수 기반과 인프라 부족이 약점으로 지적된다.",
+    "companies": [
+      {
+        "id": "hyundai-motor",
+        "label": "현대차",
+        "ticker": "005380",
+        "sector": "automotive"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "중국 외 전기차 시장 30.5% 성장…현대차그룹 4위",
     "url": "https://www.m-i.kr/news/articleView.html?idxno=1412643",
     "category": "general",
