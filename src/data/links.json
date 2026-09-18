@@ -3853,6 +3853,29 @@
     ]
   },
   {
+    "title": "두산, AI 속도조절론에도 반도체 소재에 3.5조원 베팅",
+    "url": "https://n.news.naver.com/mnews/article/016/0002699138",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-18",
+    "sourceNote": "2026-09-19-ai-3-5",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "두산이 CCL 증설과 SK실트론 지분 인수 등으로 올해 반도체 사업에 약 3조4500억원을 투자하며 AI 인프라 수요 지속에 승부수를 던졌다.",
+    "companies": [
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "디바이스, 1분기 BOE 효과로 영업이익률 39.4% 기록",
     "url": "https://www.thelec.kr/news/articleView.html?idxno=57663",
     "category": "investing",
