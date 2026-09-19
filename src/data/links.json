@@ -504,6 +504,22 @@
     "captureRepair": {}
   },
   {
+    "title": "클로드 코덱스 스킬 가이드북",
+    "url": "https://share.google/MI09FZPlXhsSiH9CV",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-09-19",
+    "sourceNote": "2026-09-19-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "에이전트 스킬을 처음 접하는 사람이 개념을 이해하고, 스킬을 고르고 설치·활용할 수 있도록 한국어로 정리한 가이드북입니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "클로드 코드 사용하기: HTML의 놀라운 효율성",
     "url": "https://news.hada.io/topic?id=29347",
     "category": "ai",
