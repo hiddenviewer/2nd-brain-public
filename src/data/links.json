@@ -192,6 +192,22 @@
     "captureRepair": {}
   },
   {
+    "title": "앤트로픽, 장기 개발 관리 에이전트 Claude Code Projects 공개",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=215430",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-09-19",
+    "sourceNote": "2026-09-20-claude-code-projects",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Anthropic이 여러 AI 작업 세션을 병렬 조율하고 프로젝트 맥락을 장기 기억하는 Claude Code Projects를 베타로 공개했다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "에르메스 에이전트(Hermes Agent)로 AI 업무 자동화와 나만의 AI 팀 운영을 다루는 실전 가이드",
     "url": "https://wikidocs.net/book/19686",
     "category": "ai",
