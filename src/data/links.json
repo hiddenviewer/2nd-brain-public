@@ -2075,6 +2075,22 @@
     "captureRepair": {}
   },
   {
+    "title": "LLM과 함께 글 쓰는 법 (GeekNews)",
+    "url": "https://news.hada.io/topic?id=33887",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-09-19",
+    "sourceNote": "2026-09-19-llm-geeknews",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LLM을 대필 작가가 아닌 교정 편집자로 활용하여, 글 작성과 표현 선택은 인간이 직접 수행하고 LLM에는 문단 배치, 불필요한 부사 및 반복 어휘 등 기계적이고 지루한 결함 점검만 위임해야 한다는 글쓰기 원칙과 실천법을 다룹니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "LLM위키 완벽 가이드",
     "url": "https://wikidocs.net/book/19830",
     "category": "ai",
@@ -4873,6 +4889,29 @@
     "captureRepair": {}
   },
   {
+    "title": "에코프로비엠, CATL 양극재 공급 협상 추진",
+    "url": "https://www.thelec.kr/news/articleView.html?idxno=62506",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-19",
+    "sourceNote": "2026-09-19-catl",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "에코프로비엠이 CATL과 연 2만t 규모의 양극재 공급을 협의 중이며, 성사 시 국내 양극재 기업의 첫 CATL 진입 사례가 될 수 있다.",
+    "companies": [
+      {
+        "id": "ecopro-bm",
+        "label": "에코프로비엠",
+        "ticker": "247540",
+        "sector": "battery materials"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "에코프로에이치엔, 삼성E&A에 330억원 규모 RCS 공급",
     "url": "https://n.news.naver.com/article/014/0005553654",
     "category": "investing",
@@ -6695,6 +6734,35 @@
         "sector": "steel"
       }
     ]
+  },
+  {
+    "title": "SK온, 엘앤에프와 1600억원 규모 LFP 양극재 공급 계약",
+    "url": "https://www.asiae.co.kr/article/2026091719144836146",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-19",
+    "sourceNote": "2026-09-19-sk-1600-lfp",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "SK온이 ESS용 LFP 배터리 생산을 위해 엘앤에프와 2028년까지 약 1600억원 규모의 국산 LFP 양극재 공급 계약을 맺었다.",
+    "companies": [
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      },
+      {
+        "id": "sk-on",
+        "label": "SK온",
+        "ticker": "비상장",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
   },
   {
     "title": "SK텔레콤, 2032년 데이터센터 이익 1조 전망-하나",
