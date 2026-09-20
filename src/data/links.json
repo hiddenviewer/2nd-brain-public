@@ -504,6 +504,22 @@
     "companies": []
   },
   {
+    "title": "코딩 에이전트 하네스 설계에 관한 실증 연구",
+    "url": "https://news.hada.io/topic?id=33905",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-09-20",
+    "sourceNote": "2026-09-20-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "코딩 에이전트의 계획 수립, 행동 인터페이스, 컨텍스트 관리 등 하네스 구성요소를 4개 모델과 2개 벤치마크(176개 설정)에서 실증 비교한 연구로, 단일 최적 설정 대신 모델 역량과 작업 유형에 맞춘 설계가 핵심임을 보여줍니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "코딩이 해결됐다면, 코드의 조잡함은 어떻게 측정할까?",
     "url": "https://news.hada.io/topic?id=33547",
     "category": "ai",
