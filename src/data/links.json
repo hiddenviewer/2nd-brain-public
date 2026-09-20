@@ -2468,6 +2468,41 @@
     "captureRepair": {}
   },
   {
+    "title": "미국 PFE 규제 강화와 K-배터리 공급망 재편",
+    "url": "https://www.ddaily.co.kr/page/view/2026091815430671786",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-09-20",
+    "sourceNote": "2026-09-20-pfe-k",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "미국의 비PFE 소재 요건 강화로 K-배터리 업계가 2027년 이후 북미 ESS·전기차 시장에서 ‘탈중국 SCM’ 역량을 시험받게 됐다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-energy-solution",
+        "label": "LG에너지솔루션",
+        "ticker": "373220",
+        "sector": "batteries"
+      },
+      {
+        "id": "samsung-sdi",
+        "label": "삼성SDI",
+        "ticker": "006400",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "아이패드OS 27, 활성 앱 표시·상시 메뉴바 도입으로 Mac형 사용성 강화",
     "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=694780",
     "category": "apple",
@@ -3072,6 +3107,22 @@
     ],
     "description": "Daum 뉴스에 공유된 하이닥 건강정보 기사 요약 메모다. LDL 콜레스테롤 관리를 위해 식이섬유, 불포화지방, 오메가-3가 풍부한 식품을 늘리고 생활 습관 개선을 병행해야 한다는 내용을 다룬다.",
     "companies": []
+  },
+  {
+    "title": "한국·중국 LNG선 수주 경쟁 막판 변수",
+    "url": "https://v.daum.net/v/b1nb1RfzYO",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-09-20",
+    "sourceNote": "2026-09-20-lng",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "연말 LNG선 추가 발주 가능성이 커지면서 한국과 중국 조선사 간 수주 경쟁이 이어지고 있다.",
+    "companies": [],
+    "captureRepair": {}
   },
   {
     "title": "현대차, IONIQ 3 유럽 사전 예약 시작",
