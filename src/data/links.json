@@ -2578,6 +2578,29 @@
     ]
   },
   {
+    "title": "agent-device - AI 에이전트가 iOS/Android 기기를 제어하도록 돕는 CLI",
+    "url": "https://news.hada.io/topic?id=32078",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-09-20",
+    "sourceNote": "2026-09-20-agent-device-ai-ios-android-cli",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Callstack에서 공개한 agent-device는 코딩 AI 에이전트가 모바일, TV, 데스크톱 환경의 실행 중인 앱을 직접 검사·조작·검증하고 아티팩트를 수집할 수 있도록 지원하는 CLI 도구입니다.",
+    "companies": [
+      {
+        "id": "device",
+        "label": "디바이스",
+        "ticker": "187870",
+        "sector": "display-semiconductor-equipment"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "Apple WWDC 2026, Gemini 기반 Siri AI와 Tim Cook 퇴임 보도",
     "url": "https://www.mk.co.kr/news/it/12068989",
     "category": "apple",
@@ -4458,6 +4481,29 @@
     ]
   },
   {
+    "title": "삼성전기, AI 서버용 MLCC 장기계약 확대 전망",
+    "url": "https://v.daum.net/v/xDOXULx2YN",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-20",
+    "sourceNote": "2026-09-20-ai-mlcc",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "삼성전기가 AI 서버용 MLCC 추가 공급계약을 추진하며 올해 LTA 누적 규모가 4조원을 넘을 가능성이 제기됐다.",
+    "companies": [
+      {
+        "id": "samsung-electro-mechanics",
+        "label": "삼성전기",
+        "ticker": "009150",
+        "sector": "electronic-components"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "삼성전자, 2026년 1분기 글로벌 TV 매출 점유율 31.3%로 1위",
     "url": "https://www.thelec.kr/news/articleView.html?idxno=57560",
     "category": "investing",
@@ -6098,6 +6144,22 @@
     ]
   },
   {
+    "title": "AI 데이터센터 확대로 국내 광통신주 수주 기회 부각",
+    "url": "https://www.imaeil.com/page/view/2026091810472183749",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-20",
+    "sourceNote": "2026-09-20-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI 데이터센터 간 대용량 전송 수요가 늘면서 DCI용 광케이블·광증폭기 등 국내 광통신 업체의 수주 확대 가능성이 커지고 있다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "AI 반도체 병목으로 부상한 패키징·테스트",
     "url": "https://www.thelec.kr/news/articleView.html?idxno=60398",
     "category": "investing",
@@ -6379,6 +6441,41 @@
         "sector": "semiconductors"
       }
     ]
+  },
+  {
+    "title": "HD현대의 독자 엔진이 AI 데이터센터 시장 선점의 무기가 됐다",
+    "url": "https://news.bizwatch.co.kr/article/industry/2026/09/18/0013",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-20",
+    "sourceNote": "2026-09-20-hd-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI 데이터센터 전력 수요가 커지며 조선 3사의 엔진 사업 격차가 부각되고 있다.",
+    "companies": [
+      {
+        "id": "hanwha-engine",
+        "label": "한화엔진",
+        "ticker": "082740",
+        "sector": "ship-engine"
+      },
+      {
+        "id": "hims",
+        "label": "힘스",
+        "ticker": "238490",
+        "sector": "display-equipment"
+      },
+      {
+        "id": "samsung-heavy-industries",
+        "label": "삼성중공업",
+        "ticker": "010140",
+        "sector": "shipbuilding"
+      }
+    ],
+    "captureRepair": {}
   },
   {
     "title": "JP모건, 코스닥 소부장 4개사 지분 5% 이상 확보",
