@@ -121,6 +121,29 @@
     "companies": []
   },
   {
+    "title": "모건스탠리 \"美 전력난 예상보다 심각…스페이스X·발전설비주 수혜 전망\"",
+    "url": "https://v.daum.net/v/ZlSFoztWIf",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-09-22",
+    "sourceNote": "2026-09-23-x",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI 데이터센터 수요 급증으로 미국의 전력 부족이 예상보다 심각해지는 가운데, 모건스탠리는 전력 인프라 부지 보유 기업(파워드 셸), 현장 자가발전 설비 업체, 그리고 이동식 가스터빈사를 인수한 SpaceX가 주요 수혜를 입을 것으로 분석했습니다.",
+    "companies": [
+      {
+        "id": "apr",
+        "label": "에이피알",
+        "ticker": "278470",
+        "sector": "cosmetics-beauty-devices"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "美 전력망 탈중국 가속과 K전력기기 수혜",
     "url": "https://naver.me/Fz8Xl78x",
     "category": "ai",
@@ -532,6 +555,22 @@
       "article"
     ],
     "description": "AI 코딩 에이전트가 단위 테스트를 통과하더라도 중복, 불필요한 추상화, 설계 결함 등 '코드 조잡함(slop)'을 양산하는 문제를 짚고, 이를 정량적으로 측정하기 위한 벤치마크인 SlopCodeBench(장황성 및 침식도 지표)와 반복 개발 환경에서의 아키텍처 부채 누적 문제를 설명합니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
+    "title": "콘웨이의 법칙과 프로그래밍 언어",
+    "url": "https://news.hada.io/topic?id=34063",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-09-22",
+    "sourceNote": "2026-09-23-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI 에이전트는 세션마다 컨텍스트가 리셋되어 인간처럼 공유 지식을 축적하지 못하며, 텍스트 생성 지연이 0에 수렴하는 환경에서 실제 병목은 에이전트 산출물을 읽고 판단하는 인간의 인지 속도입니다. 결국 추상화 누수로 인해 코드를 직접 검증해야 하므로, 향후 언어 설계는 에이전트보다 인간의 탐색 부담과 엣지 케이스 판단 비용을 최소화하는 방향으로 발전해야 합니다.",
     "companies": [],
     "captureRepair": {}
   },
@@ -2061,6 +2100,22 @@
     "companies": []
   },
   {
+    "title": "Jev 사용 후기: 행동 선택을 위한 저비용 판단 모델",
+    "url": "https://news.hada.io/topic?id=34115",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-09-22",
+    "sourceNote": "2026-09-23-jev",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Jev는 긴 생성형 답변보다 소프트웨어의 다음 행동 결정을 돕는 판단 반환 모델로 소개된다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "Karpathy 관찰을 바탕으로 Claude Code의 동작을 개선하는 단일 CLAUDE.md 가이드 소개",
     "url": "https://discuss.pytorch.kr/t/karpathy-inspired-claude-code-guidelines-andrej-karpathy-llm-claude-code/9912",
     "category": "ai",
@@ -2465,6 +2520,22 @@
         "sector": "fintech-digital-assets"
       }
     ],
+    "captureRepair": {}
+  },
+  {
+    "title": "메타 개인형 AI 에이전트 'Muse', 초기 흥행으로 챗GPT 모바일 기록 추월",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=215566",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-09-22",
+    "sourceNote": "2026-09-23-ai-muse-gpt",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "메타의 개인형 AI 에이전트 앱 'Muse'가 출시 초기 다운로드와 DAU에서 챗GPT의 초기 기록을 넘어서며 일상 대행 중심의 소비자용 AI 에이전트 시장에서 돌풍을 일으키고 있습니다.",
+    "companies": [],
     "captureRepair": {}
   },
   {
@@ -5423,6 +5494,53 @@
     ]
   },
   {
+    "title": "정부 ESS 중앙계약시장 확대와 배터리 3사 수주전",
+    "url": "https://www.thelec.kr/news/articleView.html?idxno=62670",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-22",
+    "sourceNote": "2026-09-23-ess-3",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "정부가 2026년 ESS 중앙계약시장 물량을 1180MW로 확대하면서 LG에너지솔루션, 삼성SDI, SK온의 2조원대 수주 경쟁이 본격화된다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-energy-solution",
+        "label": "LG에너지솔루션",
+        "ticker": "373220",
+        "sector": "batteries"
+      },
+      {
+        "id": "samsung-sdi",
+        "label": "삼성SDI",
+        "ticker": "006400",
+        "sector": "batteries"
+      },
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      },
+      {
+        "id": "sk-on",
+        "label": "SK온",
+        "ticker": "비상장",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "정부, 한국형 탄소차액계약제도 법제화 착수",
     "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=421635",
     "category": "investing",
@@ -6768,6 +6886,41 @@
     ]
   },
   {
+    "title": "LG그룹주, Nvidia·Microsoft 협력 기대에 반등",
+    "url": "https://www.hankyung.com/article/2026092214766",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-22",
+    "sourceNote": "2026-09-23-lg-nvidia-microsoft",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LG전자·LG이노텍 등 LG그룹주가 AI 데이터센터와 피지컬 AI 협력 기대감으로 4~6%대 상승했다는 기사다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-electronics",
+        "label": "LG전자",
+        "ticker": "066570",
+        "sector": "electronics"
+      },
+      {
+        "id": "lg-innotek",
+        "label": "LG이노텍",
+        "ticker": "011070",
+        "sector": "electronic-components"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "LG디스플레이, 게이밍 OLED 로드쇼서 최대 라인업과 차세대 기술 공개",
     "url": "https://v.daum.net/v/20260601103002221?f=p",
     "category": "investing",
@@ -7013,6 +7166,35 @@
         "sector": "steel"
       }
     ]
+  },
+  {
+    "title": "SK온-포스코퓨처엠, 1조원대 LFP 양극재 공급 계약",
+    "url": "https://www.mt.co.kr/industry/2026/09/22/2026092217383577166",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-22",
+    "sourceNote": "2026-09-23-sk-1-lfp",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "SK온과 포스코퓨처엠이 2027~2029년 LFP 양극재 공급 계약을 맺으며 미국 ESS 시장과 탈중국 배터리 공급망 공략을 강화한다.",
+    "companies": [
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      },
+      {
+        "id": "sk-on",
+        "label": "SK온",
+        "ticker": "비상장",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
   },
   {
     "title": "SK온, 엘앤에프와 1600억원 규모 LFP 양극재 공급 계약",
