@@ -2133,6 +2133,35 @@
     "companies": []
   },
   {
+    "title": "LG전자 2.5㎿ CDU, NVIDIA DSX Ready 승인",
+    "url": "https://v.daum.net/v/9ZnsBlwaCU?f=p",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-09-22",
+    "sourceNote": "2026-09-23-lg-2-5-cdu-nvidia-dsx-ready",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LG전자가 2.5㎿급 액체냉각 CDU로 NVIDIA AI Factory 규격 승인을 받아 AI 데이터센터 냉각 라인업을 확대했다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-electronics",
+        "label": "LG전자",
+        "ticker": "066570",
+        "sector": "electronics"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "LG전자, 브라질 新공장 가동…글로벌사우스 공략 강화",
     "url": "https://naver.me/xTy5QkqP",
     "category": "ai",
@@ -2899,6 +2928,29 @@
       "article"
     ],
     "description": "네이버가 사우디에서 Meta, NSG 등 8곳과 MOU를 맺고 지도·예약·결제·부동산·우주 기술까지 연결하는 슈퍼앱 생태계 구축을 추진한다.",
+    "companies": [
+      {
+        "id": "naver",
+        "label": "네이버",
+        "ticker": "035420",
+        "sector": "internet-platform"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
+    "title": "네이버페이, 롯데카드 제치고 결제시장 빅5 진입",
+    "url": "https://www.hankyung.com/article/2026092190421",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-09-22",
+    "sourceNote": "2026-09-23-5",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "한국경제는 네이버페이가 1년 만에 롯데카드를 앞지르며 카드사 중심 결제시장 구도를 흔들었다고 보도했다.",
     "companies": [
       {
         "id": "naver",
