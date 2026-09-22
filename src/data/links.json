@@ -559,22 +559,6 @@
     "captureRepair": {}
   },
   {
-    "title": "콘웨이의 법칙과 프로그래밍 언어",
-    "url": "https://news.hada.io/topic?id=34063",
-    "category": "ai",
-    "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-09-22",
-    "sourceNote": "2026-09-23-untitled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "AI 에이전트는 세션마다 컨텍스트가 리셋되어 인간처럼 공유 지식을 축적하지 못하며, 텍스트 생성 지연이 0에 수렴하는 환경에서 실제 병목은 에이전트 산출물을 읽고 판단하는 인간의 인지 속도입니다. 결국 추상화 누수로 인해 코드를 직접 검증해야 하므로, 향후 언어 설계는 에이전트보다 인간의 탐색 부담과 엣지 케이스 판단 비용을 최소화하는 방향으로 발전해야 합니다.",
-    "companies": [],
-    "captureRepair": {}
-  },
-  {
     "title": "클로드 코덱스 스킬 가이드북",
     "url": "https://share.google/MI09FZPlXhsSiH9CV",
     "category": "ai",
@@ -6107,6 +6091,22 @@
       "article"
     ],
     "description": "한국거래소가 2026년 10월 뉴욕에서 한인 기업들을 대상으로 코스닥 IPO 세일즈에 나선다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
+    "title": "한국경제 기사 본문 접근 제한으로 인한 부분 요약",
+    "url": "https://www.hankyung.com/article/2026092217681",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-22",
+    "sourceNote": "2026-09-23-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "제공된 본문이 기사 핵심 내용을 충분히 포함하지 않아, 제목과 설명 기반으로만 제한적으로 파악했습니다.",
     "companies": [],
     "captureRepair": {}
   },
