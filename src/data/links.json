@@ -5362,6 +5362,22 @@
     "captureRepair": {}
   },
   {
+    "title": "유진투자증권, 파두 목표가 11만원으로 상향",
+    "url": "https://biz.chosun.com/stock/stock_general/2026/09/23/PPXI66HXQ5GUNMIOVMCGV7QVUA/",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-24",
+    "sourceNote": "2026-09-24-11",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "유진투자증권은 파두가 하이퍼스케일러향 enterprise SSD controller 출하 확대와 AI CapEx 증가의 수혜를 볼 것으로 평가했다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "육군 교육용 드론에 국산 배터리 탑재",
     "url": "https://www.thelec.kr/news/articleView.html?idxno=61763",
     "category": "investing",
@@ -6411,6 +6427,22 @@
     ]
   },
   {
+    "title": "AI 데이터센터 경쟁의 다음 병목은 전력망",
+    "url": "https://v.daum.net/v/4J95jbrNid",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-24",
+    "sourceNote": "2026-09-24-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI 데이터센터 증설 속도에 전력망·변압기·UPS 등 전력 인프라가 뒤처지며 2028년 이후 병목이 본격화할 수 있다는 전망을 다룬 기사다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "AI 데이터센터 기대감에 GS건설 장중 급등",
     "url": "http://www.choicenews.co.kr/news/articleView.html?idxno=167975",
     "category": "investing",
@@ -7124,6 +7156,35 @@
       "article"
     ],
     "description": "LG에너지솔루션은 EV 수요 둔화에 대응해 북미 ESS 생산거점을 확대하고, ESS용 LFP 배터리 양산·안전기술·운영 플랫폼을 결합해 시장 주도권을 노리고 있다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-energy-solution",
+        "label": "LG에너지솔루션",
+        "ticker": "373220",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
+    "title": "LG에너지솔루션, NVIDIA DSX Ready 합류",
+    "url": "https://v.daum.net/v/uccVA9UZj9",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-24",
+    "sourceNote": "2026-09-24-lg-nvidia-dsx-ready",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LG에너지솔루션이 NVIDIA의 AI 팩토리 생태계 DSX Ready에 국내 배터리 기업 중 유일하게 BESS 파트너로 합류했다.",
     "companies": [
       {
         "id": "lg-corp",
