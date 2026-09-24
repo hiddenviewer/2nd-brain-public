@@ -5948,6 +5948,29 @@
     "companies": []
   },
   {
+    "title": "포스코홀딩스, 미래는 리튬·현금은 가스…해외 자원사업 '다변화'",
+    "url": "https://v.daum.net/v/YA04jPKpA3",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-24",
+    "sourceNote": "2026-09-25-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "포스코홀딩스는 호주 가스(Senex Energy)를 현금창출원(Cash Cow)으로 삼아 안정적인 수익을 창출하는 동시에, 아르헨티나 리튬 사업의 흑자 전환과 증설을 통해 미래 성장축을 육성하는 투트랙 해외 자원 포트폴리오를 구축하고 있다.",
+    "companies": [
+      {
+        "id": "posco-holdings",
+        "label": "POSCO홀딩스",
+        "ticker": "005490",
+        "sector": "steel"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "포스코홀딩스, 아르헨티나 리튬사업에 1조원 유동성 확보",
     "url": "https://m.dnews.co.kr/m_home/view.jsp?idxno=202608281238486910711",
     "category": "investing",
@@ -6502,6 +6525,22 @@
       "article"
     ],
     "description": "디일렉은 GPU·HBM 공급 확대 이후의 핵심 병목으로 OSAT, 패키징, 테스트, 검사 공정을 지목하며 관련 콘퍼런스를 예고했다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
+    "title": "AI 확산에 국내 건설사 해외사업, 원전·데이터센터로 다변화",
+    "url": "https://www.theguru.co.kr/mobile/article.html?no=107290",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-24",
+    "sourceNote": "2026-09-25-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "국내 주요 건설사들이 AI 인프라와 전력 수요 증가에 맞춰 해외사업을 화공 플랜트 중심에서 원전·데이터센터로 다변화하고 있다.",
     "companies": [],
     "captureRepair": {}
   },
