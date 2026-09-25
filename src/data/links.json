@@ -1048,6 +1048,22 @@
     "companies": []
   },
   {
+    "title": "API 예산별 LLM 성능·가격 비교 도구",
+    "url": "https://news.hada.io/topic?id=34242",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-09-25",
+    "sourceNote": "2026-09-26-api-llm",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Artificial Analysis 평가를 바탕으로 가격대별 고성능 LLM을 찾는 웹사이트다. 모델 선택의 출발점으로 유용하지만, 토큰 단가가 실제 작업 비용을 뜻하지는 않는다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "Artificial Analysis 코딩 에이전트 벤치마크 공개",
     "url": "https://discuss.pytorch.kr/t/artificial-analysis/10183",
     "category": "ai",
@@ -2505,6 +2521,22 @@
     ],
     "description": "GeekNews 링크 큐레이션 성격의 2차 메모다. Warp가 클라이언트를 AGPL로 오픈소스화하고, 에이전트가 구현을 맡고 사람은 명세와 검증에 집중하는 agent-first 개발 표면을 공개 협업 방식으로 확장하겠다는 방향을 요약한다.",
     "companies": []
+  },
+  {
+    "title": "Whiteboard: AI가 만든 코드를 이해하고 검토하는 오픈소스 캔버스",
+    "url": "https://news.hada.io/topic?id=34245",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-09-25",
+    "sourceNote": "2026-09-26-whiteboard-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Whiteboard는 Claude Code·Codex의 코드 변경을 다이어그램, 의미 기반 diff, 실행 기록으로 살펴보는 데스크톱 앱이다. 코드 작성 이후 사람이 구조와 설계 판단을 이해하고 검토하는 데 집중한다.",
+    "companies": [],
+    "captureRepair": {}
   },
   {
     "title": "Zed 1.0 릴리즈",
@@ -4471,6 +4503,22 @@
     ]
   },
   {
+    "title": "메타, 연산·배터리 분리형 100g VR 글래스 공개 보도",
+    "url": "https://aimatters.co.kr/news-report/53142/",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-25",
+    "sourceNote": "2026-09-26-100g-vr",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI매터스에 따르면 메타는 별도 본체와 연결하는 약 100g VR 글래스를 공개했다. 5K 화면과 음성·시선·손동작 조작을 지원하며, 2027년 봄 1,299.99달러에 출시할 예정이다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "미국발 원전 기자재 발주 본격화 및 국내 밸류체인 수혜 전망",
     "url": "https://www.mk.co.kr/news/economy/12083979",
     "category": "investing",
@@ -6293,6 +6341,45 @@
         "sector": "shipbuilding"
       }
     ]
+  },
+  {
+    "title": "해상풍력 확대의 핵심 과제는 전력망 선제 구축과 통합 계획",
+    "url": "https://v.daum.net/v/Vg6Lqa3GsL",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-25",
+    "sourceNote": "2026-09-26-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "한국환경연구원(KEI)은 해상풍력의 발전제약과 중복 투자를 줄이려면 입지 선정부터 발전단지·해저케이블·공동접속설비·양육점을 통합 계획하고, 발전과 송전의 준공 일정을 조율해야 한다고 제안했다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
+    "title": "현대차, 중국 전용 ‘아이오닉 V’ 출시 예고…가격·AI 현지화 전략",
+    "url": "https://v.daum.net/v/bFqxWO2urD?f=p",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-25",
+    "sourceNote": "2026-09-26-v-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "현대차가 약 2400만~2800만원대 중국 전용 전기 세단 ‘아이오닉 V’를 29일 출시한다고 기사에서 전했다. CATL 배터리와 중국 AI·주행 보조 기술을 활용해 현지 시장 판매 회복을 노린다.",
+    "companies": [
+      {
+        "id": "hyundai-motor",
+        "label": "현대차",
+        "ticker": "005380",
+        "sector": "automotive"
+      }
+    ],
+    "captureRepair": {}
   },
   {
     "title": "현대차·기아, 상반기 유럽 전기차 판매 반기 최대",
