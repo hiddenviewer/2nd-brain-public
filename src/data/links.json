@@ -4803,6 +4803,29 @@
     "captureRepair": {}
   },
   {
+    "title": "삼성전자 목표주가 전망 엇갈려…유안타증권 63만원 제시",
+    "url": "https://www.edaily.co.kr/News/Read?newsId=02023766645583728&mediaCodeNo=257",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-25",
+    "sourceNote": "2026-09-26-63",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "제공된 기사 설명에 따르면 유안타증권은 AI 메모리 수요와 공급 부족을 근거로 삼성전자 목표주가를 63만원으로 제시했다. BNK투자증권은 대조적인 전망을 내놨으나, 본문이 없어 구체적인 수치와 근거는 확인되지 않는다.",
+    "companies": [
+      {
+        "id": "samsung-electronics",
+        "label": "삼성전자",
+        "ticker": "005930",
+        "sector": "semiconductors"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "삼성전자, 2026년 1분기 글로벌 TV 매출 점유율 31.3%로 1위",
     "url": "https://www.thelec.kr/news/articleView.html?idxno=57560",
     "category": "investing",
