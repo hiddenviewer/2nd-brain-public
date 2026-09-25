@@ -673,6 +673,29 @@
     "companies": []
   },
   {
+    "title": "현대차, NVIDIA 협력과 Atria AI로 자율주행 격차 축소 추진",
+    "url": "https://v.daum.net/v/GKMM5AUZlk",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-09-25",
+    "sourceNote": "2026-09-26-nvidia-atria-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "현대차그룹은 NVIDIA 기술로 양산 적용을 앞당기고 자체 Atria AI와 주행 데이터 학습 체계를 구축해 자율주행 경쟁력을 높일 계획이다. 핵심은 안전을 확보하면서 데이터 수집·학습·배포의 반복 속도를 높이는 것이다.",
+    "companies": [
+      {
+        "id": "hyundai-motor",
+        "label": "현대차",
+        "ticker": "005380",
+        "sector": "automotive"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "Agent Learning Hub: AI 에이전트 빌더를 위한 단계별 학습 로드맵",
     "url": "https://discuss.pytorch.kr/t/agent-learning-hub-ai/10326",
     "category": "ai",
