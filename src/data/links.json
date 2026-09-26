@@ -231,6 +231,22 @@
     "captureRepair": {}
   },
   {
+    "title": "알렉산더 왕이 Muse를 만드는 이유: 바람을 실행으로 연결하는 개인 AI",
+    "url": "https://news.hada.io/topic?id=34295",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-09-26",
+    "sourceNote": "2026-09-27-muse-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Muse는 사용자의 막연한 바람을 구체화하고 계획과 실행을 도와, 누구나 원하는 일을 시작하도록 돕는 개인 AI 에이전트를 지향한다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "앤트로픽, 장기 개발 관리 에이전트 Claude Code Projects 공개",
     "url": "https://www.aitimes.com/news/articleView.html?idxno=215430",
     "category": "ai",
@@ -3084,6 +3100,45 @@
     "captureRepair": {}
   },
   {
+    "title": "아카라이브 게시글 본문 확인 불가",
+    "url": "https://arca.live/b/alpaca/184185145",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "review",
+    "updated": "2026-09-26",
+    "sourceNote": "2026-09-27-untitled",
+    "tags": [
+      "inbox",
+      "article",
+      "inaccessible"
+    ],
+    "description": "링크에 접근하지 못해 게시글 내용을 요약할 수 없습니다.",
+    "companies": [],
+    "captureRepair": {
+      "status": "manual_review",
+      "reason": "cloudflare",
+      "retry_attempted": true,
+      "retry_method": "curl-alt",
+      "retry_result": "failed",
+      "last_attempt_at": "2026-09-26T18:32:49.733077+00:00",
+      "operator_note": "원문 사전 추출 실패: Cloudflare 보안 검증 페이지가 반환됐습니다.",
+      "attempts": [
+        {
+          "method": "curl",
+          "ok": false,
+          "reason": "cloudflare",
+          "detail": "원문 사전 추출 실패: Cloudflare 보안 검증 페이지가 반환됐습니다."
+        },
+        {
+          "method": "curl-alt",
+          "ok": false,
+          "reason": "cloudflare",
+          "detail": "원문 사전 추출 실패: Cloudflare 보안 검증 페이지가 반환됐습니다."
+        }
+      ]
+    }
+  },
+  {
     "title": "애플, 보급형 XR 디스플레이 개발 백지화",
     "url": "https://www.thelec.kr/news/articleView.html?idxno=59241",
     "category": "general",
@@ -3327,6 +3382,22 @@
     ],
     "description": "헬스조선의 2026년 6월 19일 기사 요약 메모다. 미역·다시마, 깨, 생마늘이 혈전 억제나 혈관 건강에 도움을 줄 수 있고, 초가공식품은 정맥혈전색전증 위험 증가와 연결될 수 있다는 일반 건강정보를 다룬다.",
     "companies": []
+  },
+  {
+    "title": "Cloudflare, 모든 요금제에 Vary 기반 캐시 지원 추가",
+    "url": "https://news.hada.io/topic?id=34282",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-09-26",
+    "sourceNote": "2026-09-27-cloudflare-vary",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Cloudflare가 Cache Rules에 Vary 지원을 추가했다. 같은 URL의 언어·콘텐츠 형식별 응답을 구분해 캐시하면서, 헤더 정규화로 불필요한 캐시 분산을 줄일 수 있다.",
+    "companies": [],
+    "captureRepair": {}
   },
   {
     "title": "Coursera로 컴퓨터 과학 학위 마치기",
