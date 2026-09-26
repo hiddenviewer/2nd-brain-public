@@ -509,6 +509,35 @@
     "companies": []
   },
   {
+    "title": "카카오·LG, 카카오톡과 전화 기반 ‘모두의 AI’ 추진",
+    "url": "https://v.daum.net/v/20260925091006010",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-09-26",
+    "sourceNote": "2026-09-27-lg-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "카카오 컨소시엄은 카나나와 LG K-엑사원을 결합해 검색부터 신청·예약·결제까지 지원하는 무료 생활형 AI를 추진한다. 2026년 10월 베타, 12월 정식 출시를 계획하고 있다.",
+    "companies": [
+      {
+        "id": "kakao",
+        "label": "카카오",
+        "ticker": "035720",
+        "sector": "internet-platform"
+      },
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "코드 리뷰의 주된 목적은 유지보수하기 어려운 코드를 찾는 것",
     "url": "https://news.hada.io/topic?id=31067",
     "category": "ai",
