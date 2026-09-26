@@ -6352,6 +6352,47 @@
     "captureRepair": {}
   },
   {
+    "title": "한미반도체, FC 본더 75 첫 출하로 AI 패키징 장비 확대",
+    "url": "https://v.daum.net/v/20260926143128411",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-26",
+    "sourceNote": "2026-09-27-fc-75-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "한미반도체가 대형 인터포저를 지원하는 FC 본더 75를 첫 출하하며 HBM 적층 장비에서 AI 시스템반도체 2.5D 패키징으로 사업 범위를 넓혔다.",
+    "companies": [
+      {
+        "id": "hanmi-semiconductor",
+        "label": "한미반도체",
+        "ticker": "042700",
+        "sector": "semiconductor-equipment"
+      },
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-electronics",
+        "label": "LG전자",
+        "ticker": "066570",
+        "sector": "electronics"
+      },
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "한성숙 총리 “해상풍력, 반도체·데이터센터·피지컬 AI 핵심 전력”",
     "url": "https://www.etoday.co.kr/news/view/2621096",
     "category": "investing",
