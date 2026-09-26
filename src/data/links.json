@@ -3129,45 +3129,6 @@
     "captureRepair": {}
   },
   {
-    "title": "아카라이브 게시글 본문 확인 불가",
-    "url": "https://arca.live/b/alpaca/184185145",
-    "category": "general",
-    "categoryLabel": "기타",
-    "status": "review",
-    "updated": "2026-09-26",
-    "sourceNote": "2026-09-27-untitled",
-    "tags": [
-      "inbox",
-      "article",
-      "inaccessible"
-    ],
-    "description": "링크에 접근하지 못해 게시글 내용을 요약할 수 없습니다.",
-    "companies": [],
-    "captureRepair": {
-      "status": "manual_review",
-      "reason": "cloudflare",
-      "retry_attempted": true,
-      "retry_method": "curl-alt",
-      "retry_result": "failed",
-      "last_attempt_at": "2026-09-26T18:32:49.733077+00:00",
-      "operator_note": "원문 사전 추출 실패: Cloudflare 보안 검증 페이지가 반환됐습니다.",
-      "attempts": [
-        {
-          "method": "curl",
-          "ok": false,
-          "reason": "cloudflare",
-          "detail": "원문 사전 추출 실패: Cloudflare 보안 검증 페이지가 반환됐습니다."
-        },
-        {
-          "method": "curl-alt",
-          "ok": false,
-          "reason": "cloudflare",
-          "detail": "원문 사전 추출 실패: Cloudflare 보안 검증 페이지가 반환됐습니다."
-        }
-      ]
-    }
-  },
-  {
     "title": "애플, 보급형 XR 디스플레이 개발 백지화",
     "url": "https://www.thelec.kr/news/articleView.html?idxno=59241",
     "category": "general",
@@ -6613,6 +6574,22 @@
         "sector": "automotive"
       }
     ]
+  },
+  {
+    "title": "현대캐피탈, 전기차 배터리 구독료·충전료 통합 요금제 설계",
+    "url": "https://naver.me/GYDExbCl",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-26",
+    "sourceNote": "2026-09-27-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "배터리 소유권 분리 제도가 국회에서 논의되는 가운데, 현대캐피탈이 배터리 구독료와 충전료의 합산 비용을 내연기관차 유류비 수준으로 맞추는 요금제를 설계 중인 것으로 전해졌다.",
+    "companies": [],
+    "captureRepair": {}
   },
   {
     "title": "호르무즈 해협 봉쇄에도 국제유가가 100달러를 넘지 않은 이유",
