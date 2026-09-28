@@ -3107,6 +3107,29 @@
     "captureRepair": {}
   },
   {
+    "title": "삼성전자, P5 첫 양산라인 장비 반입 조기 추진",
+    "url": "https://naver.me/FqItKV5y",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-09-28",
+    "sourceNote": "2026-09-29-p5",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "삼성전자가 평택5캠퍼스(P5) 첫 양산라인의 장비 반입 목표를 내년 3분기에서 2분기로 앞당기는 방안을 주요 장비업체와 논의 중인 것으로 전해졌다.",
+    "companies": [
+      {
+        "id": "samsung-electronics",
+        "label": "삼성전자",
+        "ticker": "005930",
+        "sector": "semiconductors"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "신규 재생에너지 발전소 70% 이상, 송전망 부족 조건부 허가",
     "url": "https://v.daum.net/v/uxrx1d8BvU",
     "category": "general",
