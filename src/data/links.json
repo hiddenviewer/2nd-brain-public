@@ -5957,6 +5957,35 @@
     ]
   },
   {
+    "title": "중국 배터리 과잉경쟁 억제 속 LG에너지솔루션, 소듐이온 개발 가속",
+    "url": "https://v.daum.net/v/20260928111055395",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-28",
+    "sourceNote": "2026-09-29-lg",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "중국이 배터리 공급과잉과 가격 경쟁 억제에 나선 가운데, LG에너지솔루션은 난징·오창 생산 기반과 차량 탑재 시험을 통해 소듐이온 배터리 상용화를 추진하고 있다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-energy-solution",
+        "label": "LG에너지솔루션",
+        "ticker": "373220",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "중국 BOE, 8.6세대 OLED 양산 일정 앞당김",
     "url": "https://www.thelec.kr/news/articleView.html?idxno=56514",
     "category": "investing",
