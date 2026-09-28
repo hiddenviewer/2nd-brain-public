@@ -329,6 +329,35 @@
     ]
   },
   {
+    "title": "엘앤에프·포스코퓨처엠, SK온 공급 계약으로 비중국 LFP 시장 공략",
+    "url": "https://www.yeongnam.com/web/view.php?key=20260927029590246",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-09-28",
+    "sourceNote": "2026-09-29-sk-lfp",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "영남일보는 엘앤에프와 포스코퓨처엠이 SK온과 대규모 LFP 양극재 공급 계약을 맺고, ESS 수요 확대와 비중국 공급망 구축에 대응하고 있다고 보도했다. 낮은 마진과 환경 처리 비용은 과제로 제시했다.",
+    "companies": [
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      },
+      {
+        "id": "sk-on",
+        "label": "SK온",
+        "ticker": "비상장",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "오픈AI 'GPT-6 아스트라', 앤트로픽 꺾고 '코드 아레나: 웹개발' 1위 등극",
     "url": "https://www.aitimes.com/news/articleView.html?idxno=214899",
     "category": "ai",
@@ -6871,6 +6900,35 @@
         "label": "삼성전기",
         "ticker": "009150",
         "sector": "electronic-components"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
+    "title": "AI 인프라 수요에 고성능 CCL 투자·증설 확대",
+    "url": "https://v.daum.net/v/20260926180313959",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-28",
+    "sourceNote": "2026-09-29-ai-ccl",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI 서버와 첨단 반도체용 고성능 CCL 수요가 늘면서 가격과 매출이 상승하고, 국내외 소재 업체들이 생산능력 확대에 나서고 있다.",
+    "companies": [
+      {
+        "id": "lg-chem",
+        "label": "LG화학",
+        "ticker": "051910",
+        "sector": "chemicals"
+      },
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
       }
     ],
     "captureRepair": {}
