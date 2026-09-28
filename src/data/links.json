@@ -2881,6 +2881,22 @@
     "companies": []
   },
   {
+    "title": "Atlas - 코딩 에이전트를 위한 소스 관리 및 멀티 에이전트 데스크톱 도구",
+    "url": "https://news.hada.io/topic?id=34344",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-09-28",
+    "sourceNote": "2026-09-29-atlas",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Atlas는 단순 코드 변경뿐만 아니라 에이전트의 요청, 도구 사용 내역, 작업 맥락 및 실패 기록을 Git 커밋에 연결해 추적하는 데스크톱 개발 도구입니다. Claude Code, Codex, ACP 호환 에이전트를 병렬 실행하고 세션 맥락을 상호 공유할 수 있도록 지원합니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "Homebrew v7 주요 변화 요약",
     "url": "https://news.hada.io/topic?id=33618",
     "category": "apple",
