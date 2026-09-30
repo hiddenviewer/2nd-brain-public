@@ -730,6 +730,22 @@
     "companies": []
   },
   {
+    "title": "하네스 엔지니어링: 모델을 바꾸지 않고 에이전트를 개선하는 방법",
+    "url": "https://blog.cslee.co.kr/improving-ai-agents-with-harness-engineering/",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-09-30",
+    "sourceNote": "2026-10-01-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LLM 에이전트의 안정성과 성능을 높이기 위해 모델 자체를 바꾸기보다 프롬프트 외부의 런타임, 도구 제어, 검증 계층 등 시스템 골격(하네스)을 코드로 설계하고 결정적 규칙을 강제하는 '하네스 엔지니어링'의 개념, 실증 사례, 실무 도입 질문을 다룬 글입니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "하네스 엔지니어링으로 AI 에이전트를 통제하는 방법",
     "url": "https://yozm.wishket.com/magazine/detail/3733/",
     "category": "ai",
@@ -3469,6 +3485,29 @@
     ],
     "description": "헬스조선의 2026년 6월 19일 기사 요약 메모다. 미역·다시마, 깨, 생마늘이 혈전 억제나 혈관 건강에 도움을 줄 수 있고, 초가공식품은 정맥혈전색전증 위험 증가와 연결될 수 있다는 일반 건강정보를 다룬다.",
     "companies": []
+  },
+  {
+    "title": "호르무즈 우회하는 SK이노베이션 E&S의 호주 바로사 LNG 공급망 가동",
+    "url": "https://v.daum.net/v/20260930150010370",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-09-30",
+    "sourceNote": "2026-10-01-sk-e-s-lng",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "SK이노베이션 E&S가 호주 바로사 가스전과 다윈 액화 터미널을 연결해 호르무즈 해협을 거치지 않는 연간 130만 톤 규모의 LNG 공급망을 본격 가동하며 중동 리스크 회피와 국내 자원안보 강화에 나섰습니다.",
+    "companies": [
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      }
+    ],
+    "captureRepair": {}
   },
   {
     "title": "Cloudflare, 모든 요금제에 Vary 기반 캐시 지원 추가",
@@ -6380,29 +6419,6 @@
     ],
     "description": "한국경제 기사 요약 메모다. 도널드 트럼프 미국 대통령이 철강·알루미늄·구리 관련 일부 수입품 관세를 조정하는 포고문에 서명했고, 미국산 금속 사용 비중이 높은 설비와 일부 농기계·산업장비에 한시적 우대 관세를 적용한다는 내용을 다룬다.",
     "companies": []
-  },
-  {
-    "title": "파마리서치, 리쥬란 화장품의 중국 진출과 해외 유통 확대",
-    "url": "https://n.news.naver.com/article/011/0004664407",
-    "category": "investing",
-    "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-09-30",
-    "sourceNote": "2026-10-01-untitled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "파마리서치가 중국 CCM과 협력해 리쥬란 화장품의 현지 사업 확대를 추진한다. 한국투자증권은 화장품 수출 성장에 힘입어 연간 해당 사업 매출이 약 2186억 원에 이를 것으로 전망했다.",
-    "companies": [
-      {
-        "id": "pharma-research",
-        "label": "파마리서치",
-        "ticker": "214450",
-        "sector": "pharmaceuticals-aesthetics"
-      }
-    ],
-    "captureRepair": {}
   },
   {
     "title": "포스코홀딩스, 아르헨티나 리튬사업에 1조원 유동성 확보",
