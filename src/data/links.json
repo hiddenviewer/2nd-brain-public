@@ -7891,6 +7891,35 @@
     "captureRepair": {}
   },
   {
+    "title": "LG에너지솔루션, 북미 공장·광산 투자 손실과 현금 창출 과제",
+    "url": "https://v.daum.net/v/20260929060004738",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-30",
+    "sourceNote": "2026-10-01-lg",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "기사에 따르면 LG에너지솔루션은 혼다 합작공장 건물 매각과 리튬 광산업체 지분 투자에서 큰 손실을 기록했다. 차입 부담과 적자가 이어지는 가운데 투자 효율화와 현금 창출이 과제로 제시됐다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-energy-solution",
+        "label": "LG에너지솔루션",
+        "ticker": "373220",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "LG에너지솔루션, 북미 ESS 5대 거점과 LFP 양산 역량 강화",
     "url": "https://v.daum.net/v/20260912050503578",
     "category": "investing",
