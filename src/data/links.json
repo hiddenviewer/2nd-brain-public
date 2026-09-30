@@ -4710,6 +4710,41 @@
     "captureRepair": {}
   },
   {
+    "title": "미국 ESS 수요 확대에 K-배터리 3분기 실적 기대 상승",
+    "url": "https://v.daum.net/v/UlqA2RYCYc",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-30",
+    "sourceNote": "2026-09-30-ess-k-3",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "미국 ESS 출하 증가로 LG에너지솔루션과 삼성SDI의 3분기 실적이 시장 예상을 웃돌 것이라는 전망이다. 컨센서스의 2배 이상인 추정치는 삼성SDI에 해당하며, 확정 실적은 아니다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-energy-solution",
+        "label": "LG에너지솔루션",
+        "ticker": "373220",
+        "sector": "batteries"
+      },
+      {
+        "id": "samsung-sdi",
+        "label": "삼성SDI",
+        "ticker": "006400",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "미국발 원전 기자재 발주 본격화 및 국내 밸류체인 수혜 전망",
     "url": "https://www.mk.co.kr/news/economy/12083979",
     "category": "investing",
@@ -5503,6 +5538,35 @@
         "label": "Goldman Sachs",
         "ticker": "GS",
         "sector": "global investment banking"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
+    "title": "에코프로비엠, 삼성SDI 통해 독일 전기차 양극재 공급 확대 추진",
+    "url": "https://www.thelec.kr/news/articleView.html?idxno=62926",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-30",
+    "sourceNote": "2026-09-30-sdi",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "에코프로비엠이 헝가리 공장을 기반으로 아우디에 이어 BMW·메르세데스-벤츠 공급을 추진한다. 기사에서 추산한 독일 3사 물량은 연간 약 5만6000t이다.",
+    "companies": [
+      {
+        "id": "ecopro-bm",
+        "label": "에코프로비엠",
+        "ticker": "247540",
+        "sector": "battery materials"
+      },
+      {
+        "id": "samsung-sdi",
+        "label": "삼성SDI",
+        "ticker": "006400",
+        "sector": "batteries"
       }
     ],
     "captureRepair": {}
