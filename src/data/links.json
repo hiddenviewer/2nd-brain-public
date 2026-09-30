@@ -381,6 +381,22 @@
     "captureRepair": {}
   },
   {
+    "title": "오픈AI, 상시 업무 수행 AI 에이전트 ‘Dots’ 공개",
+    "url": "https://www.mk.co.kr/news/it/12164277",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-09-30",
+    "sourceNote": "2026-10-01-ai-ai-dots",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "기사에 따르면 오픈AI는 목표와 권한에 따라 업무를 지속 수행하는 Dots를 공개하고, GPT-6.1 Sol 출시와 Pro 요금제 개편을 발표했다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "오픈AI, Codex CLI에 장기 자율 작업 기능 '/goal' 추가",
     "url": "https://www.aitimes.com/news/articleView.html?idxno=210020",
     "category": "ai",
@@ -7883,6 +7899,35 @@
       "article"
     ],
     "description": "LG에너지솔루션이 NVIDIA의 AI 팩토리 생태계 DSX Ready에 국내 배터리 기업 중 유일하게 BESS 파트너로 합류했다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-energy-solution",
+        "label": "LG에너지솔루션",
+        "ticker": "373220",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
+    "title": "LG에너지솔루션·GM, 2028년 각형 LMR 배터리 생산체계 구축 추진",
+    "url": "https://www.sedaily.com/article/20096502",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-30",
+    "sourceNote": "2026-10-01-lg-gm-2028-lmr",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LG에너지솔루션과 GM의 합작사 얼티엄셀즈가 테네시 공장에 각형 LMR 배터리 생산체계를 구축한다. LFP와 유사한 비용으로 약 33% 높은 에너지밀도를 구현하는 것이 목표다.",
     "companies": [
       {
         "id": "lg-corp",
