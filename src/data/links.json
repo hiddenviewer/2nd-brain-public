@@ -6353,6 +6353,29 @@
     "companies": []
   },
   {
+    "title": "파마리서치, 리쥬란 화장품의 중국 진출과 해외 유통 확대",
+    "url": "https://n.news.naver.com/article/011/0004664407",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-09-30",
+    "sourceNote": "2026-10-01-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "파마리서치가 중국 CCM과 협력해 리쥬란 화장품의 현지 사업 확대를 추진한다. 한국투자증권은 화장품 수출 성장에 힘입어 연간 해당 사업 매출이 약 2186억 원에 이를 것으로 전망했다.",
+    "companies": [
+      {
+        "id": "pharma-research",
+        "label": "파마리서치",
+        "ticker": "214450",
+        "sector": "pharmaceuticals-aesthetics"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "포스코홀딩스, 아르헨티나 리튬사업에 1조원 유동성 확보",
     "url": "https://m.dnews.co.kr/m_home/view.jsp?idxno=202608281238486910711",
     "category": "investing",
