@@ -2604,6 +2604,29 @@
     "captureRepair": {}
   },
   {
+    "title": "Pencil 제작기: 디자인 시스템을 넘어 기획·디자인·리뷰를 연결하기",
+    "url": "https://liner.com/ko/blog/liner-pencil-design-harness",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-10-01",
+    "sourceNote": "2026-10-02-pencil",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Liner의 Pencil은 디자인 시스템만으로 보장하기 어려운 화면 완성도를 높이기 위해 기획·디자인·리뷰 skill을 연결한 Product Design 하네스다. 정적 JSON으로 반복적인 Figma 맥락 조회를 줄이고, Slack 기반 활용도 확장하려 한다.",
+    "companies": [
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "Prompt Master 소개와 핵심 기능 요약",
     "url": "https://discuss.pytorch.kr/t/prompt-master-ai-claude/9910",
     "category": "ai",
@@ -3108,6 +3131,22 @@
     "companies": []
   },
   {
+    "title": "낙월해상풍력 준공 임박…364.8MW 규모와 사업성 확보 과제",
+    "url": "https://v.daum.net/v/KDs8NWMV3O",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-10-01",
+    "sourceNote": "2026-10-02-364-8mw",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "전남 영광 낙월해상풍력단지가 풍력발전기 64기 설치를 마치고 준공을 앞두고 있다. 연간 예상 발전량은 900GWh이며, 해상 작업 제약 극복과 장기 수익성·공급망 확보가 핵심 과제로 제시됐다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "네이버 상반기 해외 매출 첫 1조원 돌파",
     "url": "https://biz.chosun.com/it-science/ict/2026/08/20/7S23NQSBLZCLDNNLEJYUENKZOY/",
     "category": "general",
@@ -3507,6 +3546,22 @@
     ],
     "description": "Daum 뉴스에 공유된 하이닥 건강정보 기사 요약 메모다. LDL 콜레스테롤 관리를 위해 식이섬유, 불포화지방, 오메가-3가 풍부한 식품을 늘리고 생활 습관 개선을 병행해야 한다는 내용을 다룬다.",
     "companies": []
+  },
+  {
+    "title": "콜레스테롤에 영향을 줄 수 있는 네 가지 생활 습관",
+    "url": "https://v.daum.net/v/BjAesWMVDw",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-10-01",
+    "sourceNote": "2026-10-02-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "기사는 오래 앉아 있기, 저녁형 생활, 아침 결식, 급격한 체중 감량이 혈중 지질 수치에 영향을 줄 수 있다고 설명한다.",
+    "companies": [],
+    "captureRepair": {}
   },
   {
     "title": "한국·중국 LNG선 수주 경쟁 막판 변수",
@@ -6560,22 +6615,6 @@
     "companies": []
   },
   {
-    "title": "포스코인터내셔널 등 종합상사, 자산 투자로 수익원 확대",
-    "url": "https://www.hankyung.com/article/2026093055081",
-    "category": "investing",
-    "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-10-01",
-    "sourceNote": "2026-10-02-untitled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "한국경제 기사 소개에 따르면 종합상사들이 트레이딩 수익성 개선과 함께 미국 가스·광물·신재생에너지 자산 투자를 확대하고 있다. 기사 본문이 확보되지 않아 세부 내용은 확인되지 않았다.",
-    "companies": [],
-    "captureRepair": {}
-  },
-  {
     "title": "포스코홀딩스, 아르헨티나 리튬사업에 1조원 유동성 확보",
     "url": "https://m.dnews.co.kr/m_home/view.jsp?idxno=202608281238486910711",
     "category": "investing",
@@ -8250,6 +8289,35 @@
     ]
   },
   {
+    "title": "LG전자, 가전·전장과 신사업 성장에 분기 매출 24조원 기대",
+    "url": "https://v.daum.net/v/3MHKnl8Bj1",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-01",
+    "sourceNote": "2026-10-02-lg-24",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LG전자의 3분기 매출이 처음으로 24조원을 넘고 영업이익도 1조원대를 회복할 전망이다. 가전·전장·TV의 수익성 개선이 실적을 뒷받침하고, AIDC 냉각과 로봇은 향후 성장 기반으로 제시됐다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-electronics",
+        "label": "LG전자",
+        "ticker": "066570",
+        "sector": "electronics"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "LG전자, 로봇 액추에이터 악시움 조기 양산",
     "url": "https://www.mk.co.kr/news/business/12095018",
     "category": "investing",
@@ -8379,6 +8447,29 @@
         "sector": "steel"
       }
     ]
+  },
+  {
+    "title": "POSCO홀딩스, 철강 수익성 개선으로 실적 회복 기대",
+    "url": "http://www.ksdaily.co.kr/news/articleView.html?idxno=110984",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-01",
+    "sourceNote": "2026-10-02-posco",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "신한투자증권은 철강 수익성 개선과 원료비 절감 효과를 근거로 POSCO홀딩스의 매수 의견과 목표주가 49만 원을 유지했다. 리튬 사업은 법인별로 실적 차이가 예상된다.",
+    "companies": [
+      {
+        "id": "posco-holdings",
+        "label": "POSCO홀딩스",
+        "ticker": "005490",
+        "sector": "steel"
+      }
+    ],
+    "captureRepair": {}
   },
   {
     "title": "SK온-포스코퓨처엠, 1조원대 LFP 양극재 공급 계약",
