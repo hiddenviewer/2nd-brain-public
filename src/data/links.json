@@ -3207,29 +3207,6 @@
     "captureRepair": {}
   },
   {
-    "title": "백악관 디지털자산 책임자, '전통금융과 통합 전망…韓 제도 정비 적기' 강조",
-    "url": "https://www.blockmedia.co.kr/archives/1145785",
-    "category": "general",
-    "categoryLabel": "기타",
-    "status": "pending",
-    "updated": "2026-09-30",
-    "sourceNote": "2026-10-01-untitled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "업비트 인스티튜셔널 서밋(UIS) 2026에서 패트릭 위트 미국 백악관 디지털자산 자문위원회 사무국장은 가상자산과 전통금융이 단일 금융시스템으로 융합될 것이라 전망하며, 시장이 안정된 지금이 한국의 제도적 기반 마련 적기라고 제언했다.",
-    "companies": [
-      {
-        "id": "dunamu",
-        "label": "두나무",
-        "ticker": "확인 필요",
-        "sector": "fintech-digital-assets"
-      }
-    ],
-    "captureRepair": {}
-  },
-  {
     "title": "삼성전자, P5 첫 양산라인 장비 반입 조기 추진",
     "url": "https://naver.me/FqItKV5y",
     "category": "general",
@@ -4198,6 +4175,22 @@
       "article"
     ],
     "description": "한국경제 기사 맥락상 6000억원 규모 국민참여성장펀드가 9월 30일부터 2차 판매에 들어가며, 근로소득 연 5000만원 이하 투자자 배정 비중이 확대될 예정입니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
+    "title": "금융위, 종투사 중소형주 리포트 최소 비율 도입 추진",
+    "url": "https://n.news.naver.com/article/009/0005742908",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-01",
+    "sourceNote": "2026-10-01-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "금융위가 대형주 중심의 증권사 리서치를 개선하기 위해 중소형주 보고서 최소 비율과 모험자본 공급 인센티브를 추진한다. 기사에 제시된 비율은 논의 중인 예시다.",
     "companies": [],
     "captureRepair": {}
   },
