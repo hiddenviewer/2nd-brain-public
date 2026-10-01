@@ -3548,22 +3548,6 @@
     "companies": []
   },
   {
-    "title": "콜레스테롤에 영향을 줄 수 있는 네 가지 생활 습관",
-    "url": "https://v.daum.net/v/BjAesWMVDw",
-    "category": "general",
-    "categoryLabel": "기타",
-    "status": "pending",
-    "updated": "2026-10-01",
-    "sourceNote": "2026-10-02-untitled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "기사는 오래 앉아 있기, 저녁형 생활, 아침 결식, 급격한 체중 감량이 혈중 지질 수치에 영향을 줄 수 있다고 설명한다.",
-    "companies": [],
-    "captureRepair": {}
-  },
-  {
     "title": "한국·중국 LNG선 수주 경쟁 막판 변수",
     "url": "https://v.daum.net/v/b1nb1RfzYO",
     "category": "general",
@@ -4362,6 +4346,29 @@
         "sector": "internet-platform"
       }
     ]
+  },
+  {
+    "title": "네이버, 매출 성장에도 비용 증가로 상반기 영업이익률 하락",
+    "url": "https://v.daum.net/v/20260930060030628",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-01",
+    "sourceNote": "2026-10-02-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "네이버의 2026년 상반기 매출은 16.3% 증가했지만 영업비용이 더 빠르게 늘면서 영업이익률은 18.0%에서 16.0%로 낮아졌다. 인프라 투자와 사업결합에 따른 현금 유출도 확대됐다.",
+    "companies": [
+      {
+        "id": "naver",
+        "label": "네이버",
+        "ticker": "035420",
+        "sector": "internet-platform"
+      }
+    ],
+    "captureRepair": {}
   },
   {
     "title": "네이버, AI팩토리 가동 시 연 20조원 신규 매출 전망",
