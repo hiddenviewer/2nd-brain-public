@@ -5698,6 +5698,35 @@
     ]
   },
   {
+    "title": "알래스카 LNG 프로젝트 테마주 분석: 실제 수혜와 단순 기대감의 구분",
+    "url": "https://m.blog.naver.com/PostView.naver?blogId=pokara61&logNo=224427472647&proxyReferer=https%3A%2F%2Fwww.google.com%2F&trackingCode=external",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-01",
+    "sourceNote": "2026-10-02-lng",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "알래스카 LNG 프로젝트(총 사업비 약 445억~545억 달러) 기대감으로 강관 및 조선 관련주가 급등했으나, 실제 사업 연결고리가 확인된 포스코인터내셔널과 달리 대다수 강관주(KBI동양철관, 하이스틸 등)는 확정 수주가 없는 상태입니다. 최종투자결정(FID) 및 실질 발주 내역을 확인한 신중한 접근이 요구됩니다.",
+    "companies": [
+      {
+        "id": "hanwha-engine",
+        "label": "한화엔진",
+        "ticker": "082740",
+        "sector": "ship-engine"
+      },
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "앤트로픽 IPO 관련 기사 본문 확인 제한",
     "url": "https://www.hankyung.com/article/202609082356i",
     "category": "investing",
