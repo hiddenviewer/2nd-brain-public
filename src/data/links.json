@@ -4234,22 +4234,6 @@
     "captureRepair": {}
   },
   {
-    "title": "낙월해상풍력 완공 임박…국내 해상풍력 설비 두 배 확대 전망",
-    "url": "https://www.sedaily.com/article/20097267",
-    "category": "investing",
-    "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-10-01",
-    "sourceNote": "2026-10-02-untitled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "전남 영광 낙월해상풍력이 공정률 97.5%로 막바지 공사에 들어갔다. 완공 시 364.8㎿가 추가돼 국내 누적 해상풍력 설비는 약 716.8㎿로 늘어날 전망이다.",
-    "companies": [],
-    "captureRepair": {}
-  },
-  {
     "title": "네이버-브룩필드, 1GW급 AI 팩토리 후속 논의",
     "url": "https://n.news.naver.com/mnews/article/293/0000090050",
     "category": "investing",
@@ -6574,6 +6558,22 @@
     ],
     "description": "한국경제 기사 요약 메모다. 도널드 트럼프 미국 대통령이 철강·알루미늄·구리 관련 일부 수입품 관세를 조정하는 포고문에 서명했고, 미국산 금속 사용 비중이 높은 설비와 일부 농기계·산업장비에 한시적 우대 관세를 적용한다는 내용을 다룬다.",
     "companies": []
+  },
+  {
+    "title": "포스코인터내셔널 등 종합상사, 자산 투자로 수익원 확대",
+    "url": "https://www.hankyung.com/article/2026093055081",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-01",
+    "sourceNote": "2026-10-02-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "한국경제 기사 소개에 따르면 종합상사들이 트레이딩 수익성 개선과 함께 미국 가스·광물·신재생에너지 자산 투자를 확대하고 있다. 기사 본문이 확보되지 않아 세부 내용은 확인되지 않았다.",
+    "companies": [],
+    "captureRepair": {}
   },
   {
     "title": "포스코홀딩스, 아르헨티나 리튬사업에 1조원 유동성 확보",
