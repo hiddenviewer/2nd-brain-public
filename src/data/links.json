@@ -8312,6 +8312,41 @@
     ]
   },
   {
+    "title": "LG전자 목표주가 29만원 제시…AI·로봇 중심 재평가",
+    "url": "https://www.hankyung.com/article/2026100291756",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-03",
+    "sourceNote": "2026-10-03-lg-29-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "한국경제 제목과 설명에 따르면 신한은 LG전자의 기업가치 평가 중심이 AI·로봇으로 이동한다며 목표주가를 29만원으로 상향했다. 본문이 확보되지 않아 세부 근거는 확인되지 않았다.",
+    "companies": [
+      {
+        "id": "dunamu",
+        "label": "두나무",
+        "ticker": "확인 필요",
+        "sector": "fintech-digital-assets"
+      },
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-electronics",
+        "label": "LG전자",
+        "ticker": "066570",
+        "sector": "electronics"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "LG전자, 가전·전장과 신사업 성장에 분기 매출 24조원 기대",
     "url": "https://v.daum.net/v/3MHKnl8Bj1",
     "category": "investing",
