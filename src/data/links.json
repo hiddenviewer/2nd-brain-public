@@ -304,6 +304,29 @@
     "companies": []
   },
   {
+    "title": "에이전트 코딩의 묵시록 4기사",
+    "url": "https://news.hada.io/topic?id=34713",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-10-04",
+    "sourceNote": "2026-10-04-4",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "에이전트 코딩은 뛰어난 생산성을 제공하지만, 슬롭·소외·숙련도 저하·팀 관계 약화라는 대가를 치르게 하며 개발자의 호기심, 장인정신, 동료 간 유대를 훼손할 수 있다는 비판적 고찰.",
+    "companies": [
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "에이전트 하네스 완전 해부",
     "url": "https://yozm.wishket.com/magazine/detail/3718/",
     "category": "ai",
@@ -761,6 +784,22 @@
     ],
     "description": "Yozm 기사 요약 메모다. 프롬프트만으로 AI 에이전트 행동을 통제하기 어렵다는 문제의식에서 출발해, hooks, 규칙 모듈화, 빌드타임 컴파일, AGENTS.md, 멀티모델 검토를 묶은 하네스 엔지니어링 전환을 설명한다.",
     "companies": []
+  },
+  {
+    "title": "하네스가 곧 회사다: AI 에이전트 시대의 기업 구조와 하네스 중심 전환",
+    "url": "https://news.hada.io/topic?id=34718",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-10-04",
+    "sourceNote": "2026-10-04-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI 에이전트가 개발·기획·영업 등 핵심 업무를 주도하게 되면서, 기업은 무상태 LLM에 업무 지식, 도구, 권한, 검토 체계를 제공하는 '하네스(Harness)'로 진화하고 인간은 에이전트 산출물을 검토·판단하는 안목 중심 조직으로 재편된다는 분석입니다.",
+    "companies": [],
+    "captureRepair": {}
   },
   {
     "title": "현대차, NVIDIA 협력과 Atria AI로 자율주행 격차 축소 추진",
