@@ -2291,6 +2291,22 @@
     "captureRepair": {}
   },
   {
+    "title": "https://www.chosun.com/economy/industry-company/2026/10/04/XPZFCZQVF5H57AIDULHQ2PSBZU/",
+    "url": "https://www.chosun.com/economy/industry-company/2026/10/04/XPZFCZQVF5H57AIDULHQ2PSBZU/",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-10-04",
+    "sourceNote": "2026-10-05-https-www-chosun-com-economy-industry-company-2026-10-04-xpzfczqvf5h57aidulhq2ps",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "에이전트가 JSON 형식 대신 일반 텍스트를 반환했습니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "Jev 사용 후기: 행동 선택을 위한 저비용 판단 모델",
     "url": "https://news.hada.io/topic?id=34115",
     "category": "ai",
