@@ -2268,6 +2268,22 @@
     "companies": []
   },
   {
+    "title": "http://m.g-enews.com/article/Global-Biz/2026/10/202610031136088018fbbec65dfb_1",
+    "url": "http://m.g-enews.com/article/Global-Biz/2026/10/202610031136088018fbbec65dfb_1",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-10-05",
+    "sourceNote": "2026-10-05-http-m-g-enews-com-article-global-biz-2026-10-202610031136088018fbbec65dfb-1",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "에이전트가 JSON 형식 대신 일반 텍스트를 반환했습니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "https://d2.naver.com/helloworld/8118359",
     "url": "https://d2.naver.com/helloworld/8118359",
     "category": "ai",
