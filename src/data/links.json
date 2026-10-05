@@ -8288,6 +8288,35 @@
     "captureRepair": {}
   },
   {
+    "title": "LG엔솔, EV 배터리 제품군 확대…출하량은 과제로",
+    "url": "https://v.daum.net/v/2ec25IV75x?f=p",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-05",
+    "sourceNote": "2026-10-05-lg-ev",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LG에너지솔루션이 중저가 파우치형과 46시리즈 원통형 배터리 출하를 늘리며 제품군 다변화에 속도를 내고 있으나, 지역별 수요 편차 속에서 대규모 수주를 안정적인 실생산과 출하로 연결해야 하는 과제를 안고 있습니다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-energy-solution",
+        "label": "LG에너지솔루션",
+        "ticker": "373220",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "LG엔솔·LS일렉트릭·LS전선...AI 인프라 뛰어드는 K기업",
     "url": "https://v.daum.net/v/2de2kCfzTz",
     "category": "investing",
