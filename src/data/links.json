@@ -4769,6 +4769,29 @@
     ]
   },
   {
+    "title": "동해시, GS그룹 첫 100MW급 AI데이터센터 건축허가 완료",
+    "url": "https://n.news.naver.com/article/056/0012267265",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-06",
+    "sourceNote": "2026-10-06-gs-100mw-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "동해시가 GS그룹 AI데이터센터 캠퍼스의 1단계 시설 건축을 허가했다. 시는 주요 절차를 거쳐 기사 기준 올해 안에 착공할 것으로 전망했다.",
+    "companies": [
+      {
+        "id": "goldman-sachs",
+        "label": "Goldman Sachs",
+        "ticker": "GS",
+        "sector": "global investment banking"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "두산, AI 속도조절론에도 반도체 소재에 3.5조원 베팅",
     "url": "https://n.news.naver.com/mnews/article/016/0002699138",
     "category": "investing",
