@@ -2385,6 +2385,35 @@
     "captureRepair": {}
   },
   {
+    "title": "LG전자, 북미 5GW 규모 AI 데이터센터 냉각 솔루션 공급 계약",
+    "url": "https://www.thelec.kr/news/articleView.html?idxno=63272",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-10-06",
+    "sourceNote": "2026-10-07-lg-5gw-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LG전자가 에어컨트롤콘셉트와 장기 공급 본계약을 체결하고 미국·캐나다 AI 데이터센터에 칠러 등 냉각 솔루션을 순차 공급한다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-electronics",
+        "label": "LG전자",
+        "ticker": "066570",
+        "sector": "electronics"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "LG전자, 브라질 新공장 가동…글로벌사우스 공략 강화",
     "url": "https://naver.me/xTy5QkqP",
     "category": "ai",
@@ -3202,6 +3231,22 @@
     "companies": []
   },
   {
+    "title": "540억원 투입한 국산 해상풍력 터빈, 낙찰 사업 채택은 19개 중 7개",
+    "url": "https://v.daum.net/v/20261006085113713",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-10-06",
+    "sourceNote": "2026-10-07-540-19-7",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "국내 저풍속 환경에 맞춘 8MW급 터빈 개발에 약 540억원을 투입했지만, 2022~2026년 선정된 해상풍력 사업 19개 중 12개는 외산 또는 외산 기반 국내 조립 터빈을 채택했다. 기사는 초대형화 정책의 경제성과 국내 산업 육성 효과를 재검토해야 한다고 지적한다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "낙월해상풍력 준공 임박…364.8MW 규모와 사업성 확보 과제",
     "url": "https://v.daum.net/v/KDs8NWMV3O",
     "category": "general",
@@ -3522,6 +3567,22 @@
         "sector": "풍력발전기, 해상풍력 터빈"
       }
     ],
+    "captureRepair": {}
+  },
+  {
+    "title": "정부 용적률 완화·서울시 그린벨트 해제로 주택 공급 확대 모색",
+    "url": "https://www.hankyung.com/article/2026100663691",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-10-06",
+    "sourceNote": "2026-10-07-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "정부와 서울시가 용적률 완화와 그린벨트 해제를 통해 주택 공급 확대를 모색한다는 기사다. 본문이 없어 세부 내용은 확인되지 않았다.",
+    "companies": [],
     "captureRepair": {}
   },
   {
