@@ -3775,6 +3775,22 @@
     "captureRepair": {}
   },
   {
+    "title": "호주 철강 관세 권고에 따른 한국 수출업체 영향",
+    "url": "http://m.g-enews.com/article/Global-Biz/2026/10/202610071427509560fbbec65dfb_1",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-10-07",
+    "sourceNote": "2026-10-08-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "제공된 기사 설명에 따르면 호주 반덤핑위원회는 한국·중국산 평판 압연 철강에 반덤핑·상계관세 부과를 권고했다. 제목은 포스코의 상대적 수혜를 시사하지만 구체적인 근거는 확인하지 못했다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "Cloudflare, 모든 요금제에 Vary 기반 캐시 지원 추가",
     "url": "https://news.hada.io/topic?id=34282",
     "category": "general",
@@ -6035,6 +6051,35 @@
     "captureRepair": {}
   },
   {
+    "title": "에코프로비엠·삼성SDI, 전고체 배터리 소재 협력으로 2027년 상용화 추진",
+    "url": "https://www.ddaily.co.kr/page/view/2026100610221788926",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-07",
+    "sourceNote": "2026-10-08-sdi-2027",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "에코프로비엠과 삼성SDI가 황화물계 전고체 배터리 소재 개발 MOU를 체결하고, 2027년 상용화를 목표로 연구개발과 양산 준비를 추진한다.",
+    "companies": [
+      {
+        "id": "ecopro-bm",
+        "label": "에코프로비엠",
+        "ticker": "247540",
+        "sector": "battery materials"
+      },
+      {
+        "id": "samsung-sdi",
+        "label": "삼성SDI",
+        "ticker": "006400",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "에코프로에이치엔, 삼성E&A에 330억원 규모 RCS 공급",
     "url": "https://n.news.naver.com/article/014/0005553654",
     "category": "investing",
@@ -6791,6 +6836,29 @@
     ],
     "description": "한국경제 기사 요약 메모다. 도널드 트럼프 미국 대통령이 철강·알루미늄·구리 관련 일부 수입품 관세를 조정하는 포고문에 서명했고, 미국산 금속 사용 비중이 높은 설비와 일부 농기계·산업장비에 한시적 우대 관세를 적용한다는 내용을 다룬다.",
     "companies": []
+  },
+  {
+    "title": "포스코, 아르헨티나 리튬 2공장 준공…연산 4만8000t 능력 확보",
+    "url": "https://www.chosun.com/economy/industry-company/2026/10/07/LDOUPGGVNFDTDLTFZHW4N3LLHM/",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-07",
+    "sourceNote": "2026-10-08-2-4-8000t",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "포스코홀딩스가 아르헨티나 염수리튬 2공장을 준공해 현지 생산 능력을 연 4만8000t으로 확대했다. 생산 원료는 국내에서 수산화리튬으로 정제된다.",
+    "companies": [
+      {
+        "id": "posco-holdings",
+        "label": "POSCO홀딩스",
+        "ticker": "005490",
+        "sector": "steel"
+      }
+    ],
+    "captureRepair": {}
   },
   {
     "title": "포스코홀딩스, 아르헨티나 리튬사업에 1조원 유동성 확보",
@@ -8767,6 +8835,29 @@
         "label": "SK온",
         "ticker": "비상장",
         "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
+    "title": "SK이노베이션, 제품 마진 강세에 목표주가 상향",
+    "url": "https://www.asiae.co.kr/article/2026100616175203875",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-07",
+    "sourceNote": "2026-10-08-sk",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "유진투자증권은 제품 마진 강세와 실적 전망 개선을 반영해 SK이노베이션 목표주가를 17만5000원으로 높이고 매수 의견을 유지했다.",
+    "companies": [
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
       }
     ],
     "captureRepair": {}
