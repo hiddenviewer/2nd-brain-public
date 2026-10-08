@@ -3680,6 +3680,22 @@
     "companies": []
   },
   {
+    "title": "포스코, K-GX 참여…수소환원제철과 저탄소 철강 생태계 추진",
+    "url": "https://m.ekn.kr/view.php?key=20261008022213629",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-10-08",
+    "sourceNote": "2026-10-08-k-gx",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "포스코는 HyREX 기반 철강 탈탄소화를 추진하며, 경제적인 청정에너지 공급과 저탄소 철강의 추가 비용을 인정하는 시장 조성을 정부에 제안했다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "한국·중국 LNG선 수주 경쟁 막판 변수",
     "url": "https://v.daum.net/v/b1nb1RfzYO",
     "category": "general",
@@ -3772,22 +3788,6 @@
         "sector": "holding-company"
       }
     ],
-    "captureRepair": {}
-  },
-  {
-    "title": "호주 철강 관세 권고에 따른 한국 수출업체 영향",
-    "url": "http://m.g-enews.com/article/Global-Biz/2026/10/202610071427509560fbbec65dfb_1",
-    "category": "general",
-    "categoryLabel": "기타",
-    "status": "pending",
-    "updated": "2026-10-07",
-    "sourceNote": "2026-10-08-untitled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "제공된 기사 설명에 따르면 호주 반덤핑위원회는 한국·중국산 평판 압연 철강에 반덤핑·상계관세 부과를 권고했다. 제목은 포스코의 상대적 수혜를 시사하지만 구체적인 근거는 확인하지 못했다.",
-    "companies": [],
     "captureRepair": {}
   },
   {
@@ -5994,6 +5994,29 @@
         "label": "Goldman Sachs",
         "ticker": "GS",
         "sector": "global investment banking"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
+    "title": "에코프로비엠 헝가리 공장 생산 중단…장기화 시 손실 우려",
+    "url": "https://www.imaeil.com/page/view/2026100616535751595",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-08",
+    "sourceNote": "2026-10-08-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "매일신문에 따르면 1조5천억원을 투자한 에코프로비엠 헝가리 공장이 안전·환경 관련 지적으로 양산 4개월 만에 생산 중단 처분을 받았다. 연말까지 중단이 이어지면 운영 손실이 700억원을 넘을 것으로 추정된다.",
+    "companies": [
+      {
+        "id": "ecopro-bm",
+        "label": "에코프로비엠",
+        "ticker": "247540",
+        "sector": "battery materials"
       }
     ],
     "captureRepair": {}
