@@ -3959,6 +3959,29 @@
     "captureRepair": {}
   },
   {
+    "title": "SK이노 E&S, 주차 솔루션 아이파킹 매각 추진",
+    "url": "https://www.hankyung.com/article/2026100817641",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-10-08",
+    "sourceNote": "2026-10-08-sk-e-s",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "한국경제 기사 제목과 설명에 따르면 SK이노 E&S가 아이파킹 매각을 추진하며, 홍콩계 앵커EP가 인수 후보로 거론된다. 최대 4000억원대 가격이 논의되는 것으로 소개됐다.",
+    "companies": [
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "WikiDocs 376847 접근 불가 메모",
     "url": "https://wikidocs.net/376847",
     "category": "general",
