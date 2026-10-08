@@ -279,6 +279,29 @@
     "captureRepair": {}
   },
   {
+    "title": "앤트로픽, API 비용 최대 90% 인하한 'Claude Haiku 5.5' 공개",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=216044",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-10-08",
+    "sourceNote": "2026-10-08-api-90-claude-haiku-5-5",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "앤트로픽이 전작 대비 API 가격을 최대 90% 낮추고 컨텍스트 창을 100만 토큰으로 확대한 경량 고성능 모델 'Claude Haiku 5.5'를 출시했습니다.",
+    "companies": [
+      {
+        "id": "goldman-sachs",
+        "label": "Goldman Sachs",
+        "ticker": "GS",
+        "sector": "global investment banking"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "에르메스 에이전트(Hermes Agent)로 AI 업무 자동화와 나만의 AI 팀 운영을 다루는 실전 가이드",
     "url": "https://wikidocs.net/book/19686",
     "category": "ai",
@@ -394,6 +417,22 @@
         "sector": "batteries"
       }
     ],
+    "captureRepair": {}
+  },
+  {
+    "title": "여러 팀의 시스템을 이해하기 위한 AI 집단 지성 구축하기",
+    "url": "https://news.hada.io/topic?id=34920",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-10-08",
+    "sourceNote": "2026-10-08-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "SumUp에서 수십 개 서비스와 66개 저장소에 걸친 대규모 시스템 맥락을 파악하기 위해, 기술 스택이 아닌 비즈니스 도메인 단위로 AGENTS.md를 구성하고 주 에이전트·하위 에이전트 협업 및 주간 맥락 갱신 파이프라인을 구축한 사례입니다.",
+    "companies": [],
     "captureRepair": {}
   },
   {
