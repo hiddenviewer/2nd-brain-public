@@ -215,6 +215,22 @@
     "captureRepair": {}
   },
   {
+    "title": "소프트웨어 개발자들은 괜찮지 않다",
+    "url": "https://news.hada.io/topic?id=34974",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-10-08",
+    "sourceNote": "2026-10-08-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI 도입으로 인해 코딩의 즐거움과 몰입감이 사라지고, 불완전한 AI 산출물을 수습하며 인력 감축 압박을 받는 소프트웨어 개발자들의 소외감과 정체성 위기를 다룹니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "실전 루프 엔지니어링 요약",
     "url": "https://news.hada.io/topic?id=32519",
     "category": "ai",
@@ -6017,29 +6033,6 @@
         "label": "Goldman Sachs",
         "ticker": "GS",
         "sector": "global investment banking"
-      }
-    ],
-    "captureRepair": {}
-  },
-  {
-    "title": "에코프로비엠 헝가리 공장 생산 중단…장기화 시 손실 우려",
-    "url": "https://www.imaeil.com/page/view/2026100616535751595",
-    "category": "investing",
-    "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-10-08",
-    "sourceNote": "2026-10-08-untitled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "매일신문에 따르면 1조5천억원을 투자한 에코프로비엠 헝가리 공장이 안전·환경 관련 지적으로 양산 4개월 만에 생산 중단 처분을 받았다. 연말까지 중단이 이어지면 운영 손실이 700억원을 넘을 것으로 추정된다.",
-    "companies": [
-      {
-        "id": "ecopro-bm",
-        "label": "에코프로비엠",
-        "ticker": "247540",
-        "sector": "battery materials"
       }
     ],
     "captureRepair": {}
