@@ -2394,6 +2394,22 @@
     "captureRepair": {}
   },
   {
+    "title": "K-GX, 재생에너지 100GW 확대와 에너지 공급망 육성 추진",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=373158",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-10-09",
+    "sourceNote": "2026-10-09-k-gx-100gw",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "정부는 K-GX 전략으로 2030년 재생에너지 100GW를 목표로 전력시장·전력망을 개편하고 태양광·풍력·SMR·HVDC·ESS 산업의 국내 생산과 수출 기반을 확대할 계획이다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "Karpathy 관찰을 바탕으로 Claude Code의 동작을 개선하는 단일 CLAUDE.md 가이드 소개",
     "url": "https://discuss.pytorch.kr/t/karpathy-inspired-claude-code-guidelines-andrej-karpathy-llm-claude-code/9912",
     "category": "ai",
