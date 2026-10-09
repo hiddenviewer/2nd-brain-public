@@ -5699,6 +5699,35 @@
     ]
   },
   {
+    "title": "삼성증권, LG전자 AI 신사업 성장 기대에 목표주가 상향",
+    "url": "http://m.g-enews.com/article/Securities/2026/10/20261008084929713044093b5d4e_1",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-09",
+    "sourceNote": "2026-10-09-lg-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "제공된 기사 설명에 따르면 삼성증권은 LG전자의 AI 데이터센터 냉각솔루션 등 신사업 성장성을 근거로 목표주가를 21만원에서 25만원으로 높이고 매수 의견을 유지했다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-electronics",
+        "label": "LG전자",
+        "ticker": "066570",
+        "sector": "electronics"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "삼성D, 8.6세대 OLED 2라인에 LTPO 장비 도입 추진",
     "url": "https://www.etnews.com/20260507000143",
     "category": "investing",
