@@ -6334,6 +6334,29 @@
     "companies": []
   },
   {
+    "title": "유니슨, K-GX 해상풍력 공급망 참여…국산 대형터빈 실증 기회 요청",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=373224",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-09",
+    "sourceNote": "2026-10-09-k-gx",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "유니슨이 K-GX 해상풍력 공급망 구축에 참여하며 국산 대형터빈의 실증과 초기 운영실적 확보를 위한 지원을 요청했다.",
+    "companies": [
+      {
+        "id": "unison",
+        "label": "유니슨",
+        "ticker": "018000",
+        "sector": "풍력발전기, 해상풍력 터빈"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "유안타증권, 순익 4배에도 4000원대…모회사 닷새째 '매집'",
     "url": "https://naver.me/xCjdsLhe",
     "category": "investing",
