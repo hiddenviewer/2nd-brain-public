@@ -3481,6 +3481,45 @@
     "captureRepair": {}
   },
   {
+    "title": "매일경제 기사 확인 실패",
+    "url": "https://m.mk.co.kr/news/business/12170754",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "review",
+    "updated": "2026-10-09",
+    "sourceNote": "2026-10-09-untitled",
+    "tags": [
+      "inbox",
+      "article",
+      "inaccessible"
+    ],
+    "description": "기사 본문에 접근하지 못해 내용을 요약할 수 없습니다.",
+    "companies": [],
+    "captureRepair": {
+      "status": "manual_review",
+      "reason": "empty_extraction",
+      "retry_attempted": true,
+      "retry_method": "curl-alt",
+      "retry_result": "failed",
+      "last_attempt_at": "2026-10-09T12:04:25.733201+00:00",
+      "operator_note": "원문 사전 추출 실패: HTML에서 제목/본문을 찾지 못했습니다.",
+      "attempts": [
+        {
+          "method": "curl",
+          "ok": false,
+          "reason": "empty_extraction",
+          "detail": "원문 사전 추출 실패: HTML에서 제목/본문을 찾지 못했습니다."
+        },
+        {
+          "method": "curl-alt",
+          "ok": false,
+          "reason": "empty_extraction",
+          "detail": "원문 사전 추출 실패: HTML에서 제목/본문을 찾지 못했습니다."
+        }
+      ]
+    }
+  },
+  {
     "title": "美, 포스코 후판 상계관세 예비세율 1.14%로 인하",
     "url": "https://www.dailian.co.kr/news/view/1675773/%EB%8B%A8%EB%8F%85-%E7%BE%8E-%ED%8F%AC%EC%8A%A4%EC%BD%94-%ED%9B%84%ED%8C%90-%EC%83%81%EA%B3%84%EA%B4%80%EC%84%B8-1%EB%8C%80%EB%A1%9C-2026",
     "category": "general",
@@ -4513,22 +4552,6 @@
         "sector": "industrial-automation"
       }
     ]
-  },
-  {
-    "title": "국민연금, 소부장·증권 비중 줄이고 건설·보험 확대",
-    "url": "https://n.news.naver.com/article/011/0004668705",
-    "category": "investing",
-    "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-10-09",
-    "sourceNote": "2026-10-09-untitled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "국민연금은 3분기 소부장·증권주 지분을 줄이고 수익성 및 운용 수익 개선이 기대되는 건설·보험주 지분을 늘렸다.",
-    "companies": [],
-    "captureRepair": {}
   },
   {
     "title": "국민참여성장펀드 2차 판매 예고",
@@ -7897,6 +7920,22 @@
         "sector": "semiconductors"
       }
     ]
+  },
+  {
+    "title": "BOE, 디스플레이 기반으로 IoT·센싱·의료 사업 확장",
+    "url": "https://www.newspim.com/news/view/20261008001092",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-09",
+    "sourceNote": "2026-10-09-boe-iot",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "BOE는 ‘1+4+N+생태계’ 전략으로 디스플레이 기술을 다양한 IoT 사업에 연결하고 있다. 다만 2026년 상반기 매출의 79.27%가 디스플레이에서 발생해 기존 사업 의존도는 여전히 높다.",
+    "companies": [],
+    "captureRepair": {}
   },
   {
     "title": "ESS 수주 확대가 국내 LFP 양극재 수요로 확산",
