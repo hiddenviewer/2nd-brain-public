@@ -2256,6 +2256,22 @@
     "captureRepair": {}
   },
   {
+    "title": "GPT‑6와 Intelligent UI, ChatGPT 사용자에게 순차 제공",
+    "url": "https://openai.com/ko-KR/index/gpt-6-for-everyone/",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-10-09",
+    "sourceNote": "2026-10-09-gpt-6-intelligent-ui-chatgpt",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "OpenAI는 질문에 맞는 시각 자료와 인터랙티브 도구를 생성하는 Intelligent UI를 GPT‑6에 도입하고, ChatGPT 요금제별로 순차 제공한다고 발표했습니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "Harness Engineering",
     "url": "https://youtu.be/5buNm0pA1mg?si=UGge7fBDEYt00iHj",
     "category": "ai",
@@ -8990,6 +9006,29 @@
         "label": "SK온",
         "ticker": "비상장",
         "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
+    "title": "SK이노베이션, 바로사 LNG 이익 기대로 목표주가 20% 상향",
+    "url": "https://www.mt.co.kr/stock/2026/10/08/2026100808574781118",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-09",
+    "sourceNote": "2026-10-09-sk-lng-20",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "신한투자증권은 바로사 LNG 도입에 따른 E&S 이익 확대와 정유·윤활유 호조를 반영해 SK이노베이션 목표주가를 24만원으로 높이고 매수 의견을 유지했다.",
+    "companies": [
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
       }
     ],
     "captureRepair": {}
