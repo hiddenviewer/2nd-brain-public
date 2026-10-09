@@ -6222,6 +6222,29 @@
     "captureRepair": {}
   },
   {
+    "title": "에코프로비엠, 9000억원 유상증자와 단기채무 부담의 엇갈림",
+    "url": "https://www.goodkyung.com/news/articleView.html?idxno=292138",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-09",
+    "sourceNote": "2026-10-10-9000",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "에코프로비엠이 약 9000억원의 유상증자 자금 대부분을 해외 니켈 제련소에 투자한다. 기사는 약 2조원의 단기채무와 투자 확대 사이의 유동성 부담을 지적하며 회사의 차입금 연장·사업 성장 계획을 함께 전한다.",
+    "companies": [
+      {
+        "id": "ecopro-bm",
+        "label": "에코프로비엠",
+        "ticker": "247540",
+        "sector": "battery materials"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "에코프로비엠, 삼성SDI 통해 독일 전기차 양극재 공급 확대 추진",
     "url": "https://www.thelec.kr/news/articleView.html?idxno=62926",
     "category": "investing",
