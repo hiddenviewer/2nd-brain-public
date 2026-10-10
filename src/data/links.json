@@ -3249,6 +3249,22 @@
     "captureRepair": {}
   },
   {
+    "title": "Python 3.15 정식 출시: 지연 임포트, 불변 딕셔너리, UTF-8 기본 인코딩 도입",
+    "url": "https://news.hada.io/topic?id=35085",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-10-10",
+    "sourceNote": "2026-10-10-python-3-15-utf-8",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Python 3.15.0 안정판이 정식 출시되어 UTF-8 기본 인코딩, 모듈 로딩을 늦춰 시작 시간을 줄이는 지연 임포트(Lazy Import), 내장 frozendict 및 sentinel 타입, 컴프리헨션 언패킹 등이 도입되었으며, 벤치마크 기준 7~12% 성능 향상과 자유 스레딩용 abi3t ABI가 추가되었습니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "Warp Agent CLI: 다양한 터미널 환경을 지원하는 독립형 AI 코딩 에이전트",
     "url": "https://news.hada.io/topic?id=32177",
     "category": "apple",
