@@ -7479,6 +7479,29 @@
     "captureRepair": {}
   },
   {
+    "title": "한화엔진, 3분기 비용 부담 속 2027년 성장 전망",
+    "url": "https://www.ilovepc.co.kr/news/articleView.html?idxno=60897",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-10",
+    "sourceNote": "2026-10-10-3-2027",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "한국투자증권은 한화엔진이 고가 저속엔진 출하 확대와 중속엔진 공장 가동으로 2027년 영업이익을 두 배 이상 늘릴 것으로 전망했다. 다만 단기 비용 부담과 업종 밸류에이션 하락을 반영해 목표주가를 낮췄다.",
+    "companies": [
+      {
+        "id": "hanwha-engine",
+        "label": "한화엔진",
+        "ticker": "082740",
+        "sector": "ship-engine"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "한화엔진과 HD현대마린엔진, 상반기 선박엔진 수주 급증",
     "url": "https://biz.chosun.com/industry/company/2026/07/25/6LDXTSWPGVBGBGHV6XBQMJMKGI/",
     "category": "investing",
@@ -8197,6 +8220,29 @@
         "sector": "semiconductors"
       }
     ]
+  },
+  {
+    "title": "HD현대마린솔루션, 골텐스 인수 계약으로 엔진 정비·발전사업 강화",
+    "url": "https://www.seoul.co.kr/news/economy/industry/2026/10/08/20261008500256",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-10",
+    "sourceNote": "2026-10-10-hd",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "HD현대마린솔루션이 약 3315억원에 골텐스 지분 100%를 인수하는 계약을 체결했다. 글로벌 정비망과 멀티 브랜드 엔진 정비 역량을 확보해 애프터마켓과 육상 발전사업을 강화할 계획이다.",
+    "companies": [
+      {
+        "id": "hims",
+        "label": "힘스",
+        "ticker": "238490",
+        "sector": "display-equipment"
+      }
+    ],
+    "captureRepair": {}
   },
   {
     "title": "HD현대의 독자 엔진이 AI 데이터센터 시장 선점의 무기가 됐다",
