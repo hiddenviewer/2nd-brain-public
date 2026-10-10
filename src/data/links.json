@@ -6441,6 +6441,22 @@
     "companies": []
   },
   {
+    "title": "원유 공급 회복에도 석유제품 부족 지속… 정유사 실적 개선 전망",
+    "url": "https://biz.chosun.com/industry/company/2026/10/10/DB3FR5YXBRFHLE6B7AJLSGF7EQ/",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-10",
+    "sourceNote": "2026-10-11-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "기사에 따르면 중동 원유 공급은 셔틀 운항으로 회복되고 있지만, 재고 고갈과 정제 능력 부족으로 석유제품 공급난과 높은 정제마진은 지속될 전망이다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "유니슨, K-GX 해상풍력 공급망 참여…국산 대형터빈 실증 기회 요청",
     "url": "https://www.electimes.com/news/articleView.html?idxno=373224",
     "category": "investing",
@@ -7843,6 +7859,35 @@
     ],
     "description": "디일렉은 GPU·HBM 공급 확대 이후의 핵심 병목으로 OSAT, 패키징, 테스트, 검사 공정을 지목하며 관련 콘퍼런스를 예고했다.",
     "companies": [],
+    "captureRepair": {}
+  },
+  {
+    "title": "AI 부품·전력기기 확보 경쟁에 장기공급계약 확대",
+    "url": "https://www.hankyung.com/article/2026100929011",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-10",
+    "sourceNote": "2026-10-11-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI 데이터센터 투자로 메모리뿐 아니라 부품·전력기기 확보 경쟁이 커지며 장기공급계약이 확대되고 있다. 공급사의 협상력이 높아졌지만 수요 둔화 시 재협상 위험도 있다.",
+    "companies": [
+      {
+        "id": "samsung-electro-mechanics",
+        "label": "삼성전기",
+        "ticker": "009150",
+        "sector": "electronic-components"
+      },
+      {
+        "id": "samsung-electronics",
+        "label": "삼성전자",
+        "ticker": "005930",
+        "sector": "semiconductors"
+      }
+    ],
     "captureRepair": {}
   },
   {
