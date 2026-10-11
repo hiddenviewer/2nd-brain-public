@@ -2419,6 +2419,41 @@
     "companies": []
   },
   {
+    "title": "HBF로 확장되는 AI 메모리 경쟁",
+    "url": "https://m.mk.co.kr/news/business/12171311",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-10-11",
+    "sourceNote": "2026-10-12-hbf-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI 추론의 용량·비용 부담을 줄일 HBF가 HBM의 보완재로 부상하며 낸드 업체들의 경쟁이 확대되고 있다.",
+    "companies": [
+      {
+        "id": "samsung-electronics",
+        "label": "삼성전자",
+        "ticker": "005930",
+        "sector": "semiconductors"
+      },
+      {
+        "id": "sk-hynix",
+        "label": "SK하이닉스",
+        "ticker": "000660",
+        "sector": "semiconductors"
+      },
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "http://m.g-enews.com/article/Global-Biz/2026/10/202610031136088018fbbec65dfb_1",
     "url": "http://m.g-enews.com/article/Global-Biz/2026/10/202610031136088018fbbec65dfb_1",
     "category": "ai",
