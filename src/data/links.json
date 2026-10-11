@@ -2488,6 +2488,35 @@
     "captureRepair": {}
   },
   {
+    "title": "LG전자, 가전 데이터 접근권한을 토큰으로 관리하는 거래 기술 추진",
+    "url": "https://www.bonmedia.kr/news/articleView.html?idxno=8622",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-10-11",
+    "sourceNote": "2026-10-11-lg",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LG전자가 가전 이용 데이터를 선별 등록하고 접근권한을 토큰으로 통제하는 블록체인 기술을 특허 출원했다. 데이터 거래와 보상 모델의 가능성을 제시하지만 실제 서비스 도입은 확인되지 않았다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-electronics",
+        "label": "LG전자",
+        "ticker": "066570",
+        "sector": "electronics"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "LG전자, 북미 5GW 규모 AI 데이터센터 냉각 솔루션 공급 계약",
     "url": "https://www.thelec.kr/news/articleView.html?idxno=63272",
     "category": "ai",
@@ -3725,6 +3754,22 @@
         "sector": "풍력발전기, 해상풍력 터빈"
       }
     ],
+    "captureRepair": {}
+  },
+  {
+    "title": "유럽 LNG 확보 경쟁, 한국 물량 확보의 변수",
+    "url": "https://www.businesspost.co.kr/BP?command=article_view&num=448545",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-10-11",
+    "sourceNote": "2026-10-11-lng",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "제공된 제목은 유럽의 낮은 가스 재고와 LNG 확보 경쟁이 한국의 물량 확보에 변수로 작용한다는 내용을 담고 있다. 본문은 확인하지 못했다.",
+    "companies": [],
     "captureRepair": {}
   },
   {
@@ -9079,35 +9124,6 @@
       "article"
     ],
     "description": "LG전자가 미국 버지니아주에 공랭식 칠러 공장을 짓고 국내 생산라인을 확대해 북미 AI 데이터센터 냉각 수요에 대응한다. 총투자액은 1500억원이다.",
-    "companies": [
-      {
-        "id": "lg-corp",
-        "label": "LG",
-        "ticker": "003550",
-        "sector": "holding-company"
-      },
-      {
-        "id": "lg-electronics",
-        "label": "LG전자",
-        "ticker": "066570",
-        "sector": "electronics"
-      }
-    ],
-    "captureRepair": {}
-  },
-  {
-    "title": "LG전자, 보쉬 공급 논의하며 차량용 칩렛 반도체 개발 추진",
-    "url": "https://www.mk.co.kr/news/business/12172466",
-    "category": "investing",
-    "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-10-10",
-    "sourceNote": "2026-10-11-lg",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "LG전자가 보스반도체·하나마이크론과 차량용 칩렛 SoC 개발에 참여하고, 보쉬의 사용을 논의하고 있다. 전장사업과의 시너지가 기대되지만 개발과 고객 확보는 아직 초기 단계다.",
     "companies": [
       {
         "id": "lg-corp",
