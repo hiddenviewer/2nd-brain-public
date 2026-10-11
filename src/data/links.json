@@ -103,6 +103,22 @@
     "companies": []
   },
   {
+    "title": "두산, AI 데이터센터 전력 공급망으로 사업 확대",
+    "url": "https://www.hankyung.com/article/2026101139881",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-10-11",
+    "sourceNote": "2026-10-12-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "두산이 가스터빈과 원자로 소재, SMR 생산시설을 통해 AI 데이터센터의 에너지 수요에 대응한다는 기사다. 본문이 확보되지 않아 제목과 설명에 기반해 요약했다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "루프 엔지니어링 - 에이전트를 프롬프트하는 시스템을 설계하기",
     "url": "https://news.hada.io/topic?id=30336",
     "category": "ai",
@@ -1002,6 +1018,22 @@
     "captureRepair": {}
   },
   {
+    "title": "AI 에이전트 확산으로 인한 인터넷 트래픽 급증과 CDN 인프라 기업의 급성장",
+    "url": "https://biz.chosun.com/it-science/ict/2026/10/11/QNDXTMB23VCDXOSDMW7RXVIOWA/",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-10-11",
+    "sourceNote": "2026-10-12-ai-cdn",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI 에이전트와 봇 활동 증가로 인터넷 트래픽이 폭증하면서 웹 응답 지연을 줄이고 안정성을 확보해 주는 Cloudflare, Fastly, Akamai 등 CDN 인프라 기업들의 주가와 시장 수요가 급상승하고 있습니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "AI 엔지니어링의 새 기준으로 떠오른 하네스",
     "url": "https://www.aitimes.com/news/articleView.html?idxno=209151",
     "category": "ai",
@@ -1856,6 +1888,22 @@
     ],
     "description": "Superseded in part by [[2026-04-17-anthropic-claude-opus-4-7|Anthropic의 Claude Opus 4.7 정식 출시 메모]] and [[2026-04-18-claude-design|Claude Design 연구 프리뷰 공개 메모]]. 이 문서는 출시 전 관측과 시장 기대를 기록한 메모로 남겨 둔다. AI타임스 보도를 요약한 링크 메모다. A",
     "companies": []
+  },
+  {
+    "title": "Claude Opus 5.5 vs GPT-6 Luna 비교: 벤치마크, 가격, 속도 분석",
+    "url": "https://www.orcarouter.ai/ko/compare/claude-opus-5.5-vs-gpt-6-luna",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-10-11",
+    "sourceNote": "2026-10-12-claude-opus-5-5-vs-gpt-6-luna",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "OrcaRouter의 비교 데이터에 따르면 GPT-6 Luna는 입력($0.10/1M)과 출력($0.50/1M) 비용이 압도적으로 저렴하고 p50 지연 시간(1,512ms)이 짧은 반면, Claude Opus 5.5는 고비용($4.00 및 $20.00/1M)이지만 종합 벤치마크 품질 지수에서 앞섭니다. 두 모델 모두 1M 컨텍스트 윈도우를 지원하며, 일반 워크로드는 GPT-6 Luna로 처리하고 고난도 작업에는 Claude Opus 5.5를 사용하는 계층화 라우팅이 권장됩니다.",
+    "companies": [],
+    "captureRepair": {}
   },
   {
     "title": "Claude Skills로 자연스러운 고품질 PPT를 만드는 방법",
@@ -3473,6 +3521,29 @@
     "captureRepair": {}
   },
   {
+    "title": "네이버, 비용 혜택으로 N배송 판매자의 FBN 전환 확대",
+    "url": "https://www.etnews.com/20261008000146",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-10-11",
+    "sourceNote": "2026-10-12-n-fbn",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "네이버가 FBN 전환 시 위약금 부담을 없애고 보관비·배송비 혜택, 가입 절차 간소화, 반품 처리 지원을 제공하며 직접 관리하는 물류 생태계를 확대한다.",
+    "companies": [
+      {
+        "id": "naver",
+        "label": "네이버",
+        "ticker": "035420",
+        "sector": "internet-platform"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "네이버, 사우디서 MOU 8건으로 지도 기반 슈퍼앱 확장",
     "url": "https://www.etnews.com/20260903000050",
     "category": "general",
@@ -3915,6 +3986,22 @@
     "companies": []
   },
   {
+    "title": "포스코, 철강·리튬·에너지 중심의 성장 전략 추진",
+    "url": "https://www.hankyung.com/article/2026101139801",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-10-11",
+    "sourceNote": "2026-10-12-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "포스코는 철강·리튬·에너지를 핵심 사업축으로 삼고 2035년 영업이익 13조원을 목표로 제시했다. 기사 본문이 확보되지 않아 제목과 설명 기준으로 요약했다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "포스코, K-GX 참여…수소환원제철과 저탄소 철강 생태계 추진",
     "url": "https://m.ekn.kr/view.php?key=20261008022213629",
     "category": "general",
@@ -4191,6 +4278,22 @@
         "sector": "electronics"
       }
     ],
+    "captureRepair": {}
+  },
+  {
+    "title": "Ripple의 월가 진출과 XRP 재평가 기대를 다룬 기사",
+    "url": "http://m.g-enews.com/article/Securities/2026/10/202610101149141227e250e8e188_1",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-10-11",
+    "sourceNote": "2026-10-12-ripple-xrp",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "제공된 기사 소개는 Ripple의 전통 금융 진출이 XRP 가격 재평가 기대를 키운다고 전한다. 제목은 1.49달러 돌파를 랠리 조건으로 제시하지만, 본문이 없어 근거는 확인할 수 없다.",
+    "companies": [],
     "captureRepair": {}
   },
   {
