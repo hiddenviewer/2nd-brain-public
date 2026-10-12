@@ -103,6 +103,29 @@
     "companies": []
   },
   {
+    "title": "네이버지도·티맵 추석 이용자 격차 446만명으로 확대",
+    "url": "https://biz.chosun.com/it-science/ict/2026/10/12/DOM4XNRY3BG3DK4XTB7N6TGGYI/",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-10-12",
+    "sourceNote": "2026-10-13-446",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "2026년 추석 당일 네이버지도 DAU는 약 963만명, 티맵은 약 517만명으로 격차가 커졌다. 기사는 네이버지도의 통합 편의 기능과 티맵의 길 안내 품질 논란을 주요 배경으로 제시한다.",
+    "companies": [
+      {
+        "id": "naver",
+        "label": "네이버",
+        "ticker": "035420",
+        "sector": "internet-platform"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "두산, AI 데이터센터 전력 공급망으로 사업 확대",
     "url": "https://www.hankyung.com/article/2026101139881",
     "category": "ai",
@@ -4049,6 +4072,22 @@
       "article"
     ],
     "description": "포스코는 HyREX 기반 철강 탈탄소화를 추진하며, 경제적인 청정에너지 공급과 저탄소 철강의 추가 비용을 인정하는 시장 조성을 정부에 제안했다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
+    "title": "포스코퓨처엠, 2029년 LFP 전구체 자체 생산 추진",
+    "url": "https://www.thelec.kr/news/articleView.html?idxno=63565",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-10-12",
+    "sourceNote": "2026-10-13-2029-lfp",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "포스코퓨처엠은 염화철법 기반 FP 전구체 국산화로 LFP 양극재의 중국산 원료 의존도와 생산비를 낮출 계획이다.",
     "companies": [],
     "captureRepair": {}
   },
