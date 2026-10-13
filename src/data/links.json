@@ -4092,6 +4092,22 @@
     "captureRepair": {}
   },
   {
+    "title": "하반기 해상풍력 2GW 이상 입찰 전망…국내 기술·안보 평가 강화",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=373354",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-10-13",
+    "sourceNote": "2026-10-14-2gw",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "2026년 하반기 해상풍력 입찰은 사업비 10~18조원 규모로 예상된다. 터빈의 국내 기술·권한 확보와 인재양성·선박 정보보안 평가가 강화되며, 입찰 용량과 상한가격은 아직 확정되지 않았다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "한국·중국 LNG선 수주 경쟁 막판 변수",
     "url": "https://v.daum.net/v/b1nb1RfzYO",
     "category": "general",
@@ -7129,6 +7145,29 @@
     "captureRepair": {}
   },
   {
+    "title": "중국 배터리 기업, 한국산 핵심 소재 도입 검토",
+    "url": "https://www.hankyung.com/article/2026101395421",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-13",
+    "sourceNote": "2026-10-14-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "한국경제는 미국·EU 공급망 규제에 대응하려는 중국 배터리 기업들이 한국 소재사에 공급을 요청하고 있다고 보도했다. 제공된 정보만으로 계약 확정 여부는 확인할 수 없다.",
+    "companies": [
+      {
+        "id": "ecopro-bm",
+        "label": "에코프로비엠",
+        "ticker": "247540",
+        "sector": "battery materials"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "중국 BOE, 8.6세대 OLED 양산 일정 앞당김",
     "url": "https://www.thelec.kr/news/articleView.html?idxno=56514",
     "category": "investing",
@@ -9396,6 +9435,22 @@
     ]
   },
   {
+    "title": "LS머트리얼즈, 美 AI 데이터센터 전력 시장 진입… 국내 UC업계 최대 물량 수주",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=373336",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-13",
+    "sourceNote": "2026-10-14-ls-ai-uc",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LS머트리얼즈가 미국 수소연료전지 기업과 약 5,150만 달러(약 690억 원) 규모의 AI 데이터센터(AIDC)용 울트라캐패시터(UC) 공급 계약을 맺고 북미 빅테크 전력 인프라 핵심 공급망에 진입했습니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "LS전선·대한전선, 포설선 투자로 해상풍력·HVDC 수주 준비",
     "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=423923",
     "category": "investing",
@@ -9536,6 +9591,35 @@
         "label": "SK",
         "ticker": "034730",
         "sector": "holding-company"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
+    "title": "SK이노베이션, 유가 상승과 신규 LNG 공급원 확보로 3분기 호실적 전망",
+    "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438865",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-13",
+    "sourceNote": "2026-10-14-sk-lng-3",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "SK이노베이션이 유가 상승에 따른 정제마진 개선, 자회사 SK엔무브의 윤활유 호황, SKI E&S의 호주 신규 가스전 도입 효과에 힘입어 3분기 영업이익이 전년 동기 대비 434% 급증한 약 3조 675억 원에 달할 것으로 전망된다.",
+    "companies": [
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      },
+      {
+        "id": "sk-on",
+        "label": "SK온",
+        "ticker": "비상장",
+        "sector": "batteries"
       }
     ],
     "captureRepair": {}
