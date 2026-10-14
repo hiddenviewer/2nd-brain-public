@@ -192,6 +192,22 @@
     "captureRepair": {}
   },
   {
+    "title": "메타, 차세대 AI 에이전트 'Muse Wonder' 및 'Muse Wonder Full' 공개",
+    "url": "https://www.aitimes.kr/news/articleView.html?idxno=42272",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-10-14",
+    "sourceNote": "2026-10-15-ai-muse-wonder-muse-wonder-full",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "메타가 장기 기억(Active Memory)과 지속적 문제 해결 능력(Active Focus)을 갖추고 최대 100만 토큰 문맥을 지원하는 차세대 AI 에이전트 모델 ‘Muse Wonder’와 ‘Muse Wonder Full’을 공개했습니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "모건스탠리 \"美 전력난 예상보다 심각…스페이스X·발전설비주 수혜 전망\"",
     "url": "https://v.daum.net/v/ZlSFoztWIf",
     "category": "ai",
@@ -6239,6 +6255,29 @@
     "captureRepair": {}
   },
   {
+    "title": "삼성SDI, AI 서버용 원통형 LFP 배터리 생산 확대 추진",
+    "url": "https://biz.heraldcorp.com/article/10900502",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-14",
+    "sourceNote": "2026-10-15-sdi-ai-lfp",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "삼성SDI가 AI 데이터센터 BBU 수요 증가에 대응해 말레이시아 제2공장에 LFP 생산설비를 추가하고, 이르면 2027년 6월 양극 극판 양산을 목표로 한다.",
+    "companies": [
+      {
+        "id": "samsung-sdi",
+        "label": "삼성SDI",
+        "ticker": "006400",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "삼성SDI, AI 활용 배전망 ESS 배터리 첫 수주전서 완승",
     "url": "https://www.electimes.com/news/articleView.html?idxno=370186",
     "category": "investing",
@@ -7225,6 +7264,22 @@
     "captureRepair": {}
   },
   {
+    "title": "직장인으로서 부를 쌓는 방법",
+    "url": "https://news.hada.io/topic?id=35198",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-14",
+    "sourceNote": "2026-10-15-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "직장은 역량과 소득을 키우는 기반이며, 지속적인 부는 늘어난 소득을 소비 대신 자산으로 전환할 때 쌓인다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "최태원 SK 회장, AI 메모리 구조적 성장과 공급 확대 언급",
     "url": "https://naver.me/5HyJmmad",
     "category": "investing",
@@ -7861,6 +7916,29 @@
     ],
     "description": "한국환경연구원(KEI)은 해상풍력의 발전제약과 중복 투자를 줄이려면 입지 선정부터 발전단지·해저케이블·공동접속설비·양육점을 통합 계획하고, 발전과 송전의 준공 일정을 조율해야 한다고 제안했다.",
     "companies": [],
+    "captureRepair": {}
+  },
+  {
+    "title": "현대차, 인도 푸네공장 준공으로 연 100만대에 가까운 생산능력 확보",
+    "url": "https://www.hani.co.kr/arti/economy/marketing/1282434.html",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-14",
+    "sourceNote": "2026-10-15-100",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "현대차가 인도 세 번째 생산거점인 푸네공장을 준공했다. 현지 시장 경쟁에 대응하고 신흥국 수출을 확대하기 위해 생산능력과 투자를 늘린다.",
+    "companies": [
+      {
+        "id": "hyundai-motor",
+        "label": "현대차",
+        "ticker": "005380",
+        "sector": "automotive"
+      }
+    ],
     "captureRepair": {}
   },
   {
