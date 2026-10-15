@@ -5619,6 +5619,41 @@
     ]
   },
   {
+    "title": "메모리 가격 4분기에 더 오른다…거침없는 K메모리 호실적",
+    "url": "https://www.mt.co.kr/industry/2026/10/15/2026101514104825515",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-15",
+    "sourceNote": "2026-10-16-4-k",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "글로벌 클라우드 사업자(CSP)들의 AI 서버 설비투자 확대로 D램과 낸드의 리드타임이 최대 2배 늘어나는 등 공급 부족이 심화되고 있습니다. 번스타인과 바클레이즈 등 글로벌 IB는 4분기 계약가격 추가 상승과 함께 수급 불균형이 2028년까지 이어질 것으로 분석하며, HBM 수요 급증에 힘입어 삼성전자와 SK하이닉스의 실적 성장세가 지속될 것으로 전망했습니다.",
+    "companies": [
+      {
+        "id": "samsung-electronics",
+        "label": "삼성전자",
+        "ticker": "005930",
+        "sector": "semiconductors"
+      },
+      {
+        "id": "sk-hynix",
+        "label": "SK하이닉스",
+        "ticker": "000660",
+        "sector": "semiconductors"
+      },
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "메모리 가격 상승이 LTPO OLED 수요와 LG디스플레이에 미치는 영향",
     "url": "https://v.daum.net/v/VC7tgvb0YA?f=p",
     "category": "investing",
