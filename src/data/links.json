@@ -1655,6 +1655,22 @@
     ]
   },
   {
+    "title": "Claude Code 팀의 위험 기반 코드 리뷰 방식",
+    "url": "https://news.hada.io/topic?id=35495",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-10-17",
+    "sourceNote": "2026-10-17-claude-code",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Claude Code 팀은 코드 검토를 AI와 자동 검사로 분산하고, 사람은 위험 판단과 배포 책임에 집중한다. 처리량뿐 아니라 되돌리기·사고 비율로 효과를 평가한다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "Claude Code Artifacts 공식 문서",
     "url": "https://code.claude.com/docs/ko/artifacts",
     "category": "ai",
