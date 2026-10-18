@@ -967,6 +967,35 @@
     "captureRepair": {}
   },
   {
+    "title": "현대차·기아, 제조 AI 내재화와 자율운영공장 추진",
+    "url": "https://www.hankyung.com/article/202610166310g",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-10-18",
+    "sourceNote": "2026-10-18-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "현대차·기아가 제조 AI를 검사·물류·로봇과 공장 운영으로 확대하고, 가상 기반 제조시스템과 소프트웨어 중심 생산체계를 고도화한다는 내용이다.",
+    "companies": [
+      {
+        "id": "hyundai-motor",
+        "label": "현대차",
+        "ticker": "005380",
+        "sector": "automotive"
+      },
+      {
+        "id": "kia",
+        "label": "기아",
+        "ticker": "000270",
+        "sector": "automotive"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "Agent Learning Hub: AI 에이전트 빌더를 위한 단계별 학습 로드맵",
     "url": "https://discuss.pytorch.kr/t/agent-learning-hub-ai/10326",
     "category": "ai",
@@ -1121,22 +1150,6 @@
     ],
     "description": "Hacker News Korea 링크를 통해 수집한 기사 요약 메모다. AI 코딩 도구가 구현 마찰을 줄이는 대신, 개발자의 판단력과 절차 기억 형성에 필요한 학습 마찰까지 제거할 수 있다는 문제의식을 정리한다.",
     "companies": []
-  },
-  {
-    "title": "AI 코딩의 품질을 높이는 에이전트 자체 검증 루프",
-    "url": "https://share.google/HJdkN1p7KlRyGlMZW",
-    "category": "ai",
-    "categoryLabel": "AI 에이전트",
-    "status": "pending",
-    "updated": "2026-10-17",
-    "sourceNote": "2026-10-18-ai",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "AI 코딩의 병목은 코드 작성에서 정확성 검증으로 이동하고 있다. 에이전트가 스스로 검사하고 수정하도록 명확한 성공 기준과 빠르고 재현 가능한 검증 환경을 제공해야 한다.",
-    "companies": [],
-    "captureRepair": {}
   },
   {
     "title": "AI Universal Translator: 로컬 LLM과 Gemini를 지원하는 데스크톱 번역·요약 앱",
