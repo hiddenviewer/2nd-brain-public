@@ -3626,6 +3626,29 @@
     "captureRepair": {}
   },
   {
+    "title": "게임모니터용 OLED 출하량, TV용 추월 전망",
+    "url": "https://www.hankyung.com/article/2026101888391",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-10-18",
+    "sourceNote": "2026-10-19-oled-tv",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "한국경제는 고사양 게임 수요 확대에 따라 게임모니터용 OLED 출하량이 TV용을 추월하고, 2년 뒤 762만 대에 이를 것으로 전망했다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "낙월해상풍력 준공 임박…364.8MW 규모와 사업성 확보 과제",
     "url": "https://v.daum.net/v/KDs8NWMV3O",
     "category": "general",
@@ -8278,6 +8301,22 @@
     ]
   },
   {
+    "title": "회사 안 다녀도 월 5000만원 벌어요…요즘 뜨는 이 직업",
+    "url": "https://www.hankyung.com/article/2026101888041",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-18",
+    "sourceNote": "2026-10-19-5000",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "이세영 뤼튼테크놀로지스 대표 인터뷰 기사로, 유튜버처럼 AI 캐릭터를 제작해 수익을 창출하는 창작자 생태계와 이를 통해 올해 매출 2,000억 원(전년 대비 4배 성장)을 바라보는 뤼튼테크놀로지스의 성과를 다룬다. 다만 본문 텍스트가 정상 추출되지 않아 메타데이터 요약만 확인 가능한 상태다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "휘발유차도 자율주행…현대차 기술 성벽 쌓는다 | 한국경제",
     "url": "https://www.hankyung.com/article/2026090819621",
     "category": "investing",
@@ -8436,6 +8475,41 @@
     ],
     "description": "AI 데이터센터 간 대용량 전송 수요가 늘면서 DCI용 광케이블·광증폭기 등 국내 광통신 업체의 수주 확대 가능성이 커지고 있다.",
     "companies": [],
+    "captureRepair": {}
+  },
+  {
+    "title": "AI 데이터센터용 BBU로 사업을 확장하는 삼성SDI·LG에너지솔루션",
+    "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261018010005652",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-18",
+    "sourceNote": "2026-10-19-ai-bbu-sdi-lg",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "기사 제목과 설명에 따르면, 삼성SDI와 LG에너지솔루션은 전기차 시장 성장 둔화 속에서 AI 데이터센터의 전력 공급용 배터리를 새로운 성장 분야로 보고 있다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-energy-solution",
+        "label": "LG에너지솔루션",
+        "ticker": "373220",
+        "sector": "batteries"
+      },
+      {
+        "id": "samsung-sdi",
+        "label": "삼성SDI",
+        "ticker": "006400",
+        "sector": "batteries"
+      }
+    ],
     "captureRepair": {}
   },
   {
