@@ -3998,6 +3998,22 @@
     "captureRepair": {}
   },
   {
+    "title": "시니어 엔지니어처럼 소프트웨어 시스템 설계하기 - 풀코스 [동영상] | GeekNews",
+    "url": "https://news.hada.io/topic?id=35613",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-10-20",
+    "sourceNote": "2026-10-21-geeknews",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "약 3시간 분량의 시스템 설계 면접 대비 강의 요약으로, 5단계 설계 접근법(요구사항 확인, 데이터/API 및 상위 아키텍처 설계, 확장성과 장애 검토, 절충점 정리)을 소개하고 이를 Spotify(음악 스트리밍), Booking.com(호텔 예약), WhatsApp(실시간 메시징) 유사 시스템 설계에 단계별로 적용하는 방법을 다룬다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "신규 재생에너지 발전소 70% 이상, 송전망 부족 조건부 허가",
     "url": "https://v.daum.net/v/uxrx1d8BvU",
     "category": "general",
