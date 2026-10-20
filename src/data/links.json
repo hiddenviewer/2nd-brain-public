@@ -2453,6 +2453,29 @@
     "companies": []
   },
   {
+    "title": "Harness Engineering 101 - Python 약 300줄로 배우는 AI 에이전트 구현",
+    "url": "https://news.hada.io/topic?id=35651",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-10-20",
+    "sourceNote": "2026-10-20-harness-engineering-101-python-300-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "외부 프레임워크나 SDK 없이 순수 Python 약 300줄로 AI 코딩 에이전트(하네스)를 바닥부터 구현하며 작동 원리를 배우는 16장 구성의 입문서 및 이에 대한 커뮤니티 논의 요약.",
+    "companies": [
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "harness-lab 설치와 사용법 요약",
     "url": "https://github.com/jikime/harness-lab.git",
     "category": "ai",
