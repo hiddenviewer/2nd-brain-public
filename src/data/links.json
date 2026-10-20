@@ -3920,6 +3920,45 @@
     "captureRepair": {}
   },
   {
+    "title": "브런치 글 확인 실패",
+    "url": "https://brunch.co.kr/@ainote/158",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "review",
+    "updated": "2026-10-20",
+    "sourceNote": "2026-10-21-untitled",
+    "tags": [
+      "inbox",
+      "article",
+      "inaccessible"
+    ],
+    "description": "요청한 글에 접근하지 못해 내용을 요약할 수 없습니다.",
+    "companies": [],
+    "captureRepair": {
+      "status": "manual_review",
+      "reason": "network_error",
+      "retry_attempted": true,
+      "retry_method": "curl-alt",
+      "retry_result": "failed",
+      "last_attempt_at": "2026-10-20T17:14:10.981758+00:00",
+      "operator_note": "원문 사전 추출 실패: curl 실패: curl: (47) Maximum (50) redirects followed",
+      "attempts": [
+        {
+          "method": "curl",
+          "ok": false,
+          "reason": "network_error",
+          "detail": "curl: (47) Maximum (50) redirects followed"
+        },
+        {
+          "method": "curl-alt",
+          "ok": false,
+          "reason": "network_error",
+          "detail": "curl: (47) Maximum (50) redirects followed"
+        }
+      ]
+    }
+  },
+  {
     "title": "삼성전자, P5 첫 양산라인 장비 반입 조기 추진",
     "url": "https://naver.me/FqItKV5y",
     "category": "general",
