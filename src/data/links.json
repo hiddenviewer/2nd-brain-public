@@ -49,6 +49,22 @@
     "captureRepair": {}
   },
   {
+    "title": "구글 Harness², 모델 재학습 없이 에이전트 실행 환경 개선",
+    "url": "https://www.aitimes.kr/news/articleView.html?idxno=42369",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-10-20",
+    "sourceNote": "2026-10-21-harness",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Google Research가 모델 가중치를 고정한 채 프롬프트·도구·메모리·작업 절차를 반복 개선하는 오픈소스 프레임워크 Harness²를 공개했다고 기사는 전한다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "구글 Open Knowledge Format(OKF) 공개 - AI 에이전트를 위한 지식 공유 표준",
     "url": "https://news.hada.io/topic?id=30622",
     "category": "ai",
