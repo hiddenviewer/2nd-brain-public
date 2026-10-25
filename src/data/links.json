@@ -10318,6 +10318,29 @@
     "captureRepair": {}
   },
   {
+    "title": "SK이노베이션, 중동 윤활기유 공급 차질로 2027년 이후 수혜 전망",
+    "url": "https://www.buffettlab.co.kr/news/view.php?idx=57417",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-25",
+    "sourceNote": "2026-10-26-sk-2027",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "iM증권은 중동 공급 차질로 SK엔무브의 대체 공급처 매력이 높아졌다며, 2027~2028년 신규 수주 확대 가능성을 제시했다. SK이노베이션에 대한 매수 의견과 목표주가 25만원을 유지했다.",
+    "companies": [
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "SK텔레콤, 2032년 데이터센터 이익 1조 전망-하나",
     "url": "https://www.hankyung.com/article/2026090925826",
     "category": "investing",
