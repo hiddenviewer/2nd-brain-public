@@ -7783,6 +7783,41 @@
     ]
   },
   {
+    "title": "코스피 바닥 다지기 전망…FOMC·반도체 실적 주목",
+    "url": "https://www.hankyung.com/article/2026102308326",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-10-25",
+    "sourceNote": "2026-10-25-fomc",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "기사 제목과 설명은 미국 10월 금리 결정과 삼성전자·SK하이닉스 실적 및 추가 주주환원책을 코스피의 주요 관전 요소로 제시한다. 본문은 확인하지 못했다.",
+    "companies": [
+      {
+        "id": "samsung-electronics",
+        "label": "삼성전자",
+        "ticker": "005930",
+        "sector": "semiconductors"
+      },
+      {
+        "id": "sk-hynix",
+        "label": "SK하이닉스",
+        "ticker": "000660",
+        "sector": "semiconductors"
+      },
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "코웨이 산업용 수처리 사업, AI 반도체 투자 수혜로 성장",
     "url": "https://naver.me/F3Emtzn4",
     "category": "investing",
