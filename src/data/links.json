@@ -2848,6 +2848,22 @@
     "captureRepair": {}
   },
   {
+    "title": "LLM 사용량과 업무 강도에 따른 자동 작업 분배와 모니터링",
+    "url": "https://www.valley.town/space/@jangdt/articles/6adca30356371576de244cf4",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-10-26",
+    "sourceNote": "2026-10-27-llm",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "여러 LLM의 사용 한도 소진으로 작업과 사이트 운영이 중단되자, 작성자는 작업을 자동 분배하고 사용량을 추적하는 오케스트레이터와 뷰어를 만들었다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "LLM과 함께 글 쓰는 법 (GeekNews)",
     "url": "https://news.hada.io/topic?id=33887",
     "category": "ai",
