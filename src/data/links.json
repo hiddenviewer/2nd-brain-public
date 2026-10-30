@@ -2913,6 +2913,22 @@
     "companies": []
   },
   {
+    "title": "Martin Fowler: LLM 문체가 만드는 글의 불쾌한 골짜기",
+    "url": "https://news.hada.io/topic?id=36244",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-10-30",
+    "sourceNote": "2026-10-30-martin-fowler-llm",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LLM 특유의 문체는 실제 AI 사용 여부와 무관하게 독자의 거부감을 유발할 수 있으며, 초안 작성을 LLM에 맡기는 방식에도 주의가 필요하다는 주장이다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "Memradar: AI 코딩 세션을 분석해 작업 유형과 회고 리포트를 보여주는 오픈소스",
     "url": "https://news.hada.io/topic?id=28948",
     "category": "ai",
