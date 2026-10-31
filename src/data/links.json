@@ -1917,6 +1917,22 @@
     ]
   },
   {
+    "title": "Claude Code의 에이전트 상태 요약 호출과 토큰 사용 논란",
+    "url": "https://news.hada.io/topic?id=36213",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-10-31",
+    "sourceNote": "2026-10-31-claude-code",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "제공된 GeekNews 발췌는 Claude Code가 약 30초마다 백그라운드 에이전트의 전체 대화를 모델에 보내 상태 요약을 생성하며, 이 과정이 전체 토큰의 약 15~20%를 사용한다는 분석을 소개한다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "Claude Code의 Dynamic Workflows 도입",
     "url": "https://news.hada.io/topic?id=30144",
     "category": "ai",
