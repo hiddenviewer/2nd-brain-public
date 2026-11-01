@@ -9542,6 +9542,47 @@
     ]
   },
   {
+    "title": "LG, 냉각·ESS·운영 기술 결합해 AI 데이터센터 시장 공략",
+    "url": "https://www.munhwa.com/article/11627132",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-11-01",
+    "sourceNote": "2026-11-01-lg-ess-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LG가 계열사의 냉각·배터리·설계·운영 역량을 결합한 ‘원 LG’ 솔루션으로 AI 데이터센터 사업을 확대하고 있다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-electronics",
+        "label": "LG전자",
+        "ticker": "066570",
+        "sector": "electronics"
+      },
+      {
+        "id": "lg-energy-solution",
+        "label": "LG에너지솔루션",
+        "ticker": "373220",
+        "sector": "batteries"
+      },
+      {
+        "id": "lg-uplus",
+        "label": "LG유플러스",
+        "ticker": "032640",
+        "sector": "telecom"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "LG, 엔비디아 Blackwell GPU 1만 장 도입 및 그룹 AX 가속화",
     "url": "https://share.google/NI9R2aAfDkwXWe6EM",
     "category": "investing",
