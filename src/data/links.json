@@ -8053,6 +8053,29 @@
     "companies": []
   },
   {
+    "title": "파마리서치, 화장품 해외 성장 지속 전망…4분기 의료기기 회복 기대",
+    "url": "https://naver.me/xB7Knrfh",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-11-01",
+    "sourceNote": "2026-11-01-4",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "교보증권은 파마리서치의 해외 판매 채널 확대에 따른 화장품 사업 성장을 전망했다. 기사 제목은 4분기 의료기기 사업 회복 기대도 제시한다.",
+    "companies": [
+      {
+        "id": "pharma-research",
+        "label": "파마리서치",
+        "ticker": "214450",
+        "sector": "pharmaceuticals-aesthetics"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "포스코, 아르헨티나 리튬 2공장 준공…연산 4만8000t 능력 확보",
     "url": "https://www.chosun.com/economy/industry-company/2026/10/07/LDOUPGGVNFDTDLTFZHW4N3LLHM/",
     "category": "investing",
