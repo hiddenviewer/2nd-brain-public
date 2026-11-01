@@ -440,6 +440,22 @@
     "captureRepair": {}
   },
   {
+    "title": "앤트로픽, Claude for Legal에 법무 업무용 Artifacts 갤러리 추가",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=216808",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-11-01",
+    "sourceNote": "2026-11-01-claude-for-legal-artifacts",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "앤트로픽이 계약 검토·법률 조사·규제 추적을 지원하는 Artifacts 갤러리를 공개했다. 법무팀의 초기 검토와 협업을 돕고 최종 판단은 변호사가 맡는다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "에르메스 에이전트(Hermes Agent)로 AI 업무 자동화와 나만의 AI 팀 운영을 다루는 실전 가이드",
     "url": "https://wikidocs.net/book/19686",
     "category": "ai",
