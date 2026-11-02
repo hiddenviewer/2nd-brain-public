@@ -4542,6 +4542,29 @@
     "captureRepair": {}
   },
   {
+    "title": "포스코홀딩스, 철강 가격 인상 추진…리튬 회복 기대 속 수익성 관리",
+    "url": "https://www.snmnews.com/news/articleView.html?idxno=576787",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-11-02",
+    "sourceNote": "2026-11-03-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "포스코홀딩스는 하반기 철강 판매가 추가 인상을 협상하고, 2027년 수요의 완만한 회복을 전망했다. 리튬은 공장별 수익성 차이가 크며, 고로 대보수와 탄소·통상 비용이 주요 변수다.",
+    "companies": [
+      {
+        "id": "posco-holdings",
+        "label": "POSCO홀딩스",
+        "ticker": "005490",
+        "sector": "steel"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "하반기 해상풍력 2GW 이상 입찰 전망…국내 기술·안보 평가 강화",
     "url": "https://www.electimes.com/news/articleView.html?idxno=373354",
     "category": "general",
