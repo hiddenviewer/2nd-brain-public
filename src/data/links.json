@@ -4336,6 +4336,29 @@
     "captureRepair": {}
   },
   {
+    "title": "자이에스앤디, 수주잔고 6조원에도 수익성 회복 지연",
+    "url": "https://naver.me/I5wx4Nd0",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-11-02",
+    "sourceNote": "2026-11-03-6",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "자이에스앤디가 데이터센터와 주택사업을 통해 6조원 이상의 수주잔고를 확보했지만, 건축부문의 낮은 수익성과 데이터센터 이익 반영 시차로 수익성 회복은 더딘 상황이다.",
+    "companies": [
+      {
+        "id": "xi-snd",
+        "label": "자이에스앤디",
+        "ticker": "317400",
+        "sector": "construction-housing-home-solution"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "재생에너지 변동성 보완하는 LNG 발전, 재가동 정산 비용 증가",
     "url": "https://www.chosun.com/economy/industry-company/2026/10/10/D7MMQGNRI5ETND2OGODQNF62JQ/",
     "category": "general",
