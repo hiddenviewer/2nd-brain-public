@@ -545,6 +545,22 @@
     ]
   },
   {
+    "title": "에이전트와 함께 개발하기 위한 실용 원칙 | GeekNews",
+    "url": "https://news.hada.io/topic?id=36502",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-11-03",
+    "sourceNote": "2026-11-03-geeknews",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "에이전트가 코드의 대부분을 작성하는 환경에서는 병목이 인간의 주의력으로 이동하므로, 작업 선별·결과 검증·품질 기준 교육과 성공한 절차의 스킬화 및 병렬 작업 관리가 핵심 원칙이 된다는 내용을 다룬 GeekNews 토픽입니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "엘앤에프·포스코퓨처엠, SK온 공급 계약으로 비중국 LFP 시장 공략",
     "url": "https://www.yeongnam.com/web/view.php?key=20260927029590246",
     "category": "ai",
@@ -9984,6 +10000,35 @@
       "article"
     ],
     "description": "LG에너지솔루션이 에스토니아의 420MWh 규모 BESS에 배터리 저장장비를 공급한다. 기사 제목에 따르면 해당 사업은 기사 작성월에 착공한다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-energy-solution",
+        "label": "LG에너지솔루션",
+        "ticker": "373220",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
+    "title": "LG에너지솔루션, 올해 매출 성장률 목표 35~40%로 상향",
+    "url": "https://www.thelec.kr/news/articleView.html?idxno=64782",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-11-03",
+    "sourceNote": "2026-11-03-lg-35-40",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LG에너지솔루션이 매출 성장률 목표를 기존 10~20%에서 35~40%로 높였다. 3분기 보조금 제외 흑자를 기록했으며 북미 ESS 생산 확대와 차세대 배터리 개발을 추진한다.",
     "companies": [
       {
         "id": "lg-corp",
