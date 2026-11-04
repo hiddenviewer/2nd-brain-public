@@ -158,6 +158,29 @@
     "captureRepair": {}
   },
   {
+    "title": "넷마블, 게임 개발·운영 전반으로 ‘실용적 AI’ 확대",
+    "url": "https://www.donga.com/news/Economy/article/all/20261103/134951509/2",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-11-04",
+    "sourceNote": "2026-11-05-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "넷마블이 축적한 AI 기술을 바탕으로 연구 조직과 게임 개발·운영, 사내 업무의 AI 활용 범위를 확대하고 있다는 내용이다.",
+    "companies": [
+      {
+        "id": "netmarble",
+        "label": "넷마블",
+        "ticker": "251270",
+        "sector": "games"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "두산, AI 데이터센터 전력 공급망으로 사업 확대",
     "url": "https://www.hankyung.com/article/2026101139881",
     "category": "ai",
@@ -3371,6 +3394,22 @@
     "companies": []
   },
   {
+    "title": "대규모 Mac 인프라 운영: MacBook 랙과 macOS VM 배포",
+    "url": "https://news.hada.io/topic?id=36543",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-11-04",
+    "sourceNote": "2026-11-05-mac-macbook-macos-vm",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Namespace는 Mac 공급 지연에 대응해 MacBook 랙을 구축하고, 가상화와 이미지 배포를 최적화해 iOS 빌드·테스트 인프라를 확장했다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "메타 개인형 AI 에이전트 'Muse', 초기 흥행으로 챗GPT 모바일 기록 추월",
     "url": "https://www.aitimes.com/news/articleView.html?idxno=215566",
     "category": "apple",
@@ -3990,6 +4029,29 @@
         "label": "네이버",
         "ticker": "035420",
         "sector": "internet-platform"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
+    "title": "넷마블, 나 혼자만 레벨업 콘솔 출시로 서구 시장 확대",
+    "url": "https://www.econovill.com/news/articleView.html?idxno=755985",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-11-04",
+    "sourceNote": "2026-11-05-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "넷마블이 나 혼자만 레벨업:어라이즈 오버드라이브를 PS5와 Xbox Series X|S로 출시했다. PC 버전의 서구권 판매 순위와 IP 인지도를 바탕으로 콘솔 이용자층 확대를 추진한다.",
+    "companies": [
+      {
+        "id": "netmarble",
+        "label": "넷마블",
+        "ticker": "251270",
+        "sector": "games"
       }
     ],
     "captureRepair": {}
@@ -8228,6 +8290,29 @@
       "article"
     ],
     "description": "포스코홀딩스는 계열사 지분 유동화로 확보한 약 2조5천억원의 10%를 연내 자사주 매입·소각에 활용하고, 나머지는 리튬 사업 투자 등에 배분할 계획이다.",
+    "companies": [
+      {
+        "id": "posco-holdings",
+        "label": "POSCO홀딩스",
+        "ticker": "005490",
+        "sector": "steel"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
+    "title": "포스코홀딩스, 철강 판매 감소 대응과 2027년 리튬 수익성 개선 추진",
+    "url": "http://www.popcornnews.net/news/articleView.html?idxno=138377",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-11-04",
+    "sourceNote": "2026-11-05-2027",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "포스코홀딩스는 설비 정비로 2027년 1분기까지 철강 판매 감소를 예상하며, 리튬 공장 가동률 확대와 원가 절감으로 수익성 개선을 추진한다.",
     "companies": [
       {
         "id": "posco-holdings",
