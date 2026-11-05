@@ -5978,6 +5978,29 @@
     ]
   },
   {
+    "title": "동해 GS AI데이터센터, 이르면 이달 말 착공 전망",
+    "url": "https://n.news.naver.com/mnews/article/087/0001228646?sid=100",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-11-05",
+    "sourceNote": "2026-11-06-gs-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "기사에 따르면 동해 GS AI데이터센터는 최대 120조원·2.4GW 규모로 추진되며, 100MW급 시설을 먼저 착공해 2028년 상반기 준공할 계획이다.",
+    "companies": [
+      {
+        "id": "goldman-sachs",
+        "label": "Goldman Sachs",
+        "ticker": "GS",
+        "sector": "global investment banking"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "동해시, GS그룹 첫 100MW급 AI데이터센터 건축허가 완료",
     "url": "https://n.news.naver.com/article/056/0012267265",
     "category": "investing",
