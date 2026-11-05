@@ -158,6 +158,29 @@
     "captureRepair": {}
   },
   {
+    "title": "네이버클라우드, 2028년 200MW AI 팩토리 공급 역량 확보 추진",
+    "url": "https://zdnet.co.kr/view/?no=20261105104305",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-11-05",
+    "sourceNote": "2026-11-05-2028-200mw-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "네이버클라우드는 약 10년의 GPU 운영 경험과 NVIDIA 협력을 바탕으로 아시아 대표 AI 팩토리 사업자를 목표로 글로벌 시장을 공략한다.",
+    "companies": [
+      {
+        "id": "naver",
+        "label": "네이버",
+        "ticker": "035420",
+        "sector": "internet-platform"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "넷마블, 게임 개발·운영 전반으로 ‘실용적 AI’ 확대",
     "url": "https://www.donga.com/news/Economy/article/all/20261103/134951509/2",
     "category": "ai",
