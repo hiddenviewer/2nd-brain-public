@@ -33,6 +33,22 @@
     "companies": []
   },
   {
+    "title": "2026년 AI·ML·데이터 엔지니어링 트렌드: 에이전트 운영과 추론 인프라",
+    "url": "https://news.hada.io/topic?id=36587",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-11-06",
+    "sourceNote": "2026-11-07-2026-ai-ml",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "InfoQ 보고서를 소개한 글로, AI의 중심이 질의응답에서 업무 실행 에이전트로 이동하고 조직의 관심이 프로덕션 운영·확장으로 옮겨가는 흐름을 다룬다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "게임 자체를 AI 에이전트가 이해하고 검증할 수 있는 하네스로 설계하기",
     "url": "https://news.hada.io/topic?id=35355",
     "category": "ai",
@@ -411,6 +427,22 @@
       "article"
     ],
     "description": "AI 도입으로 인해 코딩의 즐거움과 몰입감이 사라지고, 불완전한 AI 산출물을 수습하며 인력 감축 압박을 받는 소프트웨어 개발자들의 소외감과 정체성 위기를 다룹니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
+    "title": "소프트웨어 엔지니어링은 어떻게 달라지고 있나: 두 시대의 이야기 | GeekNews",
+    "url": "https://news.hada.io/topic?id=36685",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-11-06",
+    "sourceNote": "2026-11-07-geeknews",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI 코딩 에이전트 도입과 함께 엔지니어의 자율성, 선택적 코드 리뷰, 제품 의사결정 방식이 변화하면서 월간 PR 수가 약 19개에서 207개로 11배 증가한 사례를 다루며, 코드 작성 속도가 빨라짐에 따라 협업과 승인 대기가 새로운 병목으로 떠오르고 있음을 설명한다.",
     "companies": [],
     "captureRepair": {}
   },
@@ -8405,6 +8437,22 @@
       "article"
     ],
     "description": "북타입 폴더블폰 확대가 OLED 소재 사용량과 공급 품목 증가로 이어지며 덕산네오룩스의 매출 성장 기대를 키우고 있다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
+    "title": "폴스타 4 출고 대기 장기화…2027년 물량 조기 도입 검토",
+    "url": "https://www.newsis.com/view/NISX20261105_0003856770",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-11-06",
+    "sourceNote": "2026-11-07-4-2027",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "폴스타코리아가 폴스타 4의 평균 3개월 이상 출고 대기와 약 1500명의 대기 수요에 대응해 내년 배정 물량 일부의 조기 도입을 검토한다.",
     "companies": [],
     "captureRepair": {}
   },
