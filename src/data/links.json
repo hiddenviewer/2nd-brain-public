@@ -4291,6 +4291,41 @@
     "captureRepair": {}
   },
   {
+    "title": "솔트포스, 미국 부유식 SMR 인허가 사전 협의 착수…한국 기업 협력 확대 추진",
+    "url": "https://theguru.co.kr/mobile/article.html?no=109344",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-11-07",
+    "sourceNote": "2026-11-07-smr",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "솔트포스가 미국 NRC에 부유식 CMSR 인허가 사전 협의 의향서를 제출했다. 삼성중공업·GS건설과의 협력을 바탕으로 한미 생산체계를 추진하며, 한국에서도 인허가 사전 조율을 진행하고 있다.",
+    "companies": [
+      {
+        "id": "goldman-sachs",
+        "label": "Goldman Sachs",
+        "ticker": "GS",
+        "sector": "global investment banking"
+      },
+      {
+        "id": "gs-engineering-construction",
+        "label": "GS건설",
+        "ticker": "006360",
+        "sector": "건설, 플랜트, 인프라, 하이테크 시공"
+      },
+      {
+        "id": "samsung-heavy-industries",
+        "label": "삼성중공업",
+        "ticker": "010140",
+        "sector": "shipbuilding"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "시니어 엔지니어처럼 소프트웨어 시스템 설계하기 - 풀코스 [동영상] | GeekNews",
     "url": "https://news.hada.io/topic?id=35613",
     "category": "general",
