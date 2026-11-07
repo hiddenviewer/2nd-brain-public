@@ -6426,6 +6426,41 @@
     "captureRepair": {}
   },
   {
+    "title": "미국 배터리 공급망 자립 전략과 한국 기업의 기회·과제",
+    "url": "https://theguru.co.kr/mobile/article.html?no=109347",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-11-07",
+    "sourceNote": "2026-11-08-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "미국 DOE가 공급망 내재화, 기술·제조 주도권 확보, 활용처 확대를 추진한다고 기사는 전했다. LG에너지솔루션과 삼성SDI의 수혜가 예상되지만 중국산 핵심광물 의존도 축소가 과제다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-energy-solution",
+        "label": "LG에너지솔루션",
+        "ticker": "373220",
+        "sector": "batteries"
+      },
+      {
+        "id": "samsung-sdi",
+        "label": "삼성SDI",
+        "ticker": "006400",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "미국 ESS 수요 확대에 K-배터리 3분기 실적 기대 상승",
     "url": "https://v.daum.net/v/UlqA2RYCYc",
     "category": "investing",
