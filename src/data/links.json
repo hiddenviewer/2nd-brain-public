@@ -2521,6 +2521,22 @@
     "companies": []
   },
   {
+    "title": "Google Antigravity 2.29 업데이트: 새 디자인, Gemini Live 보이스 모드, 원격 에이전트 도입",
+    "url": "https://mezha.net/ko/news/mezha-855abf095054e25ec7050b25_google-antigravity-update-brings-a-redesign/",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-11-07",
+    "sourceNote": "2026-11-08-google-antigravity-2-29-gemini-live",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Google이 에이전트 기반 개발 플랫폼 Antigravity 2.29 버전을 배포하며 개편된 UI, Gemini Live 기반 음성 대화 기능, 그리고 Google AI Pro 및 Ultra 구독자용 클라우드 기반 원격 에이전트 기능을 도입했다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "Google I/O 2026 주요 발표 12가지 키노트 모아보기",
     "url": "https://news.hada.io/topic?id=30165",
     "category": "ai",
