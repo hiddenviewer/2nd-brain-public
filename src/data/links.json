@@ -591,6 +591,22 @@
     "companies": []
   },
   {
+    "title": "에이전트 메모리 설계 - 무엇을 기억하고, 잘못된 기억은 어떻게 고칠까 | GeekNews",
+    "url": "https://news.hada.io/topic?id=36775",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-11-08",
+    "sourceNote": "2026-11-08-geeknews",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Anthropic이 Claude를 활용해 AI 에이전트가 다음 세션을 위해 무엇을 기억하고, 누적된 기억을 어떻게 정리 및 교정할지 실험한 내용을 다룬 GeekNews 아티클입니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "에이전트 코딩의 묵시록 4기사",
     "url": "https://news.hada.io/topic?id=34713",
     "category": "ai",
