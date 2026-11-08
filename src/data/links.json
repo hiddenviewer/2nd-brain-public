@@ -65,6 +65,22 @@
     "captureRepair": {}
   },
   {
+    "title": "과기정통부, AI 에이전트에 제로트러스트 적용하는 안내서 발간",
+    "url": "https://www.boannews.com/news/articleView.html?idxno=147070",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-11-08",
+    "sourceNote": "2026-11-08-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "과학기술정보통신부가 AI 에이전트의 자율 행위를 검증하고 위험에 따라 인간 승인이나 사전 승인 정책을 적용하는 보안 안내서를 마련했다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "구글 Harness², 모델 재학습 없이 에이전트 실행 환경 개선",
     "url": "https://www.aitimes.kr/news/articleView.html?idxno=42369",
     "category": "ai",
@@ -3884,6 +3900,41 @@
         "label": "넷마블",
         "ticker": "251270",
         "sector": "games"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
+    "title": "'FMM 탈피' 경쟁 불붙는 OLED…삼성D·LGD·비전옥스 각축전",
+    "url": "https://www.hankooki.com/news/articleView.html?idxno=347819",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-11-08",
+    "sourceNote": "2026-11-08-fmm-oled-d-lgd",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "삼성디스플레이(MPO), LG디스플레이(FLiPP), 비전옥스(ViP)가 기존 파인메탈마스크(FMM)의 물리적·비용적 한계를 극복하기 위해 FMM-less 차세대 OLED 패터닝 기술 개발에 박차를 가하고 있으며, 향후 대면적 양산 수율과 생산성 확보가 경쟁력의 핵심 변수로 부상했다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-display",
+        "label": "LG디스플레이",
+        "ticker": "034220",
+        "sector": "display"
+      },
+      {
+        "id": "samsung-display",
+        "label": "삼성디스플레이",
+        "ticker": "비상장",
+        "sector": "display"
       }
     ],
     "captureRepair": {}
@@ -8432,6 +8483,29 @@
     ],
     "description": "한국경제 기사 요약 메모다. 도널드 트럼프 미국 대통령이 철강·알루미늄·구리 관련 일부 수입품 관세를 조정하는 포고문에 서명했고, 미국산 금속 사용 비중이 높은 설비와 일부 농기계·산업장비에 한시적 우대 관세를 적용한다는 내용을 다룬다.",
     "companies": []
+  },
+  {
+    "title": "파마리서치, 수출 확대로 3분기 매출 1715억원 기록",
+    "url": "https://www.mk.co.kr/news/it/12200625",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-11-08",
+    "sourceNote": "2026-11-08-3-1715",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "파마리서치의 3분기 매출이 전년 동기 대비 26.7% 증가했다. 화장품·의료기기 수출이 성장을 이끌었지만 영업이익 증가는 1.2%에 그쳤고 순이익은 감소했다.",
+    "companies": [
+      {
+        "id": "pharma-research",
+        "label": "파마리서치",
+        "ticker": "214450",
+        "sector": "pharmaceuticals-aesthetics"
+      }
+    ],
+    "captureRepair": {}
   },
   {
     "title": "파마리서치, 화장품 해외 성장 지속 전망…4분기 의료기기 회복 기대",
