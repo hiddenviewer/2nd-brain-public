@@ -10724,6 +10724,35 @@
     "captureRepair": {}
   },
   {
+    "title": "LG전자 차량 통신제어 모듈, ASIL D 인증 획득",
+    "url": "https://www.ajunews.com/view/20261108095944166",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-11-08",
+    "sourceNote": "2026-11-08-lg-asil-d",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LG전자가 TÜV Rheinland로부터 차량 통신제어 모듈의 ISO 26262 최고 등급인 ASIL D 인증을 받았다. 기사에 따르면 해당 모듈은 제네시스 GV90에 적용됐다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-electronics",
+        "label": "LG전자",
+        "ticker": "066570",
+        "sector": "electronics"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "LG전자, 가전·전장과 신사업 성장에 분기 매출 24조원 기대",
     "url": "https://v.daum.net/v/3MHKnl8Bj1",
     "category": "investing",
