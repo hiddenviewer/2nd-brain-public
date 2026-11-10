@@ -3054,6 +3054,22 @@
     "captureRepair": {}
   },
   {
+    "title": "LLM 시대의 확장 가능한 소프트웨어",
+    "url": "https://news.hada.io/topic?id=36837",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-11-10",
+    "sourceNote": "2026-11-11-llm",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LLM의 코드 생성 능력과 샌드박스를 활용해, 제품 코어를 간결하게 유지하면서 사용자별 요구를 확장 기능으로 수용하는 접근을 제안한다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "LLM과 함께 글 쓰는 법 (GeekNews)",
     "url": "https://news.hada.io/topic?id=33887",
     "category": "ai",
