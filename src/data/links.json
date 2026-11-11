@@ -7102,6 +7102,41 @@
     ]
   },
   {
+    "title": "삼성SDI 최대 고객사 BMW 배터리 공급 입지 좁아져, 유럽은 중국산에 북미는 LG엔솔에 밀려 '고전'",
+    "url": "https://www.businesspost.co.kr/BP?command=article_view&num=451639",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-11-11",
+    "sourceNote": "2026-11-11-sdi-bmw-lg",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "BMW의 차세대 전기차 배터리 공급망 다변화 전략 속에서 유럽 시장에서는 중국 업체(CATL, EVE에너지 등)에, 북미 시장에서는 신규 합류한 LG에너지솔루션에 밀리며 최대 고객사 내 삼성SDI의 공급 입지가 좁아지고 있다는 분석 기사입니다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-energy-solution",
+        "label": "LG에너지솔루션",
+        "ticker": "373220",
+        "sector": "batteries"
+      },
+      {
+        "id": "samsung-sdi",
+        "label": "삼성SDI",
+        "ticker": "006400",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "삼성SDI-벤츠 10조 원 배터리 공급 계약 임박 보도",
     "url": "http://m.g-enews.com/article/Global-Biz/2026/04/2026041508191598170c8c1c064d_1",
     "category": "investing",
@@ -10353,6 +10388,35 @@
         "id": "samsung-sdi",
         "label": "삼성SDI",
         "ticker": "006400",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
+    "title": "LG에너지솔루션, 10분 배터리 진단 기술로 CES 2027 혁신상 수상",
+    "url": "https://www.thelec.kr/news/articleView.html?idxno=65153",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-11-11",
+    "sourceNote": "2026-11-11-lg-10-ces-2027",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LG에너지솔루션의 Re.Pulse가 사용 후 배터리를 10분 이내에 진단하는 기술로 CES 2027 혁신상을 받았다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-energy-solution",
+        "label": "LG에너지솔루션",
+        "ticker": "373220",
         "sector": "batteries"
       }
     ],
