@@ -4204,6 +4204,35 @@
     "captureRepair": {}
   },
   {
+    "title": "네이버·두나무 결합, 공정위 심의와 금융당국 규제가 변수",
+    "url": "https://naver.me/GT4EKnVc",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-11-11",
+    "sourceNote": "2026-11-12-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "네이버파이낸셜과 두나무의 기업결합에 조건부 승인 가능성이 제기됐지만, 거래소 대주주 지분 제한 도입 전망이 변수로 남았다.",
+    "companies": [
+      {
+        "id": "dunamu",
+        "label": "두나무",
+        "ticker": "확인 필요",
+        "sector": "fintech-digital-assets"
+      },
+      {
+        "id": "naver",
+        "label": "네이버",
+        "ticker": "035420",
+        "sector": "internet-platform"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "네이버페이, 롯데카드 제치고 결제시장 빅5 진입",
     "url": "https://www.hankyung.com/article/2026092190421",
     "category": "general",
@@ -8632,6 +8661,29 @@
         "label": "파마리서치",
         "ticker": "214450",
         "sector": "pharmaceuticals-aesthetics"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
+    "title": "포스코-GS, AI 데이터센터 맞손…철강·건설 역량 결집",
+    "url": "https://naver.me/xZKMYwZx",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-11-11",
+    "sourceNote": "2026-11-12-gs-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "포스코와 GS그룹이 협력하여 AI 데이터센터 사업에 진출한다. 포스코는 설계 단계부터 참여해 맞춤형 철강 소재를 공급하며, 양사는 국내 실적을 바탕으로 북미 및 아시아 등 해외 시장으로 협력을 확대할 계획이다.",
+    "companies": [
+      {
+        "id": "goldman-sachs",
+        "label": "Goldman Sachs",
+        "ticker": "GS",
+        "sector": "global investment banking"
       }
     ],
     "captureRepair": {}
