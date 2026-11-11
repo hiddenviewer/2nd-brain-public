@@ -4135,6 +4135,29 @@
     "captureRepair": {}
   },
   {
+    "title": "네이버, 멤버십 리브랜딩과 오프라인 혜택 확대 추진",
+    "url": "https://share.google/c2K4YWk8enO55dWaS",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-11-11",
+    "sourceNote": "2026-11-11-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "전자신문에 따르면 네이버는 연내 '네이버플러스 멤버십'을 '네이버 멤버십'으로 바꾸고, 공연·스포츠 등 오프라인 혜택과 '슈퍼 시리즈' 중심의 커머스 혜택 개편을 추진한다.",
+    "companies": [
+      {
+        "id": "naver",
+        "label": "네이버",
+        "ticker": "035420",
+        "sector": "internet-platform"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "네이버, 비용 혜택으로 N배송 판매자의 FBN 전환 확대",
     "url": "https://www.etnews.com/20261008000146",
     "category": "general",
@@ -7255,22 +7278,6 @@
         "sector": "internet-platform"
       }
     ]
-  },
-  {
-    "title": "솔루스도 가동 중단…헝가리 배터리 공장 안갯속",
-    "url": "https://naver.me/FRobwC5e",
-    "category": "investing",
-    "categoryLabel": "한국 주식",
-    "status": "pending",
-    "updated": "2026-11-11",
-    "sourceNote": "2026-11-11-untitled",
-    "tags": [
-      "inbox",
-      "article"
-    ],
-    "description": "동박 제조사 솔루스첨단소재의 헝가리 공장 가동 중단 사례를 비롯해, 국내 주요 배터리 및 소재 기업들이 진출한 헝가리 현지의 규제 리스크가 부각되면서 향후 업계 파장에 이목이 쏠리고 있다.",
-    "companies": [],
-    "captureRepair": {}
   },
   {
     "title": "스마트워치 OLED 확대에 LG디스플레이 수혜 기대",
