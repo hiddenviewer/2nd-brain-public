@@ -11279,6 +11279,29 @@
     "captureRepair": {}
   },
   {
+    "title": "SK이노베이션·SKIET 합병, 금감원 두 번째 정정 요구로 일정 지연",
+    "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443909",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-11-12",
+    "sourceNote": "2026-11-13-sk-skiet",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "금융감독원의 두 번째 증권신고서 정정 요구로 SK이노베이션과 SKIET의 합병 일정이 지연됐다. SK이노베이션은 재무 부담과 주주가치 희석 우려 속에서도 합병과 SK E&S RCPS 상환 등 리밸런싱을 추진한다.",
+    "companies": [
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "SK텔레콤, 2032년 데이터센터 이익 1조 전망-하나",
     "url": "https://www.hankyung.com/article/2026090925826",
     "category": "investing",
