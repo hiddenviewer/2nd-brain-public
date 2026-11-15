@@ -2889,6 +2889,22 @@
     "captureRepair": {}
   },
   {
+    "title": "JP모건, 미국 휴머노이드 생산 확대 전망…로보티즈 부품 공급사로 주목",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=217376",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-11-15",
+    "sourceNote": "2026-11-15-jp",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "JP모건은 미국 휴머노이드 생산량이 2030년 30만~40만대에 이를 것으로 전망하며, 초기 수혜가 로보티즈 등 핵심 부품업체에 집중될 것으로 분석했다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "K-GX, 재생에너지 100GW 확대와 에너지 공급망 육성 추진",
     "url": "https://www.electimes.com/news/articleView.html?idxno=373158",
     "category": "ai",
@@ -3821,6 +3837,29 @@
     "captureRepair": {}
   },
   {
+    "title": "Foundation Models framework, 온디바이스·클라우드 LLM을 Swift API로 통합",
+    "url": "https://news.hada.io/topic?id=37098",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-11-15",
+    "sourceNote": "2026-11-15-foundation-models-framework-llm-swift-api",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Apple의 Foundation Models framework가 온디바이스·클라우드 모델을 공통 Swift API로 연결하고, 이미지 이해·도구 호출·세션 내 모델 전환을 지원한다.",
+    "companies": [
+      {
+        "id": "device",
+        "label": "디바이스",
+        "ticker": "187870",
+        "sector": "display-semiconductor-equipment"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "Homebrew v7 주요 변화 요약",
     "url": "https://news.hada.io/topic?id=33618",
     "category": "apple",
@@ -4742,6 +4781,22 @@
     "captureRepair": {}
   },
   {
+    "title": "재생에너지 PF의 핵심은 안정적 매출과 명확한 위험분담",
+    "url": "https://www.mk.co.kr/news/society/12208208",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-11-15",
+    "sourceNote": "2026-11-15-pf",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "재생에너지 계약시장 전환은 수익 예측 가능성을 높이지만, 실제 대출 여부와 조건은 사업 위험의 분담, 계약의 안정성, 담보권의 실효성에 달려 있다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "정부 용적률 완화·서울시 그린벨트 해제로 주택 공급 확대 모색",
     "url": "https://www.hankyung.com/article/2026100663691",
     "category": "general",
@@ -5516,6 +5571,35 @@
         }
       ]
     }
+  },
+  {
+    "title": "‘화장품 TSMC’로 부상한 한국 ODM 기업들",
+    "url": "https://www.chosun.com/economy/market_trend/2026/11/14/BE363JOXXJBM7J3677YZ5766EM/",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-11-15",
+    "sourceNote": "2026-11-15-tsmc-odm",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "코스맥스와 한국콜마가 빠른 개발 속도와 R&D 역량을 바탕으로 글로벌 뷰티 브랜드의 핵심 제조 파트너로 성장하고 있다는 내용이다.",
+    "companies": [
+      {
+        "id": "cosmax",
+        "label": "코스맥스",
+        "ticker": "192820",
+        "sector": "cosmetics-odm"
+      },
+      {
+        "id": "kolmar-korea",
+        "label": "한국콜마",
+        "ticker": "161890",
+        "sector": "cosmetics-odm"
+      }
+    ],
+    "captureRepair": {}
   },
   {
     "title": "1400조 메가프로젝트 수주전과 건설사 경쟁 본격화 전망",
@@ -6987,6 +7071,29 @@
     ]
   },
   {
+    "title": "삼성전자, 미국 냉각업체 Modine 인수 추진",
+    "url": "https://www.hankyung.com/article/2026111358131",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-11-15",
+    "sourceNote": "2026-11-15-modine",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "한국경제는 삼성전자가 AI 데이터센터 공조 사업 확대를 위해 Modine 인수를 협상 중이라고 보도했다. 계약 체결은 확정되지 않았다.",
+    "companies": [
+      {
+        "id": "samsung-electronics",
+        "label": "삼성전자",
+        "ticker": "005930",
+        "sector": "semiconductors"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "삼성중공업, 부유식 데이터센터 시장 공략 협력",
     "url": "https://biz.chosun.com/industry/company/2026/06/03/WR2ZC4SY6JHGPL6YDQ35KZIQHE/",
     "category": "investing",
@@ -7332,6 +7439,41 @@
         "sector": "batteries"
       }
     ]
+  },
+  {
+    "title": "삼성SDI·LG에너지솔루션, 미국산 배터리로 AI 데이터센터 전력 시장 공략",
+    "url": "https://www.khan.co.kr/article/202611151123001",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-11-15",
+    "sourceNote": "2026-11-15-sdi-lg-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "삼성SDI와 LG에너지솔루션이 RE+ 2026에서 미국 현지 생산 ESS와 백업 전원 제품을 선보이며 북미 AI 데이터센터 시장을 공략한다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-energy-solution",
+        "label": "LG에너지솔루션",
+        "ticker": "373220",
+        "sector": "batteries"
+      },
+      {
+        "id": "samsung-sdi",
+        "label": "삼성SDI",
+        "ticker": "006400",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
   },
   {
     "title": "삼성SDS·네이버클라우드·엘리스그룹, 2조원 정부 GPU 사업 우선협상대상자 선정",
