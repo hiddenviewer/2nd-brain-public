@@ -607,6 +607,22 @@
     "captureRepair": {}
   },
   {
+    "title": "에이전트 워크플로우를 위한 Gemini 4 Hydrogen 소개",
+    "url": "https://blog.google/intl/ko-kr/company-news/technology/introducing-gemini-4-hydrogen-kr/",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-11-15",
+    "sourceNote": "2026-11-15-gemini-4-hydrogen",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "구글이 일상적인 코딩과 에이전틱 워크플로우의 신속한 실행에 최적화된 빠르고 비용 효율적인 모델인 Gemini 4 Hydrogen을 출시했습니다. 단독 활용은 물론 Google Antigravity의 Orchestrator를 통해 Gemini 4 Carbon 및 Argon과 결합한 멀티 모델 협업 환경에서도 고효율 실행 엔진 역할을 수행합니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "에이전트 코딩의 묵시록 4기사",
     "url": "https://news.hada.io/topic?id=34713",
     "category": "ai",
