@@ -5308,6 +5308,35 @@
     ]
   },
   {
+    "title": "LG에너지솔루션 ‘AA’ 신용등급에 대한 의구심 확대",
+    "url": "https://www.edaily.co.kr/News/Read?newsId=01767926645647032&mediaCodeNo=257",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-11-18",
+    "sourceNote": "2026-11-18-lg-aa",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "이데일리는 LG에너지솔루션의 ‘AA’ 신용등급에 대한 의구심이 커졌으며, 워스트로 지목한 응답자 10명 중 8명이 등급 하향 의견을 냈다고 보도했다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-energy-solution",
+        "label": "LG에너지솔루션",
+        "ticker": "373220",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "LG전자, 로봇 액추에이터로 빅테크 수주 추진",
     "url": "https://v.daum.net/v/20260906100608256",
     "category": "general",
