@@ -7256,6 +7256,41 @@
     "captureRepair": {}
   },
   {
+    "title": "삼성전기·LG이노텍 기판 이익 격차, AI·서버용 제품 비중이 갈랐다",
+    "url": "https://biz.chosun.com/it-science/ict/2026/11/20/Z7PMSZWUMBH27CVOFSE7UUZFFA/",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-11-20",
+    "sourceNote": "2026-11-21-lg-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "두 회사 모두 기판 생산라인 가동률이 90%를 넘었지만, AI·서버용 고부가 기판 비중이 높은 삼성전기의 누적 기판 영업이익이 LG이노텍의 약 2.7배를 기록했다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-innotek",
+        "label": "LG이노텍",
+        "ticker": "011070",
+        "sector": "electronic-components"
+      },
+      {
+        "id": "samsung-electro-mechanics",
+        "label": "삼성전기",
+        "ticker": "009150",
+        "sector": "electronic-components"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "삼성전자 목표주가 전망 엇갈려…유안타증권 63만원 제시",
     "url": "https://www.edaily.co.kr/News/Read?newsId=02023766645583728&mediaCodeNo=257",
     "category": "investing",
