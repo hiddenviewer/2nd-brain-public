@@ -3134,6 +3134,22 @@
     "companies": []
   },
   {
+    "title": "LLM을 활용한 리버스 엔지니어링 (GeekNews)",
+    "url": "https://news.hada.io/topic?id=37466",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-11-20",
+    "sourceNote": "2026-11-21-llm-geeknews",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "20년간 수작업으로 수행해 온 하드웨어·소프트웨어 리버스 엔지니어링에 AI 에이전트와 전용 스킬을 도입하고, 사람이 분석 방향을 조율해 작업 시간을 크게 단축한 워크플로를 소개한 GeekNews 요약 글입니다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "LLM이 소프트웨어 엔지니어의 전문성을 잠식한다는 GeekNews 토론",
     "url": "https://news.hada.io/topic?id=30267",
     "category": "ai",
@@ -11016,6 +11032,35 @@
       "article"
     ],
     "description": "LG에너지솔루션과 GM의 합작사 얼티엄셀즈가 테네시 공장에 각형 LMR 배터리 생산체계를 구축한다. LFP와 유사한 비용으로 약 33% 높은 에너지밀도를 구현하는 것이 목표다.",
+    "companies": [
+      {
+        "id": "lg-corp",
+        "label": "LG",
+        "ticker": "003550",
+        "sector": "holding-company"
+      },
+      {
+        "id": "lg-energy-solution",
+        "label": "LG에너지솔루션",
+        "ticker": "373220",
+        "sector": "batteries"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
+    "title": "LG엔솔 미국 임원 ESS 수요에 자신감, \"AI 데이터센터 반대는 일부 지역 불과\"",
+    "url": "https://www.businesspost.co.kr/BP?command=article_view&num=452369",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-11-20",
+    "sourceNote": "2026-11-21-lg-ess-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "LG에너지솔루션의 미국 ESS 법인인 LG에너지솔루션버테크의 Tristan Doherty CPO가 RE+ 2026 현지 인터뷰에서 미국 내 AI 데이터센터 반대 움직임은 일부 지역에 국한된 현상일 뿐이라며 북미 ESS 수요 확보에 자신감을 드러낸 비즈니스포스트 보도다.",
     "companies": [
       {
         "id": "lg-corp",
