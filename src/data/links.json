@@ -5951,6 +5951,29 @@
     "captureRepair": {}
   },
   {
+    "title": "기아, EU 규제 대응해 유럽 판매 전기차 현지생산 대폭 확대 추진",
+    "url": "https://www.businesspost.co.kr/BP?command=article_view&num=452419",
+    "category": "investing",
+    "categoryLabel": "한국 주식",
+    "status": "pending",
+    "updated": "2026-11-20",
+    "sourceNote": "2026-11-20-eu",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "기아가 유럽연합(EU)의 산업가속화법(IAA) 등 역내 생산·조달 규제 강화에 대응하기 위해 슬로바키아 공장을 중심으로 유럽 판매용 전기차(EV)의 현지 생산을 대폭 확대하는 전략을 추진하고 있다.",
+    "companies": [
+      {
+        "id": "kia",
+        "label": "기아",
+        "ticker": "000270",
+        "sector": "automotive"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "네이버-브룩필드, 1GW급 AI 팩토리 후속 논의",
     "url": "https://n.news.naver.com/mnews/article/293/0000090050",
     "category": "investing",
