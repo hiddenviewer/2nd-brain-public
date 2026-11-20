@@ -1,5 +1,21 @@
 [
   {
+    "title": "‘AI스러운’ 웹디자인을 줄이는 Muzli MCP",
+    "url": "https://theladylearner.com/5065/",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-11-20",
+    "sourceNote": "2026-11-21-ai-muzli-mcp",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "Muzli MCP는 AI가 디자인 제작 전에 실제 웹사이트 레퍼런스를 검색·분석하도록 연결해, 획일적인 디자인 패턴을 줄이는 도구다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "01-3. System 1과 System 2 요약",
     "url": "https://wikidocs.net/432834",
     "category": "ai",
@@ -371,6 +387,29 @@
         "label": "에이피알",
         "ticker": "278470",
         "sector": "cosmetics-beauty-devices"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
+    "title": "모델보다 팀 문서가 중요했다: Third Brain 구축 경험",
+    "url": "https://d2.naver.com/helloworld/2622882",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-11-20",
+    "sourceNote": "2026-11-21-third-brain",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "팀 위키를 AI가 읽고 쓰는 공유 지식층으로 운영하며, AI 답변 품질의 문제를 팀 문서의 부재에서 찾은 경험을 소개한다.",
+    "companies": [
+      {
+        "id": "naver",
+        "label": "네이버",
+        "ticker": "035420",
+        "sector": "internet-platform"
       }
     ],
     "captureRepair": {}
@@ -4874,6 +4913,35 @@
     ],
     "description": "정부와 서울시가 용적률 완화와 그린벨트 해제를 통해 주택 공급 확대를 모색한다는 기사다. 본문이 없어 세부 내용은 확인되지 않았다.",
     "companies": [],
+    "captureRepair": {}
+  },
+  {
+    "title": "정부, 국산 전기차 250만원 세제 지원안 예고",
+    "url": "https://www.hankyung.com/article/2026112007481",
+    "category": "general",
+    "categoryLabel": "기타",
+    "status": "pending",
+    "updated": "2026-11-20",
+    "sourceNote": "2026-11-21-250",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "한국경제는 정부가 국산 전기차에 250만원 규모의 세제 혜택을 주는 방안을 이달 말 발표할 예정이라고 보도했다. 제공된 본문이 불충분해 세부 조건은 확인되지 않는다.",
+    "companies": [
+      {
+        "id": "hyundai-motor",
+        "label": "현대차",
+        "ticker": "005380",
+        "sector": "automotive"
+      },
+      {
+        "id": "kia",
+        "label": "기아",
+        "ticker": "000270",
+        "sector": "automotive"
+      }
+    ],
     "captureRepair": {}
   },
   {
