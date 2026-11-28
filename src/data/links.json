@@ -621,6 +621,29 @@
     "captureRepair": {}
   },
   {
+    "title": "앤트로픽, MCP로 업무 지침을 전달하는 Skills 기능 공개",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=217847",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-11-28",
+    "sourceNote": "2026-11-29-mcp-skills",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "앤트로픽이 MCP를 통해 업무 절차와 조직별 지침을 제공하는 Skills 기능을 공개 베타로 출시했다고 AI타임스가 보도했다. 장시간 작업 위임과 사용자 정보·승인 요청 기능도 함께 확장했다.",
+    "companies": [
+      {
+        "id": "sk-inc",
+        "label": "SK",
+        "ticker": "034730",
+        "sector": "holding-company"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
     "title": "에르메스 에이전트(Hermes Agent)로 AI 업무 자동화와 나만의 AI 팀 운영을 다루는 실전 가이드",
     "url": "https://wikidocs.net/book/19686",
     "category": "ai",
@@ -1462,6 +1485,22 @@
     ],
     "description": "Hacker News Korea 링크를 통해 수집한 기사 요약 메모다. AI 코딩 도구가 구현 마찰을 줄이는 대신, 개발자의 판단력과 절차 기억 형성에 필요한 학습 마찰까지 제거할 수 있다는 문제의식을 정리한다.",
     "companies": []
+  },
+  {
+    "title": "AI 코딩 에이전트가 되살린 셀프 호스팅의 재미",
+    "url": "https://news.hada.io/topic?id=37928",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-11-28",
+    "sourceNote": "2026-11-29-ai",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "AI 코딩 에이전트가 설정 변경과 실험의 부담을 줄여, 개인 셀프 호스팅에서 새로운 기술과 서비스를 시도하는 재미를 되살렸다는 글이다.",
+    "companies": [],
+    "captureRepair": {}
   },
   {
     "title": "AI Universal Translator: 로컬 LLM과 Gemini를 지원하는 데스크톱 번역·요약 앱",
@@ -11949,6 +11988,35 @@
       "article"
     ],
     "description": "대한항공과 아시아나항공 통합 법인이 12월 17일 출범하며, 중복 시간대 조정·노선 증편·신규 취항을 추진한다.",
+    "companies": [
+      {
+        "id": "asiana-airlines",
+        "label": "아시아나항공",
+        "ticker": "020560",
+        "sector": "airline"
+      },
+      {
+        "id": "korean-air",
+        "label": "대한항공",
+        "ticker": "003490",
+        "sector": "airline"
+      }
+    ],
+    "captureRepair": {}
+  },
+  {
+    "title": "대한항공·아시아나항공 통합 앞두고 여객·화물 연계 강화",
+    "url": "https://www.edaily.co.kr/News/Read?newsId=03260326645649984&mediaCodeNo=257",
+    "category": "travel",
+    "categoryLabel": "여행",
+    "status": "pending",
+    "updated": "2026-11-28",
+    "sourceNote": "2026-11-29-untitled",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "대한항공이 아시아나항공과의 통합을 앞두고 여객기 벨리카고와 화물기를 연계해 시너지를 높이려는 것으로 소개됐다.",
     "companies": [
       {
         "id": "asiana-airlines",
