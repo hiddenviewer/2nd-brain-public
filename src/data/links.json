@@ -1240,6 +1240,22 @@
     "captureRepair": {}
   },
   {
+    "title": "하이퍼하네스(HyperHarness): 사용자 히스토리로 개인화 에이전트 하네스를 생성하는 법을 학습하다",
+    "url": "https://wikidocs.net/blog/@jaehong/38708/",
+    "category": "ai",
+    "categoryLabel": "AI 에이전트",
+    "status": "pending",
+    "updated": "2026-11-28",
+    "sourceNote": "2026-11-29-hyperharness",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "노터데임대·UC 샌타바버라·마이크로소프트 연구진이 제안한 HyperHarness는 사용자마다 하네스를 개별 탐색하는 대신 공유 생성기를 학습해, 새 사용자의 히스토리만으로 전용 검색·답변 가이드 코드를 한 번에 생성하는 프레임워크다. 3개 벤치마크와 3개 모델 조합(9개 설정) 중 7개에서 1위를 기록했으며, 조건을 맞춘 MemoryCD 비교에서 답변 시점 토큰을 90.32% 줄이면서 동등한 성능을 냈다.",
+    "companies": [],
+    "captureRepair": {}
+  },
+  {
     "title": "현대차, NVIDIA 협력과 Atria AI로 자율주행 격차 축소 추진",
     "url": "https://v.daum.net/v/GKMM5AUZlk",
     "category": "ai",
@@ -3646,6 +3662,22 @@
     ],
     "description": "GeekNews 링크 큐레이션 성격의 2차 메모다. Zed가 1.0에 도달하며, GPU 중심 편집기 아키텍처 위에 다중 에이전트 병렬 작업, edit predictions, Agent Client Protocol 연동을 묶은 AI-native editor 전략을 전면에 내세웠다는 점을 요약한다.",
     "companies": []
+  },
+  {
+    "title": "1980년대부터 현재까지 UI 디자인 가이드 69종 아카이브",
+    "url": "https://news.hada.io/topic?id=37889",
+    "category": "apple",
+    "categoryLabel": "Apple",
+    "status": "pending",
+    "updated": "2026-11-28",
+    "sourceNote": "2026-11-29-1980-ui-69",
+    "tags": [
+      "inbox",
+      "article"
+    ],
+    "description": "여러 시대와 플랫폼의 UI 스타일 가이드 69종을 모아 인터페이스 설계 원칙을 비교할 수 있는 아카이브를 소개한다.",
+    "companies": [],
+    "captureRepair": {}
   },
   {
     "title": "대규모 Mac 인프라 운영: MacBook 랙과 macOS VM 배포",
